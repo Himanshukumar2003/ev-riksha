@@ -9,15 +9,30 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^7.1.1",
+    "@mui/styled-engine-sc": "^7.1.1",
+    "@radix-ui/react-slider": "^1.3.5",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.18.1",
+    "lucide-react": "^0.517.0",
+    "next": "15.3.4",
     "react": "^19.0.0",
+    "react-360-view": "^0.1.3",
     "react-dom": "^19.0.0",
-    "next": "15.3.4"
+    "react-icons": "^5.5.0",
+    "styled-components": "^6.1.19",
+    "swiper": "^11.2.8",
+    "tailwind-merge": "^3.3.1"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.3.4",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4",
+    "tw-animate-css": "^1.3.4"
   }
 }
