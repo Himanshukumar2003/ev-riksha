@@ -143,62 +143,56 @@ const StepsSection = () => {
               >
                 {/* Image Block */}
                 <div
-                  className={`h-full bg-cover min-h-[400px] bg-center rounded-xl bg-fixed shadow-md order-${
-                    isEven ? "1" : "2"
-                  } md:order-${isEven ? "1" : "2"}`}
+                  className={`h-full bg-cover min-h-[400px] bg-center rounded-xl bg-fixed shadow-md 
+      ${isEven ? "md:order-1" : "md:order-2"} order-1`}
                   style={{ backgroundImage: `url(${step.image})` }}
                 ></div>
 
                 {/* Content Block */}
                 <div
-                  className={`order-${isEven ? "2" : "1"} md:order-${
-                    isEven ? "2" : "1"
-                  }`}
+                  className={`relative flex flex-col justify-center h-full 
+      ${
+        isEven
+          ? "md:order-2 items-start text-left"
+          : "md:order-1 items-end text-right"
+      } order-2`}
                 >
-                  <div
-                    className={`relative flex flex-col justify-center h-full 
-                    ${
-                      isEven ? "text-left items-start" : "text-right items-end"
+                  <Image
+                    src={step.icon}
+                    alt="icon"
+                    width={60}
+                    height={60}
+                    className="mb-4"
+                  />
+                  <h2 className="text-4xl font-light mb-4">{step.title}</h2>
+                  <p className="mb-4 max-w-xl">{step.text}</p>
+
+                  <h1
+                    className={`absolute text-[130px] lg:text-[250px] font-bold text-gray-100 z-[-1] -top-[100px] ${
+                      isEven ? "right-8" : "left-8"
                     }`}
                   >
-                    <Image
-                      src={step.icon}
-                      alt="icon"
-                      width={60}
-                      height={60}
-                      className="mb-4 "
-                    />
-                    <h2 className="text-4xl   font-light mb-4">{step.title}</h2>
-                    <p className="mb-4 max-w-xl">{step.text}</p>
+                    {step.number}
+                  </h1>
 
-                    <h1
-                      className={`absolute text-[130px] lg:text-[250px] font-bold text-gray-100 z-[-1] -top-[100px] ${
-                        isEven ? "right-8" : "left-8"
-                      }`}
-                    >
-                      {step.number}
-                    </h1>
-
-                    {/* Features */}
-
-                    <div className="space-y-4 mt-4 ">
-                      <h2 className="text-2xl">Feachers</h2>
-                      {step.features.map((feature, fIndex) => (
-                        <ul key={fIndex} className="space-y-2">
-                          {feature.list.map((item, i) => (
-                            <li
-                              key={i}
-                              className="text-sm leading-relaxed italic"
-                            >
-                              <strong className="text-emerald-600">
-                                {item.strong}
-                              </strong>
-                              {`: ${item.description}`}
-                            </li>
-                          ))}
-                        </ul>
-                      ))}
-                    </div>
+                  {/* Features */}
+                  <div className="space-y-4 mt-4">
+                    <h2 className="text-2xl">Features</h2>
+                    {step.features.map((feature, fIndex) => (
+                      <ul key={fIndex} className="space-y-2">
+                        {feature.list.map((item, i) => (
+                          <li
+                            key={i}
+                            className="text-sm leading-relaxed italic"
+                          >
+                            <strong className="text-emerald-600">
+                              {item.strong}
+                            </strong>
+                            {`: ${item.description}`}
+                          </li>
+                        ))}
+                      </ul>
+                    ))}
                   </div>
                 </div>
               </div>

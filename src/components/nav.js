@@ -144,11 +144,10 @@ export default function MahindraNavbar() {
             </div>
           </div>
 
-          {/* Desktop Navigation */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              {/* Vehicles Dropdown */}
-              <div className="relative">
+              {}
+              {/* <div className="relative">
                 <button
                   className="flex items-center text-gray-700 hover:text-red-600 px-3 py-2 text-sm font-medium transition-colors"
                   onMouseEnter={() => setIsVehiclesOpen(true)}
@@ -170,7 +169,7 @@ export default function MahindraNavbar() {
                       onMouseLeave={() => setIsVehiclesOpen(false)}
                     >
                       <div className="flex">
-                        {/* Left Side - Categories */}
+                        {}
                         <div className="w-1/3 bg-gray-50 rounded-l-lg">
                           {Object.keys(vehicleCategories).map((category) => (
                             <button
@@ -188,7 +187,7 @@ export default function MahindraNavbar() {
                           ))}
                         </div>
 
-                        {/* Right Side - Products with Fuel Types */}
+                        {}
                         <div className="w-2/3 p-6">
                           <AnimatePresence mode="wait">
                             <motion.div
@@ -210,7 +209,7 @@ export default function MahindraNavbar() {
                                 {selectedCategory}
                               </h3>
 
-                              {/* Fuel Types as Expandable Sections */}
+                              {}
                               <div className="space-y-3">
                                 {Object.entries(
                                   vehicleCategories[selectedCategory].fuelTypes
@@ -230,8 +229,8 @@ export default function MahindraNavbar() {
                                           toggleFuelType(categoryFuelKey)
                                         }
                                         onMouseEnter={() => {
-                                          // Optional: Auto-expand on hover
-                                          // setExpandedFuelType(categoryFuelKey)
+                                          
+                                          
                                         }}
                                       >
                                         <span className="font-medium text-gray-800 group-hover:text-red-600 transition-colors">
@@ -305,7 +304,14 @@ export default function MahindraNavbar() {
                     </motion.div>
                   )}
                 </AnimatePresence>
-              </div>
+              </div> */}
+
+              <a
+                href="#"
+                className="text-gray-700 hover:text-red-600 px-3 py-2 text-sm font-medium transition-colors"
+              >
+                About
+              </a>
 
               <a
                 href="#"
