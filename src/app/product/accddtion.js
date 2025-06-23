@@ -74,9 +74,27 @@ export default function BasicFAQ() {
 
   return (
     <div className="max-w-7xl mx-auto p-6">
-      <h2 className="text-3xl font-bold text-center mb-8">
-        Frequently Asked Questions
-      </h2>
+      <div className="grid grid-cols-2 mb-10">
+        <div className="mb-5">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            НАШ КОНТИНГЕНТ
+          </h2>
+          <p>
+            Логистическая компания «CARGO EXPERT» <br></br>работает с 2015 года.
+          </p>
+        </div>
+
+        <div className="">
+          <p className="text-gray-500 max-w-3xl leading-relaxed">
+            Логистическая компания «CARGO EXPERT» работает с 2015 года. Мы
+            оказываем услуги по доставке грузов по всей России и в страны СНГ.
+            За время работы мы зарекомендовали себя как надежный партнер,
+            который всегда выполняет свои обязательства в срок. Наша команда
+            состоит из опытных специалистов, которые знают все тонкости
+            логистического бизнеса и готовы решить любые задачи наших клиентов.
+          </p>
+        </div>
+      </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* Left Column - First 6 FAQs */}
@@ -103,7 +121,7 @@ export default function BasicFAQ() {
                 <AccordionTrigger className="text-left font-medium text-xl ">
                   {item.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-gray-700 text-lg">
+                <AccordionContent className="text-gray-700 text-lg ">
                   {item.answer}
                 </AccordionContent>
               </AccordionItem>

@@ -36,10 +36,7 @@ export default function Gallery() {
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
                 НАШ КОНТИНГЕНТ
               </h2>
-              <p>
-                Логистическая компания «CARGO EXPERT» работает с 2015 года. Мы
-                оказываем услуги по
-              </p>
+              <p>Логистическая компания «CARGO EXPERT» работает с 2015 года.</p>
             </div>
 
             <div className="">

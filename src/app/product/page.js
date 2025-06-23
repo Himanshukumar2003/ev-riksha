@@ -149,7 +149,7 @@ const Bajaj360Viewer = () => {
 
   return (
     <>
-      <div className="section">
+      <div className="section bg-gray-100">
         <div className="min-h-screen ">
           <div className="max-w-7xl mx-auto px-4">
             <div className="grid lg:grid-cols-2 gap-12 items-center">

@@ -110,9 +110,26 @@ const StepsSection = () => {
   return (
     <section className="section py-16">
       <div className="mx-auto max-w-7xl px-4">
-        <h1 className="text-center text-3xl font-semibold mb-12">
-          8 Steps to Your <b>Dream Space</b>
-        </h1>
+        <div className="grid grid-cols-2 mb-10">
+          <div className="mb-5">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              НАШ КОНТИНГЕНТ
+            </h2>
+            <p>Логистическая компания «CARGO EXPERT» работает с 2015 года.</p>
+          </div>
+
+          <div className="">
+            <p className="text-gray-500 max-w-3xl leading-relaxed">
+              Логистическая компания «CARGO EXPERT» работает с 2015 года. Мы
+              оказываем услуги по доставке грузов по всей России и в страны СНГ.
+              За время работы мы зарекомендовали себя как надежный партнер,
+              который всегда выполняет свои обязательства в срок. Наша команда
+              состоит из опытных специалистов, которые знают все тонкости
+              логистического бизнеса и готовы решить любые задачи наших
+              клиентов.
+            </p>
+          </div>
+        </div>
 
         <div className="flex flex-col gap-16">
           {steps.map((step, index) => {
