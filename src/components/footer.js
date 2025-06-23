@@ -1,226 +1,299 @@
-import { Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
+import {
+  Facebook,
+  Twitter,
+  Linkedin,
+  Instagram,
+  MapPin,
+  Phone,
+  Mail,
+} from "lucide-react";
 import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-white">
-      <div className="border-b border-gray-800">
-        <div className="container mx-auto px-4 py-12">
-          <div className="flex flex-col lg:flex-row  gap-8">
-            <div>
-              <h2 className="text-2xl font-bold mb-4">
-                Subscribe to our newsletters
-              </h2>
-              <p className="text-gray-300 text-sm leading-relaxed">
-                Stay up to date with the latest news, announcements, and
-                articles.
-              </p>
-            </div>
-            <div className="lg:max-w-md w-full">
-              <div className="flex gap-2 mb-3">
-                <input
-                  type="email"
-                  placeholder="Enter your email"
-                  className="bg-white text-black border-0 flex-1"
-                />
-                <button className="bg-orange-600 hover:bg-orange-700 text-white px-6">
-                  Submit
-                </button>
+    <footer className="bg-black text-gray-300 px-6 py-12">
+      <div className="max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-8">
+          {/* Brand Section */}
+          <div className="lg:col-span-1">
+            <div className="flex items-center gap-2 mb-4">
+              <div className="w-8 h-8 bg-yellow-500 rounded-lg flex items-center justify-center">
+                <svg
+                  className="w-5 h-5 text-slate-800"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M7 4V2C7 1.45 7.45 1 8 1H16C16.55 1 17 1.45 17 2V4H20C20.55 4 21 4.45 21 5S20.55 6 20 6H19V19C19 20.1 18.1 21 17 21H7C5.9 21 5 20.1 5 19V6H4C3.45 6 3 5.55 3 5S3.45 4 4 4H7ZM9 3V4H15V3H9ZM7 6V19H17V6H7Z" />
+                </svg>
               </div>
-              <p className="text-xs text-gray-400">
-                By submitting this form, I agree to receive logistics news and
-                marketing updates from Barsan Global Logistics and its
-                affiliates via email and phone. I understand I can unsubscribe
-                at any time by clicking the unsubscribe link in any email or by
-                contacting Barsan Global Logistics directly. View our{" "}
-                <Link href="#" className="text-orange-600 hover:underline">
-                  Privacy Policy
-                </Link>
-              </p>
+              <span className="text-2xl font-bold text-white">Mantu</span>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="px-6 py-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div>
-            <div className="mb-6">
-              <h3 className="text-2xl font-bold tracking-wider">BARSAN</h3>
-            </div>
-            <p className="text-gray-300 text-sm leading-relaxed">
-              Connecting the world of commerce to make trade happen. We are a
-              global logistics company.
+            <p className="text-sm text-gray-400 mb-6 leading-relaxed">
+              The Mantu is the biggest market of grocery products. Get your
+              daily needs from our store.
             </p>
+            <div className="flex flex-col sm:flex-row gap-3">
+              <Link
+                href="#"
+                className="flex items-center gap-2 bg-slate-700 hover:bg-slate-600 px-4 py-2 rounded-lg transition-colors"
+              >
+                <svg
+                  className="w-5 h-5"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path d="M18.71,19.5C17.88,20.74 17,21.95 15.66,21.97C14.32,22 13.89,21.18 12.37,21.18C10.84,21.18 10.37,21.95 9.1,22C7.79,22.05 6.8,20.68 5.96,19.47C4.25,17 2.94,12.45 4.7,9.39C5.57,7.87 7.13,6.91 8.82,6.88C10.1,6.86 11.32,7.75 12.11,7.75C12.89,7.75 14.37,6.68 15.92,6.84C16.57,6.87 18.39,7.1 19.56,8.82C19.47,8.88 17.39,10.1 17.41,12.63C17.44,15.65 20.06,16.66 20.09,16.67C20.06,16.74 19.67,18.11 18.71,19.5M13,3.5C13.73,2.67 14.94,2.04 15.94,2C16.07,3.17 15.6,4.35 14.9,5.19C14.21,6.04 13.07,6.7 11.95,6.61C11.8,5.46 12.36,4.26 13,3.5Z" />
+                </svg>
+                <div className="text-left">
+                  <div className="text-xs text-gray-400">DOWNLOAD ON</div>
+                  <div className="text-sm font-semibold">App Store</div>
+                </div>
+              </Link>
+            </div>
           </div>
 
+          {/* Category Section */}
           <div>
-            <h4 className="text-lg font-semibold mb-6">Resources</h4>
+            <h3 className="text-lg font-semibold text-white mb-4">Category</h3>
             <ul className="space-y-3">
               <li>
                 <Link
                   href="#"
-                  className="text-gray-300 hover:text-orange-600 text-sm transition-colors"
+                  className="text-gray-400 hover:text-white transition-colors"
                 >
-                  Policy Center
+                  Fashion
                 </Link>
               </li>
               <li>
                 <Link
                   href="#"
-                  className="text-gray-300 hover:text-orange-600 text-sm transition-colors"
+                  className="text-gray-400 hover:text-white transition-colors"
                 >
-                  Legal Information Center
+                  Cosmetics
                 </Link>
               </li>
               <li>
                 <Link
                   href="#"
-                  className="text-gray-300 hover:text-orange-600 text-sm transition-colors"
+                  className="text-gray-400 hover:text-white transition-colors"
                 >
-                  Green Logistics
+                  Bags & Purse
                 </Link>
               </li>
               <li>
                 <Link
                   href="#"
-                  className="text-gray-300 hover:text-orange-600 text-sm transition-colors"
+                  className="text-gray-400 hover:text-white transition-colors"
                 >
-                  Contact Us
+                  Shoes
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="#"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Belts
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="#"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Perfumes
                 </Link>
               </li>
             </ul>
           </div>
 
-          <div className="pt-4">
-            <h4 className="text-lg font-semibold mb-6">
-              Products and Services
-            </h4>
+          {/* Company Section */}
+          <div>
+            <h3 className="text-lg font-semibold text-white mb-4">Company</h3>
             <ul className="space-y-3">
               <li>
                 <Link
                   href="#"
-                  className="text-gray-300 hover:text-orange-600 text-sm transition-colors"
+                  className="text-gray-400 hover:text-white transition-colors"
                 >
-                  Air Freight
+                  About us
                 </Link>
               </li>
               <li>
                 <Link
                   href="#"
-                  className="text-gray-300 hover:text-orange-600 text-sm transition-colors"
+                  className="text-gray-400 hover:text-white transition-colors"
                 >
-                  Ocean Freight
+                  Delivery
                 </Link>
               </li>
               <li>
                 <Link
                   href="#"
-                  className="text-gray-300 hover:text-orange-600 text-sm transition-colors"
+                  className="text-gray-400 hover:text-white transition-colors"
                 >
-                  Road Freight
+                  Legal Notice
                 </Link>
               </li>
               <li>
                 <Link
                   href="#"
-                  className="text-gray-300 hover:text-orange-600 text-sm transition-colors"
+                  className="text-gray-400 hover:text-white transition-colors"
                 >
-                  Intermodal Transportation
+                  Terms of use
                 </Link>
               </li>
               <li>
                 <Link
                   href="#"
-                  className="text-gray-300 hover:text-orange-600 text-sm transition-colors"
+                  className="text-gray-400 hover:text-white transition-colors"
                 >
-                  Warehouse and Fulfillment
+                  Secure payment
                 </Link>
               </li>
               <li>
                 <Link
                   href="#"
-                  className="text-gray-300 hover:text-orange-600 text-sm transition-colors"
+                  className="text-gray-400 hover:text-white transition-colors"
                 >
-                  Customs Clearance Services
+                  Contact us
                 </Link>
               </li>
             </ul>
           </div>
 
+          {/* Account Section */}
           <div>
-            <h4 className="text-lg font-semibold mb-6">Headquarters</h4>
-            <div className="space-y-3 text-sm text-gray-300">
-              <div className="d-flex">
-                <p className="font-medium">
-                  Email:
-                  <Link
-                    href="mailto:info@barsan.com"
-                    className="text-orange-600 hover:underline"
-                  >
-                    info@barsan.com
-                  </Link>
+            <h3 className="text-lg font-semibold text-white mb-4">Account</h3>
+            <ul className="space-y-3">
+              <li>
+                <Link
+                  href="#"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Sign In
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="#"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  View Cart
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="#"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Return Policy
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="#"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Become a Vendor
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="#"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Affiliate Program
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="#"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Payments
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Contact Section */}
+          <div>
+            <h3 className="text-lg font-semibold text-white mb-4">Contact</h3>
+            <div className="space-y-4">
+              <div className="flex items-start gap-3">
+                <MapPin className="w-5 h-5 text-gray-400 mt-0.5 flex-shrink-0" />
+                <p className="text-sm text-gray-400">
+                  1234 Elm Street Springfield Avenue, Brooklyn den, IL 62704
+                  USA.
                 </p>
               </div>
-              <div>
-                <p className="font-medium">
-                  Call Centre:{" "}
-                  <span className="text-orange-600 hover:underline">
-                    +90 00 4 00
-                  </span>
-                </p>
+              <div className="flex items-center gap-3">
+                <Phone className="w-5 h-5 text-gray-400 flex-shrink-0" />
+                <p className="text-sm text-gray-400">+00 9876543210</p>
               </div>
-              <div>
-                <p className="font-medium">Phone: +90 (212) 000 00 00</p>
+              <div className="flex items-center gap-3">
+                <Mail className="w-5 h-5 text-gray-400 flex-shrink-0" />
+                <p className="text-sm text-gray-400">example@email.com</p>
               </div>
-              <div>
-                <p className="font-medium">Fax: +90 (212) 000 00 00</p>
-              </div>
-              <div>
-                <p className="font-medium">Address:</p>
-                <p>Merkez Mahallesi Nisbetiye Sokak</p>
-                <p>No:1-3/1 Şişli / İstanbul / Türkiye</p>
+              <div className="flex gap-3 mt-4">
+                <Link
+                  href="#"
+                  className="w-10 h-10 bg-slate-700 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-colors"
+                >
+                  <Facebook className="w-5 h-5" />
+                </Link>
+                <Link
+                  href="#"
+                  className="w-10 h-10 bg-slate-700 hover:bg-blue-400 rounded-lg flex items-center justify-center transition-colors"
+                >
+                  <Twitter className="w-5 h-5" />
+                </Link>
+                <Link
+                  href="#"
+                  className="w-10 h-10 bg-slate-700 hover:bg-blue-700 rounded-lg flex items-center justify-center transition-colors"
+                >
+                  <Linkedin className="w-5 h-5" />
+                </Link>
+                <Link
+                  href="#"
+                  className="w-10 h-10 bg-slate-700 hover:bg-pink-600 rounded-lg flex items-center justify-center transition-colors"
+                >
+                  <Instagram className="w-5 h-5" />
+                </Link>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div className="border-t border-gray-800">
-        <div className="container mx-auto px-4 py-6">
-          <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
-            <p className="text-sm text-gray-400">
-              ©2024 Barsan Global Logistics - All right reserved.
-            </p>
-            <div className="flex space-x-4">
-              <Link
-                href="#"
-                className="text-gray-400 hover:text-orange-600 transition-colors"
-              >
-                <Instagram className="h-5 w-5" />
-                <span className="sr-only">Instagram</span>
-              </Link>
-              <Link
-                href="#"
-                className="text-gray-400 hover:text-orange-600 transition-colors"
-              >
-                <Linkedin className="h-5 w-5" />
-                <span className="sr-only">LinkedIn</span>
-              </Link>
-              <Link
-                href="#"
-                className="text-gray-400 hover:text-orange-600 transition-colors"
-              >
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
-              </Link>
-              <Link
-                href="#"
-                className="text-gray-400 hover:text-orange-600 transition-colors"
-              >
-                <Youtube className="h-5 w-5" />
-                <span className="sr-only">YouTube</span>
-              </Link>
+        {/* Bottom Section */}
+        <div className="border-t border-slate-700 pt-6 flex flex-col lg:flex-row justify-between items-center gap-4">
+          <p className="text-sm text-gray-400">
+            Copyright © 2025{" "}
+            <span className="text-yellow-500 font-semibold">The Mantu</span> all
+            rights reserved.
+          </p>
+          <div className="flex items-center gap-2">
+            <div className="w-12 h-8 bg-white rounded flex items-center justify-center">
+              <span className="text-blue-600 font-bold text-xs">VISA</span>
+            </div>
+            <div className="w-12 h-8 bg-white rounded flex items-center justify-center">
+              <div className="flex gap-0.5">
+                <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+                <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
+              </div>
+            </div>
+            <div className="w-12 h-8 bg-white rounded flex items-center justify-center">
+              <span className="text-blue-600 font-bold text-xs">PayPal</span>
+            </div>
+            <div className="w-12 h-8 bg-white rounded flex items-center justify-center">
+              <span className="text-purple-600 font-bold text-xs">Skrill</span>
+            </div>
+            <div className="w-12 h-8 bg-white rounded flex items-center justify-center">
+              <span className="text-red-600 font-bold text-xs">MC</span>
+            </div>
+            <div className="w-12 h-8 bg-white rounded flex items-center justify-center">
+              <span className="text-blue-600 font-bold text-xs">VISA</span>
             </div>
           </div>
         </div>

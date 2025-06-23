@@ -2,6 +2,10 @@
 import { useState, useEffect } from "react";
 import React360Viewer from "react-360-view";
 import { Download, MessageCircle, MapPin, Palette } from "lucide-react";
+import StepsSection from "./feachers-cards";
+import Gallery from "@/components/gallary";
+import VehicleSpecsTable from "./table";
+import BasicFAQ from "./accddtion";
 
 const Bajaj360Viewer = () => {
   const [selectedColor, setSelectedColor] = useState("ocean-orange");
@@ -194,7 +198,7 @@ const Bajaj360Viewer = () => {
               </div>
 
               {/* Product Details */}
-              <div className="bg-white rounded-3xl shadow-2xl p-8 border border-white/20 backdrop-blur-sm  transition-all duration-300">
+              <div className="bg-white rounded-3xl shadow-md p-8 border border-white/20 backdrop-blur-sm  transition-all duration-300">
                 {/* Header */}
                 <div className="border-b border-gray-100 pb-6 mb-6">
                   <div className="flex items-center gap-3 mb-4">
@@ -335,8 +339,13 @@ const Bajaj360Viewer = () => {
         </div>
       </div>
       <div className="section">
-        <div className="contanier mx-auto max-w-5xl">
-          <div className="bg-white rounded-3xl shadow-2xl p-8 border border-gray-100">
+        <StepsSection></StepsSection>
+      </div>
+      <VehicleSpecsTable></VehicleSpecsTable>
+
+      <div className="section">
+        <div className="contanier mx-auto max-w-6xl">
+          <div className="bg-white rounded-3xl shadow-md p-8 border border-gray-100">
             <h2 className="text-2xl font-bold text-gray-800 mb-8">
               EMI Calculator
             </h2>
@@ -529,6 +538,9 @@ const Bajaj360Viewer = () => {
           </div>
         </div>
       </div>
+
+      <Gallery></Gallery>
+      <BasicFAQ></BasicFAQ>
     </>
   );
 };
