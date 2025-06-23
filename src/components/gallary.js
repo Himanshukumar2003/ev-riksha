@@ -29,7 +29,7 @@ export default function Gallery() {
 
   return (
     <>
-      <div className="section ">
+      <div className="section bg-gray-100">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="grid grid-cols-2 mb-10">
             <div className="mb-5">
