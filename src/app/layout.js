@@ -32,9 +32,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${SpeedBeast.variable} ${manrope.variable} antialiased`}
       >
-        <MahindraNavbar />
+        {/* <MahindraNavbar /> */}
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );
