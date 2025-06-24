@@ -68,7 +68,7 @@ export default function OurProduct() {
             </div>
             <div className="flex gap-4 justify-start mt-8">
               <button
-                className="swiper-button-prev-custom  btn-circle" // Added 'border' and 'p-2' for better styling
+                className="swiper-button-prev-custom btn-circle" // Added 'border' and 'p-2' for better styling
               >
                 <ChevronLeft className="w-5 h-5" />
               </button>
@@ -108,7 +108,6 @@ export default function OurProduct() {
                       slidesPerView: 2.3, // Example
                     },
                   }}
-                  className="!overflow-visible"
                 >
                   {services.map(
                     (

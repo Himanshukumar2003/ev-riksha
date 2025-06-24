@@ -1,7 +1,7 @@
 "use client";
 
-import { useState } from "react";
 import { ChevronLeft, ChevronRight, Star } from "lucide-react";
+import { useEffect } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -68,36 +68,30 @@ export default function ReviewsSection() {
   };
 
   return (
-    <section className=" bg-white container mx-auto section">
-      <div className="">
-        <div className="grid lg:grid-cols-3  items-center">
-          {/* Left side - Header */}
-          <div className="space-y-4 col-span-1">
+    <section className="bg-white section">
+      <div className="container mx-auto px-4 ">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
+          <div className="space-y-4">
             <div className="flex items-center gap-2 text-[var(--color-primary-light)] text-sm font-medium tracking-wide">
               <div className="w-8 h-px bg-[var(--color-primary-light)]"></div>
               CLIENT FEEDBACK
             </div>
-            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
               Hear from clients.
             </h2>
 
-            <div className="flex gap-4 justify-start mt-8">
-              <button
-                className="swiper-button-next-custom btn-circle" // Added 'border' and 'p-2' for better styling
-              >
+            <div className="flex gap-4 mt-6">
+              <button className="prev-btn btn-circle border p-2">
                 <ChevronLeft className="w-5 h-5" />
               </button>
-              <button
-                className="swiper-button-next-custom btn-circle" // Added 'border' and 'p-2' for better styling
-              >
+              <button className="next-btn btn-circle border p-2">
                 <ChevronRight className="w-5 h-5" />
               </button>
             </div>
           </div>
 
-          {/* Right side - Reviews */}
-          <div className="space-y-8 col-span-2">
-            {/* Review Cards with Swiper */}
+          {/* Review Swiper */}
+          <div className="lg:col-span-2">
             <Swiper
               modules={[Navigation]}
               spaceBetween={24}
@@ -107,6 +101,9 @@ export default function ReviewsSection() {
                 prevEl: ".prev-btn",
               }}
               breakpoints={{
+                640: {
+                  slidesPerView: 1,
+                },
                 768: {
                   slidesPerView: 2,
                 },
@@ -117,38 +114,33 @@ export default function ReviewsSection() {
             >
               {reviews.map((review) => (
                 <SwiperSlide key={review.id}>
-                  <Card className="  relative border-0  rounded-4xl bg-gray-100 shadow-sm cards">
-                    <CardContent className="p-6">
+                  <Card className="relative cards border-0 bg-gray-100 shadow-none rounded-3xl h-full">
+                    <CardContent className="p-6 h-full flex flex-col justify-between ">
                       <div className="space-y-4">
-                        {/* Stars */}
                         <div className="flex gap-1">
                           {renderStars(review.rating)}
                         </div>
-
-                        {/* Review Text */}
                         <p className="text-gray-600 leading-relaxed">
                           {review.text}
                         </p>
-
-                        {/* Customer Info */}
-                        <div className="flex items-center justify-between">
-                          <div>
-                            <h4 className="font-semibold text-[var(--color-primary-light)]">
-                              {review.name}
-                            </h4>
-                            <p className="text-sm text-gray-500">
-                              {review.location}
-                            </p>
-                          </div>
-                          <div className="h-[50px] w-[50px] overflow-hidden z-12 rounded-full flex justify-center items-center absolute bottom-0 right-0">
-                            <Image
-                              src={review.avatar || "/placeholder.svg"}
-                              alt={review.name}
-                              width={50}
-                              height={50}
-                              className="w-full h-full object-cover"
-                            />
-                          </div>
+                      </div>
+                      <div className="flex items-center justify-between pt-6 relative">
+                        <div>
+                          <h4 className="font-semibold text-[var(--color-primary-light)]">
+                            {review.name}
+                          </h4>
+                          <p className="text-sm text-gray-500">
+                            {review.location}
+                          </p>
+                        </div>
+                        <div className="h-[50px] w-[50px] overflow-hidden z-12 rounded-full flex justify-center items-center absolute -bottom-10 -right-7">
+                          <Image
+                            src={review.avatar || "/placeholder.svg"}
+                            alt={review.name}
+                            width={50}
+                            height={50}
+                            className="w-full h-full object-cover"
+                          />
                         </div>
                       </div>
                     </CardContent>
