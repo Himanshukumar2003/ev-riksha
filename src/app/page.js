@@ -16,7 +16,6 @@ export default function Home() {
       <ContingentSection />
       <OurProduct />
       <ReviewsSection></ReviewsSection>
-
       <Blogs />
     </>
   );
