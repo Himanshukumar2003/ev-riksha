@@ -151,12 +151,12 @@ export default function VehicleSpecsTable() {
           className="w-full"
           onValueChange={handleTabChange}
         >
-          <TabsList className="grid w-full grid-cols-6 h-14 p-1 bg-orange-200 rounded-xl">
+          <TabsList className="grid w-full grid-cols-6 h-14 p-1 bg-green-200 rounded-xl">
             {Object.entries(vehicleData).map(([key, data]) => (
               <TabsTrigger
                 key={key}
                 value={key}
-                className="flex items-center gap-2 data-[state=active]:bg-orange-500 data-[state=active]:text-white rounded-lg transition-all duration-300"
+                className="flex items-center gap-2 data-[state=active]:bg-[var(--color-secondary)] data-[state=active]:text-white rounded-lg transition-all duration-300"
               >
                 <div className="first:h-5 first:w-5 ">{data.icon}</div>
                 <span className="hidden sm:inline font-medium">
@@ -173,7 +173,7 @@ export default function VehicleSpecsTable() {
               <Card className="border-0 shadow-md bg-white">
                 <CardHeader className="pb-4">
                   <CardTitle className="flex items-center gap-3 text-xl text-black">
-                    <div className="p-2 rounded-lg bg-orange-500 text-white">
+                    <div className="p-2 rounded-lg bg-[var(--color-secondary)] text-white">
                       {data.icon}
                     </div>
                     {key === "drivetrain"

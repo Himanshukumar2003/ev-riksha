@@ -1,16 +1,24 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import MahindraNavbar from "@/components/nav";
 import Footer from "@/components/footer";
+import localFont from "next/font/local";
+import { Manrope } from "next/font/google";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+// Local SpeedBeast font
+const SpeedBeast = localFont({
+  src: [
+    {
+      path: "../../public/fonts/speedbeast/SpeedBeast.ttf",
+      weight: "400",
+    },
+  ],
+  variable: "--font-SpeedBeast",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+// Google Font: Manrope
+const manrope = Manrope({
   subsets: ["latin"],
+  variable: "--font-manrope",
 });
 
 export const metadata = {
@@ -22,9 +30,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${SpeedBeast.variable} ${manrope.variable} antialiased`}
       >
-        <MahindraNavbar></MahindraNavbar>
+        <MahindraNavbar />
         {children}
         <Footer />
       </body>

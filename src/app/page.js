@@ -2,7 +2,7 @@
 
 import dynamic from "next/dynamic";
 import React from "react";
-import MahindraNavbar from "@/components/nav";
+import ReviewsSection from "@/components/review";
 import HeroSection from "./home/hero";
 import ContingentSection from "./home/about";
 import Blogs from "@/components/blog";
@@ -15,6 +15,8 @@ export default function Home() {
       <HeroSection />
       <ContingentSection />
       <OurProduct />
+      <ReviewsSection></ReviewsSection>
+
       <Blogs />
     </>
   );

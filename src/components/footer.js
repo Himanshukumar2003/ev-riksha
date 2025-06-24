@@ -7,6 +7,7 @@ import {
   Phone,
   Mail,
 } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
@@ -17,16 +18,12 @@ export default function Footer() {
           {/* Brand Section */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-yellow-500 rounded-lg flex items-center justify-center">
-                <svg
-                  className="w-5 h-5 text-slate-800"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M7 4V2C7 1.45 7.45 1 8 1H16C16.55 1 17 1.45 17 2V4H20C20.55 4 21 4.45 21 5S20.55 6 20 6H19V19C19 20.1 18.1 21 17 21H7C5.9 21 5 20.1 5 19V6H4C3.45 6 3 5.55 3 5S3.45 4 4 4H7ZM9 3V4H15V3H9ZM7 6V19H17V6H7Z" />
-                </svg>
-              </div>
-              <span className="text-2xl font-bold text-white">Mantu</span>
+              <Image
+                src="/logo.png"
+                alt="logo"
+                width={150}
+                height={150}
+              ></Image>
             </div>
             <p className="text-sm text-gray-400 mb-6 leading-relaxed">
               The Mantu is the biggest market of grocery products. Get your
@@ -290,7 +287,9 @@ export default function Footer() {
               <span className="text-purple-600 font-bold text-xs">Skrill</span>
             </div>
             <div className="w-12 h-8 bg-white rounded flex items-center justify-center">
-              <span className="text-red-600 font-bold text-xs">MC</span>
+              <span className="text-[var(--color-secondary)] font-bold text-xs">
+                MC
+              </span>
             </div>
             <div className="w-12 h-8 bg-white rounded flex items-center justify-center">
               <span className="text-blue-600 font-bold text-xs">VISA</span>

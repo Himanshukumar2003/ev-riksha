@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { ChevronDown, Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 
 const NavBar = {
   "3W Passenger": {
@@ -131,25 +132,16 @@ export default function MahindraNavbar() {
   return (
     <nav className="bg-white shadow-lg relative z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between gap-2 items-center ">
           {/* Logo */}
-          <div className="flex-shrink-0">
-            <div className="flex items-center">
-              <span className="text-red-600 font-bold text-xl">mahindra</span>
-              <div className="ml-2">
-                <div className="text-xs font-semibold text-gray-800">
-                  LAST MILE MOBILITY
-                </div>
-              </div>
-            </div>
-          </div>
+          <Image src="/logo.png" alt="logo" width={150} height={150}></Image>
 
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
               {}
               {/* <div className="relative">
                 <button
-                  className="flex items-center text-gray-700 hover:text-red-600 px-3 py-2 text-sm font-medium transition-colors"
+                  className="flex items-center text-gray-700 hover:text-[var(--color-secondary)] px-3 py-2 text-sm font-medium transition-colors"
                   onMouseEnter={() => setIsVehiclesOpen(true)}
                   onMouseLeave={() => setIsVehiclesOpen(false)}
                 >
@@ -176,7 +168,7 @@ export default function MahindraNavbar() {
                               key={category}
                               className={`w-full text-left px-4 py-3 text-sm font-medium transition-colors border-b border-gray-200 last:border-b-0 ${
                                 selectedCategory === category
-                                  ? "bg-red-50 text-red-600 border-r-2 border-red-600"
+                                  ? "bg-red-50 text-[var(--color-secondary)] border-r-2 border-[  var(--color-secondary)]"
                                   : "text-gray-700 hover:bg-gray-100"
                               }`}
                               onMouseEnter={() => setSelectedCategory(category)}
@@ -233,11 +225,11 @@ export default function MahindraNavbar() {
                                           
                                         }}
                                       >
-                                        <span className="font-medium text-gray-800 group-hover:text-red-600 transition-colors">
+                                        <span className="font-medium text-gray-800 group-hover:text-[var(--color-secondary)] transition-colors">
                                           {fuelType}
                                         </span>
                                         <ChevronDown
-                                          className={`h-4 w-4 text-gray-500 group-hover:text-red-600 transition-all duration-200 ${
+                                          className={`h-4 w-4 text-gray-500 group-hover:text-[var(--color-secondary)] transition-all duration-200 ${
                                             isExpanded ? "rotate-180" : ""
                                           }`}
                                         />
@@ -276,7 +268,7 @@ export default function MahindraNavbar() {
                                                           className="w-12 h-12 mx-auto object-contain"
                                                         />
                                                       </div>
-                                                      <p className="text-xs font-medium text-gray-700 group-hover:text-red-600 transition-colors">
+                                                      <p className="text-xs font-medium text-gray-700 group-hover:text-[var(--color-secondary)] transition-colors">
                                                         {product.name}
                                                       </p>
                                                     </div>
@@ -293,7 +285,7 @@ export default function MahindraNavbar() {
                               </div>
 
                               <div className="mt-6">
-                                <button className="text-red-600 text-sm font-medium hover:underline">
+                                <button className="text-[var(--color-secondary)] text-sm font-medium hover:underline">
                                   View all {selectedCategory} →
                                 </button>
                               </div>
@@ -308,32 +300,32 @@ export default function MahindraNavbar() {
 
               <a
                 href="#"
-                className="text-gray-700 hover:text-red-600 px-3 py-2 text-sm font-medium transition-colors"
+                className="text-gray-700 hover:text-[var(--color-secondary)] px-3 py-2 text-sm font-medium transition-colors"
               >
                 About
               </a>
 
               <a
                 href="#"
-                className="text-gray-700 hover:text-red-600 px-3 py-2 text-sm font-medium transition-colors"
+                className="text-gray-700 hover:text-[var(--color-secondary)] px-3 py-2 text-sm font-medium transition-colors"
               >
                 Dealer Locator
               </a>
               <a
                 href="#"
-                className="text-gray-700 hover:text-red-600 px-3 py-2 text-sm font-medium transition-colors"
+                className="text-gray-700 hover:text-[var(--color-secondary)] px-3 py-2 text-sm font-medium transition-colors"
               >
                 Become a Dealer
               </a>
               <a
                 href="#"
-                className="text-gray-700 hover:text-red-600 px-3 py-2 text-sm font-medium transition-colors"
+                className="text-gray-700 hover:text-[var(--color-secondary)] px-3 py-2 text-sm font-medium transition-colors"
               >
                 Blogs
               </a>
               <a
                 href="#"
-                className="text-gray-700 hover:text-red-600 px-3 py-2 text-sm font-medium transition-colors"
+                className="text-gray-700 hover:text-[var(--color-secondary)] px-3 py-2 text-sm font-medium transition-colors"
               >
                 Uday Nxt
               </a>
@@ -342,19 +334,26 @@ export default function MahindraNavbar() {
 
           {/* Right Side Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <button className="text-gray-700 hover:text-red-600 px-3 py-2 text-sm font-medium transition-colors">
+            <button className="text-gray-700 hover:text-[var(--color-secondary)] px-3 py-2 text-sm font-medium transition-colors">
               Contact Us
             </button>
+
             <button className="bg-gray-800 text-white px-6 py-2 rounded-md text-sm font-medium hover:bg-gray-700 transition-colors">
               Enquire Now
             </button>
+            <Image
+              src="/logo-manufaturer.png"
+              alt="logo"
+              width={150}
+              height={150}
+            ></Image>
           </div>
 
           {/* Mobile menu button */}
           <div className="md:hidden">
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="text-gray-700 hover:text-red-600 p-2"
+              className="text-gray-700 hover:text-[var(--color-secondary)] p-2"
             >
               {isMobileMenuOpen ? (
                 <X className="h-6 w-6" />
@@ -378,37 +377,37 @@ export default function MahindraNavbar() {
             <div className="px-2 pt-2 pb-3 space-y-1">
               <a
                 href="#"
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-red-600"
+                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-[var(--color-secondary)]"
               >
                 Vehicles
               </a>
               <a
                 href="#"
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-red-600"
+                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-[var(--color-secondary)]"
               >
                 Dealer Locator
               </a>
               <a
                 href="#"
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-red-600"
+                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-[var(--color-secondary)]"
               >
                 Become a Dealer
               </a>
               <a
                 href="#"
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-red-600"
+                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-[var(--color-secondary)]"
               >
                 Blogs
               </a>
               <a
                 href="#"
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-red-600"
+                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-[var(--color-secondary)]"
               >
                 Uday Nxt
               </a>
               <a
                 href="#"
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-red-600"
+                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-[var(--color-secondary)]"
               >
                 Contact Us
               </a>

@@ -44,38 +44,102 @@
 }
 
 :root {
-  --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+
+
+
+
+
+
+  --font-manrope: 'Manrope', sans-serif;
+  --font-speedbeast: 'SpeedBeast', sans-serif;
+
+
+  --color-primary: #26a9E1;
+  --color-primary-light: #8BC248;
+  --color-primary-dark: #58B947;
+  --color-secondary: #58B947;
+  /* [  var(--color-secondary)] */
+  --color-secondary-dark: #dc2626;
+
+  --gradient: linear-gradient(to right, #26A9E1, #8BC248);
+
+  /* orange-600 */
+
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f9fafb;
+  /* gray-50 */
+  --color-bg-tertiary: #f3f4f6;
+  /* gray-100 */
+
+  /* Dark Backgrounds */
+  --color-bg-dark: #0f172a;
+  /* slate-900 */
+  --color-bg-dark-secondary: #1e293b;
+  /* slate-800 */
+  --color-bg-dark-tertiary: #334155;
+  /* slate-700 */
+
+  /* Text Colors */
+  --color-text-primary: #111827;
+  /* gray-800 */
+  --color-text-secondary: #6b7280;
+  /* gray-500 */
+  --color-text-tertiary: #9ca3af;
+  /* gray-400 */
+  --color-text-light: #d1d5db;
+  /* gray-300 */
+  --color-text-white: #ffffff;
+  --color-text-black: #000000;
+
+  /* Border Colors */
+  --color-border-light: #e5e7eb;
+  /* gray-200 */
+  --color-border-medium: #d1d5db;
+  /* gray-300 */
+  --color-border-dark: #374151;
+  /* gray-600 */
+
+  /* Social Media Colors */
+  --color-facebook: #2563eb;
+  /* blue-600 */
+  --color-twitter: #60a5fa;
+  /* blue-400 */
+  --color-linkedin: #1d4ed8;
+  /* blue-700 */
+  --color-instagram: #dc2626;
+  /* pink-600 */
+
+  /* Gradient Colors */
+  --gradient-primary: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+  --gradient-dark: linear-gradient(135deg, var(--color-bg-dark), var(--color-bg-dark-secondary));
+  --gradient-light: linear-gradient(135deg, var(--color-bg-secondary), var(--color-bg-primary));
+
+  /* Shadow Colors */
+  --shadow-primary: 0 25px 50px -12px rgba(245, 158, 11, 0.25);
+  --shadow-secondary: 0 25px 50px -12px rgba(234, 88, 12, 0.25);
+  --shadow-dark: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  --shadow-light: 0 10px 25px -3px rgba(0, 0, 0, 0.1);
+
+  /* Overlay Colors */
+  --overlay-dark: rgba(15, 23, 42, 0.8);
+  /* slate-900 with opacity */
+  --overlay-light: rgba(255, 255, 255, 0.1);
+  --overlay-primary: rgba(245, 158, 11, 0.1);
+  /* [var(--color-primary-dark)] with opacity */
+}
+
+body {
+  font-family: var(--font-manrope);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-speedbeast);
 }
 
 .dark {
@@ -125,7 +189,7 @@
 
 
 .icons {
-  color: orange;
+  color: var(--color-secondary)
 }
 
 
@@ -149,9 +213,46 @@
 
 
 .product-card::after {
-  background-color: #403226;
+  background-color: var(--color-primary-light);
 }
 
 .section {
   padding: 40px 0;
+}
+
+
+.about-two-img {
+  -webkit-mask-image: url(../../public/about.webp);
+  /* Sets mask image */
+  -webkit-mask-size: contain;
+  /* Scales image to fit */
+  -webkit-mask-position: center center;
+  /* Centers mask */
+  -webkit-mask-repeat: no-repeat;
+  /* Prevents tiling */
+}
+
+
+
+
+
+
+
+
+
+
+
+.btn-circle {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: var(--color-primary-dark);
+  border: 1px solid var(--color-primary-light);
+  color: white;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-circle:hover {
+  background-color: var(--color-primary-dark);
 }

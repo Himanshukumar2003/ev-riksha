@@ -8,7 +8,7 @@ import VehicleSpecsTable from "./table";
 import BasicFAQ from "./accddtion";
 
 const Bajaj360Viewer = () => {
-  const [selectedColor, setSelectedColor] = useState("ocean-orange");
+  const [selectedColor, setSelectedColor] = useState("ocean-green");
   const [selectedState, setSelectedState] = useState("");
   const [selectedCity, setSelectedCity] = useState("");
   const [currentPrice, setCurrentPrice] = useState(185000);
@@ -21,8 +21,8 @@ const Bajaj360Viewer = () => {
 
   const colors = [
     {
-      id: "ocean-orange",
-      name: "Ocean orange",
+      id: "ocean-green",
+      name: "Ocean green",
       color: "#1e40af",
       filter: "hue-rotate(0deg) saturate(1.3) brightness(1.1)",
     },
@@ -158,9 +158,9 @@ const Bajaj360Viewer = () => {
                 <div className=" ">
                   <div
                     className=" mx-auto transition-all "
-                    style={{
-                      filter: currentColorFilter,
-                    }}
+                    // style={{
+                    //   filter: currentColorFilter,
+                    // }}
                   >
                     <React360Viewer
                       amount={8}
@@ -175,7 +175,7 @@ const Bajaj360Viewer = () => {
 
                   {/* 360 Indicator */}
                   <div className="flex justify-center mt-6">
-                    <div className=" text-orange-500 px-4 py-2 rounded-full shadow-lg">
+                    <div className=" text-[var(--color-secondary)] px-4 py-2 rounded-full shadow-lg">
                       <span className="flex items-center gap-2 text-sm font-medium">
                         <svg
                           className="w-4 h-4 animate-spin"
@@ -202,7 +202,7 @@ const Bajaj360Viewer = () => {
                 {/* Header */}
                 <div className="border-b border-gray-100 pb-6 mb-6">
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="w-12 h-12 bg-gradient-to-r from-orange-600 to-orange-200 rounded-xl flex items-center justify-center shadow-lg">
+                    <div className="w-12 h-12 bg-[var(--color-primary-dark)] rounded-xl flex items-center justify-center shadow-lg">
                       <span className="text-white text-lg font-bold">B</span>
                     </div>
                     <div>
@@ -215,7 +215,7 @@ const Bajaj360Viewer = () => {
                     </div>
                   </div>
 
-                  <h3 className="mb-4 text-3xl font-bold leading-tight bg-gradient-to-r text-orange-500  bg-clip-text ">
+                  <h3 className="mb-4 text-3xl font-bold leading-tight bg-gradient-to-r text-[var(--color-secondary)]  bg-clip-text ">
                     Electric Three Wheeler
                   </h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
@@ -228,7 +228,7 @@ const Bajaj360Viewer = () => {
                 {/* Color Selection */}
                 <div className="mb-8">
                   <div className="flex items-center gap-2 mb-4">
-                    <Palette className="w-5 h-5 text-orange-600" />
+                    <Palette className="w-5 h-5 text-[var(--color-primary-dark)]" />
                     <h3 className="text-lg font-semibold text-gray-700">
                       Select Color
                     </h3>
@@ -238,10 +238,10 @@ const Bajaj360Viewer = () => {
                     {colors.map((color) => (
                       <button
                         key={color.id}
-                        className={`relative w-10 h-10 rounded-xl border-3 transition-all duration-300 transform hover:scale-110 ${
+                        className={`relative w-8 h-8 rounded-xl border-2 border-transparent transition-all duration-300 transform hover:scale-110 ${
                           selectedColor === color.id
-                            ? "border-orange-600 ring-4 ring-orange-200 scale-110 shadow-xl"
-                            : "border-gray-300 hover:border-orange-400 hover:shadow-lg"
+                            ? "border-[var(--color-primary-dark)] ring-2 ring-green-200 scale-110 shadow-xl"
+                            : "border-gray-300 hover:border-[var(--color-primary-light)] hover:shadow-lg"
                         }`}
                         style={{ backgroundColor: color.color }}
                         onClick={() => setSelectedColor(color.id)}
@@ -262,7 +262,7 @@ const Bajaj360Viewer = () => {
                 {/* Pricing Section */}
                 <div className="mb-8">
                   <div className="flex items-center gap-2 mb-4">
-                    <MapPin className="w-5 h-5 text-orange-600" />
+                    <MapPin className="w-5 h-5 text-[var(--color-primary-dark)]" />
                     <h3 className="text-lg font-semibold text-gray-700">
                       Pricing Details
                     </h3>
@@ -270,7 +270,7 @@ const Bajaj360Viewer = () => {
 
                   <div className="grid grid-cols-2 gap-3 mb-6">
                     <select
-                      className="border-2 border-orange-200 py-3 px-4 rounded-xl text-sm focus:outline-none focus:ring-4 focus:ring-orange-200 focus:border-orange-500 transition-all duration-300 bg-white shadow-sm"
+                      className="border-2 border-green-200 py-3 px-4 rounded-xl text-sm focus:outline-none focus:ring-4 focus:ring-green-200 focus:border-[  var(--color-secondary)] transition-all duration-300 bg-white shadow-sm"
                       value={selectedState}
                       onChange={(e) => handleStateChange(e.target.value)}
                     >
@@ -283,7 +283,7 @@ const Bajaj360Viewer = () => {
                     </select>
 
                     <select
-                      className="border-2 border-orange-200 py-3 px-4 rounded-xl text-sm focus:outline-none focus:ring-4 focus:ring-orange-200 focus:border-orange-500 transition-all duration-300 bg-white shadow-sm"
+                      className="border-2 border-green-200 py-3 px-4 rounded-xl text-sm focus:outline-none focus:ring-4 focus:ring-green-200 focus:border-[  var(--color-secondary)] transition-all duration-300 bg-white shadow-sm"
                       value={selectedCity}
                       onChange={(e) => setSelectedCity(e.target.value)}
                       disabled={!selectedState}
@@ -298,9 +298,9 @@ const Bajaj360Viewer = () => {
                     </select>
                   </div>
 
-                  <div className="bg-orange-200 p-4 rounded-2xl border border-orange-200">
+                  <div className="bg-green-200 p-4 rounded-2xl border border-green-500">
                     <div className="flex items-baseline gap-2 mb-2 italic">
-                      <span className="text-4xl font-bold text-orange-500">
+                      <span className="text-4xl font-bold text-[var(--color-secondary)]">
                         ₹
                       </span>
                       <span className="text-3xl font-bold text-gray-800 ">
@@ -310,7 +310,7 @@ const Bajaj360Viewer = () => {
                     </div>
                     <p className="text-sm text-gray-600">
                       Ex-showroom Price{" "}
-                      <span className="font-semibold text-orange-600">
+                      <span className="font-semibold text-[var(--color-primary-dark)]">
                         {getCurrentLocation()}
                       </span>
                     </p>
@@ -355,7 +355,7 @@ const Bajaj360Viewer = () => {
               <div className="space-y-6">
                 {/* Down Payment */}
                 <div>
-                  <label className="block text-sm font-medium  text-orange-500 mb-3">
+                  <label className="block text-sm font-medium  text-[var(--color-secondary)] mb-3">
                     Down Payment Amount
                   </label>
                   <div className="text-2xl font-bold text-gray-800 mb-2">
@@ -368,7 +368,7 @@ const Bajaj360Viewer = () => {
                     step="5000"
                     value={downPayment}
                     onChange={(e) => setDownPayment(Number(e.target.value))}
-                    className="w-full h-2 accent-orange-500 bg-orange-100 rounded-lg appearance-none cursor-pointer slider-orange"
+                    className="w-full h-2 accent-[var(--color-secondary)] bg-green-100 rounded-lg appearance-none cursor-pointer slider-green"
                   />
                   <div className="flex justify-between text-xs text-gray-500 mt-1">
                     <span>₹10,000</span>
@@ -378,7 +378,7 @@ const Bajaj360Viewer = () => {
 
                 {/* Loan Tenure */}
                 <div>
-                  <label className="block text-sm font-medium text-orange-500  mb-3">
+                  <label className="block text-sm font-medium text-[var(--color-secondary)]  mb-3">
                     Loan Tenure (Months)
                   </label>
                   <div className="text-2xl font-bold text-gray-800 mb-2">
@@ -391,7 +391,7 @@ const Bajaj360Viewer = () => {
                     step="6"
                     value={loanTenure}
                     onChange={(e) => setLoanTenure(Number(e.target.value))}
-                    className="w-full h-2 accent-orange-500 bg-orange-100 rounded-lg appearance-none cursor-pointer slider-orange"
+                    className="w-full h-2 accent-[var(--color-secondary)] bg-green-100 rounded-lg appearance-none cursor-pointer slider-green"
                   />
                   <div className="flex justify-between text-xs text-gray-500 mt-1">
                     <span>12 months</span>
@@ -401,7 +401,7 @@ const Bajaj360Viewer = () => {
 
                 {/* Interest Rate */}
                 <div>
-                  <label className="block text-sm font-medium text-orange-500 mb-3">
+                  <label className="block text-sm font-medium text-[var(--color-secondary)] mb-3">
                     Interest Rate (Annual)
                   </label>
                   <div className="text-2xl font-bold text-gray-800 mb-2">
@@ -414,7 +414,7 @@ const Bajaj360Viewer = () => {
                     step="0.5"
                     value={interestRate}
                     onChange={(e) => setInterestRate(Number(e.target.value))}
-                    className="w-full h-2 accent-orange-500 bg-orange-100 rounded-lg appearance-none cursor-pointer slider-orange"
+                    className="w-full h-2 accent-[var(--color-secondary)] bg-green-100 rounded-lg appearance-none cursor-pointer slider-green"
                   />
                   <div className="flex justify-between text-xs text-gray-500 mt-1">
                     <span>8%</span>
@@ -463,7 +463,7 @@ const Bajaj360Viewer = () => {
                       />
                     </svg>
                     <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="text-center text-orange-500">
+                      <div className="text-center text-[var(--color-secondary)]">
                         <div className="text-sm font-bold text-gray-600">
                           {((downPayment / currentPrice) * 100).toFixed(1)}%
                         </div>
@@ -506,7 +506,7 @@ const Bajaj360Viewer = () => {
                   </div>
                 </div>
 
-                <div className="bg-gradient-to-r from-orange-300 to-orange-300 rounded-b-2xl p-6 text-white">
+                <div className="bg-gradient-to-r from-green-300 to-green-300 rounded-b-2xl p-6 text-white">
                   <h3 className="font-semibold mb-4">Required Payments</h3>
 
                   <div className="grid grid-cols-2 gap-4">

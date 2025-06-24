@@ -52,13 +52,13 @@ const services = [
 
 export default function OurProduct() {
   return (
-    <div className=" bg-[#403226]">
+    <div className=" bg-[#8BC248]">
       <div className="container mx-auto">
         <div className="grid lg:grid-cols-12 ">
           {/* Left Content */}
           <div className="flex flex-col justify-center col-span-4 px-4 lg:px-0">
             <div className="space-y-8 max-w-lg mx-auto lg:mx-0">
-              <h1 className="text-[50px] font-bold text-white leading-tight">
+              <h1 className="text-[50px]  text-white leading-tight">
                 Different case, need different services.
               </h1>
               <p className="text-white text-sm leading-relaxed">
@@ -68,19 +68,19 @@ export default function OurProduct() {
             </div>
             <div className="flex gap-4 justify-start mt-8">
               <button
-                className="swiper-button-prev-custom rounded-full bg-white/10 border border-white/20 text-white hover:bg-white/20 hover:border-white/30 p-2" // Added 'border' and 'p-2' for better styling
+                className="swiper-button-prev-custom  btn-circle" // Added 'border' and 'p-2' for better styling
               >
                 <ChevronLeft className="w-5 h-5" />
               </button>
               <button
-                className="swiper-button-next-custom rounded-full bg-amber-600 border border-amber-500 text-white hover:bg-amber-500 hover:border-amber-400 p-2" // Added 'border' and 'p-2' for better styling
+                className="swiper-button-next-custom btn-circle" // Added 'border' and 'p-2' for better styling
               >
                 <ChevronRight className="w-5 h-5" />
               </button>
             </div>
           </div>
 
-          <div className="flex flex-col justify-center p-8 lg:p-16 col-span-8">
+          <div className="flex flex-col justify-center py-8 lg:py-16 col-span-8">
             <div className="space-y-8">
               {/* Swiper */}
               <div className="relative overflow-hidden">
@@ -105,7 +105,7 @@ export default function OurProduct() {
                       slidesPerView: 1.8,
                     },
                     1024: {
-                      slidesPerView: 2.2, // Example
+                      slidesPerView: 2.3, // Example
                     },
                   }}
                   className="!overflow-visible"
@@ -127,7 +127,7 @@ export default function OurProduct() {
                           </div>
 
                           <div className="px-6 pb-6">
-                            <p className="text-sm text-[#b8865f] font-medium mb-1">
+                            <p className="text-sm  font-medium mb-1">
                               {service.id}
                             </p>
                             <h2 className="text-xl font-semibold text-gray-800 mb-2">
@@ -141,7 +141,7 @@ export default function OurProduct() {
 
                           <Link
                             href=""
-                            className="h-[50px] w-[50px] z-12 bg-orange-500 rounded-full flex justify-center items-center absolute bottom-0 right-0"
+                            className="h-[50px] w-[50px] z-12 bg-[var(--color-secondary)] rounded-full flex justify-center items-center absolute bottom-0 right-0"
                           >
                             <MdArrowOutward className="text-white w-5 h-5" />
                           </Link>

@@ -29,8 +29,8 @@ export default function Blogs() {
   ];
 
   return (
-    <section className="py-16 px-4 bg-gray-50">
-      <div className="container mx-auto max-w-6xl">
+    <section className="section bg-gray-100">
+      <div className="container mx-auto ">
         {/* Header */}
         <div className="flex items-center justify-between mb-12">
           <div>
@@ -74,7 +74,7 @@ export default function Blogs() {
                       </span>
                     </div>
                   </div>
-                  <h3 className="text-xl    font-medium text-gray-800 group-hover:text-orange-500 transition-colors ">
+                  <h3 className="text-xl    font-medium text-gray-800 group-hover:text-[var(--color-secondary)] transition-colors ">
                     {post.title}
                   </h3>
                 </div>
@@ -94,7 +94,7 @@ export default function Blogs() {
               />
             </div>
 
-            <div className="bg-gray-100 cards   relative h-100 flex p-5  justify-center flex-col rounded-r-lg">
+            <div className="bg-white cards   relative h-100 flex p-5  justify-center flex-col rounded-r-lg">
               <div className="gap-4 flex  text-xs  mb-3">
                 <div className="flex items-center gap-1">
                   <Calendar className="h-5 w-5 icons" />
@@ -106,7 +106,7 @@ export default function Blogs() {
                 </div>
               </div>
 
-              <h3 className="text-2xl    font-medium text-gray-800 mb-4 group-hover:text-orange-500 transition-colors">
+              <h3 className="text-2xl    font-medium text-gray-800 mb-4 group-hover:text-[var(--color-secondary)] transition-colors">
                 How To Choose The Right Furniture Of Your Home
               </h3>
 
@@ -116,7 +116,7 @@ export default function Blogs() {
               </p>
               <Link
                 href=""
-                className="h-[50px] w-[50px] z-12  bg-orange-500 rounded-full flex justify-center items-center absolute bottom-0 right-0"
+                className="h-[50px] w-[50px] z-12  bg-[var(--color-secondary)] rounded-full flex justify-center items-center absolute bottom-0 right-0"
               >
                 <MdArrowOutward className="text-white w-5 h-5" />
               </Link>
