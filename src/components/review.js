@@ -70,7 +70,7 @@ export default function ReviewsSection() {
 
   return (
     <section className="bg-white section">
-      <Container maxWidth="lg">
+      <Container >
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
           <div className="space-y-4">
             <div className="flex items-center gap-2 text-[var(--color-primary-light)] text-sm font-medium tracking-wide">
