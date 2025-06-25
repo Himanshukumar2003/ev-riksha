@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import React360Viewer from "react-360-view";
 import { Download, MessageCircle, MapPin, Palette } from "lucide-react";
 import StepsSection from "./feachers-cards";
-import Gallery from "@/components/gallary";
+import Gallery from "@/components/gallery";
 import VehicleSpecsTable from "./table";
 import BasicFAQ from "./accddtion";
 
