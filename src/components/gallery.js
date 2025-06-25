@@ -31,7 +31,7 @@ export default function Gallery() {
   return (
     <>
       <div className="section bg-gray-100">
-        <Container maxWidth="xl">
+        <Container maxWidth="lg">
           <div className="grid grid-cols-2 mb-10">
             <div className="mb-5">
               <h1 className="  mb-6">НАШ КОНТИНГЕНТ</h1>

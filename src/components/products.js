@@ -56,7 +56,7 @@ export default function OurProduct() {
 
   return (
     <div className="bg-[#8BC248] py-12">
-      <Container maxWidth="xl">
+      <Container maxWidth="lg">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
           {/* Left Content */}
           <div className="lg:col-span-4 flex flex-col justify-center space-y-6">

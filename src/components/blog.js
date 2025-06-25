@@ -30,7 +30,7 @@ export default function Blogs() {
 
   return (
     <section className="section bg-gray-100">
-      <Container maxWidth="xl">
+      <Container maxWidth="lg">
         {/* Header */}
         <div className="flex items-center justify-between mb-12">
           <div>
