@@ -9,6 +9,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation } from "swiper/modules";
+import { Container } from "@mui/material";
 
 const reviews = [
   {
@@ -69,7 +70,7 @@ export default function ReviewsSection() {
 
   return (
     <section className="bg-white section">
-      <div className="container mx-auto px-4 ">
+      <Container maxWidth="xl">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
           <div className="space-y-4">
             <div className="flex items-center gap-2 text-[var(--color-primary-light)] text-sm font-medium tracking-wide">
@@ -150,7 +151,7 @@ export default function ReviewsSection() {
             </Swiper>
           </div>
         </div>
-      </div>
+      </Container>
     </section>
   );
 }

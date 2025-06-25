@@ -10,7 +10,7 @@ import { MdArrowOutward } from "react-icons/md";
 
 import "swiper/css";
 import "swiper/css/navigation";
-
+import Container from "@mui/material/Container";
 const services = [
   {
     id: "01",
@@ -56,7 +56,7 @@ export default function OurProduct() {
 
   return (
     <div className="bg-[#8BC248] py-12">
-      <div className="container mx-auto px-4">
+      <Container maxWidth="xl">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
           {/* Left Content */}
           <div className="lg:col-span-4 flex flex-col justify-center space-y-6">
@@ -143,7 +143,7 @@ export default function OurProduct() {
             </Swiper>
           </div>
         </div>
-      </div>
+      </Container>
     </div>
   );
 }

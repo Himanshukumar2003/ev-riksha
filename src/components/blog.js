@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Calendar, User, ArrowRight } from "lucide-react";
 import { MdArrowOutward } from "react-icons/md";
 import Link from "next/link";
-
+import Container from "@mui/material/Container";
 export default function Blogs() {
   const smallPosts = [
     {
@@ -30,7 +30,7 @@ export default function Blogs() {
 
   return (
     <section className="section bg-gray-100">
-      <div className="container mx-auto ">
+      <Container maxWidth="xl">
         {/* Header */}
         <div className="flex items-center justify-between mb-12">
           <div>
@@ -124,7 +124,7 @@ export default function Blogs() {
             </div>
           </article>
         </div>
-      </div>
+      </Container>
     </section>
   );
 }
