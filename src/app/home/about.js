@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Truck, Shield, Clock, Users, MapPin, Headphones } from "lucide-react";
+import Container from "@mui/material/Container";
 
 export default function ContingentSection() {
   const leftServices = [
@@ -46,7 +47,7 @@ export default function ContingentSection() {
 
   return (
     <section className="section">
-      <div className="container mx-auto px-4">
+      <Contaniner maxWidth="xl">
         {/* Heading Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           <div>
@@ -136,7 +137,7 @@ export default function ContingentSection() {
             ))}
           </div>
         </div>
-      </div>
+      </Contaniner>
     </section>
   );
 }
