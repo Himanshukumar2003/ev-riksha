@@ -59,18 +59,17 @@ export default function ReviewsSection() {
     return Array.from({ length: 5 }, (_, i) => (
       <Star
         key={i}
-        className={`w-4 h-4 ${
-          i < rating
-            ? "fill-[var(--color-primary-light)] text-[var(--color-primary-light)]"
-            : "text-gray-300"
-        }`}
+        className={`w-4 h-4 ${i < rating
+          ? "fill-[var(--color-primary-light)] text-[var(--color-primary-light)]"
+          : "text-gray-300"
+          }`}
       />
     ));
   };
 
   return (
     <section className="bg-white section">
-      <Container >
+      <Container maxWidth="xl">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
           <div className="space-y-4">
             <div className="flex items-center gap-2 text-[var(--color-primary-light)] text-sm font-medium tracking-wide">
