@@ -4,7 +4,6 @@ import "@fancyapps/ui/dist/fancybox/fancybox.css";
 import { Fancybox } from "@fancyapps/ui";
 import { useEffect } from "react";
 import Image from "next/image";
-import Container from "@mui/material/Container";
 const images = [
   { id: 1, src: "/bajaj/1.png", alt: "Image 1" },
   { id: 2, src: "/bajaj/2.png", alt: "Image 2" },
@@ -31,7 +30,7 @@ export default function Gallery() {
   return (
     <>
       <div className="section bg-gray-100">
-        <Container maxWidth="xl">
+        <div className="contanier mx-auto">
           <div className="grid grid-cols-2 mb-10">
             <div className="mb-5">
               <h1 className="  mb-6">НАШ КОНТИНГЕНТ</h1>
@@ -70,7 +69,7 @@ export default function Gallery() {
               </a>
             ))}
           </div>
-        </Container>
+        </div>
       </div>
     </>
   );
