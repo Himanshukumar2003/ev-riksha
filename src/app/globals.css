@@ -66,23 +66,23 @@
   padding-left: 1rem;
   padding-right: 1rem;
 
-  @media (min-width: theme(--breakpoint-sm)) {
+  @variant sm {
     max-width: theme(--container-sm);
   }
 
-  @media (min-width: theme(--breakpoint-md)) {
+  @variant md {
     max-width: theme(--container-md);
   }
 
-  @media (min-width: theme(--breakpoint-lg)) {
+  @variant lg {
     max-width: theme(--container-lg);
   }
 
-  @media (min-width: theme(--breakpoint-xl)) {
+  @variant xl {
     max-width: theme(--container-xl);
   }
 
-  @media (min-width: theme(--breakpoint-2xl)) {
+  @variant 2xl {
     max-width: theme(--container-2xl);
   }
 }
