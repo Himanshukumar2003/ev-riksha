@@ -104,8 +104,14 @@ export default function OurProduct() {
                 768: {
                   slidesPerView: 1.8,
                 },
-                1024: {
+                9: {
                   slidesPerView: 2.3,
+                },
+                1280: {
+                  slidesPerView: 3,    // xl
+                },
+                1536: {
+                  slidesPerView: 3,    // 2xl
                 },
               }}
             >

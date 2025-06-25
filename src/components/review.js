@@ -101,14 +101,21 @@ export default function ReviewsSection() {
                 prevEl: ".prev-btn",
               }}
               breakpoints={{
-                640: {
-                  slidesPerView: 1,
+                480: {
+                  slidesPerView: 1.3,
                 },
                 768: {
-                  slidesPerView: 2,
+                  slidesPerView: 1.8,
                 },
-                1024: {
+
+                1200: {
                   slidesPerView: 2.3,
+                },
+                1536: {
+                  slidesPerView: 3,
+                },
+                1800: {
+                  slidesPerView: 4,
                 },
               }}
             >
