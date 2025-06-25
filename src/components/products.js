@@ -55,7 +55,7 @@ export default function OurProduct() {
   const nextRef = useRef(null);
 
   return (
-    <div className="bg-[#8BC248] py-12">
+    <div className="bg-[#8BC248] section">
       <Container maxWidth="xl">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
           {/* Left Content */}
