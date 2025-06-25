@@ -1,8 +1,10 @@
 import "./globals.css";
 import MahindraNavbar from "@/components/nav";
 import Footer from "@/components/footer";
+
 import localFont from "next/font/local";
 import { Manrope } from "next/font/google";
+import Layout from "@/components/layout/layout"; 
 
 // Local SpeedBeast font
 const SpeedBeast = localFont({
@@ -32,9 +34,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${SpeedBeast.variable} ${manrope.variable} antialiased`}
       >
-        <MahindraNavbar />
+       <Layout>
         {children}
-        <Footer />
+       </Layout> 
       </body>
     </html>
   );

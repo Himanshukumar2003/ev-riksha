@@ -7,8 +7,6 @@ import { Send } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Checkbox } from "@/components/ui/checkbox";
-import ServicesSection from "./addresh";
-
 // Zod validation schema
 const contactFormSchema = z.object({
   firstName: z.string().min(2, "First name must be at least 2 characters").max(50),
@@ -63,26 +61,13 @@ export default function ContactSection() {
 
   return (
     <>
-      <ServicesSection />
 
       <section className="section bg-gray-100">
         <div className="container mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-start">
-            {/* Left Content */}
-            <div className="space-y-6 sticky top-5">
-              <div className="flex items-center gap-2 text-[var(--color-primary-light)] text-sm font-medium tracking-wide">
-                <div className="w-8 h-px bg-[var(--color-primary-light)]"></div>
-                CONTACT US
-              </div>
-              <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                Happy to answer all your questions
-              </h2>
-              <p className="text-gray-600 leading-relaxed max-w-md">
-                Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </div>
+          
 
-            {/* Form */}
+           
             <div className="bg-white shadow-md p-10 rounded-4xl">
               <h3 className="text-2xl font-bold text-gray-900 mb-8">Send a Message</h3>
 

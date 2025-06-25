@@ -5,76 +5,72 @@ export default function ContingentSection() {
   const leftServices = [
     {
       icon: <Truck className="w-6 h-6" />,
-      title: "Автомобильные перевозки",
+      title: "EV Rickshaw Delivery",
       description:
-        "Доставка грузов любого объема и веса по всей территории России и стран СНГ",
+        "Efficient and eco-friendly delivery using electric rickshaws across urban and rural areas.",
     },
     {
       icon: <Shield className="w-6 h-6" />,
-      title: "Страхование грузов",
+      title: "Vehicle Insurance",
       description:
-        "Полное страхование вашего груза от момента погрузки до момента доставки",
+        "Comprehensive insurance coverage for your EV rickshaws during transport and usage.",
     },
     {
       icon: <Clock className="w-6 h-6" />,
-      title: "Срочная доставка",
+      title: "Timely Dispatch",
       description:
-        "Экспресс-доставка в кратчайшие сроки с гарантией соблюдения временных рамок",
+        "Fast and reliable dispatch of EV rickshaws with strict adherence to delivery timelines.",
     },
   ];
 
   const rightServices = [
     {
       icon: <Users className="w-6 h-6" />,
-      title: "Профессиональная команда",
+      title: "Skilled Team",
       description:
-        "Опытные водители и логисты с многолетним стажем работы в сфере грузоперевозок",
+        "A team of trained professionals dedicated to handling EV rickshaw logistics and support.",
     },
     {
       icon: <MapPin className="w-6 h-6" />,
-      title: "Отслеживание груза",
+      title: "Live Tracking",
       description:
-        "Система GPS-мониторинга позволяет отслеживать местоположение груза в режиме реального времени",
+        "GPS-enabled tracking to monitor your EV rickshaw location in real-time.",
     },
     {
       icon: <Headphones className="w-6 h-6" />,
-      title: "Поддержка 24/7",
+      title: "24/7 Support",
       description:
-        "Круглосуточная техническая поддержка и консультации по всем вопросам доставки",
+        "Round-the-clock assistance for any inquiries or issues related to EV rickshaw services.",
     },
   ];
 
   return (
-    <section className="section ">
+    <section className="section">
       <div className="container mx-auto px-4">
         {/* Heading Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              НАШ КОНТИНГЕНТ
-            </h2>
+            <h2 className=" font-bold mb-4">OUR CONTINGENT</h2>
             <p>
-              Логистическая компания «CARGO EXPERT» работает с 2015 года. Мы
-              оказываем услуги по
+              “CARGO EXPERT” has been serving since 2015, offering a wide range
+              of logistics solutions for EV rickshaw transportation and
+              delivery.
             </p>
           </div>
           <div>
             <p className="text-gray-500 leading-relaxed">
-              Логистическая компания «CARGO EXPERT» работает с 2015 года. Мы
-              оказываем услуги по доставке грузов по всей России и в страны СНГ.
-              За время работы мы зарекомендовали себя как надежный партнер,
-              который всегда выполняет свои обязательства в срок. Наша команда
-              состоит из опытных специалистов, которые знают все тонкости
-              логистического бизнеса и готовы решить любые задачи наших
-              клиентов.
+              With years of experience, “CARGO EXPERT” is known for its timely
+              and secure delivery of EV rickshaws across India and neighboring
+              countries. Our expert team understands every detail of logistics
+              and ensures a smooth and efficient experience for our customers.
             </p>
           </div>
         </div>
 
         {/* Card Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 items-center     ">
           {/* Left Services */}
-          <div className="space-y-8">
+          <div className="space-y-8 lg:-mr-[80px] z-10">
             {leftServices.map((service, index) => (
               <div
                 key={index}
@@ -88,9 +84,9 @@ export default function ContingentSection() {
                     {service.icon}
                   </div>
                   <div className="pl-8">
-                    <h3 className="font-semibold text-lg mb-2 group-hover:text-white">
+                    <h5 className="font-semibold  mb-2 group-hover:text-white">
                       {service.title}
-                    </h3>
+                    </h5>
                     <p className="text-gray-400 text-sm group-hover:text-white">
                       {service.description}
                     </p>
@@ -105,16 +101,16 @@ export default function ContingentSection() {
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden">
               <Image
                 src="/img/heo-img.jpg"
-                alt="Forklift operator"
-                width={500}
-                height={500}
+                alt="EV Rickshaw"
+                width={600}
+                height={600}
                 className="w-full h-full object-cover"
               />
             </div>
           </div>
 
           {/* Right Services */}
-          <div className="space-y-8">
+          <div className="space-y-8 lg:-ml-[80px]">
             {rightServices.map((service, index) => (
               <div
                 key={index}
@@ -128,9 +124,9 @@ export default function ContingentSection() {
                     {service.icon}
                   </div>
                   <div className="pr-8">
-                    <h3 className="font-semibold text-lg mb-2 group-hover:text-white">
+                    <h4 className="font-semibold  mb-2 group-hover:text-white">
                       {service.title}
-                    </h3>
+                    </h4>
                     <p className="text-gray-400 text-sm group-hover:text-white">
                       {service.description}
                     </p>

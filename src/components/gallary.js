@@ -33,9 +33,7 @@ export default function Gallery() {
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="grid grid-cols-2 mb-10">
             <div className="mb-5">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                НАШ КОНТИНГЕНТ
-              </h2>
+              <h1 className="  mb-6">НАШ КОНТИНГЕНТ</h1>
               <p>Логистическая компания «CARGO EXPERT» работает с 2015 года.</p>
             </div>
 

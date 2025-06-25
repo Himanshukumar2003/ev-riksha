@@ -76,9 +76,7 @@ export default function BasicFAQ() {
     <div className="max-w-7xl mx-auto p-6">
       <div className="grid grid-cols-2 mb-10">
         <div className="mb-5">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            НАШ КОНТИНГЕНТ
-          </h2>
+          <h2 className=" font-bold mb-6">НАШ КОНТИНГЕНТ</h2>
           <p>
             Логистическая компания «CARGO EXPERT» <br></br>работает с 2015 года.
           </p>

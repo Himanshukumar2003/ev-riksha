@@ -60,7 +60,7 @@ export default function OurProduct() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
           {/* Left Content */}
           <div className="lg:col-span-4 flex flex-col justify-center space-y-6">
-            <h1 className="text-3xl md:text-[42px] text-white leading-tight font-bold">
+            <h1 className=" text-white leading-tight font-bold">
               Different case, need different services.
             </h1>
             <p className="text-white text-sm leading-relaxed max-w-md">
@@ -111,7 +111,7 @@ export default function OurProduct() {
             >
               {services.map((service) => (
                 <SwiperSlide key={service.id}>
-                  <div className="bg-white relative rounded-[2rem] max-w-sm mx-auto">
+                  <div className="bg-white  relative rounded-[2rem] max-w-sm mx-auto">
                     <div className="p-4">
                       <Image
                         height={300}
@@ -123,9 +123,9 @@ export default function OurProduct() {
                     </div>
                     <div className="px-6 pb-6">
                       <p className="text-sm font-medium mb-1">{service.id}</p>
-                      <h2 className="text-xl font-semibold text-gray-800 mb-2">
+                      <h4 className=" font-semibold text-gray-800 mb-2">
                         {service.title}
-                      </h2>
+                      </h4>
                       <hr className="my-3" />
                       <p className="text-sm text-gray-500 pr-10">
                         {service.description}
@@ -133,7 +133,7 @@ export default function OurProduct() {
                     </div>
                     <Link
                       href="#"
-                      className="h-[50px] w-[50px] z-12 bg-[var(--color-secondary)] rounded-full flex justify-center items-center absolute bottom-4 right-4"
+                      className="h-[50px] w-[50px] z-12 bg-[var(--color-secondary)] rounded-full flex justify-center items-center absolute bottom-0 right-0"
                     >
                       <MdArrowOutward className="text-white w-5 h-5" />
                     </Link>

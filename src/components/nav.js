@@ -5,7 +5,7 @@ import { ChevronDown, Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 
-const NavBar = {
+const vehicleCategories = {
   "3W Passenger": {
     fuelTypes: {
       Electric: {
@@ -139,7 +139,7 @@ export default function MahindraNavbar() {
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
               {}
-              {/* <div className="relative">
+              <div className="relative">
                 <button
                   className="flex items-center text-gray-700 hover:text-[var(--color-secondary)] px-3 py-2 text-sm font-medium transition-colors"
                   onMouseEnter={() => setIsVehiclesOpen(true)}
@@ -156,7 +156,7 @@ export default function MahindraNavbar() {
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -10 }}
                       transition={{ duration: 0.2 }}
-                      className="absolute left-0 mt-2 w-[800px] bg-white rounded-lg shadow-xl border border-gray-200"
+                      className="absolute left-0  top-[50px] mt-2 w-[800px] bg-white rounded-lg shadow-xl border border-gray-200"
                       onMouseEnter={() => setIsVehiclesOpen(true)}
                       onMouseLeave={() => setIsVehiclesOpen(false)}
                     >
@@ -168,7 +168,7 @@ export default function MahindraNavbar() {
                               key={category}
                               className={`w-full text-left px-4 py-3 text-sm font-medium transition-colors border-b border-gray-200 last:border-b-0 ${
                                 selectedCategory === category
-                                  ? "bg-red-50 text-[var(--color-secondary)] border-r-2 border-[  var(--color-secondary)]"
+                                  ? "bg-green-50 text-[var(--color-secondary)] border-r-2 border-[  var(--color-secondary)]"
                                   : "text-gray-700 hover:bg-gray-100"
                               }`}
                               onMouseEnter={() => setSelectedCategory(category)}
@@ -216,14 +216,11 @@ export default function MahindraNavbar() {
                                       className="border border-gray-200 rounded-lg overflow-hidden"
                                     >
                                       <button
-                                        className="w-full flex items-center justify-between px-4 py-3 text-left hover:bg-red-50 hover:border-red-200 transition-all duration-200 group"
+                                        className="w-full flex items-center justify-between px-4 py-3 text-left hover:bg-green-50 hover:border-green-200 transition-all duration-200 group"
                                         onClick={() =>
                                           toggleFuelType(categoryFuelKey)
                                         }
-                                        onMouseEnter={() => {
-                                          
-                                          
-                                        }}
+                                        onMouseEnter={() => {}}
                                       >
                                         <span className="font-medium text-gray-800 group-hover:text-[var(--color-secondary)] transition-colors">
                                           {fuelType}
@@ -258,7 +255,7 @@ export default function MahindraNavbar() {
                                                       key={index}
                                                       className="text-center group cursor-pointer"
                                                     >
-                                                      <div className="bg-white rounded-lg p-3 mb-2 group-hover:bg-red-50 group-hover:shadow-md transition-all duration-200 border border-transparent group-hover:border-red-100">
+                                                      <div className="bg-white rounded-lg p-3 mb-2 group-hover:bg-green-50 group-hover:shadow-md transition-all duration-200 border border-transparent group-hover:border-green-100">
                                                         <img
                                                           src={
                                                             product.image ||
@@ -296,51 +293,43 @@ export default function MahindraNavbar() {
                     </motion.div>
                   )}
                 </AnimatePresence>
-              </div> */}
+              </div>
 
               <a
-                href="#"
+                href="/about"
                 className="text-gray-700 hover:text-[var(--color-secondary)] px-3 py-2 text-sm font-medium transition-colors"
               >
                 About
               </a>
 
               <a
-                href="#"
+                href="/blog"
                 className="text-gray-700 hover:text-[var(--color-secondary)] px-3 py-2 text-sm font-medium transition-colors"
               >
-                Dealer Locator
+                Blog
               </a>
               <a
                 href="#"
                 className="text-gray-700 hover:text-[var(--color-secondary)] px-3 py-2 text-sm font-medium transition-colors"
               >
-                Become a Dealer
+                Gallery
               </a>
+
               <a
-                href="#"
+                href="/contact"
                 className="text-gray-700 hover:text-[var(--color-secondary)] px-3 py-2 text-sm font-medium transition-colors"
               >
-                Blogs
+                Contact Us
               </a>
-              <a
-                href="#"
-                className="text-gray-700 hover:text-[var(--color-secondary)] px-3 py-2 text-sm font-medium transition-colors"
-              >
-                Uday Nxt
-              </a>
+
+              <button className="bg-gray-800 text-white px-6 py-2 rounded-md text-sm font-medium hover:bg-gray-700 transition-colors">
+                Enquire Now
+              </button>
             </div>
           </div>
 
           {/* Right Side Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <button className="text-gray-700 hover:text-[var(--color-secondary)] px-3 py-2 text-sm font-medium transition-colors">
-              Contact Us
-            </button>
-
-            <button className="bg-gray-800 text-white px-6 py-2 rounded-md text-sm font-medium hover:bg-gray-700 transition-colors">
-              Enquire Now
-            </button>
             <Image
               src="/logo-manufaturer.png"
               alt="logo"

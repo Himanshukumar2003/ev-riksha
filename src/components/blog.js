@@ -34,12 +34,13 @@ export default function Blogs() {
         {/* Header */}
         <div className="flex items-center justify-between mb-12">
           <div>
-            <p className=" text-sm font-medium mb-2 tracking-wider">
-              WHAT WE DO
-            </p>
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-800">
+            <div className="flex items-center gap-2 text-[var(--color-primary-light)] text-sm font-medium tracking-wide">
+              <div className="w-8 h-px bg-[var(--color-primary-light)]"></div>
+              CLIENT FEEDBACK
+            </div>
+            <h1 className=" font-bold text-gray-800">
               Latest posts & articles
-            </h2>
+            </h1>
           </div>
         </div>
 
@@ -74,9 +75,9 @@ export default function Blogs() {
                       </span>
                     </div>
                   </div>
-                  <h3 className="text-xl    font-medium text-gray-800 group-hover:text-[var(--color-secondary)] transition-colors ">
+                  <h6 className=" font-medium text-gray-800 group-hover:text-[var(--color-secondary)] transition-colors ">
                     {post.title}
-                  </h3>
+                  </h6>
                 </div>
               </div>
             ))}
