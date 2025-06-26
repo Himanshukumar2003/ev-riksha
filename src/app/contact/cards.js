@@ -2,7 +2,7 @@ import { ArrowUpRight, Building2, Home, Monitor, Hammer } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import Link from "next/link";
 import { MdArrowOutward, MdOutlineArrowOutward } from "react-icons/md";
-
+import Container from "@mui/material/Container";
 const services = [
   {
     id: 1,
@@ -33,7 +33,7 @@ const services = [
 export default function ServicesSection() {
   return (
     <section className="section">
-      <div className="  container mx-auto">
+      <Container maxWidth="xl">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((service) => {
             const IconComponent = service.icon;
@@ -76,7 +76,7 @@ export default function ServicesSection() {
             );
           })}
         </div>
-      </div>
+      </Container>
     </section>
   );
 }

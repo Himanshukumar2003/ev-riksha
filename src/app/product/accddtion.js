@@ -4,7 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-
+import Container from "@mui/material/Container";
 const faqData = [
   {
     question: "What is your return policy?",
@@ -73,7 +73,7 @@ export default function BasicFAQ() {
   const rightColumnFAQs = faqData.slice(6, 12);
 
   return (
-    <div className="max-w-7xl mx-auto p-6">
+    <Container maxWidth="xl">
       <div className="grid grid-cols-2 mb-10">
         <div className="mb-5">
           <h2 className=" font-bold mb-6">НАШ КОНТИНГЕНТ</h2>
@@ -127,6 +127,6 @@ export default function BasicFAQ() {
           </Accordion>
         </div>
       </div>
-    </div>
+    </Container>
   );
 }

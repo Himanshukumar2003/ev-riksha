@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import React360Viewer from "react-360-view";
 import { Download, MessageCircle, MapPin, Palette } from "lucide-react";
-
+import Container from "@mui/material/Container";
 const Bajaj360Viewer = () => {
   const [selectedColor, setSelectedColor] = useState("ocean-green");
   const [selectedState, setSelectedState] = useState("");
@@ -146,7 +146,7 @@ const Bajaj360Viewer = () => {
   return (
     <>
       <div className="min-h-screen ">
-        <div className="max-w-7xl mx-auto px-4">
+        <Container maxWidth="xl">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* React360Viewer */}
             <div className="relative">
@@ -330,7 +330,7 @@ const Bajaj360Viewer = () => {
               </div>
             </div>
           </div>
-        </div>
+        </Container>
       </div>
       <div className="contanier mx-auto max-w-5xl">
         <div className="bg-white rounded-3xl shadow-2xl p-8 border border-gray-100">

@@ -59,10 +59,11 @@ export default function ReviewsSection() {
     return Array.from({ length: 5 }, (_, i) => (
       <Star
         key={i}
-        className={`w-4 h-4 ${i < rating
-          ? "fill-[var(--color-primary-light)] text-[var(--color-primary-light)]"
-          : "text-gray-300"
-          }`}
+        className={`w-4 h-4 ${
+          i < rating
+            ? "fill-[var(--color-primary-light)] text-[var(--color-primary-light)]"
+            : "text-gray-300"
+        }`}
       />
     ));
   };
@@ -113,9 +114,6 @@ export default function ReviewsSection() {
                 },
                 1536: {
                   slidesPerView: 3,
-                },
-                1800: {
-                  slidesPerView: 4,
                 },
               }}
             >

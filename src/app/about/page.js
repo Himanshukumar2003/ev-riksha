@@ -1,11 +1,12 @@
 import Image from "next/image";
 import WhyChoose from "./why-choose-us";
+import Container from "@mui/material/Container";
 
 export default function About() {
   return (
     <>
       <div className="section">
-        <div className="   container mx-auto">
+        <Container maxWidth="xl">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Left side - Images */}
             <div className="relative">
@@ -65,7 +66,7 @@ export default function About() {
               </div>
             </div>
           </div>
-        </div>
+        </Container>
       </div>
       <WhyChoose></WhyChoose>
     </>

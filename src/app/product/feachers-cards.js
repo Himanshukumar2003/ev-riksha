@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-
+import Container from "@mui/material/Container";
 const steps = [
   {
     number: "01",
@@ -109,7 +109,7 @@ const steps = [
 const StepsSection = () => {
   return (
     <section className="section py-16">
-      <div className="mx-auto max-w-7xl px-4">
+      <Container maxWidth="xl">
         <div className="grid grid-cols-2 mb-10">
           <div className="mb-5">
             <h2 className=" font-bold mb-6">НАШ КОНТИНГЕНТ</h2>
@@ -197,7 +197,7 @@ const StepsSection = () => {
             );
           })}
         </div>
-      </div>
+      </Container>
     </section>
   );
 };

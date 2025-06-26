@@ -6,7 +6,7 @@ import StepsSection from "./feachers-cards";
 import Gallery from "@/components/gallery";
 import VehicleSpecsTable from "./table";
 import BasicFAQ from "./accddtion";
-
+import Container from "@mui/material/Container";
 const Bajaj360Viewer = () => {
   const [selectedColor, setSelectedColor] = useState("ocean-green");
   const [selectedState, setSelectedState] = useState("");
@@ -344,7 +344,7 @@ const Bajaj360Viewer = () => {
       <VehicleSpecsTable></VehicleSpecsTable>
 
       <div className="section">
-        <div className="contanier mx-auto max-w-6xl">
+        <Container maxWidth="xl">
           <div className="bg-white rounded-3xl shadow-md p-8 border border-gray-100">
             <h2 className="text-2xl font-bold text-gray-800 mb-8">
               EMI Calculator
@@ -536,7 +536,7 @@ const Bajaj360Viewer = () => {
               </div>
             </div>
           </div>
-        </div>
+        </Container>
       </div>
 
       <Gallery></Gallery>

@@ -1,3 +1,4 @@
+import Container from "@mui/material/Container";
 import {
   ArrowRight,
   Wrench,
@@ -10,7 +11,7 @@ import {
 export default function WhyChoose() {
   return (
     <section className="bg-gray-100 section">
-      <div className="  container mx-auto">
+      <Container maxWidth="xl">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
           {/* Left Column - Main Content */}
           <div className="space-y-8   sticky top-5">
@@ -115,7 +116,7 @@ export default function WhyChoose() {
             </div>
           </div>
         </div>
-      </div>
+      </Container>
     </section>
   );
 }
