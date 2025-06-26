@@ -4,7 +4,6 @@ import { useState } from "react";
 import { ChevronDown, Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
-import { Container } from "@mui/material";
 
 const vehicleCategories = {
   "3W Passenger": {
@@ -99,7 +98,7 @@ const vehicleCategories = {
   },
 };
 
-export default function MahindraNavbar() {
+export default function Navbar() {
   const [isVehiclesOpen, setIsVehiclesOpen] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState("3W Passenger");
   const [expandedFuelType, setExpandedFuelType] = useState(null);
@@ -131,18 +130,16 @@ export default function MahindraNavbar() {
   };
 
   return (
-    <nav className="bg-white shadow-lg relative z-50">
-      <Container maxWidth="xl">
-        <div className="flex justify-between gap-2 items-center ">
-          {/* Logo */}
-          <Image src="/logo.png" alt="logo" width={150} height={150}></Image>
+    <nav className="bg-green-800 shadow-lg py-2 relative z-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between items-center gap-2">
+          <Image src="/logo.png" alt="logo" width={150} height={150} />
 
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              { }
               <div className="relative">
                 <button
-                  className="flex items-center text-gray-700 hover:text-[var(--color-secondary)] px-3 py-2 text-sm font-medium transition-colors"
+                  className="flex items-center text-white hover:text-lime-400 px-3 py-2 text-sm font-medium transition-colors"
                   onMouseEnter={() => setIsVehiclesOpen(true)}
                   onMouseLeave={() => setIsVehiclesOpen(false)}
                 >
@@ -157,20 +154,20 @@ export default function MahindraNavbar() {
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -10 }}
                       transition={{ duration: 0.2 }}
-                      className="absolute left-0  top-[30px] mt-2 w-[800px] bg-white rounded-lg shadow-xl border border-gray-200"
+                      className="absolute left-0 top-[35px] mt-2 w-[800px] bg-green-700 rounded-lg shadow-xl border border-green-500"
                       onMouseEnter={() => setIsVehiclesOpen(true)}
                       onMouseLeave={() => setIsVehiclesOpen(false)}
                     >
                       <div className="flex">
-                        { }
-                        <div className="w-1/3 bg-gray-50 rounded-l-lg">
+                        <div className="w-1/3 bg-green-800 rounded-l-lg">
                           {Object.keys(vehicleCategories).map((category) => (
                             <button
                               key={category}
-                              className={`w-full text-left px-4 py-3 text-sm font-medium transition-colors border-b border-gray-200 last:border-b-0 ${selectedCategory === category
-                                ? "bg-green-50 text-[var(--color-secondary)] border-r-2 border-[  var(--color-secondary)]"
-                                : "text-gray-700 hover:bg-gray-100"
-                                }`}
+                              className={`w-full text-left px-4 py-3 text-sm font-medium transition-colors border-b border-green-500 last:border-b-0 ${
+                                selectedCategory === category
+                                  ? "bg-emerald-50 text-lime-600 border-r-2 border-lime-400"
+                                  : "text-white hover:bg-green-600"
+                              }`}
                               onMouseEnter={() => setSelectedCategory(category)}
                             >
                               {category}
@@ -179,17 +176,16 @@ export default function MahindraNavbar() {
                           ))}
                         </div>
 
-                        { }
                         <div className="w-2/3 p-6">
                           <AnimatePresence mode="wait">
                             <motion.div
                               key={selectedCategory}
                               variants={
                                 slideVariants[
-                                getAnimationDirection(
-                                  selectedCategory,
-                                  Object.keys(vehicleCategories)
-                                )
+                                  getAnimationDirection(
+                                    selectedCategory,
+                                    Object.keys(vehicleCategories)
+                                  )
                                 ]
                               }
                               initial="initial"
@@ -197,11 +193,10 @@ export default function MahindraNavbar() {
                               exit="exit"
                               transition={{ duration: 0.3 }}
                             >
-                              <h3 className="text-lg font-semibold text-gray-800 mb-4">
+                              <h3 className="text-lg font-semibold text-white mb-4">
                                 {selectedCategory}
                               </h3>
 
-                              { }
                               <div className="space-y-3">
                                 {Object.entries(
                                   vehicleCategories[selectedCategory].fuelTypes
@@ -213,21 +208,21 @@ export default function MahindraNavbar() {
                                   return (
                                     <div
                                       key={fuelType}
-                                      className="border border-gray-200 rounded-lg overflow-hidden"
+                                      className="border border-green-500 rounded-lg overflow-hidden"
                                     >
                                       <button
-                                        className="w-full flex items-center justify-between px-4 py-3 text-left hover:bg-green-50 hover:border-green-200 transition-all duration-200 group"
+                                        className="w-full flex items-center justify-between px-4 py-3 text-left hover:bg-green-600 transition-all duration-200 group"
                                         onClick={() =>
                                           toggleFuelType(categoryFuelKey)
                                         }
-                                        onMouseEnter={() => { }}
                                       >
-                                        <span className="font-medium text-gray-800 group-hover:text-[var(--color-secondary)] transition-colors">
+                                        <span className="font-medium text-white group-hover:text-lime-400 transition-colors">
                                           {fuelType}
                                         </span>
                                         <ChevronDown
-                                          className={`h-4 w-4 text-gray-500 group-hover:text-[var(--color-secondary)] transition-all duration-200 ${isExpanded ? "rotate-180" : ""
-                                            }`}
+                                          className={`h-4 w-4 text-white group-hover:text-lime-400 transition-all duration-200 ${
+                                            isExpanded ? "rotate-180" : ""
+                                          }`}
                                         />
                                       </button>
 
@@ -246,7 +241,7 @@ export default function MahindraNavbar() {
                                             }}
                                             className="overflow-hidden"
                                           >
-                                            <div className="px-4 pb-4 border-t border-gray-100 bg-gray-50">
+                                            <div className="px-4 pb-4 border-t border-gray-100">
                                               <div className="grid grid-cols-2 gap-3 mt-3">
                                                 {fuelData.products.map(
                                                   (product, index) => (
@@ -254,7 +249,7 @@ export default function MahindraNavbar() {
                                                       key={index}
                                                       className="text-center group cursor-pointer"
                                                     >
-                                                      <div className="bg-white rounded-lg p-3 mb-2 group-hover:bg-green-50 group-hover:shadow-md transition-all duration-200 border border-transparent group-hover:border-green-100">
+                                                      <div className="bg-white rounded-lg p-3 mb-2 group-hover:bg-emerald-50 group-hover:shadow-md transition-all duration-200 border border-transparent group-hover:border-green-100">
                                                         <img
                                                           src={
                                                             product.image ||
@@ -264,7 +259,7 @@ export default function MahindraNavbar() {
                                                           className="w-12 h-12 mx-auto object-contain"
                                                         />
                                                       </div>
-                                                      <p className="text-xs font-medium text-gray-700 group-hover:text-[var(--color-secondary)] transition-colors">
+                                                      <p className="text-xs font-medium text-white group-hover:text-lime-400 transition-colors">
                                                         {product.name}
                                                       </p>
                                                     </div>
@@ -281,7 +276,7 @@ export default function MahindraNavbar() {
                               </div>
 
                               <div className="mt-6">
-                                <button className="text-[var(--color-secondary)] text-sm font-medium hover:underline">
+                                <button className="text-white text-sm font-medium hover:text-lime-400">
                                   View all {selectedCategory} →
                                 </button>
                               </div>
@@ -296,52 +291,48 @@ export default function MahindraNavbar() {
 
               <a
                 href="/about"
-                className="text-gray-700 hover:text-[var(--color-secondary)] px-3 py-2 text-sm font-medium transition-colors"
+                className="text-white hover:text-lime-400 px-3 py-2 text-sm font-medium transition-colors"
               >
                 About
               </a>
-
               <a
                 href="/blog"
-                className="text-gray-700 hover:text-[var(--color-secondary)] px-3 py-2 text-sm font-medium transition-colors"
+                className="text-white hover:text-lime-400 px-3 py-2 text-sm font-medium transition-colors"
               >
                 Blog
               </a>
               <a
                 href="#"
-                className="text-gray-700 hover:text-[var(--color-secondary)] px-3 py-2 text-sm font-medium transition-colors"
+                className="text-white hover:text-lime-400 px-3 py-2 text-sm font-medium transition-colors"
               >
                 Gallery
               </a>
-
               <a
                 href="/contact"
-                className="text-gray-700 hover:text-[var(--color-secondary)] px-3 py-2 text-sm font-medium transition-colors"
+                className="text-white hover:text-lime-400 px-3 py-2 text-sm font-medium transition-colors"
               >
                 Contact Us
               </a>
 
-              <button className="bg-gray-800 text-white px-6 py-2 rounded-md text-sm font-medium hover:bg-gray-700 transition-colors">
+              <button className="bg-lime-500 text-white px-6 py-2 rounded-md text-sm font-medium hover:bg-lime-600 transition-colors">
                 Enquire Now
               </button>
             </div>
           </div>
 
-          {/* Right Side Buttons */}
           <div className="hidden md:flex items-center space-x-4">
             <Image
               src="/logo-manufaturer.png"
               alt="logo"
               width={150}
               height={150}
-            ></Image>
+            />
           </div>
 
-          {/* Mobile menu button */}
           <div className="md:hidden">
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="text-gray-700 hover:text-[var(--color-secondary)] p-2"
+              className="text-white hover:text-lime-400 p-2"
             >
               {isMobileMenuOpen ? (
                 <X className="h-6 w-6" />
@@ -351,55 +342,33 @@ export default function MahindraNavbar() {
             </button>
           </div>
         </div>
-      </Container>
+      </div>
 
-      {/* Mobile Menu */}
       <AnimatePresence>
         {isMobileMenuOpen && (
           <motion.div
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-white border-t border-gray-200"
+            className="md:hidden bg-green-700 border-t border-green-500"
           >
             <div className="px-2 pt-2 pb-3 space-y-1">
-              <a
-                href="#"
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-[var(--color-secondary)]"
-              >
-                Vehicles
-              </a>
-              <a
-                href="#"
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-[var(--color-secondary)]"
-              >
-                Dealer Locator
-              </a>
-              <a
-                href="#"
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-[var(--color-secondary)]"
-              >
-                Become a Dealer
-              </a>
-              <a
-                href="#"
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-[var(--color-secondary)]"
-              >
-                Blogs
-              </a>
-              <a
-                href="#"
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-[var(--color-secondary)]"
-              >
-                Uday Nxt
-              </a>
-              <a
-                href="#"
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-[var(--color-secondary)]"
-              >
-                Contact Us
-              </a>
-              <button className="w-full text-left bg-gray-800 text-white px-3 py-2 text-base font-medium rounded-md">
+              {[
+                "Vehicles",
+                "Dealer Locator",
+                "Become a Dealer",
+                "Blogs",
+                "Contact Us",
+              ].map((link, i) => (
+                <a
+                  key={i}
+                  href="#"
+                  className="block px-3 py-2 text-base font-medium text-white hover:text-lime-400"
+                >
+                  {link}
+                </a>
+              ))}
+              <button className="w-full text-left bg-lime-500 hover:bg-lime-600 text-white px-3 py-2 text-base font-medium rounded-md">
                 Enquire Now
               </button>
             </div>
