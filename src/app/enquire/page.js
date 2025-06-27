@@ -9,8 +9,14 @@ import { Textarea } from "@/components/ui/textarea";
 import { Checkbox } from "@/components/ui/checkbox";
 // Zod validation schema
 const contactFormSchema = z.object({
-  firstName: z.string().min(2, "First name must be at least 2 characters").max(50),
-  lastName: z.string().min(2, "Last name must be at least 2 characters").max(50),
+  firstName: z
+    .string()
+    .min(2, "First name must be at least 2 characters")
+    .max(50),
+  lastName: z
+    .string()
+    .min(2, "Last name must be at least 2 characters")
+    .max(50),
   phone: z
     .string()
     .min(10, "Phone number must be at least 10 digits")
@@ -21,7 +27,10 @@ const contactFormSchema = z.object({
     .max(100, "Subject must be less than 100 characters")
     .optional()
     .or(z.literal("")),
-  message: z.string().min(10, "Message must be at least 10 characters").max(1000),
+  message: z
+    .string()
+    .min(10, "Message must be at least 10 characters")
+    .max(1000),
   saveInfo: z.boolean().optional(),
 });
 
@@ -61,51 +70,70 @@ export default function ContactSection() {
 
   return (
     <>
-
       <section className="section bg-gray-100">
         <div className="container mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-start">
-          
-
-           
-            <div className="bg-white shadow-md p-10 rounded-4xl">
-              <h3 className="text-2xl font-bold text-gray-900 mb-8">Send a Message</h3>
+            <div className=" p-10 rounded-4xl">
+              <h3 className="text-2xl font-bold text-gray-900 mb-8">
+                Send a Message
+              </h3>
 
               <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
                 {/* First & Last Name */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label
+                      htmlFor="firstName"
+                      className="block text-sm font-medium text-gray-700 mb-2"
+                    >
                       First Name *
                     </label>
                     <Input
                       id="firstName"
                       {...register("firstName")}
                       className={`border-gray-200 focus:border-[var(--color-primary-light)] focus:ring-[var(--color-primary-light)] ${
-                        errors.firstName ? "border-red-500 focus:ring-red-500" : ""
+                        errors.firstName
+                          ? "border-red-500 focus:ring-red-500"
+                          : ""
                       }`}
                     />
-                    {errors.firstName && <p className="text-sm text-red-600 mt-1">{errors.firstName.message}</p>}
+                    {errors.firstName && (
+                      <p className="text-sm text-red-600 mt-1">
+                        {errors.firstName.message}
+                      </p>
+                    )}
                   </div>
                   <div>
-                    <label htmlFor="lastName" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label
+                      htmlFor="lastName"
+                      className="block text-sm font-medium text-gray-700 mb-2"
+                    >
                       Last Name *
                     </label>
                     <Input
                       id="lastName"
                       {...register("lastName")}
                       className={`border-gray-200 focus:border-[var(--color-primary-light)] focus:ring-[var(--color-primary-light)] ${
-                        errors.lastName ? "border-red-500 focus:ring-red-500" : ""
+                        errors.lastName
+                          ? "border-red-500 focus:ring-red-500"
+                          : ""
                       }`}
                     />
-                    {errors.lastName && <p className="text-sm text-red-600 mt-1">{errors.lastName.message}</p>}
+                    {errors.lastName && (
+                      <p className="text-sm text-red-600 mt-1">
+                        {errors.lastName.message}
+                      </p>
+                    )}
                   </div>
                 </div>
 
                 {/* Phone & Subject */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label
+                      htmlFor="phone"
+                      className="block text-sm font-medium text-gray-700 mb-2"
+                    >
                       Phone *
                     </label>
                     <Input
@@ -115,26 +143,42 @@ export default function ContactSection() {
                         errors.phone ? "border-red-500 focus:ring-red-500" : ""
                       }`}
                     />
-                    {errors.phone && <p className="text-sm text-red-600 mt-1">{errors.phone.message}</p>}
+                    {errors.phone && (
+                      <p className="text-sm text-red-600 mt-1">
+                        {errors.phone.message}
+                      </p>
+                    )}
                   </div>
                   <div>
-                    <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label
+                      htmlFor="subject"
+                      className="block text-sm font-medium text-gray-700 mb-2"
+                    >
                       Subject
                     </label>
                     <Input
                       id="subject"
                       {...register("subject")}
                       className={`border-gray-200 focus:border-[var(--color-primary-light)] focus:ring-[var(--color-primary-light)] ${
-                        errors.subject ? "border-red-500 focus:ring-red-500" : ""
+                        errors.subject
+                          ? "border-red-500 focus:ring-red-500"
+                          : ""
                       }`}
                     />
-                    {errors.subject && <p className="text-sm text-red-600 mt-1">{errors.subject.message}</p>}
+                    {errors.subject && (
+                      <p className="text-sm text-red-600 mt-1">
+                        {errors.subject.message}
+                      </p>
+                    )}
                   </div>
                 </div>
 
                 {/* Message */}
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label
+                    htmlFor="message"
+                    className="block text-sm font-medium text-gray-700 mb-2"
+                  >
                     Message *
                   </label>
                   <Textarea
@@ -145,7 +189,11 @@ export default function ContactSection() {
                       errors.message ? "border-red-500 focus:ring-red-500" : ""
                     }`}
                   />
-                  {errors.message && <p className="text-sm text-red-600 mt-1">{errors.message.message}</p>}
+                  {errors.message && (
+                    <p className="text-sm text-red-600 mt-1">
+                      {errors.message.message}
+                    </p>
+                  )}
                 </div>
 
                 {/* Save Info Checkbox */}
@@ -153,7 +201,9 @@ export default function ContactSection() {
                   <Checkbox
                     id="saveInfo"
                     checked={saveInfo}
-                    onCheckedChange={(checked) => setValue("saveInfo", !!checked)}
+                    onCheckedChange={(checked) =>
+                      setValue("saveInfo", !!checked)
+                    }
                     className="border-gray-300 data-[state=checked]:bg-[var(--color-primary-light)] data-[state=checked]:border-[var(--color-primary-light)]"
                   />
                   <label htmlFor="saveInfo" className="text-sm text-gray-600">

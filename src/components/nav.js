@@ -1,9 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { ChevronDown, Menu, X } from "lucide-react";
+import { ChevronDown, Menu, Search, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
+import SearchSidebar from "./serchbar"; // make sure this file exists
+import Link from "next/link";
 
 const vehicleCategories = {
   "3W Passenger": {
@@ -103,6 +105,7 @@ export default function Navbar() {
   const [selectedCategory, setSelectedCategory] = useState("3W Passenger");
   const [expandedFuelType, setExpandedFuelType] = useState(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isSearchOpen, setIsSearchOpen] = useState(false); // ✅ added missing state
 
   const getAnimationDirection = (category, categories) => {
     const currentIndex = categories.indexOf(selectedCategory);
@@ -130,23 +133,33 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-green-800 shadow-lg py-2 relative z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center gap-2">
-          <Image
-            src="/logo.png"
-            alt="logo"
-            width={150}
-            height={150}
-            className="w-[150px]"
-          />
-          <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-8">
-              <div className="relative">
+    <>
+      <nav className="bg-green-800 shadow-lg py-2 relative z-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between  items-center">
+            <Image
+              src="/logo.png"
+              alt="logo"
+              width={150}
+              height={150}
+              className="w-[150px]"
+            />
+
+            {/* Desktop Navigation */}
+            <div className="hidden md:flex items-center justify-between gap-10 ">
+              <Link
+                href="/"
+                className="text-white hover:text-lime-400  text-[16px] font-medium transition-colors"
+              >
+                Home
+              </Link>
+              <div
+                className="relative"
+                onMouseLeave={() => setIsVehiclesOpen(false)}
+              >
                 <button
-                  className="flex items-center text-white hover:text-lime-400 px-3 py-2 text-sm font-medium transition-colors"
+                  className="flex items-center text-white hover:text-lime-400  text-sm font-medium transition-colors"
                   onMouseEnter={() => setIsVehiclesOpen(true)}
-                  onMouseLeave={() => setIsVehiclesOpen(false)}
                 >
                   Vehicles
                   <ChevronDown className="ml-1 h-4 w-4" />
@@ -159,10 +172,11 @@ export default function Navbar() {
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -10 }}
                       transition={{ duration: 0.2 }}
-                      className="absolute left-0 top-[45px] mt-2 w-[800px] bg-green-700 rounded-lg shadow-xl"
+                      className="absolute left-0 top-[36px] mt-2 w-[800px] bg-green-700 rounded-lg shadow-xl"
                       onMouseEnter={() => setIsVehiclesOpen(true)}
                       onMouseLeave={() => setIsVehiclesOpen(false)}
                     >
+                      {/* Category Tabs */}
                       <div className="flex">
                         <div className="w-1/3 bg-green-800 rounded-l-lg">
                           {Object.keys(vehicleCategories).map((category) => (
@@ -181,6 +195,7 @@ export default function Navbar() {
                           ))}
                         </div>
 
+                        {/* Fuel Types and Products */}
                         <div className="w-2/3 p-6">
                           <AnimatePresence mode="wait">
                             <motion.div
@@ -201,7 +216,6 @@ export default function Navbar() {
                               <h3 className="text-lg font-semibold text-white mb-4">
                                 {selectedCategory}
                               </h3>
-
                               <div className="space-y-3">
                                 {Object.entries(
                                   vehicleCategories[selectedCategory].fuelTypes
@@ -294,92 +308,99 @@ export default function Navbar() {
                 </AnimatePresence>
               </div>
 
-              <a
-                href="/about"
-                className="text-white hover:text-lime-400 px-3 py-2 text-sm font-medium transition-colors"
+              {/* Other Links */}
+              {[
+                { href: "/about", text: "About" },
+                { href: "/blog", text: "Blog" },
+                { href: "#", text: "Gallery" },
+                { href: "/contact", text: "Contact Us" },
+              ].map((link) => (
+                <Link
+                  key={link.text}
+                  href={link.href}
+                  className="text-white hover:text-lime-400  text-[16px] font-medium transition-colors"
+                >
+                  {link.text}
+                </Link>
+              ))}
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                onClick={() => setIsSearchOpen(true)}
+                className="  text-white hover:text-lime-400  rounded-lg transition-all duration-200 relative group"
               >
-                About
-              </a>
-              <a
-                href="/blog"
-                className="text-white hover:text-lime-400 px-3 py-2 text-sm font-medium transition-colors"
-              >
-                Blog
-              </a>
-              <a
-                href="#"
-                className="text-white hover:text-lime-400 px-3 py-2 text-sm font-medium transition-colors"
-              >
-                Gallery
-              </a>
-              <a
-                href="/contact"
-                className="text-white hover:text-lime-400 px-3 py-2 text-sm font-medium transition-colors"
-              >
-                Contact Us
-              </a>
+                <Search className="h-5 w-5" />
+              </motion.button>
 
-              <button className="bg-lime-500 text-white px-6 py-2 rounded-md text-sm font-medium hover:bg-lime-600 transition-colors">
+              <button className="bg-lime-500 m-0 text-white px-6 py-2 rounded-md text-sm font-medium hover:bg-lime-600 transition-colors">
                 Enquire Now
               </button>
             </div>
-          </div>
 
-          <div className="hidden md:flex items-center space-x-4">
-            <Image
-              src="/logo-manufaturer.png"
-              alt="logo"
-              width={150}
-              height={150}
-            />
-          </div>
+            <div className="hidden md:flex items-center ">
+              <Image
+                src="/logo-manufaturer.png"
+                alt="logo"
+                width={150}
+                height={150}
+              />
+            </div>
 
-          <div className="md:hidden">
-            <button
-              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="text-white hover:text-lime-400 p-2"
-            >
-              {isMobileMenuOpen ? (
-                <X className="h-6 w-6" />
-              ) : (
-                <Menu className="h-6 w-6" />
-              )}
-            </button>
+            <div className="md:hidden">
+              <button
+                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                className="text-white hover:text-lime-400 p-2"
+              >
+                {isMobileMenuOpen ? (
+                  <X className="h-6 w-6" />
+                ) : (
+                  <Menu className="h-6 w-6" />
+                )}
+              </button>
+            </div>
           </div>
         </div>
-      </div>
 
-      <AnimatePresence>
-        {isMobileMenuOpen && (
-          <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: "auto" }}
-            exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-green-700 border-t border-green-500"
-          >
-            <div className="px-2 pt-2 pb-3 space-y-1">
-              {[
-                "Vehicles",
-                "Dealer Locator",
-                "Become a Dealer",
-                "Blogs",
-                "Contact Us",
-              ].map((link, i) => (
-                <a
-                  key={i}
-                  href="#"
-                  className="block px-3 py-2 text-base font-medium text-white hover:text-lime-400"
-                >
-                  {link}
-                </a>
-              ))}
-              <button className="w-full text-left bg-lime-500 hover:bg-lime-600 text-white px-3 py-2 text-base font-medium rounded-md">
-                Enquire Now
-              </button>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
-    </nav>
+        {/* Mobile Menu */}
+        <AnimatePresence>
+          {isMobileMenuOpen && (
+            <motion.div
+              initial={{ opacity: 0, height: 0 }}
+              animate={{ opacity: 1, height: "auto" }}
+              exit={{ opacity: 0, height: 0 }}
+              className="md:hidden bg-green-700 border-t border-green-500"
+            >
+              <div className="px-2 pt-2 pb-3 space-y-1">
+                {[
+                  "Vehicles",
+                  "Dealer Locator",
+                  "Become a Dealer",
+                  "Blogs",
+                  "Contact Us",
+                ].map((link, i) => (
+                  <a
+                    key={i}
+                    href="#"
+                    className="block px-3 py-2 text-base font-medium text-white hover:text-lime-400"
+                  >
+                    {link}
+                  </a>
+                ))}
+
+                <button className="w-full text-left bg-lime-500 hover:bg-lime-600 text-white px-3 py-2 text-base font-medium rounded-md">
+                  Enquire Now
+                </button>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </nav>
+
+      {/* Search Sidebar Rendered Outside */}
+      <SearchSidebar
+        isOpen={isSearchOpen}
+        onClose={() => setIsSearchOpen(false)}
+      />
+    </>
   );
 }
