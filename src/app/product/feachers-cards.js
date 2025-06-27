@@ -37,16 +37,13 @@ const StepsSection = ({ product }) => {
               >
                 {/* Image Block */}
                 <div
-                  className={`h-full bg-cover min-h-[400px] bg-center rounded-xl shadow-md relative overflow-hidden
+                  style={{
+                    backgroundImage: `url(${step.image})`,
+                    backgroundSize: "   cover",
+                  }}
+                  className={`h-full bg-center bg-fixed min-h-[400px]   bg-no-repeat rounded-xl shadow-md relative overflow-hidden
                     ${isEven ? "md:order-1" : "md:order-2"} order-1`}
-                >
-                  <Image
-                    src={step.image || "/placeholder.svg?height=400&width=600"}
-                    alt={step.title}
-                    fill
-                    className="object-cover"
-                  />
-                </div>
+                ></div>
 
                 {/* Content Block */}
                 <div
@@ -62,7 +59,7 @@ const StepsSection = ({ product }) => {
                     alt="icon"
                     width={60}
                     height={60}
-                    className="mb-4"
+                    className="mb-4 "
                   />
                   <h2 className="text-4xl font-light mb-4">{step.title}</h2>
                   <p className="mb-4 max-w-xl text-gray-600">{step.text}</p>

@@ -33,7 +33,7 @@ export default function VehicleSpecsTable({ product }) {
 
   return (
     <div className="bg-gray-100 section">
-      <div className="w-full max-w-6xl mx-auto">
+      <div className="w-full max-w-4xl mx-auto">
         <div className="text-center mb-8">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
             Technical Specifications
