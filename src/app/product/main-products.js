@@ -416,14 +416,14 @@ export default function MainProductViewer({ productSlug }) {
                       </button>
                     ))}
                   </div>
-                  <div className="mt-3 text-center">
+                  {/* <div className="mt-3 text-center">
                     <div className="text-sm text-gray-600">
                       Selected Interest Rate:
                     </div>
                     <div className="text-xl font-bold text-green-600">
                       {interestRate}% per annum
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
 
