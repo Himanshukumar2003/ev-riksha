@@ -5,21 +5,26 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import Container from "@mui/material/Container";
-import vehicleData from "@/data/vehicle-data.json";
-export default function BasicFAQ() {
-  const { faq } = vehicleData.vehicleShowcase;
-  const leftColumnFAQs = faq.questions.slice(0, 6);
-  const rightColumnFAQs = faq.questions.slice(6, 12);
+
+export default function BasicFAQ({ product }) {
+  const { faq } = product;
+  const leftColumnFAQs = faq.questions.slice(
+    0,
+    Math.ceil(faq.questions.length / 2)
+  );
+  const rightColumnFAQs = faq.questions.slice(
+    Math.ceil(faq.questions.length / 2)
+  );
 
   return (
     <Container maxWidth="xl">
-      <div className="grid grid-cols-2 mb-10">
+      <div className="grid grid-cols-1 lg:grid-cols-2 mb-10 gap-8">
         <div className="mb-5">
-          <h2 className=" font-bold mb-6">{faq.header.title}</h2>
-          <p>{faq.header.subtitle}</p>
+          <h2 className="text-4xl font-bold mb-6">{faq.header.title}</h2>
+          <p className="text-xl text-gray-700">{faq.header.subtitle}</p>
         </div>
 
-        <div className="">
+        <div>
           <p className="text-gray-500 max-w-3xl leading-relaxed">
             {faq.header.description}
           </p>
@@ -27,15 +32,15 @@ export default function BasicFAQ() {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-        {/* Left Column - First 6 FAQs */}
+        {/* Left Column */}
         <div className="space-y-2">
           <Accordion type="single" collapsible className="w-full">
             {leftColumnFAQs.map((item, index) => (
               <AccordionItem key={index} value={`left-item-${index}`}>
-                <AccordionTrigger className="text-left font-medium text-xl ">
+                <AccordionTrigger className="text-left font-medium text-lg">
                   {item.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-gray-700 text-lg">
+                <AccordionContent className="text-gray-700">
                   {item.answer}
                 </AccordionContent>
               </AccordionItem>
@@ -43,15 +48,18 @@ export default function BasicFAQ() {
           </Accordion>
         </div>
 
-        {/* Right Column - Last 6 FAQs */}
+        {/* Right Column */}
         <div className="space-y-2">
           <Accordion type="single" collapsible className="w-full">
             {rightColumnFAQs.map((item, index) => (
-              <AccordionItem key={index + 6} value={`right-item-${index}`}>
-                <AccordionTrigger className="text-left font-medium text-xl ">
+              <AccordionItem
+                key={index + leftColumnFAQs.length}
+                value={`right-item-${index}`}
+              >
+                <AccordionTrigger className="text-left font-medium text-lg">
                   {item.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-gray-700 text-lg ">
+                <AccordionContent className="text-gray-700">
                   {item.answer}
                 </AccordionContent>
               </AccordionItem>

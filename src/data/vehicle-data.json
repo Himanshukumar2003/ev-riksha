@@ -1,631 +1,993 @@
 {
     "vehicleShowcase": {
-        "mainProduct": {
-            "brand": "BAJAJ",
-            "model": "GoGo P7012",
-            "type": "Electric Three Wheeler",
-            "description": "The Worlds Favourite Indian introduces the electric Bajaj GOGO, Indias most trusted three-wheeler EV. This vehicle combines Bajajs trusted legacy with cutting-edge technology.",
-            "viewer360": {
-                "imagePath": "/bajaj/",
-                "imageCount": 8,
-                "fileName": "{index}.png",
-                "autoplay": false,
-                "loop": true,
-                "dragSpeed": 100
-            },
-            "colors": [
-                {
-                    "id": "ocean-green",
-                    "name": "Ocean green",
-                    "color": "#1e40af",
-                    "filter": "hue-rotate(0deg) saturate(1.3) brightness(1.1)"
+        "products": [
+            {
+                "id": "product-1",
+                "slug": "electric-car-x",
+                "brand": "Future Motors",
+                "model": "X",
+                "type": "Electric Car",
+                "description": "Experience the future of driving with the Electric Car X. This innovative vehicle combines cutting-edge technology with sustainable design, offering a smooth and eco-friendly ride.",
+                "viewer360": {
+                    "imagePath": "/bajaj/",
+                    "imageCount": 8
                 },
-                {
-                    "id": "black",
-                    "name": "Midnight Black",
-                    "color": "#1f2937",
-                    "filter": "brightness(0.4) contrast(1.8) saturate(0)"
+                "colors": [
+                    {
+                        "id": "color-1",
+                        "name": "Midnight Black",
+                        "color": "#000000",
+                        "filter": "grayscale(100%)"
+                    },
+                    {
+                        "id": "color-2",
+                        "name": "Ocean Blue",
+                        "color": "#0077BE",
+                        "filter": "sepia(50%)"
+                    },
+                    {
+                        "id": "color-3",
+                        "name": "Forest Green",
+                        "color": "#228B22",
+                        "filter": "invert(75%)"
+                    }
+                ],
+                "pricing": {
+                    "states": [
+                        {
+                            "id": "state-1",
+                            "name": "California",
+                            "basePrice": 45000,
+                            "cities": [
+                                {
+                                    "id": "city-1",
+                                    "name": "Los Angeles",
+                                    "priceModifier": 1500
+                                },
+                                {
+                                    "id": "city-2",
+                                    "name": "San Francisco",
+                                    "priceModifier": 2000
+                                }
+                            ]
+                        },
+                        {
+                            "id": "state-2",
+                            "name": "Texas",
+                            "basePrice": 43000,
+                            "cities": [
+                                {
+                                    "id": "city-3",
+                                    "name": "Austin",
+                                    "priceModifier": 1000
+                                },
+                                {
+                                    "id": "city-4",
+                                    "name": "Dallas",
+                                    "priceModifier": 1200
+                                }
+                            ]
+                        }
+                    ]
                 },
-                {
-                    "id": "white",
-                    "name": "Pearl White",
-                    "color": "#f9fafb",
-                    "filter": "brightness(1.6) contrast(0.9) saturate(0.8) hue-rotate(200deg)"
+                "emiCalculator": {
+                    "defaultValues": {
+                        "downPayment": 10000,
+                        "loanTenure": 36,
+                        "interestRate": 10.5
+                    },
+                    "ranges": {
+                        "downPayment": {
+                            "min": 5000,
+                            "step": 500
+                        },
+                        "loanTenure": {
+                            "min": 12,
+                            "max": 60,
+                            "step": 12
+                        },
+                        "interestRate": {
+                            "min": 5.0,
+                            "max": 15.0,
+                            "step": 0.5
+                        }
+                    },
+                    "financingCompanies": [
+                        {
+                            "id": "company-1",
+                            "name": "Green Loans",
+                            "interestRate": 9.5,
+                            "color": "#34D399"
+                        },
+                        {
+                            "id": "company-2",
+                            "name": "Eco Finance",
+                            "interestRate": 10.0,
+                            "color": "#22C55E"
+                        },
+                        {
+                            "id": "company-3",
+                            "name": "Clean Credit",
+                            "interestRate": 10.25,
+                            "color": "#16A34A"
+                        },
+                        {
+                            "id": "company-4",
+                            "name": "Future Bank",
+                            "interestRate": 10.75,
+                            "color": "#15803D"
+                        }
+                    ]
                 },
-                {
-                    "id": "red",
-                    "name": "Crimson Red",
-                    "color": "#dc2626",
-                    "filter": "hue-rotate(320deg) saturate(1.5) brightness(1.2)"
+                "featuresSteps": {
+                    "header": {
+                        "title": "Key Features",
+                        "subtitle": "Explore the advanced features of the Electric Car X",
+                        "description": "The Electric Car X is packed with innovative features designed to enhance your driving experience and promote sustainability."
+                    },
+                    "steps": [
+                        {
+                            "number": "1",
+                            "title": "Advanced Battery Technology",
+                            "text": "Our state-of-the-art battery provides a long-lasting charge and quick recharge times, ensuring you're always ready to go.",
+                            "image": "/img/auto.jpg",
+                            "icon": "/travel.png",
+                            "features": [
+                                {
+                                    "list": [
+                                        {
+                                            "strong": "Long Range",
+                                            "description": "Up to 400 miles on a single charge."
+                                        },
+                                        {
+                                            "strong": "Fast Charging",
+                                            "description": "80% charge in just 30 minutes."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number": "2",
+                            "title": "Smart Driving Assistance",
+                            "text": "Experience a safer and more convenient drive with our intelligent driver assistance systems.",
+                            "image": "/img/banner1.png",
+                            "icon": "/travel.png",
+                            "features": [
+                                {
+                                    "list": [
+                                        {
+                                            "strong": "Adaptive Cruise Control",
+                                            "description": "Maintains a safe distance from other vehicles."
+                                        },
+                                        {
+                                            "strong": "Lane Keep Assist",
+                                            "description": "Helps you stay in your lane."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 },
-                {
-                    "id": "green",
-                    "name": "Forest Green",
-                    "color": "#16a34a",
-                    "filter": "hue-rotate(80deg) saturate(1.4) brightness(1.1)"
+                "vehicleSpecs": {
+                    "performance": {
+                        "icon": "Gauge",
+                        "specs": [
+                            {
+                                "label": "Top Speed",
+                                "value": "155 mph",
+                                "badge": "Limited"
+                            },
+                            {
+                                "label": "Acceleration (0-60 mph)",
+                                "value": "4.5 seconds"
+                            },
+                            {
+                                "label": "Horsepower",
+                                "value": "400 hp"
+                            }
+                        ]
+                    },
+                    "battery": {
+                        "icon": "Battery",
+                        "specs": [
+                            {
+                                "label": "Battery Capacity",
+                                "value": "100 kWh"
+                            },
+                            {
+                                "label": "Range (EPA)",
+                                "value": "350 miles"
+                            },
+                            {
+                                "label": "Charging Time (240V)",
+                                "value": "8 hours"
+                            }
+                        ]
+                    },
+                    "safety": {
+                        "icon": "Shield",
+                        "specs": [
+                            {
+                                "label": "Airbags",
+                                "value": "6"
+                            },
+                            {
+                                "label": "Braking System",
+                                "value": "ABS"
+                            },
+                            {
+                                "label": "Driver Assistance",
+                                "value": "Advanced"
+                            }
+                        ]
+                    },
+                    "interior": {
+                        "icon": "Armchair",
+                        "specs": [
+                            {
+                                "label": "Seating Capacity",
+                                "value": "5"
+                            },
+                            {
+                                "label": "Upholstery",
+                                "value": "Premium Leather"
+                            },
+                            {
+                                "label": "Climate Control",
+                                "value": "Dual-Zone"
+                            }
+                        ]
+                    },
+                    "dimensions": {
+                        "icon": "Ruler",
+                        "specs": [
+                            {
+                                "label": "Length",
+                                "value": "4.7 meters"
+                            },
+                            {
+                                "label": "Width",
+                                "value": "1.9 meters"
+                            },
+                            {
+                                "label": "Height",
+                                "value": "1.5 meters"
+                            }
+                        ]
+                    },
+                    "drivetrain": {
+                        "icon": "Settings",
+                        "specs": [
+                            {
+                                "label": "Drive Type",
+                                "value": "All-Wheel Drive"
+                            },
+                            {
+                                "label": "Transmission",
+                                "value": "Single-Speed Automatic"
+                            },
+                            {
+                                "label": "Motor Type",
+                                "value": "Dual Electric Motors"
+                            }
+                        ]
+                    }
+                },
+                "gallery": {
+                    "header": {
+                        "title": "Explore the Gallery",
+                        "subtitle": "View stunning images of the Electric Car X",
+                        "description": "Browse our gallery to see the Electric Car X from every angle. Discover its sleek design and innovative features."
+                    },
+                    "images": [
+                        {
+                            "id": "image-1",
+                            "src": "/img/banner2.png",
+                            "alt": "Electric Car X - Front View"
+                        },
+                        {
+                            "id": "image-2",
+                            "src": "/img/auto.jpg",
+                            "alt": "Electric Car X - Interior"
+                        },
+                        {
+                            "id": "image-3",
+                            "src": "/img/download.webp",
+                            "alt": "Electric Car X - Side View"
+                        },
+                        {
+                            "id": "image-4",
+                            "src": "/img/heo-img.jpg",
+                            "alt": "Electric Car X - Back View"
+                        }
+                    ]
+                },
+                "faq": {
+                    "header": {
+                        "title": "Frequently Asked Questions",
+                        "subtitle": "Get answers to common questions about the Electric Car X",
+                        "description": "Find answers to the most frequently asked questions about the Electric Car X, including information about its features, performance, and sustainability."
+                    },
+                    "questions": [
+                        {
+                            "question": "What is the range of the Electric Car X?",
+                            "answer": "The Electric Car X has a range of up to 400 miles on a single charge."
+                        },
+                        {
+                            "question": "How long does it take to charge the Electric Car X?",
+                            "answer": "It takes approximately 8 hours to fully charge the Electric Car X using a 240V charger. Fast charging options are also available."
+                        },
+                        {
+                            "question": "What safety features does the Electric Car X have?",
+                            "answer": "The Electric Car X is equipped with advanced safety features, including airbags, ABS, and intelligent driver assistance systems."
+                        },
+                        {
+                            "question": "Is the Electric Car X environmentally friendly?",
+                            "answer": "Yes, the Electric Car X is designed to be environmentally friendly, producing zero emissions and promoting sustainable transportation."
+                        }
+                    ]
                 }
-            ],
-            "pricing": {
-                "states": [
-                    {
-                        "id": "delhi",
-                        "name": "Delhi",
-                        "basePrice": 185000,
-                        "cities": [
-                            {
-                                "id": "new-delhi",
-                                "name": "New Delhi",
-                                "priceModifier": 0
-                            },
-                            {
-                                "id": "gurgaon",
-                                "name": "Gurgaon",
-                                "priceModifier": 2000
-                            },
-                            {
-                                "id": "noida",
-                                "name": "Noida",
-                                "priceModifier": 1500
-                            }
-                        ]
-                    },
-                    {
-                        "id": "mumbai",
-                        "name": "Maharashtra",
-                        "basePrice": 190000,
-                        "cities": [
-                            {
-                                "id": "mumbai-city",
-                                "name": "Mumbai",
-                                "priceModifier": 0
-                            },
-                            {
-                                "id": "pune",
-                                "name": "Pune",
-                                "priceModifier": -3000
-                            },
-                            {
-                                "id": "nashik",
-                                "name": "Nashik",
-                                "priceModifier": -5000
-                            }
-                        ]
-                    },
-                    {
-                        "id": "bangalore",
-                        "name": "Karnataka",
-                        "basePrice": 188000,
-                        "cities": [
-                            {
-                                "id": "bangalore-city",
-                                "name": "Bangalore",
-                                "priceModifier": 0
-                            },
-                            {
-                                "id": "mysore",
-                                "name": "Mysore",
-                                "priceModifier": -2000
-                            },
-                            {
-                                "id": "hubli",
-                                "name": "Hubli",
-                                "priceModifier": -4000
-                            }
-                        ]
-                    },
-                    {
-                        "id": "chennai",
-                        "name": "Tamil Nadu",
-                        "basePrice": 187000,
-                        "cities": [
-                            {
-                                "id": "chennai-city",
-                                "name": "Chennai",
-                                "priceModifier": 0
-                            },
-                            {
-                                "id": "coimbatore",
-                                "name": "Coimbatore",
-                                "priceModifier": -2500
-                            },
-                            {
-                                "id": "madurai",
-                                "name": "Madurai",
-                                "priceModifier": -3000
-                            }
-                        ]
-                    },
-                    {
-                        "id": "kolkata",
-                        "name": "West Bengal",
-                        "basePrice": 186000,
-                        "cities": [
-                            {
-                                "id": "kolkata-city",
-                                "name": "Kolkata",
-                                "priceModifier": 0
-                            },
-                            {
-                                "id": "durgapur",
-                                "name": "Durgapur",
-                                "priceModifier": -1500
-                            },
-                            {
-                                "id": "siliguri",
-                                "name": "Siliguri",
-                                "priceModifier": -2000
-                            }
-                        ]
-                    }
-                ]
             },
-            "emiCalculator": {
-                "defaultValues": {
-                    "downPayment": 20000,
-                    "loanTenure": 36,
-                    "interestRate": 12
+            {
+                "id": "product-2",
+                "slug": "ev-riksha",
+                "brand": "Future Motors",
+                "model": "X",
+                "type": "Electric bkike",
+                "description": "Experience the future of driving with the Electric Car X. This innovative vehicle combines cutting-edge technology with sustainable design, offering a smooth and eco-friendly ride.",
+                "viewer360": {
+                    "imagePath": "/bajaj/",
+                    "imageCount": 8
                 },
-                "ranges": {
-                    "downPayment": {
-                        "min": 10000,
-                        "step": 5000
+                "colors": [
+                    {
+                        "id": "color-1",
+                        "name": "Midnight Black",
+                        "color": "#000000",
+                        "filter": "grayscale(100%)"
                     },
-                    "loanTenure": {
-                        "min": 12,
-                        "max": 60,
-                        "step": 6
+                    {
+                        "id": "color-2",
+                        "name": "Ocean Blue",
+                        "color": "#0077BE",
+                        "filter": "sepia(50%)"
                     },
-                    "interestRate": {
-                        "min": 8,
-                        "max": 18,
-                        "step": 0.5
+                    {
+                        "id": "color-3",
+                        "name": "Forest Green",
+                        "color": "#228B22",
+                        "filter": "invert(75%)"
                     }
+                ],
+                "pricing": {
+                    "states": [
+                        {
+                            "id": "state-1",
+                            "name": "California",
+                            "basePrice": 45000,
+                            "cities": [
+                                {
+                                    "id": "city-1",
+                                    "name": "Los Angeles",
+                                    "priceModifier": 1500
+                                },
+                                {
+                                    "id": "city-2",
+                                    "name": "San Francisco",
+                                    "priceModifier": 2000
+                                }
+                            ]
+                        },
+                        {
+                            "id": "state-2",
+                            "name": "Texas",
+                            "basePrice": 43000,
+                            "cities": [
+                                {
+                                    "id": "city-3",
+                                    "name": "Austin",
+                                    "priceModifier": 1000
+                                },
+                                {
+                                    "id": "city-4",
+                                    "name": "Dallas",
+                                    "priceModifier": 1200
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "emiCalculator": {
+                    "defaultValues": {
+                        "downPayment": 10000,
+                        "loanTenure": 36,
+                        "interestRate": 10.5
+                    },
+                    "ranges": {
+                        "downPayment": {
+                            "min": 5000,
+                            "step": 500
+                        },
+                        "loanTenure": {
+                            "min": 12,
+                            "max": 60,
+                            "step": 12
+                        },
+                        "interestRate": {
+                            "min": 5.0,
+                            "max": 15.0,
+                            "step": 0.5
+                        }
+                    },
+                    "financingCompanies": [
+                        {
+                            "id": "company-1",
+                            "name": "Green Loans",
+                            "interestRate": 9.5,
+                            "color": "#34D399"
+                        },
+                        {
+                            "id": "company-2",
+                            "name": "Eco Finance",
+                            "interestRate": 10.0,
+                            "color": "#22C55E"
+                        },
+                        {
+                            "id": "company-3",
+                            "name": "Clean Credit",
+                            "interestRate": 10.25,
+                            "color": "#16A34A"
+                        },
+                        {
+                            "id": "company-4",
+                            "name": "Future Bank",
+                            "interestRate": 10.75,
+                            "color": "#15803D"
+                        }
+                    ]
+                },
+                "featuresSteps": {
+                    "header": {
+                        "title": "Key Features",
+                        "subtitle": "Explore the advanced features of the Electric Car X",
+                        "description": "The Electric Car X is packed with innovative features designed to enhance your driving experience and promote sustainability."
+                    },
+                    "steps": [
+                        {
+                            "number": "1",
+                            "title": "Advanced Battery Technology",
+                            "text": "Our state-of-the-art battery provides a long-lasting charge and quick recharge times, ensuring you're always ready to go.",
+                            "image": "/img/auto.jpg",
+                            "icon": "/travel.png",
+                            "features": [
+                                {
+                                    "list": [
+                                        {
+                                            "strong": "Long Range",
+                                            "description": "Up to 400 miles on a single charge."
+                                        },
+                                        {
+                                            "strong": "Fast Charging",
+                                            "description": "80% charge in just 30 minutes."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number": "2",
+                            "title": "Smart Driving Assistance",
+                            "text": "Experience a safer and more convenient drive with our intelligent driver assistance systems.",
+                            "image": "/img/banner1.png",
+                            "icon": "/travel.png",
+                            "features": [
+                                {
+                                    "list": [
+                                        {
+                                            "strong": "Adaptive Cruise Control",
+                                            "description": "Maintains a safe distance from other vehicles."
+                                        },
+                                        {
+                                            "strong": "Lane Keep Assist",
+                                            "description": "Helps you stay in your lane."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "vehicleSpecs": {
+                    "performance": {
+                        "icon": "Gauge",
+                        "specs": [
+                            {
+                                "label": "Top Speed",
+                                "value": "155 mph",
+                                "badge": "Limited"
+                            },
+                            {
+                                "label": "Acceleration (0-60 mph)",
+                                "value": "4.5 seconds"
+                            },
+                            {
+                                "label": "Horsepower",
+                                "value": "400 hp"
+                            }
+                        ]
+                    },
+                    "battery": {
+                        "icon": "Battery",
+                        "specs": [
+                            {
+                                "label": "Battery Capacity",
+                                "value": "100 kWh"
+                            },
+                            {
+                                "label": "Range (EPA)",
+                                "value": "350 miles"
+                            },
+                            {
+                                "label": "Charging Time (240V)",
+                                "value": "8 hours"
+                            }
+                        ]
+                    },
+                    "safety": {
+                        "icon": "Shield",
+                        "specs": [
+                            {
+                                "label": "Airbags",
+                                "value": "6"
+                            },
+                            {
+                                "label": "Braking System",
+                                "value": "ABS"
+                            },
+                            {
+                                "label": "Driver Assistance",
+                                "value": "Advanced"
+                            }
+                        ]
+                    },
+                    "interior": {
+                        "icon": "Armchair",
+                        "specs": [
+                            {
+                                "label": "Seating Capacity",
+                                "value": "5"
+                            },
+                            {
+                                "label": "Upholstery",
+                                "value": "Premium Leather"
+                            },
+                            {
+                                "label": "Climate Control",
+                                "value": "Dual-Zone"
+                            }
+                        ]
+                    },
+                    "dimensions": {
+                        "icon": "Ruler",
+                        "specs": [
+                            {
+                                "label": "Length",
+                                "value": "4.7 meters"
+                            },
+                            {
+                                "label": "Width",
+                                "value": "1.9 meters"
+                            },
+                            {
+                                "label": "Height",
+                                "value": "1.5 meters"
+                            }
+                        ]
+                    },
+                    "drivetrain": {
+                        "icon": "Settings",
+                        "specs": [
+                            {
+                                "label": "Drive Type",
+                                "value": "All-Wheel Drive"
+                            },
+                            {
+                                "label": "Transmission",
+                                "value": "Single-Speed Automatic"
+                            },
+                            {
+                                "label": "Motor Type",
+                                "value": "Dual Electric Motors"
+                            }
+                        ]
+                    }
+                },
+                "gallery": {
+                    "header": {
+                        "title": "Explore the Gallery",
+                        "subtitle": "View stunning images of the Electric Car X",
+                        "description": "Browse our gallery to see the Electric Car X from every angle. Discover its sleek design and innovative features."
+                    },
+                    "images": [
+                        {
+                            "id": "image-1",
+                            "src": "/img/banner2.png",
+                            "alt": "Electric Car X - Front View"
+                        },
+                        {
+                            "id": "image-2",
+                            "src": "/img/auto.jpg",
+                            "alt": "Electric Car X - Interior"
+                        },
+                        {
+                            "id": "image-3",
+                            "src": "/img/download.webp",
+                            "alt": "Electric Car X - Side View"
+                        },
+                        {
+                            "id": "image-4",
+                            "src": "/img/heo-img.jpg",
+                            "alt": "Electric Car X - Back View"
+                        }
+                    ]
+                },
+                "faq": {
+                    "header": {
+                        "title": "Frequently Asked Questions",
+                        "subtitle": "Get answers to common questions about the Electric Car X",
+                        "description": "Find answers to the most frequently asked questions about the Electric Car X, including information about its features, performance, and sustainability."
+                    },
+                    "questions": [
+                        {
+                            "question": "What is the range of the Electric Car X?",
+                            "answer": "The Electric Car X has a range of up to 400 miles on a single charge."
+                        },
+                        {
+                            "question": "How long does it take to charge the Electric Car X?",
+                            "answer": "It takes approximately 8 hours to fully charge the Electric Car X using a 240V charger. Fast charging options are also available."
+                        },
+                        {
+                            "question": "What safety features does the Electric Car X have?",
+                            "answer": "The Electric Car X is equipped with advanced safety features, including airbags, ABS, and intelligent driver assistance systems."
+                        },
+                        {
+                            "question": "Is the Electric Car X environmentally friendly?",
+                            "answer": "Yes, the Electric Car X is designed to be environmentally friendly, producing zero emissions and promoting sustainable transportation."
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "product-1",
+                "slug": "electric-car-x-z",
+                "brand": "Future Motors",
+                "model": "X",
+                "type": "Electric Car",
+                "description": "Experience the future of driving with the Electric Car X. This innovative vehicle combines cutting-edge technology with sustainable design, offering a smooth and eco-friendly ride.",
+                "viewer360": {
+                    "imagePath": "/bajaj/",
+                    "imageCount": 8
+                },
+                "colors": [
+                    {
+                        "id": "color-1",
+                        "name": "Midnight Black",
+                        "color": "#000000",
+                        "filter": "grayscale(100%)"
+                    },
+                    {
+                        "id": "color-2",
+                        "name": "Ocean Blue",
+                        "color": "#0077BE",
+                        "filter": "sepia(50%)"
+                    },
+                    {
+                        "id": "color-3",
+                        "name": "Forest Green",
+                        "color": "#228B22",
+                        "filter": "invert(75%)"
+                    }
+                ],
+                "pricing": {
+                    "states": [
+                        {
+                            "id": "state-1",
+                            "name": "California",
+                            "basePrice": 45000,
+                            "cities": [
+                                {
+                                    "id": "city-1",
+                                    "name": "Los Angeles",
+                                    "priceModifier": 1500
+                                },
+                                {
+                                    "id": "city-2",
+                                    "name": "San Francisco",
+                                    "priceModifier": 2000
+                                }
+                            ]
+                        },
+                        {
+                            "id": "state-2",
+                            "name": "Texas",
+                            "basePrice": 43000,
+                            "cities": [
+                                {
+                                    "id": "city-3",
+                                    "name": "Austin",
+                                    "priceModifier": 1000
+                                },
+                                {
+                                    "id": "city-4",
+                                    "name": "Dallas",
+                                    "priceModifier": 1200
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "emiCalculator": {
+                    "defaultValues": {
+                        "downPayment": 10000,
+                        "loanTenure": 36,
+                        "interestRate": 10.5
+                    },
+                    "ranges": {
+                        "downPayment": {
+                            "min": 5000,
+                            "step": 500
+                        },
+                        "loanTenure": {
+                            "min": 12,
+                            "max": 60,
+                            "step": 12
+                        },
+                        "interestRate": {
+                            "min": 5.0,
+                            "max": 15.0,
+                            "step": 0.5
+                        }
+                    },
+                    "financingCompanies": [
+                        {
+                            "id": "company-1",
+                            "name": "Green Loans",
+                            "interestRate": 9.5,
+                            "color": "#34D399"
+                        },
+                        {
+                            "id": "company-2",
+                            "name": "Eco Finance",
+                            "interestRate": 10.0,
+                            "color": "#22C55E"
+                        },
+                        {
+                            "id": "company-3",
+                            "name": "Clean Credit",
+                            "interestRate": 10.25,
+                            "color": "#16A34A"
+                        },
+                        {
+                            "id": "company-4",
+                            "name": "Future Bank",
+                            "interestRate": 10.75,
+                            "color": "#15803D"
+                        }
+                    ]
+                },
+                "featuresSteps": {
+                    "header": {
+                        "title": "Key Features",
+                        "subtitle": "Explore the advanced features of the Electric Car X",
+                        "description": "The Electric Car X is packed with innovative features designed to enhance your driving experience and promote sustainability."
+                    },
+                    "steps": [
+                        {
+                            "number": "1",
+                            "title": "Advanced Battery Technology",
+                            "text": "Our state-of-the-art battery provides a long-lasting charge and quick recharge times, ensuring you're always ready to go.",
+                            "image": "/img/auto.jpg",
+                            "icon": "/travel.png",
+                            "features": [
+                                {
+                                    "list": [
+                                        {
+                                            "strong": "Long Range",
+                                            "description": "Up to 400 miles on a single charge."
+                                        },
+                                        {
+                                            "strong": "Fast Charging",
+                                            "description": "80% charge in just 30 minutes."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number": "2",
+                            "title": "Smart Driving Assistance",
+                            "text": "Experience a safer and more convenient drive with our intelligent driver assistance systems.",
+                            "image": "/img/banner1.png",
+                            "icon": "/travel.png",
+                            "features": [
+                                {
+                                    "list": [
+                                        {
+                                            "strong": "Adaptive Cruise Control",
+                                            "description": "Maintains a safe distance from other vehicles."
+                                        },
+                                        {
+                                            "strong": "Lane Keep Assist",
+                                            "description": "Helps you stay in your lane."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "vehicleSpecs": {
+                    "performance": {
+                        "icon": "Gauge",
+                        "specs": [
+                            {
+                                "label": "Top Speed",
+                                "value": "155 mph",
+                                "badge": "Limited"
+                            },
+                            {
+                                "label": "Acceleration (0-60 mph)",
+                                "value": "4.5 seconds"
+                            },
+                            {
+                                "label": "Horsepower",
+                                "value": "400 hp"
+                            }
+                        ]
+                    },
+                    "battery": {
+                        "icon": "Battery",
+                        "specs": [
+                            {
+                                "label": "Battery Capacity",
+                                "value": "100 kWh"
+                            },
+                            {
+                                "label": "Range (EPA)",
+                                "value": "350 miles"
+                            },
+                            {
+                                "label": "Charging Time (240V)",
+                                "value": "8 hours"
+                            }
+                        ]
+                    },
+                    "safety": {
+                        "icon": "Shield",
+                        "specs": [
+                            {
+                                "label": "Airbags",
+                                "value": "6"
+                            },
+                            {
+                                "label": "Braking System",
+                                "value": "ABS"
+                            },
+                            {
+                                "label": "Driver Assistance",
+                                "value": "Advanced"
+                            }
+                        ]
+                    },
+                    "interior": {
+                        "icon": "Armchair",
+                        "specs": [
+                            {
+                                "label": "Seating Capacity",
+                                "value": "5"
+                            },
+                            {
+                                "label": "Upholstery",
+                                "value": "Premium Leather"
+                            },
+                            {
+                                "label": "Climate Control",
+                                "value": "Dual-Zone"
+                            }
+                        ]
+                    },
+                    "dimensions": {
+                        "icon": "Ruler",
+                        "specs": [
+                            {
+                                "label": "Length",
+                                "value": "4.7 meters"
+                            },
+                            {
+                                "label": "Width",
+                                "value": "1.9 meters"
+                            },
+                            {
+                                "label": "Height",
+                                "value": "1.5 meters"
+                            }
+                        ]
+                    },
+                    "drivetrain": {
+                        "icon": "Settings",
+                        "specs": [
+                            {
+                                "label": "Drive Type",
+                                "value": "All-Wheel Drive"
+                            },
+                            {
+                                "label": "Transmission",
+                                "value": "Single-Speed Automatic"
+                            },
+                            {
+                                "label": "Motor Type",
+                                "value": "Dual Electric Motors"
+                            }
+                        ]
+                    }
+                },
+                "gallery": {
+                    "header": {
+                        "title": "Explore the Gallery",
+                        "subtitle": "View stunning images of the Electric Car X",
+                        "description": "Browse our gallery to see the Electric Car X from every angle. Discover its sleek design and innovative features."
+                    },
+                    "images": [
+                        {
+                            "id": "image-1",
+                            "src": "/img/banner2.png",
+                            "alt": "Electric Car X - Front View"
+                        },
+                        {
+                            "id": "image-2",
+                            "src": "/img/auto.jpg",
+                            "alt": "Electric Car X - Interior"
+                        },
+                        {
+                            "id": "image-3",
+                            "src": "/img/download.webp",
+                            "alt": "Electric Car X - Side View"
+                        },
+                        {
+                            "id": "image-4",
+                            "src": "/img/heo-img.jpg",
+                            "alt": "Electric Car X - Back View"
+                        }
+                    ]
+                },
+                "faq": {
+                    "header": {
+                        "title": "Frequently Asked Questions",
+                        "subtitle": "Get answers to common questions about the Electric Car X",
+                        "description": "Find answers to the most frequently asked questions about the Electric Car X, including information about its features, performance, and sustainability."
+                    },
+                    "questions": [
+                        {
+                            "question": "What is the range of the Electric Car X?",
+                            "answer": "The Electric Car X has a range of up to 400 miles on a single charge."
+                        },
+                        {
+                            "question": "How long does it take to charge the Electric Car X?",
+                            "answer": "It takes approximately 8 hours to fully charge the Electric Car X using a 240V charger. Fast charging options are also available."
+                        },
+                        {
+                            "question": "What safety features does the Electric Car X have?",
+                            "answer": "The Electric Car X is equipped with advanced safety features, including airbags, ABS, and intelligent driver assistance systems."
+                        },
+                        {
+                            "question": "Is the Electric Car X environmentally friendly?",
+                            "answer": "Yes, the Electric Car X is designed to be environmentally friendly, producing zero emissions and promoting sustainable transportation."
+                        }
+                    ]
                 }
             }
-        },
-        "featuresSteps": {
-            "header": {
-                "title": "НАШ КОНТИНГЕНТ",
-                "subtitle": "Логистическая компания «CARGO EXPERT» работает с 2015 года.",
-                "description": "Логистическая компания «CARGO EXPERT» работает с 2015 года. Мы оказываем услуги по доставке грузов по всей России и в страны СНГ. За время работы мы зарекомендовали себя как надежный партнер, который всегда выполняет свои обязательства в срок. Наша команда состоит из опытных специалистов, которые знают все тонкости логистического бизнеса и готовы решить любые задачи наших клиентов."
-            },
-            "steps": [
-                {
-                    "number": "01",
-                    "icon": "/travel.png",
-                    "image": "/demo.webp",
-                    "title": "Space Feasibility Consultation",
-                    "text": "Engage us even before securing your property—whether corporate or residential. Not every space will align with your goals. With our expert evaluation, we ensure your investment in real estate is optimized for both function and value, helping you make informed decisions early on.",
-                    "features": [
-                        {
-                            "list": [
-                                {
-                                    "strong": "Big Powerful Battery",
-                                    "description": "12.1 kWh LFP battery that lasts for an entire day."
-                                },
-                                {
-                                    "strong": "Eco Mode",
-                                    "description": "Optimizes performance and power usage automatically."
-                                },
-                                {
-                                    "strong": "Fast Charging",
-                                    "description": "Recharge to 80% in just 1 hour."
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "number": "02",
-                    "icon": "/travel.png",
-                    "image": "/demo.webp",
-                    "title": "Space Layout Design",
-                    "text": "Engage us even before securing your property—whether corporate or residential. Not every space will align with your goals. With our expert evaluation, we ensure your investment in real estate is optimized for both function and value, helping you make informed decisions early on.",
-                    "features": [
-                        {
-                            "list": [
-                                {
-                                    "strong": "Smart Layouts",
-                                    "description": "Optimized for productivity and space efficiency."
-                                },
-                                {
-                                    "strong": "Natural Light",
-                                    "description": "Maximizes daylight for energy efficiency."
-                                },
-                                {
-                                    "strong": "Modular Design",
-                                    "description": "Flexible elements for growth and change."
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "number": "03",
-                    "icon": "/travel.png",
-                    "image": "/demo.webp",
-                    "title": "Technical Services Design",
-                    "text": "Engage us even before securing your property—whether corporate or residential. Not every space will align with your goals. With our expert evaluation, we ensure your investment in real estate is optimized for both function and value, helping you make informed decisions early on.",
-                    "features": [
-                        {
-                            "list": [
-                                {
-                                    "strong": "Integrated HVAC",
-                                    "description": "Ensures comfort and clean airflow."
-                                },
-                                {
-                                    "strong": "Smart Automation",
-                                    "description": "Remote control and automation features."
-                                },
-                                {
-                                    "strong": "Optimized Cabling",
-                                    "description": "Reduces clutter and improves safety."
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "number": "04",
-                    "icon": "/travel.png",
-                    "image": "/demo.webp",
-                    "title": "Engage us even before securing",
-                    "text": "Engage us even before securing your property—whether corporate or residential. Not every space will align with your goals. With our expert evaluation, we ensure your investment in real estate is optimized for both function and value, helping you make informed decisions early on.",
-                    "features": [
-                        {
-                            "list": [
-                                {
-                                    "strong": "Material Variety",
-                                    "description": "Choose from durable and elegant finishes."
-                                },
-                                {
-                                    "strong": "Mood Boards",
-                                    "description": "Visual direction before execution."
-                                },
-                                {
-                                    "strong": "Eco-Friendly Options",
-                                    "description": "Sustainable and stylish materials."
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        "vehicleSpecs": {
-            "performance": {
-                "icon": "Gauge",
-                "specs": [
-                    {
-                        "label": "Top Speed",
-                        "value": "70 km/h"
-                    },
-                    {
-                        "label": "Acceleration",
-                        "value": "4.2s"
-                    },
-                    {
-                        "label": "Motor Power",
-                        "value": "3.5 kW",
-                        "badge": "High Performance"
-                    },
-                    {
-                        "label": "Motor Type",
-                        "value": "BLDC Hub Motor"
-                    },
-                    {
-                        "label": "Range (IDC)",
-                        "value": "125 km",
-                        "highlight": true
-                    },
-                    {
-                        "label": "Range (Real World)",
-                        "value": "100-110 km"
-                    },
-                    {
-                        "label": "Power Mode",
-                        "value": "Eco, Normal, Sport",
-                        "badge": "3 Modes"
-                    }
-                ]
-            },
-            "battery": {
-                "icon": "Battery",
-                "specs": [
-                    {
-                        "label": "Battery Capacity",
-                        "value": "12.1 kWh"
-                    },
-                    {
-                        "label": "Charger",
-                        "value": "On Board Charger",
-                        "badge": "Built-in"
-                    },
-                    {
-                        "label": "Charging Time",
-                        "value": "5 hrs 30 mins < 4 hrs (80%)",
-                        "highlight": true
-                    },
-                    {
-                        "label": "Water Resistance",
-                        "value": "IP67",
-                        "badge": "Waterproof"
-                    },
-                    {
-                        "label": "Battery Type",
-                        "value": "Lithium-ion",
-                        "badge": "Advanced"
-                    },
-                    {
-                        "label": "Warranty",
-                        "value": "3 Years"
-                    },
-                    {
-                        "label": "Fast Charging",
-                        "value": "Available",
-                        "badge": "Quick Charge"
-                    }
-                ]
-            },
-            "safety": {
-                "icon": "Shield",
-                "specs": [
-                    {
-                        "label": "Brakes",
-                        "value": "Front: Drum Rear: Drum"
-                    },
-                    {
-                        "label": "Regenerative Braking",
-                        "value": "Yes",
-                        "badge": "Energy Recovery"
-                    },
-                    {
-                        "label": "Tyres",
-                        "value": "Radial Tubeless - 120/80 R12",
-                        "badge": "Premium"
-                    },
-                    {
-                        "label": "Suspension",
-                        "value": "Front: Telescopic Fork Type, Rear: Swing Arm with Helical Coil Spring"
-                    },
-                    {
-                        "label": "Lighting",
-                        "value": "LED Front & Rear Lighting",
-                        "badge": "LED"
-                    },
-                    {
-                        "label": "Anti-theft",
-                        "value": "Remote Lock/Unlock",
-                        "badge": "Smart Security"
-                    },
-                    {
-                        "label": "Side Stand Sensor",
-                        "value": "Available",
-                        "badge": "Safety Feature"
-                    }
-                ]
-            },
-            "comfort": {
-                "icon": "Armchair",
-                "specs": [
-                    {
-                        "label": "Seat Type",
-                        "value": "Single Seat with Backrest",
-                        "badge": "Ergonomic"
-                    },
-                    {
-                        "label": "Storage",
-                        "value": "Under Seat Storage + Front Compartment",
-                        "badge": "Spacious"
-                    },
-                    {
-                        "label": "Display",
-                        "value": "Digital LCD Display",
-                        "badge": "Smart Display"
-                    },
-                    {
-                        "label": "Connectivity",
-                        "value": "Bluetooth + Mobile App",
-                        "badge": "Connected"
-                    },
-                    {
-                        "label": "USB Charging",
-                        "value": "Available",
-                        "badge": "Convenient"
-                    },
-                    {
-                        "label": "Riding Modes",
-                        "value": "Eco, Normal, Sport",
-                        "badge": "3 Modes"
-                    },
-                    {
-                        "label": "Keyless Start",
-                        "value": "Smart Key",
-                        "badge": "Premium"
-                    }
-                ]
-            },
-            "dimensions": {
-                "icon": "Ruler",
-                "specs": [
-                    {
-                        "label": "Length",
-                        "value": "1,859 mm"
-                    },
-                    {
-                        "label": "Width",
-                        "value": "684 mm"
-                    },
-                    {
-                        "label": "Height",
-                        "value": "1,115 mm"
-                    },
-                    {
-                        "label": "Wheelbase",
-                        "value": "1,285 mm",
-                        "highlight": true
-                    },
-                    {
-                        "label": "Ground Clearance",
-                        "value": "165 mm",
-                        "badge": "High Clearance"
-                    },
-                    {
-                        "label": "Kerb Weight",
-                        "value": "99 kg",
-                        "badge": "Lightweight"
-                    },
-                    {
-                        "label": "Load Capacity",
-                        "value": "150 kg",
-                        "badge": "Heavy Duty"
-                    }
-                ]
-            },
-            "drivetrain": {
-                "icon": "Settings",
-                "specs": [
-                    {
-                        "label": "Drive Type",
-                        "value": "Rear Wheel Drive",
-                        "badge": "RWD"
-                    },
-                    {
-                        "label": "Transmission",
-                        "value": "Automatic (Single Speed)",
-                        "badge": "Smooth"
-                    },
-                    {
-                        "label": "Motor Position",
-                        "value": "Rear Hub Mounted"
-                    },
-                    {
-                        "label": "Controller",
-                        "value": "BLDC Controller",
-                        "badge": "Advanced"
-                    },
-                    {
-                        "label": "Throttle",
-                        "value": "Twist Grip Throttle"
-                    },
-                    {
-                        "label": "Reverse Mode",
-                        "value": "Available",
-                        "badge": "Utility"
-                    },
-                    {
-                        "label": "Cruise Control",
-                        "value": "Available",
-                        "badge": "Comfort Feature"
-                    }
-                ]
-            }
-        },
-        "faq": {
-            "header": {
-                "title": "НАШ КОНТИНГЕНТ",
-                "subtitle": "Логистическая компания «CARGO EXPERT» работает с 2015 года.",
-                "description": "Логистическая компания «CARGO EXPERT» работает с 2015 года. Мы оказываем услуги по доставке грузов по всей России и в страны СНГ. За время работы мы зарекомендовали себя как надежный партнер, который всегда выполняет свои обязательства в срок. Наша команда состоит из опытных специалистов, которые знают все тонкости логистического бизнеса и готовы решить любые задачи наших клиентов."
-            },
-            "questions": [
-                {
-                    "question": "What is your return policy?",
-                    "answer": "We offer a 30-day return policy for all unused items in their original packaging. Simply contact our customer service team to initiate a return."
-                },
-                {
-                    "question": "How long does shipping take?",
-                    "answer": "Standard shipping typically takes 3-5 business days. Express shipping options are available for 1-2 day delivery."
-                },
-                {
-                    "question": "Do you offer international shipping?",
-                    "answer": "Yes, we ship to over 50 countries worldwide. International shipping times vary by location, typically 7-14 business days."
-                },
-                {
-                    "question": "How can I track my order?",
-                    "answer": "Once your order ships, you'll receive a tracking number via email. You can use this to track your package on our website or the carrier's site."
-                },
-                {
-                    "question": "What payment methods do you accept?",
-                    "answer": "We accept all major credit cards, PayPal, Apple Pay, Google Pay, and bank transfers for enterprise customers."
-                },
-                {
-                    "question": "Can I modify my order after placing it?",
-                    "answer": "You can modify your order within 1 hour of placing it. After that, please contact customer service for assistance."
-                },
-                {
-                    "question": "Do you offer bulk discounts?",
-                    "answer": "Yes, we offer volume discounts for orders over 50 units. Contact our sales team for custom pricing."
-                },
-                {
-                    "question": "What is your warranty policy?",
-                    "answer": "All products come with a 1-year manufacturer warranty. Extended warranty options are available at checkout."
-                },
-                {
-                    "question": "How do I create an account?",
-                    "answer": "Click the 'Sign Up' button in the top right corner, fill in your details, and verify your email address to get started."
-                },
-                {
-                    "question": "Can I save items for later?",
-                    "answer": "Yes, you can add items to your wishlist or save them in your cart for up to 30 days."
-                },
-                {
-                    "question": "Do you have a mobile app?",
-                    "answer": "Yes, our mobile app is available for both iOS and Android devices. Download it from your device's app store."
-                },
-                {
-                    "question": "How do I contact customer support?",
-                    "answer": "You can reach us via email, live chat, or phone. Our support team is available 24/7 to assist you."
-                }
-            ]
-        },
-        "gallery": {
-            "header": {
-                "title": "НАШ КОНТИНГЕНТ",
-                "subtitle": "Логистическая компания «CARGO EXPERT» работает с 2015 года.",
-                "description": "Логистическая компания «CARGO EXPERT» работает с 2015 года. Мы оказываем услуги по доставке грузов по всей России и в страны СНГ. За время работы мы зарекомендовали себя как надежный партнер, который всегда выполняет свои обязательства в срок. Наша команда состоит из опытных специалистов, которые знают все тонкости логистического бизнеса и готовы решить любые задачи наших клиентов."
-            },
-            "images": [
-                {
-                    "id": 1,
-                    "src": "/bajaj/1.png",
-                    "alt": "Image 1"
-                },
-                {
-                    "id": 2,
-                    "src": "/bajaj/2.png",
-                    "alt": "Image 2"
-                },
-                {
-                    "id": 3,
-                    "src": "/bajaj/3.png",
-                    "alt": "Image 3"
-                },
-                {
-                    "id": 4,
-                    "src": "/bajaj/4.png",
-                    "alt": "Image 4"
-                },
-                {
-                    "id": 5,
-                    "src": "/bajaj/5.png",
-                    "alt": "Image 5"
-                },
-                {
-                    "id": 6,
-                    "src": "/bajaj/6.png",
-                    "alt": "Image 6"
-                },
-                {
-                    "id": 7,
-                    "src": "/bajaj/7.png",
-                    "alt": "Image 7"
-                },
-                {
-                    "id": 8,
-                    "src": "/bajaj/8.png",
-                    "alt": "Image 8"
-                }
-            ]
-        }
+        ]
     }
 }

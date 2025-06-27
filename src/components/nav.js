@@ -133,8 +133,13 @@ export default function Navbar() {
     <nav className="bg-green-800 shadow-lg py-2 relative z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center gap-2">
-          <Image src="/logo.png" alt="logo" width={150} height={150} />
-
+          <Image
+            src="/logo.png"
+            alt="logo"
+            width={150}
+            height={150}
+            className="w-[150px]"
+          />
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
               <div className="relative">
@@ -154,7 +159,7 @@ export default function Navbar() {
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -10 }}
                       transition={{ duration: 0.2 }}
-                      className="absolute left-0 top-[35px] mt-2 w-[800px] bg-green-700 rounded-lg shadow-xl border border-green-500"
+                      className="absolute left-0 top-[45px] mt-2 w-[800px] bg-green-700 rounded-lg shadow-xl"
                       onMouseEnter={() => setIsVehiclesOpen(true)}
                       onMouseLeave={() => setIsVehiclesOpen(false)}
                     >

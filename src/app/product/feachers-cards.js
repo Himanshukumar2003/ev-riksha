@@ -1,20 +1,24 @@
 "use client";
 import Image from "next/image";
 import Container from "@mui/material/Container";
-import vehicleData from "@/data/vehicle-data.json";
 
-const StepsSection = () => {
-  const { featuresSteps } = vehicleData.vehicleShowcase;
+const StepsSection = ({ product }) => {
+  const { featuresSteps } = product;
+
   return (
     <section className="section py-16">
       <Container maxWidth="xl">
-        <div className="grid grid-cols-2 mb-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 mb-10 gap-8">
           <div className="mb-5">
-            <h2 className=" font-bold mb-6">{featuresSteps.header.title}</h2>
-            <p>{featuresSteps.header.subtitle}</p>
+            <h2 className="text-4xl font-bold mb-6">
+              {featuresSteps.header.title}
+            </h2>
+            <p className="text-xl text-gray-700">
+              {featuresSteps.header.subtitle}
+            </p>
           </div>
 
-          <div className="">
+          <div>
             <p className="text-gray-500 max-w-3xl leading-relaxed">
               {featuresSteps.header.description}
             </p>
@@ -33,29 +37,35 @@ const StepsSection = () => {
               >
                 {/* Image Block */}
                 <div
-                  className={`h-full bg-cover min-h-[400px] bg-center rounded-xl bg-fixed shadow-md 
-      ${isEven ? "md:order-1" : "md:order-2"} order-1`}
-                  style={{ backgroundImage: `url(${step.image})` }}
-                ></div>
+                  className={`h-full bg-cover min-h-[400px] bg-center rounded-xl shadow-md relative overflow-hidden
+                    ${isEven ? "md:order-1" : "md:order-2"} order-1`}
+                >
+                  <Image
+                    src={step.image || "/placeholder.svg?height=400&width=600"}
+                    alt={step.title}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
 
                 {/* Content Block */}
                 <div
                   className={`relative flex flex-col justify-center h-full 
-      ${
-        isEven
-          ? "md:order-2 items-start text-left"
-          : "md:order-1 items-end text-right"
-      } order-2`}
+                    ${
+                      isEven
+                        ? "md:order-2 items-start text-left"
+                        : "md:order-1 items-end text-right"
+                    } order-2`}
                 >
                   <Image
-                    src={step.icon || "/placeholder.svg"}
+                    src={step.icon || "/placeholder.svg?height=60&width=60"}
                     alt="icon"
                     width={60}
                     height={60}
                     className="mb-4"
                   />
                   <h2 className="text-4xl font-light mb-4">{step.title}</h2>
-                  <p className="mb-4 max-w-xl">{step.text}</p>
+                  <p className="mb-4 max-w-xl text-gray-600">{step.text}</p>
 
                   <div
                     className={`absolute text-[130px] lg:text-[250px] font-bold text-gray-100 z-[-1] -top-[100px] ${
@@ -67,15 +77,12 @@ const StepsSection = () => {
 
                   {/* Features */}
                   <div className="space-y-4 mt-4">
-                    <h2 className="text-2xl">Features</h2>
+                    <h3 className="text-2xl font-semibold">Key Features</h3>
                     {step.features.map((feature, fIndex) => (
                       <ul key={fIndex} className="space-y-2">
                         {feature.list.map((item, i) => (
-                          <li
-                            key={i}
-                            className="text-sm leading-relaxed italic"
-                          >
-                            <strong className="text-emerald-600">
+                          <li key={i} className="text-sm leading-relaxed">
+                            <strong className="text-green-600">
                               {item.strong}
                             </strong>
                             {`: ${item.description}`}

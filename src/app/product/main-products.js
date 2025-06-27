@@ -1,45 +1,67 @@
 "use client";
 import { useState, useEffect } from "react";
 import { Download, MessageCircle, MapPin, Palette } from "lucide-react";
-import Container from "@mui/material/Container";
+import Image from "next/image";
+import PaymentBreakdownChart from "./payment-breakdown-chart";
 import React360Viewer from "react-360-view";
 
-import vehicleData from "@/data/vehicle-data.json";
-const MainProductViewer = () => {
-  const { mainProduct } = vehicleData.vehicleShowcase;
-  const [selectedColor, setSelectedColor] = useState(mainProduct.colors[0].id);
+export default function MainProductViewer({ productSlug }) {
+  const [product, setProduct] = useState(null);
+  const [selectedColor, setSelectedColor] = useState("");
   const [selectedState, setSelectedState] = useState("");
   const [selectedCity, setSelectedCity] = useState("");
-  const [currentPrice, setCurrentPrice] = useState(185000);
+  const [currentPrice, setCurrentPrice] = useState(0);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const [loanAmount, setLoanAmount] = useState(0);
-  const [downPayment, setDownPayment] = useState(
-    mainProduct.emiCalculator.defaultValues.downPayment
-  );
-  const [loanTenure, setLoanTenure] = useState(
-    mainProduct.emiCalculator.defaultValues.loanTenure
-  );
-  const [interestRate, setInterestRate] = useState(
-    mainProduct.emiCalculator.defaultValues.interestRate
-  );
+  const [downPayment, setDownPayment] = useState(0);
+  const [loanTenure, setLoanTenure] = useState(36);
+  const [interestRate, setInterestRate] = useState(10.5);
   const [emiAmount, setEmiAmount] = useState(0);
+  const [totalInterest, setTotalInterest] = useState(0);
 
-  const currentColorFilter =
-    mainProduct.colors.find((c) => c.id === selectedColor)?.filter || "";
+  // Load product data
+  useEffect(() => {
+    const loadProduct = async () => {
+      try {
+        const vehicleData = await import("@/data/vehicle-data.json");
+        const foundProduct = vehicleData.vehicleShowcase.products.find(
+          (p) => p.slug === productSlug
+        );
+
+        if (foundProduct) {
+          setProduct(foundProduct);
+          setSelectedColor(foundProduct.colors[0].id);
+          setDownPayment(foundProduct.emiCalculator.defaultValues.downPayment);
+          setLoanTenure(foundProduct.emiCalculator.defaultValues.loanTenure);
+          setInterestRate(
+            foundProduct.emiCalculator.defaultValues.interestRate
+          );
+
+          // Set initial price
+          if (foundProduct.pricing.states.length > 0) {
+            setCurrentPrice(foundProduct.pricing.states[0].basePrice);
+          }
+        }
+      } catch (error) {
+        console.error("Error loading product:", error);
+      }
+    };
+
+    loadProduct();
+  }, [productSlug]);
 
   // Update price when state and city change
   useEffect(() => {
-    if (selectedState && selectedCity) {
-      const state = mainProduct.pricing.states.find(
-        (s) => s.id === selectedState
-      );
+    if (product && selectedState && selectedCity) {
+      const state = product.pricing.states.find((s) => s.id === selectedState);
       const city = state?.cities?.find((c) => c.id === selectedCity);
 
       if (state && city) {
         setCurrentPrice(state.basePrice + city.priceModifier);
       }
     }
-  }, [selectedState, selectedCity]);
+  }, [product, selectedState, selectedCity]);
 
   const formatPrice = (price) => {
     return price.toLocaleString("en-IN");
@@ -55,23 +77,24 @@ const MainProductViewer = () => {
 
   // Calculate EMI when price or loan parameters change
   useEffect(() => {
-    const principal = currentPrice - downPayment;
-    if (principal > 0) {
-      setLoanAmount(principal);
-      const emi = calculateEMI(principal, interestRate, loanTenure);
-      setEmiAmount(emi);
+    if (currentPrice > 0) {
+      const principal = currentPrice - downPayment;
+      if (principal > 0) {
+        setLoanAmount(principal);
+        const emi = calculateEMI(principal, interestRate, loanTenure);
+        setEmiAmount(emi);
+        setTotalInterest(emi * loanTenure - principal);
+      }
     }
   }, [currentPrice, downPayment, interestRate, loanTenure]);
 
   const getCurrentLocation = () => {
-    if (selectedState && selectedCity) {
-      const state = mainProduct.pricing.states.find(
-        (s) => s.id === selectedState
-      );
+    if (selectedState && selectedCity && product) {
+      const state = product.pricing.states.find((s) => s.id === selectedState);
       const city = state?.cities?.find((c) => c.id === selectedCity);
       return `${city?.name}, ${state?.name}`;
     }
-    return "New Delhi";
+    return "Select Location";
   };
 
   const handleStateChange = (value) => {
@@ -79,13 +102,36 @@ const MainProductViewer = () => {
     setSelectedCity(""); // Reset city when state changes
   };
 
+  // Auto-rotate images
+  useEffect(() => {
+    if (product) {
+      const interval = setInterval(() => {
+        setCurrentImageIndex(
+          (prev) => (prev + 1) % product.viewer360.imageCount
+        );
+      }, 2000);
+
+      return () => clearInterval(interval);
+    }
+  }, [product]);
+
+  if (!product) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-green-500 mx-auto"></div>
+          <p className="mt-4 text-gray-600">Loading product...</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <>
-      <div className="section bg-gray-100">
-        <div className="min-h-screen ">
+      <div className="bg-gray-100 py-16">
+        <div className="min-h-screen">
           <div className="max-w-7xl mx-auto px-4">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
-              {/* 360 Viewer Placeholder */}
               <div className="relative">
                 <div className=" ">
                   <div
@@ -130,50 +176,47 @@ const MainProductViewer = () => {
               </div>
 
               {/* Product Details */}
-              <div className="bg-white rounded-3xl shadow-md p-8 border border-white/20 backdrop-blur-sm  transition-all duration-300">
+              <div className="bg-white rounded-3xl shadow-md p-8 border border-white/20 backdrop-blur-sm transition-all duration-300">
                 {/* Header */}
                 <div className="border-b border-gray-100 pb-6 mb-6">
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="w-12 h-12 bg-[var(--color-primary-dark)] rounded-xl flex items-center justify-center shadow-lg">
+                    <div className="w-12 h-12 bg-green-600 rounded-xl flex items-center justify-center shadow-lg">
                       <span className="text-white text-lg font-bold">
-                        {mainProduct.brand.charAt(0)}
+                        {product.brand.charAt(0)}
                       </span>
                     </div>
                     <div>
                       <div className="text-sm text-gray-500 font-medium">
-                        {mainProduct.brand}
+                        {product.brand}
                       </div>
                       <div className="font-bold text-xl text-gray-800">
-                        {mainProduct.model}
+                        {product.type}
                       </div>
                     </div>
                   </div>
 
-                  <h3 className="mb-4 text-3xl font-bold leading-tight bg-gradient-to-r text-[var(--color-secondary)]  bg-clip-text ">
-                    {mainProduct.type}
-                  </h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
-                    {mainProduct.description}
+                    {product.description}
                   </p>
                 </div>
 
                 {/* Color Selection */}
                 <div className="mb-8">
                   <div className="flex items-center gap-2 mb-4">
-                    <Palette className="w-5 h-5 text-[var(--color-primary-dark)]" />
+                    <Palette className="w-5 h-5 text-green-600" />
                     <h3 className="text-lg font-semibold text-gray-700">
                       Select Color
                     </h3>
                   </div>
 
                   <div className="flex flex-wrap gap-3 mb-3">
-                    {mainProduct.colors.map((color) => (
+                    {product.colors.map((color) => (
                       <button
                         key={color.id}
                         className={`relative w-8 h-8 rounded-xl border-2 border-transparent transition-all duration-300 transform hover:scale-110 ${
                           selectedColor === color.id
-                            ? "border-[var(--color-primary-dark)] ring-2 ring-green-200 scale-110 shadow-xl"
-                            : "border-gray-300 hover:border-[var(--color-primary-light)] hover:shadow-lg"
+                            ? "border-green-600 ring-2 ring-green-200 scale-110 shadow-xl"
+                            : "border-gray-300 hover:border-green-400 hover:shadow-lg"
                         }`}
                         style={{ backgroundColor: color.color }}
                         onClick={() => setSelectedColor(color.id)}
@@ -186,12 +229,16 @@ const MainProductViewer = () => {
                       </button>
                     ))}
                   </div>
+                  <p className="text-sm text-gray-600">
+                    Selected:{" "}
+                    {product.colors.find((c) => c.id === selectedColor)?.name}
+                  </p>
                 </div>
 
                 {/* Pricing Section */}
                 <div className="mb-8">
                   <div className="flex items-center gap-2 mb-4">
-                    <MapPin className="w-5 h-5 text-[var(--color-primary-dark)]" />
+                    <MapPin className="w-5 h-5 text-green-600" />
                     <h3 className="text-lg font-semibold text-gray-700">
                       Pricing Details
                     </h3>
@@ -199,12 +246,12 @@ const MainProductViewer = () => {
 
                   <div className="grid grid-cols-2 gap-3 mb-6">
                     <select
-                      className="border-2 border-green-200 py-3 px-4 rounded-xl text-sm focus:outline-none focus:ring-4 focus:ring-green-200 focus:border-[  var(--color-secondary)] transition-all duration-300 bg-white shadow-sm"
+                      className="border-2 border-green-200 py-3 px-4 rounded-xl text-sm focus:outline-none focus:ring-4 focus:ring-green-200 focus:border-green-500 transition-all duration-300 bg-white shadow-sm"
                       value={selectedState}
                       onChange={(e) => handleStateChange(e.target.value)}
                     >
                       <option value="">Select State*</option>
-                      {mainProduct.pricing.states.map((state) => (
+                      {product.pricing.states.map((state) => (
                         <option key={state.id} value={state.id}>
                           {state.name}
                         </option>
@@ -212,14 +259,14 @@ const MainProductViewer = () => {
                     </select>
 
                     <select
-                      className="border-2 border-green-200 py-3 px-4 rounded-xl text-sm focus:outline-none focus:ring-4 focus:ring-green-200 focus:border-[  var(--color-secondary)] transition-all duration-300 bg-white shadow-sm"
+                      className="border-2 border-green-200 py-3 px-4 rounded-xl text-sm focus:outline-none focus:ring-4 focus:ring-green-200 focus:border-green-500 transition-all duration-300 bg-white shadow-sm"
                       value={selectedCity}
                       onChange={(e) => setSelectedCity(e.target.value)}
                       disabled={!selectedState}
                     >
                       <option value="">Select City*</option>
                       {selectedState &&
-                        mainProduct.pricing.states
+                        product.pricing.states
                           .find((s) => s.id === selectedState)
                           ?.cities?.map((city) => (
                             <option key={city.id} value={city.id}>
@@ -229,19 +276,19 @@ const MainProductViewer = () => {
                     </select>
                   </div>
 
-                  <div className="bg-green-200 p-4 rounded-2xl border border-green-500">
-                    <div className="flex items-baseline gap-2 mb-2 italic">
-                      <span className="text-4xl font-bold text-[var(--color-secondary)]">
+                  <div className="bg-green-50 p-4 rounded-2xl border border-green-200">
+                    <div className="flex items-baseline gap-2 mb-2">
+                      <span className="text-4xl font-bold text-green-600">
                         ₹
                       </span>
-                      <span className="text-3xl font-bold text-gray-800 ">
+                      <span className="text-3xl font-bold text-gray-800">
                         {formatPrice(currentPrice)}
                       </span>
                       <span className="text-lg text-gray-600">/-</span>
                     </div>
                     <p className="text-sm text-gray-600">
                       Ex-showroom Price{" "}
-                      <span className="font-semibold text-[var(--color-primary-dark)]">
+                      <span className="font-semibold text-green-600">
                         {getCurrentLocation()}
                       </span>
                     </p>
@@ -254,12 +301,12 @@ const MainProductViewer = () => {
                 </div>
 
                 {/* Action Buttons */}
-                <div className=" flex gap-2 items-center ">
-                  <button className=" bg-gray-800  w-full flex gap-2 items-center justify-center hover:bg-gray-900 text-white py-3 px-6 rounded-full font-semibold transition-all duration-300">
+                <div className="flex gap-2 items-center">
+                  <button className="bg-gray-800 w-full flex gap-2 items-center justify-center hover:bg-gray-900 text-white py-3 px-6 rounded-full font-semibold transition-all duration-300">
                     <Download className="w-4 h-4" />
                     Download Brochure
                   </button>
-                  <button className=" bg-gray-800  flex gap-2 w-full justify-center items-center  hover:bg-gray-900 text-white py-3 px-6 rounded-full font-semibold transition-all duration-300">
+                  <button className="bg-gray-800 flex gap-2 w-full justify-center items-center hover:bg-gray-900 text-white py-3 px-6 rounded-full font-semibold transition-all duration-300">
                     <MessageCircle className="w-4 h-4" />
                     Enquire Now
                   </button>
@@ -271,19 +318,19 @@ const MainProductViewer = () => {
       </div>
 
       {/* EMI Calculator */}
-      <div className="section">
-        <Container maxWidth="xl">
+      <div className="py-16">
+        <div className="max-w-7xl mx-auto px-4">
           <div className="bg-white rounded-3xl shadow-md p-8 border border-gray-100">
             <h2 className="text-2xl font-bold text-gray-800 mb-8">
               EMI Calculator
             </h2>
 
-            <div className="grid lg:grid-cols-2 gap-8 justify-center items-center">
+            <div className="grid lg:grid-cols-2 gap-8 justify-center items-center overflow-visible">
               {/* Left Side - Inputs */}
               <div className="space-y-6">
                 {/* Down Payment */}
                 <div>
-                  <label className="block text-sm font-medium  text-[var(--color-secondary)] mb-3">
+                  <label className="block text-sm font-medium text-green-600 mb-3">
                     Down Payment Amount
                   </label>
                   <div className="text-2xl font-bold text-gray-800 mb-2">
@@ -291,9 +338,9 @@ const MainProductViewer = () => {
                   </div>
                   <input
                     type="range"
-                    min={mainProduct.emiCalculator.ranges.downPayment.min}
+                    min={product.emiCalculator.ranges.downPayment.min}
                     max={currentPrice * 0.5}
-                    step={mainProduct.emiCalculator.ranges.downPayment.step}
+                    step={product.emiCalculator.ranges.downPayment.step}
                     value={downPayment}
                     onChange={(e) => setDownPayment(Number(e.target.value))}
                     className="w-full h-2 accent-[var(--color-secondary)] bg-green-100 rounded-lg appearance-none cursor-pointer slider-green"
@@ -302,7 +349,7 @@ const MainProductViewer = () => {
                     <span>
                       ₹
                       {formatPrice(
-                        mainProduct.emiCalculator.ranges.downPayment.min
+                        product.emiCalculator.ranges.downPayment.min
                       )}
                     </span>
                     <span>₹{formatPrice(currentPrice * 0.5)}</span>
@@ -311,7 +358,7 @@ const MainProductViewer = () => {
 
                 {/* Loan Tenure */}
                 <div>
-                  <label className="block text-sm font-medium text-[var(--color-secondary)]  mb-3">
+                  <label className="block text-sm font-medium text-green-600 mb-3">
                     Loan Tenure (Months)
                   </label>
                   <div className="text-2xl font-bold text-gray-800 mb-2">
@@ -319,163 +366,140 @@ const MainProductViewer = () => {
                   </div>
                   <input
                     type="range"
-                    min={mainProduct.emiCalculator.ranges.loanTenure.min}
-                    max={mainProduct.emiCalculator.ranges.loanTenure.max}
-                    step={mainProduct.emiCalculator.ranges.loanTenure.step}
+                    min={product.emiCalculator.ranges.loanTenure.min}
+                    max={product.emiCalculator.ranges.loanTenure.max}
+                    step={product.emiCalculator.ranges.loanTenure.step}
                     value={loanTenure}
                     onChange={(e) => setLoanTenure(Number(e.target.value))}
                     className="w-full h-2 accent-[var(--color-secondary)] bg-green-100 rounded-lg appearance-none cursor-pointer slider-green"
                   />
                   <div className="flex justify-between text-xs text-gray-500 mt-1">
                     <span>
-                      {mainProduct.emiCalculator.ranges.loanTenure.min} months
+                      {product.emiCalculator.ranges.loanTenure.min} months
                     </span>
                     <span>
-                      {mainProduct.emiCalculator.ranges.loanTenure.max} months
+                      {product.emiCalculator.ranges.loanTenure.max} months
                     </span>
                   </div>
                 </div>
 
-                {/* Interest Rate */}
+                {/* Financing Companies */}
                 <div>
-                  <label className="block text-sm font-medium text-[var(--color-secondary)] mb-3">
-                    Interest Rate (Annual)
+                  <label className="block text-sm font-medium text-green-600 mb-3">
+                    Select Financing Partner
                   </label>
-                  <div className="text-2xl font-bold text-gray-800 mb-2">
-                    {interestRate}%
-                  </div>
-                  <input
-                    type="range"
-                    min={mainProduct.emiCalculator.ranges.interestRate.min}
-                    max={mainProduct.emiCalculator.ranges.interestRate.max}
-                    step={mainProduct.emiCalculator.ranges.interestRate.step}
-                    value={interestRate}
-                    onChange={(e) => setInterestRate(Number(e.target.value))}
-                    className="w-full h-2 accent-[var(--color-secondary)] bg-green-100 rounded-lg appearance-none cursor-pointer slider-green"
-                  />
-                  <div className="flex justify-between text-xs text-gray-500 mt-1">
-                    <span>
-                      {mainProduct.emiCalculator.ranges.interestRate.min}%
-                    </span>
-                    <span>
-                      {mainProduct.emiCalculator.ranges.interestRate.max}%
-                    </span>
-                  </div>
-                </div>
-
-                <button className="w-full bg-gray-800 hover:bg-gray-900 text-white py-3 px-6 rounded-full font-semibold transition-all duration-300">
-                  Calculate EMI
-                </button>
-              </div>
-
-              {/* Right Side - Results */}
-              <div className="space-y-6 relative">
-                {/* Pie Chart Representation */}
-                <div className="flex items-center justify-center   absolute -top-15  right-0  ">
-                  <div className="relative w-32 h-32 ">
-                    <svg
-                      className="w-32 h-32 transform -rotate-90 "
-                      viewBox="0 0 100 100"
-                    >
-                      <circle
-                        cx="50"
-                        cy="50"
-                        r="40"
-                        fill="none"
-                        stroke="#e5e7eb"
-                        strokeWidth="10"
-                      />
-                      <circle
-                        cx="50"
-                        cy="50"
-                        r="40"
-                        fill="none"
-                        stroke="#ef4444"
-                        strokeWidth="10"
-                        strokeDasharray={`${
-                          (downPayment / currentPrice) * 251.2
-                        } 251.2`}
-                        strokeLinecap="round"
-                      />
-                    </svg>
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="text-center text-[var(--color-secondary)]">
-                        <div className="text-sm font-bold text-gray-600">
-                          {((downPayment / currentPrice) * 100).toFixed(1)}%
+                  <div className="grid grid-cols-2 gap-3">
+                    {product.emiCalculator.financingCompanies.map((company) => (
+                      <button
+                        key={company.id}
+                        onClick={() => setInterestRate(company.interestRate)}
+                        className={`py-2 rounded-xl border-2 transition-all duration-300 hover:scale-105 ${
+                          Math.abs(interestRate - company.interestRate) < 0.1
+                            ? "border-green-500 bg-green-50 shadow-lg ring-2 ring-green-200"
+                            : "border-gray-200 bg-white hover:border-green-300 hover:shadow-md"
+                        }`}
+                      >
+                        <div className="text-center">
+                          <div
+                            className="w-12 h-12 rounded-full mx-auto mb-2 flex items-center justify-center text-white font-bold text-lg"
+                            style={{ backgroundColor: company.color }}
+                          >
+                            {company.name.charAt(0)}
+                          </div>
+                          <div className="text-sm font-semibold text-gray-800 mb-1">
+                            {company.name}
+                          </div>
+                          <div className="text-lg font-bold text-green-600">
+                            {company.interestRate}%
+                          </div>
                         </div>
-                        <div className="text-xs text-gray-500">Down</div>
-                      </div>
+                      </button>
+                    ))}
+                  </div>
+                  <div className="mt-3 text-center">
+                    <div className="text-sm text-gray-600">
+                      Selected Interest Rate:
+                    </div>
+                    <div className="text-xl font-bold text-green-600">
+                      {interestRate}% per annum
                     </div>
                   </div>
                 </div>
+              </div>
 
+              {/* Right Side - Results */}
+              <div className=" relative    ">
                 {/* Loan Summary */}
-                <div className="bg-gray-50 rounded-t-2xl p-4  pt-10 m-0">
-                  <h3 className="font-semibold text-gray-700 text-2xl border-b border-gray-200 pb-2">
+                <div className="bg-gray-50 rounded-t-2xl p-6">
+                  <h3 className="font-semibold text-gray-700 text-xl mb-4">
                     Loan Summary
                   </h3>
-                  <div className="pt-4">
+                  <div className="space-y-3">
                     <div className="flex justify-between">
-                      <span className="text-gray-600 text-lg">
-                        Vehicle Price
-                      </span>
+                      <span className="text-gray-600">Vehicle Price</span>
                       <span className="font-semibold">
                         ₹{formatPrice(currentPrice)}
                       </span>
                     </div>
-
                     <div className="flex justify-between">
-                      <span className="text-gray-600 text-lg">
-                        Down Payment
-                      </span>
+                      <span className="text-gray-600">Down Payment</span>
                       <span className="font-semibold">
                         ₹{formatPrice(downPayment)}
                       </span>
                     </div>
-
                     <div className="flex justify-between">
-                      <span className="text-gray-600 text-lg">Loan Amount</span>
+                      <span className="text-gray-600">Loan Amount</span>
                       <span className="font-semibold">
                         ₹{formatPrice(loanAmount)}
+                      </span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-600">Interest Rate</span>
+                      <span className="font-semibold">
+                        {interestRate}% p.a.
                       </span>
                     </div>
                   </div>
                 </div>
 
-                <div className="bg-gradient-to-r from-green-300 to-green-300 rounded-b-2xl p-6 text-white">
-                  <h3 className="font-semibold mb-4">Required Payments</h3>
-
-                  <div className="grid grid-cols-2 gap-4">
-                    <div>
-                      <div className="text-sm opacity-90">Monthly EMI</div>
-                      <div className="text-2xl font-bold">
-                        ₹{formatPrice(emiAmount)}
-                      </div>
+                <div className="bg-gradient-to-r from-green-500 to-green-600 rounded-b-2xl p-6 text-white">
+                  <h3 className="font-semibold mb-4">Monthly Payment</h3>
+                  <div className="mt-6 pb-4 border-b border-green-400">
+                    <div className="flex justify-between mb-2">
+                      <span className="text-sm opacity-90">Total Interest</span>
+                      <span className="font-bold">
+                        ₹{formatPrice(totalInterest)}
+                      </span>
                     </div>
-                    <div>
-                      <div className="text-sm opacity-90">Total Interest</div>
-                      <div className="text-2xl font-bold">
-                        ₹{formatPrice(emiAmount * loanTenure - loanAmount)}
-                      </div>
+                    <div className="flex justify-between">
+                      <span className="text-sm opacity-90">
+                        Total Amount Payable
+                      </span>
+                      <span className="font-bold">
+                        ₹{formatPrice(emiAmount * loanTenure + downPayment)}
+                      </span>
                     </div>
                   </div>
-
-                  <div className="mt-4 pt-4 border-t border-gray-200">
-                    <div className="text-sm opacity-90">
-                      Total Amount Payable
+                  <div className="pt-4">
+                    <div className="text-4xl font-bold mb-2">
+                      ₹{formatPrice(emiAmount)}
                     </div>
-                    <div className="text-xl font-bold">
-                      ₹{formatPrice(emiAmount * loanTenure + downPayment)}
+                    <div className="text-sm opacity-90">
+                      per month for {loanTenure} months
                     </div>
                   </div>
                 </div>
+                <PaymentBreakdownChart
+                  loanAmount={loanAmount}
+                  totalInterest={totalInterest}
+                  downPayment={downPayment}
+                  formatPrice={formatPrice}
+                />
               </div>
             </div>
           </div>
-        </Container>
+        </div>
       </div>
     </>
   );
-};
-
-export default MainProductViewer;
+}
