@@ -91,160 +91,166 @@ export default function ContactSection() {
 
   return (
     <>
-      <section className="flex justify-center items-center">
+      <section className="flex justify-center items-center bg-green-50">
         <div className="grid lg:grid-cols-2 gap-0 items-start ">
-          <div className="container mx-auto">
-            <div className=" p-10 rounded-4xl">
-              <h3 className="text-2xl font-bold text-gray-900 mb-8">
-                Send a Message
-              </h3>
+          <div className="flex justify-center items-center h-[100vh] ">
+            <div className=" container mx-auto">
+              <div className=" p-10 rounded-4xl">
+                <h3 className="text-2xl font-bold text-gray-900 mb-8">
+                  Send a Message
+                </h3>
 
-              <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
-                {/* First & Last Name */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
+                  {/* First & Last Name */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                      <label
+                        htmlFor="firstName"
+                        className="block text-sm font-medium text-gray-700 mb-2"
+                      >
+                        First Name *
+                      </label>
+                      <Input
+                        id="firstName"
+                        {...register("firstName")}
+                        className={`border-gray-200 focus:border-[var(--color-primary-light)] focus:ring-[var(--color-primary-light)] ${
+                          errors.firstName
+                            ? "border-red-500 focus:ring-red-500"
+                            : ""
+                        }`}
+                      />
+                      {errors.firstName && (
+                        <p className="text-sm text-red-600 mt-1">
+                          {errors.firstName.message}
+                        </p>
+                      )}
+                    </div>
+                    <div>
+                      <label
+                        htmlFor="lastName"
+                        className="block text-sm font-medium text-gray-700 mb-2"
+                      >
+                        Last Name *
+                      </label>
+                      <Input
+                        id="lastName"
+                        {...register("lastName")}
+                        className={`border-gray-200 focus:border-[var(--color-primary-light)] focus:ring-[var(--color-primary-light)] ${
+                          errors.lastName
+                            ? "border-red-500 focus:ring-red-500"
+                            : ""
+                        }`}
+                      />
+                      {errors.lastName && (
+                        <p className="text-sm text-red-600 mt-1">
+                          {errors.lastName.message}
+                        </p>
+                      )}
+                    </div>
+                  </div>
+
+                  {/* Phone & Subject */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                      <label
+                        htmlFor="phone"
+                        className="block text-sm font-medium text-gray-700 mb-2"
+                      >
+                        Phone *
+                      </label>
+                      <Input
+                        id="phone"
+                        {...register("phone")}
+                        className={`border-gray-200 focus:border-[var(--color-primary-light)] focus:ring-[var(--color-primary-light)] ${
+                          errors.phone
+                            ? "border-red-500 focus:ring-red-500"
+                            : ""
+                        }`}
+                      />
+                      {errors.phone && (
+                        <p className="text-sm text-red-600 mt-1">
+                          {errors.phone.message}
+                        </p>
+                      )}
+                    </div>
+                    <div>
+                      <label
+                        htmlFor="subject"
+                        className="block text-sm font-medium text-gray-700 mb-2"
+                      >
+                        Subject
+                      </label>
+                      <Input
+                        id="subject"
+                        {...register("subject")}
+                        className={`border-gray-200 focus:border-[var(--color-primary-light)] focus:ring-[var(--color-primary-light)] ${
+                          errors.subject
+                            ? "border-red-500 focus:ring-red-500"
+                            : ""
+                        }`}
+                      />
+                      {errors.subject && (
+                        <p className="text-sm text-red-600 mt-1">
+                          {errors.subject.message}
+                        </p>
+                      )}
+                    </div>
+                  </div>
+
+                  {/* Message */}
                   <div>
                     <label
-                      htmlFor="firstName"
+                      htmlFor="message"
                       className="block text-sm font-medium text-gray-700 mb-2"
                     >
-                      First Name *
+                      Message *
                     </label>
-                    <Input
-                      id="firstName"
-                      {...register("firstName")}
-                      className={`border-gray-200 focus:border-[var(--color-primary-light)] focus:ring-[var(--color-primary-light)] ${
-                        errors.firstName
+                    <Textarea
+                      id="message"
+                      {...register("message")}
+                      placeholder="Your message..."
+                      className={`min-h-[120px] border-gray-200 focus:border-[var(--color-primary-light)] focus:ring-[var(--color-primary-light)] ${
+                        errors.message
                           ? "border-red-500 focus:ring-red-500"
                           : ""
                       }`}
                     />
-                    {errors.firstName && (
+                    {errors.message && (
                       <p className="text-sm text-red-600 mt-1">
-                        {errors.firstName.message}
+                        {errors.message.message}
                       </p>
                     )}
                   </div>
-                  <div>
-                    <label
-                      htmlFor="lastName"
-                      className="block text-sm font-medium text-gray-700 mb-2"
-                    >
-                      Last Name *
-                    </label>
-                    <Input
-                      id="lastName"
-                      {...register("lastName")}
-                      className={`border-gray-200 focus:border-[var(--color-primary-light)] focus:ring-[var(--color-primary-light)] ${
-                        errors.lastName
-                          ? "border-red-500 focus:ring-red-500"
-                          : ""
-                      }`}
-                    />
-                    {errors.lastName && (
-                      <p className="text-sm text-red-600 mt-1">
-                        {errors.lastName.message}
-                      </p>
-                    )}
-                  </div>
-                </div>
 
-                {/* Phone & Subject */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div>
-                    <label
-                      htmlFor="phone"
-                      className="block text-sm font-medium text-gray-700 mb-2"
-                    >
-                      Phone *
-                    </label>
-                    <Input
-                      id="phone"
-                      {...register("phone")}
-                      className={`border-gray-200 focus:border-[var(--color-primary-light)] focus:ring-[var(--color-primary-light)] ${
-                        errors.phone ? "border-red-500 focus:ring-red-500" : ""
-                      }`}
+                  {/* Save Info Checkbox */}
+                  <div className="flex items-center space-x-2">
+                    <Checkbox
+                      id="saveInfo"
+                      checked={saveInfo}
+                      onCheckedChange={(checked) =>
+                        setValue("saveInfo", !!checked)
+                      }
+                      className="border-gray-300 data-[state=checked]:bg-[var(--color-primary-light)] data-[state=checked]:border-[var(--color-primary-light)]"
                     />
-                    {errors.phone && (
-                      <p className="text-sm text-red-600 mt-1">
-                        {errors.phone.message}
-                      </p>
-                    )}
-                  </div>
-                  <div>
-                    <label
-                      htmlFor="subject"
-                      className="block text-sm font-medium text-gray-700 mb-2"
-                    >
-                      Subject
+                    <label htmlFor="saveInfo" className="text-sm text-gray-600">
+                      Save my name and phone in this browser for the next time.
                     </label>
-                    <Input
-                      id="subject"
-                      {...register("subject")}
-                      className={`border-gray-200 focus:border-[var(--color-primary-light)] focus:ring-[var(--color-primary-light)] ${
-                        errors.subject
-                          ? "border-red-500 focus:ring-red-500"
-                          : ""
-                      }`}
-                    />
-                    {errors.subject && (
-                      <p className="text-sm text-red-600 mt-1">
-                        {errors.subject.message}
-                      </p>
-                    )}
                   </div>
-                </div>
 
-                {/* Message */}
-                <div>
-                  <label
-                    htmlFor="message"
-                    className="block text-sm font-medium text-gray-700 mb-2"
+                  {/* Submit Button */}
+                  <button
+                    type="submit"
+                    disabled={isSubmitting}
+                    className="bg-[var(--color-primary-light)] hover:bg-[var(--color-secondary)] text-white px-8 py-3 rounded-full font-medium flex items-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
                   >
-                    Message *
-                  </label>
-                  <Textarea
-                    id="message"
-                    {...register("message")}
-                    placeholder="Your message..."
-                    className={`min-h-[120px] border-gray-200 focus:border-[var(--color-primary-light)] focus:ring-[var(--color-primary-light)] ${
-                      errors.message ? "border-red-500 focus:ring-red-500" : ""
-                    }`}
-                  />
-                  {errors.message && (
-                    <p className="text-sm text-red-600 mt-1">
-                      {errors.message.message}
-                    </p>
-                  )}
-                </div>
-
-                {/* Save Info Checkbox */}
-                <div className="flex items-center space-x-2">
-                  <Checkbox
-                    id="saveInfo"
-                    checked={saveInfo}
-                    onCheckedChange={(checked) =>
-                      setValue("saveInfo", !!checked)
-                    }
-                    className="border-gray-300 data-[state=checked]:bg-[var(--color-primary-light)] data-[state=checked]:border-[var(--color-primary-light)]"
-                  />
-                  <label htmlFor="saveInfo" className="text-sm text-gray-600">
-                    Save my name and phone in this browser for the next time.
-                  </label>
-                </div>
-
-                {/* Submit Button */}
-                <button
-                  type="submit"
-                  disabled={isSubmitting}
-                  className="bg-[var(--color-primary-light)] hover:bg-[var(--color-secondary)] text-white px-8 py-3 rounded-full font-medium flex items-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
-                >
-                  {isSubmitting ? "Sending..." : "Submit Now"}
-                  <Send className="w-4 h-4" />
-                </button>
-              </form>
+                    {isSubmitting ? "Sending..." : "Submit Now"}
+                    <Send className="w-4 h-4" />
+                  </button>
+                </form>
+              </div>
             </div>
           </div>
-          <section className="relative min-h-screen p-6 overflow-hidden bg-gradient-to-br from-emerald-400 via-green-500 to-teal-600">
+          <div className="h-[100vh] relative flex justify-center items-center min-h-screen p-6 overflow-hidden bg-gradient-to-br from-emerald-400 via-green-500 to-teal-600">
             {/* Background decorative elements */}
             <div className="absolute inset-0">
               <div className="absolute top-20 left-10 w-16 h-16 bg-white/10 backdrop-blur-sm rounded-lg rotate-12 animate-pulse"></div>
@@ -322,7 +328,7 @@ export default function ContactSection() {
 
             {/* Bottom gradient overlay */}
             <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black/10 to-transparent"></div>
-          </section>
+          </div>
         </div>
       </section>
     </>

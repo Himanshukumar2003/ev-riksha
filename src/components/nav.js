@@ -332,9 +332,12 @@ export default function Navbar() {
                 <Search className="h-5 w-5" />
               </motion.button>
 
-              <button className="bg-lime-500 m-0 text-white px-6 py-2 rounded-md text-sm font-medium hover:bg-lime-600 transition-colors">
+              <Link
+                href="/enquire"
+                className="bg-lime-500 m-0 text-white px-6 py-2 rounded-lg text-sm font-medium hover:bg-lime-600 transition-colors"
+              >
                 Enquire Now
-              </button>
+              </Link>
             </div>
 
             <div className="hidden md:flex items-center ">
