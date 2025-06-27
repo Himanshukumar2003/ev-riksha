@@ -5,7 +5,7 @@ import Image from "next/image";
 import PaymentBreakdownChart from "./payment-breakdown-chart";
 import React360Viewer from "react-360-view";
 import StepsSection from "./feachers-cards";
-
+import Container from "@mui/material/Container";
 export default function MainProductViewer({ productSlug }) {
   const [product, setProduct] = useState(null);
   const [selectedColor, setSelectedColor] = useState("");
@@ -129,9 +129,9 @@ export default function MainProductViewer({ productSlug }) {
 
   return (
     <>
-      <div className="bg-gray-100 py-16">
+      <div className="section">
         <div className="min-h-screen">
-          <div className="max-w-7xl mx-auto px-4">
+          <Container maxWidth="xl">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
                 <div className=" ">
@@ -314,7 +314,7 @@ export default function MainProductViewer({ productSlug }) {
                 </div>
               </div>
             </div>
-          </div>
+          </Container>
         </div>
       </div>
 

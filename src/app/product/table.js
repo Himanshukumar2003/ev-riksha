@@ -13,7 +13,7 @@ import {
   Ruler,
   Settings,
 } from "lucide-react";
-
+import Container from "@mui/material/Container";
 const iconMap = {
   Gauge: <Gauge />,
   Battery: <Battery />,
@@ -32,8 +32,8 @@ export default function VehicleSpecsTable({ product }) {
   };
 
   return (
-    <div className="bg-gray-100 section">
-      <div className="w-full max-w-4xl mx-auto">
+    <div className=" section bg-gray-100">
+      <Container maxWidth="xl">
         <div className="text-center mb-8">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
             Technical Specifications
@@ -116,7 +116,7 @@ export default function VehicleSpecsTable({ product }) {
             </TabsContent>
           ))}
         </Tabs>
-      </div>
+      </Container>
     </div>
   );
 }

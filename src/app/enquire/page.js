@@ -5,8 +5,29 @@ import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Send } from "lucide-react";
 import { Input } from "@/components/ui/input";
+
+import { motion } from "framer-motion";
+import { User, FileText, Building2, TrendingUp } from "lucide-react";
 import { Textarea } from "@/components/ui/textarea";
 import { Checkbox } from "@/components/ui/checkbox";
+const stats = [
+  {
+    number: "10,000+",
+    label: "Active Tenders",
+    icon: FileText,
+  },
+  {
+    number: "5,000+",
+    label: "Companies",
+    icon: Building2,
+  },
+  {
+    number: "98%",
+    label: "Success Rate",
+    icon: TrendingUp,
+  },
+];
+import Image from "next/image";
 // Zod validation schema
 const contactFormSchema = z.object({
   firstName: z
@@ -70,9 +91,9 @@ export default function ContactSection() {
 
   return (
     <>
-      <section className="section bg-gray-100">
-        <div className="container mx-auto">
-          <div className="grid lg:grid-cols-2 gap-16 items-start">
+      <section className="flex justify-center items-center">
+        <div className="grid lg:grid-cols-2 gap-0 items-start ">
+          <div className="container mx-auto">
             <div className=" p-10 rounded-4xl">
               <h3 className="text-2xl font-bold text-gray-900 mb-8">
                 Send a Message
@@ -223,6 +244,85 @@ export default function ContactSection() {
               </form>
             </div>
           </div>
+          <section className="relative min-h-screen p-6 overflow-hidden bg-gradient-to-br from-emerald-400 via-green-500 to-teal-600">
+            {/* Background decorative elements */}
+            <div className="absolute inset-0">
+              <div className="absolute top-20 left-10 w-16 h-16 bg-white/10 backdrop-blur-sm rounded-lg rotate-12 animate-pulse"></div>
+              <div className="absolute top-40 right-20 w-8 h-8 bg-white/20 backdrop-blur-sm rounded-full animate-bounce"></div>
+              <div className="absolute bottom-32 left-1/4 w-12 h-12 bg-white/15 backdrop-blur-sm rounded-lg -rotate-12"></div>
+              <div className="absolute top-1/3 right-1/3 w-6 h-6 bg-white/25 backdrop-blur-sm rounded-full"></div>
+            </div>
+
+            <div className="relative flex justify-center items-center flex-col">
+              <motion.div
+                initial={{ opacity: 0, x: 50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8, delay: 0.3 }}
+                className="text-white space-y-8"
+              >
+                <Image
+                  src="/login.svg"
+                  alt="LOGIN-IMG"
+                  width={300}
+                  height={300}
+                ></Image>
+                <div className="space-y-6">
+                  <motion.h1
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8, delay: 0.5 }}
+                    className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight"
+                  >
+                    Streamline Your Bidding Process
+                  </motion.h1>
+
+                  <motion.p
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8, delay: 0.7 }}
+                    className="text-lg lg:text-xl text-white/90 leading-relaxed max-w-lg"
+                  >
+                    Access thousands of tender opportunities and manage your
+                    bids efficiently on our secure platform.
+                  </motion.p>
+                </div>
+
+                {/* Stats cards with glass effect */}
+                <motion.div
+                  initial={{ opacity: 0, y: 30 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8, delay: 0.9 }}
+                  className="grid grid-cols-1 sm:grid-cols-3 gap-4"
+                >
+                  {stats.map((stat, index) => (
+                    <motion.div
+                      key={index}
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 0.6, delay: 1 + index * 0.1 }}
+                      whileHover={{ scale: 1.05, y: -5 }}
+                      className="group"
+                    >
+                      <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-6 shadow-xl hover:bg-white/15 transition-all duration-300">
+                        <div className="flex items-center space-x-3 mb-2">
+                          <stat.icon className="w-5 h-5 text-white/80 group-hover:text-white transition-colors" />
+                          <div className="text-2xl lg:text-3xl font-bold text-white">
+                            {stat.number}
+                          </div>
+                        </div>
+                        <div className="text-white/80 font-medium group-hover:text-white transition-colors">
+                          {stat.label}
+                        </div>
+                      </div>
+                    </motion.div>
+                  ))}
+                </motion.div>
+              </motion.div>
+            </div>
+
+            {/* Bottom gradient overlay */}
+            <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black/10 to-transparent"></div>
+          </section>
         </div>
       </section>
     </>

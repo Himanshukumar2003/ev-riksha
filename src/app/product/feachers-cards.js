@@ -6,7 +6,7 @@ const StepsSection = ({ product }) => {
   const { featuresSteps } = product;
 
   return (
-    <section className="section py-16">
+    <section className="section bg-gray-100">
       <Container maxWidth="xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 mb-10 gap-8">
           <div className="mb-5">
@@ -65,7 +65,7 @@ const StepsSection = ({ product }) => {
                   <p className="mb-4 max-w-xl text-gray-600">{step.text}</p>
 
                   <div
-                    className={`absolute text-[130px] lg:text-[250px] font-bold text-gray-100 z-[-1] -top-[100px] ${
+                    className={`absolute text-[130px] lg:text-[250px] font-bold text-green-100 z-[1] -top-[100px] ${
                       isEven ? "right-8" : "left-8"
                     }`}
                   >

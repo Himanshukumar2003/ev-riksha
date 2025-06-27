@@ -59,9 +59,7 @@ export default function ProductPage({ params }) {
 
       <Gallery product={selectedProduct} />
 
-      <div className="section">
-        <BasicFAQ product={selectedProduct} />
-      </div>
+      <BasicFAQ product={selectedProduct} />
     </>
   );
 }

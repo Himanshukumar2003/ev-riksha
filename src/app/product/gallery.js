@@ -25,7 +25,7 @@ export default function Gallery({ product }) {
   }, []);
 
   return (
-    <div className="section bg-gray-100">
+    <div className="section ">
       <Container maxWidth="xl">
         {/* Header */}
         <div className="grid grid-cols-1 lg:grid-cols-2 mb-10 gap-8">

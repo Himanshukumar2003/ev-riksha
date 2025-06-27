@@ -1,4 +1,4 @@
-import { Container } from "@mui/material";
+import Container from '@mui/material/Container';
 import {
   Facebook,
   Twitter,
@@ -13,7 +13,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-gray-300 px-6 py-12">
+    <footer className="bg-black text-gray-300 px-6 py-12 mt-0">
       <Container maxWidth="xl">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-8">
           {/* Brand Section */}
