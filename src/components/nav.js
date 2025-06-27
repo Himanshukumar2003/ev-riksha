@@ -4,9 +4,9 @@ import { useState } from "react";
 import { ChevronDown, Menu, Search, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
-import SearchSidebar from "./serchbar"; // make sure this file exists
+import SearchSidebar from "./serchbar";
 import Link from "next/link";
-
+import Container from "@mui/material/Container";
 const vehicleCategories = {
   "3W Passenger": {
     fuelTypes: {
@@ -134,8 +134,8 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="bg-green-800 shadow-lg py-2 relative z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav className="bg-green-800 shadow-lg py-2  z-50   sticky top-0">
+        <Container maxWidth="xl">
           <div className="flex justify-between  items-center">
             <Image
               src="/logo.png"
@@ -359,7 +359,7 @@ export default function Navbar() {
               </button>
             </div>
           </div>
-        </div>
+        </Container>
 
         {/* Mobile Menu */}
         <AnimatePresence>
