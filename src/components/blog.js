@@ -47,7 +47,7 @@ export default function Blogs() {
         {/* Content Grid */}
         <div className="grid lg:grid-cols-12 gap-8 justify-center    items-center">
           {/* Left Column - Small Posts */}
-          <div className="space-y-6 col-span-5">
+          <div className="space-y-6 col-span-12 md:col-span-6   lg:col-span-5">
             {smallPosts.map((post) => (
               <div
                 key={post.id}
@@ -84,7 +84,7 @@ export default function Blogs() {
           </div>
 
           {/* Right Column - Featured Post */}
-          <article className="group   cursor-pointer items-center flex col-span-7">
+          <article className="group   cursor-pointer items-center flex col-span-12 md:col-span-6 lg:col-span-7">
             <div className="relative ">
               <Image
                 src="/img/download.webp"

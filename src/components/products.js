@@ -108,16 +108,16 @@ export default function OurProduct() {
                   slidesPerView: 2.3,
                 },
                 1280: {
-                  slidesPerView: 3,    // xl
+                  slidesPerView: 3, // xl
                 },
                 1536: {
-                  slidesPerView: 3,    // 2xl
+                  slidesPerView: 3, // 2xl
                 },
               }}
             >
               {services.map((service) => (
                 <SwiperSlide key={service.id}>
-                  <div className="bg-white  relative rounded-[2rem] max-w-sm mx-auto">
+                  <div className="bg-white product-cards  relative rounded-[2rem] max-w-sm mx-auto">
                     <div className="p-4">
                       <Image
                         height={300}

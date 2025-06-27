@@ -55,10 +55,6 @@ export default function ProductPage({ params }) {
     <>
       <MainProductViewer productSlug={slug} />
 
-      <div className="section">
-        <StepsSection product={selectedProduct} />
-      </div>
-
       <VehicleSpecsTable product={selectedProduct} />
 
       <Gallery product={selectedProduct} />

@@ -4,6 +4,7 @@ import { Download, MessageCircle, MapPin, Palette } from "lucide-react";
 import Image from "next/image";
 import PaymentBreakdownChart from "./payment-breakdown-chart";
 import React360Viewer from "react-360-view";
+import StepsSection from "./feachers-cards";
 
 export default function MainProductViewer({ productSlug }) {
   const [product, setProduct] = useState(null);
@@ -316,6 +317,8 @@ export default function MainProductViewer({ productSlug }) {
           </div>
         </div>
       </div>
+
+      <StepsSection product={product} />
 
       {/* EMI Calculator */}
       <div className="py-16">

@@ -301,6 +301,25 @@ h6 {
 
 
 
+.product-cards::after {
+  content: '';
+  position: absolute;
+  width: 112px;
+  height: 112px;
+  bottom: -1px;
+  right: -1px;
+  background-color: var(--color-primary-light);
+  /* -webkit-mask: url('/images/bg/shape-bottom.png') bottom right no-repeat; */
+  mask: url('/greenbtn.webp') bottom right no-repeat;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  z-index: 10;
+  /* Optional: Add z-index if needed */
+}
+
+
+
+
 .cards::after {
   content: '';
   position: absolute;
