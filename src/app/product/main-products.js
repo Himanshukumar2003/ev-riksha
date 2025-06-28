@@ -188,10 +188,10 @@ export default function MainProductViewer({ productSlug }) {
                     </div>
                     <div>
                       <div className="text-sm text-gray-500 font-medium">
-                        {product.brand}
+                        {product.type}
                       </div>
                       <div className="font-bold text-xl text-gray-800">
-                        {product.type}
+                        {product.model}
                       </div>
                     </div>
                   </div>
@@ -320,7 +320,6 @@ export default function MainProductViewer({ productSlug }) {
 
       <StepsSection product={product} />
 
-      {/* EMI Calculator */}
       <div className="py-16">
         <div className="max-w-7xl mx-auto px-4">
           <div className="bg-white rounded-3xl shadow-md p-8 border border-gray-100">

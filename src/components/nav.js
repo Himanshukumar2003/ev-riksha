@@ -105,7 +105,7 @@ export default function Navbar() {
   const [selectedCategory, setSelectedCategory] = useState("3W Passenger");
   const [expandedFuelType, setExpandedFuelType] = useState(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [isSearchOpen, setIsSearchOpen] = useState(false); // ✅ added missing state
+  const [isSearchOpen, setIsSearchOpen] = useState(false); 
 
   const getAnimationDirection = (category, categories) => {
     const currentIndex = categories.indexOf(selectedCategory);
