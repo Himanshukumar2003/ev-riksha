@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 import Container from "@mui/material/Container";
 
@@ -39,9 +38,9 @@ const StepsSection = ({ product }) => {
                 <div
                   style={{
                     backgroundImage: `url(${step.image})`,
-                    backgroundSize: "   cover",
+                    backgroundSize: "cover",
                   }}
-                  className={`h-full bg-center bg-fixed min-h-[400px]   bg-no-repeat rounded-xl shadow-md relative overflow-hidden
+                  className={`h-full bg-center bg-fixed min-h-[400px] bg-no-repeat rounded-xl shadow-md relative overflow-hidden
                     ${isEven ? "md:order-1" : "md:order-2"} order-1`}
                 ></div>
 
@@ -59,7 +58,7 @@ const StepsSection = ({ product }) => {
                     alt="icon"
                     width={60}
                     height={60}
-                    className="mb-4 "
+                    className="mb-4"
                   />
                   <h2 className="text-4xl font-light mb-4">{step.title}</h2>
                   <p className="mb-4 max-w-xl text-gray-600">{step.text}</p>

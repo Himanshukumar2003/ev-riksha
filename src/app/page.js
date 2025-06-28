@@ -1,5 +1,3 @@
-"use client"; // Add this if you're in the App Router (Next.js 13+)
-
 import dynamic from "next/dynamic";
 import React from "react";
 import ReviewsSection from "@/components/review";

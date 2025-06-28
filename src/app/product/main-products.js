@@ -1,13 +1,12 @@
 "use client";
 import { useState, useEffect } from "react";
 import { Download, MessageCircle, MapPin, Palette } from "lucide-react";
-import Image from "next/image";
 import PaymentBreakdownChart from "./payment-breakdown-chart";
 import React360Viewer from "react-360-view";
-import StepsSection from "./feachers-cards";
+import StepsSection from "./features-cards";
 import Container from "@mui/material/Container";
-export default function MainProductViewer({ productSlug }) {
-  const [product, setProduct] = useState(null);
+
+export default function MainProductViewer({ product }) {
   const [selectedColor, setSelectedColor] = useState("");
   const [selectedState, setSelectedState] = useState("");
   const [selectedCity, setSelectedCity] = useState("");
@@ -21,36 +20,20 @@ export default function MainProductViewer({ productSlug }) {
   const [emiAmount, setEmiAmount] = useState(0);
   const [totalInterest, setTotalInterest] = useState(0);
 
-  // Load product data
+  // Initialize product data
   useEffect(() => {
-    const loadProduct = async () => {
-      try {
-        const vehicleData = await import("@/data/vehicle-data.json");
-        const foundProduct = vehicleData.vehicleShowcase.products.find(
-          (p) => p.slug === productSlug
-        );
+    if (product) {
+      setSelectedColor(product.colors[0].id);
+      setDownPayment(product.emiCalculator.defaultValues.downPayment);
+      setLoanTenure(product.emiCalculator.defaultValues.loanTenure);
+      setInterestRate(product.emiCalculator.defaultValues.interestRate);
 
-        if (foundProduct) {
-          setProduct(foundProduct);
-          setSelectedColor(foundProduct.colors[0].id);
-          setDownPayment(foundProduct.emiCalculator.defaultValues.downPayment);
-          setLoanTenure(foundProduct.emiCalculator.defaultValues.loanTenure);
-          setInterestRate(
-            foundProduct.emiCalculator.defaultValues.interestRate
-          );
-
-          // Set initial price
-          if (foundProduct.pricing.states.length > 0) {
-            setCurrentPrice(foundProduct.pricing.states[0].basePrice);
-          }
-        }
-      } catch (error) {
-        console.error("Error loading product:", error);
+      // Set initial price
+      if (product.pricing.states.length > 0) {
+        setCurrentPrice(product.pricing.states[0].basePrice);
       }
-    };
-
-    loadProduct();
-  }, [productSlug]);
+    }
+  }, [product]);
 
   // Update price when state and city change
   useEffect(() => {
@@ -188,7 +171,7 @@ export default function MainProductViewer({ productSlug }) {
                     </div>
                     <div>
                       <div className="text-sm text-gray-500 font-medium">
-                        {product.type}
+                        {product.brand}
                       </div>
                       <div className="font-bold text-xl text-gray-800">
                         {product.model}
@@ -418,14 +401,6 @@ export default function MainProductViewer({ productSlug }) {
                       </button>
                     ))}
                   </div>
-                  {/* <div className="mt-3 text-center">
-                    <div className="text-sm text-gray-600">
-                      Selected Interest Rate:
-                    </div>
-                    <div className="text-xl font-bold text-green-600">
-                      {interestRate}% per annum
-                    </div>
-                  </div> */}
                 </div>
               </div>
 

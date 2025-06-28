@@ -4,18 +4,16 @@ import { useState, useRef, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Search, X, Car, Zap, Fuel, ArrowRight } from "lucide-react";
 import { useRouter } from "next/navigation";
-import vehicleData from "@/data/vehicle-data.json";
+import { products } from "@/data/vehicle-data";
 
-const vehicleSearchData = vehicleData.vehicleShowcase.products.map(
-  (product) => ({
-    id: product.id,
-    slug: product.slug,
-    brand: product.brand,
-    model: product.model,
-    type: product.type,
-    description: product.description,
-  })
-);
+const vehicleSearchData = products.map((product) => ({
+  id: product.id,
+  slug: product.slug,
+  brand: product.brand,
+  model: product.model,
+  type: product.type,
+  description: product.description,
+}));
 
 export default function SearchSidebar({ isOpen, onClose }) {
   const [searchQuery, setSearchQuery] = useState("");

@@ -1,4 +1,4 @@
-import Container from '@mui/material/Container';
+import Container from "@mui/material/Container";
 import {
   Facebook,
   Twitter,
@@ -267,9 +267,8 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className="border-t border-slate-700 pt-6 flex flex-col lg:flex-row justify-between items-center gap-4">
           <p className="text-sm text-gray-400">
-            Copyright © 2025{" "}
-            <span className="text-yellow-500 font-semibold">The Mantu</span> all
-            rights reserved.
+            Mac Auto | Design & Developed By
+            <a href="https://brandingwaale.com/"> Brandingwaale Webtech</a>
           </p>
           <div className="flex items-center gap-2">
             <div className="w-12 h-8 bg-white rounded flex items-center justify-center">

@@ -8,10 +8,12 @@ import Container from "@mui/material/Container";
 
 export default function BasicFAQ({ product }) {
   const { faq } = product;
+
   const leftColumnFAQs = faq.questions.slice(
     0,
     Math.ceil(faq.questions.length / 2)
   );
+
   const rightColumnFAQs = faq.questions.slice(
     Math.ceil(faq.questions.length / 2)
   );
