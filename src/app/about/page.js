@@ -93,7 +93,7 @@ export default function About() {
                 alt="Founder"
                 width={500}
                 height={500}
-                className="w-full  object-cover rounded-lg "
+                className="w-full  object-cover rounded-2xl "
               />
             </div>
 
