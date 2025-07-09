@@ -65,7 +65,7 @@ export default function NewsSection() {
           Latest News
         </h2>
 
-        <div className="relative">
+        <div className="relative mt-8">
           {/* Navigation buttons */}
           <button
             ref={prevRef}
