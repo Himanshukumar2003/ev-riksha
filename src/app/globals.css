@@ -138,10 +138,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'SpeedBeast', sans-serif;
+  /* font-family: 'SpeedBeast', sans-serif; */
   line-height: 1.2;
   margin: 0 0 0.75rem;
-  text-transform: lowercase;
 
 
 }

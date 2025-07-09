@@ -4,6 +4,7 @@ export const products = [
     slug: "tejas-dhl",
     category: "passenger",
     brand: "Mac Auto",
+    navImg: "/img/mac-tejas-dhl.png",
     model: "Tejas DHL",
     type: "Passenger (Double Headlight)",
     description:
@@ -301,8 +302,8 @@ export const products = [
     id: "product-2",
     slug: "tejas",
     category: "passenger",
-
     brand: "Mac Auto",
+    navImg: "/img/mac-tejas.png",
     model: "Tejas",
     type: "Passenger",
     description:
@@ -612,6 +613,7 @@ export const products = [
     id: "product-3",
     slug: "mac-900",
     category: "passenger",
+    navImg: "/img/mac-tejas.png",
 
     brand: "Mac Auto",
     model: "Mac 900",
@@ -924,6 +926,8 @@ export const products = [
     slug: "mac-multi-utility-w-cart",
     brand: "Mac Auto",
     category: "Cargo",
+    navImg: "/img/multiutility.png",
+
     model: "Mac Multi Utility E-Cart",
     type: "Cargo",
     description:
@@ -1208,6 +1212,8 @@ export const products = [
     brand: "Mac Auto",
     category: "passenger",
     model: "Mac Dhoom",
+    navImg: "/img/mac-doom.png",
+
     type: "Passenger",
     description:
       "Experience the future of driving with the Electric Car X. This innovative vehicle combines cutting-edge technology with sustainable design, offering a smooth and eco-friendly ride.",

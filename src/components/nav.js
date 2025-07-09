@@ -1,5 +1,4 @@
 "use client";
-
 import { useState } from "react";
 import { ChevronDown, Menu, Search, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -7,78 +6,30 @@ import Image from "next/image";
 import SearchSidebar from "./serchbar";
 import Link from "next/link";
 import Container from "@mui/material/Container";
+import { products } from "@/data/vehicle-data";
 
+// Group products by category using the imported data
 const vehicleCategories = {
   Passenger: {
-    fuelTypes: {
-      Electric: {
-        products: [
-          { name: "e-Alfa Mini", image: "/placeholder.svg?height=80&width=80" },
-          { name: "e-Alfa Plus", image: "/placeholder.svg?height=80&width=80" },
-        ],
-      },
-      CNG: {
-        products: [
-          {
-            name: "Alfa Plus Duo",
-            image: "/placeholder.svg?height=80&width=80",
-          },
-          { name: "Alfa Load", image: "/placeholder.svg?height=80&width=80" },
-        ],
-      },
-    },
+    products: products.filter(
+      (product) => product.category.toLowerCase() === "passenger"
+    ),
   },
   Cargo: {
-    fuelTypes: {
-      Electric: {
-        products: [
-          {
-            name: "e-Alfa Cargo",
-            image: "/placeholder.svg?height=80&width=80",
-          },
-          { name: "Treo Zor", image: "/placeholder.svg?height=80&width=80" },
-        ],
-      },
-      CNG: {
-        products: [
-          {
-            name: "Alfa Plus Duo",
-            image: "/placeholder.svg?height=80&width=80",
-          },
-          {
-            name: "Supro Profit",
-            image: "/placeholder.svg?height=80&width=80",
-          },
-        ],
-      },
-      Diesel: {
-        products: [
-          {
-            name: "Bolero Pickup",
-            image: "/placeholder.svg?height=80&width=80",
-          },
-          { name: "Jeeto", image: "/placeholder.svg?height=80&width=80" },
-        ],
-      },
-    },
+    products: products.filter(
+      (product) => product.category.toLowerCase() === "cargo"
+    ),
   },
-
-  Electric: {
-    fuelTypes: {
-      Electric: {
-        products: [
-          { name: "Treo Yaari", image: "/placeholder.svg?height=80&width=80" },
-          { name: "e-Verito", image: "/placeholder.svg?height=80&width=80" },
-          { name: "eMAX", image: "/placeholder.svg?height=80&width=80" },
-        ],
-      },
-    },
+  Garbage: {
+    products: products.filter(
+      (product) => product.category.toLowerCase() === "garbage"
+    ),
   },
 };
+
 export default function Navbar() {
   const [isVehiclesOpen, setIsVehiclesOpen] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState("Passenger");
-  const [expandedFuelType, setExpandedFuelType] = useState(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
@@ -101,12 +52,6 @@ export default function Navbar() {
     },
   };
 
-  const toggleFuelType = (categoryFuelKey) => {
-    setExpandedFuelType(
-      expandedFuelType === categoryFuelKey ? null : categoryFuelKey
-    );
-  };
-
   return (
     <>
       <nav className="bg-white text-black shadow-xl py-2 h-[80px] flex justify-center items-center z-50 sticky top-0">
@@ -119,7 +64,6 @@ export default function Navbar() {
               height={150}
               className="w-[150px]"
             />
-
             <div className="hidden md:flex items-center justify-between gap-10">
               <Link
                 href="/"
@@ -127,7 +71,6 @@ export default function Navbar() {
               >
                 Home
               </Link>
-
               <div
                 className="relative"
                 onMouseLeave={() => setIsVehiclesOpen(false)}
@@ -138,7 +81,6 @@ export default function Navbar() {
                 >
                   Vehicles <ChevronDown className="ml-1 h-4 w-4" />
                 </button>
-
                 <AnimatePresence>
                   {isVehiclesOpen && (
                     <motion.div
@@ -155,19 +97,18 @@ export default function Navbar() {
                           {Object.keys(vehicleCategories).map((category) => (
                             <button
                               key={category}
-                              className={`w-full text-left  px-4 py-3 text-lg font-medium transition-colors border-b border-gray-200 last:border-b-0 ${
+                              className={`w-full text-left px-4 py-3 text-lg font-medium transition-colors border-b border-gray-200 last:border-b-0 ${
                                 selectedCategory === category
                                   ? "bg-gray-100 text-black border-r-2 border-gray-400"
                                   : "text-black hover:bg-gray-100"
                               }`}
                               onMouseEnter={() => setSelectedCategory(category)}
                             >
-                              {category}{" "}
+                              {category}
                               <ChevronDown className="float-right mt-0.5 h-4 w-4" />
                             </button>
                           ))}
                         </div>
-
                         <div className="w-2/3 p-6">
                           <AnimatePresence mode="wait">
                             <motion.div
@@ -188,84 +129,37 @@ export default function Navbar() {
                               <h3 className="text-lg font-semibold text-black mb-4">
                                 {selectedCategory}
                               </h3>
-                              <div className="space-y-3">
-                                {Object.entries(
-                                  vehicleCategories[selectedCategory].fuelTypes
-                                ).map(([fuelType, fuelData]) => {
-                                  const categoryFuelKey = `${selectedCategory}-${fuelType}`;
-                                  const isExpanded =
-                                    expandedFuelType === categoryFuelKey;
-
-                                  return (
-                                    <div
-                                      key={fuelType}
-                                      className="border border-gray-200 rounded-lg overflow-hidden"
-                                    >
-                                      <button
-                                        className="w-full flex items-center justify-between px-4 py-3 text-left hover:bg-gray-100 transition-all duration-200 group"
-                                        onClick={() =>
-                                          toggleFuelType(categoryFuelKey)
+                              <div className="grid grid-cols-3 gap-3">
+                                {vehicleCategories[
+                                  selectedCategory
+                                ]?.products?.map((product, index) => (
+                                  <Link
+                                    key={product.id}
+                                    className="text-center group cursor-pointer"
+                                    href={`/product/${product.slug}`}
+                                  >
+                                    <div className="">
+                                      <Image
+                                        height={500}
+                                        width={500}
+                                        src={
+                                          product.navImg ||
+                                          "/placeholder.svg?height=60&width=60" ||
+                                          "/placeholder.svg"
                                         }
-                                      >
-                                        <span className="font-medium text-black group-hover:text-gray-800">
-                                          {fuelType}
-                                        </span>
-                                        <ChevronDown
-                                          className={`h-4 w-4 text-black group-hover:text-gray-800 transition-all duration-200 ${
-                                            isExpanded ? "rotate-180" : ""
-                                          }`}
-                                        />
-                                      </button>
-
-                                      <AnimatePresence>
-                                        {isExpanded && (
-                                          <motion.div
-                                            initial={{ height: 0, opacity: 0 }}
-                                            animate={{
-                                              height: "auto",
-                                              opacity: 1,
-                                            }}
-                                            exit={{ height: 0, opacity: 0 }}
-                                            transition={{
-                                              duration: 0.3,
-                                              ease: "easeInOut",
-                                            }}
-                                            className="overflow-hidden"
-                                          >
-                                            <div className="px-4 pb-4 border-t border-gray-100">
-                                              <div className="grid grid-cols-2 gap-3 mt-3">
-                                                {fuelData.products.map(
-                                                  (product, index) => (
-                                                    <div
-                                                      key={index}
-                                                      className="text-center group cursor-pointer"
-                                                    >
-                                                      <div className="bg-white rounded-lg p-3 mb-2 group-hover:bg-gray-100 group-hover:shadow-md transition-all duration-200 border border-transparent group-hover:border-gray-300">
-                                                        <img
-                                                          src={
-                                                            product.image ||
-                                                            "/placeholder.svg"
-                                                          }
-                                                          alt={product.name}
-                                                          className="w-12 h-12 mx-auto object-contain"
-                                                        />
-                                                      </div>
-                                                      <p className="text-xs font-medium text-black group-hover:text-gray-800 transition-colors">
-                                                        {product.name}
-                                                      </p>
-                                                    </div>
-                                                  )
-                                                )}
-                                              </div>
-                                            </div>
-                                          </motion.div>
-                                        )}
-                                      </AnimatePresence>
+                                        alt={product.model}
+                                        className="w-30 mx-auto object-contain"
+                                      />
                                     </div>
-                                  );
-                                })}
+                                    <p className="text-xs font-medium text-black group-hover:text-gray-800 transition-colors">
+                                      {product.model}
+                                    </p>
+                                    <p className="text-xs text-gray-500">
+                                      {product.brand}
+                                    </p>
+                                  </Link>
+                                ))}
                               </div>
-
                               <div className="mt-6">
                                 <button className="text-black text-sm font-medium hover:text-gray-700">
                                   View all {selectedCategory} →
@@ -279,7 +173,6 @@ export default function Navbar() {
                   )}
                 </AnimatePresence>
               </div>
-
               {[
                 { href: "/about", text: "About" },
                 { href: "/blog", text: "Blog" },
@@ -294,7 +187,6 @@ export default function Navbar() {
                   {link.text}
                 </Link>
               ))}
-
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -303,7 +195,6 @@ export default function Navbar() {
               >
                 <Search className="h-5 w-5" />
               </motion.button>
-
               <Link
                 href="/enquire"
                 className="bg-black text-white px-6 py-2 rounded-lg text-sm font-medium hover:bg-gray-800 transition-colors"
@@ -311,7 +202,6 @@ export default function Navbar() {
                 Enquire Now
               </Link>
             </div>
-
             <div className="hidden md:flex items-center">
               <Image
                 src="/logo-manufaturer.png"
@@ -320,7 +210,6 @@ export default function Navbar() {
                 height={150}
               />
             </div>
-
             <div className="md:hidden">
               <button
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -335,7 +224,6 @@ export default function Navbar() {
             </div>
           </div>
         </Container>
-
         <AnimatePresence>
           {isMobileMenuOpen && (
             <motion.div
@@ -345,30 +233,59 @@ export default function Navbar() {
               className="md:hidden bg-white border-t border-gray-200"
             >
               <div className="px-2 pt-2 pb-3 space-y-1">
-                {[
-                  "Vehicles",
-                  "Dealer Locator",
-                  "Become a Dealer",
-                  "Blogs",
-                  "Contact Us",
-                ].map((link, i) => (
-                  <a
-                    key={i}
-                    href="#"
-                    className="block px-3 py-2 text-base font-medium text-black hover:text-gray-700"
-                  >
-                    {link}
-                  </a>
-                ))}
-                <button className="w-full text-left bg-black hover:bg-gray-800 text-white px-3 py-3 text-base font-medium rounded-md">
-                  Enquire Now
+                <Link
+                  href="/"
+                  className="block px-3 py-2 text-base font-medium text-black hover:text-gray-700"
+                >
+                  Home
+                </Link>
+                <Link
+                  href="#"
+                  className="block px-3 py-2 text-base font-medium text-black hover:text-gray-700"
+                >
+                  Vehicles
+                </Link>
+                <Link
+                  href="/about"
+                  className="block px-3 py-2 text-base font-medium text-black hover:text-gray-700"
+                >
+                  About
+                </Link>
+                <Link
+                  href="/blog"
+                  className="block px-3 py-2 text-base font-medium text-black hover:text-gray-700"
+                >
+                  Blog
+                </Link>
+                <Link
+                  href="#"
+                  className="block px-3 py-2 text-base font-medium text-black hover:text-gray-700"
+                >
+                  Gallery
+                </Link>
+                <Link
+                  href="/contact"
+                  className="block px-3 py-2 text-base font-medium text-black hover:text-gray-700"
+                >
+                  Contact Us
+                </Link>
+                <button
+                  onClick={() => setIsSearchOpen(true)}
+                  className="block w-full text-left px-3 py-2 text-base font-medium text-black hover:text-gray-700"
+                >
+                  Search
                 </button>
+                <Link
+                  href="/enquire"
+                  className="block w-full text-left bg-black hover:bg-gray-800 text-white px-3 py-3 text-base font-medium rounded-md"
+                >
+                  Enquire Now
+                </Link>
               </div>
             </motion.div>
           )}
         </AnimatePresence>
       </nav>
-
       <SearchSidebar
         isOpen={isSearchOpen}
         onClose={() => setIsSearchOpen(false)}
