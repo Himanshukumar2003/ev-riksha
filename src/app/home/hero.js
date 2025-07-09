@@ -1,12 +1,12 @@
-"use client"
+"use client";
 
-import { Swiper, SwiperSlide } from "swiper/react"
-import { Autoplay, EffectFade } from "swiper/modules"
-import Image from "next/image"
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, EffectFade } from "swiper/modules";
+import Image from "next/image";
 
 // Import Swiper styles
-import "swiper/css"
-import "swiper/css/effect-fade"
+import "swiper/css";
+import "swiper/css/effect-fade";
 
 const images = [
   {
@@ -29,7 +29,7 @@ const images = [
     src: "/img/banner2.png",
     alt: "Image 5",
   },
-]
+];
 
 export default function ImageSwiper() {
   return (
@@ -56,7 +56,6 @@ export default function ImageSwiper() {
               <Image
                 src={image.src || "/placeholder.svg"}
                 alt=""
-                
                 width="2000"
                 height="2000"
                 className="w-full"
@@ -66,5 +65,5 @@ export default function ImageSwiper() {
         ))}
       </Swiper>
     </div>
-  )
+  );
 }
