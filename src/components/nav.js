@@ -7,8 +7,9 @@ import Image from "next/image";
 import SearchSidebar from "./serchbar";
 import Link from "next/link";
 import Container from "@mui/material/Container";
+
 const vehicleCategories = {
-  "3W Passenger": {
+  Passenger: {
     fuelTypes: {
       Electric: {
         products: [
@@ -27,7 +28,7 @@ const vehicleCategories = {
       },
     },
   },
-  "3W Cargo": {
+  Cargo: {
     fuelTypes: {
       Electric: {
         products: [
@@ -61,33 +62,8 @@ const vehicleCategories = {
       },
     },
   },
-  "4W Cargo": {
-    fuelTypes: {
-      Diesel: {
-        products: [
-          {
-            name: "Bolero Pickup",
-            image: "/placeholder.svg?height=80&width=80",
-          },
-          {
-            name: "Jeeto Diesel",
-            image: "/placeholder.svg?height=80&width=80",
-          },
-          {
-            name: "Supro Profit",
-            image: "/placeholder.svg?height=80&width=80",
-          },
-        ],
-      },
-      CNG: {
-        products: [
-          { name: "Jeeto CNG", image: "/placeholder.svg?height=80&width=80" },
-          { name: "Supro CNG", image: "/placeholder.svg?height=80&width=80" },
-        ],
-      },
-    },
-  },
-  "4W Electric": {
+
+  Electric: {
     fuelTypes: {
       Electric: {
         products: [
@@ -99,13 +75,12 @@ const vehicleCategories = {
     },
   },
 };
-
 export default function Navbar() {
   const [isVehiclesOpen, setIsVehiclesOpen] = useState(false);
-  const [selectedCategory, setSelectedCategory] = useState("3W Passenger");
+  const [selectedCategory, setSelectedCategory] = useState("Passenger");
   const [expandedFuelType, setExpandedFuelType] = useState(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [isSearchOpen, setIsSearchOpen] = useState(false); 
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   const getAnimationDirection = (category, categories) => {
     const currentIndex = categories.indexOf(selectedCategory);
@@ -134,9 +109,9 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="bg-green-800 shadow-lg py-2  z-50   sticky top-0">
+      <nav className="bg-white text-black shadow-xl py-2 h-[80px] flex justify-center items-center z-50 sticky top-0">
         <Container maxWidth="xl">
-          <div className="flex justify-between  items-center">
+          <div className="flex justify-between items-center">
             <Image
               src="/logo.png"
               alt="logo"
@@ -145,24 +120,23 @@ export default function Navbar() {
               className="w-[150px]"
             />
 
-            {/* Desktop Navigation */}
-            <div className="hidden md:flex items-center justify-between gap-10 ">
+            <div className="hidden md:flex items-center justify-between gap-10">
               <Link
                 href="/"
-                className="text-white hover:text-lime-400  text-[16px] font-medium transition-colors"
+                className="text-black hover:text-gray-700 text-lg font-medium transition-colors"
               >
                 Home
               </Link>
+
               <div
                 className="relative"
                 onMouseLeave={() => setIsVehiclesOpen(false)}
               >
                 <button
-                  className="flex items-center text-white hover:text-lime-400  text-sm font-medium transition-colors"
+                  className="flex items-center text-black hover:text-gray-700 text-lg font-medium transition-colors"
                   onMouseEnter={() => setIsVehiclesOpen(true)}
                 >
-                  Vehicles
-                  <ChevronDown className="ml-1 h-4 w-4" />
+                  Vehicles <ChevronDown className="ml-1 h-4 w-4" />
                 </button>
 
                 <AnimatePresence>
@@ -172,30 +146,28 @@ export default function Navbar() {
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -10 }}
                       transition={{ duration: 0.2 }}
-                      className="absolute left-0 top-[36px] mt-2 w-[800px] bg-green-700 rounded-lg shadow-xl"
+                      className="absolute left-0 top-[45px] mt-2 w-[800px] bg-white rounded-lg shadow-xl text-black"
                       onMouseEnter={() => setIsVehiclesOpen(true)}
                       onMouseLeave={() => setIsVehiclesOpen(false)}
                     >
-                      {/* Category Tabs */}
                       <div className="flex">
-                        <div className="w-1/3 bg-green-800 rounded-l-lg">
+                        <div className="w-1/3 bg-white rounded-l-lg border-r border-gray-200">
                           {Object.keys(vehicleCategories).map((category) => (
                             <button
                               key={category}
-                              className={`w-full text-left px-4 py-3 text-sm font-medium transition-colors border-b border-green-500 last:border-b-0 ${
+                              className={`w-full text-left  px-4 py-3 text-lg font-medium transition-colors border-b border-gray-200 last:border-b-0 ${
                                 selectedCategory === category
-                                  ? "bg-emerald-50 text-lime-600 border-r-2 border-lime-400"
-                                  : "text-white hover:bg-green-600"
+                                  ? "bg-gray-100 text-black border-r-2 border-gray-400"
+                                  : "text-black hover:bg-gray-100"
                               }`}
                               onMouseEnter={() => setSelectedCategory(category)}
                             >
-                              {category}
+                              {category}{" "}
                               <ChevronDown className="float-right mt-0.5 h-4 w-4" />
                             </button>
                           ))}
                         </div>
 
-                        {/* Fuel Types and Products */}
                         <div className="w-2/3 p-6">
                           <AnimatePresence mode="wait">
                             <motion.div
@@ -213,7 +185,7 @@ export default function Navbar() {
                               exit="exit"
                               transition={{ duration: 0.3 }}
                             >
-                              <h3 className="text-lg font-semibold text-white mb-4">
+                              <h3 className="text-lg font-semibold text-black mb-4">
                                 {selectedCategory}
                               </h3>
                               <div className="space-y-3">
@@ -227,19 +199,19 @@ export default function Navbar() {
                                   return (
                                     <div
                                       key={fuelType}
-                                      className="border border-green-500 rounded-lg overflow-hidden"
+                                      className="border border-gray-200 rounded-lg overflow-hidden"
                                     >
                                       <button
-                                        className="w-full flex items-center justify-between px-4 py-3 text-left hover:bg-green-600 transition-all duration-200 group"
+                                        className="w-full flex items-center justify-between px-4 py-3 text-left hover:bg-gray-100 transition-all duration-200 group"
                                         onClick={() =>
                                           toggleFuelType(categoryFuelKey)
                                         }
                                       >
-                                        <span className="font-medium text-white group-hover:text-lime-400 transition-colors">
+                                        <span className="font-medium text-black group-hover:text-gray-800">
                                           {fuelType}
                                         </span>
                                         <ChevronDown
-                                          className={`h-4 w-4 text-white group-hover:text-lime-400 transition-all duration-200 ${
+                                          className={`h-4 w-4 text-black group-hover:text-gray-800 transition-all duration-200 ${
                                             isExpanded ? "rotate-180" : ""
                                           }`}
                                         />
@@ -268,7 +240,7 @@ export default function Navbar() {
                                                       key={index}
                                                       className="text-center group cursor-pointer"
                                                     >
-                                                      <div className="bg-white rounded-lg p-3 mb-2 group-hover:bg-emerald-50 group-hover:shadow-md transition-all duration-200 border border-transparent group-hover:border-green-100">
+                                                      <div className="bg-white rounded-lg p-3 mb-2 group-hover:bg-gray-100 group-hover:shadow-md transition-all duration-200 border border-transparent group-hover:border-gray-300">
                                                         <img
                                                           src={
                                                             product.image ||
@@ -278,7 +250,7 @@ export default function Navbar() {
                                                           className="w-12 h-12 mx-auto object-contain"
                                                         />
                                                       </div>
-                                                      <p className="text-xs font-medium text-white group-hover:text-lime-400 transition-colors">
+                                                      <p className="text-xs font-medium text-black group-hover:text-gray-800 transition-colors">
                                                         {product.name}
                                                       </p>
                                                     </div>
@@ -295,7 +267,7 @@ export default function Navbar() {
                               </div>
 
                               <div className="mt-6">
-                                <button className="text-white text-sm font-medium hover:text-lime-400">
+                                <button className="text-black text-sm font-medium hover:text-gray-700">
                                   View all {selectedCategory} →
                                 </button>
                               </div>
@@ -308,7 +280,6 @@ export default function Navbar() {
                 </AnimatePresence>
               </div>
 
-              {/* Other Links */}
               {[
                 { href: "/about", text: "About" },
                 { href: "/blog", text: "Blog" },
@@ -318,29 +289,30 @@ export default function Navbar() {
                 <Link
                   key={link.text}
                   href={link.href}
-                  className="text-white hover:text-lime-400  text-[16px] font-medium transition-colors"
+                  className="text-black hover:text-gray-700 text-lg font-medium transition-colors"
                 >
                   {link.text}
                 </Link>
               ))}
+
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setIsSearchOpen(true)}
-                className="  text-white hover:text-lime-400  rounded-lg transition-all duration-200 relative group"
+                className="text-black hover:text-gray-700 rounded-lg transition-all duration-200 relative group"
               >
                 <Search className="h-5 w-5" />
               </motion.button>
 
               <Link
                 href="/enquire"
-                className="bg-lime-500 m-0 text-white px-6 py-2 rounded-lg text-sm font-medium hover:bg-lime-600 transition-colors"
+                className="bg-black text-white px-6 py-2 rounded-lg text-sm font-medium hover:bg-gray-800 transition-colors"
               >
                 Enquire Now
               </Link>
             </div>
 
-            <div className="hidden md:flex items-center ">
+            <div className="hidden md:flex items-center">
               <Image
                 src="/logo-manufaturer.png"
                 alt="logo"
@@ -352,7 +324,7 @@ export default function Navbar() {
             <div className="md:hidden">
               <button
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                className="text-white hover:text-lime-400 p-2"
+                className="text-black hover:text-gray-700 p-2"
               >
                 {isMobileMenuOpen ? (
                   <X className="h-6 w-6" />
@@ -364,14 +336,13 @@ export default function Navbar() {
           </div>
         </Container>
 
-        {/* Mobile Menu */}
         <AnimatePresence>
           {isMobileMenuOpen && (
             <motion.div
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
-              className="md:hidden bg-green-700 border-t border-green-500"
+              className="md:hidden bg-white border-t border-gray-200"
             >
               <div className="px-2 pt-2 pb-3 space-y-1">
                 {[
@@ -384,13 +355,12 @@ export default function Navbar() {
                   <a
                     key={i}
                     href="#"
-                    className="block px-3 py-2 text-base font-medium text-white hover:text-lime-400"
+                    className="block px-3 py-2 text-base font-medium text-black hover:text-gray-700"
                   >
                     {link}
                   </a>
                 ))}
-
-                <button className="w-full text-left bg-lime-500 hover:bg-lime-600 text-white px-3 py-2 text-base font-medium rounded-md">
+                <button className="w-full text-left bg-black hover:bg-gray-800 text-white px-3 py-3 text-base font-medium rounded-md">
                   Enquire Now
                 </button>
               </div>
@@ -399,7 +369,6 @@ export default function Navbar() {
         </AnimatePresence>
       </nav>
 
-      {/* Search Sidebar Rendered Outside */}
       <SearchSidebar
         isOpen={isSearchOpen}
         onClose={() => setIsSearchOpen(false)}

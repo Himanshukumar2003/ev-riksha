@@ -1,161 +1,143 @@
 "use client";
 
-import { ChevronLeft, ChevronRight, Star } from "lucide-react";
-import { useEffect } from "react";
+import { useRef } from "react";
 import { Card, CardContent } from "@/components/ui/card";
-import Image from "next/image";
+import { ChevronLeft, ChevronRight, Star } from "lucide-react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Autoplay } from "swiper/modules";
+
 import "swiper/css";
 import "swiper/css/navigation";
-import "swiper/css/pagination";
-import { Navigation } from "swiper/modules";
-import { Container } from "@mui/material";
 
-const reviews = [
+const testimonials = [
   {
     id: 1,
-    name: "Robert Gold",
-    location: "Georgia, USA",
+    name: "Rajesh Kumar",
+    description:
+      "Outstanding service and quality! The team exceeded my expectations with their professionalism and attention to detail. Highly recommended for anyone looking for reliable solutions.",
     rating: 5,
-    text: "Their team are easy to work with and helped me make amazing websites in a short amount of time. Thanks guys for all your hard work. Trust us we looked for a very long time.",
-    avatar: "/img/reviewer-02.webp",
   },
   {
     id: 2,
-    name: "Olivia Cruz",
-    location: "Georgia, USA",
+    name: "Priya Sharma",
+    description:
+      "Exceptional experience from start to finish. The product quality is top-notch and the customer support is incredibly responsive. We'll definitely use their services again.",
     rating: 5,
-    text: "Their team are easy to work with and helped me make amazing websites in a short amount of time. Thanks guys for all your hard work. Trust us we looked for a very long time.",
-    avatar: "/img/reviewer-02.webp",
   },
   {
     id: 3,
-    name: "Martin Bailey",
-    location: "Georgia, USA",
-    rating: 5,
-    text: "Their team are easy to work with and helped me make amazing websites in a short amount of time. Thanks guys for all your hard work. Trust us we looked for a very long time.",
-    avatar: "/img/reviewer-02.webp",
+    name: "Amit Patel",
+    description:
+      "Very impressed with the results! The team delivered exactly what was promised on time and within budget. Great communication throughout the entire process.",
+    rating: 4,
   },
   {
     id: 4,
-    name: "Sarah Johnson",
-    location: "Florida, USA",
+    name: "Sneha Gupta",
+    description:
+      "Fantastic service! They've understood our requirements perfectly and provided solutions that exceeded our expectations. Professional, reliable, and highly skilled team.",
     rating: 5,
-    text: "Exceptional service and outstanding results. The team delivered exactly what we needed and exceeded our expectations. Highly recommend their services.",
-    avatar: "/img/reviewer-02.webp",
-  },
-  {
-    id: 5,
-    name: "Michael Chen",
-    location: "California, USA",
-    rating: 5,
-    text: "Professional, reliable, and creative. They transformed our vision into reality with incredible attention to detail. Worth every penny!",
-    avatar: "/img/reviewer-02.webp",
   },
 ];
 
-export default function ReviewsSection() {
-  const renderStars = (rating) => {
-    return Array.from({ length: 5 }, (_, i) => (
-      <Star
-        key={i}
-        className={`w-4 h-4 ${
-          i < rating
-            ? "fill-[var(--color-primary-light)] text-[var(--color-primary-light)]"
-            : "text-gray-300"
-        }`}
-      />
-    ));
-  };
+export default function CustomerTestimonials() {
+  const prevRef = useRef(null);
+  const nextRef = useRef(null);
 
   return (
-    <section className="bg-white section">
-      <Container maxWidth="xl">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
-          <div className="space-y-4">
-            <div className="flex items-center gap-2 text-[var(--color-primary-light)] text-sm font-medium tracking-wide">
-              <div className="w-8 h-px bg-[var(--color-primary-light)]"></div>
-              CLIENT FEEDBACK
-            </div>
-            <h2 className=" font-bold text-gray-900 leading-tight">
-              Hear from clients.
-            </h2>
-
-            <div className="flex gap-4 mt-6">
-              <button className="prev-btn btn-circle border p-2">
-                <ChevronLeft className="w-5 h-5" />
-              </button>
-              <button className="next-btn btn-circle border p-2">
-                <ChevronRight className="w-5 h-5" />
-              </button>
-            </div>
-          </div>
-
-          {/* Review Swiper */}
-          <div className="lg:col-span-2">
-            <Swiper
-              modules={[Navigation]}
-              spaceBetween={24}
-              slidesPerView={1}
-              navigation={{
-                nextEl: ".next-btn",
-                prevEl: ".prev-btn",
-              }}
-              breakpoints={{
-                480: {
-                  slidesPerView: 1.3,
-                },
-                768: {
-                  slidesPerView: 1.8,
-                },
-
-                1200: {
-                  slidesPerView: 2.3,
-                },
-                1536: {
-                  slidesPerView: 3,
-                },
-              }}
-            >
-              {reviews.map((review) => (
-                <SwiperSlide key={review.id}>
-                  <Card className="relative cards border-0 bg-gray-100 shadow-none rounded-3xl h-full">
-                    <CardContent className="p-6 h-full flex flex-col justify-between ">
-                      <div className="space-y-4">
-                        <div className="flex gap-1">
-                          {renderStars(review.rating)}
-                        </div>
-                        <p className="text-gray-600 leading-relaxed">
-                          {review.text}
-                        </p>
-                      </div>
-                      <div className="flex items-center justify-between pt-6 relative">
-                        <div>
-                          <h4 className="font-semibold text-[var(--color-primary-light)]">
-                            {review.name}
-                          </h4>
-                          <p className="text-sm text-gray-500">
-                            {review.location}
-                          </p>
-                        </div>
-                        <div className="h-[50px] w-[50px] overflow-hidden z-12 rounded-full flex justify-center items-center absolute -bottom-10 -right-7">
-                          <Image
-                            src={review.avatar || "/placeholder.svg"}
-                            alt={review.name}
-                            width={50}
-                            height={50}
-                            className="w-full h-full object-cover"
-                          />
-                        </div>
-                      </div>
-                    </CardContent>
-                  </Card>
-                </SwiperSlide>
-              ))}
-            </Swiper>
-          </div>
+    <section className="py-16 px-4 ">
+      <div className="max-w-7xl mx-auto">
+        {/* Header */}
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            What our customers say
+          </h2>
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            Don`&quot;`t just take our word for it. Here`&quot;`s what our
+            valued customers have to say about their experience with us.
+          </p>
         </div>
-      </Container>
+
+        {/* Swiper Section */}
+        <div className="relative py-2">
+          {/* Navigation buttons */}
+          <button
+            ref={prevRef}
+            variant="outline"
+            size="icon"
+            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 bg-white rounded-full p-3 shadow-lg hover:shadow-xl transition-shadow duration-200 border border-gray-200"
+          >
+            <ChevronLeft className="h-4 w-4" />
+          </button>
+
+          <button
+            ref={nextRef}
+            variant="outline"
+            size="icon"
+            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-10 bg-white rounded-full p-3 shadow-lg hover:shadow-xl transition-shadow duration-200 border border-gray-200"
+          >
+            <ChevronRight className="h-4 w-4" />
+          </button>
+
+          <Swiper
+            modules={[Navigation, Autoplay]}
+            spaceBetween={24}
+            slidesPerView={1}
+            loop={true}
+            autoplay={{ delay: 5000, disableOnInteraction: false }}
+            breakpoints={{
+              768: { slidesPerView: 2 },
+              1024: { slidesPerView: 3 },
+            }}
+            onBeforeInit={(swiper) => {
+              if (typeof swiper.params.navigation !== "boolean") {
+                swiper.params.navigation.prevEl = prevRef.current;
+                swiper.params.navigation.nextEl = nextRef.current;
+              }
+            }}
+            navigation={{
+              prevEl: prevRef.current,
+              nextEl: nextRef.current,
+            }}
+            className="px-8"
+          >
+            {testimonials.map((testimonial) => (
+              <SwiperSlide key={testimonial.id} className="py-5">
+                <Card className="bg-white shadow-lg   transition-shadow duration-300 border-0 h-full">
+                  <CardContent className="p-6">
+                    {/* Rating Stars */}
+                    <div className="flex items-center mb-4">
+                      {[...Array(5)].map((_, i) => (
+                        <Star
+                          key={i}
+                          className={`w-4 h-4 ${
+                            i < testimonial.rating
+                              ? "fill-yellow-400 text-yellow-400"
+                              : "fill-gray-200 text-gray-200"
+                          }`}
+                        />
+                      ))}
+                    </div>
+
+                    {/* Review Description with normal quotes */}
+                    <p className="text-gray-700 mb-6 leading-relaxed text-sm">
+                      {testimonial.description}
+                    </p>
+
+                    {/* Customer Name */}
+                    <div className="border-t pt-4">
+                      <h4 className="font-semibold text-gray-900 text-base">
+                        {testimonial.name}
+                      </h4>
+                      <p className="text-sm text-gray-500">Verified Customer</p>
+                    </div>
+                  </CardContent>
+                </Card>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+      </div>
     </section>
   );
 }

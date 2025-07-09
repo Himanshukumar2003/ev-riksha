@@ -17,7 +17,7 @@ export default function Footer() {
       <Container maxWidth="xl">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-8">
           {/* Brand Section */}
-          <div className="lg:col-span-1">
+          <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <Image
                 src="/logo.png"
@@ -27,8 +27,14 @@ export default function Footer() {
               ></Image>
             </div>
             <p className="text-sm text-gray-400 mb-6 leading-relaxed">
-              The Mantu is the biggest market of grocery products. Get your
-              daily needs from our store.
+              Mac Auto – Driving E-Rickshaw Innovation Since 2014. As one of
+              India’s pioneering electric vehicle manufacturers, we specialize
+              in eco-friendly E-Rickshaws and loading carts with patented
+              designs and i-CAT certifications. With a PAN India presence, Mac
+              Auto is committed to delivering innovative, reliable, and
+              high-performance electric mobility solutions. Our dedication to
+              quality and customer satisfaction sets us apart in the EV
+              industry.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <Link
@@ -50,65 +56,18 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Category Section */}
-          <div>
-            <h3 className="text-lg font-semibold text-white mb-4">Category</h3>
-            <ul className="space-y-3">
-              <li>
-                <Link
-                  href="#"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  Fashion
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  Cosmetics
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  Bags & Purse
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  Shoes
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  Belts
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  Perfumes
-                </Link>
-              </li>
-            </ul>
-          </div>
-
           {/* Company Section */}
           <div>
             <h3 className="text-lg font-semibold text-white mb-4">Company</h3>
             <ul className="space-y-3">
+              <li>
+                <Link
+                  href="#"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Home
+                </Link>
+              </li>
               <li>
                 <Link
                   href="#"
@@ -122,7 +81,7 @@ export default function Footer() {
                   href="#"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  Delivery
+                  Our Products
                 </Link>
               </li>
               <li>
@@ -130,7 +89,7 @@ export default function Footer() {
                   href="#"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  Legal Notice
+                  Blog
                 </Link>
               </li>
               <li>
@@ -138,15 +97,7 @@ export default function Footer() {
                   href="#"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  Terms of use
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  Secure payment
+                  Gallery
                 </Link>
               </li>
               <li>
@@ -162,14 +113,16 @@ export default function Footer() {
 
           {/* Account Section */}
           <div>
-            <h3 className="text-lg font-semibold text-white mb-4">Account</h3>
+            <h3 className="text-lg font-semibold text-white mb-4">
+              Our Products
+            </h3>
             <ul className="space-y-3">
               <li>
                 <Link
                   href="#"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  Sign In
+                  Tejas
                 </Link>
               </li>
               <li>
@@ -177,7 +130,7 @@ export default function Footer() {
                   href="#"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  View Cart
+                  Tejas DHL
                 </Link>
               </li>
               <li>
@@ -185,7 +138,7 @@ export default function Footer() {
                   href="#"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  Return Policy
+                  Mac Multi Utility E-Cart
                 </Link>
               </li>
               <li>
@@ -193,7 +146,7 @@ export default function Footer() {
                   href="#"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  Become a Vendor
+                  Mac 900
                 </Link>
               </li>
               <li>

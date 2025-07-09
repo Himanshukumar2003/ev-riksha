@@ -105,7 +105,7 @@ export default function SearchSidebar({ isOpen, onClose }) {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             onClick={onClose}
-            className="fixed inset-0 bg-black bg-opacity-50 z-40"
+            className="fixed inset-0 bg-black/30 bg-opacity-50 z-40"
           />
 
           <motion.div
@@ -120,7 +120,7 @@ export default function SearchSidebar({ isOpen, onClose }) {
                 <h2 className="text-xl font-bold">Search Vehicles</h2>
                 <button
                   onClick={onClose}
-                  className="p-2 hover:bg-green-500 rounded-lg transition-colors"
+                  className="p-3  hover:bg-green-500 rounded-xl transition-colors"
                 >
                   <X className="h-5 w-5" />
                 </button>
@@ -144,7 +144,7 @@ export default function SearchSidebar({ isOpen, onClose }) {
                 {searchQuery && (
                   <button
                     onClick={clearSearch}
-                    className="absolute inset-y-0 right-0 pr-4 flex items-center text-green-200 hover:text-white transition-colors"
+                    className="absolute inset-y-0 right-0 pr-4 flex items-center text-green-700 cursor-pointer hover:text-green-900 transition-colors"
                   >
                     <X className="h-5 w-5" />
                   </button>

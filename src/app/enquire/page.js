@@ -10,6 +10,8 @@ import { motion } from "framer-motion";
 import { User, FileText, Building2, TrendingUp } from "lucide-react";
 import { Textarea } from "@/components/ui/textarea";
 import { Checkbox } from "@/components/ui/checkbox";
+import Image from "next/image";
+
 const stats = [
   {
     number: "10,000+",
@@ -27,14 +29,13 @@ const stats = [
     icon: TrendingUp,
   },
 ];
-import Image from "next/image";
 // Zod validation schema
 const contactFormSchema = z.object({
-  firstName: z
+  first_name: z
     .string()
     .min(2, "First name must be at least 2 characters")
     .max(50),
-  lastName: z
+  last_name: z
     .string()
     .min(2, "Last name must be at least 2 characters")
     .max(50),
@@ -52,7 +53,7 @@ const contactFormSchema = z.object({
     .string()
     .min(10, "Message must be at least 10 characters")
     .max(1000),
-  saveInfo: z.boolean().optional(),
+  // saveInfo: z.boolean().optional(),
 });
 
 export default function ContactSection() {
@@ -66,12 +67,12 @@ export default function ContactSection() {
   } = useForm({
     resolver: zodResolver(contactFormSchema),
     defaultValues: {
-      firstName: "",
-      lastName: "",
+      first_name: "",
+      last_name: "",
       phone: "",
       subject: "",
       message: "",
-      saveInfo: false,
+      // saveInfo: false,
     },
   });
 
@@ -105,45 +106,45 @@ export default function ContactSection() {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
                       <label
-                        htmlFor="firstName"
+                        htmlFor="first_name"
                         className="block text-sm font-medium text-gray-700 mb-2"
                       >
                         First Name *
                       </label>
                       <Input
-                        id="firstName"
-                        {...register("firstName")}
+                        id="first_name"
+                        {...register("first_name")}
                         className={`border-gray-200 focus:border-[var(--color-primary-light)] focus:ring-[var(--color-primary-light)] ${
-                          errors.firstName
+                          errors.first_name
                             ? "border-red-500 focus:ring-red-500"
                             : ""
                         }`}
                       />
-                      {errors.firstName && (
+                      {errors.first_name && (
                         <p className="text-sm text-red-600 mt-1">
-                          {errors.firstName.message}
+                          {errors.first_name.message}
                         </p>
                       )}
                     </div>
                     <div>
                       <label
-                        htmlFor="lastName"
+                        htmlFor="last_name"
                         className="block text-sm font-medium text-gray-700 mb-2"
                       >
                         Last Name *
                       </label>
                       <Input
-                        id="lastName"
-                        {...register("lastName")}
+                        id="last_name"
+                        {...register("last_name")}
                         className={`border-gray-200 focus:border-[var(--color-primary-light)] focus:ring-[var(--color-primary-light)] ${
-                          errors.lastName
+                          errors.last_name
                             ? "border-red-500 focus:ring-red-500"
                             : ""
                         }`}
                       />
-                      {errors.lastName && (
+                      {errors.last_name && (
                         <p className="text-sm text-red-600 mt-1">
-                          {errors.lastName.message}
+                          {errors.last_name.message}
                         </p>
                       )}
                     </div>
@@ -223,7 +224,7 @@ export default function ContactSection() {
                   </div>
 
                   {/* Save Info Checkbox */}
-                  <div className="flex items-center space-x-2">
+                  {/* <div className="flex items-center space-x-2">
                     <Checkbox
                       id="saveInfo"
                       checked={saveInfo}
@@ -235,7 +236,7 @@ export default function ContactSection() {
                     <label htmlFor="saveInfo" className="text-sm text-gray-600">
                       Save my name and phone in this browser for the next time.
                     </label>
-                  </div>
+                  </div> */}
 
                   {/* Submit Button */}
                   <button

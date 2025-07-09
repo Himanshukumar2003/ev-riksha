@@ -47,9 +47,6 @@
 
 
 
-
-
-
   --font-manrope: 'Manrope', sans-serif;
   --font-speedbeast: 'SpeedBeast', sans-serif;
 
@@ -130,10 +127,8 @@
 
 body {
   font-family: var(--font-manrope);
-
   -webkit-font-smoothing: antialiased;
 
-  text-transform: capitalize !important;
 }
 
 
@@ -146,6 +141,9 @@ h6 {
   font-family: 'SpeedBeast', sans-serif;
   line-height: 1.2;
   margin: 0 0 0.75rem;
+  text-transform: lowercase;
+
+
 }
 
 /* Mobile-first (base sizes) */

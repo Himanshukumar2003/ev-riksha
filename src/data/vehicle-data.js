@@ -2,6 +2,7 @@ export const products = [
   {
     id: "product-1",
     slug: "tejas-dhl",
+    category: "passenger",
     brand: "Mac Auto",
     model: "Tejas DHL",
     type: "Passenger (Double Headlight)",
@@ -299,6 +300,8 @@ export const products = [
   {
     id: "product-2",
     slug: "tejas",
+    category: "passenger",
+
     brand: "Mac Auto",
     model: "Tejas",
     type: "Passenger",
@@ -608,6 +611,8 @@ export const products = [
   {
     id: "product-3",
     slug: "mac-900",
+    category: "passenger",
+
     brand: "Mac Auto",
     model: "Mac 900",
     type: "Electric Car",
@@ -642,7 +647,7 @@ export const products = [
         {
           id: "state-1",
           name: "California",
-          basePrice: 45000,
+          basePrice: 81669,
           cities: [
             {
               id: "city-1",
@@ -918,6 +923,7 @@ export const products = [
     id: "product-4",
     slug: "mac-multi-utility-w-cart",
     brand: "Mac Auto",
+    category: "electric",
     model: "Mac Multi Utility E-Cart",
     type: "Cargo",
     description:
@@ -952,6 +958,289 @@ export const products = [
           id: "state-1",
           name: "California",
           basePrice: 45000,
+          cities: [
+            {
+              id: "city-1",
+              name: "Los Angeles",
+              priceModifier: 1500,
+            },
+            {
+              id: "city-2",
+              name: "San Francisco",
+              priceModifier: 2000,
+            },
+          ],
+        },
+        {
+          id: "state-2",
+          name: "Texas",
+          basePrice: 43000,
+          cities: [
+            {
+              id: "city-3",
+              name: "Austin",
+              priceModifier: 1000,
+            },
+            {
+              id: "city-4",
+              name: "Dallas",
+              priceModifier: 1200,
+            },
+          ],
+        },
+      ],
+    },
+    emiCalculator: {
+      defaultValues: {
+        downPayment: 10000,
+        loanTenure: 36,
+        interestRate: 10.5,
+      },
+      ranges: {
+        downPayment: {
+          min: 5000,
+          step: 500,
+        },
+        loanTenure: {
+          min: 12,
+          max: 60,
+          step: 12,
+        },
+        interestRate: {
+          min: 5.0,
+          max: 15.0,
+          step: 0.5,
+        },
+      },
+      financingCompanies: [
+        {
+          id: "company-1",
+          name: "Green Loans",
+          interestRate: 9.5,
+          color: "#34D399",
+        },
+        {
+          id: "company-2",
+          name: "Eco Finance",
+          interestRate: 10.0,
+          color: "#22C55E",
+        },
+        {
+          id: "company-3",
+          name: "Clean Credit",
+          interestRate: 10.25,
+          color: "#16A34A",
+        },
+        {
+          id: "company-4",
+          name: "Future Bank",
+          interestRate: 10.75,
+          color: "#15803D",
+        },
+      ],
+    },
+    featuresSteps: {
+      header: {
+        title: "Key Features",
+        subtitle: "Explore the advanced features of the Electric Car X",
+        description:
+          "The Electric Car X is packed with innovative features designed to enhance your driving experience and promote sustainability.",
+      },
+      steps: [
+        {
+          number: "1",
+          title: "Advanced Battery Technology",
+          text: "Our state-of-the-art battery provides a long-lasting charge and quick recharge times, ensuring you're always ready to go.",
+          image: "/img/auto.jpg",
+          icon: "/travel.png",
+          features: [
+            {
+              list: [
+                {
+                  strong: "Long Range",
+                  description: "Up to 400 miles on a single charge.",
+                },
+                {
+                  strong: "Fast Charging",
+                  description: "80% charge in just 30 minutes.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          number: "2",
+          title: "Smart Driving Assistance",
+          text: "Experience a safer and more convenient drive with our intelligent driver assistance systems.",
+          image: "/img/banner1.png",
+          icon: "/travel.png",
+          features: [
+            {
+              list: [
+                {
+                  strong: "Adaptive Cruise Control",
+                  description: "Maintains a safe distance from other vehicles.",
+                },
+                {
+                  strong: "Lane Keep Assist",
+                  description: "Helps you stay in your lane.",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    vehicleSpecs: {
+      performance: {
+        icon: "Gauge",
+        specs: [
+          {
+            label: "Vehicle Type",
+            value: "Cargo",
+          },
+          {
+            label: "Top Speed",
+            value: "25-30 km/h",
+          },
+          {
+            label: "Seating / Payload",
+            value: "400-500 kg Payload",
+          },
+          {
+            label: "Tyres",
+            value: "3.75-12",
+          },
+        ],
+      },
+      battery: {
+        icon: "Battery",
+        specs: [
+          {
+            label: "Battery Type",
+            value: "Lithium-Ion, 48V/120Ah",
+          },
+        ],
+      },
+      drivetrain: {
+        icon: "Settings",
+        specs: [
+          {
+            label: "Motor",
+            value: "1200W BLDC",
+          },
+          {
+            label: "Controller",
+            value: "48V 50A",
+          },
+          {
+            label: "Charger",
+            value: "15A Smart Charger",
+          },
+        ],
+      },
+    },
+    gallery: {
+      header: {
+        title: "Explore the Gallery",
+        subtitle: "View stunning images of the Electric Car X",
+        description:
+          "Browse our gallery to see the Electric Car X from every angle. Discover its sleek design and innovative features.",
+      },
+      images: [
+        {
+          id: "image-1",
+          src: "/img/banner2.png",
+          alt: "Electric Car X - Front View",
+        },
+        {
+          id: "image-2",
+          src: "/img/auto.jpg",
+          alt: "Electric Car X - Interior",
+        },
+        {
+          id: "image-3",
+          src: "/img/download.webp",
+          alt: "Electric Car X - Side View",
+        },
+        {
+          id: "image-4",
+          src: "/img/heo-img.jpg",
+          alt: "Electric Car X - Back View",
+        },
+      ],
+    },
+    faq: {
+      header: {
+        title: "Frequently Asked Questions",
+        subtitle: "Get answers to common questions about the Electric Car X",
+        description:
+          "Find answers to the most frequently asked questions about the Electric Car X, including information about its features, performance, and sustainability.",
+      },
+      questions: [
+        {
+          question: "What is the range of the Electric Car X?",
+          answer:
+            "The Electric Car X has a range of up to 400 miles on a single charge.",
+        },
+        {
+          question: "How long does it take to charge the Electric Car X?",
+          answer:
+            "It takes approximately 8 hours to fully charge the Electric Car X using a 240V charger. Fast charging options are also available.",
+        },
+        {
+          question: "What safety features does the Electric Car X have?",
+          answer:
+            "The Electric Car X is equipped with advanced safety features, including airbags, ABS, and intelligent driver assistance systems.",
+        },
+        {
+          question: "Is the Electric Car X environmentally friendly?",
+          answer:
+            "Yes, the Electric Car X is designed to be environmentally friendly, producing zero emissions and promoting sustainable transportation.",
+        },
+      ],
+    },
+  },
+
+  {
+    id: "product-5",
+    slug: "mac-dhoom",
+    brand: "Mac Auto",
+    category: "passenger",
+    model: "Mac Dhoom",
+    type: "Passenger",
+    description:
+      "Experience the future of driving with the Electric Car X. This innovative vehicle combines cutting-edge technology with sustainable design, offering a smooth and eco-friendly ride.",
+    viewer360: {
+      imagePath: "/bajaj/",
+      imageCount: 8,
+    },
+    colors: [
+      {
+        id: "color-1",
+        name: "Midnight Black",
+        color: "#000000",
+        filter: "grayscale(100%)",
+      },
+      {
+        id: "color-2",
+        name: "Ocean Blue",
+        color: "#0077BE",
+        filter: "sepia(50%)",
+      },
+      {
+        id: "color-3",
+        name: "Forest Green",
+        color: "#228B22",
+        filter: "invert(75%)",
+      },
+    ],
+    pricing: {
+      states: [
+        {
+          id: "state-1",
+          name: "California",
+          basePrice: 87808,
           cities: [
             {
               id: "city-1",

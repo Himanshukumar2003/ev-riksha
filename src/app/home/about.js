@@ -2,6 +2,8 @@ import Image from "next/image";
 import { Truck, Shield, Clock, Users, MapPin, Headphones } from "lucide-react";
 import Container from "@mui/material/Container";
 import { ArrowUpRight } from "lucide-react";
+// import VehicleCategoryFilter from "./products";
+
 export default function ContingentSection() {
   const leftServices = [
     {
@@ -115,6 +117,7 @@ export default function ContingentSection() {
           </div>
         </Container>
       </div>
+
       <section className="section bg-gray-100">
         <Container maxWidth="xl">
           {/* Heading Section */}

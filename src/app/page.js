@@ -1,20 +1,24 @@
 import dynamic from "next/dynamic";
 import React from "react";
-import ReviewsSection from "@/components/review";
 import HeroSection from "./home/hero";
-import ContingentSection from "./home/about";
-import Blogs from "@/components/blog";
-import OurProduct from "@/components/products";
-import Bajaj360Viewer from "@/components/fecher-products";
+// import ContingentSection from "./home/about";
+// import Blogs from "@/components/blog";
+// import OurProduct from "@/components/products";
+import NewsSection from "./home/news-section";
+import VehicleCategoryFilter from "./home/products";
+import CustomerTestimonials from "@/components/review";
 
 export default function Home() {
   return (
     <>
       <HeroSection />
-      <ContingentSection />
-      <OurProduct />
-      <ReviewsSection></ReviewsSection>
-      <Blogs />
+      <VehicleCategoryFilter></VehicleCategoryFilter>
+
+      {/* <ContingentSection /> */}
+      {/* <OurProduct /> */}
+      <CustomerTestimonials></CustomerTestimonials>
+      <NewsSection />
+      {/* <Blogs /> */}
     </>
   );
 }
