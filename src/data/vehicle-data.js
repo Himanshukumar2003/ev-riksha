@@ -923,7 +923,7 @@ export const products = [
     id: "product-4",
     slug: "mac-multi-utility-w-cart",
     brand: "Mac Auto",
-    category: "electric",
+    category: "Cargo",
     model: "Mac Multi Utility E-Cart",
     type: "Cargo",
     description:
