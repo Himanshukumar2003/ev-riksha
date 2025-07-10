@@ -613,7 +613,7 @@ export const products = [
     id: "product-3",
     slug: "mac-900",
     category: "passenger",
-    navImg: "/img/mac-tejas.png",
+    navImg: "/img/mac-900.png",
 
     brand: "Mac Auto",
     model: "Mac 900",
