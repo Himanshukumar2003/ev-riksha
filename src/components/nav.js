@@ -336,7 +336,7 @@ export default function Navbar() {
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
-              className="md:hidden absolute top-[80px] left-0 right-0 bg-white border-t border-gray-200 shadow-lg z-50"
+              className="md:hidden absolute top-[55px] left-0 right-0 bg-white border-t border-gray-200 shadow-lg z-50"
             >
               <div className="px-2 pt-2 pb-3 space-y-1">
                 <Link
