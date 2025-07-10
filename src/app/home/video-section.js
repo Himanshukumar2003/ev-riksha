@@ -191,7 +191,7 @@ export default function VideoSection() {
                       </div>
                     </div>
 
-                    <CardContent className="p-5">
+                    <CardContent className="p-5 pt-2">
                       <div className="space-y-3">
                         <h3 className="font-semibold text-lg line-clamp-2 text-slate-800 leading-tight">
                           {video.title}
@@ -200,17 +200,10 @@ export default function VideoSection() {
                           {video.description}
                         </p>
 
-                        <div className="flex items-center justify-between pt-2 border-t border-slate-100">
-                          <div className="flex items-center gap-3 text-xs text-slate-500">
-                            <div className="flex items-center gap-1">
-                              <Eye className="w-3 h-3" />
-                              {video.views}
-                            </div>
-                            <div className="flex items-center gap-1">
-                              <ThumbsUp className="w-3 h-3" />
-                              {video.likes}
-                            </div>
-                          </div>
+                        <div className="flex items-center justify-between pt-5 pb-0 border-t border-slate-100">
+                          <button className="text-center bg-black mb-0 hover:bg-gray-800 text-white px-3 py-2 text-base font-medium rounded-md">
+                            Watch Now
+                          </button>
                           <div className="flex items-center gap-1 text-xs text-slate-500">
                             <Users className="w-3 h-3" />
                             {video.channel}
