@@ -88,7 +88,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="nav-header bg-gray-50 py-2 border-b border-gray-100">
+      <div className="nav-header bg-[background: linear-gradient(to right, #3e5eab, #26a9E1);]">
         <Container maxWidth="xl">
           <div className="flex justify-end   items-center gap-10">
             <DropdownMenu>

@@ -44,12 +44,9 @@
 }
 
 :root {
-
-
-
   --font-manrope: 'Manrope', sans-serif;
   --font-speedbeast: 'SpeedBeast', sans-serif;
-
+  --color-main: #3e5eab;
 
   --color-primary: #26a9E1;
   --color-primary-light: #8BC248;

@@ -58,7 +58,7 @@ export default function ImageSwiper() {
                 alt=""
                 width="2000"
                 height="2000"
-                className="w-full max-h-[80vh]"
+                className="w-full"
               />
             </div>
           </SwiperSlide>
