@@ -183,13 +183,13 @@ export default function Navbar() {
 
                 {/* Improved mega dropdown */}
                 <div
-                  className={`absolute left-0 top-full mt-1 w-[800px] bg-white rounded-lg shadow-xl text-black transition-opacity duration-200 ${
+                  className={`absolute left-0 top-5 mt-1 pt-7 w-[800px]  transition-opacity duration-200 ${
                     isVehiclesOpen
                       ? "opacity-100 visible"
                       : "opacity-0 invisible"
                   }`}
                 >
-                  <div className="flex">
+                  <div className="flex bg-white rounded-lg shadow-xl text-black">
                     <div className="w-1/3 bg-white rounded-l-lg border-r border-gray-200">
                       {Object.keys(vehicleCategories).map((category) => (
                         <button
