@@ -6,6 +6,7 @@ export const products = [
     brand: "Mac Auto",
     navImg: "/img/mac-tejas-dhl.png",
     model: "Tejas DHL",
+    brochure: "/pdf/tehas-dhl.pdf",
     type: "Passenger (Double Headlight)",
     description:
       "The Tejas DHL is designed for urban mobility with comfort, reliability, and cutting-edge electric drive. A smart solution for everyday transport.",
@@ -305,6 +306,7 @@ export const products = [
     brand: "Mac Auto",
     navImg: "/img/mac-tejas.png",
     model: "Tejas",
+    brochure: "/pdf/mac-tejas.pdf",
     type: "Passenger",
     description:
       "Experience the future of driving with the Electric Car X. This innovative vehicle combines cutting-edge technology with sustainable design, offering a smooth and eco-friendly ride.",

@@ -115,7 +115,7 @@ export default function SearchSidebar({ isOpen, onClose }) {
             transition={{ type: "spring", damping: 25, stiffness: 200 }}
             className="fixed top-0 right-0 h-full w-full max-w-md bg-white shadow-2xl z-50 flex flex-col"
           >
-            <div className="bg-gradient-to-r from-green-600 to-green-700 p-6 text-white">
+            <div className="b bg-black/80 p-6 text-white">
               <div className="flex items-center justify-between mb-4">
                 <h2 className="text-xl font-bold">Search Vehicles</h2>
                 <button

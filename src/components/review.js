@@ -99,11 +99,10 @@ export default function CustomerTestimonials() {
               prevEl: prevRef.current,
               nextEl: nextRef.current,
             }}
-            className="px-8"
           >
             {testimonials.map((testimonial) => (
-              <SwiperSlide key={testimonial.id} className="py-5">
-                <Card className="bg-white shadow-lg   transition-shadow duration-300 border-0 h-full">
+              <SwiperSlide key={testimonial.id}>
+                <Card className="shadow-lg overflow-hidden bg-gray-100 rounded-2xl border-0">
                   <CardContent className="p-6">
                     {/* Rating Stars */}
                     <div className="flex items-center mb-4">

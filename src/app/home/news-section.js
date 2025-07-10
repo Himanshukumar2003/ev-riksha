@@ -4,7 +4,7 @@ import { useRef } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 import "swiper/css";
@@ -59,7 +59,7 @@ export default function NewsSection() {
   const nextRef = useRef(null);
 
   return (
-    <section className="py-16 px-4 bg-gray-50">
+    <section className="py-16 px-4 bg-gray-100">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
           Latest News
@@ -117,7 +117,7 @@ export default function NewsSection() {
                 spaceBetween: 24,
               },
               1024: {
-                slidesPerView: 3,
+                slidesPerView: 3.5,
                 spaceBetween: 24,
               },
             }}
@@ -125,28 +125,45 @@ export default function NewsSection() {
           >
             {newsData.map((news) => (
               <SwiperSlide key={news.id}>
-                <Card className="h-full bg-white pt-0 shadow-lg hover:shadow-xl transition-shadow duration-300 border-0 rounded-2xl overflow-hidden">
-                  <div className="relative h-48 overflow-hidden">
+                <a
+                  href={`/news/${news.slug}`}
+                  className="group relative block rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-1"
+                  style={{ minHeight: "320px" }}
+                  aria-label={news.title}
+                >
+                  {/* Image with zoom + dark overlay on hover */}
+                  <div className="relative    overflow-hidden">
                     <Image
                       src={news.image || "/placeholder.svg"}
                       alt={news.title}
-                      fill
-                      className="object-cover transition-transform duration-300 hover:scale-105"
+                      height={300}
+                      width={300}
+                      className="object-cover  w-full transition-transform duration-500 group-hover:scale-110 overflow-hidden h-60"
                     />
+                    {/* Dark gradient overlay */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-70 group-hover:opacity-50 transition-opacity duration-300"></div>
                   </div>
-                  <CardContent className="pt-0 px-6 pb-0">
-                    <div className="text-sm text-gray-500 mb-3 font-medium">
-                      {news.date}
+
+                  {/* Content */}
+                  <div className="p-6 bg-white flex flex-col h-[calc(100%-192px)] sm:h-[calc(100%-224px)] md:h-[calc(100%-256px)]">
+                    {/* Date badge */}
+                    <div>
+                      <time className="inline-block mb-2 px-3 py-1 text-xs font-semibold text-black bg-gray-100 rounded-full">
+                        {news.date}
+                      </time>
                     </div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-4  leading-relaxed line-clamp-2">
+
+                    {/* Title */}
+                    <div className="text-lg font-bold mb-4 line-clamp-3  transition-colors duration-300">
                       {news.title}
-                    </h3>
-                    <p className="mb-4   line-clamp-2"> {news.title}</p>
-                    <button className="w-full bg-gray-800  hover:bg-gray-900 text-white font-medium py-2.5 rounded-lg transition-colors duration-200">
+                    </div>
+
+                    <span className="mt-auto inline-flex items-center text-black font-semibold group-hover:underline">
                       Know More
-                    </button>
-                  </CardContent>
-                </Card>
+                      <ArrowRight className="ml-1 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
+                    </span>
+                  </div>
+                </a>
               </SwiperSlide>
             ))}
           </Swiper>

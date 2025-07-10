@@ -131,6 +131,14 @@ body {
 
 }
 
+button {
+  cursor: pointer;
+}
+
+Button {
+  cursor: pointer;
+
+}
 
 h1,
 h2,

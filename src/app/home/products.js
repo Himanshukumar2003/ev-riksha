@@ -16,19 +16,19 @@ const categories = [
   {
     id: "passenger",
     name: "Passenger",
-    icon: "/img/treo-zor.png",
+    icon: "/img/mac-tejas.png",
     description: "Eco-friendly electric vehicles",
   },
   {
     id: "cargo",
     name: "Cargo",
-    icon: "/img/treo-zor.png",
+    icon: "/img/multiutility.png",
     description: "Petrol-powered vehicles",
   },
   {
     id: "garbage",
     name: "Garbage",
-    icon: "/img/treo-zor.png",
+    icon: "/img/mac-tejas-dhl.png",
     description: "Diesel engine vehicles",
   },
 ];
@@ -170,7 +170,7 @@ export default function VehicleCategoryFilter() {
                     </p>
                   </div>
                   <Link
-                    href="/"
+                    href={`product/${product.slug}`}
                     className="text-center bg-black hover:bg-gray-800 text-white px-3 py-2 text-base font-medium rounded-md"
                   >
                     View Details

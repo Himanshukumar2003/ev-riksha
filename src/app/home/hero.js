@@ -52,13 +52,13 @@ export default function ImageSwiper() {
       >
         {images.map((image, index) => (
           <SwiperSlide key={index}>
-            <div className="relative w-full h-full">
+            <div className="relative">
               <Image
                 src={image.src || "/placeholder.svg"}
                 alt=""
                 width="2000"
                 height="2000"
-                className="w-full"
+                className="w-full max-h-[80vh]"
               />
             </div>
           </SwiperSlide>

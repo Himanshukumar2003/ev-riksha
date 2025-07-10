@@ -7,6 +7,7 @@ import HeroSection from "./home/hero";
 import NewsSection from "./home/news-section";
 import VehicleCategoryFilter from "./home/products";
 import CustomerTestimonials from "@/components/review";
+import VideoSection from "./home/video-section";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
 
       {/* <ContingentSection /> */}
       {/* <OurProduct /> */}
+      <VideoSection></VideoSection>
       <CustomerTestimonials></CustomerTestimonials>
       <NewsSection />
       {/* <Blogs /> */}
