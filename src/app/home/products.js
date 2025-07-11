@@ -74,7 +74,7 @@ export default function VehicleCategoryFilter() {
               onClick={() => setSelectedCategory(category.id)}
               className={`group relative flex flex-col items-center p-8 min-w-[140px] rounded-2xl transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 text-black shadow-2xl ${
                 selectedCategory === category.id
-                  ? "bg-black text-white"
+                  ? "bg-[linear-gradient(135deg,#8BC248,#58B947)] text-white"
                   : "bg-gray-100 "
               }`}
             >
@@ -169,10 +169,7 @@ export default function VehicleCategoryFilter() {
                       )}
                     </p>
                   </div>
-                  <Link
-                    href={`product/${product.slug}`}
-                    className="text-center bg-black hover:bg-gray-800 text-white px-3 py-2 text-base font-medium rounded-md"
-                  >
+                  <Link href={`product/${product.slug}`} className="btn">
                     View Details
                   </Link>
                 </div>

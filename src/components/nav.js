@@ -88,14 +88,14 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="nav-header bg-[background: linear-gradient(to right, #3e5eab, #26a9E1);]">
+      <div className="nav-header py-2">
         <Container maxWidth="xl">
           <div className="flex justify-end   items-center gap-10">
-            <DropdownMenu>
+            <DropdownMenu className="">
               <DropdownMenuTrigger asChild>
                 <Button
                   variant="outline"
-                  className="w-48 justify-between border-2 border-gray-300 hover:border-gray-400 transition-colors bg-white text-black"
+                  className="w-48 justify-between  px-2 border-2 border-white/30 hover:border-white/50 hover:text-white transition-all bg-white/10 backdrop-blur-sm text-white hover:bg-white/20"
                 >
                   <span className="flex items-center gap-2">
                     <Download className="h-4 w-4" />
@@ -105,14 +105,14 @@ export default function Navbar() {
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent
-                className="w-56 p-2 bg-white text-black"
-                align="end"
+                className="w-56    rounded-lg   p-2 bg-white border-0 text-black"
+                align="center"
               >
                 {Object.entries(vehicleCategories).map(
                   ([categoryKey, categoryData], index) => (
                     <div key={categoryKey}>
                       <div
-                        className="flex items-center justify-between w-full px-2 py-2 hover:bg-gray-100 rounded-sm cursor-pointer"
+                        className="flex items-center justify-between w-full px-2 bg-blue-500 py-2 hover:bg-blue-700  text-white rounded-sm cursor-pointer"
                         onClick={() => toggleCategoryExpansion(categoryKey)}
                       >
                         <span className="font-medium">{categoryKey}</span>
@@ -146,7 +146,7 @@ export default function Navbar() {
                 )}
               </DropdownMenuContent>
             </DropdownMenu>
-            <span className="text-black flex gap-2 font-medium text-sm md:text-base">
+            <span className="text-white flex gap-2 font-medium text-sm md:text-base">
               <Phone></Phone> 4559383834
             </span>
           </div>
@@ -183,7 +183,7 @@ export default function Navbar() {
 
                 {/* Improved mega dropdown */}
                 <div
-                  className={`absolute left-0 top-5 mt-1 pt-7 w-[800px]  transition-opacity duration-200 ${
+                  className={`absolute -left-5 top-5 mt-1 pt-7 w-[800px]  transition-opacity duration-200 ${
                     isVehiclesOpen
                       ? "opacity-100 visible"
                       : "opacity-0 invisible"
@@ -297,10 +297,7 @@ export default function Navbar() {
                 <Search className="h-5 w-5" />
               </motion.button>
 
-              <Link
-                href="/enquire"
-                className="bg-black text-white px-6 py-2 rounded-lg text-sm font-medium hover:bg-gray-800 transition-colors"
-              >
+              <Link href="/enquire" className="btn">
                 Enquire Now
               </Link>
             </div>
@@ -432,7 +429,7 @@ export default function Navbar() {
                 </button>
                 <Link
                   href="/enquire"
-                  className="block w-full text-left bg-black hover:bg-gray-800 text-white px-3 py-3 text-base font-medium rounded-md"
+                  className="block w-full text-left   bg-gradient-to-tr-[var(--gradient)] text-white px-3 py-3 text-base font-medium rounded-md"
                 >
                   Enquire Now
                 </Link>

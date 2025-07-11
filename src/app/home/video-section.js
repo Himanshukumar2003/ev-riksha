@@ -201,9 +201,7 @@ export default function VideoSection() {
                         </p>
 
                         <div className="flex items-center justify-between pt-5 pb-0 border-t border-slate-100">
-                          <button className="text-center bg-black mb-0 hover:bg-gray-800 text-white px-3 py-2 text-base font-medium rounded-md">
-                            Watch Now
-                          </button>
+                          <button className="btn">Watch Now</button>
                           <div className="flex items-center gap-1 text-xs text-slate-500">
                             <Users className="w-3 h-3" />
                             {video.channel}

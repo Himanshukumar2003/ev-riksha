@@ -88,11 +88,11 @@ export default function SearchSidebar({ isOpen, onClose }) {
 
   const getVehicleIcon = (type) => {
     if (type.toLowerCase().includes("electric")) {
-      return <Zap className="h-5 w-5 text-green-600" />;
+      return <Zap className="h-5 w-5 text-blue-600" />;
     } else if (type.toLowerCase().includes("car")) {
-      return <Car className="h-5 w-5 text-green-600" />;
+      return <Car className="h-5 w-5 text-blue-600" />;
     } else {
-      return <Fuel className="h-5 w-5 text-green-600" />;
+      return <Fuel className="h-5 w-5 text-blue-600" />;
     }
   };
 
@@ -115,12 +115,12 @@ export default function SearchSidebar({ isOpen, onClose }) {
             transition={{ type: "spring", damping: 25, stiffness: 200 }}
             className="fixed top-0 right-0 h-full w-full max-w-md bg-white shadow-2xl z-50 flex flex-col"
           >
-            <div className="b bg-black/80 p-6 text-white">
+            <div className="bg-[linear-gradient(135deg,#3e5eab,#26a9E1)] p-6 text-white">
               <div className="flex items-center justify-between mb-4">
                 <h2 className="text-xl font-bold">Search Vehicles</h2>
                 <button
                   onClick={onClose}
-                  className="p-3  hover:bg-green-500 rounded-xl transition-colors"
+                  className="p-3  hover:bg-blue-500 rounded-xl transition-colors"
                 >
                   <X className="h-5 w-5" />
                 </button>
@@ -128,7 +128,7 @@ export default function SearchSidebar({ isOpen, onClose }) {
 
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
-                  <Search className="h-5 w-5 text-green-200" />
+                  <Search className="h-5 w-5 text-blue-200" />
                 </div>
 
                 <input
@@ -138,13 +138,13 @@ export default function SearchSidebar({ isOpen, onClose }) {
                   onChange={(e) => setSearchQuery(e.target.value)}
                   onKeyDown={handleSearchKeyDown}
                   placeholder="Search by brand, model, type..."
-                  className="w-full pl-12 pr-12 py-3 bg-white  bg-opacity-20 border border-green-400 rounded-lg text-green-900 placeholder-green-200 focus:outline-none focus:bg-opacity-30 focus:border-green-300 transition-all duration-200"
+                  className="w-full pl-12 pr-12 py-3 bg-white  bg-opacity-20 border border-blue-400 rounded-lg text-blue-900 placeholder-blue-200 focus:outline-none focus:bg-opacity-30 focus:border-blue-300 transition-all duration-200"
                 />
 
                 {searchQuery && (
                   <button
                     onClick={clearSearch}
-                    className="absolute inset-y-0 right-0 pr-4 flex items-center text-green-700 cursor-pointer hover:text-green-900 transition-colors"
+                    className="absolute inset-y-0 right-0 pr-4 flex items-center text-blue-700 cursor-pointer hover:text-blue-900 transition-colors"
                   >
                     <X className="h-5 w-5" />
                   </button>
@@ -165,8 +165,8 @@ export default function SearchSidebar({ isOpen, onClose }) {
                         onClick={() => handleSuggestionClick(product)}
                         className={`w-full p-4 text-left rounded-xl border transition-all duration-200 group ${
                           selectedSearchIndex === index
-                            ? "bg-green-50 border-green-300 shadow-md"
-                            : "bg-gray-50 border-gray-200 hover:bg-green-50 hover:border-green-300 hover:shadow-md"
+                            ? "bg-blue-50 border-blue-300 shadow-md"
+                            : "bg-gray-50 border-gray-200 hover:bg-blue-50 hover:border-blue-300 hover:shadow-md"
                         }`}
                       >
                         <div className="flex items-start space-x-4">
@@ -175,10 +175,10 @@ export default function SearchSidebar({ isOpen, onClose }) {
                           </div>
                           <div className="flex-1">
                             <div className="flex items-center space-x-2 mb-2">
-                              <h3 className="font-semibold text-gray-900 group-hover:text-green-700 transition-colors">
+                              <h3 className="font-semibold text-gray-900 group-hover:text-blue-700 transition-colors">
                                 {product.brand} {product.model}
                               </h3>
-                              <span className="px-2 py-1 text-xs font-medium bg-green-100 text-green-800 rounded-full">
+                              <span className="px-2 py-1 text-xs font-medium bg-blue-100 text-blue-800 rounded-full">
                                 {product.type}
                               </span>
                             </div>
@@ -186,7 +186,7 @@ export default function SearchSidebar({ isOpen, onClose }) {
                               {product.description}
                             </p>
                           </div>
-                          <ArrowRight className="h-4 w-4 text-green-600 opacity-0 group-hover:opacity-100 transition-opacity" />
+                          <ArrowRight className="h-4 w-4 text-blue-600 opacity-0 group-hover:opacity-100 transition-opacity" />
                         </div>
                       </motion.button>
                     ))}
@@ -202,7 +202,7 @@ export default function SearchSidebar({ isOpen, onClose }) {
                 )
               ) : (
                 <div className="p-8 text-center text-gray-400">
-                  <Search className="h-16 w-16 mx-auto mb-4 text-green-300" />
+                  <Search className="h-16 w-16 mx-auto mb-4 text-blue-300" />
                   <h3 className="text-lg font-semibold text-gray-700 mb-2">
                     Start Your Search
                   </h3>
