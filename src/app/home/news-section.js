@@ -10,6 +10,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import Link from "next/link";
 
 const newsData = [
   {
@@ -100,7 +101,7 @@ export default function NewsSection() {
             }}
             pagination={{
               clickable: true,
-              bulletClass: "swiper-pagination-bullet !bg-gray-400",
+              bulletClass: "swiper-pagination-bullet !bg-green-400",
               bulletActiveClass: "swiper-pagination-bullet-active !bg-blue-600",
             }}
             autoplay={{
@@ -125,8 +126,8 @@ export default function NewsSection() {
           >
             {newsData.map((news) => (
               <SwiperSlide key={news.id}>
-                <a
-                  href={`/news/${news.slug}`}
+                <Link
+                  href="/blog"
                   className="group relative block rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-1"
                   style={{ minHeight: "320px" }}
                   aria-label={news.title}
@@ -154,7 +155,7 @@ export default function NewsSection() {
                     </div>
 
                     {/* Title */}
-                    <div className="text-lg font-bold mb-4 line-clamp-3  transition-colors duration-300">
+                    <div className="text-lg group-hover:text-green-500 font-bold mb-4 line-clamp-3  transition-colors duration-300">
                       {news.title}
                     </div>
 
@@ -163,7 +164,7 @@ export default function NewsSection() {
                       <ArrowRight className="ml-1 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
                     </span>
                   </div>
-                </a>
+                </Link>
               </SwiperSlide>
             ))}
           </Swiper>

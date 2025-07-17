@@ -20,7 +20,7 @@ const videos = [
     description:
       "Real-world implementation and success metrics of electric commercial vehicles in Indian market.",
     thumbnail: "/img/banner2.png",
-    videoId: "7yaRwHrDxKE",
+    videoId: "https://www.youtube.com/embed/wLGL61iwo7k?si=-iitDdC0MZaW-ZI5",
     duration: "6:45",
     views: "892K",
     likes: "42K",
@@ -34,7 +34,7 @@ const videos = [
     description:
       "Latest market analysis and future predictions for electric vehicle adoption worldwide.",
     thumbnail: "/img/banner2.png",
-    videoId: "7yaRwHrDxKE",
+    videoId: "https://www.youtube.com/embed/wLGL61iwo7k?si=-iitDdC0MZaW-ZI5",
     duration: "10:30",
     views: "1.5M",
     likes: "67K",
@@ -48,7 +48,7 @@ const videos = [
     description:
       "How companies are reducing costs and carbon footprint with electric vehicle fleets.",
     thumbnail: "/img/banner2.png",
-    videoId: "7yaRwHrDxKE",
+    videoId: "https://www.youtube.com/embed/wLGL61iwo7k?si=-iitDdC0MZaW-ZI5",
     duration: "8:15",
     views: "634K",
     likes: "28K",
@@ -62,7 +62,7 @@ const videos = [
     description:
       "Complete guide to setting up charging infrastructure for commercial electric vehicles.",
     thumbnail: "/img/banner2.png",
-    videoId: "7yaRwHrDxKE",
+    videoId: "https://www.youtube.com/embed/wLGL61iwo7k?si=-iitDdC0MZaW-ZI5",
     duration: "12:20",
     views: "445K",
     likes: "19K",
@@ -79,7 +79,7 @@ const videos = [
     duration: "9:45",
     views: "723K",
     likes: "35K",
-    videoId: "7yaRwHrDxKE",
+    videoId: "https://www.youtube.com/embed/wLGL61iwo7k?si=-iitDdC0MZaW-ZI5",
 
     category: "Finance",
     channel: "Business Finance",
@@ -127,7 +127,7 @@ export default function VideoSection() {
             autoplay={{ delay: 4000, disableOnInteraction: false }}
             pagination={{
               clickable: true,
-              bulletClass: "swiper-pagination-bullet !bg-gray-400",
+              bulletClass: "swiper-pagination-bullet !bg-green-400",
               bulletActiveClass: "swiper-pagination-bullet-active !bg-blue-600",
             }}
             breakpoints={{
@@ -146,7 +146,7 @@ export default function VideoSection() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: index * 0.1 }}
                   className="cursor-pointer h-full"
-                  onClick={() => setSelectedVideo(video)}
+                  onClick={() => setSelectedVideo(video.videoId)}
                 >
                   <Card className="overflow-hidden group h-full pt-0 hover:shadow-xl transition-all duration-300 border border-slate-200 bg-white">
                     <div className="relative">
@@ -193,7 +193,7 @@ export default function VideoSection() {
 
                     <CardContent className="p-5 pt-2">
                       <div className="space-y-3">
-                        <h3 className="font-semibold text-lg line-clamp-2 text-slate-800 leading-tight">
+                        <h3 className="font-semibold text-lg line-clamp-2 text-slate-800 leading-tight  group-hover:text-green-500">
                           {video.title}
                         </h3>
                         <p className="text-slate-600 text-sm line-clamp-2 leading-relaxed">

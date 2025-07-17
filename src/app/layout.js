@@ -4,7 +4,8 @@ import Footer from "@/components/footer";
 
 import localFont from "next/font/local";
 import { Manrope } from "next/font/google";
-import Layout from "@/components/layout/layout"; 
+import Layout from "@/components/layout/layout";
+import { Toaster } from "sonner";
 
 // Local SpeedBeast font
 const SpeedBeast = localFont({
@@ -33,10 +34,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={`${SpeedBeast.variable} ${manrope.variable} antialiased`}
+        suppressHydrationWarning
       >
-       <Layout>
-        {children}
-       </Layout> 
+        <Layout>{children}</Layout>
+        <Toaster />
       </body>
     </html>
   );

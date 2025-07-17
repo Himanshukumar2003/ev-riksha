@@ -55,9 +55,9 @@ export default function ImageSwiper() {
             <div className="relative">
               <Image
                 src={image.src || "/placeholder.svg"}
-                alt=""
-                width="2000"
-                height="2000"
+                alt={image.alt || "Banner image"}
+                width={2000}
+                height={2000}
                 className="w-full"
               />
             </div>

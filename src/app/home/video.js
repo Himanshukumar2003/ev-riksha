@@ -41,7 +41,6 @@ export default function VideoModal({ selectedVideo, isOpen, onClose }) {
             className="relative w-full max-w-4xl aspect-video bg-black rounded-lg overflow-hidden shadow-2xl"
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Close Button */}
             <Button
               variant="ghost"
               size="icon"
@@ -51,12 +50,13 @@ export default function VideoModal({ selectedVideo, isOpen, onClose }) {
               <X className="w-5 h-5" />
             </Button>
 
-            {/* Video Player */}
+            {/* ✅ Fixed video embed */}
             <div className="w-full h-full">
               <iframe
-                src={`https://www.youtube.com/embed/${selectedVideo.videoId}?autoplay=1&rel=0&modestbranding=1`}
-                title={selectedVideo.title}
+                src={selectedVideo}
+                title="Product Video"
                 className="w-full h-full"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               />

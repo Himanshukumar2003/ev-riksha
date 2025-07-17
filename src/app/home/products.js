@@ -143,7 +143,7 @@ export default function VehicleCategoryFilter() {
               <CardHeader>
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
-                    <CardTitle className="text-xl font-bold text-gray-900 group-hover:text-black transition-colors duration-300">
+                    <CardTitle className="text-xl font-bold  group-hover:text-green-500 text-gray-900  transition-colors duration-300">
                       {product.model}
                     </CardTitle>
                     <p className="text-sm text-gray-500 font-medium mt-1 uppercase tracking-wide">

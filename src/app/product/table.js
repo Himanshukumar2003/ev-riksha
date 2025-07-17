@@ -33,7 +33,7 @@ export default function VehicleSpecsTable({ product }) {
 
   return (
     <div className=" section bg-gray-100">
-      <Container maxWidth="xl">
+      <div className="  container max-w-5xl mx-auto">
         <div className="text-center mb-8">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
             Technical Specifications
@@ -67,7 +67,7 @@ export default function VehicleSpecsTable({ product }) {
           </TabsList>
 
           {Object.entries(vehicleSpecs).map(([key, data]) => (
-            <TabsContent key={key} value={key} className="mt-8">
+            <TabsContent key={key} value={key} className="">
               <Card className="border-0 shadow-md bg-white">
                 <CardHeader className="pb-4">
                   <CardTitle className="flex items-center gap-3 text-xl text-black">
@@ -116,7 +116,7 @@ export default function VehicleSpecsTable({ product }) {
             </TabsContent>
           ))}
         </Tabs>
-      </Container>
+      </div>
     </div>
   );
 }

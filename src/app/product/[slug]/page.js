@@ -4,6 +4,7 @@ import Gallery from "../gallery";
 import BasicFAQ from "../faq-section";
 import MainProductViewer from "../main-products";
 import { products } from "@/data/vehicle-data";
+import BikeExplorer from "../feachers";
 
 export default function ProductPage({ params }) {
   const { slug } = params;
@@ -25,6 +26,7 @@ export default function ProductPage({ params }) {
     <>
       <MainProductViewer product={product} />
       <VehicleSpecsTable product={product} />
+      <BikeExplorer></BikeExplorer>
       <Gallery product={product} />
       <BasicFAQ product={product} />
     </>

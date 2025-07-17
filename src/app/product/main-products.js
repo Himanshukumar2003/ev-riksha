@@ -5,6 +5,10 @@ import PaymentBreakdownChart from "./payment-breakdown-chart";
 import React360Viewer from "react-360-view";
 import StepsSection from "./features-cards";
 import Container from "@mui/material/Container";
+import Vedios from "./vido-section";
+import { Data, FinancerData } from "../try/@guasiuasi";
+import Image from "next/image";
+// import { financerData, Data } from "./main-products";
 
 export default function MainProductViewer({ product }) {
   const [selectedColor, setSelectedColor] = useState("");
@@ -19,6 +23,7 @@ export default function MainProductViewer({ product }) {
   const [interestRate, setInterestRate] = useState(10.5);
   const [emiAmount, setEmiAmount] = useState(0);
   const [totalInterest, setTotalInterest] = useState(0);
+  const [availableDealers, setAvailableDealers] = useState([]);
 
   // Initialize product data
   useEffect(() => {
@@ -37,15 +42,28 @@ export default function MainProductViewer({ product }) {
 
   // Update price when state and city change
   useEffect(() => {
-    if (product && selectedState && selectedCity) {
-      const state = product.pricing.states.find((s) => s.id === selectedState);
-      const city = state?.cities?.find((c) => c.id === selectedCity);
+    if (selectedState && selectedCity) {
+      const matched = [];
 
-      if (state && city) {
-        setCurrentPrice(state.basePrice + city.priceModifier);
+      for (const dealer in Data) {
+        if (selectedState in Data[dealer]) {
+          if (Data[dealer][selectedState].includes(selectedCity)) {
+            matched.push({
+              id: dealer,
+              name: dealer,
+              interestRate: FinancerData[dealer].interestRate,
+              color: FinancerData[dealer].color,
+              logo: FinancerData[dealer].logo,
+            });
+          }
+        }
       }
+
+      setAvailableDealers(matched);
+    } else {
+      setAvailableDealers([]);
     }
-  }, [product, selectedState, selectedCity]);
+  }, [selectedState, selectedCity]);
 
   const formatPrice = (price) => {
     return price.toLocaleString("en-IN");
@@ -124,15 +142,17 @@ export default function MainProductViewer({ product }) {
                     //   filter: currentColorFilter,
                     // }}
                   >
-                    <React360Viewer
-                      amount={8}
-                      imagePath="/bajaj/"
-                      fileName="{index}.png"
-                      autoplay={false}
-                      loop={true}
-                      dragSpeed={100}
-                      buttonClass="hidden"
-                    />
+                    <div className="no-zoom" style={{ touchAction: "none" }}>
+                      <React360Viewer
+                        amount={8}
+                        imagePath="/bajaj/"
+                        fileName={`index.png`}
+                        autoplay={false}
+                        loop={true}
+                        dragSpeed={100}
+                        buttonClass="hidden"
+                      />
+                    </div>
                   </div>
 
                   {/* 360 Indicator */}
@@ -300,6 +320,7 @@ export default function MainProductViewer({ product }) {
           </Container>
         </div>
       </div>
+      <Vedios></Vedios>
 
       <StepsSection product={product} />
 
@@ -309,6 +330,63 @@ export default function MainProductViewer({ product }) {
             <h2 className="text-2xl font-bold text-gray-800 mb-8">
               EMI Calculator
             </h2>
+            {/* Dealer Location Selector */}
+            <div className="bg-white rounded-2xl shadow-md p-6 border mb-8">
+              <h3 className="text-lg font-semibold text-gray-700 mb-4 flex items-center gap-2">
+                <MapPin className="w-5 h-5 text-green-600" />
+                Select Your Location
+              </h3>
+
+              <div className="grid grid-cols-2 gap-4">
+                {/* State Dropdown */}
+                <select
+                  className="border-2 border-green-200 py-3 px-4 rounded-xl text-sm focus:outline-none focus:ring-4 focus:ring-green-200 focus:border-green-500 transition-all duration-300 bg-white shadow-sm"
+                  value={selectedState}
+                  onChange={(e) => {
+                    setSelectedState(e.target.value);
+                    setSelectedCity("");
+                  }}
+                >
+                  <option value="">Select State*</option>
+                  {Object.keys(
+                    [
+                      ...new Set(
+                        Object.values(Data).flatMap((d) => Object.keys(d))
+                      ),
+                    ].reduce((acc, cur) => {
+                      acc[cur] = true;
+                      return acc;
+                    }, {})
+                  ).map((state) => (
+                    <option key={state} value={state}>
+                      {state}
+                    </option>
+                  ))}
+                </select>
+
+                {/* City Dropdown */}
+                <select
+                  className="border-2 border-green-200 py-3 px-4 rounded-xl text-sm focus:outline-none focus:ring-4 focus:ring-green-200 focus:border-green-500 transition-all duration-300 bg-white shadow-sm"
+                  value={selectedCity}
+                  onChange={(e) => setSelectedCity(e.target.value)}
+                  disabled={!selectedState}
+                >
+                  <option value="">Select City*</option>
+                  {selectedState &&
+                    Array.from(
+                      new Set(
+                        Object.values(Data).flatMap(
+                          (dealers) => dealers[selectedState] || []
+                        )
+                      )
+                    ).map((city) => (
+                      <option key={city} value={city}>
+                        {city}
+                      </option>
+                    ))}
+                </select>
+              </div>
+            </div>
 
             <div className="grid lg:grid-cols-2 gap-8 justify-center items-center overflow-visible">
               {/* Left Side - Inputs */}
@@ -373,30 +451,32 @@ export default function MainProductViewer({ product }) {
                   <label className="block text-sm font-medium text-green-600 mb-3">
                     Select Financing Partner
                   </label>
-                  <div className="grid grid-cols-2 gap-3">
-                    {product.emiCalculator.financingCompanies.map((company) => (
+                  <div className="grid grid-cols-3 gap-3">
+                    {availableDealers.map((company) => (
                       <button
                         key={company.id}
                         onClick={() => setInterestRate(company.interestRate)}
-                        className={`py-2 rounded-xl border-2 transition-all duration-300 hover:scale-105 ${
+                        className={` border-2 transition-all rounded-[20px] bg-gray-100 p-2 overflow-hidden duration-300 hover:scale-105 ${
                           Math.abs(interestRate - company.interestRate) < 0.1
                             ? "border-green-500 bg-green-50 shadow-lg ring-2 ring-green-200"
                             : "border-gray-200 bg-white hover:border-green-300 hover:shadow-md"
                         }`}
                       >
                         <div className="text-center">
-                          <div
-                            className="w-12 h-12 rounded-full mx-auto mb-2 flex items-center justify-center text-white font-bold text-lg"
-                            style={{ backgroundColor: company.color }}
-                          >
-                            {company.name.charAt(0)}
-                          </div>
-                          <div className="text-sm font-semibold text-gray-800 mb-1">
+                          <Image
+                            width={200}
+                            height={200}
+                            src={company.logo}
+                            alt={company.name}
+                            className=" max-h-[100px] w-full"
+                          />
+
+                          {/* <div className="text-sm font-semibold text-gray-800 mb-1">
                             {company.name}
                           </div>
                           <div className="text-lg font-bold text-green-600">
                             {company.interestRate}%
-                          </div>
+                          </div> */}
                         </div>
                       </button>
                     ))}

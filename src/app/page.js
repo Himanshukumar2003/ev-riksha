@@ -8,6 +8,7 @@ import NewsSection from "./home/news-section";
 import VehicleCategoryFilter from "./home/products";
 import CustomerTestimonials from "@/components/review";
 import VideoSection from "./home/video-section";
+import ClientLogos from "@/components/clint";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <VideoSection></VideoSection>
       <CustomerTestimonials></CustomerTestimonials>
       <NewsSection />
+      <ClientLogos></ClientLogos>
       {/* <Blogs /> */}
     </>
   );

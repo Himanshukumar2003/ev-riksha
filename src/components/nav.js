@@ -112,7 +112,7 @@ export default function Navbar() {
                   ([categoryKey, categoryData], index) => (
                     <div key={categoryKey}>
                       <div
-                        className="flex items-center justify-between w-full px-2 bg-blue-500 py-2 hover:bg-blue-700  text-white rounded-sm cursor-pointer"
+                        className="flex items-center justify-between w-full px-2   rounded-sm cursor-pointer"
                         onClick={() => toggleCategoryExpansion(categoryKey)}
                       >
                         <span className="font-medium">{categoryKey}</span>
@@ -233,7 +233,7 @@ export default function Navbar() {
                                 <Link
                                   key={product.id}
                                   className="text-center group cursor-pointer"
-                                  href={`/product/${product.slug}`}
+                                  href={`/products/${product.slug}`}
                                 >
                                   <div className="h-24 flex items-center justify-center">
                                     <Image

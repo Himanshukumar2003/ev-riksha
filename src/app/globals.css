@@ -412,3 +412,52 @@ h6 {
   color: white;
   border-radius: 8px;
 }
+
+.no-zoom {
+  touch-action: none;
+  /* disables pinch-zoom */
+  pointer-events: auto;
+  overscroll-behavior: contain;
+  overflow: hidden;
+}
+
+.no-zoom {
+  touch-action: none !important;
+  overflow: hidden !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+}
+
+.no-zoom * {
+  touch-action: none !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  pointer-events: auto !important;
+}
+
+.no-zoom canvas,
+.no-zoom img {
+  touch-action: none !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  -webkit-user-drag: none !important;
+  -khtml-user-drag: none !important;
+  -moz-user-drag: none !important;
+  -o-user-drag: none !important;
+  user-drag: none !important;
+}
+
+
+
+
+.parallax-slow {
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  will-change: transform;
+  transform: translateY(0px);
+  transition: transform 0.2s ease-out;
+}

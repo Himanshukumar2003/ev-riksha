@@ -56,7 +56,7 @@ export default function Gallery({ product }) {
                 alt={image.alt}
                 width={300}
                 height={400}
-                className="w-full h-auto rounded-lg shadow-md hover:opacity-80 transition-opacity duration-300"
+                className="w-full h-[300px] object-cover rounded-[20px] shadow-md hover:opacity-80 transition-opacity duration-300"
               />
             </a>
           ))}
