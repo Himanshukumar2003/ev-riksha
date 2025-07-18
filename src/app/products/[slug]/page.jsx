@@ -4,11 +4,12 @@ import FinancerLogos from "../_components/financers";
 import Gallery from "../_components/gallery";
 import MainProductViewer from "../_components/MainProductViewer";
 import VehicleSpecsTable from "../_components/table";
+import VideoSection from "../_components/troubleshoot";
 
 export default async function Page({ params }) {
   const { slug } = await params;
   const response = await fetch(
-    `https://hjv2pvkv-3001.inc1.devtunnels.ms/v1/vehicles/get-by-slug/${slug}`
+    `https://macapi.brandingwaale.com/v1/vehicles/get-by-slug/${slug}`
   );
   const data = await response.json();
 
@@ -24,6 +25,8 @@ export default async function Page({ params }) {
 
       <VehicleSpecsTable product={data.data}></VehicleSpecsTable>
       <Gallery product={data.data}></Gallery>
+      <VideoSection></VideoSection>
+
       <BasicFAQ product={data.data}></BasicFAQ>
     </div>
   );

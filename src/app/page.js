@@ -16,13 +16,10 @@ export default function Home() {
       <HeroSection />
       <VehicleCategoryFilter></VehicleCategoryFilter>
 
-      {/* <ContingentSection /> */}
-      {/* <OurProduct /> */}
       <VideoSection></VideoSection>
       <CustomerTestimonials></CustomerTestimonials>
       <NewsSection />
       <ClientLogos></ClientLogos>
-      {/* <Blogs /> */}
     </>
   );
 }

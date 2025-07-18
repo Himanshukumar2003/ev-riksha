@@ -12,7 +12,7 @@ export default function VehicleList({ params }) {
     const fetchVehicles = async () => {
       try {
         const response = await fetch(
-          `https://hjv2pvkv-3001.inc1.devtunnels.ms/v1/vehicles/${slug}`
+          `https://macapi.brandingwaale.com/v1/vehicles/${slug}`
         );
         const data = await response.json();
 

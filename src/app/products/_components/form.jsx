@@ -58,7 +58,7 @@ export default function EnquiryFormData({ productId }) {
     setIsSubmitting(true);
     try {
       const response = await fetch(
-        "https://hjv2pvkv-3001.inc1.devtunnels.ms/v1/enquiries",
+        "https://macapi.brandingwaale.com/v1/enquiries",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

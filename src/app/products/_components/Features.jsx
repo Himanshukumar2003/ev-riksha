@@ -14,7 +14,7 @@ export default function BikeExplorer({ product }) {
   const [isTransitioning, setIsTransitioning] = useState(false);
   const [currentImage, setCurrentImage] = useState(
     features[0]?.image
-      ? `https://hjv2pvkv-3001.inc1.devtunnels.ms/${features[0].image.replace(
+      ? `https://macapi.brandingwaale.com/${features[0].image.replace(
           /\\/g,
           "/"
         )}`
@@ -30,7 +30,7 @@ export default function BikeExplorer({ product }) {
       setActiveSection(sectionId);
       const section = features.find((s) => s.id === sectionId);
       const imageUrl = section?.image
-        ? `https://hjv2pvkv-3001.inc1.devtunnels.ms/${section.image.replace(
+        ? `https://macapi.brandingwaale.com/${section.image.replace(
             /\\/g,
             "/"
           )}`

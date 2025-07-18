@@ -2,31 +2,33 @@ import { ArrowUpRight, Building2, Home, Monitor, Hammer } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import Link from "next/link";
 import { MdArrowOutward, MdOutlineArrowOutward } from "react-icons/md";
+import { MapPin, PhoneCall, Wrench, Mail } from "lucide-react";
 import Container from "@mui/material/Container";
 const services = [
   {
     id: 1,
-    icon: Building2,
-    title: "Modern Living Area",
-    description: "Iterative methods of developing the corporate strategy.",
+    icon: MapPin,
+    title: "Head Office Address",
+    description:
+      "121A, 121B Gurukul Indraprastha Industrial. Green Valley Faridabad, Haryana -121010",
   },
   {
     id: 2,
-    icon: Home,
-    title: "Interior Design",
-    description: "We create the complete set of project information.",
+    icon: PhoneCall,
+    title: "Sales (Call Us 24x7)",
+    description: "8090629062",
   },
   {
     id: 3,
-    icon: Monitor,
-    title: "3D Design Layouts",
-    description: "Iterative methods of developing the corporate strategy.",
+    icon: Wrench,
+    title: "Service Support",
+    description: "service@macauto.in",
   },
   {
     id: 4,
-    icon: Hammer,
-    title: "Remodel Spaces",
-    description: "We create the complete set of project information.",
+    icon: Mail,
+    title: "Mail Us",
+    description: "info@macauto.in",
   },
 ];
 

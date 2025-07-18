@@ -175,33 +175,36 @@ export default function Footer() {
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-gray-400 mt-0.5 flex-shrink-0" />
                 <p className="text-sm text-gray-400">
-                  1234 Elm Street Springfield Avenue, Brooklyn den, IL 62704
-                  USA.
+                  121A, 121B Gurukul Indraprastha Industrial. Green Valley
+                  Faridabad, Haryana -121010
                 </p>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-gray-400 flex-shrink-0" />
-                <p className="text-sm text-gray-400">+00 9876543210</p>
+                <p className="text-sm text-gray-400"> +91 80 9062 9062</p>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-gray-400 flex-shrink-0" />
-                <p className="text-sm text-gray-400">example@email.com</p>
+                <p className="text-sm text-gray-400">info@macauto.in</p>
               </div>
               <div className="flex gap-3 mt-4">
                 <Link
-                  href="#"
+                  href="https://www.facebook.com/MacAutoofficial"
+                  target="_blank"
                   className="w-10 h-10 bg-slate-700 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-colors"
                 >
                   <Facebook className="w-5 h-5" />
                 </Link>
                 <Link
-                  href="#"
+                  href="https://x.com/macautoofficial"
+                  target="_blank"
                   className="w-10 h-10 bg-slate-700 hover:bg-blue-400 rounded-lg flex items-center justify-center transition-colors"
                 >
                   <Twitter className="w-5 h-5" />
                 </Link>
                 <Link
-                  href="#"
+                  target="_blank"
+                  href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmacautoindiaofficial%2F&is_from_rle"
                   className="w-10 h-10 bg-slate-700 hover:bg-blue-700 rounded-lg flex items-center justify-center transition-colors"
                 >
                   <Linkedin className="w-5 h-5" />

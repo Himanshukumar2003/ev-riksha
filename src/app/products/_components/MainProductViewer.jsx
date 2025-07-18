@@ -1,7 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
 import { MapPin, Palette } from "lucide-react";
-import React360Viewer from "react-360-view";
 import Container from "@mui/material/Container";
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -9,6 +8,8 @@ import { Play } from "lucide-react";
 import VideoModal from "@/app/home/video";
 import EMICalculator from "./emi-calculator";
 import FinancerLogos from "./financers";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
 
 import EnquiryFormModal from "./form";
 export default function MainProductViewer({ product }) {
@@ -73,18 +74,28 @@ export default function MainProductViewer({ product }) {
             {/* 360 Viewer */}
             <div className="relative">
               <div className="mx-auto transition-all">
-                <div className="no-zoom" style={{ touchAction: "none" }}>
-                  {/* <ThreeSixtyViewer
-                    amount={product.carousel.length}
-                    imageUrls={product.carousel.map(
-                      (img) =>
-                        `https://hjv2pvkv-3001.inc1.devtunnels.ms/${img.replace(
-                          /\\/g,
-                          "/"
-                        )}`
-                    )}
-                    dragSpeed={100}
-                  /> */}
+                <div className="no-zoom">
+                  <Swiper
+                    slidesPerView={1}
+                    spaceBetween={0}
+                    loop={true}
+                    allowTouchMove={true}
+                    className="w-full max-w-4xl mx-auto"
+                  >
+                    {product.carousel.map((src, index) => (
+                      <SwiperSlide key={index}>
+                        <div className="w-full h-[400px] relative">
+                          <Image
+                            src={`https://macapi.brandingwaale.com/${src}`}
+                            alt={`Slide ${index + 1}`}
+                            fill
+                            className="object-contain"
+                            priority={index === 0}
+                          />
+                        </div>
+                      </SwiperSlide>
+                    ))}
+                  </Swiper>
                 </div>
               </div>
 
@@ -252,7 +263,7 @@ export default function MainProductViewer({ product }) {
                 <Image
                   height={1000}
                   width={1000}
-                  src={`https://hjv2pvkv-3001.inc1.devtunnels.ms/${product.gallery[1]}`}
+                  src={`https://macapi.brandingwaale.com/${product.gallery[1]}`}
                   alt="Gallery Preview"
                   className="w-full h-[400px] rounded-xl object-cover"
                 />

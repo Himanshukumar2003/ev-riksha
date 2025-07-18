@@ -237,7 +237,7 @@ export default function Navbar() {
                                     <Image
                                       height={60}
                                       width={60}
-                                      src={`https://hjv2pvkv-3001.inc1.devtunnels.ms/${product.carousel[0].replace(
+                                      src={`https://macapi.brandingwaale.com/${product.carousel[0].replace(
                                         /\\/g,
                                         "/"
                                       )}`}

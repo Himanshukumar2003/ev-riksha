@@ -9,10 +9,10 @@ export function DataProvider({ children }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("https://hjv2pvkv-3001.inc1.devtunnels.ms/v1/vehicles") // replace with your API
+    fetch("https://macapi.brandingwaale.com/v1/vehicles")
       .then((res) => res.json())
       .then((resData) => {
-        setData(resData.data.vehicles || []);
+        setData(resData?.data?.vehicles || []);
         setLoading(false);
       })
       .catch((err) => {
