@@ -161,7 +161,7 @@ export default function VehicleCategoryFilter() {
                       {formatPrice(product.starting_from || 0)}
                     </p>
                   </div>
-                  <Link href={`/product/${product.slug}`} className="btn">
+                  <Link href={`/products/${product.slug}`} className="btn">
                     View Details
                   </Link>
                 </div>
