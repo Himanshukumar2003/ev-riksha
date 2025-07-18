@@ -9,6 +9,7 @@ import { Play } from "lucide-react";
 import VideoModal from "@/app/home/video";
 import EMICalculator from "./emi-calculator";
 import FinancerLogos from "./financers";
+
 import EnquiryFormModal from "./form";
 export default function MainProductViewer({ product }) {
   const [selectedColor, setSelectedColor] = useState(0);
@@ -73,14 +74,16 @@ export default function MainProductViewer({ product }) {
             <div className="relative">
               <div className="mx-auto transition-all">
                 <div className="no-zoom" style={{ touchAction: "none" }}>
-                  {/* <React360Viewer
-                    amount={product?.carousel?.length}
-                    imagePath="https://hjv2pvkv-3001.inc1.devtunnels.ms/images/"
-                    fileName="index"
-                    autoplay={false}
-                    loop={false}
+                  {/* <ThreeSixtyViewer
+                    amount={product.carousel.length}
+                    imageUrls={product.carousel.map(
+                      (img) =>
+                        `https://hjv2pvkv-3001.inc1.devtunnels.ms/${img.replace(
+                          /\\/g,
+                          "/"
+                        )}`
+                    )}
                     dragSpeed={100}
-                    buttonClass="hidden"
                   /> */}
                 </div>
               </div>

@@ -3,6 +3,7 @@ import React from "react";
 import { usePathname } from "next/navigation";
 import Navbar from "@/components/nav";
 import Footer from "@/components/footer";
+import { DataProvider } from "../DataContext";
 
 export default function Layout({ children }) {
   const pathname = usePathname();
@@ -11,10 +12,12 @@ export default function Layout({ children }) {
 
   if (routes.includes(pathname)) return children;
   return (
-    <div>
-      <Navbar />
-      {children}
-      <Footer></Footer>
-    </div>
+    <DataProvider>
+      <div>
+        <Navbar />
+        {children}
+        <Footer></Footer>
+      </div>
+    </DataProvider>
   );
 }

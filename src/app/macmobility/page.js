@@ -180,7 +180,7 @@ const benefits = [
 export default function Macmobility() {
   return (
     <main className="flex-1">
-      <section className="relative w-full h-[100vh] md:h-[70vh] flex items-center justify-center text-center bg-gradient-to-br from-green-700 to-green-900 text-white overflow-hidden">
+      {/* <section className="relative w-full h-[100vh] md:h-[70vh] flex items-center justify-center text-center bg-gradient-to-br from-green-700 to-green-900 text-white overflow-hidden">
         <Image
           src="/img/banner2.png"
           width={1920}
@@ -205,7 +205,26 @@ export default function Macmobility() {
             <Link href="#rental-plans">Explore Our Plans</Link>
           </Button>
         </div>
-      </section>
+      </section> */}
+
+      <div className="section">
+        <Container maxWidth="xl">
+          <div className="">
+            {/* Left side - Images */}
+            <div className="relative">
+              <div className="relative rounded-2xl overflow-hidden">
+                <Image
+                  src="/img/banner4.webp"
+                  alt="Interior design team collaborating on projects"
+                  width={2000}
+                  height={2000}
+                  className="w-full h-auto object-contain   shadow-2xl  relative "
+                />
+              </div>
+            </div>
+          </div>
+        </Container>
+      </div>
 
       <section
         id="rental-plans"

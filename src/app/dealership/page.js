@@ -203,29 +203,24 @@ export default function Component() {
     <main>
       {/* Hero Section */}
 
-      <section className="relative w-full h-[100vh] md:h-[70vh] flex items-center justify-center text-center  bg-gradient-to-br from-green-700/70 to-green-900 text-white overflow-hidden">
-        <Image
-          src="/img/banner2.png"
-          width={1920}
-          height={1080}
-          alt="Modern EV Rickshaw driving through a city street"
-          className="absolute inset-0 w-full h-full object-cover opacity-25"
-          priority
-        />
-        <div className="relative z-10 px-4 md:px-6 max-w-6xl text-white space-y-6 animate-fade-in-up">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
-            Drive the Future with Mac Auto
-          </h1>
-
-          <p className="text-lg md:text-xl max-w-3xl mx-auto  text-white opacity-90">
-            Become an Authorized Dealer and lead India&apos;s E-Mobility
-            Revolution with our innovative EV range.
-          </p>
-          <Button asChild className="btn">
-            <Link href="#rental-plans">Explore Our Plans</Link>
-          </Button>
-        </div>
-      </section>
+      <div className="section">
+        <Container maxWidth="xl">
+          <div className="">
+            {/* Left side - Images */}
+            <div className="relative">
+              <div className="relative rounded-2xl overflow-hidden">
+                <Image
+                  src="/img/benaer3.webp"
+                  alt="Interior design team collaborating on projects"
+                  width={2000}
+                  height={2000}
+                  className="w-full h-auto object-contain   shadow-2xl  relative "
+                />
+              </div>
+            </div>
+          </div>
+        </Container>
+      </div>
 
       <section className=" section">
         <Container maxWidth="xl">

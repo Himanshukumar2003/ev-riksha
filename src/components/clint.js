@@ -64,13 +64,13 @@ export default function ClientLogos() {
           >
             {logos.map((logo, index) => (
               <SwiperSlide key={index}>
-                <div className="flex items-center justify-center p-4">
+                <div className="flex items-center justify-center p-4 bg-gray-100 rounded-[20px] shadow-md hover:shadow-lg transition-shadow duration-300">
                   <Image
                     src={logo.src || "/placeholder.svg"}
                     alt={logo.alt}
                     width={140}
                     height={70}
-                    className="aspect-[2/1] object-contain opacity-70 hover:opacity-100 transition-opacity duration-300"
+                    className="w-full object-contain opacity-70 hover:opacity-100 transition-opacity duration-300"
                   />
                 </div>
               </SwiperSlide>

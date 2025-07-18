@@ -18,6 +18,8 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import Container from "@mui/material/Container";
+import Image from "next/image";
 
 export default function SalesService() {
   const portalContent = {
@@ -111,113 +113,136 @@ export default function SalesService() {
   };
 
   return (
-    <div
-      className="container mx-auto px-4 py-8 md:py-12"
-      style={{
-        "--primary": "hsl(142.1, 76.2%, 36.3%)",
-        "--primary-foreground": "hsl(355.7, 100%, 97.3%)",
-        "--muted-foreground": "hsl(215.4, 16.3%, 46.9%)",
-      }}
-    >
-      <div className="space-y-6 text-center mb-10">
-        <h1 className="text-4xl font-bold tracking-tight sm:text-5xl text-[color:var(--primary)]">
-          {portalContent.title}
-        </h1>
-        <p className="text-lg text-[color:var(--muted-foreground)] max-w-2xl mx-auto">
-          {portalContent.description}
-        </p>
+    <>
+      {" "}
+      <div className="section">
+        <Container maxWidth="xl">
+          <div className="">
+            {/* Left side - Images */}
+            <div className="relative">
+              <div className="relative rounded-2xl overflow-hidden">
+                <Image
+                  src="/img/mac-driver.webp"
+                  alt="Interior design team collaborating on projects"
+                  width={2000}
+                  height={2000}
+                  className="w-full h-auto object-contain   shadow-2xl  relative "
+                />
+              </div>
+            </div>
+          </div>
+        </Container>
       </div>
+      <div
+        className="container mx-auto px-4 py-8 md:py-12"
+        style={{
+          "--primary": "hsl(142.1, 76.2%, 36.3%)",
+          "--primary-foreground": "hsl(355.7, 100%, 97.3%)",
+          "--muted-foreground": "hsl(215.4, 16.3%, 46.9%)",
+        }}
+      >
+        <div className="space-y-6 text-center mb-10">
+          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl text-[color:var(--primary)]">
+            {portalContent.title}
+          </h1>
+          <p className="text-lg text-[color:var(--muted-foreground)] max-w-2xl mx-auto">
+            {portalContent.description}
+          </p>
+        </div>
 
-      <div className="grid gap-8 lg:grid-cols-3">
-        {/* Login Section */}
-        <Card className="lg:col-span-3 bg-[color:var(--primary)] rounded-[20px]  text-[color:var(--primary-foreground)] border-[color:var(--primary)]">
-          <CardHeader className="text-center">
-            <LogIn className="h-10 w-10 mx-auto mb-2" />
-            <CardTitle className="text-3xl">
-              {portalContent.sections[0].title}
-            </CardTitle>
-            <CardDescription className="text-[color:var(--primary-foreground)]/80">
-              {portalContent.sections[0].description}
-            </CardDescription>
-          </CardHeader>
-          <CardContent className="text-center">
-            <p className="text-sm text-[color:var(--primary-foreground)]/90 mb-4">
-              {portalContent.sections[0].details}
-            </p>
-            <Link
-              href={portalContent.sections[0].actionLink}
-              className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium h-10 px-4 py-2 bg-[color:var(--primary-foreground)] text-[color:var(--primary)] hover:bg-[color:var(--primary-foreground)]/90"
+        <div className="grid gap-8 lg:grid-cols-3">
+          {/* Login Section */}
+
+          {/* Sections 2–6 */}
+          {portalContent.sections.slice(1).map((section) => (
+            <Card
+              key={section.id}
+              className="flex flex-col rounded-[20px] justify-between border-[color:var(--primary)]/20"
             >
-              {portalContent.sections[0].actionText}
-            </Link>
-          </CardContent>
-        </Card>
+              <CardHeader>
+                <section.icon className="h-8 w-8 mb-2 text-[color:var(--primary)]" />
+                <CardTitle>{section.title}</CardTitle>
+                <CardDescription>{section.description}</CardDescription>
 
-        {/* Sections 2–6 */}
-        {portalContent.sections.slice(1).map((section) => (
-          <Card
-            key={section.id}
-            className="flex flex-col rounded-[20px] justify-between border-[color:var(--primary)]/20"
-          >
-            <CardHeader>
-              <section.icon className="h-8 w-8 mb-2 text-[color:var(--primary)]" />
-              <CardTitle>{section.title}</CardTitle>
-              <CardDescription>{section.description}</CardDescription>
-
-              {/* Render different types of details */}
-              {Array.isArray(section.details) && (
-                <ul className="mt-4 list-disc list-inside space-y-1 text-gray-700 text-sm">
-                  {section.details.map((item, idx) => (
-                    <li key={idx}>{item}</li>
-                  ))}
-                </ul>
-              )}
-
-              {typeof section.details === "string" && (
-                <p className="mt-2 text-sm text-gray-600">{section.details}</p>
-              )}
-
-              {section.coverage && (
-                <>
-                  <h4 className="mt-4 text-sm font-medium text-gray-700">
-                    Coverage Includes:
-                  </h4>
-                  <ul className="mt-1 space-y-1 text-gray-700 text-sm">
-                    {section.coverage.map((point, i) => (
-                      <li key={i} className="flex items-start gap-2">
-                        <Check className="w-4 h-4 mt-1 text-green-600" />
-                        {point}
-                      </li>
+                {/* Render different types of details */}
+                {Array.isArray(section.details) && (
+                  <ul className="mt-4 list-disc list-inside space-y-1 text-gray-700 text-sm">
+                    {section.details.map((item, idx) => (
+                      <li key={idx}>{item}</li>
                     ))}
                   </ul>
-                </>
-              )}
+                )}
 
-              {section.plans && (
-                <>
-                  <h4 className="mt-4 text-sm font-medium text-gray-700">
-                    Plans available for:
-                  </h4>
-                  <ul className="mt-1 list-disc list-inside text-sm text-gray-600">
-                    {section.plans.map((plan, i) => (
-                      <li key={i}>{plan}</li>
-                    ))}
-                  </ul>
-                </>
-              )}
+                {typeof section.details === "string" && (
+                  <p className="mt-2 text-sm text-gray-600">
+                    {section.details}
+                  </p>
+                )}
+
+                {section.coverage && (
+                  <>
+                    <h4 className="mt-4 text-sm font-medium text-gray-700">
+                      Coverage Includes:
+                    </h4>
+                    <ul className="mt-1 space-y-1 text-gray-700 text-sm">
+                      {section.coverage.map((point, i) => (
+                        <li key={i} className="flex items-start gap-2">
+                          <Check className="w-4 h-4 mt-1 text-green-600" />
+                          {point}
+                        </li>
+                      ))}
+                    </ul>
+                  </>
+                )}
+
+                {section.plans && (
+                  <>
+                    <h4 className="mt-4 text-sm font-medium text-gray-700">
+                      Plans available for:
+                    </h4>
+                    <ul className="mt-1 list-disc list-inside text-sm text-gray-600">
+                      {section.plans.map((plan, i) => (
+                        <li key={i}>{plan}</li>
+                      ))}
+                    </ul>
+                  </>
+                )}
+              </CardHeader>
+
+              <CardFooter>
+                <Link
+                  href={section.actionLink}
+                  className="btn w-full  text-center"
+                >
+                  {section.actionText}
+                </Link>
+              </CardFooter>
+            </Card>
+          ))}
+          <Card className="lg:col-span-3 bg-[color:var(--primary)] rounded-[20px]  text-[color:var(--primary-foreground)] border-[color:var(--primary)]">
+            <CardHeader className="text-center">
+              <LogIn className="h-10 w-10 mx-auto mb-2" />
+              <CardTitle className="text-3xl">
+                {portalContent.sections[0].title}
+              </CardTitle>
+              <CardDescription className="text-[color:var(--primary-foreground)]/80">
+                {portalContent.sections[0].description}
+              </CardDescription>
             </CardHeader>
-
-            <CardFooter>
+            <CardContent className="text-center">
+              <p className="text-sm text-[color:var(--primary-foreground)]/90 mb-4">
+                {portalContent.sections[0].details}
+              </p>
               <Link
-                href={section.actionLink}
-                className="btn w-full  text-center"
+                href={portalContent.sections[0].actionLink}
+                className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium h-10 px-4 py-2 bg-[color:var(--primary-foreground)] text-[color:var(--primary)] hover:bg-[color:var(--primary-foreground)]/90"
               >
-                {section.actionText}
+                {portalContent.sections[0].actionText}
               </Link>
-            </CardFooter>
+            </CardContent>
           </Card>
-        ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 }

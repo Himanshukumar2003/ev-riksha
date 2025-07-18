@@ -86,14 +86,9 @@ export default function EnquiryFormData({ productId }) {
 
   return (
     <>
-      <div className="text-center my-6">
-        <Button
-          className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-xl text-lg font-semibold shadow"
-          onClick={() => setIsOpen(true)}
-        >
-          Make an Enquiry
-        </Button>
-      </div>
+      <Button className="btn" onClick={() => setIsOpen(true)}>
+        Make an Enquiry
+      </Button>
 
       <Dialog open={isOpen} onOpenChange={setIsOpen}>
         <DialogContent className="sm:max-w-[600px] p-0 bg-white border border-gray-200">

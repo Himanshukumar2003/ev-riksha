@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import PaymentBreakdownChart from "@/app/product/payment-breakdown-chart";
+import PaymentBreakdownChart from "./payment-breakdown-chart";
 import FinancerLogos from "./financers";
 
 export default function EMICalculator({
