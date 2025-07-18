@@ -89,7 +89,7 @@ export default function SearchSidebar({ isOpen, onClose }) {
     setSearchQuery("");
     setSearchSuggestions([]);
     onClose();
-    router.push(`/product/${product.slug}`);
+    router.push(`/products/${product.slug}`);
   };
 
   const clearSearch = () => {

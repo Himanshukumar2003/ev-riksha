@@ -233,7 +233,7 @@ export default function Navbar() {
                                 <Link
                                   key={product.id}
                                   className="text-center group cursor-pointer"
-                                  href={`/product/${product.slug}`}
+                                  href={`/products/${product.slug}`}
                                 >
                                   <div className="h-24 flex items-center justify-center">
                                     <Image
@@ -382,7 +382,7 @@ export default function Navbar() {
                                 (product) => (
                                   <Link
                                     key={product.id}
-                                    href={`/product/${product.slug}`}
+                                    href={`/products/${product.slug}`}
                                     className="block py-1 text-sm text-gray-700 hover:text-black"
                                   >
                                     {product.model}

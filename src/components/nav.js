@@ -230,7 +230,7 @@ export default function Navbar() {
                               (product) => (
                                 <Link
                                   key={product.id}
-                                  href={`/product/${product.slug}`}
+                                  href={`/products/${product.slug}`}
                                   className="text-center group cursor-pointer"
                                 >
                                   <div className="h-24 flex items-center justify-center">
