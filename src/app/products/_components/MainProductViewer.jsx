@@ -199,7 +199,11 @@ export default function MainProductViewer({ product }) {
                   >
                     <option value="">Select State*</option>
                     {product.pricing.map((state, index) => (
-                      <option key={index} value={state.name}>
+                      <option
+                        key={index}
+                        value={state.name}
+                        className="capitalize"
+                      >
                         {state.name}
                       </option>
                     ))}

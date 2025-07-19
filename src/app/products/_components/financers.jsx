@@ -17,8 +17,10 @@ export default function FinancerLogos({
           const matched = data.data.financers.filter((financer) =>
             financer.area_serve.some(
               (area) =>
-                area.state === selectedState &&
-                area.city.some((c) => c.value === selectedCity)
+                area.state.toLowerCase() === selectedState.toLowerCase() &&
+                area.city.some(
+                  (c) => c.value.toLowerCase() === selectedCity.toLowerCase()
+                )
             )
           );
 
