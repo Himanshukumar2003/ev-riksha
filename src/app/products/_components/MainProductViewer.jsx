@@ -262,7 +262,7 @@ export default function MainProductViewer({ product }) {
               <iframe
                 src={product.video_link}
                 title="Product Video"
-                className="w-full h-full"
+                className="w-full  h-[400px] rounded-xl"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
