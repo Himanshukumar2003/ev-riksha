@@ -14,10 +14,7 @@ export default function BikeExplorer({ product }) {
   const [isTransitioning, setIsTransitioning] = useState(false);
   const [currentImage, setCurrentImage] = useState(
     features[0]?.image
-      ? `https://macapi.brandingwaale.com/${features[0].image.replace(
-          /\\/g,
-          "/"
-        )}`
+      ? `https://macapi.brandingwaale.com/${features[0].image}`
       : "/placeholder.svg"
   );
 
@@ -88,12 +85,12 @@ export default function BikeExplorer({ product }) {
 
           {/* Right Panel */}
           <div className="col-span-2 bg-white flex flex-col">
-            <div className="p-12 border-b border-gray-200">
+            {/* <div className="p-12 border-b border-gray-200">
               <h2 className="text-4xl font-bold text-gray-800 mb-2">
                 {activeData?.heading}
               </h2>
               <p className="text-gray-600 text-lg">{activeData?.sub_heading}</p>
-            </div>
+            </div> */}
 
             <div className="flex-1 p-12">
               <div className="relative h-full bg-gray-50 rounded-2xl overflow-hidden">
@@ -111,12 +108,12 @@ export default function BikeExplorer({ product }) {
                     height={600}
                     className="w-full h-full object-contain"
                   />
-                  <div className="absolute bottom-6 left-6 bg-white/80 backdrop-blur-md p-4 rounded-xl shadow-lg">
+                  {/* <div className="absolute bottom-6 left-6 bg-white/80 backdrop-blur-md p-4 rounded-xl shadow-lg">
                     <h3 className="text-xl font-bold text-gray-800">
                       {activeData?.heading}
                     </h3>
                     <p className="text-gray-600">{activeData?.sub_heading}</p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

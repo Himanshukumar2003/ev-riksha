@@ -282,14 +282,24 @@ export default function MainProductViewer({ product }) {
               </motion.div>
 
               {/* ✅ Video Modal with state */}
-              <VideoModal
-                selectedVideo={
-                  "https://www.youtube.com/embed/xy4qt1JHG1Y?si=g1Lfo08wBFJPg36c" ||
-                  product.video_link
-                } // just the link
+              {/* <VideoModal
+                selectedVideo={product.video_link} // just the link
                 isOpen={isModalOpen}
                 onClose={closeModal}
-              />
+              /> */}
+
+              {product?.video_link && (
+                <div className="w-full h-full">
+                  <iframe
+                    src={product.video_link}
+                    title="Product Video"
+                    className="w-full h-full"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  />
+                </div>
+              )}
             </div>
           )}
         </div>
