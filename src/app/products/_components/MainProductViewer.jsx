@@ -283,7 +283,10 @@ export default function MainProductViewer({ product }) {
 
               {/* ✅ Video Modal with state */}
               <VideoModal
-                selectedVideo={product.video_link} // just the link
+                selectedVideo={
+                  "https://www.youtube.com/embed/xy4qt1JHG1Y?si=g1Lfo08wBFJPg36c" ||
+                  product.video_link
+                } // just the link
                 isOpen={isModalOpen}
                 onClose={closeModal}
               />
