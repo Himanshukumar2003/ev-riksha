@@ -16,7 +16,7 @@ import Image from "next/image";
 import SearchSidebar from "./serchbar";
 import Link from "next/link";
 import Container from "@mui/material/Container";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -24,6 +24,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { useData } from "./DataContext";
+import { cn } from "@/lib/utils";
 
 export default function Navbar() {
   const [isVehiclesOpen, setIsVehiclesOpen] = useState(false);
@@ -87,12 +88,39 @@ export default function Navbar() {
       {/* Top Header */}
       <div className="nav-header py-2 overflow-hidden">
         <Container maxWidth="xl">
-          <div className="flex justify-end items-center gap-4 md:gap-10">
+          <div className="flex justify-end items-center gap-2 md:gap-4">
+            <Link
+              href="/sales-service"
+              className={cn(
+                buttonVariants({ variant: "outline" }),
+                "rounded-full border-2 border-white/30 hover:border-white/50 hover:text-white transition-all bg-white/10 backdrop-blur-sm text-white hover:bg-white/20"
+              )}
+            >
+              MAC CARE
+            </Link>
+            <Link
+              href="/macmobility"
+              className={cn(
+                buttonVariants({ variant: "outline" }),
+                "rounded-full border-2 border-white/30 hover:border-white/50 hover:text-white transition-all bg-white/10 backdrop-blur-sm text-white hover:bg-white/20"
+              )}
+            >
+              MAC Mobility
+            </Link>
+            <Link
+              href="/dealership"
+              className={cn(
+                buttonVariants({ variant: "outline" }),
+                "rounded-full border-2 border-white/30 hover:border-white/50 hover:text-white transition-all bg-white/10 backdrop-blur-sm text-white hover:bg-white/20"
+              )}
+            >
+              Dealership
+            </Link>
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button
                   variant="outline"
-                  className="w-48 justify-between px-2 border-2 border-white/30 hover:border-white/50 hover:text-white transition-all bg-white/10 backdrop-blur-sm text-white hover:bg-white/20"
+                  className=" justify-between rounded-full px-2 border-2 border-white/30 hover:border-white/50 hover:text-white transition-all bg-white/10 backdrop-blur-sm text-white hover:bg-white/20"
                 >
                   <span className="flex items-center gap-2">
                     <Download className="h-4 w-4" />
@@ -146,7 +174,7 @@ export default function Navbar() {
               </DropdownMenuContent>
             </DropdownMenu>
             <span className="text-white flex gap-2 font-medium text-sm md:text-base">
-              <Phone /> 4559383834
+              <Phone /> +91 80 9062 9062
             </span>
           </div>
         </Container>
