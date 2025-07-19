@@ -259,47 +259,14 @@ export default function MainProductViewer({ product }) {
         <div className="section bg-gray-100">
           {product?.video_link && (
             <div className="max-w-5xl relative rounded-4xl shadow-2xl overflow-hidden mx-auto group">
-              {product?.gallery?.length > 0 && (
-                <Image
-                  height={1000}
-                  width={1000}
-                  src={`https://macapi.brandingwaale.com/${product.gallery[1]}`}
-                  alt="Gallery Preview"
-                  className="w-full h-[400px] rounded-xl object-cover"
-                />
-              )}
-              <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.1 }}
-                className="absolute inset-0 flex items-center justify-center cursor-pointer"
-                whileHover={{ scale: 1.05 }}
-                onClick={openModal} // ✅ open modal on click
-              >
-                <div className="bg-white/80 hover:bg-white rounded-full p-4 shadow-lg transition-all duration-300">
-                  <Play className="w-6 h-6 text-slate-800 fill-current" />
-                </div>
-              </motion.div>
-
-              {/* ✅ Video Modal with state */}
-              {/* <VideoModal
-                selectedVideo={product.video_link} // just the link
-                isOpen={isModalOpen}
-                onClose={closeModal}
-              /> */}
-
-              {product?.video_link && (
-                <div className="w-full h-full">
-                  <iframe
-                    src={product.video_link}
-                    title="Product Video"
-                    className="w-full h-full"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  />
-                </div>
-              )}
+              <iframe
+                src={product.video_link}
+                title="Product Video"
+                className="w-full h-full"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
             </div>
           )}
         </div>
