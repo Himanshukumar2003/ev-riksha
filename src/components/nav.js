@@ -194,7 +194,7 @@ export default function Navbar() {
                       {Object.keys(vehicleCategories).map((category) => (
                         <button
                           key={category}
-                          className={`w-full text-left px-4 py-3 text-lg font-medium border-b border-gray-200 last:border-b-0 ${
+                          className={`w-full capitalize text-left px-4 py-3 text-lg font-medium border-b border-gray-200 last:border-b-0 ${
                             selectedCategory === category
                               ? "bg-gray-100 text-black border-r-2 border-gray-400"
                               : "hover:bg-gray-100"
