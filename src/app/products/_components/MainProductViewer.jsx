@@ -193,7 +193,7 @@ export default function MainProductViewer({ product }) {
 
                 <div className="grid grid-cols-2 gap-3 mb-6 capitalize">
                   <select
-                    className="border-2 border-green-200 py-3 px-4 rounded-xl text-sm focus:outline-none focus:ring-4 focus:ring-green-200 focus:border-green-500 transition-all duration-300 bg-white shadow-sm"
+                    className="border-2 capitalize border-green-200 py-3 px-4 rounded-xl text-sm focus:outline-none focus:ring-4 focus:ring-green-200 focus:border-green-500 transition-all duration-300 bg-white shadow-sm"
                     value={selectedState}
                     onChange={(e) => handleStateChange(e.target.value)}
                   >
@@ -210,7 +210,7 @@ export default function MainProductViewer({ product }) {
                   </select>
 
                   <select
-                    className="border-2 border-green-200 py-3 px-4 rounded-xl text-sm focus:outline-none focus:ring-4 focus:ring-green-200 focus:border-green-500 transition-all duration-300 bg-white shadow-sm"
+                    className="border-2 capitalize border-green-200 py-3 px-4 rounded-xl text-sm focus:outline-none focus:ring-4 focus:ring-green-200 focus:border-green-500 transition-all duration-300 bg-white shadow-sm"
                     value={selectedCity}
                     onChange={(e) => setSelectedCity(e.target.value)}
                     disabled={!selectedState}
