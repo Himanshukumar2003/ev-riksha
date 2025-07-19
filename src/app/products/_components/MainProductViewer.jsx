@@ -220,7 +220,11 @@ export default function MainProductViewer({ product }) {
                       product.pricing
                         .find((s) => s.name === selectedState)
                         ?.cities?.map((city, index) => (
-                          <option key={index} value={city.name}>
+                          <option
+                            key={index}
+                            value={city.name}
+                            className="capitalize"
+                          >
                             {city.name}
                           </option>
                         ))}
