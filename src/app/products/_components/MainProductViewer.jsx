@@ -258,11 +258,11 @@ export default function MainProductViewer({ product }) {
 
         <div className="section bg-gray-100">
           {product?.video_link && (
-            <div className="max-w-5xl relative rounded-4xl shadow-2xl overflow-hidden mx-auto group">
+            <div className="max-w-5xl h-[400px] relative rounded-4xl shadow-2xl overflow-hidden mx-auto group">
               <iframe
                 src={product.video_link}
                 title="Product Video"
-                className="w-full  h-[400px] rounded-xl"
+                className="w-full  h-full"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
