@@ -1,6 +1,6 @@
 "use client";
 
-import { useContext, useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import {
   ChevronDown,
   Menu,
@@ -34,8 +34,17 @@ export default function Navbar() {
   const [expandedItems, setExpandedItems] = useState({});
   const { data: vehicles = [], loading } = useData();
 
+  // Category logic as per your request
   const vehicleCategories = vehicles.reduce((acc, vehicle) => {
-    const category = vehicle.category?.toLowerCase() || "uncategorized";
+    const cat = vehicle.category ? vehicle.category.toLowerCase() : "";
+    let category = "Garbage";
+
+    if (cat === "cargo") {
+      category = "Cargo";
+    } else if (cat === "passenger") {
+      category = "Passenger";
+    }
+
     if (!acc[category]) acc[category] = { products: [] };
     acc[category].products.push(vehicle);
     return acc;

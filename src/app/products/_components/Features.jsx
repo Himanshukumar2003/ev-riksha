@@ -62,7 +62,7 @@ export default function BikeExplorer({ product }) {
                         {String(index + 1).padStart(2, "0")}
                       </div>
                       <div className="flex-1">
-                        <h3 className="text-xl font-semibold mb-2">
+                        <h3 className="text-xl font-semibold">
                           {section.heading}
                         </h3>
                         {/* <p className="text-gray-200 text-sm">

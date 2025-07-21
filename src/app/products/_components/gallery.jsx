@@ -46,7 +46,7 @@ export default function Gallery({ product }) {
         </div>
 
         {/* Image Grid */}
-        <div className="columns-1 md:columns-2 lg:columns-3 xl:columns-4 gap-4 space-y-4">
+        <div className="columns-1 md:columns-2 lg:columns-4  gap-4 space-y-4">
           {gallery.map((path, index) => {
             const formattedPath = path.replace(/\\/g, "/");
             const fullUrl = `${baseURL}${formattedPath}`;
