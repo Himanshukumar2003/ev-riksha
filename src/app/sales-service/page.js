@@ -122,7 +122,7 @@ export default function SalesService() {
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden">
                 <Image
-                  src="/img/mac-driver.webp"
+                  src="/img/banner4.webp"
                   alt="Interior design team collaborating on projects"
                   width={2000}
                   height={2000}
