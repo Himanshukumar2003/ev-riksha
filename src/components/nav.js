@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useContext, useState, useEffect } from "react";
 import {
   ChevronDown,
   Menu,
@@ -34,17 +34,8 @@ export default function Navbar() {
   const [expandedItems, setExpandedItems] = useState({});
   const { data: vehicles = [], loading } = useData();
 
-  // Category logic as per your request
   const vehicleCategories = vehicles.reduce((acc, vehicle) => {
-    const cat = vehicle.category ? vehicle.category.toLowerCase() : "";
-    let category = "Garbage";
-
-    if (cat === "cargo") {
-      category = "Cargo";
-    } else if (cat === "passenger") {
-      category = "Passenger";
-    }
-
+    const category = vehicle.category?.toLowerCase() || "uncategorized";
     if (!acc[category]) acc[category] = { products: [] };
     acc[category].products.push(vehicle);
     return acc;
@@ -228,7 +219,7 @@ export default function Navbar() {
                 >
                   <div className="flex bg-white rounded-lg shadow-xl text-black">
                     <div className="w-1/3 border-r border-gray-200">
-                      {Object.keys(vehicleCategories).map((category) => (
+                      {["passenger", "cargo", "garbage"].map((category) => (
                         <button
                           key={category}
                           className={`w-full capitalize text-left px-4 py-3 text-lg font-medium border-b border-gray-200 last:border-b-0 ${
