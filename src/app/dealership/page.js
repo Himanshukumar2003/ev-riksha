@@ -30,6 +30,8 @@ import {
   MailIcon,
 } from "lucide-react";
 import Container from "@mui/material/Container";
+import FeaturesSection from "./_feachers";
+import AllVehiclesSwiper from "@/components/products";
 export default function Component() {
   const benefits = [
     {
@@ -339,6 +341,7 @@ export default function Component() {
           </div>
         </Container>
       </section>
+      <FeaturesSection></FeaturesSection>
 
       <section
         id="products"
@@ -365,73 +368,7 @@ export default function Component() {
                 for every business need
               </p>
             </div>
-
-            {/* Products Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-              {products.map((product, index) => (
-                <Card
-                  key={index}
-                  className="group relative overflow-hidden bg-white border-0 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2"
-                >
-                  <CardContent className="p-0">
-                    {/* Image Container */}
-                    <div className="relative overflow-hidden">
-                      <Image
-                        src={product.image || "/placeholder.svg"}
-                        width={400}
-                        height={300}
-                        alt={product.name}
-                        className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
-                      />
-
-                      {/* Overlay with Icon */}
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        <div className="absolute bottom-4 left-4">
-                          <div
-                            className={`w-12 h-12 rounded-full bg-gradient-to-r ${product.gradient} flex items-center justify-center text-white shadow-lg`}
-                          >
-                            {product.icon}
-                          </div>
-                        </div>
-                      </div>
-
-                      {/* Features Badge */}
-                      <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm rounded-full px-3 py-1">
-                        <span className="text-xs font-semibold text-green-700">
-                          {product.features[0]}
-                        </span>
-                      </div>
-                    </div>
-
-                    {/* Content */}
-                    <div className="p-6">
-                      <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-green-700 transition-colors">
-                        {product.name}
-                      </h3>
-                      <p className="text-gray-600 leading-relaxed mb-4">
-                        {product.description}
-                      </p>
-
-                      {/* Features */}
-                      <div className="flex flex-wrap gap-2 mb-4">
-                        {product.features.map((feature, idx) => (
-                          <span
-                            key={idx}
-                            className="px-3 py-1 bg-green-50 text-green-700 text-xs font-medium rounded-full border border-green-200"
-                          >
-                            {feature}
-                          </span>
-                        ))}
-                      </div>
-                    </div>
-
-                    <div
-                      className={`absolute top-0 left-0 w-full h-1 bg-gradient-to-r ${product.gradient}`}
-                    ></div>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
+            <AllVehiclesSwiper></AllVehiclesSwiper>
           </div>
         </Container>
       </section>
@@ -664,8 +601,8 @@ export default function Component() {
               </div>
               <button className=" flex gap-2 bg-gradient-to-r  from-green-600 to-green-700 text-white px-8 py-3 rounded-full font-semibold hover:from-green-700 hover:to-green-800 transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl">
                 <Phone></Phone>
-                <a href="tel:+91-XXXXXXXXXX" target="_blank">
-                  +91-XXXXXXXXXX
+                <a href="tel:8090629062" target="_blank">
+                  +91- 80 9062 9062
                 </a>
               </button>
             </div>

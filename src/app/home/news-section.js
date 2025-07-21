@@ -15,43 +15,61 @@ import Link from "next/link";
 const newsData = [
   {
     id: 1,
-    date: "April 1, 2025",
-    title:
-      "Mahindra Last Mile Mobility Limited is India's No.1 electric commercial vehicle manufacturer in FY25",
-    image: "/img/about-mask-img.jpg",
-    slug: "mahindra-electric-vehicle-leader",
+    date: "Dec 9, 2021",
+    title: "EV firm Macstar Auto plans to raise $8 mn to fund R&D, expansion",
+    image: "/img/news/news-1.webp",
+    slug: "https://www.thehindu.com/business/ev-firm-macstar-auto-plans-to-raise-8-mn-to-fund-rd-expansion/article37917726.ece",
   },
   {
     id: 2,
-    date: "March 8, 2025",
-    title:
-      "Mahindra WE (Women Entrepreneurs) Hunnar project: Puts women in the driving seat",
-    image: "/img/about-mask-img.jpg",
-    slug: "women-entrepreneurs-project",
+    date: "Dec 15, 2021",
+    title: "Future of EV manufacturers in next few years",
+    image: "/img/news/news-2.webp",
+    slug: "https://www.businesstoday.in/auto/story/future-of-ev-manufacturers-in-next-few-years-315725-2021-12-15",
   },
   {
     id: 3,
-    date: "November 5, 2024",
+    date: "December 27, 2021",
     title:
-      "India's No.1 Commercial EV manufacturer, Mahindra Last Mile Mobility Limited, surpasses 200000 electric vehicle Milestone",
-    image: "/img/about-mask-img.jpg",
-    slug: "200000-milestone-achievement",
+      "EV sales have more than tripled in the first half of FY22 — Abhijeet Wassan, Mac Auto",
+    image: "/img/news/news-3.webp",
+    slug: "https://www.financialexpress.com/business/express-mobility-interview-abhijeet-wassan-mac-auto-ev-sales-have-tripled-in-first-half-2390785/",
   },
   {
     id: 4,
-    date: "October 15, 2024",
-    title:
-      "Mahindra launches new range of sustainable electric vehicles for urban mobility",
-    image: "/img/about-mask-img.jpg",
-    slug: "sustainable-urban-mobility",
+    date: "December 27, 2021 ",
+    title: "How electric ambulances are transforming the healthcare sector",
+    image: "/img/news/news-4.webp",
+    slug: "https://auto.economictimes.indiatimes.com/news/industry/how-electric-ambulances-are-transforming-the-healthcare-sector/88934810",
   },
   {
     id: 5,
-    date: "September 22, 2024",
+    date: "Dec 9, 2021",
+    title: "EV firm Macstar Auto plans to raise $8 mn to fund R&D, expansion",
+    image: "/img/news/news-1.webp",
+    slug: "https://www.thehindu.com/business/ev-firm-macstar-auto-plans-to-raise-8-mn-to-fund-rd-expansion/article37917726.ece",
+  },
+  {
+    id: 6,
+    date: "Dec 15, 2021",
+    title: "Future of EV manufacturers in next few years",
+    image: "/img/news/news-2.webp",
+    slug: "https://www.businesstoday.in/auto/story/future-of-ev-manufacturers-in-next-few-years-315725-2021-12-15",
+  },
+  {
+    id: 7,
+    date: "December 27, 2021",
     title:
-      "Partnership announcement: Mahindra collaborates with leading battery manufacturers",
-    image: "/img/about-mask-img.jpg",
-    slug: "battery-partnership-announcement",
+      "EV sales have more than tripled in the first half of FY22 — Abhijeet Wassan, Mac Auto",
+    image: "/img/news/news-3.webp",
+    slug: "https://www.financialexpress.com/business/express-mobility-interview-abhijeet-wassan-mac-auto-ev-sales-have-tripled-in-first-half-2390785/",
+  },
+  {
+    id: 8,
+    date: "December 27, 2021 ",
+    title: "How electric ambulances are transforming the healthcare sector",
+    image: "/img/news/news-4.webp",
+    slug: "https://auto.economictimes.indiatimes.com/news/industry/how-electric-ambulances-are-transforming-the-healthcare-sector/88934810",
   },
 ];
 
@@ -127,10 +145,11 @@ export default function NewsSection() {
             {newsData.map((news) => (
               <SwiperSlide key={news.id}>
                 <Link
-                  href="/blog"
+                  href={news.slug}
                   className="group relative block rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-1"
                   style={{ minHeight: "320px" }}
                   aria-label={news.title}
+                  target="_blank"
                 >
                   {/* Image with zoom + dark overlay on hover */}
                   <div className="relative    overflow-hidden">
@@ -155,7 +174,7 @@ export default function NewsSection() {
                     </div>
 
                     {/* Title */}
-                    <div className="text-lg group-hover:text-green-500 font-bold mb-4 line-clamp-3  transition-colors duration-300">
+                    <div className="text-lg group-hover:text-green-500     font-bold mb-4 line-clamp-2  transition-colors duration-300">
                       {news.title}
                     </div>
 

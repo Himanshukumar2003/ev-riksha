@@ -22,12 +22,26 @@ export default function Products() {
       maximumFractionDigits: 0,
     }).format(price);
 
+  // Filter vehicles to only show category = "Garbage"
+  const garbageVehicles = vehicles.filter(
+    (product) => product.category?.toLowerCase() === "garbage"
+  );
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-100">
       <div className="container mx-auto px-4 py-12">
-        {/* Products Grid */}
+        <div className="text-center mb-12">
+          <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-transparent mb-4">
+            Garbage Vehicles Collection
+          </h1>
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            Explore our range of garbage disposal and utility vehicles
+          </p>
+        </div>
+
+        {/* Garbage Vehicles Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-          {vehicles.map((product, index) => (
+          {garbageVehicles.map((product, index) => (
             <Card
               key={product.id}
               className="group rounded-2xl overflow-hidden border-0 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-[1.02] hover:-translate-y-2 bg-white/80 backdrop-blur-sm pt-0"
@@ -95,17 +109,18 @@ export default function Products() {
           ))}
         </div>
 
-        {/* No Products */}
-        {vehicles.length === 0 && (
+        {/* No Garbage Vehicles Message */}
+        {garbageVehicles.length === 0 && (
           <div className="text-center py-20">
             <div className="inline-flex items-center justify-center w-20 h-20 bg-gray-100 rounded-full mb-6">
-              <span className="text-3xl">🔍</span>
+              <span className="text-3xl">🗑️</span>
             </div>
             <h3 className="text-2xl font-bold text-gray-900 mb-2">
-              No vehicles available
+              No garbage vehicles available
             </h3>
             <p className="text-gray-500 text-lg max-w-md mx-auto">
-              Currently, there are no vehicles listed. Please check back later.
+              Currently, there are no garbage vehicles listed. Please check back
+              later.
             </p>
           </div>
         )}

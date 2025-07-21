@@ -173,7 +173,7 @@ export default function Navbar() {
                 )}
               </DropdownMenuContent>
             </DropdownMenu>
-            <span className="text-white flex gap-2 font-medium text-sm md:text-base">
+            <span className="text-white  gap-2 font-medium hidden lg:flex  text-sm md:text-base">
               <Phone /> +91 80 9062 9062
             </span>
           </div>
@@ -184,13 +184,15 @@ export default function Navbar() {
       <nav className="bg-white text-black shadow-xl py-2 h-[80px] flex justify-center items-center z-50 sticky top-0">
         <Container maxWidth="xl">
           <div className="flex justify-between items-center">
-            <Image
-              src="/logo.png"
-              alt="logo"
-              width={150}
-              height={150}
-              className="w-[150px]"
-            />
+            <Link href="/">
+              <Image
+                src="/logo.png"
+                alt="logo"
+                width={150}
+                height={150}
+                className="w-[150px]"
+              />
+            </Link>
 
             {/* Desktop Nav */}
             <div className="hidden md:flex items-center justify-between gap-6 lg:gap-10">
@@ -208,8 +210,6 @@ export default function Navbar() {
                 <button className="flex items-center text-lg font-medium hover:text-gray-700">
                   Vehicles <ChevronDown className="ml-1 h-4 w-4" />
                 </button>
-
-                {/* Mega Menu */}
                 <div
                   className={`absolute top-5 mt-1 pt-7 w-[700px] transition-opacity duration-200 ${
                     isVehiclesOpen
@@ -282,7 +282,7 @@ export default function Navbar() {
                           </div>
                           <div className="mt-6">
                             <Link
-                              href={`/category/${selectedCategory.toLowerCase()}`}
+                              href={selectedCategory.toLowerCase()}
                               className="text-sm font-medium hover:text-gray-700"
                             >
                               View all {selectedCategory} →
@@ -295,7 +295,6 @@ export default function Navbar() {
                 </div>
               </div>
 
-              {/* Static Links */}
               <Link
                 href="/about"
                 className="text-lg font-medium hover:text-gray-700"
@@ -309,7 +308,7 @@ export default function Navbar() {
                 Blog
               </Link>
               <Link
-                href="#"
+                href="/gallery"
                 className="text-lg font-medium hover:text-gray-700"
               >
                 Gallery
@@ -335,28 +334,32 @@ export default function Navbar() {
             {/* Mobile Toggle Button */}
             <div className="md:hidden">
               <button
-                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                onClick={() => setIsMobileMenuOpen(true)}
                 className="text-black p-2"
               >
-                {isMobileMenuOpen ? (
-                  <X className="h-6 w-6" />
-                ) : (
-                  <Menu className="h-6 w-6" />
-                )}
+                <Menu className="h-6 w-6" />
               </button>
             </div>
           </div>
         </Container>
 
-        {/* Mobile Dropdown Menu */}
+        {/* Mobile Menu - Slide from Left */}
         <AnimatePresence>
           {isMobileMenuOpen && (
             <motion.div
-              initial={{ y: -10, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              exit={{ y: -10, opacity: 0 }}
-              className="md:hidden bg-white px-4 pb-4 pt-2 space-y-2"
+              initial={{ x: "-100%", opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              exit={{ x: "-100%", opacity: 0 }}
+              transition={{ duration: 0.3 }}
+              className="fixed top-0 left-0 w-3/4 h-screen bg-white shadow-lg z-[9999] px-4 pt-6 pb-10 space-y-4"
             >
+              <div className="flex justify-between items-center mb-4">
+                <Image src="/logo.png" alt="logo" width={120} height={50} />
+                <button onClick={() => setIsMobileMenuOpen(false)}>
+                  <X className="h-6 w-6" />
+                </button>
+              </div>
+
               <Link href="/" className="block font-medium hover:text-gray-700">
                 Home
               </Link>
@@ -372,7 +375,7 @@ export default function Navbar() {
                     {Object.keys(vehicleCategories).map((category) => (
                       <Link
                         key={category}
-                        href={`/category/${category.toLowerCase()}`}
+                        href={category.toLowerCase()}
                         className="block text-sm hover:text-gray-700"
                       >
                         {category}

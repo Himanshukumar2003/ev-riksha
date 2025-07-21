@@ -16,11 +16,12 @@ import Image from "next/image";
 const videos = [
   {
     id: 1,
-    title: "Mahindra Electric Vehicle Success Story",
+    title:
+      "Mac Auto Tejas SH E-Rickshaw | Best E-Rickshaw in India | Electric Rickshaw 2025",
     description:
-      "Real-world implementation and success metrics of electric commercial vehicles in Indian market.",
-    thumbnail: "/img/banner2.png",
-    videoId: "https://www.youtube.com/embed/wLGL61iwo7k?si=-iitDdC0MZaW-ZI5",
+      "Meet the Mac Auto Tejas SH, your new smart e-rickshaw partner for daily rides designed for more comfort, more range and ultimate safety!",
+    thumbnail: "/img/youtub/img-1.jpg",
+    videoId: "https://www.youtube.com/embed/xy4qt1JHG1Y?si=XbilkYh8k_8ANhb_",
     duration: "6:45",
     views: "892K",
     likes: "42K",
@@ -30,11 +31,12 @@ const videos = [
   },
   {
     id: 2,
-    title: "Electric Vehicle Market Trends 2024",
+    title:
+      "Mac 900 E-Rickshaw | 1200W Motor, 100 KM Range, Fast Charging | Best Electric Rickshaw",
     description:
-      "Latest market analysis and future predictions for electric vehicle adoption worldwide.",
-    thumbnail: "/img/banner2.png",
-    videoId: "https://www.youtube.com/embed/wLGL61iwo7k?si=-iitDdC0MZaW-ZI5",
+      "Introducing the Mac 900 E-Rickshaw – a perfect blend of power, style, and profitability!  Specially designed for Indian roads and daily use, this electric rickshaw delivers exceptional performance with low maintenance and high returns.",
+    thumbnail: "/img/youtub/img-3.jpg",
+    videoId: "https://www.youtube.com/embed/xy4qt1JHG1Y?si=jiwykeYYkW-eKTf_",
     duration: "10:30",
     views: "1.5M",
     likes: "67K",
@@ -44,11 +46,12 @@ const videos = [
   },
   {
     id: 3,
-    title: "Sustainable Business with Electric Fleets",
+    title:
+      "Mac Tejas DHL | 100KM Electric Passenger Vehicle | Price, Range & Features Explained",
     description:
-      "How companies are reducing costs and carbon footprint with electric vehicle fleets.",
-    thumbnail: "/img/banner2.png",
-    videoId: "https://www.youtube.com/embed/wLGL61iwo7k?si=-iitDdC0MZaW-ZI5",
+      "Mac Tejas DHL, Mac electric vehicle, Mac Tejas DHL demo, Mac electric passenger vehicle, electric passenger auto, electric passenger rickshaw, 100KM electric vehicle India, electric vehicle India 2024, best electric rickshaw India",
+    thumbnail: "/img/youtub/img-4.jpg",
+    videoId: "https://www.youtube.com/embed/7yaRwHrDxKE?si=lJEY2UEU9skEMMWQ",
     duration: "8:15",
     views: "634K",
     likes: "28K",
@@ -56,49 +59,95 @@ const videos = [
     channel: "Green Business",
     trending: true,
   },
+
   {
     id: 4,
-    title: "EV Charging Solutions for Businesses",
+    title:
+      "Mac Auto Tejas SH E-Rickshaw | Best E-Rickshaw in India | Electric Rickshaw 2025",
     description:
-      "Complete guide to setting up charging infrastructure for commercial electric vehicles.",
-    thumbnail: "/img/banner2.png",
-    videoId: "https://www.youtube.com/embed/wLGL61iwo7k?si=-iitDdC0MZaW-ZI5",
-    duration: "12:20",
-    views: "445K",
-    likes: "19K",
-    category: "Infrastructure",
-    channel: "EV Solutions",
-    trending: false,
-  },
-  {
-    id: 5,
-    title: "ROI Calculator for Electric Vehicles",
-    description:
-      "Step-by-step guide to calculate return on investment for electric vehicle adoption.",
-    thumbnail: "/img/banner2.png",
-    duration: "9:45",
-    views: "723K",
-    likes: "35K",
-    videoId: "https://www.youtube.com/embed/wLGL61iwo7k?si=-iitDdC0MZaW-ZI5",
-
-    category: "Finance",
-    channel: "Business Finance",
+      "Meet the Mac Auto Tejas SH, your new smart e-rickshaw partner for daily rides designed for more comfort, more range and ultimate safety!",
+    thumbnail: "/img/youtub/img-1.jpg",
+    videoId: "https://www.youtube.com/embed/xy4qt1JHG1Y?si=XbilkYh8k_8ANhb_",
+    duration: "6:45",
+    views: "892K",
+    likes: "42K",
+    category: "Case Study",
+    channel: "Business Success",
     trending: true,
   },
   {
-    id: 6,
-    title: "Customer Testimonials - EV Transformation",
+    id: 5,
+    title:
+      "Mac 900 E-Rickshaw | 1200W Motor, 100 KM Range, Fast Charging | Best Electric Rickshaw",
     description:
-      "Real customer experiences and testimonials from businesses using electric vehicles.",
-    thumbnail: "/img/banner2.png",
-    videoId: "7yaRwHrDxKE",
-    duration: "11:10",
-    views: "567K",
-    likes: "24K",
-    category: "Testimonials",
-    channel: "Customer Stories",
+      "Introducing the Mac 900 E-Rickshaw – a perfect blend of power, style, and profitability!  Specially designed for Indian roads and daily use, this electric rickshaw delivers exceptional performance with low maintenance and high returns.",
+    thumbnail: "/img/youtub/img-3.jpg",
+    videoId: "https://www.youtube.com/embed/xy4qt1JHG1Y?si=jiwykeYYkW-eKTf_",
+    duration: "10:30",
+    views: "1.5M",
+    likes: "67K",
+    category: "Market Analysis",
+    channel: "Industry Insights",
     trending: false,
   },
+  {
+    id: 6,
+    title:
+      "Mac Tejas DHL | 100KM Electric Passenger Vehicle | Price, Range & Features Explained",
+    description:
+      "Mac Tejas DHL, Mac electric vehicle, Mac Tejas DHL demo, Mac electric passenger vehicle, electric passenger auto, electric passenger rickshaw, 100KM electric vehicle India, electric vehicle India 2024, best electric rickshaw India",
+    thumbnail: "/img/youtub/img-4.jpg",
+    videoId: "https://www.youtube.com/embed/7yaRwHrDxKE?si=lJEY2UEU9skEMMWQ",
+    duration: "8:15",
+    views: "634K",
+    likes: "28K",
+    category: "Sustainability",
+    channel: "Green Business",
+    trending: true,
+  },
+  // {
+  //   id: 4,
+  //   title: "EV Charging Solutions for Businesses",
+  //   description:
+  //     "Complete guide to setting up charging infrastructure for commercial electric vehicles.",
+  //   thumbnail: "/img/banner2.png",
+  //   videoId: "https://www.youtube.com/embed/wLGL61iwo7k?si=-iitDdC0MZaW-ZI5",
+  //   duration: "12:20",
+  //   views: "445K",
+  //   likes: "19K",
+  //   category: "Infrastructure",
+  //   channel: "EV Solutions",
+  //   trending: false,
+  // },
+  // {
+  //   id: 5,
+  //   title: "ROI Calculator for Electric Vehicles",
+  //   description:
+  //     "Step-by-step guide to calculate return on investment for electric vehicle adoption.",
+  //   thumbnail: "/img/banner2.png",
+  //   duration: "9:45",
+  //   views: "723K",
+  //   likes: "35K",
+  //   videoId: "https://www.youtube.com/embed/wLGL61iwo7k?si=-iitDdC0MZaW-ZI5",
+
+  //   category: "Finance",
+  //   channel: "Business Finance",
+  //   trending: true,
+  // },
+  // {
+  //   id: 6,
+  //   title: "Customer Testimonials - EV Transformation",
+  //   description:
+  //     "Real customer experiences and testimonials from businesses using electric vehicles.",
+  //   thumbnail: "/img/banner2.png",
+  //   videoId: "7yaRwHrDxKE",
+  //   duration: "11:10",
+  //   views: "567K",
+  //   likes: "24K",
+  //   category: "Testimonials",
+  //   channel: "Customer Stories",
+  //   trending: false,
+  // },
 ];
 
 export default function VideoSection() {

@@ -55,14 +55,6 @@ export default function ContingentSection() {
             {/* Left side - Images */}
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden">
-                <Image
-                  src="/img/about-mask-img.jpg"
-                  alt="Interior design team collaborating on projects"
-                  width={600}
-                  height={400}
-                  className="w-full h-auto object-cover  about-two-img   relative "
-                />
-
                 {/* Satisfaction Guarantee Badge */}
                 <div className="absolute bottom-0 bg-white  left-0  text-white pl-0 pb-0 p-4  ">
                   <div className="bg-green-700 p-10 rounded-2xl shadow-lg">
