@@ -114,7 +114,6 @@ export default function SalesService() {
 
   return (
     <>
-      {" "}
       <div className="section">
         <Container maxWidth="xl">
           <div className="">

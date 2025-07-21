@@ -88,7 +88,7 @@ export default function Navbar() {
       {/* Top Header */}
       <div className="nav-header py-2 overflow-hidden">
         <Container maxWidth="xl">
-          <div className="flex justify-end items-center gap-2 md:gap-4">
+          <div className="flex justify-end items-center gap-2 md:gap-4 relative z-10">
             <Link
               href="/sales-service"
               className={cn(
