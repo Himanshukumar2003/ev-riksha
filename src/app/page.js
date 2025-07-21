@@ -17,8 +17,9 @@ export default function Home() {
       <VehicleCategoryFilter></VehicleCategoryFilter>
 
       <VideoSection></VideoSection>
-      <CustomerTestimonials></CustomerTestimonials>
       <NewsSection />
+
+      <CustomerTestimonials></CustomerTestimonials>
       <ClientLogos></ClientLogos>
     </>
   );

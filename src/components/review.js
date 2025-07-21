@@ -53,11 +53,11 @@ export default function CustomerTestimonials() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            What our customers say
+            Why They Choose Us
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Don’t just take our word for it. Here’s what our valued customers
-            have to say about their experience with us.
+            Their trust and words keep us moving forward — here’s what they have
+            to say.
           </p>
         </div>
 
