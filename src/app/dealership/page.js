@@ -32,6 +32,7 @@ import {
 import Container from "@mui/material/Container";
 import FeaturesSection from "./_feachers";
 import AllVehiclesSwiper from "@/components/products";
+import EnquiryFormData from "@/components/becouseForm";
 export default function Component() {
   const benefits = [
     {
@@ -440,9 +441,7 @@ export default function Component() {
               <span className="text-gray-600 font-medium">
                 Ready to get started?
               </span>
-              <button className="bg-gradient-to-r from-green-600 to-green-700 text-white px-6 py-2 rounded-full font-semibold hover:from-green-700 hover:to-green-800 transition-all duration-200 transform hover:scale-105">
-                Become a Dealer
-              </button>
+              <EnquiryFormData />
             </div>
           </div>
         </Container>
