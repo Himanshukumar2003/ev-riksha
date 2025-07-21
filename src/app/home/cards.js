@@ -32,7 +32,7 @@ export default function Support() {
   ];
 
   return (
-    <div className="section bg-gray-100">
+    <div className="section bg-gray-50">
       <Container maxWidth="xl">
         <div className="grid grid-cols-12 gap-6">
           {products.map((product, index) => {
@@ -41,7 +41,7 @@ export default function Support() {
             return (
               <div
                 key={index}
-                className={`col-span-12 bg-gray ${
+                className={`col-span-12  ${
                   isSecondCard ? "md:col-span-8" : "md:col-span-4"
                 }`}
               >
