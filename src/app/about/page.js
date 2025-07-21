@@ -8,6 +8,10 @@ import { useState } from "react";
 import { Play } from "lucide-react";
 
 export default function About() {
+  const videos = [
+    "https://www.youtube.com/embed/hQQBAcQwwyY?si=g01MIwSXdbqRCbOj",
+  ];
+
   const [selectedVideo, setSelectedVideo] = useState(null);
 
   return (
@@ -23,11 +27,7 @@ export default function About() {
                   alt="Interior design team collaborating on projects"
                   width={600}
                   height={400}
-                  onClick={() =>
-                    setSelectedVideo(
-                      "https://www.youtube.com/embed/hQQBAcQwwyY?si=g01MIwSXdbqRCbOj"
-                    )
-                  }
+                  onClick={() => setSelectedVideo(videos[0])}
                   className="w-full h-auto object-cover about-two-img relative cursor-pointer"
                 />
                 <div className="absolute z-[99] flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
