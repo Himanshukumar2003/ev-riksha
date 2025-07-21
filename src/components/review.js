@@ -49,7 +49,7 @@ export default function CustomerTestimonials() {
   const nextRef = useRef(null);
 
   return (
-    <section className="py-16 px-4">
+    <section className="py-16 px-4 bg-gray-100">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -99,7 +99,7 @@ export default function CustomerTestimonials() {
           >
             {testimonials.map((testimonial) => (
               <SwiperSlide key={testimonial.id} className="h-full">
-                <Card className="h-full min-h-[380px] flex flex-col justify-between shadow-lg overflow-hidden bg-gray-100 rounded-2xl border-0">
+                <Card className="h-full    lg:min-h-[400px]  flex flex-col justify-between shadow-lg overflow-hidden bg-white rounded-2xl border-0">
                   <CardContent className="h-full flex flex-col p-6">
                     <div className="flex items-center mb-4">
                       {[...Array(5)].map((_, i) => (
