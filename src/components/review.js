@@ -49,7 +49,7 @@ export default function CustomerTestimonials() {
   const nextRef = useRef(null);
 
   return (
-    <section className="py-16 px-4 bg-gray-100">
+    <section className="py-16 px-4 ">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -64,7 +64,7 @@ export default function CustomerTestimonials() {
         <div className="relative py-2">
           <button
             ref={prevRef}
-            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 bg-white rounded-full p-3 shadow-lg hover:shadow-xl transition-shadow duration-200 border border-gray-200"
+            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 bg-gray-100 rounded-full p-3 shadow-lg hover:shadow-xl transition-shadow duration-200 border border-gray-200"
           >
             <ChevronLeft className="h-4 w-4" />
           </button>

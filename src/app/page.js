@@ -9,6 +9,7 @@ import VehicleCategoryFilter from "./home/products";
 import CustomerTestimonials from "@/components/review";
 import VideoSection from "./home/video-section";
 import ClientLogos from "@/components/clint";
+import Support from "./home/cards";
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
 
       <VideoSection></VideoSection>
       <NewsSection />
-
+      <Support></Support>
       <CustomerTestimonials></CustomerTestimonials>
       <ClientLogos></ClientLogos>
     </>

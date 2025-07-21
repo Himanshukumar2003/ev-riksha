@@ -19,7 +19,7 @@ export default function ClientLogos() {
   ];
 
   return (
-    <section className="section">
+    <section className="section bg-gray-100">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
@@ -64,7 +64,7 @@ export default function ClientLogos() {
           >
             {logos.map((logo, index) => (
               <SwiperSlide key={index}>
-                <div className="flex items-center justify-center p-4 bg-gray-100 rounded-[20px] shadow-md hover:shadow-lg transition-shadow duration-300">
+                <div className="flex items-center justify-center px-4 bg-white rounded-[20px] shadow-md hover:shadow-lg transition-shadow duration-300">
                   <Image
                     src={logo.src || "/placeholder.svg"}
                     alt={logo.alt}
