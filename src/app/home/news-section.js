@@ -27,7 +27,7 @@ export default function NewsSection() {
   ];
 
   return (
-    <div className="relative flex flex-col md:flex-row items-center bg-gray-100 ">
+    <div className="relative flex flex-col md:flex-row items-center  ">
       {/* Red section */}
       <div
         className="relative bg-green-600 text-white p-8 md:p-12 flex items-center justify-center text-center w-full md:w-1/3 lg:w-1/4 xl:w-1/5
