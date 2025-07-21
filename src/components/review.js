@@ -15,7 +15,7 @@ const testimonials = [
     name: "Mr. Sanjay Verma",
     location: "Exclusive Dealer, Raipur",
     description:
-      "Mac Auto India has always paid attention to its product and has never compromised on their quality, due to which we are standing and competing strongly in the market today, moreover growing with growth every year.",
+      "Mac Auto India has always delivered quality without compromise. Their consistent focus on product excellence has helped us build strong relationships with customers. Over the years, we’ve grown steadily, even in a competitive market. Their reliable support and innovative solutions make a real difference. We are proud to be part of their journey and look forward to continued success together.",
     rating: 5,
   },
   {
@@ -23,7 +23,7 @@ const testimonials = [
     name: "Mr. Abhimanyu Manhas",
     location: "Dealer, Jammu",
     description:
-      "After joining Mac Auto India as a Dealer our profitability has increased every year, not only their quality but also the services and support are unmatched.",
+      "Becoming a Mac Auto India dealer has been a rewarding decision. Every year, our profits have increased steadily due to their unmatched service, premium quality, and timely support. They truly understand the needs of dealers and work closely with us. Their guidance and transparency have helped us scale confidently. We now enjoy stronger customer trust and higher sales.",
     rating: 5,
   },
   {
@@ -31,7 +31,7 @@ const testimonials = [
     name: "Mr. Abhilash",
     location: "Dealer, Delhi",
     description:
-      "Before to join Mac Auto India as a dealer, I used to be a dealer of well known brand, but they had nothing except the name. Mac has given us the opportunity of Spares and Services Dealership along with E-Vehicle dealership as well. It has increased our revenue with 25%. Now rickshaw drivers come to get their vehicle charged with a nominal price and recommend our brand to others too. Thanks Abhijeet Sir for this opportunity!",
+      "Before joining Mac Auto India, I represented a well-known brand, but it lacked real value. Mac offered us EV and spare parts dealership, boosting our income by 25%. Rickshaw owners now come to us for affordable charging and services. Their approach is practical and profitable. Thanks to Abhijeet Sir for the trust and opportunity that transformed our business model.",
     rating: 5,
   },
   {
@@ -39,7 +39,40 @@ const testimonials = [
     name: "Mr. Vakeel Ahmed",
     location: "Dealer, Jhansi (M.P)",
     description:
-      "Mac Auto India never let us realize that we are their Dealer, but treated as a member of Mac family. They always treat us like a partner. As far as the quality and prices are concerned, it is unmatched. Thus we always feel positive and provide best prices to our customers, which helps us to build trust and revenue as well.",
+      "At Mac Auto India, we are not just dealers—we’re treated like family. They’ve supported us with excellent pricing and consistent quality, which helps us stay ahead in our region. Their positive and transparent approach builds dealer confidence. We always feel encouraged and empowered to offer the best deals to our customers while ensuring steady business growth.",
+    rating: 5,
+  },
+
+  {
+    id: 5,
+    name: "Mr. Sanjay Verma",
+    location: "Exclusive Dealer, Raipur",
+    description:
+      "Mac Auto India has always delivered quality without compromise. Their consistent focus on product excellence has helped us build strong relationships with customers. Over the years, we’ve grown steadily, even in a competitive market. Their reliable support and innovative solutions make a real difference. We are proud to be part of their journey and look forward to continued success together.",
+    rating: 5,
+  },
+  {
+    id: 6,
+    name: "Mr. Abhimanyu Manhas",
+    location: "Dealer, Jammu",
+    description:
+      "Becoming a Mac Auto India dealer has been a rewarding decision. Every year, our profits have increased steadily due to their unmatched service, premium quality, and timely support. They truly understand the needs of dealers and work closely with us. Their guidance and transparency have helped us scale confidently. We now enjoy stronger customer trust and higher sales.",
+    rating: 5,
+  },
+  {
+    id: 7,
+    name: "Mr. Abhilash",
+    location: "Dealer, Delhi",
+    description:
+      "Before joining Mac Auto India, I represented a well-known brand, but it lacked real value. Mac offered us EV and spare parts dealership, boosting our income by 25%. Rickshaw owners now come to us for affordable charging and services. Their approach is practical and profitable. Thanks to Abhijeet Sir for the trust and opportunity that transformed our business model.",
+    rating: 5,
+  },
+  {
+    id: 8,
+    name: "Mr. Vakeel Ahmed",
+    location: "Dealer, Jhansi (M.P)",
+    description:
+      "At Mac Auto India, we are not just dealers—we’re treated like family. They’ve supported us with excellent pricing and consistent quality, which helps us stay ahead in our region. Their positive and transparent approach builds dealer confidence. We always feel encouraged and empowered to offer the best deals to our customers while ensuring steady business growth.",
     rating: 5,
   },
 ];
