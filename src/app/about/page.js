@@ -105,20 +105,41 @@ export default function About() {
                 Our focus enables us to provide customized, actionable
                 recommendations.
               </h2>
+
               <blockquote className="border-l-4 border-green-500 pl-5 italic text-gray-800 mb-6">
                 Let me start by saying that Environment & Entrepreneurship go
-                hand in hand...
+                hand in hand. I dreamed of an opportunity that allowed people to
+                grow affordably—regardless of age, background, or
+                education—while sustaining the environment.
               </blockquote>
+
               <p className="text-gray-800 mb-5 leading-relaxed">
-                Years ago, I stumbled upon the Electric Vehicle industry...
+                Years ago, I stumbled upon the Electric Vehicle industry—a path
+                where my ideals and purpose aligned. With 15 years of
+                experience, starting in marketing and now as CEO of Mac Auto, I
+                believe EVs are the future with strong ROI potential and immense
+                eco-impact. This journey has been both challenging and
+                fulfilling, shaping not just my career but also my commitment to
+                sustainability.
               </p>
+
               <p className="text-gray-800 mb-5 leading-relaxed">
-                Today, I feel grateful for the experiences that led me here...
+                Today, I feel grateful for the experiences that led me here.
+                Each step was a lesson, every hurdle a moment of growth.
+                Together with the Mac Auto team and our network of dedicated
+                partners, we are turning our shared vision into reality—building
+                innovative, accessible, and eco-friendly mobility solutions for
+                India.
               </p>
+
               <p className="text-gray-800 mb-5 leading-relaxed">
                 As we continue this journey, we remain committed to empowering
-                lives through cleaner transport...
+                lives through cleaner transport, and driving the change towards
+                a greener future. Our mission is not just business—it&apos; s a
+                movement for transformation.
               </p>
+
+              {/* Signature */}
               <div className="mt-6">
                 <p className="font-bold text-black">Abhijeet Wassan</p>
                 <p className="uppercase text-gray-500 tracking-wider">
