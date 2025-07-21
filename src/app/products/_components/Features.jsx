@@ -65,9 +65,9 @@ export default function BikeExplorer({ product }) {
                         <h3 className="text-xl font-semibold mb-2">
                           {section.heading}
                         </h3>
-                        <p className="text-gray-200 text-sm">
+                        {/* <p className="text-gray-200 text-sm">
                           {section.sub_heading}
-                        </p>
+                        </p> */}
                       </div>
                       <div
                         className={`w-4 h-4 rounded-full ${

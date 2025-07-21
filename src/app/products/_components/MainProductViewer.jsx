@@ -149,37 +149,37 @@ export default function MainProductViewer({ product }) {
 
               {/* Color Picker */}
               <div className="mb-8">
-                <div className="flex items-center gap-2 mb-4">
-                  <Palette className="w-5 h-5 text-green-600" />
-                  <h3 className="text-lg font-semibold text-gray-700">
-                    Select Color
-                  </h3>
-                </div>
-
                 {product?.colors && product.colors.length > 0 && (
-                  <div className="flex flex-wrap gap-3 mb-3">
-                    {product.colors.map((color, index) => (
-                      <button
-                        key={index}
-                        className={`relative w-8 h-8 rounded-xl border-2 border-transparent transition-all duration-300 transform hover:scale-110 ${
-                          selectedColor === index
-                            ? "border-green-600 ring-2 ring-green-200 scale-110 shadow-xl"
-                            : "border-gray-300 hover:border-green-400 hover:shadow-lg"
-                        }`}
-                        style={{ backgroundColor: color.color }}
-                        onClick={() => setSelectedColor(index)}
-                      >
-                        {selectedColor === index && (
-                          <div className="absolute inset-0 flex items-center justify-center">
-                            <div className="w-4 h-4 bg-white rounded-full shadow-lg animate-pulse" />
-                          </div>
-                        )}
-                      </button>
-                    ))}
+                  <div>
+                    <div className="flex items-center gap-2 mb-4">
+                      <Palette className="w-5 h-5 text-green-600" />
+                      <h3 className="text-lg font-semibold text-gray-700">
+                        Select Color
+                      </h3>
+                    </div>
+
+                    <div className="flex flex-wrap gap-3 mb-3">
+                      {product.colors.map((color, index) => (
+                        <button
+                          key={index}
+                          className={`relative w-8 h-8 rounded-xl border-2 border-transparent transition-all duration-300 transform hover:scale-110 ${
+                            selectedColor === index
+                              ? "border-green-600 ring-2 ring-green-200 scale-110 shadow-xl"
+                              : "border-gray-300 hover:border-green-400 hover:shadow-lg"
+                          }`}
+                          style={{ backgroundColor: color.color }}
+                          onClick={() => setSelectedColor(index)}
+                        >
+                          {selectedColor === index && (
+                            <div className="absolute inset-0 flex items-center justify-center">
+                              <div className="w-4 h-4 bg-white rounded-full shadow-lg animate-pulse" />
+                            </div>
+                          )}
+                        </button>
+                      ))}
+                    </div>
                   </div>
                 )}
-
-                <EnquiryFormModal productId={product?.id} />
               </div>
 
               {/* State/City Pricing */}
@@ -253,6 +253,7 @@ export default function MainProductViewer({ product }) {
                   )}
                 </div>
               </div>
+              <EnquiryFormModal productId={product?.id} />
             </div>
           </div>
         </Container>

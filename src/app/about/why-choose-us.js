@@ -14,7 +14,7 @@ export default function WhyChoose() {
       <Container maxWidth="xl">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
           {/* Left Column - Main Content */}
-          <div className="space-y-8   sticky top-5">
+          <div className="space-y-8   lg:sticky top-5">
             <div className="space-y-6">
               <p className="text-green-500 font-medium text-sm uppercase tracking-wide">
                 EV Charging Solutions Made Very Simple!
