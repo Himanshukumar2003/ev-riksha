@@ -21,30 +21,21 @@ export default function About() {
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Left side - Images */}
             <div className="relative">
-              <div className="relative rounded-2xl overflow-hidden">
+              <div
+                className="relative rounded-2xl overflow-hidden"
+                onClick={() => setSelectedVideo(videos[0])}
+              >
                 <Image
-                  src="/img/about-mask-img.jpg"
-                  alt="Interior design team collaborating on projects"
+                  src="/img/youtub/img-1.jpg"
+                  alt="Interior design team collaborating on projects
+                  "
                   width={600}
                   height={400}
-                  onClick={() => setSelectedVideo(videos[0])}
-                  className="w-full h-auto object-cover about-two-img relative cursor-pointer"
+                  className="w-full cursor-pointer h-auto object-cover  relative "
                 />
-                <div className="absolute z-[99] flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute  top-[50%] left-[50%] flex items-center justify-center  group-hover:opacity-100 transition-opacity duration-300">
                   <div className="bg-white rounded-full p-4 shadow-lg">
                     <Play className="w-6 h-6 text-slate-800 fill-current" />
-                  </div>
-                </div>
-
-                {/* Satisfaction Guarantee Badge */}
-                <div className="absolute bottom-0 bg-white left-0 text-white pl-0 pb-0 p-4">
-                  <div className="bg-green-700 p-10 rounded-2xl shadow-lg">
-                    <div className="text-4xl font-bold mb-1">100%</div>
-                    <div className="text-sm font-medium">
-                      Satisfaction
-                      <br />
-                      Guarantee
-                    </div>
                   </div>
                 </div>
               </div>
@@ -58,29 +49,27 @@ export default function About() {
                   SINCE 2014
                 </div>
                 <h1 className="text-2xl md:text-4xl leading-tight mb-6">
-                  Mac Auto – Leading the Way in E-Rickshaw Innovation Since 2014
+                  Mac Auto – Driving E-Rickshaw Innovation Since 2014
                 </h1>
                 <p className="text-gray-600 text-lg leading-relaxed">
-                  Mac Auto began its journey in early 2014 as a visionary
-                  organization and has today grown into one of the leading
-                  players in the electric mobility industry with a strong PAN
-                  India presence. We are proud to be among the pioneers in the
-                  manufacturing of Electric Rickshaws, their spare parts, and
-                  accessories in India.
+                  Founded in 2014, Mac Auto started as a visionary venture and
+                  has grown into one of India’s top electric mobility brands
+                  with a strong PAN India presence.
                 </p>
                 <p className="text-gray-600 text-lg leading-relaxed">
-                  All our products are certified by i-CAT (International Centre
-                  for Automotive Technology) under the Government of India, and
-                  we are recognized for our patented technologies and modern
-                  design capabilities. We manufacture eco-friendly Electric
-                  Rickshaws for passengers and Electric Carts for cargo.
+                  We specialize in manufacturing Electric Rickshaws, spare
+                  parts, and accessories. All products are i-CAT certified and
+                  known for our patented technology and modern designs.
                 </p>
                 <p className="text-gray-600 text-lg leading-relaxed">
-                  Our skilled technical team is dedicated to enhancing
-                  performance and aesthetics while contributing to the green
-                  mobility movement. With a well-equipped manufacturing unit and
-                  experienced staff, we continue to innovate and shape a
-                  cleaner, greener future in electric transportation.
+                  Our lineup includes eco-friendly Electric Rickshaws for
+                  passengers and Electric Carts for cargo transportation, built
+                  to support sustainable mobility.
+                </p>
+                <p className="text-gray-600 text-lg leading-relaxed">
+                  With a skilled technical team and a well-equipped
+                  manufacturing setup, we continue to innovate and contribute to
+                  a cleaner, greener future.
                 </p>
               </div>
             </div>
