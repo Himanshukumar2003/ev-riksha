@@ -45,7 +45,7 @@ export default function PaymentBreakdownChart({
   return (
     <ResponsiveContainer
       width="100%"
-      className="absolute -top-[25%] right-0 max-w-[200px] max-h-[200px]"
+      className="relative lg:absolute -top-[25%] right-0 max-w-[200px] max-h-[200px]"
     >
       <PieChart>
         <Pie

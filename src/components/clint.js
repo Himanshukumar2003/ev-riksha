@@ -10,17 +10,22 @@ import "swiper/css/autoplay";
 
 export default function ClientLogos() {
   const logos = [
-    { src: "/img/akasa.png", alt: "Client Logo 1" },
     { src: "/img/akasa.png", alt: "Client Logo 2" },
-    { src: "/img/akasa.png", alt: "Client Logo 3" },
-    { src: "/img/akasa.png", alt: "Client Logo 4" },
-    { src: "/img/akasa.png", alt: "Client Logo 5" },
-    { src: "/img/akasa.png", alt: "Client Logo 6" },
+    { src: "/img/amc.png", alt: "Client Logo 3" },
+    { src: "/img/pkf.png", alt: "Client Logo 4" },
+    { src: "/img/akasa.png", alt: "Client Logo 2" },
+    { src: "/img/amc.png", alt: "Client Logo 3" },
+    { src: "/img/pkf.png", alt: "Client Logo 4" },
+    { src: "/img/akasa.png", alt: "Client Logo 2" },
+    { src: "/img/amc.png", alt: "Client Logo 3" },
+    { src: "/img/pkf.png", alt: "Client Logo 4" },
+    // { src: "/img/akasa.png", alt: "Client Logo 5" },
+    // { src: "/img/akasa.png", alt: "Client Logo 6" },
   ];
 
   return (
     <section className="section bg-gray-100">
-      <div className="container px-4 md:px-6">
+      <div className="container px-4 md:px-6 mx-auto">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -34,8 +39,9 @@ export default function ClientLogos() {
         </div>
         <div className="mt-8">
           <Swiper
-            spaceBetween={30}
-            slidesPerView={2}
+            spaceBetween={20}
+            slidesPerView={1}
+            centeredSlides={true}
             autoplay={{
               delay: 2500,
               disableOnInteraction: false,
@@ -44,23 +50,23 @@ export default function ClientLogos() {
             modules={[Autoplay]}
             breakpoints={{
               640: {
-                slidesPerView: 3,
+                slidesPerView: 1,
                 spaceBetween: 40,
               },
               768: {
-                slidesPerView: 4,
+                slidesPerView: 2,
                 spaceBetween: 50,
               },
               1024: {
-                slidesPerView: 5,
+                slidesPerView: 3,
                 spaceBetween: 60,
               },
               1280: {
-                slidesPerView: 6,
+                slidesPerView: 4,
                 spaceBetween: 70,
               },
             }}
-            className="mySwiper"
+            className="mySwiper max-w-[800px]"
           >
             {logos.map((logo, index) => (
               <SwiperSlide key={index}>

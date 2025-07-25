@@ -8,6 +8,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Checkbox } from "@/components/ui/checkbox";
 import ServicesSection from "./cards";
+import Breadcrumb from "@/components/breadcrumb";
 
 // Zod validation schema
 const contactFormSchema = z.object({
@@ -72,6 +73,8 @@ export default function ContactSection() {
 
   return (
     <>
+      <Breadcrumb title="Contact us" />
+
       <ServicesSection />
 
       <section className="section bg-gray-100">

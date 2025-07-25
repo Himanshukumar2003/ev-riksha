@@ -28,11 +28,18 @@ import {
   Battery,
   Smartphone,
   MailIcon,
+  GraduationCap,
+  MessageSquare,
+  Database,
+  LineChart,
+  Headphones,
+  RefreshCw,
 } from "lucide-react";
 import Container from "@mui/material/Container";
 import FeaturesSection from "./_feachers";
 import AllVehiclesSwiper from "@/components/products";
 import EnquiryFormData from "@/components/becouseForm";
+import Breadcrumb from "@/components/breadcrumb";
 export default function Component() {
   const benefits = [
     {
@@ -80,6 +87,25 @@ export default function Component() {
         "WhatsApp, SMS & Email Campaign Templates",
       ],
     },
+  ];
+  const investmentItems = [
+    {
+      name: "Training of Sales Team for better product understanding",
+      icon: GraduationCap,
+    },
+    { name: "Support of Service Team", icon: Wrench },
+    {
+      name: "Initial on-ground amplification and in-store collaterals",
+      icon: Megaphone,
+    },
+    {
+      name: "Social media mentions and posts from time to time",
+      icon: MessageSquare,
+    },
+    { name: "CRM Platform", icon: Database },
+    { name: "Lead Generation", icon: LineChart },
+    { name: "Customer Care", icon: Headphones },
+    { name: "ERP", icon: RefreshCw },
   ];
 
   const steps = [
@@ -129,28 +155,24 @@ export default function Component() {
       title: "Automobile Dealers",
       description: "Existing car dealers looking to expand into EV segment",
       icon: <Car className="w-12 h-12" />,
-      gradient: "from-green-400 to-green-500",
       bgPattern: "bg-gradient-to-br from-green-50 to-green-100",
     },
     {
       title: "EV Showroom Aspirants",
       description: "Entrepreneurs planning to start EV retail business",
       icon: <Store className="w-12 h-12" />,
-      gradient: "from-green-500 to-green-600",
       bgPattern: "bg-gradient-to-br from-green-100 to-green-150",
     },
     {
       title: "Garage & Spare Parts",
       description: "Service centers and parts dealers expanding services",
       icon: <Wrench className="w-12 h-12" />,
-      gradient: "from-green-600 to-green-700",
       bgPattern: "bg-gradient-to-br from-green-50 to-green-100",
     },
     {
       title: "Fleet Operators",
       description: "Commercial fleet owners and transport entrepreneurs",
       icon: <Truck className="w-12 h-12" />,
-      gradient: "from-green-700 to-green-800",
       bgPattern: "bg-gradient-to-br from-green-100 to-green-150",
     },
   ];
@@ -205,6 +227,7 @@ export default function Component() {
   return (
     <main>
       {/* Hero Section */}
+      <Breadcrumb title="Dealership" />
 
       <div className="section">
         <Container maxWidth="xl">
@@ -360,7 +383,7 @@ export default function Component() {
             <div className="text-center mb-16">
               <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-gray-900 mb-6">
                 Our{" "}
-                <span className="bg-gradient-to-r from-green-600 to-green-700 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-[var(--color-primary-light)] to-[var(--color-primary-dark)] bg-clip-text text-transparent">
                   Product Range
                 </span>
               </h2>
@@ -373,6 +396,33 @@ export default function Component() {
           </div>
         </Container>
       </section>
+      <div className="bg-gray-100 section ">
+        <div className="text-center mb-10">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-gray-900 ">
+            Your Investment Plan
+          </h2>
+        </div>
+
+        <div className="flex justify-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl w-full px-4">
+            {investmentItems.map((reason, index) => (
+              <div
+                key={index}
+                className="flex h-20 items-center  rounded-l-full rounded-[20px]  overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-lg"
+              >
+                <div className="w-20 h-full rounded-l-full flex items-center justify-center bg-[var(--color-primary-dark)] text-white text-2xl -mr-4 z-10 shrink-0">
+                  <reason.icon className="w-8 h-8" />
+                </div>
+
+                <div className="w-full flex py-2 items-center  pl-6 bg-white  h-full text-lg font-medium text-gray-800 ">
+                  {reason.name}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
       <section
         id="benefits"
         className="w-full section bg-gradient-to-br from-gray-50 to-white"
@@ -381,7 +431,7 @@ export default function Component() {
           <div className="text-center mb-16">
             <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-gray-900 mb-4">
               Exclusive
-              <span className="bg-gradient-to-r from-green-600 to-green-700 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-[var(--color-primary-light)] to-[var(--color-primary-dark)] bg-clip-text text-transparent">
                 Dealer Benefits
               </span>
             </h2>
@@ -453,8 +503,8 @@ export default function Component() {
           {/* Header */}
           <div className="text-center mb-10">
             <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-gray-900 mb-6">
-              Steps to <span> </span>
-              <span className="bg-gradient-to-r from-green-600 to-green-700 bg-clip-text text-transparent">
+              Steps to{" "}
+              <span className=" bg-gradient-to-r from-[var(--color-primary-light)] to-[var(--color-primary-dark)] bg-clip-text text-transparent">
                 Join as a Dealer
               </span>
             </h2>
@@ -479,12 +529,12 @@ export default function Component() {
                       {/* Step Number with Icon */}
                       <div className="relative mb-6">
                         <div
-                          className={`w-20 h-20 mx-auto rounded-full bg-gradient-to-r ${step.color} flex items-center justify-center text-white shadow-lg group-hover:scale-110 transition-transform duration-300`}
+                          className={`w-20 h-20 mx-auto rounded-full bg-gradient-to-r from-[var(--color-primary-light)] to-[var(--color-primary-dark)] flex items-center justify-center text-white shadow-lg group-hover:scale-110 transition-transform duration-300`}
                         >
                           {step.icon}
                         </div>
                         <div
-                          className={`absolute -top-2 -right-2 w-8 h-8 rounded-full bg-gradient-to-r ${step.color} flex items-center justify-center text-white text-sm font-bold shadow-md`}
+                          className={`absolute -top-2 -right-2 w-8 h-8 rounded-full bg-gradient-to-r from-[var(--color-primary-light)] to-[var(--color-primary-dark)] flex items-center justify-center text-white text-sm font-bold shadow-md`}
                         >
                           {step.number}
                         </div>
@@ -526,7 +576,7 @@ export default function Component() {
           <div className="text-center mb-16">
             <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-gray-900 mb-6">
               Who Can{" "}
-              <span className="bg-gradient-to-r from-green-600 to-green-700 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-[var(--color-primary-light)] to-[var(--color-primary-dark)] bg-clip-text text-transparent">
                 Apply
               </span>
               ?
@@ -553,7 +603,7 @@ export default function Component() {
                   {/* Icon Container */}
                   <div className="relative z-10 mb-6">
                     <div
-                      className={`w-20 h-20 mx-auto rounded-2xl bg-gradient-to-r ${applicant.gradient} flex items-center justify-center text-white shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300`}
+                      className={`w-20 h-20 mx-auto rounded-2xl bg-gradient-to-r from-[var(--color-primary-light)] to-[var(--color-primary-dark)] flex items-center justify-center text-white shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-300`}
                     >
                       {applicant.icon}
                     </div>
@@ -598,7 +648,7 @@ export default function Component() {
                   </a>
                 </div>
               </div>
-              <button className=" flex gap-2 bg-gradient-to-r  from-green-600 to-green-700 text-white px-8 py-3 rounded-full font-semibold hover:from-green-700 hover:to-green-800 transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl">
+              <button className=" flex gap-2 bg-gradient-to-r from-[var(--color-primary-light)] to-[var(--color-primary-dark)] text-white px-8 py-3 rounded-full font-semibold hover:from-green-700 hover:to-green-800 transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl">
                 <Phone></Phone>
                 <a href="tel:8090629062" target="_blank">
                   +91- 80 9062 9062

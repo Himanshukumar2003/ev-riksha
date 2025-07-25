@@ -1,112 +1,61 @@
-"use client";
-
 import {
   Flag,
   PackagePlus,
-  ClipboardCheck,
+  CheckSquare,
   Star,
-  PlusCircle,
+  Plus,
   ShieldCheck,
-  BadgeDollarSign as BadgeDollar,
+  BadgeDollarSign,
   Handshake,
-  GraduationCap,
-  Wrench,
-  Megaphone,
-  MessageSquare,
-  Database,
-  LineChart,
-  Headphones,
-  RefreshCw,
 } from "lucide-react";
 
-import { Card, CardContent } from "@/components/ui/card";
-
-export default function FeaturesSection() {
-  const reasonsFeatures = [
-    { icon: Flag, description: "Designed in India, Made in India" },
+export default function Component() {
+  const reasons = [
+    { name: "Designed in India, Made in India", icon: Flag },
     {
+      name: "Multiple products, One New Launch every 3 months",
       icon: PackagePlus,
-      description: "Multiple products, One New Launch every 3 months",
     },
-    { icon: ClipboardCheck, description: "Tested for 3 years" },
-    { icon: Star, description: "Best in Class Features" },
-    { icon: PlusCircle, description: "30 Plus accessories - Customizable" },
-    { icon: ShieldCheck, description: "Highest Warranty 3 years" },
-    { icon: BadgeDollar, description: "Attractive Consumer Schemes" },
+    { name: "Tested for 3 years", icon: CheckSquare },
+    { name: "Best in Class Features", icon: Star },
+    { name: "30 Plus accessories - Customizable", icon: Plus },
+    { name: "Highest Warranty 3 years", icon: ShieldCheck },
+    { name: "Attractive Consumer Schemes", icon: BadgeDollarSign },
     {
+      name: "Transparent Relationship with Dedicated Sales Manager ",
       icon: Handshake,
-      description:
-        "Transparent Relationship Dedicated Sales Manager & Regular Dialogue with key Management Personnel",
     },
-  ];
-
-  const investmentFeatures = [
-    {
-      icon: GraduationCap,
-      description: "Training of Sales Team for better product understanding",
-    },
-    { icon: Wrench, description: "Support of Service Team" },
-    {
-      icon: Megaphone,
-      description: "Initial on-ground amplification and in-store collaterals",
-    },
-    {
-      icon: MessageSquare,
-      description: "Social media mentions and posts from time to time",
-    },
-    { icon: Database, description: "CRM Platform" },
-    { icon: LineChart, description: "Lead Generation" },
-    { icon: Headphones, description: "Customer Care" },
-    { icon: RefreshCw, description: "ERP" },
   ];
 
   return (
-    <div className="w-full">
-      {/* Section 1: 8 Reasons! */}
-      <section className="bg-blue-800 py-16 md:py-24">
-        <div className="container mx-auto px-4 max-w-6xl">
-          <h2 className="text-4xl md:text-5xl font-extrabold text-white text-center mb-16 tracking-tight">
-            8 Reasons!
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {reasonsFeatures.map((feature, index) => (
-              <Card
-                key={index}
-                className="flex flex-col items-center justify-center text-center p-6 bg-white/10 border-none rounded-lg shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl"
-              >
-                <CardContent className="p-0 flex flex-col items-center space-y-4">
-                  <feature.icon className="w-16 h-16 text-white" />
-                  <p className="text-white text-lg font-medium leading-relaxed">
-                    {feature.description}
-                  </p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
+    <div className="bg-gray-100 section py-16">
+      <div className="text-center mb-10">
+        <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-gray-900 mb-4">
+          8 Reasons!
+        </h2>
+        <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+          Here’s why our customers trust and choose us over the rest
+        </p>
+      </div>
 
-      {/* Section 2: Your Investment Plan */}
-      <section className="bg-emerald-700 py-16 md:py-24">
-        <div className="container mx-auto px-4 max-w-6xl">
-          <h2 className="text-4xl md:text-5xl font-extrabold text-center text-white mb-16 tracking-tight">
-            Your Investment Plan
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {investmentFeatures.map((feature, index) => (
-              <Card
-                key={index}
-                className="flex flex-col items-center text-white justify-center text-center p-6 bg-white/10 border-none rounded-lg shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl"
-              >
-                <CardContent className="p-0 flex flex-col items-center space-y-4">
-                  <feature.icon className="w-16 h-16 " />
-                  <p className="">{feature.description}</p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
+      <div className="flex justify-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl w-full px-4">
+          {reasons.map((reason, index) => (
+            <div
+              key={index}
+              className="flex h-20 items-center  rounded-l-full rounded-[20px]  overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-lg"
+            >
+              <div className="w-20 h-full rounded-l-full flex items-center justify-center bg-[var(--color-primary-dark)] text-white text-2xl -mr-4 z-10 shrink-0">
+                <reason.icon className="w-8 h-8" />
+              </div>
+
+              <div className="w-full flex items-center py-2  pl-6 bg-white  h-full text-lg font-medium text-gray-800 ">
+                {reason.name}
+              </div>
+            </div>
+          ))}
         </div>
-      </section>
+      </div>
     </div>
   );
 }

@@ -52,7 +52,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="about"
+                  href="/about"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   About us
@@ -60,7 +60,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/products"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Our Products
@@ -68,7 +68,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/blog"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Blog
@@ -76,7 +76,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/gallery"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Gallery
@@ -84,7 +84,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/contact"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Contact us
@@ -101,7 +101,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li>
                 <Link
-                  href="#"
+                  href="/products/mac-tejas-sh"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Tejas
@@ -109,7 +109,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/products/mac-tejs-dhl"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Tejas DHL
@@ -117,7 +117,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href=""
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Mac Multi Utility E-Cart
@@ -125,7 +125,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/products/mac-900"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Mac 900
@@ -133,18 +133,18 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/products/mac-mue-carbage"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  Affiliate Program
+                  Mac MUE Garbage
                 </Link>
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/products"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  Payments
+                  View All Products
                 </Link>
               </li>
             </ul>

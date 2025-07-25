@@ -265,20 +265,43 @@ export default function MainProductViewer({ product }) {
           onInterestRateChange={handleInterestRateChange}
         />
 
-        <div className="section bg-gray-100">
-          {product?.video_link && (
-            <div className="max-w-5xl h-[400px] relative rounded-4xl shadow-2xl overflow-hidden mx-auto group">
-              <iframe
-                src={product.video_link}
-                title="Product Video"
-                className="w-full  h-full"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
+        {product?.video_link && (
+          <div className="section bg-gray-100 py-16">
+            <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+              {/* Left Side - Text */}
+              <div className="lg:col-span-5">
+                <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+                  Explore Our YouTube Channel
+                </h2>
+                <p className="text-base md:text-lg text-gray-600 mb-6">
+                  Dive deeper into our innovations, product demonstrations, and
+                  behind-the-scenes videos. Subscribe to our YouTube channel and
+                  stay updated with the latest content from Macauto India.
+                </p>
+                <a
+                  href="https://www.youtube.com/@Macautoindia"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn"
+                >
+                  Visit YouTube Channel
+                </a>
+              </div>
+
+              {/* Right Side - Video */}
+              <div className="h-[300px] sm:h-[350px] md:h-[400px] relative rounded-3xl shadow-2xl overflow-hidden lg:col-span-7">
+                <iframe
+                  src={product.video_link}
+                  title="Product Video"
+                  className="w-full h-full"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
             </div>
-          )}
-        </div>
+          </div>
+        )}
       </div>
     </div>
   );

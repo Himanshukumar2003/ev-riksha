@@ -160,12 +160,12 @@ export default function VideoSection() {
         <div className="space-y-8 ">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4 text-slate-800">
-              Explore Our Exclusive EV Video Library
+              Troubleshooting Made Easy with MAC Care
             </h2>
             <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-              Dive into a curated selection of case studies, market insights,
-              success stories, and more—each video designed to keep you informed
-              and inspired in the electric vehicle revolution.
+              Get expert video guides to solve common vehicle issues and keep
+              your ride smooth.<br></br> Simple, step-by-step solutions—anytime,
+              anywhere, right at your fingertips.
             </p>
           </div>
 

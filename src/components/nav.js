@@ -88,12 +88,12 @@ export default function Navbar() {
       {/* Top Header */}
       <div className="nav-header py-2 overflow-hidden">
         <Container maxWidth="xl">
-          <div className="flex justify-end items-center gap-2 md:gap-4 relative z-10">
+          <div className="flex text-[10px] lg:text-sm justify-end items-center gap-2 md:gap-4 relative z-10">
             <Link
               href="/sales-service"
               className={cn(
                 buttonVariants({ variant: "outline" }),
-                "rounded-full border-2 border-white/30 hover:border-white/50 hover:text-white transition-all bg-white/10 backdrop-blur-sm text-white hover:bg-white/20"
+                "rounded-full border-2 text-[10px] lg:text-sm border-white/30 hover:border-white/50 hover:text-white transition-all bg-white/10 backdrop-blur-sm text-white hover:bg-white/20"
               )}
             >
               MAC CARE
@@ -102,7 +102,7 @@ export default function Navbar() {
               href="/macmobility"
               className={cn(
                 buttonVariants({ variant: "outline" }),
-                "rounded-full border-2 border-white/30 hover:border-white/50 hover:text-white transition-all bg-white/10 backdrop-blur-sm text-white hover:bg-white/20"
+                "rounded-full text-[10px] lg:text-sm border-2 border-white/30 hover:border-white/50 hover:text-white transition-all bg-white/10 backdrop-blur-sm text-white hover:bg-white/20"
               )}
             >
               MAC Mobility
@@ -111,7 +111,7 @@ export default function Navbar() {
               href="/dealership"
               className={cn(
                 buttonVariants({ variant: "outline" }),
-                "rounded-full border-2 border-white/30 hover:border-white/50 hover:text-white transition-all bg-white/10 backdrop-blur-sm text-white hover:bg-white/20"
+                "rounded-full  text-[10px] lg:text-sm border-2 border-white/30 hover:border-white/50 hover:text-white transition-all bg-white/10 backdrop-blur-sm text-white hover:bg-white/20"
               )}
             >
               Dealership
@@ -120,7 +120,7 @@ export default function Navbar() {
               <DropdownMenuTrigger asChild>
                 <Button
                   variant="outline"
-                  className=" justify-between rounded-full px-2 border-2 border-white/30 hover:border-white/50 hover:text-white transition-all bg-white/10 backdrop-blur-sm text-white hover:bg-white/20"
+                  className="  text-[10px] lg:text-sm  justify-between rounded-full px-2 border-2 border-white/30 hover:border-white/50 hover:text-white transition-all bg-white/10 backdrop-blur-sm text-white hover:bg-white/20"
                 >
                   <span className="flex items-center gap-2">
                     <Download className="h-4 w-4" />
@@ -295,23 +295,39 @@ export default function Navbar() {
                 </div>
               </div>
 
+              <div className="relative group">
+                <button className="flex items-center text-lg font-medium hover:text-gray-700">
+                  About <ChevronDown className="ml-1 h-4 w-4" />
+                </button>
+                <div className="absolute left-0  mt-2 w-48 top-5 pt-6  opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-opacity duration-300 z-50">
+                  <div className="bg-white shadow-lg rounded-md">
+                    <Link
+                      href="/about"
+                      className="block px-4 py-2 text-lg text-black hover:bg-gray-100 hover:text-green-500"
+                    >
+                      About Us
+                    </Link>
+                    <Link
+                      href="/infrastructure"
+                      className="block px-4 py-2 text-lg text-black hover:bg-gray-100 hover:text-green-500"
+                    >
+                      Infrastructure
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
               <Link
-                href="/about"
+                href="/media"
                 className="text-lg font-medium hover:text-gray-700"
               >
-                About
+                News Media
               </Link>
               <Link
                 href="/blog"
                 className="text-lg font-medium hover:text-gray-700"
               >
                 Blog
-              </Link>
-              <Link
-                href="/gallery"
-                className="text-lg font-medium hover:text-gray-700"
-              >
-                Gallery
               </Link>
               <Link
                 href="/contact"
@@ -326,7 +342,7 @@ export default function Navbar() {
               >
                 <Search className="h-5 w-5" />
               </motion.button>
-              <Link href="/enquire" className="btn">
+              <Link href="/contact" className="btn">
                 Enquire Now
               </Link>
             </div>
@@ -351,7 +367,7 @@ export default function Navbar() {
               animate={{ x: 0, opacity: 1 }}
               exit={{ x: "-100%", opacity: 0 }}
               transition={{ duration: 0.3 }}
-              className="fixed top-0 left-0 w-3/4 h-screen bg-white shadow-lg z-[9999] px-4 pt-6 pb-10 space-y-4"
+              className="fixed top-0 left-0 w-3/4 h-screen bg-white shadow-lg z-[9999] px-4 pt-6 pb-10 space-y-4 overflow-y-auto"
             >
               <div className="flex justify-between items-center mb-4">
                 <Image src="/logo.png" alt="logo" width={120} height={50} />
@@ -363,6 +379,8 @@ export default function Navbar() {
               <Link href="/" className="block font-medium hover:text-gray-700">
                 Home
               </Link>
+
+              {/* Vehicles Dropdown */}
               <div>
                 <button
                   onClick={() => setIsVehiclesOpen(!isVehiclesOpen)}
@@ -375,8 +393,8 @@ export default function Navbar() {
                     {Object.keys(vehicleCategories).map((category) => (
                       <Link
                         key={category}
-                        href={category.toLowerCase()}
-                        className="block text-sm hover:text-gray-700"
+                        href={`/${category.toLowerCase()}`}
+                        className="block text-sm hover:text-gray-700 capitalize"
                       >
                         {category}
                       </Link>
@@ -384,32 +402,89 @@ export default function Navbar() {
                   </div>
                 )}
               </div>
+
+              {/* About Dropdown */}
+              <div>
+                <button
+                  onClick={() =>
+                    setExpandedItems((prev) => ({
+                      ...prev,
+                      about: !prev.about,
+                    }))
+                  }
+                  className="flex items-center justify-between w-full font-medium"
+                >
+                  About <ChevronDown className="h-4 w-4" />
+                </button>
+                {expandedItems.about && (
+                  <div className="pl-4 pt-2 space-y-2">
+                    <Link
+                      href="/about"
+                      className="block text-sm hover:text-gray-700"
+                    >
+                      About Us
+                    </Link>
+                    <Link
+                      href="/infrastructure"
+                      className="block text-sm hover:text-gray-700"
+                    >
+                      Infrastructure
+                    </Link>
+                  </div>
+                )}
+              </div>
+
               <Link
-                href="/about"
+                href="/media"
                 className="block font-medium hover:text-gray-700"
               >
-                About
+                News Media
               </Link>
+
               <Link
                 href="/blog"
                 className="block font-medium hover:text-gray-700"
               >
                 Blog
               </Link>
+
               <Link
                 href="/gallery"
                 className="block font-medium hover:text-gray-700"
               >
                 Gallery
               </Link>
+
+              <Link
+                href="/sales-service"
+                className="block font-medium hover:text-gray-700"
+              >
+                Mac Care
+              </Link>
+
+              <Link
+                href="/macmobility"
+                className="block font-medium hover:text-gray-700"
+              >
+                MAC Mobility
+              </Link>
+
+              <Link
+                href="/dealership"
+                className="block font-medium hover:text-gray-700"
+              >
+                Dealership
+              </Link>
+
               <Link
                 href="/contact"
                 className="block font-medium hover:text-gray-700"
               >
                 Contact Us
               </Link>
+
               <Link
-                href="/enquire"
+                href="/contact"
                 className="block font-medium hover:text-gray-700"
               >
                 Enquire Now

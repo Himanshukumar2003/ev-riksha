@@ -46,7 +46,8 @@ export default function Gallery({ product }) {
         </div>
 
         {/* Image Grid */}
-        <div className="columns-1 md:columns-2 lg:columns-4  gap-4 space-y-4">
+        {/* Image Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {gallery.map((path, index) => {
             const formattedPath = path.replace(/\\/g, "/");
             const fullUrl = `${baseURL}${formattedPath}`;
@@ -56,14 +57,14 @@ export default function Gallery({ product }) {
                 href={fullUrl}
                 data-fancybox="gallery"
                 data-caption={`Image ${index + 1}`}
-                className="block break-inside-avoid cursor-pointer"
+                className="block cursor-pointer"
               >
                 <Image
                   src={fullUrl}
                   alt={`Gallery Image ${index + 1}`}
                   width={300}
-                  height={400}
-                  className="w-full h-[300px] object-cover rounded-[20px] shadow-md hover:opacity-80 transition-opacity duration-300"
+                  height={300}
+                  className="w-full h-[250px] object-cover rounded-[20px] shadow-md hover:opacity-80 transition-opacity duration-300"
                 />
               </a>
             );

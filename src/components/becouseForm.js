@@ -98,7 +98,7 @@ export default function EnquiryFormData({ productId }) {
     <>
       <button
         onClick={() => setIsOpen(true)}
-        className="bg-gradient-to-r from-green-600 to-green-700 text-white px-6 py-2 rounded-full font-semibold hover:from-green-700 hover:to-green-800 transition-all duration-200 transform hover:scale-105"
+        className="bg-gradient-to-r from-[var(--color-primary-light)] to-[var(--color-primary-dark)] text-white px-6 py-2 rounded-full font-semibold hover:from-green-700 hover:to-green-800 transition-all duration-200 transform hover:scale-105"
       >
         Become a Dealer
       </button>

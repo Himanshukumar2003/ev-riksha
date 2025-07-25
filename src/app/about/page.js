@@ -1,11 +1,13 @@
 "use client";
 
 import Image from "next/image";
-import WhyChoose from "./why-choose-us";
+import WhyChoose from "./_componets/why-choose-us";
 import Container from "@mui/material/Container";
 import VideoModal from "../home/video";
 import { useState } from "react";
 import { Play } from "lucide-react";
+import Component from "./_componets/vision";
+import Breadcrumb from "@/components/breadcrumb";
 
 export default function About() {
   const videos = [
@@ -16,6 +18,7 @@ export default function About() {
 
   return (
     <>
+      <Breadcrumb title="About us" />
       <div className="section">
         <Container maxWidth="xl">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
@@ -84,15 +87,14 @@ export default function About() {
           />
         </Container>
       </div>
+      <Component></Component>
 
-      <WhyChoose />
-
-      <section className="section py-10">
+      <section className="section">
         <Container maxWidth="xl">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
               <Image
-                src="/img/reviewer-02.webp"
+                src="/img/founder.webp"
                 alt="Founder"
                 width={500}
                 height={500}
@@ -150,6 +152,7 @@ export default function About() {
           </div>
         </Container>
       </section>
+      <WhyChoose />
     </>
   );
 }

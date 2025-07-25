@@ -40,62 +40,22 @@ export default function BikeExplorer({ product }) {
   const activeData = features.find((section) => section.id === activeSection);
 
   return (
-    <div className="bg-gray-100 flex section">
+    <div className="bg-gray-100 section">
       <Container maxWidth="xl">
-        <div className="grid grid-cols-3 gap-0 ">
-          {/* Left Panel */}
-          <div className="col-span-1 bg-gradient-to-br from-green-800 to-green-900 text-white flex flex-col rounded-l-[20px]">
-            <div className="p-12 flex-1">
-              <div className="space-y-4">
-                {features.map((section, index) => (
-                  <button
-                    key={section.id}
-                    onClick={() => toggleSection(section.id)}
-                    className={`w-full text-left p-4 rounded-[20px] transition-all duration-300 group ${
-                      activeSection === section.id
-                        ? "bg-white/10 backdrop-blur-sm border border-white/20"
-                        : "hover:bg-white/5"
-                    }`}
-                  >
-                    <div className="flex items-center gap-4">
-                      <div className="text-3xl font-bold text-white w-12">
-                        {String(index + 1).padStart(2, "0")}
-                      </div>
-                      <div className="flex-1">
-                        <h3 className="text-xl font-semibold">
-                          {section.heading}
-                        </h3>
-                        {/* <p className="text-gray-200 text-sm">
-                          {section.sub_heading}
-                        </p> */}
-                      </div>
-                      <div
-                        className={`w-4 h-4 rounded-full ${
-                          activeSection === section.id
-                            ? "scale-125 bg-green-500"
-                            : "scale-100 bg-white"
-                        } transition-transform duration-300`}
-                      ></div>
-                    </div>
-                  </button>
-                ))}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-0">
+          {/* Image & Heading Block (Top in mobile, right in desktop) */}
+          <div className="order-1 md:order-2 col-span-2 bg-white flex flex-col rounded-t-xl md:rounded-r-[20px] md:rounded-bl-none">
+            <div className="p-4 md:p-12">
+              {/* Heading (visible only on mobile) */}
+              <div className="block md:hidden text-center mb-4">
+                <h2 className="text-xl font-bold text-gray-800">
+                  {activeData?.heading}
+                </h2>
               </div>
-            </div>
-          </div>
-
-          {/* Right Panel */}
-          <div className="col-span-2 bg-white flex flex-col">
-            {/* <div className="p-12 border-b border-gray-200">
-              <h2 className="text-4xl font-bold text-gray-800 mb-2">
-                {activeData?.heading}
-              </h2>
-              <p className="text-gray-600 text-lg">{activeData?.sub_heading}</p>
-            </div> */}
-
-            <div className="flex-1 p-12">
-              <div className="relative h-full bg-gray-50 rounded-2xl overflow-hidden">
+              {/* Image */}
+              <div className="relative h-auto lg:h-full bg-gray-50 rounded-2xl overflow-hidden">
                 <div
-                  className={`w-full h-full transition-all duration-700 ease-out ${
+                  className={`w-full h-auto lg:h-full transition-all duration-700 ease-out ${
                     isTransitioning
                       ? "opacity-0 scale-90 rotate-2"
                       : "opacity-100 scale-100 rotate-0"
@@ -108,13 +68,47 @@ export default function BikeExplorer({ product }) {
                     height={600}
                     className="w-full h-full object-contain"
                   />
-                  {/* <div className="absolute bottom-6 left-6 bg-white/80 backdrop-blur-md p-4 rounded-xl shadow-lg">
-                    <h3 className="text-xl font-bold text-gray-800">
-                      {activeData?.heading}
-                    </h3>
-                    <p className="text-gray-600">{activeData?.sub_heading}</p>
-                  </div> */}
                 </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Tabs Panel (Bottom in mobile, left in desktop) */}
+          <div className="order-2 md:order-1  col-span-1 bg-gradient-to-br from-green-800 to-green-900 text-white flex flex-col rounded-b-xl md:rounded-l-[20px] md:rounded-tr-none">
+            <div className="p-4 md:p-12 flex-1">
+              <div className="flex md:flex-col gap-2 md:gap-4 overflow-x-auto md:overflow-visible scrollbar-thin">
+                {features.map((section, index) => (
+                  <button
+                    key={section.id}
+                    onClick={() => toggleSection(section.id)}
+                    className={`flex-shrink-0 md:w-full text-left p-3 md:p-4 rounded-[20px] transition-all duration-300 group ${
+                      activeSection === section.id
+                        ? "bg-white/10 backdrop-blur-sm border border-white/20"
+                        : "hover:bg-white/5"
+                    }`}
+                  >
+                    <div className="flex items-center gap-3 md:gap-4">
+                      {/* Number (only desktop) */}
+                      <div className="text-2xl font-bold text-white w-8 hidden lg:block">
+                        {String(index + 1).padStart(2, "0")}
+                      </div>
+                      {/* Heading */}
+                      <div className="flex-1">
+                        <h3 className="text-base md:text-xl font-semibold whitespace-nowrap lg:whitespace-normal">
+                          {section.heading}
+                        </h3>
+                      </div>
+                      {/* Dot (only desktop) */}
+                      <div
+                        className={`w-3 h-3 md:w-4 md:h-4 rounded-full hidden lg:block ${
+                          activeSection === section.id
+                            ? "scale-125 bg-green-500"
+                            : "scale-100 bg-white"
+                        } transition-transform duration-300`}
+                      ></div>
+                    </div>
+                  </button>
+                ))}
               </div>
             </div>
           </div>

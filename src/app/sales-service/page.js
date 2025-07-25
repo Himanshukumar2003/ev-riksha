@@ -20,6 +20,7 @@ import {
 } from "@/components/ui/card";
 import Container from "@mui/material/Container";
 import Image from "next/image";
+import Breadcrumb from "@/components/breadcrumb";
 
 export default function SalesService() {
   const portalContent = {
@@ -114,6 +115,8 @@ export default function SalesService() {
 
   return (
     <>
+      <Breadcrumb title="Sales Service" />
+
       <div className="section">
         <Container maxWidth="xl">
           <div className="">

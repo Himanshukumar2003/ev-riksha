@@ -19,10 +19,8 @@ export default async function Page({ params }) {
   return (
     <div>
       <MainProductViewer product={data.data} />
-
       <BikeExplorer product={data.data}></BikeExplorer>
       <FinancerLogos></FinancerLogos>
-
       <VehicleSpecsTable product={data.data}></VehicleSpecsTable>
       <Gallery product={data.data}></Gallery>
       <VideoSection></VideoSection>

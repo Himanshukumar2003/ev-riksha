@@ -6,6 +6,20 @@ import Container from "@mui/material/Container";
 export default function Support() {
   const products = [
     {
+      id: "2",
+      title: "M Care",
+      bold: "Customer Support",
+      description:
+        "If you need product or parts, technical support, or have any other questions, we're here to help.",
+      contact: "Call us at:\n+91-80 9062 9062",
+      imagePath: "/img/heo-img.jpg",
+      href: "/sales-service",
+      bg: "bg-[#00A650] group-hover:bg-[#009140]",
+      icon: (
+        <Headphones className="h-10 w-10 text-white absolute top-6 right-6" />
+      ),
+    },
+    {
       id: "1",
       title: "Visit our store for",
       bold: "Spare Parts",
@@ -14,20 +28,6 @@ export default function Support() {
       imagePath: "/img/heo-img.jpg",
       href: "/contact",
       bg: "bg-[rgba(0,0,0,0.5)] group-hover:bg-black/70",
-    },
-    {
-      id: "2",
-      title: "M Care",
-      bold: "Customer Support",
-      description:
-        "If you need product or parts, technical support, or have any other questions, we're here to help.",
-      contact: "Call us at:\n+91-80 9062 9062",
-      imagePath: "/img/heo-img.jpg",
-      href: "/contact",
-      bg: "bg-[#00A650] group-hover:bg-[#009140]",
-      icon: (
-        <Headphones className="h-10 w-10 text-white absolute top-6 right-6" />
-      ),
     },
   ];
 

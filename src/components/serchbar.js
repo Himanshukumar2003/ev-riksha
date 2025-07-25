@@ -190,7 +190,7 @@ export default function SearchSidebar({ isOpen, onClose }) {
                                 {product.category}
                               </span>
                             </div>
-                            <p className="text-sm text-gray-600">
+                            <p className="text-sm text-gray-600 line-clamp-3">
                               {product.description}
                             </p>
                           </div>

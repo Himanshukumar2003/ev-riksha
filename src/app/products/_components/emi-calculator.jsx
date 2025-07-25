@@ -42,9 +42,9 @@ export default function EMICalculator({
 
           {/* Location Display */}
 
-          <div className="grid lg:grid-cols-2 gap-8 justify-center items-center overflow-visible">
+          <div className="grid  lg:grid-cols-2 gap-8 justify-center items-center overflow-visible">
             {/* Left Inputs */}
-            <div className="space-y-6">
+            <div className="space-y-6 ">
               {/* Down Payment */}
               <div>
                 <label className="block text-sm font-medium text-green-600 mb-3">
@@ -122,6 +122,12 @@ export default function EMICalculator({
             {/* Right Result */}
             <div className="relative">
               {/* Loan Summary */}
+              <PaymentBreakdownChart
+                loanAmount={loanAmount}
+                totalInterest={totalInterest}
+                downPayment={downPayment}
+                formatPrice={formatPrice}
+              />
               <div className="bg-gray-50 rounded-t-2xl p-6">
                 <h3 className="font-semibold text-gray-700 text-xl mb-4">
                   Loan Summary
@@ -156,7 +162,6 @@ export default function EMICalculator({
                 </div>
               </div>
 
-              {/* EMI Details */}
               <div className="bg-gradient-to-r from-green-500 to-green-600 rounded-b-2xl p-6 text-white">
                 <h3 className="font-semibold mb-4">Monthly Payment</h3>
                 <div className="mt-6 pb-4 border-b border-green-400">
@@ -184,14 +189,6 @@ export default function EMICalculator({
                   </div>
                 </div>
               </div>
-
-              {/* Chart */}
-              <PaymentBreakdownChart
-                loanAmount={loanAmount}
-                totalInterest={totalInterest}
-                downPayment={downPayment}
-                formatPrice={formatPrice}
-              />
             </div>
           </div>
         </div>
