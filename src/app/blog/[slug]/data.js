@@ -2,8 +2,7 @@ export const blogs = [
   {
     blogTitle: "Why Mac Auto Leads India's E-Rickshaw Market",
     slug: "why-mac-auto-leads-india-e-rickshaw-market",
-    date: "2024-01-10", // Added date field
-
+    date: "Saturday, 26 July 2025",
     mainImage: "/img/blog/blog-1.jpg",
     gallery: [
       "/placeholder.svg?height=200&width=200",
@@ -95,7 +94,7 @@ export const blogs = [
     blogTitle: "Mac Auto Leading the E Rickshaw Revolution in India",
     slug: "mac-auto-leading-the-e-rickshaw-revolution-in-india",
     mainImage: "/img/blog/blog-3.jpg",
-    date: "2024-01-10", // Added date field
+    date: "Saturday, 26 July 2025", // Added date field
 
     gallery: [
       "/placeholder.svg?height=200&width=200",
@@ -214,7 +213,7 @@ export const blogs = [
 
   {
     blogTitle: "India Moves Cleaner and Greener with Mac Auto EVs",
-    date: "2024-01-10", // Added date field
+    date: "Saturday, 26 July 2025",
 
     slug: "india-moves-cleaner-and-greener-with-mac-auto-evs",
     mainImage: "/img/blog/blog-2.jpg",
