@@ -24,7 +24,7 @@ export default function Breadcrumb({ title, bgImage = "/img/banner1.png" }) {
     >
       <div className="absolute top-0 bottom-0 w-full bg-black/60"></div>
 
-      <div className="relative z-10 max-w-6xl mx-auto px-4 text-center">
+      <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
         <div className="text-3xl md:text-5xl font-bold mb-4 capitalize text-green-500">
           {title}
         </div>
