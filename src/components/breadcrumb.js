@@ -18,14 +18,11 @@ export default function Breadcrumb({ title, bgImage = "/img/banner1.png" }) {
   ];
 
   return (
-    <section
-      className="relative bg-cover min-h-[350px] bg-center bg-no-repeat py-16 text-white flex justify-center items-center"
-      style={{ backgroundImage: `url(${bgImage})` }}
-    >
-      <div className="absolute top-0 bottom-0 w-full bg-black/60"></div>
+    <section className="relative bgThree  min-h-[300px] py-16 text-white flex justify-center items-center">
+      {/* <div className="absolute top-0 bottom-0 w-full bg-black/60"></div> */}
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
-        <div className="text-3xl md:text-5xl font-bold mb-4 capitalize text-green-500">
+        <div className="text-3xl md:text-5xl font-bold mb-4 capitalize text-white">
           {title}
         </div>
 

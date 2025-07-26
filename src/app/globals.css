@@ -142,6 +142,12 @@ body {
   background: linear-gradient(135deg, #3e5eab, #26a9E1);
 }
 
+.bgThree {
+  background: linear-gradient(to right, #3e5eab, #26a9e1)
+}
+
+
+
 
 
 
