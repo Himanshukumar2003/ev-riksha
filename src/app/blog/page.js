@@ -258,25 +258,7 @@ export default function BlogMainPage() {
         )}
       </div>
 
-      {/* Newsletter Section */}
-      <div className="bg-gray-900 text-white">
-        <div className="mx-auto max-w-4xl px-4 py-16 text-center">
-          <h2 className="mb-4 text-3xl font-bold">Stay Updated</h2>
-          <p className="mb-8 text-gray-300">
-            Get the latest insights on electric vehicles and sustainable
-            mobility delivered to your inbox.
-          </p>
-          <div className="mx-auto flex max-w-md gap-4">
-            <Input
-              placeholder="Enter your email"
-              className="bg-white text-gray-900 border-0"
-            />
-            <Button className="bg-green-600 hover:bg-green-700 whitespace-nowrap">
-              Subscribe
-            </Button>
-          </div>
-        </div>
-      </div>
+   
     </div>
   );
 }

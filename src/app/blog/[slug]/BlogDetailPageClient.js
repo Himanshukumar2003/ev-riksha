@@ -301,15 +301,11 @@ export default function BlogDetailPageClient({ slug }) {
                 <CardContent className="p-0 py-0">
                   <div className="relative">
                     <Image
-                      src={
-                        blog.mainImage ||
-                        "/placeholder.svg?height=400&width=800&query=blog main image" ||
-                        "/placeholder.svg"
-                      }
+                      src={blog.mainImage}
                       alt={blog.title || blog.blogTitle || "Blog main image"}
                       width={800}
                       height={400}
-                      className="w-full rounded-t-lg max-h-[500px] object-cover"
+                      className="w-full rounded-t-lg max-h-[400px] "
                     />
                   </div>
                   <div className="p-6">
