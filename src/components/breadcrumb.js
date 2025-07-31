@@ -18,7 +18,7 @@ export default function Breadcrumb({ title, bgImage = "/img/banner1.png" }) {
   ];
 
   return (
-    <section className="relative bgThree  min-h-[300px] py-16 text-white flex justify-center items-center">
+    <section className="relative bgThree  min-h-[250px] py-16 text-white flex justify-center items-center">
       {/* <div className="absolute top-0 bottom-0 w-full bg-black/60"></div> */}
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">

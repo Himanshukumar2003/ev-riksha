@@ -47,7 +47,7 @@ export default function BikeExplorer({ product }) {
           <div className="order-1 md:order-2 col-span-2 bg-white flex flex-col rounded-t-xl md:rounded-r-[20px] md:rounded-bl-none">
             <div className="p-4 md:p-12">
               {/* Heading (visible only on mobile) */}
-              <div className="block md:hidden text-center mb-4">
+              <div className="block md:hidden text-center ">
                 <h2 className="text-xl font-bold text-gray-800">
                   {activeData?.heading}
                 </h2>
@@ -93,8 +93,8 @@ export default function BikeExplorer({ product }) {
                         {String(index + 1).padStart(2, "0")}
                       </div>
                       {/* Heading */}
-                      <div className="flex-1">
-                        <h3 className="text-base md:text-xl font-semibold whitespace-nowrap lg:whitespace-normal">
+                      <div className="flex-1 items-center">
+                        <h3 className="text-base md:text-xl font-semibold whitespace-nowrap mb-0 lg:whitespace-normal">
                           {section.heading}
                         </h3>
                       </div>

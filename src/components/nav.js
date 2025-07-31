@@ -33,6 +33,10 @@ export default function Navbar() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [expandedItems, setExpandedItems] = useState({});
   const { data: vehicles = [], loading } = useData();
+  const [expandedProduct, setExpandedProduct] = useState(null);
+  const toggleProductAccordion = (productId) => {
+    setExpandedProduct((prev) => (prev === productId ? null : productId)); // Toggle between expanded and collapsed
+  };
 
   const vehicleCategories = vehicles.reduce((acc, vehicle) => {
     const category = vehicle.category?.toLowerCase() || "uncategorized";
@@ -48,10 +52,13 @@ export default function Navbar() {
     }
   }, [vehicleCategories]);
 
-  const handleDownload = (fileUrl, filename) => {
+  const handleDownload = (fileUrl, filename = "brochure.pdf") => {
     const link = document.createElement("a");
     link.href = fileUrl;
-    link.download = filename || "brochure.pdf";
+    link.setAttribute("download", filename);
+    link.setAttribute("target", "_blank"); // opens in a new tab
+    link.setAttribute("rel", "noopener noreferrer");
+
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -149,22 +156,34 @@ export default function Navbar() {
                           <Plus className="h-4 w-4" />
                         )}
                       </div>
+
                       {expandedItems[categoryKey] && (
                         <div className="ml-4 mt-1 space-y-1 border-l-2 border-gray-200 pl-2">
                           {categoryData.products.map((item) => (
-                            <div
-                              key={item.id}
-                              className="cursor-pointer hover:bg-gray-100 px-3 py-2 rounded-sm text-sm flex items-center"
-                              onClick={() =>
-                                handleDownload(item.brochure, item.title)
-                              }
-                            >
-                              <Download className="h-3 w-3 mr-2" />
-                              {item.title}
+                            <div key={item.id} className="mb-2">
+                              {/* Product Title (click to download first brochure) */}
+                              <div
+                                className="cursor-pointer hover:bg-gray-100 px-3 py-2 rounded-sm text-sm flex items-center"
+                                onClick={() => {
+                                  if (item.brochure?.[0]) {
+                                    const fileUrl = `https://macapi.brandingwaale.com/${item.brochure[0].replace(
+                                      /\\/g,
+                                      "/"
+                                    )}`;
+                                    handleDownload(
+                                      fileUrl,
+                                      `${item.title}.pdf`
+                                    );
+                                  }
+                                }}
+                              >
+                                {item.title}
+                              </div>
                             </div>
                           ))}
                         </div>
                       )}
+
                       {index < Object.keys(vehicleCategories).length - 1 && (
                         <DropdownMenuSeparator className="my-1" />
                       )}
