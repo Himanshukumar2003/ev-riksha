@@ -2876,9 +2876,9 @@ export const data = [
     slug: "electric-loader-moradabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E‑Loader Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly‑owned electric mobility subsidiary of Mac Auto, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts and more through its Mac Auto India brand, offering eco‑friendly alternatives to diesel or petrol vehicles :contentReference[oaicite:1]{index=1}.",
-      "Mac Zorawar E‑Loader is designed for efficient goods transport—featuring high loading capacity (500–1000 kg) with regenerative braking and lithium‑ion batteries for cost‑effective cargo operations across narrow lanes :contentReference[oaicite:2]{index=2}.",
+      "Committed to taking concrete steps towards building a clean last mile, Mac Auto takes pride in presenting the Mac E‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
+      "Mac Auto Vehicles, a wholly owned electric mobility subsidiary of Mac Auto, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts, and more under the Mac Auto India brand. These vehicles offer eco‑friendly alternatives to diesel or petrol-powered vehicles.",
+      "The Mac Zorawar E‑Loader is designed for efficient goods transport. It features a high loading capacity (500–1000 kg), regenerative braking, and lithium‑ion batteries—making it ideal for cost‑effective cargo operations across narrow lanes.",
     ],
     driverBenefits: {
       title: "Empowering Driver‑Entrepreneurs",
@@ -2886,17 +2886,17 @@ export const data = [
         {
           title: "Higher Payload, More Earnings",
           description:
-            "With payload capacity up to 1 ton, drivers can transport more per trip and boost earning potential.",
+            "With a payload capacity of up to 1 ton, drivers can transport more per trip and increase their earning potential.",
         },
         {
           title: "Low Operating Cost",
           description:
-            "Efficient lithium batteries and regenerative braking reduce fuel and maintenance costs significantly :contentReference[oaicite:3]{index=3}.",
+            "Efficient lithium-ion batteries and regenerative braking significantly reduce fuel and maintenance costs.",
         },
         {
           title: "Reliable Uptime",
           description:
-            "Robust built with ergonomic design ensures minimal downtime, allowing drivers to stay on the move :contentReference[oaicite:4]{index=4}.",
+            "A robust build and ergonomic design ensure minimal downtime, keeping drivers consistently on the move.",
         },
       ],
     },
@@ -2908,22 +2908,22 @@ export const data = [
         {
           title: "Efficient Powertrain",
           description:
-            "Powered by a brushless DC motor (48 V, 60 A) and lithium‑ion battery delivering up to 110–120 km per charge and full charge in 6–8 hrs :contentReference[oaicite:5]{index=5}.",
+            "Powered by a brushless DC motor (48 V, 60 A) and a lithium‑ion battery that delivers up to 110–120 km per charge, with a full recharge time of 6–8 hours.",
         },
         {
           title: "High Payload Capacity",
           description:
-            "Supports 500–1000 kg payload, depending on model (e.g. Mac Haul, Zorawar full‑body) :contentReference[oaicite:6]{index=6}.",
+            "Supports a payload of 500–1000 kg depending on the model (e.g., Mac Haul, Zorawar full‑body).",
         },
         {
           title: "Long Running Range",
           description:
-            "Achieves general mileage of 110–120 km per charge on light loads; range may vary with load weight :contentReference[oaicite:7]{index=7}.",
+            "Delivers a general range of 110–120 km per charge under light load conditions. Actual mileage may vary depending on cargo weight.",
         },
         {
           title: "Regenerative Braking & Fast Charging",
           description:
-            "Features regenerative braking for energy recovery and supports fast charging via standard 15 A charger setups :contentReference[oaicite:8]{index=8}.",
+            "Equipped with regenerative braking for energy recovery and supports fast charging through standard 15 A charger setups.",
         },
       ],
     },
@@ -2933,12 +2933,12 @@ export const data = [
         {
           title: "Comprehensive Electric Range",
           description:
-            "Mac Auto India spans passenger and cargo EVs including rickshaws, carts, loaders and scooters across India :contentReference[oaicite:9]{index=9}.",
+            "Mac Auto India offers a broad range of passenger and cargo EVs—including rickshaws, carts, loaders, and scooters—serving customers across India.",
         },
         {
           title: "Strong Dealer & Support Network",
           description:
-            "Available through wide state‑level dealers across India, offering service, spares, and support for driver peace‑of‑mind :contentReference[oaicite:10]{index=10}.",
+            "Supported by a wide network of state-level dealers across India, providing service, spare parts, and assistance for driver peace of mind.",
         },
       ],
     },
@@ -3666,9 +3666,9 @@ export const data = [
     slug: "electric-loader-banaras",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E‑Loader Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly‑owned electric mobility subsidiary of Mac Auto, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts and more through its Mac Auto India brand, offering eco‑friendly alternatives to diesel or petrol vehicles :contentReference[oaicite:1]{index=1}.",
-      "Mac Zorawar E‑Loader is designed for efficient goods transport—featuring high loading capacity (500–1000 kg) with regenerative braking and lithium‑ion batteries for cost‑effective cargo operations across narrow lanes :contentReference[oaicite:2]{index=2}.",
+      "Committed to taking concrete steps towards building a clean last mile, Mac Auto takes pride in presenting the Mac E‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
+      "Mac Auto Vehicles, a wholly owned electric mobility subsidiary of Mac Auto, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts, and more under the Mac Auto India brand. These vehicles offer eco‑friendly alternatives to diesel or petrol-powered vehicles.",
+      "The Mac Zorawar E‑Loader is designed for efficient goods transport. It features a high loading capacity (500–1000 kg), regenerative braking, and lithium‑ion batteries—making it ideal for cost‑effective cargo operations across narrow lanes.",
     ],
     driverBenefits: {
       title: "Empowering Driver‑Entrepreneurs",
@@ -3676,17 +3676,17 @@ export const data = [
         {
           title: "Higher Payload, More Earnings",
           description:
-            "With payload capacity up to 1 ton, drivers can transport more per trip and boost earning potential.",
+            "With a payload capacity of up to 1 ton, drivers can transport more per trip and increase their earning potential.",
         },
         {
           title: "Low Operating Cost",
           description:
-            "Efficient lithium batteries and regenerative braking reduce fuel and maintenance costs significantly :contentReference[oaicite:3]{index=3}.",
+            "Efficient lithium-ion batteries and regenerative braking significantly reduce fuel and maintenance costs.",
         },
         {
           title: "Reliable Uptime",
           description:
-            "Robust built with ergonomic design ensures minimal downtime, allowing drivers to stay on the move :contentReference[oaicite:4]{index=4}.",
+            "A robust build and ergonomic design ensure minimal downtime, keeping drivers consistently on the move.",
         },
       ],
     },
@@ -3698,22 +3698,22 @@ export const data = [
         {
           title: "Efficient Powertrain",
           description:
-            "Powered by a brushless DC motor (48 V, 60 A) and lithium‑ion battery delivering up to 110–120 km per charge and full charge in 6–8 hrs :contentReference[oaicite:5]{index=5}.",
+            "Powered by a brushless DC motor (48 V, 60 A) and a lithium‑ion battery that delivers up to 110–120 km per charge, with a full recharge time of 6–8 hours.",
         },
         {
           title: "High Payload Capacity",
           description:
-            "Supports 500–1000 kg payload, depending on model (e.g. Mac Haul, Zorawar full‑body) :contentReference[oaicite:6]{index=6}.",
+            "Supports a payload of 500–1000 kg depending on the model (e.g., Mac Haul, Zorawar full‑body).",
         },
         {
           title: "Long Running Range",
           description:
-            "Achieves general mileage of 110–120 km per charge on light loads; range may vary with load weight :contentReference[oaicite:7]{index=7}.",
+            "Delivers a general range of 110–120 km per charge under light load conditions. Actual mileage may vary depending on cargo weight.",
         },
         {
           title: "Regenerative Braking & Fast Charging",
           description:
-            "Features regenerative braking for energy recovery and supports fast charging via standard 15 A charger setups :contentReference[oaicite:8]{index=8}.",
+            "Equipped with regenerative braking for energy recovery and supports fast charging through standard 15 A charger setups.",
         },
       ],
     },
@@ -3723,12 +3723,12 @@ export const data = [
         {
           title: "Comprehensive Electric Range",
           description:
-            "Mac Auto India spans passenger and cargo EVs including rickshaws, carts, loaders and scooters across India :contentReference[oaicite:9]{index=9}.",
+            "Mac Auto India offers a broad range of passenger and cargo EVs—including rickshaws, carts, loaders, and scooters—serving customers across India.",
         },
         {
           title: "Strong Dealer & Support Network",
           description:
-            "Available through wide state‑level dealers across India, offering service, spares, and support for driver peace‑of‑mind :contentReference[oaicite:10]{index=10}.",
+            "Supported by a wide network of state-level dealers across India, providing service, spare parts, and assistance for driver peace of mind.",
         },
       ],
     },
@@ -4456,9 +4456,9 @@ export const data = [
     slug: "electric-loader-basti",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E‑Loader Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly‑owned electric mobility subsidiary of Mac Auto, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts and more through its Mac Auto India brand, offering eco‑friendly alternatives to diesel or petrol vehicles :contentReference[oaicite:1]{index=1}.",
-      "Mac Zorawar E‑Loader is designed for efficient goods transport—featuring high loading capacity (500–1000 kg) with regenerative braking and lithium‑ion batteries for cost‑effective cargo operations across narrow lanes :contentReference[oaicite:2]{index=2}.",
+      "Committed to taking concrete steps towards building a clean last mile, Mac Auto takes pride in presenting the Mac E‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
+      "Mac Auto Vehicles, a wholly owned electric mobility subsidiary of Mac Auto, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts, and more under the Mac Auto India brand. These vehicles offer eco‑friendly alternatives to diesel or petrol-powered vehicles.",
+      "The Mac Zorawar E‑Loader is designed for efficient goods transport. It features a high loading capacity (500–1000 kg), regenerative braking, and lithium‑ion batteries—making it ideal for cost‑effective cargo operations across narrow lanes.",
     ],
     driverBenefits: {
       title: "Empowering Driver‑Entrepreneurs",
@@ -4466,17 +4466,17 @@ export const data = [
         {
           title: "Higher Payload, More Earnings",
           description:
-            "With payload capacity up to 1 ton, drivers can transport more per trip and boost earning potential.",
+            "With a payload capacity of up to 1 ton, drivers can transport more per trip and increase their earning potential.",
         },
         {
           title: "Low Operating Cost",
           description:
-            "Efficient lithium batteries and regenerative braking reduce fuel and maintenance costs significantly :contentReference[oaicite:3]{index=3}.",
+            "Efficient lithium-ion batteries and regenerative braking significantly reduce fuel and maintenance costs.",
         },
         {
           title: "Reliable Uptime",
           description:
-            "Robust built with ergonomic design ensures minimal downtime, allowing drivers to stay on the move :contentReference[oaicite:4]{index=4}.",
+            "A robust build and ergonomic design ensure minimal downtime, keeping drivers consistently on the move.",
         },
       ],
     },
@@ -4488,22 +4488,22 @@ export const data = [
         {
           title: "Efficient Powertrain",
           description:
-            "Powered by a brushless DC motor (48 V, 60 A) and lithium‑ion battery delivering up to 110–120 km per charge and full charge in 6–8 hrs :contentReference[oaicite:5]{index=5}.",
+            "Powered by a brushless DC motor (48 V, 60 A) and a lithium‑ion battery that delivers up to 110–120 km per charge, with a full recharge time of 6–8 hours.",
         },
         {
           title: "High Payload Capacity",
           description:
-            "Supports 500–1000 kg payload, depending on model (e.g. Mac Haul, Zorawar full‑body) :contentReference[oaicite:6]{index=6}.",
+            "Supports a payload of 500–1000 kg depending on the model (e.g., Mac Haul, Zorawar full‑body).",
         },
         {
           title: "Long Running Range",
           description:
-            "Achieves general mileage of 110–120 km per charge on light loads; range may vary with load weight :contentReference[oaicite:7]{index=7}.",
+            "Delivers a general range of 110–120 km per charge under light load conditions. Actual mileage may vary depending on cargo weight.",
         },
         {
           title: "Regenerative Braking & Fast Charging",
           description:
-            "Features regenerative braking for energy recovery and supports fast charging via standard 15 A charger setups :contentReference[oaicite:8]{index=8}.",
+            "Equipped with regenerative braking for energy recovery and supports fast charging through standard 15 A charger setups.",
         },
       ],
     },
@@ -4513,12 +4513,12 @@ export const data = [
         {
           title: "Comprehensive Electric Range",
           description:
-            "Mac Auto India spans passenger and cargo EVs including rickshaws, carts, loaders and scooters across India :contentReference[oaicite:9]{index=9}.",
+            "Mac Auto India offers a broad range of passenger and cargo EVs—including rickshaws, carts, loaders, and scooters—serving customers across India.",
         },
         {
           title: "Strong Dealer & Support Network",
           description:
-            "Available through wide state‑level dealers across India, offering service, spares, and support for driver peace‑of‑mind :contentReference[oaicite:10]{index=10}.",
+            "Supported by a wide network of state-level dealers across India, providing service, spare parts, and assistance for driver peace of mind.",
         },
       ],
     },
@@ -5245,9 +5245,9 @@ export const data = [
     slug: "electric-loader-jaunpur",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E‑Loader Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly‑owned electric mobility subsidiary of Mac Auto, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts and more through its Mac Auto India brand, offering eco‑friendly alternatives to diesel or petrol vehicles :contentReference[oaicite:1]{index=1}.",
-      "Mac Zorawar E‑Loader is designed for efficient goods transport—featuring high loading capacity (500–1000 kg) with regenerative braking and lithium‑ion batteries for cost‑effective cargo operations across narrow lanes :contentReference[oaicite:2]{index=2}.",
+      "Committed to taking concrete steps towards building a clean last mile, Mac Auto takes pride in presenting the Mac E‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
+      "Mac Auto Vehicles, a wholly owned electric mobility subsidiary of Mac Auto, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts, and more under the Mac Auto India brand. These vehicles offer eco‑friendly alternatives to diesel or petrol-powered vehicles.",
+      "The Mac Zorawar E‑Loader is designed for efficient goods transport. It features a high loading capacity (500–1000 kg), regenerative braking, and lithium‑ion batteries—making it ideal for cost‑effective cargo operations across narrow lanes.",
     ],
     driverBenefits: {
       title: "Empowering Driver‑Entrepreneurs",
@@ -5255,17 +5255,17 @@ export const data = [
         {
           title: "Higher Payload, More Earnings",
           description:
-            "With payload capacity up to 1 ton, drivers can transport more per trip and boost earning potential.",
+            "With a payload capacity of up to 1 ton, drivers can transport more per trip and increase their earning potential.",
         },
         {
           title: "Low Operating Cost",
           description:
-            "Efficient lithium batteries and regenerative braking reduce fuel and maintenance costs significantly :contentReference[oaicite:3]{index=3}.",
+            "Efficient lithium-ion batteries and regenerative braking significantly reduce fuel and maintenance costs.",
         },
         {
           title: "Reliable Uptime",
           description:
-            "Robust built with ergonomic design ensures minimal downtime, allowing drivers to stay on the move :contentReference[oaicite:4]{index=4}.",
+            "A robust build and ergonomic design ensure minimal downtime, keeping drivers consistently on the move.",
         },
       ],
     },
@@ -5277,22 +5277,22 @@ export const data = [
         {
           title: "Efficient Powertrain",
           description:
-            "Powered by a brushless DC motor (48 V, 60 A) and lithium‑ion battery delivering up to 110–120 km per charge and full charge in 6–8 hrs :contentReference[oaicite:5]{index=5}.",
+            "Powered by a brushless DC motor (48 V, 60 A) and a lithium‑ion battery that delivers up to 110–120 km per charge, with a full recharge time of 6–8 hours.",
         },
         {
           title: "High Payload Capacity",
           description:
-            "Supports 500–1000 kg payload, depending on model (e.g. Mac Haul, Zorawar full‑body) :contentReference[oaicite:6]{index=6}.",
+            "Supports a payload of 500–1000 kg depending on the model (e.g., Mac Haul, Zorawar full‑body).",
         },
         {
           title: "Long Running Range",
           description:
-            "Achieves general mileage of 110–120 km per charge on light loads; range may vary with load weight :contentReference[oaicite:7]{index=7}.",
+            "Delivers a general range of 110–120 km per charge under light load conditions. Actual mileage may vary depending on cargo weight.",
         },
         {
           title: "Regenerative Braking & Fast Charging",
           description:
-            "Features regenerative braking for energy recovery and supports fast charging via standard 15 A charger setups :contentReference[oaicite:8]{index=8}.",
+            "Equipped with regenerative braking for energy recovery and supports fast charging through standard 15 A charger setups.",
         },
       ],
     },
@@ -5302,12 +5302,12 @@ export const data = [
         {
           title: "Comprehensive Electric Range",
           description:
-            "Mac Auto India spans passenger and cargo EVs including rickshaws, carts, loaders and scooters across India :contentReference[oaicite:9]{index=9}.",
+            "Mac Auto India offers a broad range of passenger and cargo EVs—including rickshaws, carts, loaders, and scooters—serving customers across India.",
         },
         {
           title: "Strong Dealer & Support Network",
           description:
-            "Available through wide state‑level dealers across India, offering service, spares, and support for driver peace‑of‑mind :contentReference[oaicite:10]{index=10}.",
+            "Supported by a wide network of state-level dealers across India, providing service, spare parts, and assistance for driver peace of mind.",
         },
       ],
     },
@@ -6035,9 +6035,9 @@ export const data = [
     slug: "electric-loader-kanpur-dehat",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E‑Loader Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly‑owned electric mobility subsidiary of Mac Auto, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts and more through its Mac Auto India brand, offering eco‑friendly alternatives to diesel or petrol vehicles :contentReference[oaicite:1]{index=1}.",
-      "Mac Zorawar E‑Loader is designed for efficient goods transport—featuring high loading capacity (500–1000 kg) with regenerative braking and lithium‑ion batteries for cost‑effective cargo operations across narrow lanes :contentReference[oaicite:2]{index=2}.",
+      "Committed to taking concrete steps towards building a clean last mile, Mac Auto takes pride in presenting the Mac E‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
+      "Mac Auto Vehicles, a wholly owned electric mobility subsidiary of Mac Auto, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts, and more under the Mac Auto India brand. These vehicles offer eco‑friendly alternatives to diesel or petrol-powered vehicles.",
+      "The Mac Zorawar E‑Loader is designed for efficient goods transport. It features a high loading capacity (500–1000 kg), regenerative braking, and lithium‑ion batteries—making it ideal for cost‑effective cargo operations across narrow lanes.",
     ],
     driverBenefits: {
       title: "Empowering Driver‑Entrepreneurs",
@@ -6045,20 +6045,21 @@ export const data = [
         {
           title: "Higher Payload, More Earnings",
           description:
-            "With payload capacity up to 1 ton, drivers can transport more per trip and boost earning potential.",
+            "With a payload capacity of up to 1 ton, drivers can transport more per trip and increase their earning potential.",
         },
         {
           title: "Low Operating Cost",
           description:
-            "Efficient lithium batteries and regenerative braking reduce fuel and maintenance costs significantly :contentReference[oaicite:3]{index=3}.",
+            "Efficient lithium-ion batteries and regenerative braking significantly reduce fuel and maintenance costs.",
         },
         {
           title: "Reliable Uptime",
           description:
-            "Robust built with ergonomic design ensures minimal downtime, allowing drivers to stay on the move :contentReference[oaicite:4]{index=4}.",
+            "A robust build and ergonomic design ensure minimal downtime, keeping drivers consistently on the move.",
         },
       ],
     },
+
     featuresPerformance: {
       title: "Built for Urban Goods Transport",
       description:
@@ -6067,37 +6068,38 @@ export const data = [
         {
           title: "Efficient Powertrain",
           description:
-            "Powered by a brushless DC motor (48 V, 60 A) and lithium‑ion battery delivering up to 110–120 km per charge and full charge in 6–8 hrs :contentReference[oaicite:5]{index=5}.",
+            "Powered by a brushless DC motor (48 V, 60 A) and a lithium‑ion battery that delivers up to 110–120 km per charge, with a full recharge time of 6–8 hours.",
         },
         {
           title: "High Payload Capacity",
           description:
-            "Supports 500–1000 kg payload, depending on model (e.g. Mac Haul, Zorawar full‑body) :contentReference[oaicite:6]{index=6}.",
+            "Supports a payload of 500–1000 kg depending on the model (e.g., Mac Haul, Zorawar full‑body).",
         },
         {
           title: "Long Running Range",
           description:
-            "Achieves general mileage of 110–120 km per charge on light loads; range may vary with load weight :contentReference[oaicite:7]{index=7}.",
+            "Delivers a general range of 110–120 km per charge under light load conditions. Actual mileage may vary depending on cargo weight.",
         },
         {
           title: "Regenerative Braking & Fast Charging",
           description:
-            "Features regenerative braking for energy recovery and supports fast charging via standard 15 A charger setups :contentReference[oaicite:8]{index=8}.",
+            "Equipped with regenerative braking for energy recovery and supports fast charging through standard 15 A charger setups.",
         },
       ],
     },
+
     brandReputation: {
       title: "Trusted Cargo Vehicle Brand",
       points: [
         {
           title: "Comprehensive Electric Range",
           description:
-            "Mac Auto India spans passenger and cargo EVs including rickshaws, carts, loaders and scooters across India :contentReference[oaicite:9]{index=9}.",
+            "Mac Auto India offers a broad range of passenger and cargo EVs—including rickshaws, carts, loaders, and scooters—serving customers across India.",
         },
         {
           title: "Strong Dealer & Support Network",
           description:
-            "Available through wide state‑level dealers across India, offering service, spares, and support for driver peace‑of‑mind :contentReference[oaicite:10]{index=10}.",
+            "Supported by a wide network of state-level dealers across India, providing service, spare parts, and assistance for driver peace of mind.",
         },
       ],
     },
@@ -6825,9 +6827,9 @@ export const data = [
     slug: "electric-loader-lucknow",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E‑Loader Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly‑owned electric mobility subsidiary of Mac Auto, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts and more through its Mac Auto India brand, offering eco‑friendly alternatives to diesel or petrol vehicles :contentReference[oaicite:1]{index=1}.",
-      "Mac Zorawar E‑Loader is designed for efficient goods transport—featuring high loading capacity (500–1000 kg) with regenerative braking and lithium‑ion batteries for cost‑effective cargo operations across narrow lanes :contentReference[oaicite:2]{index=2}.",
+      "Committed to taking concrete steps towards building a clean last mile, Mac Auto takes pride in presenting the Mac E‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
+      "Mac Auto Vehicles, a wholly owned electric mobility subsidiary of Mac Auto, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts, and more under the Mac Auto India brand. These vehicles offer eco‑friendly alternatives to diesel or petrol-powered vehicles.",
+      "The Mac Zorawar E‑Loader is designed for efficient goods transport. It features a high loading capacity (500–1000 kg), regenerative braking, and lithium‑ion batteries—making it ideal for cost‑effective cargo operations across narrow lanes.",
     ],
     driverBenefits: {
       title: "Empowering Driver‑Entrepreneurs",
@@ -6835,17 +6837,17 @@ export const data = [
         {
           title: "Higher Payload, More Earnings",
           description:
-            "With payload capacity up to 1 ton, drivers can transport more per trip and boost earning potential.",
+            "With a payload capacity of up to 1 ton, drivers can transport more per trip and increase their earning potential.",
         },
         {
           title: "Low Operating Cost",
           description:
-            "Efficient lithium batteries and regenerative braking reduce fuel and maintenance costs significantly :contentReference[oaicite:3]{index=3}.",
+            "Efficient lithium-ion batteries and regenerative braking significantly reduce fuel and maintenance costs.",
         },
         {
           title: "Reliable Uptime",
           description:
-            "Robust built with ergonomic design ensures minimal downtime, allowing drivers to stay on the move :contentReference[oaicite:4]{index=4}.",
+            "A robust build and ergonomic design ensure minimal downtime, keeping drivers consistently on the move.",
         },
       ],
     },
@@ -6857,22 +6859,22 @@ export const data = [
         {
           title: "Efficient Powertrain",
           description:
-            "Powered by a brushless DC motor (48 V, 60 A) and lithium‑ion battery delivering up to 110–120 km per charge and full charge in 6–8 hrs :contentReference[oaicite:5]{index=5}.",
+            "Powered by a brushless DC motor (48 V, 60 A) and a lithium‑ion battery that delivers up to 110–120 km per charge, with a full recharge time of 6–8 hours.",
         },
         {
           title: "High Payload Capacity",
           description:
-            "Supports 500–1000 kg payload, depending on model (e.g. Mac Haul, Zorawar full‑body) :contentReference[oaicite:6]{index=6}.",
+            "Supports a payload of 500–1000 kg depending on the model (e.g., Mac Haul, Zorawar full‑body).",
         },
         {
           title: "Long Running Range",
           description:
-            "Achieves general mileage of 110–120 km per charge on light loads; range may vary with load weight :contentReference[oaicite:7]{index=7}.",
+            "Delivers a general range of 110–120 km per charge under light load conditions. Actual mileage may vary depending on cargo weight.",
         },
         {
           title: "Regenerative Braking & Fast Charging",
           description:
-            "Features regenerative braking for energy recovery and supports fast charging via standard 15 A charger setups :contentReference[oaicite:8]{index=8}.",
+            "Equipped with regenerative braking for energy recovery and supports fast charging through standard 15 A charger setups.",
         },
       ],
     },
@@ -6882,12 +6884,12 @@ export const data = [
         {
           title: "Comprehensive Electric Range",
           description:
-            "Mac Auto India spans passenger and cargo EVs including rickshaws, carts, loaders and scooters across India :contentReference[oaicite:9]{index=9}.",
+            "Mac Auto India offers a broad range of passenger and cargo EVs—including rickshaws, carts, loaders, and scooters—serving customers across India.",
         },
         {
           title: "Strong Dealer & Support Network",
           description:
-            "Available through wide state‑level dealers across India, offering service, spares, and support for driver peace‑of‑mind :contentReference[oaicite:10]{index=10}.",
+            "Supported by a wide network of state-level dealers across India, providing service, spare parts, and assistance for driver peace of mind.",
         },
       ],
     },
@@ -7615,9 +7617,9 @@ export const data = [
     slug: "electric-loader-prayagraj",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E‑Loader Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly‑owned electric mobility subsidiary of Mac Auto, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts and more through its Mac Auto India brand, offering eco‑friendly alternatives to diesel or petrol vehicles :contentReference[oaicite:1]{index=1}.",
-      "Mac Zorawar E‑Loader is designed for efficient goods transport—featuring high loading capacity (500–1000 kg) with regenerative braking and lithium‑ion batteries for cost‑effective cargo operations across narrow lanes :contentReference[oaicite:2]{index=2}.",
+      "Committed to taking concrete steps towards building a clean last mile, Mac Auto takes pride in presenting the Mac E‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
+      "Mac Auto Vehicles, a wholly owned electric mobility subsidiary of Mac Auto, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts, and more under the Mac Auto India brand. These vehicles offer eco‑friendly alternatives to diesel or petrol-powered vehicles.",
+      "The Mac Zorawar E‑Loader is designed for efficient goods transport. It features a high loading capacity (500–1000 kg), regenerative braking, and lithium‑ion batteries—making it ideal for cost‑effective cargo operations across narrow lanes.",
     ],
     driverBenefits: {
       title: "Empowering Driver‑Entrepreneurs",
@@ -7625,17 +7627,17 @@ export const data = [
         {
           title: "Higher Payload, More Earnings",
           description:
-            "With payload capacity up to 1 ton, drivers can transport more per trip and boost earning potential.",
+            "With a payload capacity of up to 1 ton, drivers can transport more per trip and increase their earning potential.",
         },
         {
           title: "Low Operating Cost",
           description:
-            "Efficient lithium batteries and regenerative braking reduce fuel and maintenance costs significantly :contentReference[oaicite:3]{index=3}.",
+            "Efficient lithium-ion batteries and regenerative braking significantly reduce fuel and maintenance costs.",
         },
         {
           title: "Reliable Uptime",
           description:
-            "Robust built with ergonomic design ensures minimal downtime, allowing drivers to stay on the move :contentReference[oaicite:4]{index=4}.",
+            "A robust build and ergonomic design ensure minimal downtime, keeping drivers consistently on the move.",
         },
       ],
     },
@@ -7647,22 +7649,22 @@ export const data = [
         {
           title: "Efficient Powertrain",
           description:
-            "Powered by a brushless DC motor (48 V, 60 A) and lithium‑ion battery delivering up to 110–120 km per charge and full charge in 6–8 hrs :contentReference[oaicite:5]{index=5}.",
+            "Powered by a brushless DC motor (48 V, 60 A) and a lithium‑ion battery that delivers up to 110–120 km per charge, with a full recharge time of 6–8 hours.",
         },
         {
           title: "High Payload Capacity",
           description:
-            "Supports 500–1000 kg payload, depending on model (e.g. Mac Haul, Zorawar full‑body) :contentReference[oaicite:6]{index=6}.",
+            "Supports a payload of 500–1000 kg depending on the model (e.g., Mac Haul, Zorawar full‑body).",
         },
         {
           title: "Long Running Range",
           description:
-            "Achieves general mileage of 110–120 km per charge on light loads; range may vary with load weight :contentReference[oaicite:7]{index=7}.",
+            "Delivers a general range of 110–120 km per charge under light load conditions. Actual mileage may vary depending on cargo weight.",
         },
         {
           title: "Regenerative Braking & Fast Charging",
           description:
-            "Features regenerative braking for energy recovery and supports fast charging via standard 15 A charger setups :contentReference[oaicite:8]{index=8}.",
+            "Equipped with regenerative braking for energy recovery and supports fast charging through standard 15 A charger setups.",
         },
       ],
     },
@@ -7672,15 +7674,16 @@ export const data = [
         {
           title: "Comprehensive Electric Range",
           description:
-            "Mac Auto India spans passenger and cargo EVs including rickshaws, carts, loaders and scooters across India :contentReference[oaicite:9]{index=9}.",
+            "Mac Auto India offers a broad range of passenger and cargo EVs—including rickshaws, carts, loaders, and scooters—serving customers across India.",
         },
         {
           title: "Strong Dealer & Support Network",
           description:
-            "Available through wide state‑level dealers across India, offering service, spares, and support for driver peace‑of‑mind :contentReference[oaicite:10]{index=10}.",
+            "Supported by a wide network of state-level dealers across India, providing service, spare parts, and assistance for driver peace of mind.",
         },
       ],
     },
+
     financing: {
       title: "Affordable Financing",
       description:
