@@ -408,6 +408,14 @@ export default function Navbar() {
                       </Collapsible>
 
                       <Link
+                        href="/about"
+                        className="block font-medium py-2 border-b border-gray-200"
+                        onClick={() => setIsMobileMenuOpen(false)}
+                      >
+                        About{" "}
+                      </Link>
+
+                      <Link
                         href="/sales-service"
                         className="block font-medium py-2 border-b border-gray-200"
                         onClick={() => setIsMobileMenuOpen(false)}
