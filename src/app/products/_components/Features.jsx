@@ -74,14 +74,14 @@ export default function BikeExplorer({ product }) {
           </div>
 
           {/* Tabs Panel (Bottom in mobile, left in desktop) */}
-          <div className="order-2 md:order-1  col-span-1 bg-gradient-to-br from-green-800 to-green-900 text-white flex flex-col rounded-b-xl md:rounded-l-[20px] md:rounded-tr-none">
+          <div className="bg-gradient-to-br from-green-800 to-green-900 text-white flex flex-col rounded-b-xl md:rounded-l-[20px] md:rounded-tr-none">
             <div className="p-4 md:p-12 flex-1">
               <div className="flex md:flex-col gap-2 md:gap-4 overflow-x-auto md:overflow-visible scrollbar-thin">
                 {features.map((section, index) => (
                   <button
                     key={section.id}
                     onClick={() => toggleSection(section.id)}
-                    className={`flex-shrink-0 md:w-full text-left p-3 md:p-4 rounded-[20px] transition-all duration-300 group ${
+                    className={`flex-shrink-0 md:w-full text-left py-0 px-2 md:p-4 rounded-[20px] transition-all duration-300 group ${
                       activeSection === section.id
                         ? "bg-white/10 backdrop-blur-sm border border-white/20"
                         : "hover:bg-white/5"
@@ -94,9 +94,9 @@ export default function BikeExplorer({ product }) {
                       </div>
                       {/* Heading */}
                       <div className="flex-1 items-center">
-                        <h3 className="text-base md:text-xl font-semibold whitespace-nowrap mb-0 lg:whitespace-normal">
+                        <div className="text-sm md:text-xl font-semibold whitespace-nowrap mb-0 lg:whitespace-normal">
                           {section.heading}
-                        </h3>
+                        </div>
                       </div>
                       {/* Dot (only desktop) */}
                       <div
