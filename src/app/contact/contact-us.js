@@ -81,7 +81,7 @@ export default function ContactSection() {
         <div className="container mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-start">
             {/* Left Content */}
-            <div className="space-y-6 sticky top-5">
+            <div className="space-y-6 lg:sticky top-10">
               <div className="flex items-center gap-2 text-[var(--color-primary-light)] text-sm font-medium tracking-wide">
                 <div className="w-8 h-px bg-[var(--color-primary-light)]"></div>
                 CONTACT US
