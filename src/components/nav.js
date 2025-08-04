@@ -320,13 +320,11 @@ export default function Navbar() {
             </div>
 
             {/* Mobile Nav */}
+            {/* Mobile Nav */}
             <div className="md:hidden flex g-4">
-              <Sheet>
+              <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
                 <SheetTrigger asChild>
-                  <Button
-                    onClick={() => setIsMobileMenuOpen(true)}
-                    className="text-black p-2"
-                  >
+                  <Button className="text-black p-2">
                     <Menu className="h-6 w-6" />
                   </Button>
                 </SheetTrigger>
@@ -339,20 +337,18 @@ export default function Navbar() {
                         width={120}
                         height={50}
                       />
-
-                      <SheetTrigger
-                        asChild
-                        className="flex menu justify-center items-center h-full"
-                      >
+                      <SheetTrigger asChild>
                         <button className="p-2 rounded hover:bg-gray-100">
                           <X className="h-6 w-6" />
                         </button>
                       </SheetTrigger>
                     </div>
+
                     <nav className="flex-1 overflow-y-auto p-4 space-y-2">
                       <Link
                         href="/"
                         className="block font-medium py-2 border-b border-gray-200"
+                        onClick={() => setIsMobileMenuOpen(false)}
                       >
                         Home
                       </Link>
@@ -414,38 +410,43 @@ export default function Navbar() {
                       <Link
                         href="/sales-service"
                         className="block font-medium py-2 border-b border-gray-200"
+                        onClick={() => setIsMobileMenuOpen(false)}
                       >
                         MAC CARE
                       </Link>
                       <Link
                         href="/macmobility"
                         className="block font-medium py-2 border-b border-gray-200"
+                        onClick={() => setIsMobileMenuOpen(false)}
                       >
                         MAC Mobility
                       </Link>
                       <Link
                         href="/dealership"
                         className="block font-medium py-2 border-b border-gray-200"
+                        onClick={() => setIsMobileMenuOpen(false)}
                       >
                         Dealership
                       </Link>
-
                       <Link
                         href="/blog"
                         className="block font-medium py-2 border-b border-gray-200"
+                        onClick={() => setIsMobileMenuOpen(false)}
                       >
                         Blogs
                       </Link>
                       <Link
                         href="/contact"
                         className="block font-medium py-2 border-b border-gray-200"
+                        onClick={() => setIsMobileMenuOpen(false)}
                       >
                         Contact Us
                       </Link>
+
                       <div className="mt-10">
                         <Link
                           href="/contact"
-                          className="btn "
+                          className="btn"
                           onClick={() => setIsMobileMenuOpen(false)}
                         >
                           Enquire Now
