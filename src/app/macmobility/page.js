@@ -419,7 +419,7 @@ export default function Macmobility() {
           <Container maxWidth="xl">
             <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
               {/* Left Column - Main Content */}
-              <div className="space-y-8 sticky top-25">
+              <div className="space-y-8 lg:sticky top-25">
                 <div className="space-y-6">
                   <p className="text-green-500 font-medium text-sm uppercase tracking-wide">
                     India’s Fastest Growing EV Brand
