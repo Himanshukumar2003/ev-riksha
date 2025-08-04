@@ -94,13 +94,13 @@ export default function Navbar() {
               MAC CARE
             </Link>
             <Link
-              href="/macmobility"
+              href="/mac-rentel"
               className={cn(
                 buttonVariants({ variant: "outline" }),
                 "rounded-full text-[10px] lg:text-sm border-2 border-white/30 hover:border-white/50 hover:text-white transition-all bg-white/10 backdrop-blur-sm text-white hover:bg-white/20"
               )}
             >
-              MAC Mobility
+              Mac Rentel
             </Link>
             <Link
               href="/dealership"
@@ -423,11 +423,11 @@ export default function Navbar() {
                         MAC CARE
                       </Link>
                       <Link
-                        href="/macmobility"
+                        href="/mac-rentel"
                         className="block font-medium py-2 border-b border-gray-200"
                         onClick={() => setIsMobileMenuOpen(false)}
                       >
-                        MAC Mobility
+                        Mac Rentel
                       </Link>
                       <Link
                         href="/dealership"

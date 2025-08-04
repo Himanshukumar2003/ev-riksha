@@ -148,8 +148,7 @@ const steps = [
   {
     number: "04",
     title: "Drive & Earn",
-    description:
-      "Start your journey with Mac Mobility and begin earning daily!",
+    description: "Start your journey with Mac Rentel and begin earning daily!",
     icon: <Rocket className="w-8 h-8" />,
     color: "from-green-700 to-green-800",
     bgColor: "bg-green-50",
@@ -182,7 +181,7 @@ export default function Macmobility() {
   return (
     <>
       {" "}
-      <Breadcrumb title="Mac Mobility" />
+      <Breadcrumb title="Mac Rentel" />
       <main className="flex-1">
         {/* <section className="relative w-full h-[100vh] md:h-[70vh] flex items-center justify-center text-center bg-gradient-to-br from-green-700 to-green-900 text-white overflow-hidden">
         <Image
@@ -195,13 +194,13 @@ export default function Macmobility() {
         />
         <div className="relative z-10 px-4 md:px-6 max-w-6xl space-y-6 animate-fade-in-up">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
-            Mac Mobility – Your EV Partner on the Move
+            Mac Rentel – Your EV Partner on the Move
           </h1>
           <p className="text-3xl md:text-5xl font-semibold  drop-shadow-md">
             Drive. Earn. Own.
           </p>
           <p className="text-lg md:text-xl max-w-3xl mx-auto opacity-90">
-            With Mac Mobility, step into the future of urban transportation. We
+            With Mac Rentel, step into the future of urban transportation. We
             offer E-Rickshaw and E-Cart rentals on flexible, affordable daily
             plans, designed to empower drivers and entrepreneurs in Delhi & NCR.
           </p>
@@ -392,7 +391,7 @@ export default function Macmobility() {
               Operating Across Delhi & NCR
             </h2>
             <p className="text-xl md:text-2xl text-gray-700 mb-12 max-w-3xl mx-auto">
-              Multiple Mac Mobility hubs for easy pick-up and drop-off, wherever
+              Multiple Mac Rentel hubs for easy pick-up and drop-off, wherever
               you are.
             </p>
             <div className="relative max-w-6xl mx-auto">
@@ -428,7 +427,7 @@ export default function Macmobility() {
                   <h1 className="text-4xl md:text-3xl lg:text-5xl font-bold text-gray-900 leading-tight">
                     Why Choose{" "}
                     <span className="text-[var(--color-primary-dark)]">
-                      Mac Mobility
+                      Mac Rentel
                     </span>
                     ?
                   </h1>

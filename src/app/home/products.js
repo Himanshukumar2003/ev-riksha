@@ -68,7 +68,7 @@ export default function VehicleCategoryFilter() {
         </div>
 
         {/* Category Buttons */}
-        <div className="flex overflow-hidden  justify-center gap-2 lg:gap-6  mb-12">
+        <div className="flex justify-center gap-2 lg:gap-6  mb-12">
           {["passenger", "cargo", "garbage"].map((category) => {
             const selected = categories.find((cat) => cat.id === category);
             return (

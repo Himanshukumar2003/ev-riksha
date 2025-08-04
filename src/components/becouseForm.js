@@ -105,7 +105,7 @@ export default function EnquiryFormData({ productId }) {
 
       <Dialog open={isOpen} onOpenChange={setIsOpen}>
         <DialogContent className="sm:max-w-[600px] p-0 bg-white border border-gray-200 max-h-[90vh] overflow-y-auto">
-          <div className="bg-slate-800 p-6 text-white">
+          <div className="nav-header p-6 text-white">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-4">
                 <div className="p-3 bg-blue-600 rounded-lg">
@@ -120,7 +120,6 @@ export default function EnquiryFormData({ productId }) {
                   </DialogDescription>
                 </div>
               </div>
-              <Badge className="bg-green-600 text-white">Secure</Badge>
             </div>
           </div>
 
@@ -284,7 +283,7 @@ export default function EnquiryFormData({ productId }) {
 
               <Button
                 type="submit"
-                className="w-full bg-slate-800 hover:bg-slate-900 text-white font-semibold py-4 rounded-md text-lg"
+                className="w-full btn  text-white font-semibold py-4 rounded-md text-lg"
                 disabled={isSubmitting}
               >
                 {isSubmitting ? (

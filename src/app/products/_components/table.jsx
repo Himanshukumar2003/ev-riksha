@@ -59,7 +59,7 @@ export default function VehicleSpecsTable({ product }) {
                         spec.specs.map((item, idx) => (
                           <div
                             key={idx}
-                            className="flex items-center justify-between py-4 px-5 rounded-xl border bg-white border-slate-200 hover:border-slate-300 hover:shadow-lg transition-all"
+                            className="flex items-center gap-4 justify-between py-4 px-5 rounded-xl border bg-white border-slate-200 hover:border-slate-300 hover:shadow-lg transition-all"
                           >
                             <span className="font-medium text-slate-700">
                               {item.label}
