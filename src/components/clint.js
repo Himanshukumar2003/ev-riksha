@@ -40,7 +40,7 @@ export default function ClientLogos() {
         <div className="mt-8">
           <Swiper
             spaceBetween={20}
-            slidesPerView={1}
+            slidesPerView={2}
             centeredSlides={true}
             autoplay={{
               delay: 2500,
