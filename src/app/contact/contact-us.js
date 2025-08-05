@@ -248,6 +248,17 @@ export default function ContactSection() {
           </div>
         </Container>
       </section>
+      <div className="w-full h-[450px] overflow-hidden rounded-lg shadow-lg ">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.2417481361026!2d77.29446337428665!3d28.472265391342656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce7ef32e76bb7%3A0xa7a6ee1e11ce522c!2sMac%20Auto%20India%2C%20a%20leading%20manufacturer%20%26%20Supplier%20of%20Electric%20Rickshaws%2C%20E-Loaders%2C%20and%20E-Scooters!5e0!3m2!1sen!2sin!4v1754371138643!5m2!1sen!2sin"
+          width="100%"
+          height="100%"
+          style={{ border: 0 }}
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
     </>
   );
 }
