@@ -84,11 +84,12 @@ export default function MainProductViewer({ product }) {
                   >
                     {product.carousel.map((src, index) => (
                       <SwiperSlide key={index}>
-                        <div className="w-full h-[400px] relative">
+                        <div className="w-full flex justify-center items-center">
                           <Image
                             src={`https://macapi.brandingwaale.com/${src}`}
                             alt={`Slide ${index + 1}`}
-                            fill
+                            width={400}
+                            height={400}
                             className="object-contain"
                             priority={index === 0}
                           />

@@ -91,8 +91,8 @@ export default function EnquiryFormData({ productId }) {
       </Button>
 
       <Dialog open={isOpen} onOpenChange={setIsOpen}>
-        <DialogContent className="sm:max-w-[600px] p-0 bg-white border border-gray-200">
-          <div className="bg-slate-800 p-6 text-white">
+        <DialogContent className="sm:max-w-[600px] max-h-[90vh] overflow-y-auto p-0 bg-white border border-gray-200">
+          <div className="nav-header p-6 text-white">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-4">
                 <div className="p-3 bg-blue-600 rounded-lg">
@@ -244,11 +244,7 @@ export default function EnquiryFormData({ productId }) {
                 </div>
               </div>
 
-              <Button
-                type="submit"
-                className="w-full bg-slate-800 hover:bg-slate-900 text-white font-semibold py-4 rounded-md text-lg"
-                disabled={isSubmitting}
-              >
+              <Button type="submit" className="btn" disabled={isSubmitting}>
                 {isSubmitting ? (
                   <>
                     <Loader2 className="mr-2 h-5 w-5 animate-spin" />
