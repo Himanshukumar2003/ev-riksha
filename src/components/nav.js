@@ -347,7 +347,7 @@ export default function Navbar() {
                         target="_blank"
                         className="text-sm font-semibold uppercase"
                       >
-                        <Card className="flex flex-col items-center justify-center  shadow-2xl rounded-2xl border-0 p-4 cursor-pointer hover:bg-gray-50 transition-colors duration-200">
+                        <Card className="flex flex-col items-center justify-center   border-transparent  shadow-2xl rounded-2xl border-0 p-4 cursor-pointer hover:bg-gray-50 transition-colors duration-200">
                           <Image
                             src="/img/dealer.png"
                             alt="Tutor icon"

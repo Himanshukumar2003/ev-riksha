@@ -107,7 +107,6 @@ export default function EnquiryFormData({ productId }) {
                   </DialogDescription>
                 </div>
               </div>
-              <Badge className="bg-green-600 text-white">Secure</Badge>
             </div>
           </div>
 
