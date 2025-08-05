@@ -21,7 +21,7 @@ export default function VehicleSpecsTable({ product }) {
             Technical Specifications
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Detailed specifications and features of the {product?.brand ?? ""}{" "}
+            Detailed specifications and features of the {product?.title ?? ""}{" "}
             {product?.model ?? ""}
           </p>
         </div>
