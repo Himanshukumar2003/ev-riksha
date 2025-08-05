@@ -14,7 +14,7 @@ export default function VehicleSpecsTable({ product }) {
   };
 
   return (
-    <div className="section bg-gray-100">
+    <div className="section bg-gray-100 overflow-hidden">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
@@ -29,15 +29,15 @@ export default function VehicleSpecsTable({ product }) {
         {specifications.length > 0 ? (
           <Tabs
             value={activeTab}
-            className="w-full"
+            className="  overflow-hidden"
             onValueChange={handleTabChange}
           >
-            <TabsList className="grid w-full grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2 p-1 bg-green-100 rounded-xl mb-4">
+            <TabsList className="flex gap-2 md:gap-4    overflow-x-scroll  scrollbar-thin  bg-green-100 rounded-xl p-2">
               {specifications.map((spec, index) => (
                 <TabsTrigger
                   key={index}
                   value={spec.tab_name}
-                  className="data-[state=active]:bg-green-600 data-[state=active]:text-white rounded-lg px-2 py-2 transition-all duration-300"
+                  className="data-[state=active]:bg-green-600 data-[state=active]:text-white  p-3 lg:p-4  transition-all duration-300 text-lg  rounded-[8px]"
                 >
                   {spec.tab_name}
                 </TabsTrigger>
@@ -46,7 +46,7 @@ export default function VehicleSpecsTable({ product }) {
 
             {specifications.map((spec, index) => (
               <TabsContent key={index} value={spec.tab_name}>
-                <Card className="border-0 shadow-md bg-white">
+                <Card className="border-0 shadow-md bg-white mt-2">
                   <CardHeader className="pb-4">
                     <CardTitle className="text-xl text-black">
                       {spec.tab_name}
@@ -54,27 +54,31 @@ export default function VehicleSpecsTable({ product }) {
                     <Separator className="bg-slate-300 mt-2" />
                   </CardHeader>
                   <CardContent>
-                    <div className="grid gap-3">
-                      {spec.specs && spec.specs.length > 0 ? (
-                        spec.specs.map((item, idx) => (
-                          <div
-                            key={idx}
-                            className="flex items-center gap-4 justify-between py-4 px-5 rounded-xl border bg-white border-slate-200 hover:border-slate-300 hover:shadow-lg transition-all"
-                          >
-                            <span className="font-medium text-slate-700">
-                              {item.label}
-                            </span>
-                            <span className="font-semibold text-slate-900">
-                              {item.value}
-                            </span>
-                          </div>
-                        ))
-                      ) : (
-                        <div className="text-center text-gray-500 py-4">
-                          No specifications available.
-                        </div>
-                      )}
-                    </div>
+                    {spec.specs && spec.specs.length > 0 ? (
+                      <div className="overflow-x-auto">
+                        <table className="min-w-full table-auto text-left border border-slate-200">
+                          <tbody>
+                            {spec.specs.map((item, idx) => (
+                              <tr
+                                key={idx}
+                                className="hover:bg-slate-50 transition-colors"
+                              >
+                                <td className="px-4 py-3  border-b border-slate-200 text-slate-700">
+                                  {item.label}
+                                </td>
+                                <td className="px-4 py-3 text-right border-b border-slate-200 font-medium text-slate-900">
+                                  {item.value}
+                                </td>
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      </div>
+                    ) : (
+                      <div className="text-center text-gray-500 py-4">
+                        No specifications available.
+                      </div>
+                    )}
                   </CardContent>
                 </Card>
               </TabsContent>
