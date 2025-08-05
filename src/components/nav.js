@@ -360,49 +360,57 @@ export default function Navbar() {
                           <ChevronDown className="h-4 w-4 transition-transform" />
                         </CollapsibleTrigger>
                         <CollapsibleContent className="pl-4 pt-2 space-y-2">
-                          {Object.entries(vehicleCategories).map(
-                            ([categoryKey, categoryData]) => (
-                              <Collapsible
-                                key={categoryKey}
-                                open={openCategory === categoryKey}
-                                onOpenChange={(isOpen) =>
-                                  setOpenCategory(isOpen ? categoryKey : null)
-                                }
-                                className="w-full"
-                              >
-                                <CollapsibleTrigger className="flex items-center justify-between w-full capitalize text-left py-2 [&[data-state=open]>svg]:rotate-180">
-                                  {categoryKey}
-                                  <ChevronDown className="h-4 w-4 transition-transform" />
-                                </CollapsibleTrigger>
+                          {["passenger", "cargo", "garbage"].map(
+                            (categoryKey) => {
+                              const categoryData =
+                                vehicleCategories[categoryKey];
+                              if (!categoryData) return null;
 
-                                <CollapsibleContent className="grid grid-cols-3 gap-3 p-2">
-                                  {categoryData.products.map((product) => (
-                                    <Link
-                                      key={product.id}
-                                      href={`/products/${product.slug}`}
-                                      className="text-center group cursor-pointer flex flex-col items-start"
-                                      onClick={() => setIsMobileMenuOpen(false)}
-                                    >
-                                      <div className="h-20 flex">
-                                        <Image
-                                          height={50}
-                                          width={50}
-                                          src={`https://macapi.brandingwaale.com/${product.carousel[0].replace(
-                                            /\\/g,
-                                            "/"
-                                          )}`}
-                                          alt={product.title}
-                                          className="max-h-full w-auto object-contain"
-                                        />
-                                      </div>
-                                      <p className="text-xs font-medium group-hover:text-gray-800 mt-1">
-                                        {product.title}
-                                      </p>
-                                    </Link>
-                                  ))}
-                                </CollapsibleContent>
-                              </Collapsible>
-                            )
+                              return (
+                                <Collapsible
+                                  key={categoryKey}
+                                  open={openCategory === categoryKey}
+                                  onOpenChange={(isOpen) =>
+                                    setOpenCategory(isOpen ? categoryKey : null)
+                                  }
+                                  className="w-full"
+                                >
+                                  <CollapsibleTrigger className="flex items-center justify-between w-full capitalize text-left py-2 [&[data-state=open]>svg]:rotate-180">
+                                    {categoryKey}
+                                    <ChevronDown className="h-4 w-4 transition-transform" />
+                                  </CollapsibleTrigger>
+
+                                  <CollapsibleContent className="grid grid-cols-3 gap-3 p-2">
+                                    {categoryData.products.map((product) => (
+                                      <Link
+                                        key={product.id}
+                                        href={`/products/${product.slug}`}
+                                        className="text-center group cursor-pointer flex flex-col items-start"
+                                        onClick={() =>
+                                          setIsMobileMenuOpen(false)
+                                        }
+                                      >
+                                        <div className="h-20 flex">
+                                          <Image
+                                            height={100}
+                                            width={100}
+                                            src={`https://macapi.brandingwaale.com/${product.carousel[0].replace(
+                                              /\\/g,
+                                              "/"
+                                            )}`}
+                                            alt={product.title}
+                                            className="max-h-full w-auto object-contain"
+                                          />
+                                        </div>
+                                        <p className="text-xs font-medium group-hover:text-gray-800 mt-1">
+                                          {product.title}
+                                        </p>
+                                      </Link>
+                                    ))}
+                                  </CollapsibleContent>
+                                </Collapsible>
+                              );
+                            }
                           )}
                         </CollapsibleContent>
                       </Collapsible>
