@@ -54,8 +54,10 @@ export default function ServicesSection() {
                   <div className="space-y-6">
                     {/* Icon and Title */}
                     <div className="flex items-center gap-4">
-                      <div className="w-15 h-15 bg-white flex items-center rounded-full justify-center transition-all duration-300 group-hover:bg-[var(--color-secondary)]">
-                        <IconComponent className="w-10 h-10 text-[var(--color-secondary)] group-hover:text-white" />
+                      <div>
+                        <div className="w-15 h-15 bg-white flex items-center rounded-full justify-center transition-all duration-300 group-hover:bg-[var(--color-secondary)]">
+                          <IconComponent className="w-10 h-10 text-[var(--color-secondary)] group-hover:text-white" />
+                        </div>
                       </div>
                       <h3 className="text-xl font-semibold text-gray-600 leading-tight transition-all duration-300">
                         {service.title}
