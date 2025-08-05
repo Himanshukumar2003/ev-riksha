@@ -24,7 +24,6 @@ export default async function Page({ params }) {
       <VehicleSpecsTable product={data.data}></VehicleSpecsTable>
       <Gallery product={data.data}></Gallery>
       <VideoSection></VideoSection>
-
       <BasicFAQ product={data.data}></BasicFAQ>
     </div>
   );

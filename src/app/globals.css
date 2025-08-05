@@ -425,6 +425,23 @@ h6 {
   border-radius: 8px;
 }
 
+
+.btn-outline {
+  border: 2px solid #58B947;
+  padding: 12px 15px;
+  color: #58B947;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.btn-outline:hover {
+  border: 2px solid #58B947;
+  padding: 12px 15px;
+  color: #fff !important;
+  border-radius: 8px;
+  background: #58B947;
+}
+
 .no-zoom {
   touch-action: none;
   /* disables pinch-zoom */

@@ -23,6 +23,14 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { useData } from "./DataContext";
 import { cn } from "@/lib/utils";
 import { data } from "autoprefixer";
+import { Card } from "./ui/card";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "./ui/dialog";
 
 export default function Navbar() {
   const [isVehiclesOpen, setIsVehiclesOpen] = useState(false);
@@ -317,9 +325,60 @@ export default function Navbar() {
               >
                 <Search className="h-5 w-5" />
               </motion.button>
-              <Link href="/contact" className="btn">
-                Enquire Now
-              </Link>
+              <div className="ml-auto flex gap-2">
+                <Link href="/contact" className="btn">
+                  Enquire Now
+                </Link>
+                <Dialog>
+                  <DialogTrigger asChild>
+                    <div variant="outline" className="btn-outline">
+                      Login
+                    </div>
+                  </DialogTrigger>
+                  <DialogContent className="sm:max-w-[500px] p-6 bg-white rounded-2xl">
+                    <DialogHeader className="text-center mb-6">
+                      <DialogTitle className="text-2xl font-bold">
+                        LOGIN AS?
+                      </DialogTitle>
+                    </DialogHeader>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                      <a
+                        href="https://dashboard.brandingwaale.com"
+                        target="_blank"
+                        className="text-sm font-semibold uppercase"
+                      >
+                        <Card className="flex flex-col items-center justify-center  shadow-2xl rounded-2xl border-0 p-4 cursor-pointer hover:bg-gray-50 transition-colors duration-200">
+                          <Image
+                            src="/img/dealer.png"
+                            alt="Tutor icon"
+                            width={80}
+                            height={80}
+                            className="mb-2"
+                          />
+                          Dealer
+                        </Card>
+                      </a>
+
+                      <a
+                        href="https://dashboard.brandingwaale.com"
+                        target="_blank"
+                        className="text-sm font-semibold uppercase"
+                      >
+                        <Card className="flex flex-col items-center justify-center shadow-2xl rounded-2xl border-0 p-4 cursor-pointer hover:bg-gray-50 transition-colors duration-200">
+                          <Image
+                            src="/img/customer.png"
+                            alt="Student icon"
+                            width={80}
+                            height={80}
+                            className="mb-2"
+                          />
+                          Customer
+                        </Card>
+                      </a>
+                    </div>
+                  </DialogContent>
+                </Dialog>
+              </div>
             </div>
 
             {/* Mobile Nav */}
