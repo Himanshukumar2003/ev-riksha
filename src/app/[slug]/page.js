@@ -88,7 +88,7 @@ export default async function Page({ params }) {
       <section className="bg-gray-50 section">
         <Container maxWidth="xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-            <div className="  sticky top-[100px]">
+            <div className="  lg:sticky top-[100px]">
               <div className="text-center lg:text-left mb-8">
                 <h2 className="text-4xl md:text-3xl lg:text-5xl font-bold text-gray-900 leading-tight">
                   {content.featuresPerformance.title}
