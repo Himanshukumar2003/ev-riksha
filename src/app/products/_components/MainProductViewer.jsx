@@ -82,7 +82,7 @@ export default function MainProductViewer({ product }) {
                     allowTouchMove={true}
                     className="w-full max-w-4xl mx-auto"
                   >
-                    {product.carousel.map((src, index) => (
+                    {product?.carousel?.map((src, index) => (
                       <SwiperSlide key={index}>
                         <div className="w-full flex justify-center items-center">
                           <Image
@@ -160,7 +160,7 @@ export default function MainProductViewer({ product }) {
                     </div>
 
                     <div className="flex flex-wrap gap-3 mb-3">
-                      {product.colors.map((color, index) => (
+                      {product?.colors?.map((color, index) => (
                         <button
                           key={index}
                           className={`relative w-8 h-8 rounded-xl border-2 border-transparent transition-all duration-300 transform hover:scale-110 ${

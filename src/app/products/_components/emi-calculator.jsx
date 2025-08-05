@@ -35,7 +35,7 @@ export default function EMICalculator({
   return (
     <div className="py-16">
       <div className="max-w-7xl mx-auto px-4">
-        <div className="bg-white rounded-3xl shadow-md p-8 border border-gray-100">
+        <div className="bg-white rounded-3xl shadow-md lg:p-8 p-6    border border-gray-100">
           <h2 className="text-2xl font-bold text-gray-800 mb-8">
             EMI Calculator
           </h2>
