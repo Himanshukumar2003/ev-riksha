@@ -9,7 +9,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Checkbox } from "@/components/ui/checkbox";
 import ServicesSection from "./cards";
 import Breadcrumb from "@/components/breadcrumb";
-
+import Container from "@mui/material/Container";
 // Zod validation schema
 const contactFormSchema = z.object({
   firstName: z
@@ -78,7 +78,7 @@ export default function ContactSection() {
       <ServicesSection />
 
       <section className="section bg-gray-100">
-        <div className="container mx-auto">
+        <Container maxWidth="xl">
           <div className="grid lg:grid-cols-2 gap-16 items-start">
             {/* Left Content */}
             <div className="space-y-6 lg:sticky top-10">
@@ -246,7 +246,7 @@ export default function ContactSection() {
               </form>
             </div>
           </div>
-        </div>
+        </Container>
       </section>
     </>
   );
