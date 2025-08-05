@@ -74,7 +74,7 @@ export default function MainProductViewer({ product }) {
             {/* 360 Viewer */}
             <div className="relative">
               <div className="mx-auto transition-all">
-                <div className="no-zoom">
+                <div className="">
                   <Swiper
                     slidesPerView={1}
                     spaceBetween={0}
