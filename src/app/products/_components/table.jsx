@@ -27,17 +27,13 @@ export default function VehicleSpecsTable({ product }) {
         </div>
 
         {specifications.length > 0 ? (
-          <Tabs
-            value={activeTab}
-            className="  overflow-hidden"
-            onValueChange={handleTabChange}
-          >
-            <TabsList className="flex gap-2 md:gap-4    overflow-x-scroll  scrollbar-thin  bg-green-100 rounded-xl p-2">
+          <Tabs value={activeTab} onValueChange={handleTabChange}>
+            <TabsList className="flex gap-0 md:gap-4    overflow-x-scroll  scrollbar-thin  bg-green-100 rounded-xl p-2">
               {specifications.map((spec, index) => (
                 <TabsTrigger
                   key={index}
                   value={spec.tab_name}
-                  className="data-[state=active]:bg-green-600 data-[state=active]:text-white  p-3 lg:p-4  transition-all duration-300 text-lg  rounded-[8px]"
+                  className="data-[state=active]:bg-green-600 data-[state=active]:text-white text-sm lg:text-md  p-2 lg:p-2  transition-all duration-300   rounded-[8px]"
                 >
                   {spec.tab_name}
                 </TabsTrigger>
@@ -45,10 +41,14 @@ export default function VehicleSpecsTable({ product }) {
             </TabsList>
 
             {specifications.map((spec, index) => (
-              <TabsContent key={index} value={spec.tab_name}>
+              <TabsContent
+                key={index}
+                value={spec.tab_name}
+                className="overflow-hidden"
+              >
                 <Card className="border-0 shadow-md bg-white mt-2">
                   <CardHeader className="pb-4">
-                    <CardTitle className="text-xl text-black">
+                    <CardTitle className=" text-sm lg:text-xl text-black">
                       {spec.tab_name}
                     </CardTitle>
                     <Separator className="bg-slate-300 mt-2" />
@@ -63,10 +63,10 @@ export default function VehicleSpecsTable({ product }) {
                                 key={idx}
                                 className="hover:bg-slate-50 transition-colors"
                               >
-                                <td className="px-4 py-3  border-b border-slate-200 text-slate-700">
+                                <td className="px-4 py-3  border-b border-slate-200 font-bold text-slate-700 text-sm lg:text-lg">
                                   {item.label}
                                 </td>
-                                <td className="px-4 py-3 text-right border-b border-slate-200 font-medium text-slate-900">
+                                <td className="px-4 py-3 text-right border-b border-slate-200 font-medium text-sm lg:text-lg text-slate-900">
                                   {item.value}
                                 </td>
                               </tr>

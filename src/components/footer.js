@@ -244,9 +244,7 @@ export default function Footer() {
                   <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
                 </div>
               </div>
-              <div className="w-12 h-8 bg-white rounded flex items-center justify-center">
-                <span className="text-blue-600 font-bold text-xs">PayPal</span>
-              </div>
+
               <div className="w-12 h-8 bg-white rounded flex items-center justify-center">
                 <span className="text-purple-600 font-bold text-xs">
                   Skrill

@@ -162,7 +162,7 @@ export default function VideoSection() {
             <h2 className="text-4xl font-bold mb-4 text-slate-800">
               Troubleshooting Made Easy with MAC Care
             </h2>
-            <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+            <p className="text-lg text-slate-600 max-w-3xl mx-auto">
               Get expert video guides to solve common vehicle issues and keep
               your ride smooth.<br></br> Simple, step-by-step solutions—anytime,
               anywhere, right at your fingertips.

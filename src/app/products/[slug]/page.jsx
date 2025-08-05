@@ -17,7 +17,7 @@ export default async function Page({ params }) {
 
   console.log(data);
   return (
-    <div>
+    <div className="  overflow-hidden">
       <MainProductViewer product={data.data} />
       <BikeExplorer product={data.data}></BikeExplorer>
       <FinancerLogos></FinancerLogos>
