@@ -22,6 +22,7 @@ import {
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { useData } from "./DataContext";
 import { cn } from "@/lib/utils";
+import { data } from "autoprefixer";
 
 export default function Navbar() {
   const [isVehiclesOpen, setIsVehiclesOpen] = useState(false);
@@ -31,6 +32,8 @@ export default function Navbar() {
   const { data: vehicles = [], loading } = useData();
   const [expandedProduct, setExpandedProduct] = useState(null);
   const [openCategory, setOpenCategory] = useState(null);
+
+  console.log(data);
 
   const vehicleCategories = vehicles
     .filter((vehicle) => vehicle.category)
@@ -212,7 +215,7 @@ export default function Navbar() {
                 >
                   <div className="flex bg-white rounded-lg shadow-xl text-black">
                     <div className="w-1/3 border-r border-gray-200">
-                      {["passenger", "cargo", "garbage"].map((category) => (
+                      {["passenger", "loader", "garbage"].map((category) => (
                         <button
                           key={category}
                           className={`w-full capitalize text-left px-4 py-3 text-lg font-medium border-b border-gray-200 last:border-b-0 ${
@@ -360,7 +363,7 @@ export default function Navbar() {
                           <ChevronDown className="h-4 w-4 transition-transform" />
                         </CollapsibleTrigger>
                         <CollapsibleContent className="pl-4 pt-2 space-y-2">
-                          {["passenger", "cargo", "garbage"].map(
+                          {["passenger", "loader", "garbage"].map(
                             (categoryKey) => {
                               const categoryData =
                                 vehicleCategories[categoryKey];
