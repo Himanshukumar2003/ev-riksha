@@ -33,7 +33,7 @@ export default function VehicleSpecsTable({ product }) {
                 <TabsTrigger
                   key={index}
                   value={spec.tab_name}
-                  className="data-[state=active]:bg-green-600 data-[state=active]:text-white text-sm lg:text-md  p-2 lg:p-2  transition-all duration-300   rounded-[8px]"
+                  className="data-[state=active]:bg-green-600 data-[state=active]:text-white font-bold text-sm lg:text-md  p-2 lg:p-2  transition-all duration-300   rounded-[8px]"
                 >
                   {spec.tab_name}
                 </TabsTrigger>
