@@ -40,7 +40,7 @@ export default function NewsSection() {
       </div>
 
       {/* Logos section */}
-      <div className="flex-1  overflow-x-auto py-8 md:py-12 px-4 md:px-8 flex items-center justify-center gap-8 md:gap-12 lg:gap-16">
+      <div className="flex-1  overflow-x-auto py-8 md:py-12 px-4 grid grid-cols-2 md:px-8 md:flex items-center justify-center gap-8 md:gap-12 lg:gap-16">
         {clientLogos.map((logo, index) => (
           <Link key={index} href={logo.slug}>
             <Image
@@ -48,7 +48,7 @@ export default function NewsSection() {
               src={logo.query}
               alt={logo.alt}
               width={120}
-              height={40}
+              height={80}
               target="_blank"
               className="w-[200px] object-contain shrink-0"
             />
