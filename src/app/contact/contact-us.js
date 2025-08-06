@@ -81,17 +81,21 @@ export default function ContactSection() {
         <Container maxWidth="xl">
           <div className="grid lg:grid-cols-2 gap-16 items-start">
             {/* Left Content */}
-            <div className="space-y-6 lg:sticky top-10">
+            <div className="space-y-6 lg:sticky top-20">
               <div className="flex items-center gap-2 text-[var(--color-primary-light)] text-sm font-medium tracking-wide">
                 <div className="w-8 h-px bg-[var(--color-primary-light)]"></div>
-                CONTACT US
+                Get in Touch with Mac Auto India Pvt. Ltd.
               </div>
               <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                Happy to answer all your questions
+                Have questions about our products, services, or need support?
               </h2>
               <p className="text-gray-600 leading-relaxed max-w-md">
-                Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua.
+                We’re here to help you every step of the way.
+              </p>
+              <p className="text-gray-600 leading-relaxed max-w-md">
+                Whether you’re looking for detailed information, a business
+                inquiry, or technical support — our team is just a message away.
+                Fill out the form, and we’ll get back to you shortly.
               </p>
             </div>
 
