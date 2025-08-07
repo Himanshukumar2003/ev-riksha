@@ -559,13 +559,13 @@ export default function Macmobility() {
               Track Your Rides | Earnings | Rental Days | Service Reminders
             </p>
             <div>
-              <Link
-                href="#"
+              <a
+                href="https://dashboard.brandingwaale.com/"
                 target="_blank"
                 className="btn  text-lg md:text-xl   transition"
               >
                 Login Now
-              </Link>
+              </a>
             </div>
 
             <div className="text-base md:text-lg">
