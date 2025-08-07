@@ -135,7 +135,17 @@ body {
   background-image: linear-gradient(to right, var(--color-primary-light), var(--color-primary-dark));
 }
 
+body {
+  cursor: url('favicon.ico') 16 16, auto !important;
+}
 
+.btn,
+a,
+link,
+button {
+  cursor: url('favicon.ico') 16 16, auto !important;
+
+}
 
 .nav-header {
   background: linear-gradient(135deg, #3e5eab, #26a9E1);
