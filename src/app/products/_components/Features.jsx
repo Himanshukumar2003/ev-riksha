@@ -10,6 +10,8 @@ export default function BikeExplorer({ product }) {
     id: `feature-${index}`,
   }));
 
+  console.log(features);
+
   const [activeSection, setActiveSection] = useState(features[0]?.id || "");
   const [isTransitioning, setIsTransitioning] = useState(false);
   const [currentImage, setCurrentImage] = useState(
@@ -53,9 +55,9 @@ export default function BikeExplorer({ product }) {
                 </h2>
               </div>
               {/* Image */}
-              <div className="relative h-auto lg:h-full bg-gray-50 rounded-2xl overflow-hidden">
+              <div className="relative h-auto lg:h-full  rounded-2xl overflow-hidden">
                 <div
-                  className={`w-full h-auto lg:h-full transition-all duration-700 ease-out ${
+                  className={`w-full transition-all duration-700 ease-out ${
                     isTransitioning
                       ? "opacity-0 scale-90 rotate-2"
                       : "opacity-100 scale-100 rotate-0"

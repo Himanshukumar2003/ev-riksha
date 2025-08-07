@@ -181,7 +181,7 @@ export default function Macmobility() {
   return (
     <>
       {" "}
-      <Breadcrumb title="Mac Rentel" />
+      <Breadcrumb title="MAC Rental" />
       <main className="flex-1">
         {/* <section className="relative w-full h-[100vh] md:h-[70vh] flex items-center justify-center text-center bg-gradient-to-br from-green-700 to-green-900 text-white overflow-hidden">
         <Image

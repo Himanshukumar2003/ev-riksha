@@ -102,16 +102,16 @@ export default function Navbar() {
                 "rounded-full border-2 text-[10px] lg:text-sm border-white/30 hover:border-white/50 hover:text-white transition-all bg-white/10 backdrop-blur-sm text-white hover:bg-white/20"
               )}
             >
-              MAC CARE
+              MAC Care
             </Link>
             <Link
-              href="/mac-rentel"
+              href="/mac-rental"
               className={cn(
                 buttonVariants({ variant: "outline" }),
                 "rounded-full text-[10px] lg:text-sm border-2 border-white/30 hover:border-white/50 hover:text-white transition-all bg-white/10 backdrop-blur-sm text-white hover:bg-white/20"
               )}
             >
-              Mac Rentel
+              MAC Rental
             </Link>
             <Link
               href="/dealership"
@@ -490,14 +490,14 @@ export default function Navbar() {
                         className="block font-medium py-2 border-b border-gray-200"
                         onClick={() => setIsMobileMenuOpen(false)}
                       >
-                        MAC CARE
+                        MAC Care
                       </Link>
                       <Link
-                        href="/mac-rentel"
+                        href="/mac-rental"
                         className="block font-medium py-2 border-b border-gray-200"
                         onClick={() => setIsMobileMenuOpen(false)}
                       >
-                        Mac Rentel
+                        MAC Rental
                       </Link>
                       <Link
                         href="/dealership"
