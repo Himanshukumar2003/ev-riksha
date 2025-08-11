@@ -205,6 +205,12 @@ export default function Navbar() {
               >
                 Home
               </Link>
+              <Link
+                href="/about"
+                className="text-lg font-medium hover:text-gray-700"
+              >
+                About
+              </Link>
 
               <div
                 className="relative group"
@@ -300,6 +306,7 @@ export default function Navbar() {
               </div>
 
               {/* Other Nav Items */}
+
               <Link
                 href="/media"
                 className="text-lg font-medium hover:text-gray-700"
@@ -414,6 +421,13 @@ export default function Navbar() {
                       >
                         Home
                       </Link>
+                      <Link
+                        href="/about"
+                        className="block font-medium py-2 border-b border-gray-200"
+                        onClick={() => setIsMobileMenuOpen(false)}
+                      >
+                        About{" "}
+                      </Link>
 
                       {/* Vehicles - No FuelType Grouping */}
                       <Collapsible className="w-full">
@@ -476,14 +490,6 @@ export default function Navbar() {
                           )}
                         </CollapsibleContent>
                       </Collapsible>
-
-                      <Link
-                        href="/about"
-                        className="block font-medium py-2 border-b border-gray-200"
-                        onClick={() => setIsMobileMenuOpen(false)}
-                      >
-                        About{" "}
-                      </Link>
 
                       <Link
                         href="/sales-service"
