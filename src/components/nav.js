@@ -198,7 +198,7 @@ export default function Navbar() {
             </Link>
 
             {/* Desktop Nav */}
-            <div className="hidden md:flex items-center justify-between gap-6 lg:gap-10">
+            <div className="hidden lg:flex items-center justify-between gap-6 lg:gap-10">
               <Link
                 href="/"
                 className="text-lg font-medium hover:text-gray-700"
@@ -383,7 +383,7 @@ export default function Navbar() {
 
             {/* Mobile Nav */}
             {/* Mobile Nav */}
-            <div className="md:hidden flex g-4">
+            <div className="lg:hidden flex g-4">
               <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
                 <SheetTrigger asChild>
                   <Button className="text-black p-2">
