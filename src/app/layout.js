@@ -1,12 +1,12 @@
 import "./globals.css";
 import MahindraNavbar from "@/components/nav";
 import Footer from "@/components/footer";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 import localFont from "next/font/local";
 import { Manrope } from "next/font/google";
 import Layout from "@/components/layout/layout";
 import { Toaster } from "sonner";
-import Script from "next/script";
 
 // Local SpeedBeast font
 const SpeedBeast = localFont({
@@ -25,8 +25,8 @@ const manrope = Manrope({
   variable: "--font-manrope",
 });
 
-export const Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL),
+export const metadata = {
+  metadataBase: new URL("https://www.macautoindia.com"),
   title: {
     default: "Mac Auto India | Electric Rickshaw & E-Cart Manufacturer",
   },
@@ -38,7 +38,7 @@ export const Metadata = {
     canonical: `/`,
   },
   verification: {
-    google: "eMK-J7AIIge48keTYluNj9JqmmIGzGLqgoohVld9lB4", // your given code
+    google: "eMK-J7AIIge48keTYluNj9JqmmIGzGLqgoohVld9lB4",
   },
   icons: {
     icon: "/favicon.ico",
@@ -48,23 +48,17 @@ export const Metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head />
-      <body>
-        {/* Google Analytics */}
-        <Script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-5Z8REY1QK8"
-        />
-        <Script id="google-analytics">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-5Z8REY1QK8');
-          `}
-        </Script>
-
-        {children}
+      <meta
+        name="google-site-verification"
+        content="eMK-J7AIIge48keTYluNj9JqmmIGzGLqgoohVld9lB4"
+      />
+      <GoogleTagManager gtmId="G-5Z8REY1QK8" />
+      <body
+        className={`${SpeedBeast.variable} ${manrope.variable} antialiased`}
+        suppressHydrationWarning
+      >
+        <Layout>{children}</Layout>
+        <Toaster />
       </body>
     </html>
   );
