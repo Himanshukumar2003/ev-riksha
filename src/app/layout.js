@@ -28,12 +28,12 @@ const manrope = Manrope({
 export const metadata = {
   metadataBase: new URL("https://www.macautoindia.com"),
   title: {
-    default: "Mac Auto India | Electric Rickshaw & E-Cart Manufacturer",
+    default: " Mac Auto India | Electric Rickshaw & E-Cart Manufacturer",
   },
   description:
-    "Mac Auto India is a leading electric vehicle manufacturer in India, specializing in e-rickshaws, electric carts, and eco-friendly mobility solutions. With patented designs, i-CAT certification, and a PAN-India dealer network, we deliver reliable, high-performance EVs for passenger, cargo, and waste management needs. Driving e-rickshaw innovation since 2014.",
+    "Mac Auto India is a leading electric vehicle manufacturer in India, offering i-CAT certified e-rickshaws & EVs with patented designs & a PAN-India network.",
   keywords:
-    "Mac Auto India, electric rickshaw manufacturer, e-rickshaw in India, e-cart manufacturer, electric vehicle manufacturer in Faridabad, battery rickshaw India, cargo e-rickshaw, passenger e-rickshaw, waste management e-cart, i-CAT certified e-rickshaw, EV manufacturer India",
+    " e rickshaw, e rickshaw price, electric auto rickshaw, electric auto price in india, E Rickshaw price On Road, E Rickshaw manufacturers in India, E Rickshaw Dealers in India, E rickshaw suppliers, Icat approved e rickshaw in india, Electric Rickshaw Manufacturer & Supplier, i‑cat certified e rickshaw manufacturers, e rickshaw parts supplier India, electric vehicle manufacturers in India, eco friendly transport in India, E rickshaw parts supplier in India",
   alternates: {
     canonical: `/`,
   },
