@@ -5,7 +5,6 @@ import React from "react";
 
 export default function Page({ params }) {
   const { city } = params;
-  console.log(city);
 
   // Filter items where slug exists in title (case-insensitive)
   const matchedItems = data.filter((item) =>

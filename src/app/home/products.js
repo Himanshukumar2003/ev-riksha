@@ -20,7 +20,6 @@ export default function VehicleCategoryFilter() {
   // FIX: Build category map with at least one carousel image
   const categories = Object.values(
     vehicles.reduce((acc, vehicle) => {
-      console.log({ vehicle });
       const cat = vehicle.category?.toLowerCase() || "uncategorized";
       if (!acc[cat]) {
         acc[cat] = {
@@ -36,7 +35,6 @@ export default function VehicleCategoryFilter() {
       return acc;
     }, {})
   );
-  console.log({ categories });
 
   const filteredProducts = vehicles.filter(
     (product) =>

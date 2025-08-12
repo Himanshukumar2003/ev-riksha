@@ -13,7 +13,6 @@ export async function generateMetadata({ params }) {
   const data = await response.json();
   if (!data) return <h1>Not Found</h1>;
   const vehicles = data.data;
-  console.log(data);
   return {
     title:
       vehicles?.meta_title && vehicles?.meta_title !== ""
@@ -35,7 +34,6 @@ export default async function Page({ params }) {
 
   if (!data) return <h1>Not Found</h1>;
 
-  console.log(data);
   return (
     <div className="  overflow-hidden">
       <MainProductViewer product={data.data} />

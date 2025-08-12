@@ -81,7 +81,6 @@ export default function ContactSection() {
   const onSubmit = async (data) => {
     try {
       await new Promise((resolve) => setTimeout(resolve, 2000));
-      console.log("Form submitted:", data);
       reset();
       alert("Message sent successfully!");
     } catch (error) {

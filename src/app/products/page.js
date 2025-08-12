@@ -21,7 +21,6 @@ export default function Products() {
       currency: "INR",
       maximumFractionDigits: 0,
     }).format(price);
-  console.log(vehicles);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-100">
