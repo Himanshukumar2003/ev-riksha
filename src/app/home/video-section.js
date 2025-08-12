@@ -151,13 +151,20 @@ const videos = [
 ];
 
 export default function VideoSection() {
+  const [mounted, setMounted] = useState(false);
   const [selectedVideo, setSelectedVideo] = useState(null);
   const swiperRef = useRef();
+
+  // Mount check to avoid hydration errors
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   return (
     <div className="section bg-gray-100">
       <Container maxWidth="xl">
-        <div className="space-y-8 ">
+        <div className="space-y-8">
+          {/* Static SSR-friendly text */}
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4 text-slate-800">
               Explore Our Exclusive EV Video Library
@@ -169,101 +176,111 @@ export default function VideoSection() {
             </p>
           </div>
 
-          <Swiper
-            modules={[Navigation, Pagination, Autoplay]}
-            spaceBetween={20}
-            slidesPerView={1}
-            autoplay={{ delay: 4000, disableOnInteraction: false }}
-            pagination={{
-              clickable: true,
-              bulletClass: "swiper-pagination-bullet !bg-green-400",
-              bulletActiveClass: "swiper-pagination-bullet-active !bg-blue-600",
-            }}
-            breakpoints={{
-              640: { slidesPerView: 1.2 },
-              768: { slidesPerView: 2 },
-              1024: { slidesPerView: 2.5 },
-              1280: { slidesPerView: 3.5 },
-            }}
-            onSwiper={(swiper) => (swiperRef.current = swiper)}
-            className="!pb-12"
-          >
-            {videos.map((video, index) => (
-              <SwiperSlide key={video.id}>
-                <motion.div
-                  initial={{ opacity: 0, y: 30 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: index * 0.1 }}
-                  className="cursor-pointer h-full"
-                  onClick={() => setSelectedVideo(video.videoId)}
-                >
-                  <Card className="overflow-hidden group h-full pt-0 hover:shadow-xl transition-all duration-300 border border-slate-200 bg-white">
-                    <div className="relative">
-                      <Image
-                        src={video.thumbnail || "/placeholder.svg"}
-                        alt={video.title}
-                        width={300}
-                        height={300}
-                        className="w-full h-48 object-cover rounded-md group-hover:scale-105 transition-transform duration-300 ease-in-out"
-                      />
-                      <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />
+          {/* Render Swiper only after mounted */}
+          {mounted && (
+            <Swiper
+              modules={[Navigation, Pagination, Autoplay]}
+              spaceBetween={20}
+              slidesPerView={1}
+              autoplay={{ delay: 4000, disableOnInteraction: false }}
+              pagination={{
+                clickable: true,
+                bulletClass: "swiper-pagination-bullet !bg-green-400",
+                bulletActiveClass:
+                  "swiper-pagination-bullet-active !bg-blue-600",
+              }}
+              breakpoints={{
+                640: { slidesPerView: 1.2 },
+                768: { slidesPerView: 2 },
+                1024: { slidesPerView: 2.5 },
+                1280: { slidesPerView: 3.5 },
+              }}
+              onSwiper={(swiper) => (swiperRef.current = swiper)}
+              className="!pb-12"
+            >
+              {videos.map((video, index) => (
+                <SwiperSlide key={video.id}>
+                  <motion.div
+                    initial={{ opacity: 0, y: 30 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: index * 0.1 }}
+                    className="cursor-pointer h-full"
+                    onClick={() => setSelectedVideo(video.videoId)}
+                  >
+                    <Card className="overflow-hidden group h-full pt-0 hover:shadow-xl transition-all duration-300 border border-slate-200 bg-white">
+                      <div className="relative">
+                        <Image
+                          src={video.thumbnail}
+                          alt={video.title}
+                          width={300}
+                          height={300}
+                          className="w-full h-48 object-cover rounded-md group-hover:scale-105 transition-transform duration-300 ease-in-out"
+                        />
 
-                      <motion.div
-                        className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                        whileHover={{ scale: 1.1 }}
-                      >
-                        <div className="bg-white rounded-full p-4 shadow-lg">
-                          <Play className="w-6 h-6 text-slate-800 fill-current" />
-                        </div>
-                      </motion.div>
+                        {/* Hover overlay */}
+                        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />
 
-                      <div className="absolute top-3 left-3 flex items-center gap-2">
-                        <Badge
-                          variant="secondary"
-                          className="bg-white/90 text-slate-800 text-xs"
+                        {/* Play icon */}
+                        <motion.div
+                          className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                          whileHover={{ scale: 1.1 }}
                         >
-                          {video.category}
-                        </Badge>
-                        {video.trending && (
-                          <Badge className="bg-red-500 text-white text-xs flex items-center gap-1">
-                            <TrendingUp className="w-3 h-3" />
-                            Trending
+                          <div className="bg-white rounded-full p-4 shadow-lg">
+                            <Play className="w-6 h-6 text-slate-800 fill-current" />
+                          </div>
+                        </motion.div>
+
+                        {/* Category badges */}
+                        <div className="absolute top-3 left-3 flex items-center gap-2">
+                          <Badge
+                            variant="secondary"
+                            className="bg-white/90 text-slate-800 text-xs"
+                          >
+                            {video.category}
                           </Badge>
-                        )}
-                      </div>
-
-                      <div className="absolute bottom-3 right-3">
-                        <div className="bg-black/80 text-white text-xs px-2 py-1 rounded flex items-center gap-1">
-                          <Clock className="w-3 h-3" />
-                          {video.duration}
+                          {video.trending && (
+                            <Badge className="bg-red-500 text-white text-xs flex items-center gap-1">
+                              <TrendingUp className="w-3 h-3" />
+                              Trending
+                            </Badge>
+                          )}
                         </div>
-                      </div>
-                    </div>
 
-                    <CardContent className="p-5 pt-2">
-                      <div className="space-y-3">
-                        <h3 className="font-semibold text-lg line-clamp-2 text-slate-800 leading-tight  group-hover:text-green-500">
-                          {video.title}
-                        </h3>
-                        <p className="text-slate-600 text-sm line-clamp-2 leading-relaxed">
-                          {video.description}
-                        </p>
-
-                        <div className="flex items-center justify-between pt-5 pb-0 border-t border-slate-100">
-                          <button className="btn">Watch Now</button>
-                          <div className="flex items-center gap-1 text-xs text-slate-500">
-                            <Users className="w-3 h-3" />
-                            {video.channel}
+                        {/* Duration */}
+                        <div className="absolute bottom-3 right-3">
+                          <div className="bg-black/80 text-white text-xs px-2 py-1 rounded flex items-center gap-1">
+                            <Clock className="w-3 h-3" />
+                            {video.duration}
                           </div>
                         </div>
                       </div>
-                    </CardContent>
-                  </Card>
-                </motion.div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
 
+                      <CardContent className="p-5 pt-2">
+                        <div className="space-y-3">
+                          <h3 className="font-semibold text-lg line-clamp-2 text-slate-800 leading-tight group-hover:text-green-500">
+                            {video.title}
+                          </h3>
+                          <p className="text-slate-600 text-sm line-clamp-2 leading-relaxed">
+                            {video.description}
+                          </p>
+
+                          <div className="flex items-center justify-between pt-5 pb-0 border-t border-slate-100">
+                            <button className="btn">Watch Now</button>
+                            <div className="flex items-center gap-1 text-xs text-slate-500">
+                              <Users className="w-3 h-3" />
+                              {video.channel}
+                            </div>
+                          </div>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </motion.div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          )}
+
+          {/* Video modal */}
           <VideoModal
             videos={videos}
             selectedVideo={selectedVideo}

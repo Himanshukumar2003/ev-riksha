@@ -1,92 +1,30 @@
-"use client";
-
 import Image from "next/image";
 import WhyChoose from "./_componets/why-choose-us";
 import Container from "@mui/material/Container";
 import VideoModal from "../home/video";
-import { useState } from "react";
-import { Play } from "lucide-react";
 import Component from "./_componets/vision";
 import Breadcrumb from "@/components/breadcrumb";
+import VideoSection from "../home/video-section";
+export const metadata = {
+  title: "About Mac Auto India | EV Pioneer & E-Rickshaw Innovator",
 
+  description:
+    "Founded in 2014, Mac Auto India is a leading electric vehicle manufacturer with i-CAT certified E-Rickshaws and patented designs. From passenger to cargo carts, we deliver eco-friendly mobility solutions with PAN-India presence.",
+  keywords:
+    " Electric Rickshaw Manufacturers in india, India's No-1 Electric Rickshaw Manufacturer & Supplier, E Rickshaw Manufacturers in india, electric rickshaw price in India, electric cargo rickshaw India, i-cat certified e rickshaw manufacturers, e rickshaw parts supplier India, electric vehicle manufacturers in India, eco friendly transport in India, Electric Three Wheeler at Best Price in India, e rickshaw price in Delhi on road, e rickshaw price in india, E Rickshaw Dealer in india, electric rickshaws in india, charging auto rickshaw price, about Macauto India, company profile electric vehicles, electric rickshaw brand history",
+  alternates: {
+    canonical: `/about`,
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
 export default function About() {
-  const videos = [
-    "https://www.youtube.com/embed/hQQBAcQwwyY?si=g01MIwSXdbqRCbOj",
-  ];
-
-  const [selectedVideo, setSelectedVideo] = useState(null);
-
   return (
     <>
       <Breadcrumb title="About us" />
-      <div className="section">
-        <Container maxWidth="xl">
-          <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-            {/* Left side - Images */}
-            <div className="relative">
-              <div
-                className="relative rounded-2xl overflow-hidden"
-                onClick={() => setSelectedVideo(videos[0])}
-              >
-                <Image
-                  src="/img/youtub/img-1.jpg"
-                  alt="Interior design team collaborating on projects
-                  "
-                  width={600}
-                  height={400}
-                  className="w-full cursor-pointer h-auto object-cover  relative "
-                />
-                <div className="absolute  top-[50%] left-[50%] flex items-center justify-center  group-hover:opacity-100 transition-opacity duration-300">
-                  <div className="bg-white rounded-full p-4 shadow-lg">
-                    <Play className="w-6 h-6 text-slate-800 fill-current" />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Right side - Content */}
-            <div className="space-y-4">
-              <div>
-                <div className="text-[var(--color-primary-light)] text-sm font-medium mb-4 flex items-center">
-                  <span className="w-8 h-px bg-[var(--color-primary-light)] mr-3"></span>
-                  SINCE 2014
-                </div>
-                <h1 className="text-2xl md:text-4xl leading-tight mb-6">
-                  Mac Auto – Driving E-Rickshaw Innovation Since 2014
-                </h1>
-                <p className="text-gray-600 text-lg leading-relaxed">
-                  Founded in 2014, Mac Auto started as a visionary venture and
-                  has grown into one of India’s top electric mobility brands
-                  with a strong PAN India presence.
-                </p>
-                <p className="text-gray-600 text-lg leading-relaxed">
-                  We specialize in manufacturing Electric Rickshaws, spare
-                  parts, and accessories. All products are i-CAT certified and
-                  known for our patented technology and modern designs.
-                </p>
-                <p className="text-gray-600 text-lg leading-relaxed">
-                  Our lineup includes eco-friendly Electric Rickshaws for
-                  passengers and Electric Carts for cargo transportation, built
-                  to support sustainable mobility.
-                </p>
-                <p className="text-gray-600 text-lg leading-relaxed">
-                  With a skilled technical team and a well-equipped
-                  manufacturing setup, we continue to innovate and contribute to
-                  a cleaner, greener future.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* Video Modal */}
-          <VideoModal
-            videos={videos}
-            selectedVideo={selectedVideo}
-            isOpen={!!selectedVideo}
-            onClose={() => setSelectedVideo(null)}
-          />
-        </Container>
-      </div>
+      <VideoSection></VideoSection>
       <Component></Component>
 
       <section className="section">
