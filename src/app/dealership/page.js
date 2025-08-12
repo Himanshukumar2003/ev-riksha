@@ -38,7 +38,7 @@ import {
 import Container from "@mui/material/Container";
 import FeaturesSection from "./_feachers";
 import AllVehiclesSwiper from "@/components/products";
-import EnquiryFormData from "@/components/becouseForm";
+import EnquiryFormData from "@/components/dealerForm";
 import Breadcrumb from "@/components/breadcrumb";
 export default function Component() {
   const benefits = [
