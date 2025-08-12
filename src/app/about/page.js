@@ -4,7 +4,7 @@ import Container from "@mui/material/Container";
 import VideoModal from "../home/video";
 import Component from "./_componets/vision";
 import Breadcrumb from "@/components/breadcrumb";
-import VideoSection from "../home/video-section";
+import VideoSection from "./_componets/video";
 export const metadata = {
   title: "About Mac Auto India | EV Pioneer & E-Rickshaw Innovator",
 
