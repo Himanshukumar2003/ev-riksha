@@ -10,8 +10,6 @@ export default function BikeExplorer({ product }) {
     id: `feature-${index}`,
   }));
 
-  console.log(features);
-
   const [activeSection, setActiveSection] = useState(features[0]?.id || "");
   const [isTransitioning, setIsTransitioning] = useState(false);
   const [currentImage, setCurrentImage] = useState(

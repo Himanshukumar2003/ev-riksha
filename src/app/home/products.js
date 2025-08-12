@@ -69,38 +69,44 @@ export default function VehicleCategoryFilter() {
 
         {/* Category Buttons */}
         <div className="flex justify-center gap-2 lg:gap-6  mb-12">
-          {["passenger", "loader", "garbage"].map((category) => {
-            const selected = categories.find((cat) => cat.id === category);
-            return (
-              <button
-                key={category}
-                onClick={() => setSelectedCategory(category)}
-                className={`group relative flex flex-col items-center p-2 lg:p-8 rounded-2xl transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 text-black shadow:none lg:shadow-2xl ${
-                  selectedCategory === category
-                    ? "bg-[linear-gradient(135deg,#8BC248,#58B947)] text-white"
-                    : "bg-gray-100"
-                }`}
-              >
-                <Image
-                  src={`https://macapi.brandingwaale.com/${
-                    selected?.carousel?.[0] || "images/vehicle-icon.png"
-                  }`}
-                  alt={selected?.name ?? ""}
-                  width={100}
-                  height={100}
-                />
-                <span className="font-bold text-sm lg:text-lg mb-2">
-                  {selected?.name}
-                </span>
-                <span className="text-sm hidden lg:block text-center opacity-80 leading-tight">
-                  {selected?.description}
-                </span>
-                {selectedCategory === selected?.id && (
-                  <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-3 h-3 bg-white rounded-full shadow-lg"></div>
-                )}
-              </button>
-            );
-          })}
+          {loading ? (
+            <p>Loading</p>
+          ) : (
+            <>
+              {["passenger", "loader", "garbage"].map((category) => {
+                const selected = categories.find((cat) => cat.id === category);
+                return (
+                  <button
+                    key={category}
+                    onClick={() => setSelectedCategory(category)}
+                    className={`group relative flex flex-col items-center p-2 lg:p-8 rounded-2xl transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 text-black shadow:none lg:shadow-2xl ${
+                      selectedCategory === category
+                        ? "bg-[linear-gradient(135deg,#8BC248,#58B947)] text-white"
+                        : "bg-gray-100"
+                    }`}
+                  >
+                    <Image
+                      src={`https://macapi.brandingwaale.com/${
+                        selected?.carousel?.[0] || "images/vehicle-icon.png"
+                      }`}
+                      alt={selected?.name ?? ""}
+                      width={100}
+                      height={100}
+                    />
+                    <span className="font-bold text-sm lg:text-lg mb-2">
+                      {selected?.name}
+                    </span>
+                    <span className="text-sm hidden lg:block text-center opacity-80 leading-tight">
+                      {selected?.description}
+                    </span>
+                    {selectedCategory === selected?.id && (
+                      <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-3 h-3 bg-white rounded-full shadow-lg"></div>
+                    )}
+                  </button>
+                );
+              })}
+            </>
+          )}
         </div>
 
         {/* Products */}

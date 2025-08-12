@@ -41,8 +41,6 @@ export default function Navbar() {
   const [expandedProduct, setExpandedProduct] = useState(null);
   const [openCategory, setOpenCategory] = useState(null);
 
-  console.log(data);
-
   const vehicleCategories = vehicles
     .filter((vehicle) => vehicle.category)
     .reduce((acc, vehicle) => {
