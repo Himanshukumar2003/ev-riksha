@@ -3,8 +3,8 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Container from "@mui/material/Container";
-import VideoModal from "../home/video";
 import { Play } from "lucide-react";
+import VideoModal from "@/app/home/video";
 
 export default function VideoSection() {
   const videos = [
