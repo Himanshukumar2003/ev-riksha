@@ -1,7 +1,6 @@
 import Image from "next/image";
 import WhyChoose from "./_componets/why-choose-us";
 import Container from "@mui/material/Container";
-import VideoModal from "../home/video";
 import Component from "./_componets/vision";
 import Breadcrumb from "@/components/breadcrumb";
 import VideoSection from "./_componets/video";
