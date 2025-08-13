@@ -144,9 +144,9 @@ export default function SalesService() {
         }}
       >
         <div className="space-y-6 text-center mb-10">
-          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl text-[color:var(--primary)]">
+          <div className="text-2xl font-bold tracking-tight sm:text-4xl text-[color:var(--primary)]">
             {portalContent.title}
-          </h1>
+          </div>
           <p className="text-lg text-[color:var(--muted-foreground)] max-w-2xl mx-auto">
             {portalContent.description}
           </p>

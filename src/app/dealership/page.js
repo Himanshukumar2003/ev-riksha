@@ -258,10 +258,10 @@ export default function Component() {
                   India’s Fastest Growing EV Brand
                 </p>
 
-                <h1 className="text-4xl md:text-3xl lg:text-5xl font-bold text-gray-900 leading-tight">
+                <div className="text-4xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">
                   Why Partner with{" "}
                   <span className="text-green-700">Mac Auto</span>?
-                </h1>
+                </div>
 
                 <div className="space-y-4 text-gray-600 text-lg leading-relaxed">
                   <p>

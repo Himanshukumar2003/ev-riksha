@@ -11,7 +11,7 @@ export async function generateMetadata({ params }) {
     `https://macapi.brandingwaale.com/v1/vehicles/get-by-slug/${slug}`
   );
   const data = await response.json();
-  if (!data) return <h1>Not Found</h1>;
+  if (!data) return <div>Not Found</div>;
   const vehicles = data.data;
   return {
     title:
@@ -32,7 +32,7 @@ export default async function Page({ params }) {
   );
   const data = await response.json();
 
-  if (!data) return <h1>Not Found</h1>;
+  if (!data) return <div>Not Found</div>;
 
   return (
     <div className="  overflow-hidden">

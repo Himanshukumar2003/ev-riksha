@@ -44,9 +44,9 @@ export default function VideoSection() {
                 <span className="w-8 h-px bg-[var(--color-primary-light)] mr-3"></span>
                 SINCE 2014
               </div>
-              <h1 className="text-2xl md:text-4xl leading-tight mb-6">
+              <div className="text-2xl md:text-3xl font-bold leading-tight mb-6">
                 Mac Auto – Driving E-Rickshaw Innovation Since 2014
-              </h1>
+              </div>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Founded in 2014, Mac Auto started as a visionary venture and has
                 grown into one of India’s top electric mobility brands with a

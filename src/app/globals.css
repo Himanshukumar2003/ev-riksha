@@ -499,3 +499,23 @@ h6 {
   transform: translateY(0px);
   transition: transform 0.2s ease-out;
 }
+
+
+.breadcrumb-title {
+  font-size: 1.875rem;
+  /* 30px */
+  line-height: 2.25rem;
+  /* 36px */
+  font-weight: 700;
+  /* bold like Tailwind's font-bold */
+
+}
+
+@media (min-width: 768px) {
+  .breadcrumb-title {
+    font-size: 3rem;
+    /* 48px */
+    line-height: 1;
+    /* compact */
+  }
+}

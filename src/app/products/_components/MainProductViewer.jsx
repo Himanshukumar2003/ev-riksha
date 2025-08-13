@@ -137,9 +137,16 @@ export default function MainProductViewer({ product }) {
                     <div className="text-sm text-gray-500 font-medium">
                       {product?.category}
                     </div>
-                    <div className="font-bold text-xl text-gray-800">
+                    <h1
+                      className="font-bold "
+                      style={{
+                        fontSize: "1.25rem",
+                        lineHeight: "1.75rem",
+                        color: "#1f2937",
+                      }}
+                    >
                       {product?.title}
-                    </div>
+                    </h1>
                   </div>
                 </div>
 

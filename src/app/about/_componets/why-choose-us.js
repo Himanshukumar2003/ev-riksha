@@ -20,10 +20,10 @@ export default function WhyChoose() {
                 EV Charging Solutions Made Very Simple!
               </p>
 
-              <h1 className="text-4xl md:text-3xl lg:text-5xl font-bold text-gray-900 leading-tight">
+              <div className="text-4xl md:text-3xl lg:text-5xl font-bold text-gray-900 leading-tight">
                 We Are Pioneering Flexible Ways To Make EV Mobility Your Easy
                 Choice.
-              </h1>
+              </div>
 
               <div className="space-y-4 text-gray-600 text-lg leading-relaxed">
                 <p>

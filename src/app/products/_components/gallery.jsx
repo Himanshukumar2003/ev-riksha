@@ -31,7 +31,7 @@ export default function Gallery({ product }) {
         {/* Header Section */}
         <div className="grid grid-cols-1 lg:grid-cols-2 mb-10 gap-8">
           <div>
-            <h1 className="text-4xl font-bold mb-6">Product Gallery</h1>
+            <div className="text-4xl font-bold mb-6">Product Gallery</div>
             <p className="text-xl text-gray-700">
               Explore product visuals and installation examples.
             </p>
