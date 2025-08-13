@@ -40,6 +40,16 @@ import FeaturesSection from "./_feachers";
 import AllVehiclesSwiper from "@/components/products";
 import EnquiryFormData from "@/components/dealerForm";
 import Breadcrumb from "@/components/breadcrumb";
+export const metadata = {
+  title: "M Start Your EV Dealership with Mac Auto – Apply Now!",
+  keywords: `electric vehicle dealership India, EV dealer near me, best EV dealership India, electric vehicles in India, electric vehicles cost India, e rickshaw dealership India, electric auto rickshaw dealer India, electric auto rickshaw market India, e‑rickshaw business opportunity India `,
+  description:
+    "Partner with Mac Auto for a profitable EV dealership. Low investment, high returns & full support to grow your electric vehicle business. Apply today!",
+
+  alternates: {
+    canonical: `/dealership`,
+  },
+};
 export default function Component() {
   const benefits = [
     {

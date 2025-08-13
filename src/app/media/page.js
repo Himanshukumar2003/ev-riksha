@@ -7,6 +7,16 @@ import Container from "@mui/material/Container";
 import Breadcrumb from "@/components/breadcrumb";
 import Link from "next/link";
 import NewsSection from "../home/news-section";
+
+export const metadata = {
+  title: "  Mac Auto India Media & Press – Stories, News and Updates",
+
+  description:
+    " Explore Mac Auto India’s latest news, press stories, and media highlights. See how we’re driving e-rickshaw innovation across India since 2014.",
+  alternates: {
+    canonical: `/media`,
+  },
+};
 export default function NewsSectionPage() {
   const newsData = [
     {

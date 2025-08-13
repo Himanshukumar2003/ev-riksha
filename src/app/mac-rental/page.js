@@ -45,139 +45,150 @@ import {
 } from "@/components/ui/card";
 import Container from "@mui/material/Container";
 import Breadcrumb from "@/components/breadcrumb";
-const advantages = [
-  {
-    number: "01",
-    title: "Trusted EV Brand",
-    description:
-      "Recognized and trusted by thousands through www.macautoindia.com for reliable electric mobility solutions.",
-  },
-  {
-    number: "02",
-    title: "Transparent Pricing",
-    description:
-      "We ensure fair pricing with absolutely no hidden charges—what you see is what you pay.",
-  },
-  {
-    number: "03",
-    title: "24x7 Roadside Assistance",
-    description:
-      "Enjoy peace of mind with regular vehicle maintenance and full-time roadside support whenever you need it.",
-  },
-  {
-    number: "04",
-    title: "Smart GPS-Enabled Vehicles",
-    description:
-      "Our vehicles are equipped with GPS and offer real-time tracking and support for enhanced safety and efficiency.",
-  },
-  {
-    number: "05",
-    title: "High Mileage & Battery Backup",
-    description:
-      "Experience long-range travel and dependable performance with high mileage and robust battery life.",
-  },
-];
+export const metadata = {
+  title: "Mac Rental – Flexible E-Rickshaw Hire & Rent-to-Own Plans",
+  keywords: `electric scooter rental, e-rickshaw rental India, e-rickshaw rent-to-own, daily e-rickshaw rental, electric vehicles rental, E Rickshaw On Rent near me, e-rickshaw rent-to-own in india, electric autorickshaw rental, electric vehicles for sale, electric vehicles in India`,
+  description:
+    "Drive your future with Mac Rental’s flexible e-rickshaw hire plans. Choose daily or rent-to-own options with 24×7 support across Delhi & NCR.",
 
-const plans = [
-  {
-    title: "Basic Plan",
-    price: "₹300",
-    period: "/Day",
-    description: "Without Charging & Parking",
-    popular: false,
-    gradient: "from-green-400 to-green-500",
-    bgGradient: "from-green-50 to-green-100",
-    features: [
-      "Flexible daily rental",
-      "Ideal for self-managed charging",
-      "Great for experienced drivers",
-      "No hidden charges",
-      "24/7 customer support",
-    ],
-    icon: <Zap className="w-8 h-8" />,
+  alternates: {
+    canonical: `/mac-rental`,
   },
-  {
-    title: "Premium Plan",
-    price: "₹450",
-    period: "/Day",
-    description: "With Charging & Parking Included",
-    popular: true,
-    gradient: "from-green-600 to-green-700",
-    bgGradient: "from-green-100 to-green-200",
-    features: [
-      "Hassle-free daily rental",
-      "All-inclusive convenience",
-      "Perfect for new EV drivers",
-      "Free charging stations",
-      "Dedicated parking spots",
-    ],
-    icon: <Shield className="w-8 h-8" />,
-  },
-];
-
-const steps = [
-  {
-    number: "01",
-    title: "Register Online",
-    description:
-      "Visit www.macautoindia.com to start your registration process.",
-    icon: <FileText className="w-8 h-8" />,
-    color: "from-green-400 to-green-500",
-    bgColor: "bg-green-50",
-    borderColor: "border-green-200",
-  },
-  {
-    number: "02",
-    title: "Upload KYC",
-    description: "Provide Driving License, Aadhaar, and PAN for verification.",
-    icon: <Users className="w-8 h-8" />,
-    color: "from-green-500 to-green-600",
-    bgColor: "bg-green-50",
-    borderColor: "border-green-200",
-  },
-  {
-    number: "03",
-    title: "Select a Plan",
-    description:
-      "Choose between ₹300 or ₹450 per day plan as per your convenience.",
-    icon: <FileCheck className="w-8 h-8" />,
-    color: "from-green-600 to-green-700",
-    bgColor: "bg-green-50",
-    borderColor: "border-green-200",
-  },
-  {
-    number: "04",
-    title: "Drive & Earn",
-    description: "Start your journey with Mac Rentel and begin earning daily!",
-    icon: <Rocket className="w-8 h-8" />,
-    color: "from-green-700 to-green-800",
-    bgColor: "bg-green-50",
-    borderColor: "border-green-200",
-  },
-];
-
-const benefits = [
-  {
-    title: "No Loan",
-    icon: <CheckCircle2 className="w-8 h-8 text-primary" />,
-    gradient: "from-blue-500 to-blue-600",
-    items: ["Avoid the complexities and interest of traditional loans."],
-  },
-  {
-    title: "No EMI",
-    icon: <CheckCircle2 className="w-8 h-8 text-primary" />,
-    gradient: "from-purple-500 to-purple-600",
-    items: ["Flexible payments without fixed monthly installments."],
-  },
-  {
-    title: "Just Drive & Own",
-    icon: <CheckCircle2 className="w-8 h-8 text-primary" />,
-    gradient: "from-green-500 to-green-600",
-    items: ["Take ownership step-by-step, simply by driving."],
-  },
-];
-
+};
 export default function Macmobility() {
+  const advantages = [
+    {
+      number: "01",
+      title: "Trusted EV Brand",
+      description:
+        "Recognized and trusted by thousands through www.macautoindia.com for reliable electric mobility solutions.",
+    },
+    {
+      number: "02",
+      title: "Transparent Pricing",
+      description:
+        "We ensure fair pricing with absolutely no hidden charges—what you see is what you pay.",
+    },
+    {
+      number: "03",
+      title: "24x7 Roadside Assistance",
+      description:
+        "Enjoy peace of mind with regular vehicle maintenance and full-time roadside support whenever you need it.",
+    },
+    {
+      number: "04",
+      title: "Smart GPS-Enabled Vehicles",
+      description:
+        "Our vehicles are equipped with GPS and offer real-time tracking and support for enhanced safety and efficiency.",
+    },
+    {
+      number: "05",
+      title: "High Mileage & Battery Backup",
+      description:
+        "Experience long-range travel and dependable performance with high mileage and robust battery life.",
+    },
+  ];
+
+  const plans = [
+    {
+      title: "Basic Plan",
+      price: "₹300",
+      period: "/Day",
+      description: "Without Charging & Parking",
+      popular: false,
+      gradient: "from-green-400 to-green-500",
+      bgGradient: "from-green-50 to-green-100",
+      features: [
+        "Flexible daily rental",
+        "Ideal for self-managed charging",
+        "Great for experienced drivers",
+        "No hidden charges",
+        "24/7 customer support",
+      ],
+      icon: <Zap className="w-8 h-8" />,
+    },
+    {
+      title: "Premium Plan",
+      price: "₹450",
+      period: "/Day",
+      description: "With Charging & Parking Included",
+      popular: true,
+      gradient: "from-green-600 to-green-700",
+      bgGradient: "from-green-100 to-green-200",
+      features: [
+        "Hassle-free daily rental",
+        "All-inclusive convenience",
+        "Perfect for new EV drivers",
+        "Free charging stations",
+        "Dedicated parking spots",
+      ],
+      icon: <Shield className="w-8 h-8" />,
+    },
+  ];
+
+  const steps = [
+    {
+      number: "01",
+      title: "Register Online",
+      description:
+        "Visit www.macautoindia.com to start your registration process.",
+      icon: <FileText className="w-8 h-8" />,
+      color: "from-green-400 to-green-500",
+      bgColor: "bg-green-50",
+      borderColor: "border-green-200",
+    },
+    {
+      number: "02",
+      title: "Upload KYC",
+      description:
+        "Provide Driving License, Aadhaar, and PAN for verification.",
+      icon: <Users className="w-8 h-8" />,
+      color: "from-green-500 to-green-600",
+      bgColor: "bg-green-50",
+      borderColor: "border-green-200",
+    },
+    {
+      number: "03",
+      title: "Select a Plan",
+      description:
+        "Choose between ₹300 or ₹450 per day plan as per your convenience.",
+      icon: <FileCheck className="w-8 h-8" />,
+      color: "from-green-600 to-green-700",
+      bgColor: "bg-green-50",
+      borderColor: "border-green-200",
+    },
+    {
+      number: "04",
+      title: "Drive & Earn",
+      description:
+        "Start your journey with Mac Rentel and begin earning daily!",
+      icon: <Rocket className="w-8 h-8" />,
+      color: "from-green-700 to-green-800",
+      bgColor: "bg-green-50",
+      borderColor: "border-green-200",
+    },
+  ];
+
+  const benefits = [
+    {
+      title: "No Loan",
+      icon: <CheckCircle2 className="w-8 h-8 text-primary" />,
+      gradient: "from-blue-500 to-blue-600",
+      items: ["Avoid the complexities and interest of traditional loans."],
+    },
+    {
+      title: "No EMI",
+      icon: <CheckCircle2 className="w-8 h-8 text-primary" />,
+      gradient: "from-purple-500 to-purple-600",
+      items: ["Flexible payments without fixed monthly installments."],
+    },
+    {
+      title: "Just Drive & Own",
+      icon: <CheckCircle2 className="w-8 h-8 text-primary" />,
+      gradient: "from-green-500 to-green-600",
+      items: ["Take ownership step-by-step, simply by driving."],
+    },
+  ];
   return (
     <>
       {" "}

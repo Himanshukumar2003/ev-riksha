@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import Link from "next/link";
 import { Calendar, ArrowRight } from "lucide-react";
@@ -7,7 +5,14 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { blogs } from "./[slug]/data";
 import Breadcrumb from "@/components/breadcrumb";
-
+export const metadata = {
+  title: " Mac Auto India Blog – Electric Vehicle & E-Rickshaw Insights",
+  description:
+    " Read the Mac Auto India Blog for inspiring EV stories, e-rickshaw insights, and clean mobility ideas driving a greener, better future for India.",
+  alternates: {
+    canonical: `/blog`,
+  },
+};
 export default function BlogMainPage() {
   // Format date for display
   const formatDate = (dateString) => {

@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 import {
   Phone,
@@ -21,7 +19,15 @@ import {
 import Container from "@mui/material/Container";
 import Image from "next/image";
 import Breadcrumb from "@/components/breadcrumb";
+export const metadata = {
+  title: "Mac Rental – Flexible E-Rickshaw Hire & Rent-to-Own Plans",
+  description:
+    "Get 24×7 Mac Care after-sales support, genuine parts, AMC plans & expert help to keep your Mac Auto e-rickshaw running smoothly and reliably every day.",
 
+  alternates: {
+    canonical: `/sales-service`,
+  },
+};
 export default function SalesService() {
   const portalContent = {
     title: "Mac Care – After Sales Service Portal",
