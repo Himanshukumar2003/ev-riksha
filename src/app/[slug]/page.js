@@ -13,13 +13,12 @@ import Image from "next/image";
 
 import Breadcrumb from "@/components/breadcrumb";
 import { data } from "./_data";
-import Custom404 from "../pages/_404";
 export default async function Page({ params }) {
   const { slug } = await params;
   const content = data.find((item) => item.slug === slug);
 
   if (!content) {
-    return <Custom404></Custom404>;
+    return <p>Product Not Found</p>;
   }
   return (
     <>
