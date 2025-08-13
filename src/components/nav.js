@@ -355,7 +355,7 @@ export default function Navbar() {
                         <Card className="flex flex-col items-center justify-center   border-transparent  shadow-2xl rounded-2xl border-0 p-4 cursor-pointer hover:bg-gray-50 transition-colors duration-200">
                           <Image
                             src="/img/dealer.png"
-                            alt="Tutor icon"
+                            alt="dealer icon"
                             width={80}
                             height={80}
                             className="mb-2"

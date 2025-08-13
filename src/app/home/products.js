@@ -68,7 +68,7 @@ export default function VehicleCategoryFilter() {
         {/* Category Buttons */}
         <div className="flex justify-center gap-2 lg:gap-6  mb-12">
           {loading ? (
-            <p>Loading</p>
+            <p>loading...</p>
           ) : (
             <>
               {["passenger", "loader", "garbage"].map((category) => {
