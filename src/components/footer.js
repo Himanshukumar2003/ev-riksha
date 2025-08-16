@@ -168,14 +168,14 @@ export default function Footer() {
                     Mac MUE Garbage
                   </Link>
                 </li>
-                {/* <li>
+                <li>
                   <Link
                     href="/products"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     View All Products
                   </Link>
-                </li> */}
+                </li>
               </ul>
             </div>
 
