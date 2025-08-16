@@ -31,6 +31,7 @@ const enquiryFormSchema = z.object({
     .string()
     .min(10, { message: "Phone number must be at least 10 digits." }),
   message: z.string().optional(),
+  location: z.string().optional(),
 });
 
 export default function EnquiryFormData({ productId }) {
@@ -46,6 +47,7 @@ export default function EnquiryFormData({ productId }) {
       email: "",
       phone: "",
       message: "",
+      location: "",
     },
   });
 
@@ -230,7 +232,28 @@ export default function EnquiryFormData({ productId }) {
                   placeholder="Please provide any specific requirements, preferred delivery date, or additional information..."
                 />
               </div>
-
+              <div className="space-y-2">
+                <label
+                  htmlFor="email"
+                  className="text-gray-700 font-semibold text-sm uppercase tracking-wide"
+                >
+                  Location *
+                </label>
+                <Input
+                  id="location"
+                  type="text"
+                  name="location"
+                  {...form.register("location")}
+                  className="border-gray-300 focus:border-blue-600 focus:ring-blue-600 rounded-md"
+                  placeholder="your.email@company.com"
+                />
+                {form.formState.errors.location && (
+                  <p className="text-sm text-red-600 flex items-center gap-1">
+                    <span className="w-1 h-1 bg-red-600 rounded-full"></span>
+                    {form.formState.errors.location.message}
+                  </p>
+                )}
+              </div>
               <Separator />
 
               <div className="flex items-center justify-between pt-4">

@@ -87,7 +87,7 @@ export default function MainProductViewer({ product }) {
                         <div className="w-full flex justify-center items-center">
                           <Image
                             src={`https://macapi.brandingwaale.com/${src}`}
-                            alt={`Slide ${index + 1}`}
+                            alt={src}
                             width={400}
                             height={400}
                             className="object-contain"

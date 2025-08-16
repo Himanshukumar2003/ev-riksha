@@ -34,7 +34,7 @@ import {
 
 export default function Navbar() {
   const [isVehiclesOpen, setIsVehiclesOpen] = useState(false);
-  const [selectedCategory, setSelectedCategory] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState("passenger");
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const { data: vehicles = [], loading } = useData();
