@@ -3,138 +3,95 @@ import { useState, useEffect } from "react";
 import { MapPin, Palette } from "lucide-react";
 import Container from "@mui/material/Container";
 import Image from "next/image";
-import { motion } from "framer-motion";
-import { Play } from "lucide-react";
-import VideoModal from "@/app/home/video";
 import EMICalculator from "./emi-calculator";
-import FinancerLogos from "./financers";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-
 import EnquiryFormModal from "./form";
+
 export default function MainProductViewer({ product }) {
   const [selectedColor, setSelectedColor] = useState(0);
   const [selectedState, setSelectedState] = useState("");
   const [selectedCity, setSelectedCity] = useState("");
   const [currentPrice, setCurrentPrice] = useState(0);
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [interest, setInterestRate] = useState(0);
-  const handleInterestRateChange = (rate) => {
-    setInterestRate(rate);
-  };
 
-  const openModal = () => setIsModalOpen(true);
-  const closeModal = () => setIsModalOpen(false);
-
-  // Format price (e.g., ₹1,20,000)
   const formatPrice = (price) => (price ? price.toLocaleString("en-IN") : "0");
-
-  // Display user-friendly location
   const getCurrentLocation = () =>
     selectedCity || selectedState || "your location";
 
   useEffect(() => {
     if (product) {
-      setSelectedColor(0); // default color index
-      // Default price
+      setSelectedColor(0);
       const base = product?.pricing?.[0]?.base_price || 0;
       setCurrentPrice(base);
     }
   }, [product]);
 
-  // Update price based on city selection
   useEffect(() => {
     if (!selectedState) return;
-
     const stateObj = product?.pricing?.find((p) => p.name === selectedState);
     if (!stateObj) return;
 
     let base = stateObj.base_price || 0;
-
     if (selectedCity && stateObj.cities?.length) {
       const cityObj = stateObj.cities.find((c) => c.name === selectedCity);
-      if (cityObj) {
-        base += cityObj.price_modifier || 0;
-      }
+      if (cityObj) base += cityObj.price_modifier || 0;
     }
-
     setCurrentPrice(base);
   }, [selectedState, selectedCity, product]);
 
   const handleStateChange = (value) => {
     setSelectedState(value);
-    setSelectedCity(""); // reset city
+    setSelectedCity("");
   };
 
   return (
     <div className="section">
       <div className="min-h-screen">
         <Container maxWidth="xl">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* 360 Viewer */}
-            <div className="relative">
-              <div className="mx-auto transition-all">
-                <div className="">
-                  <Swiper
-                    slidesPerView={1}
-                    spaceBetween={0}
-                    loop={true}
-                    allowTouchMove={true}
-                    className="w-full max-w-4xl mx-auto"
-                  >
-                    {product?.carousel?.map((src, index) => (
-                      <SwiperSlide key={index}>
-                        <div className="w-full flex justify-center items-center">
-                          <Image
-                            src={`https://macapi.brandingwaale.com/${src}`}
-                            alt={src}
-                            width={400}
-                            height={400}
-                            className="object-contain"
-                            priority={index === 0}
-                          />
-                        </div>
-                      </SwiperSlide>
-                    ))}
-                  </Swiper>
-                </div>
+            <div className="relative order-1 lg:order-none">
+              <div className="mx-auto">
+                <Swiper
+                  slidesPerView={1}
+                  loop={true}
+                  allowTouchMove={true}
+                  className="w-full max-w-lg sm:max-w-xl md:max-w-2xl mx-auto"
+                >
+                  {product?.carousel?.map((src, index) => (
+                    <SwiperSlide key={index}>
+                      <div className="w-full flex justify-center items-center">
+                        <Image
+                          src={`https://macapi.brandingwaale.com/${src}`}
+                          alt={src}
+                          width={400}
+                          height={400}
+                          className="object-contain w-full max-h-[400px]"
+                          priority={index === 0}
+                        />
+                      </div>
+                    </SwiperSlide>
+                  ))}
+                </Swiper>
               </div>
-
-              {/* 360° Drag Indicator */}
-              <div className="flex justify-center mt-6">
-                <div className="text-[var(--color-secondary)] px-4 py-2 rounded-full shadow-lg">
-                  <span className="flex items-center gap-2 text-sm font-medium">
-                    <svg
-                      className="w-4 h-4 animate-spin"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
-                      />
-                    </svg>
-                    360° Drag to Rotate
-                  </span>
+              <div className="flex justify-center mt-4 sm:mt-6">
+                <div className="text-[var(--color-secondary)] px-3 sm:px-4 py-2 rounded-full shadow-lg text-xs sm:text-sm">
+                  360° Drag to Rotate
                 </div>
               </div>
             </div>
 
             {/* Product Details */}
-            <div className="bg-white rounded-3xl shadow-md p-8 border border-white/20 backdrop-blur-sm transition-all duration-300">
-              {/* Title */}
-              <div className="border-b border-gray-100 pb-6 mb-6">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-12 h-12 bg-green-600 rounded-xl flex items-center justify-center shadow-lg">
-                    <span className="text-white text-lg font-bold">
+            <div className="bg-white rounded-2xl sm:rounded-3xl shadow-md p-5 sm:p-8 border border-white/20 backdrop-blur-sm">
+              <div className="border-b border-gray-100 pb-4 sm:pb-6 mb-4 sm:mb-6">
+                <div className="flex items-center gap-3 mb-3 sm:mb-4">
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-green-600 rounded-xl flex items-center justify-center shadow-lg">
+                    <span className="text-white text-base sm:text-lg font-bold">
                       {product?.title?.charAt(0)}
                     </span>
                   </div>
                   <div>
-                    <div className="text-sm text-gray-500 font-medium">
+                    <div className="text-xs sm:text-sm text-gray-500 font-medium">
                       {product?.category}
                     </div>
                     <h1
@@ -149,59 +106,54 @@ export default function MainProductViewer({ product }) {
                     </h1>
                   </div>
                 </div>
-
-                <p className="text-gray-600 text-sm leading-relaxed">
+                <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
                   {product?.description}
                 </p>
               </div>
 
-              {/* Color Picker */}
-              <div className="mb-8">
-                {product?.colors && product.colors.length > 0 && (
-                  <div>
-                    <div className="flex items-center gap-2 mb-4">
-                      <Palette className="w-5 h-5 text-green-600" />
-                      <h3 className="text-lg font-semibold text-gray-700">
-                        Select Color
-                      </h3>
-                    </div>
-
-                    <div className="flex flex-wrap gap-3 mb-3">
-                      {product?.colors?.map((color, index) => (
-                        <button
-                          key={index}
-                          className={`relative w-8 h-8 rounded-xl border-2 border-transparent transition-all duration-300 transform hover:scale-110 ${
-                            selectedColor === index
-                              ? "border-green-600 ring-2 ring-green-200 scale-110 shadow-xl"
-                              : "border-gray-300 hover:border-green-400 hover:shadow-lg"
-                          }`}
-                          style={{ backgroundColor: color.color }}
-                          onClick={() => setSelectedColor(index)}
-                        >
-                          {selectedColor === index && (
-                            <div className="absolute inset-0 flex items-center justify-center">
-                              <div className="w-4 h-4 bg-white rounded-full shadow-lg animate-pulse" />
-                            </div>
-                          )}
-                        </button>
-                      ))}
-                    </div>
+              {/* Colors */}
+              {product?.colors?.length > 0 && (
+                <div className="mb-6 sm:mb-8">
+                  <div className="flex items-center gap-2 mb-3">
+                    <Palette className="w-5 h-5 text-green-600" />
+                    <h3 className="text-base sm:text-lg font-semibold text-gray-700">
+                      Select Color
+                    </h3>
                   </div>
-                )}
-              </div>
+                  <div className="flex flex-wrap gap-2 sm:gap-3">
+                    {product.colors.map((color, index) => (
+                      <button
+                        key={index}
+                        className={`relative w-7 h-7 sm:w-8 sm:h-8 rounded-xl border-2 transition-all duration-300 ${
+                          selectedColor === index
+                            ? "border-green-600 ring-2 ring-green-200 scale-110 shadow-xl"
+                            : "border-gray-300 hover:border-green-400 hover:shadow-lg"
+                        }`}
+                        style={{ backgroundColor: color.color }}
+                        onClick={() => setSelectedColor(index)}
+                      >
+                        {selectedColor === index && (
+                          <div className="absolute inset-0 flex items-center justify-center">
+                            <div className="w-3 h-3 sm:w-4 sm:h-4 bg-white rounded-full shadow-lg animate-pulse" />
+                          </div>
+                        )}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               {/* State/City Pricing */}
-              <div className="mb-8">
-                <div className="flex items-center gap-2 mb-4">
+              <div className="mb-6 sm:mb-8">
+                <div className="flex items-center gap-2 mb-3">
                   <MapPin className="w-5 h-5 text-green-600" />
-                  <h3 className="text-lg font-semibold text-gray-700">
+                  <h3 className="text-base sm:text-lg font-semibold text-gray-700">
                     Pricing Details
                   </h3>
                 </div>
-
-                <div className="grid grid-cols-2 gap-3 mb-6 capitalize">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4 sm:mb-6 capitalize">
                   <select
-                    className="border-2 capitalize border-green-200 py-3 px-4 rounded-xl text-sm focus:outline-none focus:ring-4 focus:ring-green-200 focus:border-green-500 transition-all duration-300 bg-white shadow-sm"
+                    className="border-2 capitalize border-green-200 py-2.5 px-3 sm:py-3 sm:px-4 rounded-xl text-sm sm:text-base focus:outline-none focus:ring-4 focus:ring-green-200 focus:border-green-500 bg-white shadow-sm"
                     value={selectedState}
                     onChange={(e) => handleStateChange(e.target.value)}
                   >
@@ -218,7 +170,7 @@ export default function MainProductViewer({ product }) {
                   </select>
 
                   <select
-                    className="border-2 capitalize border-green-200 py-3 px-4 rounded-xl text-sm focus:outline-none focus:ring-4 focus:ring-green-200 focus:border-green-500 transition-all duration-300 bg-white shadow-sm"
+                    className="border-2 capitalize border-green-200 py-2.5 px-3 sm:py-3 sm:px-4 rounded-xl text-sm sm:text-base focus:outline-none focus:ring-4 focus:ring-green-200 focus:border-green-500 bg-white shadow-sm"
                     value={selectedCity}
                     onChange={(e) => setSelectedCity(e.target.value)}
                     disabled={!selectedState}
@@ -238,51 +190,47 @@ export default function MainProductViewer({ product }) {
                         ))}
                   </select>
                 </div>
-
-                {/* Price Display */}
-                <div className="bg-green-50 p-4 rounded-2xl border border-green-200">
-                  <div className="flex items-baseline gap-2 mb-2">
-                    <span className="text-4xl font-bold text-green-600">₹</span>
-                    <span className="text-3xl font-bold text-gray-800">
+                <div className="bg-green-50 p-3 sm:p-4 rounded-2xl border border-green-200">
+                  <div className="flex items-baseline gap-1 sm:gap-2 mb-1 sm:mb-2">
+                    <span className="text-2xl sm:text-3xl font-bold text-green-600">
+                      ₹
+                    </span>
+                    <span className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-800">
                       {formatPrice(currentPrice)}
                     </span>
-                    <span className="text-lg text-gray-600">/-</span>
+                    <span className="text-sm sm:text-lg text-gray-600">/-</span>
                   </div>
-                  <p className="text-sm text-gray-600">
+                  <p className="text-xs sm:text-sm text-gray-600">
                     Ex-showroom Price{" "}
                     <span className="font-semibold text-green-600">
                       {getCurrentLocation()}
                     </span>
                   </p>
-                  {selectedState && selectedCity && (
-                    <div className="mt-2 text-xs text-green-600 font-medium">
-                      ✓ Price updated for selected location
-                    </div>
-                  )}
                 </div>
               </div>
+
               <EnquiryFormModal productId={product?.id} />
             </div>
           </div>
         </Container>
 
+        {/* EMI Section */}
         <EMICalculator
           product={product}
           selectedState={selectedState}
           selectedCity={selectedCity}
-          onInterestRateChange={handleInterestRateChange}
         />
 
+        {/* Video Section */}
         {product?.video_link && (
-          <div className="section bg-gray-100 py-16">
+          <div className="section bg-gray-100 py-10 sm:py-16">
             <Container maxWidth="xl">
-              <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-                {/* Left Side - Text */}
-                <div className="lg:col-span-5">
-                  <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+              <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
+                <div className="lg:col-span-5 order-2 lg:order-none text-center lg:text-left">
+                  <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-3 sm:mb-4">
                     Explore Our YouTube Channel
                   </h2>
-                  <p className="text-base md:text-lg text-gray-600 mb-6">
+                  <p className="text-sm sm:text-base md:text-lg text-gray-600 mb-4 sm:mb-6">
                     Dive deeper into our innovations, product demonstrations,
                     and behind-the-scenes videos. Subscribe to our YouTube
                     channel and stay updated with the latest content from
@@ -292,14 +240,12 @@ export default function MainProductViewer({ product }) {
                     href="https://www.youtube.com/@Macautoindia"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn"
+                    className="btn inline-block"
                   >
                     Visit YouTube Channel
                   </a>
                 </div>
-
-                {/* Right Side - Video */}
-                <div className="h-[300px] sm:h-[350px] md:h-[400px] relative rounded-3xl shadow-2xl overflow-hidden lg:col-span-7">
+                <div className="h-[220px] sm:h-[300px] md:h-[400px] relative rounded-2xl sm:rounded-3xl shadow-2xl overflow-hidden lg:col-span-7">
                   <iframe
                     src={product.video_link}
                     title="Product Video"

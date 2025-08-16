@@ -83,9 +83,9 @@ export default function AllVehiclesSwiper() {
                       }`}
                       alt={product.title}
                       fill
-                      className="    object-contain transition-transform duration-700 group-hover:scale-110"
+                      className="object-contain transition-transform duration-700 group-hover:scale-110"
                     />
-                    <Badge className="absolute top-4 right-4 bg-white/90 text-gray-800 shadow-lg font-semibold">
+                    <Badge className="absolute top-4 right-4 bg-white/90 text-gray-800 shadow-lg font-semibold uppercase">
                       {product.category}
                     </Badge>
                   </div>
