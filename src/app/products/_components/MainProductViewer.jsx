@@ -206,7 +206,7 @@ export default function MainProductViewer({ product }) {
                     onChange={(e) => handleStateChange(e.target.value)}
                   >
                     <option value="">Select State*</option>
-                    {product.pricing.map((state, index) => (
+                    {product.pricing?.map((state, index) => (
                       <option
                         key={index}
                         value={state.name}
