@@ -137,40 +137,50 @@ export default function Navbar() {
                 className="w-56 rounded-lg p-2 bg-white border-0 text-black"
                 align="center"
               >
-                {Object.entries(vehicleCategories).map(
-                  ([categoryKey, categoryData], index) => (
-                    <Collapsible key={categoryKey} className="w-full">
-                      <CollapsibleTrigger className="flex items-center justify-between w-full px-2 py-2 rounded-sm cursor-pointer hover:bg-gray-100">
-                        <span className="font-medium capitalize">
-                          {categoryKey}
-                        </span>
-                        <ChevronDown className="h-4 w-4 transition-transform data-[state=open]:rotate-180" />
-                      </CollapsibleTrigger>
-                      <CollapsibleContent className="ml-4 mt-1 space-y-1 border-l-2 border-gray-200 pl-2">
-                        {categoryData.products.map((item) => (
-                          <div key={item.id} className="mb-2">
-                            <div
-                              className="cursor-pointer hover:bg-gray-100 px-3 py-2 rounded-sm text-sm flex items-center"
-                              onClick={() => {
-                                if (item.brochure?.[0]) {
-                                  const fileUrl = `https://macapi.brandingwaale.com/${item.brochure[0].replace(
-                                    /\\/g,
-                                    "/"
-                                  )}`;
-                                  handleDownload(fileUrl, `${item.title}.pdf`);
-                                }
-                              }}
-                            >
-                              {item.title}
+                {["passenger", "loader", "garbage"].map(
+                  (categoryKey, index) => {
+                    const categoryData = vehicleCategories[categoryKey];
+                    if (!categoryData) return null;
+
+                    return (
+                      <Collapsible key={categoryKey} className="w-full">
+                        <CollapsibleTrigger className="flex items-center justify-between w-full px-2 py-2 rounded-sm cursor-pointer hover:bg-gray-100">
+                          <span className="font-medium capitalize">
+                            {categoryKey}
+                          </span>
+                          <ChevronDown className="h-4 w-4 transition-transform data-[state=open]:rotate-180" />
+                        </CollapsibleTrigger>
+
+                        <CollapsibleContent className="ml-4 mt-1 space-y-1 border-l-2 border-gray-200 pl-2">
+                          {categoryData.products.map((item) => (
+                            <div key={item.id} className="mb-2">
+                              <div
+                                className="cursor-pointer hover:bg-gray-100 px-3 py-2 rounded-sm text-sm flex items-center"
+                                onClick={() => {
+                                  if (item.brochure?.[0]) {
+                                    const fileUrl = `https://macapi.brandingwaale.com/${item.brochure[0].replace(
+                                      /\\/g,
+                                      "/"
+                                    )}`;
+                                    handleDownload(
+                                      fileUrl,
+                                      `${item.title}.pdf`
+                                    );
+                                  }
+                                }}
+                              >
+                                {item.title}
+                              </div>
                             </div>
-                          </div>
-                        ))}
-                      </CollapsibleContent>
-                      {index < Object.keys(vehicleCategories).length - 1 && (
-                        <DropdownMenuSeparator className="my-1" />
-                      )}
-                    </Collapsible>
-                  )
+                          ))}
+                        </CollapsibleContent>
+
+                        {index < 3 && (
+                          <DropdownMenuSeparator className="my-1" />
+                        )}
+                      </Collapsible>
+                    );
+                  }
                 )}
               </DropdownMenuContent>
             </DropdownMenu>
