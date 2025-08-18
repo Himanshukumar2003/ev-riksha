@@ -366,10 +366,10 @@ export default function Navbar() {
                       >
                         <Card className="flex flex-col items-center justify-center   border-transparent  shadow-2xl rounded-2xl border-0 p-4 cursor-pointer hover:bg-gray-50 transition-colors duration-200">
                           <Image
-                            src="/img/dealer.png"
+                            src="/img/dealer-main.png"
                             alt="dealer icon"
-                            width={80}
-                            height={80}
+                            width={100}
+                            height={100}
                             className="mb-2"
                           />
                           Dealer
@@ -383,10 +383,10 @@ export default function Navbar() {
                       >
                         <Card className="flex flex-col items-center justify-center shadow-2xl rounded-2xl border-0 p-4 cursor-pointer hover:bg-gray-50 transition-colors duration-200">
                           <Image
-                            src="/img/customer.png"
+                            src="/img/custmor-final.png"
                             alt="customer icon"
-                            width={80}
-                            height={80}
+                            width={120}
+                            height={120}
                             className="mb-2"
                           />
                           Customer
