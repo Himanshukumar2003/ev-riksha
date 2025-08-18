@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["img.youtube.com", "macapi.brandingwaale.com"],
+    domains: ["img.youtube.com", "api.macautoindia.com"],
   },
 };
 
