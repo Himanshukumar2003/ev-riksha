@@ -152,14 +152,14 @@ export default function MainProductViewer({ product }) {
               )}
 
               {/* State/City Pricing */}
-              <div className="mb-6 sm:mb-8">
-                <div className="flex items-center gap-2 mb-3">
+              {/* <div className="mb-6 sm:mb-8">
+                 <div className="flex items-center gap-2 mb-3">
                   <MapPin className="w-5 h-5 text-green-600" />
                   <h3 className="text-base sm:text-lg font-semibold text-gray-700">
                     Pricing Details
                   </h3>
-                </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4 sm:mb-6 capitalize">
+                </div> 
+                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4 sm:mb-6 capitalize">
                   <select
                     className="border-2 capitalize border-green-200 py-2.5 px-3 sm:py-3 sm:px-4 rounded-xl text-sm sm:text-base focus:outline-none focus:ring-4 focus:ring-green-200 focus:border-green-500 bg-white shadow-sm"
                     value={selectedState}
@@ -197,10 +197,8 @@ export default function MainProductViewer({ product }) {
                           </option>
                         ))}
                   </select>
-                </div>
+                </div> 
 
-                {/* 👇 PRICE UI COMMENTED 👇 */}
-                {/*
                 <div className="bg-green-50 p-3 sm:p-4 rounded-2xl border border-green-200">
                   <div className="flex items-baseline gap-1 sm:gap-2 mb-1 sm:mb-2">
                     <span className="text-2xl sm:text-3xl font-bold text-green-600">
@@ -218,8 +216,8 @@ export default function MainProductViewer({ product }) {
                     </span>
                   </p>
                 </div>
-                */}
-              </div>
+              
+              </div> */}
 
               <EnquiryFormModal productId={product?.id} />
             </div>
