@@ -370,7 +370,7 @@ export default function Navbar() {
                             alt="dealer icon"
                             width={120}
                             height={120}
-                            className="mb-2"
+                            className=" aspect-square object-contain"
                           />
                           Dealer
                         </Card>
@@ -387,7 +387,7 @@ export default function Navbar() {
                             alt="customer icon"
                             width={120}
                             height={120}
-                            className="mb-2"
+                            className=" aspect-square object-contain"
                           />
                           Customer
                         </Card>
