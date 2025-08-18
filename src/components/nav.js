@@ -537,14 +537,72 @@ export default function Navbar() {
                         Contact Us
                       </Link>
 
-                      <div className="mt-10">
-                        <Link
-                          href="/contact"
-                          className="btn"
-                          onClick={() => setIsMobileMenuOpen(false)}
-                        >
-                          Enquire Now
-                        </Link>
+                      <div className="mt-10 flex flex-col gap-4">
+                        <div>
+                          {" "}
+                          <Link
+                            href="/contact"
+                            className="btn"
+                            onClick={() => setIsMobileMenuOpen(false)}
+                          >
+                            Enquire Now
+                          </Link>
+                        </div>
+
+                        <Dialog>
+                          <DialogTrigger asChild>
+                            <div className="flex justify-start w-full">
+                              <button
+                                variant="outline"
+                                className="btn-outline w-auto"
+                              >
+                                Login
+                              </button>
+                            </div>
+                          </DialogTrigger>
+                          <DialogContent className="sm:max-w-[500px] p-6 bg-white rounded-2xl">
+                            <DialogHeader className="text-center mb-6">
+                              <DialogTitle className="text-2xl font-bold">
+                                LOGIN AS?
+                              </DialogTitle>
+                            </DialogHeader>
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                              <a
+                                href="https://dashboard.macautoindia.com"
+                                target="_blank"
+                                className="text-sm font-semibold uppercase"
+                              >
+                                <Card className="flex flex-col items-center justify-center   border-transparent  shadow-2xl rounded-2xl border-0 p-4 cursor-pointer hover:bg-gray-50 transition-colors duration-200">
+                                  <Image
+                                    src="/img/dealer-main.png"
+                                    alt="dealer icon"
+                                    width={120}
+                                    height={120}
+                                    className=" aspect-square object-contain"
+                                  />
+                                  Dealer
+                                </Card>
+                              </a>
+                              {/*  */}
+                              <a
+                                href="https://dashboard.macautoindia.com"
+                                target="_blank"
+                                className="text-sm font-semibold uppercase"
+                              >
+                                <Card className="flex flex-col items-center justify-center shadow-2xl rounded-2xl border-0 p-4 cursor-pointer hover:bg-gray-50 transition-colors duration-200">
+                                  <Image
+                                    src="/img/custmor-final.png"
+                                    alt="customer icon"
+                                    width={120}
+                                    height={120}
+                                    className=" aspect-square object-contain"
+                                  />
+                                  Customer
+                                </Card>
+                              </a>
+                            </div>
+                          </DialogContent>
+                        </Dialog>
                       </div>
                     </nav>
                   </div>
