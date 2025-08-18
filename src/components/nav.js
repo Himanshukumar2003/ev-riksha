@@ -360,7 +360,7 @@ export default function Navbar() {
                     </DialogHeader>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                       <a
-                        href="https://dashboard.brandingwaale.com"
+                        href="https://dashboard.macautoindia.com"
                         target="_blank"
                         className="text-sm font-semibold uppercase"
                       >
@@ -377,7 +377,7 @@ export default function Navbar() {
                       </a>
 
                       <a
-                        href="https://dashboard.brandingwaale.com"
+                        href="https://dashboard.macautoindia.com"
                         target="_blank"
                         className="text-sm font-semibold uppercase"
                       >
