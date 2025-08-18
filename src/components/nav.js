@@ -368,8 +368,8 @@ export default function Navbar() {
                           <Image
                             src="/img/dealer-main.png"
                             alt="dealer icon"
-                            width={100}
-                            height={100}
+                            width={120}
+                            height={120}
                             className="mb-2"
                           />
                           Dealer
