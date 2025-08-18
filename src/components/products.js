@@ -78,7 +78,7 @@ export default function AllVehiclesSwiper() {
                 <Card className="group rounded-2xl pt-0 overflow-hidden border-0 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-[1.02] hover:-translate-y-2 bg-white/80 backdrop-blur-sm">
                   <div className="relative h-50 bg-gray-100 overflow-hidden">
                     <Image
-                      src={`https://macapi.brandingwaale.com/${
+                      src={`https://api.macautoindia.com/${
                         product.carousel?.[0]?.replace(/\\/g, "/") || ""
                       }`}
                       alt={product.title}

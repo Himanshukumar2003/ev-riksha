@@ -69,7 +69,7 @@ export default function MainProductViewer({ product }) {
                   <SwiperSlide key={index}>
                     <div className="w-full flex justify-center items-center">
                       <Image
-                        src={`https://macapi.brandingwaale.com/${src}`}
+                        src={`https://api.macautoindia.com/${src}`}
                         alt={src}
                         width={400}
                         height={400}

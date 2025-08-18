@@ -10,7 +10,7 @@ export default function FinancerLogos({
   const [selectedFinancerId, setSelectedFinancerId] = useState(null);
 
   useEffect(() => {
-    fetch("https://macapi.brandingwaale.com/v1/financers")
+    fetch("https://api.macautoindia.com/v1/financers")
       .then((res) => res.json())
       .then((data) => {
         if (data?.status && data.data?.financers?.length > 0) {
@@ -31,7 +31,7 @@ export default function FinancerLogos({
               interestRate: Number.parseFloat(financer.interest_percentage), // Store interest rate
               logo: financer.logo.map(
                 (path) =>
-                  `https://macapi.brandingwaale.com/${path.replace(/\\/g, "/")}`
+                  `https://api.macautoindia.com/${path.replace(/\\/g, "/")}`
               )[0], // only showing the first logo
             }))
           );

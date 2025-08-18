@@ -84,7 +84,7 @@ export default function VehicleCategoryFilter() {
                     }`}
                   >
                     <Image
-                      src={`https://macapi.brandingwaale.com/${
+                      src={`https://api.macautoindia.com/${
                         selected?.carousel?.[0] || "images/vehicle-icon.png"
                       }`}
                       alt={selected?.name ?? ""}
@@ -117,7 +117,7 @@ export default function VehicleCategoryFilter() {
             >
               <div className="relative h-56 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden">
                 <Image
-                  src={`https://macapi.brandingwaale.com/${product.carousel[0].replace(
+                  src={`https://api.macautoindia.com/${product.carousel[0].replace(
                     /\\/g,
                     "/"
                   )}`}

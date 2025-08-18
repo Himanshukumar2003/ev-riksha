@@ -10,7 +10,7 @@ import "@fancyapps/ui/dist/fancybox/fancybox.css";
 
 export default function Gallery({ product }) {
   const { gallery } = product;
-  const baseURL = "https://macapi.brandingwaale.com/";
+  const baseURL = "https://api.macautoindia.com/";
 
   useEffect(() => {
     if (typeof window !== "undefined") {

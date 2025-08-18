@@ -158,7 +158,7 @@ export default function Navbar() {
                                 className="cursor-pointer hover:bg-gray-100 px-3 py-2 rounded-sm text-sm flex items-center"
                                 onClick={() => {
                                   if (item.brochure?.[0]) {
-                                    const fileUrl = `https://macapi.brandingwaale.com/${item.brochure[0].replace(
+                                    const fileUrl = `https://api.macautoindia.com/${item.brochure[0].replace(
                                       /\\/g,
                                       "/"
                                     )}`;
@@ -285,7 +285,7 @@ export default function Navbar() {
                                     <Image
                                       height={60}
                                       width={60}
-                                      src={`https://macapi.brandingwaale.com/${product.carousel[0].replace(
+                                      src={`https://api.macautoindia.com/${product.carousel[0].replace(
                                         /\\/g,
                                         "/"
                                       )}`}
@@ -480,7 +480,7 @@ export default function Navbar() {
                                           <Image
                                             height={100}
                                             width={100}
-                                            src={`https://macapi.brandingwaale.com/${product.carousel[0].replace(
+                                            src={`https://api.macautoindia.com/${product.carousel[0].replace(
                                               /\\/g,
                                               "/"
                                             )}`}

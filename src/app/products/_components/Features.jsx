@@ -14,7 +14,7 @@ export default function Features({ product }) {
   const [isTransitioning, setIsTransitioning] = useState(false);
   const [currentImage, setCurrentImage] = useState(
     features[0]?.image
-      ? `https://macapi.brandingwaale.com/${features[0].image}`
+      ? `https://api.macautoindia.com/${features[0].image}`
       : "/placeholder.svg"
   );
 
@@ -27,10 +27,7 @@ export default function Features({ product }) {
       setActiveSection(sectionId);
       const section = features.find((s) => s.id === sectionId);
       const imageUrl = section?.image
-        ? `https://macapi.brandingwaale.com/${section.image.replace(
-            /\\/g,
-            "/"
-          )}`
+        ? `https://api.macautoindia.com/${section.image.replace(/\\/g, "/")}`
         : "/placeholder.svg";
       setCurrentImage(imageUrl);
       setTimeout(() => setIsTransitioning(false), 50);
