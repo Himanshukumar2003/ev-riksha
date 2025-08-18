@@ -163,14 +163,15 @@ export default function VehicleCategoryFilter() {
                   {product.description}
                 </CardDescription>
                 <div className="flex justify-between items-end gap-4">
-                  <div>
+                  {/* <div>
                     <p className="text-xs text-gray-700 uppercase tracking-wide mb-1">
                       Starting from
                     </p>
                     <p className="text-xl text-gray-700 font-bold">
                       {formatPrice(product.starting_from || 0)}
                     </p>
-                  </div>
+                  </div> */}
+
                   <Link href={`/products/${product.slug}`} className="btn">
                     View Details
                   </Link>

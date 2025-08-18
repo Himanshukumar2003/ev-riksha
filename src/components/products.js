@@ -99,9 +99,9 @@ export default function AllVehiclesSwiper() {
                       {product.description}
                     </CardDescription>
                     <div className="flex justify-between items-center">
-                      <p className="text-xl font-bold">
+                      {/* <p className="text-xl font-bold">
                         {formatPrice(product.starting_from || 0)}
-                      </p>
+                      </p> */}
                       <Link href={`/products/${product.slug}`} className="btn">
                         View Details
                       </Link>

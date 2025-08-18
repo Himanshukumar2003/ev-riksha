@@ -1,5 +1,5 @@
 import BasicFAQ from "../_components/faq-section";
-import BikeExplorer from "../_components/Features";
+import Features from "../_components/Features";
 import FinancerLogos from "../_components/financers";
 import Gallery from "../_components/gallery";
 import MainProductViewer from "../_components/MainProductViewer";
@@ -37,7 +37,7 @@ export default async function Page({ params }) {
   return (
     <div className="  overflow-hidden">
       <MainProductViewer product={data.data} />
-      <BikeExplorer product={data.data}></BikeExplorer>
+      <Features product={data.data}></Features>
       <FinancerLogos></FinancerLogos>
       <VehicleSpecsTable product={data.data}></VehicleSpecsTable>
       <Gallery product={data.data}></Gallery>
