@@ -39,6 +39,8 @@ import Container from "@mui/material/Container";
 import FeaturesSection from "./_feachers";
 import AllVehiclesSwiper from "@/components/products";
 import Breadcrumb from "@/components/breadcrumb";
+import Btn from "@/components/btn";
+import DealerForm from "@/components/dealer-form";
 export const metadata = {
   title: " Start Your EV Dealership with Mac Auto – Apply Now!",
   keywords: `electric vehicle dealership India, EV dealer near me, best EV dealership India, electric vehicles in India, electric vehicles cost India, e rickshaw dealership India, electric auto rickshaw dealer India, electric auto rickshaw market India, e‑rickshaw business opportunity India `,
@@ -283,6 +285,11 @@ export default function Component() {
                     EV brand.
                   </p>
                 </div>
+
+                <div className="flex justify-start mt-6">
+                  <Btn></Btn>
+                </div>
+                {/* <DealerForm></DealerForm> */}
               </div>
             </div>
 
@@ -430,6 +437,9 @@ export default function Component() {
             ))}
           </div>
         </div>
+        <div className="flex justify-center mt-6">
+          <Btn></Btn>
+        </div>
       </div>
 
       <section
@@ -449,7 +459,6 @@ export default function Component() {
               comprehensive support and exclusive advantages
             </p>
           </div>
-
           {/* Benefits Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
             {benefits.map((benefit, index) => (
@@ -492,6 +501,9 @@ export default function Component() {
                 ></div>
               </Card>
             ))}
+          </div>
+          <div className="d flex justify-center mt-6">
+            <Btn></Btn>
           </div>
         </Container>
       </section>

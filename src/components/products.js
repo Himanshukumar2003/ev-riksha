@@ -74,7 +74,7 @@ export default function AllVehiclesSwiper() {
             }}
           >
             {vehicles.map((product) => (
-              <SwiperSlide key={product.id}>
+              <SwiperSlide key={product.id} className="py-2">
                 <Card className="group rounded-2xl pt-0 overflow-hidden border-0 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-[1.02] hover:-translate-y-2 bg-white/80 backdrop-blur-sm">
                   <div className="relative h-50 bg-gray-100 overflow-hidden">
                     <Image

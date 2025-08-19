@@ -1,3 +1,4 @@
+import Btn from "@/components/btn";
 import {
   Flag,
   PackagePlus,
@@ -55,6 +56,10 @@ export default function Component() {
             </div>
           ))}
         </div>
+      </div>
+
+      <div className="d flex justify-center mt-6">
+        <Btn></Btn>
       </div>
     </div>
   );

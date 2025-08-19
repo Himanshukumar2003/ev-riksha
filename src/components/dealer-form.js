@@ -1,23 +1,28 @@
 "use client";
 
-import React, { useState } from "react";
+import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
 import { toast } from "sonner";
-import { Loader2, Send } from "lucide-react";
+import {
+  Loader2,
+  Send,
+  User,
+  Mail,
+  Phone,
+  Building,
+  MapPin,
+  Store,
+  DollarSign,
+  X,
+} from "lucide-react";
 
 import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
-import { Separator } from "@/components/ui/separator";
 
 const enquiryFormSchema = z.object({
   vehicle_id: z.string().min(1, { message: "Vehicle ID is required." }),
-  quantity: z.preprocess(
-    (val) => Number(val),
-    z.number().min(1, { message: "Quantity must be at least 1." })
-  ),
   name: z.string().min(2, { message: "Name must be at least 2 characters." }),
   email: z.string().email({ message: "Invalid email address." }),
   phone: z
@@ -26,32 +31,27 @@ const enquiryFormSchema = z.object({
   company: z.string().min(2, { message: "Company name is required." }),
   state: z.string().min(1, { message: "State is required." }),
   city: z.string().min(1, { message: "City is required." }),
-  become: z.string().min(1, { message: "Selection is required." }),
   showroom: z.string().min(1, { message: "Please select an option." }),
   investment: z
     .string()
     .min(1, { message: "Please select your investment capacity." }),
-  message: z.string().optional(),
 });
 
-export default function DealerForm({ productId = "" }) {
+export default function DealerForm({ productId = "", onClose }) {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const form = useForm({
     resolver: zodResolver(enquiryFormSchema),
     defaultValues: {
       vehicle_id: productId,
-      quantity: 1,
       name: "",
       email: "",
       phone: "",
       company: "",
       state: "",
       city: "",
-      become: "",
       showroom: "",
       investment: "",
-      message: "",
     },
   });
 
@@ -87,166 +87,195 @@ export default function DealerForm({ productId = "" }) {
 
   const renderError = (field) =>
     form.formState.errors[field] && (
-      <p className="text-sm text-red-600">
+      <p className="text-sm text-red-500 mt-1 flex items-center gap-1">
+        <span className="w-1 h-1 bg-red-500 rounded-full"></span>
         {form.formState.errors[field]?.message}
       </p>
     );
 
   return (
-    <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
-      <input type="hidden" {...form.register("vehicle_id")} />
-
-      {/* Name & Email */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="space-y-2">
-          <label htmlFor="name">Full Name *</label>
-          <Input
-            id="name"
-            placeholder="Enter your full name"
-            {...form.register("name")}
-          />
-          {renderError("name")}
-        </div>
-
-        <div className="space-y-2">
-          <label htmlFor="email">Email Address *</label>
-          <Input
-            id="email"
-            type="email"
-            placeholder="your.email@company.com"
-            {...form.register("email")}
-          />
-          {renderError("email")}
-        </div>
+    <div className="">
+      <div className="">
+        <Button
+          onClick={onClose}
+          variant="ghost"
+          size="sm"
+          className="absolute top-4 right-4 text-white hover:bg-white/20 rounded-full p-2"
+        >
+          <X className="w-5 h-5" />
+        </Button>
       </div>
 
-      {/* Phone & Quantity */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="space-y-2">
-          <label htmlFor="phone">Phone Number *</label>
-          <Input
-            id="phone"
-            type="tel"
-            placeholder="+91 9876543210"
-            {...form.register("phone")}
-          />
-          {renderError("phone")}
-        </div>
+      <div className=" ">
+        <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
+          <input type="hidden" {...form.register("vehicle_id")} />
 
-        <div className="space-y-2">
-          <label htmlFor="quantity">Quantity Required *</label>
-          <Input
-            id="quantity"
-            type="number"
-            min={1}
-            {...form.register("quantity")}
-          />
-          {renderError("quantity")}
-        </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="space-y-2">
+              <label
+                htmlFor="name"
+                className="text-sm font-medium text-gray-700 flex items-center gap-2"
+              >
+                <User className="w-4 h-4 text-green-600" />
+                Full Name *
+              </label>
+              <Input
+                id="name"
+                placeholder="Enter your full name"
+                className="h-12 border-gray-200 focus:border-green-500 focus:ring-green-500 transition-colors"
+                {...form.register("name")}
+              />
+              {renderError("name")}
+            </div>
+
+            <div className="space-y-2">
+              <label
+                htmlFor="email"
+                className="text-sm font-medium text-gray-700 flex items-center gap-2"
+              >
+                <Mail className="w-4 h-4 text-green-600" />
+                Email Address *
+              </label>
+              <Input
+                id="email"
+                type="email"
+                placeholder="your.email@company.com"
+                className="h-12 border-gray-200 focus:border-green-500 focus:ring-green-500 transition-colors"
+                {...form.register("email")}
+              />
+              {renderError("email")}
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="space-y-2">
+              <label
+                htmlFor="phone"
+                className="text-sm font-medium text-gray-700 flex items-center gap-2"
+              >
+                <Phone className="w-4 h-4 text-green-600" />
+                Phone Number *
+              </label>
+              <Input
+                id="phone"
+                type="tel"
+                placeholder="+91 9876543210"
+                className="h-12 border-gray-200 focus:border-green-500 focus:ring-green-500 transition-colors"
+                {...form.register("phone")}
+              />
+              {renderError("phone")}
+            </div>
+
+            <div className="space-y-2">
+              <label
+                htmlFor="company"
+                className="text-sm font-medium text-gray-700 flex items-center gap-2"
+              >
+                <Building className="w-4 h-4 text-green-600" />
+                Company Name *
+              </label>
+              <Input
+                id="company"
+                placeholder="Your company name"
+                className="h-12 border-gray-200 focus:border-green-500 focus:ring-green-500 transition-colors"
+                {...form.register("company")}
+              />
+              {renderError("company")}
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="space-y-2">
+              <label
+                htmlFor="state"
+                className="text-sm font-medium text-gray-700 flex items-center gap-2"
+              >
+                <MapPin className="w-4 h-4 text-green-600" />
+                Select State *
+              </label>
+              <Input
+                id="state"
+                placeholder="Enter your state"
+                className="h-12 border-gray-200 focus:border-green-500 focus:ring-green-500 transition-colors"
+                {...form.register("state")}
+              />
+              {renderError("state")}
+            </div>
+
+            <div className="space-y-2">
+              <label
+                htmlFor="city"
+                className="text-sm font-medium text-gray-700 flex items-center gap-2"
+              >
+                <MapPin className="w-4 h-4 text-green-600" />
+                Select City *
+              </label>
+              <Input
+                id="city"
+                placeholder="Enter your city"
+                className="h-12 border-gray-200 focus:border-green-500 focus:ring-green-500 transition-colors"
+                {...form.register("city")}
+              />
+              {renderError("city")}
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="space-y-2">
+              <label
+                htmlFor="showroom"
+                className="text-sm font-medium text-gray-700 flex items-center gap-2"
+              >
+                <Store className="w-4 h-4 text-green-600" />
+                Do you have showroom/space? *
+              </label>
+              <select
+                {...form.register("showroom")}
+                className="w-full h-12 border border-gray-200 rounded-md px-4 py-3 focus:border-green-500 focus:ring-green-500 focus:outline-none transition-colors bg-white"
+              >
+                <option value="">Select an option</option>
+                <option value="Yes">Yes, I have a showroom/space</option>
+                <option value="No">No, I need assistance finding space</option>
+              </select>
+              {renderError("showroom")}
+            </div>
+
+            <div className="space-y-2">
+              <label
+                htmlFor="investment"
+                className="text-sm font-medium text-gray-700 flex items-center gap-2"
+              >
+                <DollarSign className="w-4 h-4 text-green-600" />
+                Investment Capacity *
+              </label>
+              <select
+                {...form.register("investment")}
+                className="w-full h-12 border border-gray-200 rounded-md px-4 py-3 focus:border-green-500 focus:ring-green-500 focus:outline-none transition-colors bg-white"
+              >
+                <option value="">Select investment range</option>
+                <option value="₹5-10 lakh">₹5-10 lakh</option>
+                <option value="₹10-15 lakh">₹10-15 lakh</option>
+                <option value="Above ₹15 lakh">Above ₹15 lakh</option>
+              </select>
+              {renderError("investment")}
+            </div>
+          </div>
+
+          <button type="submit" disabled={isSubmitting} className="btn">
+            {isSubmitting ? (
+              <>
+                <Loader2 className="mr-3 h-6 w-6 animate-spin" />
+                Processing Your Request...
+              </>
+            ) : (
+              <>
+                {/* <Send className="mr-3 h-6 w-6" /> */}
+                Submit Dealer Application
+              </>
+            )}
+          </button>
+        </form>
       </div>
-
-      {/* Company & Become */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="space-y-2">
-          <label htmlFor="company">Company Name *</label>
-          <Input id="company" {...form.register("company")} />
-          {renderError("company")}
-        </div>
-
-        <div className="space-y-2">
-          <label htmlFor="become">Become a? *</label>
-          <select
-            {...form.register("become")}
-            className="w-full border border-gray-300 rounded-md px-3 py-2"
-          >
-            <option value="">Select</option>
-            <option value="Dealer">Dealer</option>
-            <option value="Government Supply">Government Supply</option>
-            <option value="Business Use">Business Use</option>
-          </select>
-          {renderError("become")}
-        </div>
-      </div>
-
-      {/* State & City */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="space-y-2">
-          <label htmlFor="state">Select State *</label>
-          <Input id="state" {...form.register("state")} />
-          {renderError("state")}
-        </div>
-
-        <div className="space-y-2">
-          <label htmlFor="city">Select City *</label>
-          <Input id="city" {...form.register("city")} />
-          {renderError("city")}
-        </div>
-      </div>
-
-      {/* Showroom & Investment */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="space-y-2">
-          <label htmlFor="showroom">Do you have showroom/space? *</label>
-          <select
-            {...form.register("showroom")}
-            className="w-full border border-gray-300 rounded-md px-3 py-2"
-          >
-            <option value="">Select</option>
-            <option value="Yes">Yes</option>
-            <option value="No">No</option>
-          </select>
-          {renderError("showroom")}
-        </div>
-
-        <div className="space-y-2">
-          <label htmlFor="investment">Investment Capacity *</label>
-          <select
-            {...form.register("investment")}
-            className="w-full border border-gray-300 rounded-md px-3 py-2"
-          >
-            <option value="">Select</option>
-            <option value="₹5-10 lakh">₹5-10 lakh</option>
-            <option value="₹10-15 lakh">₹10-15 lakh</option>
-            <option value="Above ₹15 lakh">Above ₹15 lakh</option>
-          </select>
-          {renderError("investment")}
-        </div>
-      </div>
-
-      {/* Product Enquiring For */}
-
-      {/* Additional Message */}
-      <div className="space-y-2">
-        <label htmlFor="message">Additional Requirements</label>
-        <Textarea
-          id="message"
-          rows={4}
-          placeholder="Any extra details..."
-          {...form.register("message")}
-        />
-      </div>
-
-      <Separator />
-
-      <div className="text-sm text-gray-600">
-        <p>* Required fields</p>
-        <p className="mt-1">
-          We respect your privacy and will never share your information.
-        </p>
-      </div>
-
-      <Button type="submit" className="w-full  btn" disabled={isSubmitting}>
-        {isSubmitting ? (
-          <>
-            <Loader2 className="mr-2 h-5 w-5 animate-spin" /> Processing
-            Request...
-          </>
-        ) : (
-          <>
-            <Send className="mr-2 h-5 w-5" /> Submit Professional Enquiry
-          </>
-        )}
-      </Button>
-    </form>
+    </div>
   );
 }

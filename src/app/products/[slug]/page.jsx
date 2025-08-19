@@ -33,7 +33,7 @@ export default async function Page({ params }) {
   const data = await response.json();
 
   if (!data) return <div>Not Found</div>;
-
+  console.log("Product Data:", data);
   return (
     <div className="  overflow-hidden">
       <MainProductViewer product={data.data} />

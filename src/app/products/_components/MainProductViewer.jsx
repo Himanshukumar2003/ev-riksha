@@ -9,9 +9,19 @@ import "swiper/css";
 import EnquiryFormModal from "./form";
 
 export default function MainProductViewer({ product }) {
-  const [selectedColor, setSelectedColor] = useState(0);
+  // const [selectedColor, setSelectedColor] = useState(0);
+  // const [swiperImg, setSwiperImage] = useState(product.carousel);
   const [selectedState, setSelectedState] = useState("");
   const [selectedCity, setSelectedCity] = useState("");
+
+  // Update Swiper images when selectedColor changes
+  // useEffect(() => {
+  //   if (product?.colors?.[selectedColor]) {
+  //     setSwiperImage(
+  //       product.colors[selectedColor].carousel || product.carousel
+  //     );
+  //   }
+  // }, [selectedColor, product]);
 
   {
     /* ---------- PRICE STATES & FUNCTIONS COMMENTED ---------- */
@@ -120,7 +130,7 @@ export default function MainProductViewer({ product }) {
               </div>
 
               {/* Colors */}
-              {product?.colors?.length > 0 && (
+              {/* {product?.colors?.length > 0 && (
                 <div className="mb-6 sm:mb-8">
                   <div className="flex items-center gap-2 mb-3">
                     <Palette className="w-5 h-5 text-green-600" />
@@ -137,7 +147,9 @@ export default function MainProductViewer({ product }) {
                             ? "border-green-600 ring-2 ring-green-200 scale-110 shadow-xl"
                             : "border-gray-300 hover:border-green-400 hover:shadow-lg"
                         }`}
-                        style={{ backgroundColor: color.color }}
+                        style={{
+                          backgroundColor: color.color_hex || color.color,
+                        }}
                         onClick={() => setSelectedColor(index)}
                       >
                         {selectedColor === index && (
@@ -149,7 +161,7 @@ export default function MainProductViewer({ product }) {
                     ))}
                   </div>
                 </div>
-              )}
+              )} */}
 
               {/* State/City Pricing */}
               {/* <div className="mb-6 sm:mb-8">
