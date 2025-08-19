@@ -519,3 +519,9 @@ h6 {
     /* compact */
   }
 }
+
+
+.writing-vertical-rl {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}

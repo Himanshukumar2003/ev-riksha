@@ -1,4 +1,7 @@
+"use client";
+
 import Container from "@mui/material/Container";
+import { useState } from "react";
 import {
   Facebook,
   Twitter,
@@ -10,8 +13,11 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import BecomeDealerDialog from "./become-dealer-dialog";
+import { Button } from "./ui/button";
 
 export default function Footer() {
+  const [isOpen, setIsOpen] = useState(false);
   const data = [
     { title: "Noida", city: "noida" },
     { title: "Ghaziabad", city: "ghaziabad" },
@@ -279,6 +285,13 @@ export default function Footer() {
           </div>
         </Container>
       </footer>
+      <Button
+        className="  rotate-90 bottom-4 right-[-50px] z-50 bgOne py-6  text-white fixed  top-[50%]  max-h-[100px] cursor-pointer "
+        onClick={() => setIsOpen(true)}
+      >
+        Become a Dealer
+      </Button>
+      <BecomeDealerDialog isOpen={isOpen} setIsOpen={setIsOpen} />{" "}
     </>
   );
 }

@@ -44,7 +44,7 @@ export default function Products() {
                   className="    object-contain transition-transform duration-700 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <Badge className="absolute top-4 right-4 bg-white/90 text-gray-800 shadow-lg backdrop-blur-sm border-0 font-semibold">
+                <Badge className="absolute capitalize top-4 right-4 bg-white/90 text-gray-800 shadow-lg backdrop-blur-sm border-0 font-semibold">
                   {product.category}
                 </Badge>
                 <div className="absolute top-4 left-4 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">

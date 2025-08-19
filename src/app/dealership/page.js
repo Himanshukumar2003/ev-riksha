@@ -38,10 +38,9 @@ import {
 import Container from "@mui/material/Container";
 import FeaturesSection from "./_feachers";
 import AllVehiclesSwiper from "@/components/products";
-import EnquiryFormData from "@/components/dealerForm";
 import Breadcrumb from "@/components/breadcrumb";
 export const metadata = {
-  title: "M Start Your EV Dealership with Mac Auto – Apply Now!",
+  title: " Start Your EV Dealership with Mac Auto – Apply Now!",
   keywords: `electric vehicle dealership India, EV dealer near me, best EV dealership India, electric vehicles in India, electric vehicles cost India, e rickshaw dealership India, electric auto rickshaw dealer India, electric auto rickshaw market India, e‑rickshaw business opportunity India `,
   description:
     "Partner with Mac Auto for a profitable EV dealership. Low investment, high returns & full support to grow your electric vehicle business. Apply today!",
@@ -493,16 +492,6 @@ export default function Component() {
                 ></div>
               </Card>
             ))}
-          </div>
-
-          {/* Call to Action */}
-          <div className="section  flex justify-center">
-            <div className="inline-flex items-center gap-4 bg-white rounded-full px-8 py-4 shadow-lg">
-              <span className="text-gray-600 font-medium">
-                Ready to get started?
-              </span>
-              <EnquiryFormData />
-            </div>
           </div>
         </Container>
       </section>

@@ -99,7 +99,7 @@ export default function MainProductViewer({ product }) {
                     </span>
                   </div>
                   <div>
-                    <div className="text-xs sm:text-sm text-gray-500 font-medium">
+                    <div className="text-xs capitalize sm:text-sm text-gray-500 font-medium">
                       {product?.category}
                     </div>
                     <h1
