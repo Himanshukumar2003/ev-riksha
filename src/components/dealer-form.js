@@ -186,7 +186,7 @@ export default function DealerForm({
               <Input
                 id="phoneNumber"
                 type="tel"
-                placeholder="+91 9876543210"
+                placeholder="+91 9999999999"
                 className="h-12 border-gray-200 focus:border-green-500 focus:ring-green-500 transition-colors"
                 {...form.register("phoneNumber")}
               />
