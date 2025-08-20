@@ -174,14 +174,31 @@ export default function RootLayout({ children }) {
             fbq('track', 'PageView');
           `}
         </Script>
+
         <noscript>
-          <img
+          <Image
             className="hidden w-full"
             style={{ display: "none" }}
             alt="Facebook Pixel"
+            width={100}
+            height={100}
             src="https://www.facebook.com/tr?id=932744845716336&ev=PageView&noscript=1"
           />
         </noscript>
+
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-YKPT1J5NNE"
+          strategy="afterInteractive"
+          async
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-YKPT1J5NNE');
+          `}
+        </Script>
       </head>
 
       <meta
@@ -196,7 +213,6 @@ export default function RootLayout({ children }) {
       >
         <Layout>{children}</Layout>
         <Toaster />
-        
       </body>
     </html>
   );
