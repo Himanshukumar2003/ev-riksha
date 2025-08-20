@@ -20,7 +20,11 @@ export default function BecomeDealerDialog({ isOpen, setIsOpen }) {
         <DialogContent className="sm:max-w-[600px] p-0 bg-white border border-gray-200 max-h-[90vh] overflow-y-auto">
           {/* Scrollable Form Body */}
           <div className="p-8">
-            <DealerForm />
+            <DealerForm
+              callback={() => {
+                setIsOpen(false);
+              }}
+            />
           </div>
         </DialogContent>
       </Dialog>

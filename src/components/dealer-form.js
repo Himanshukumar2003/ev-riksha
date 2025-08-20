@@ -7,7 +7,6 @@ import * as z from "zod";
 import { toast } from "sonner";
 import {
   Loader2,
-  Send,
   User,
   Mail,
   Phone,
@@ -22,48 +21,56 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 
 const enquiryFormSchema = z.object({
-  vehicle_id: z.string().min(1, { message: "Vehicle ID is required." }),
-  name: z.string().min(2, { message: "Name must be at least 2 characters." }),
-  email: z.string().email({ message: "Invalid email address." }),
-  phone: z
-    .string()
-    .min(10, { message: "Phone number must be at least 10 digits." }),
-  company: z.string().min(2, { message: "Company name is required." }),
-  state: z.string().min(1, { message: "State is required." }),
-  city: z.string().min(1, { message: "City is required." }),
-  showroom: z.string().min(1, { message: "Please select an option." }),
-  investment: z
-    .string()
-    .min(1, { message: "Please select your investment capacity." }),
+  firstName: z.string().min(1, "First name is required"),
+  lastName: z.string().optional(),
+  city: z.string().min(1, "City is required"),
+  state: z.string().min(1, "State is required"),
+  phoneNumber: z.string().regex(/^[6-9]\d{9}$/, {
+    message:
+      "Phone number must be a valid 10-digit Indian number starting with 6-9",
+  }),
+  companyName: z.string().min(1, "Company name is required"),
+  cfDoYouHaveShowroomSpace: z.enum(["Yes", "No"], {
+    message: "Do You Have Showroom Space is required, select 'Yes' OR 'No'",
+  }),
+  cfInvestmentCapacity: z.string().min(1),
+  email: z.string().email("Invalid email address"),
 });
 
-export default function DealerForm({ productId = "", onClose }) {
+export default function DealerForm({
+  productId = "",
+  onClose,
+  callback = null,
+}) {
   const [isSubmitting, setIsSubmitting] = useState(false);
-
+  console.log("first");
   const form = useForm({
     resolver: zodResolver(enquiryFormSchema),
-    defaultValues: {
-      vehicle_id: productId,
-      name: "",
-      email: "",
-      phone: "",
-      company: "",
-      state: "",
-      city: "",
-      showroom: "",
-      investment: "",
-    },
+    defaultValues: { vehicle_id: productId },
   });
+  console.log(form.formState.errors);
 
   const onSubmit = async (data) => {
+    console.log("first");
     setIsSubmitting(true);
     try {
+      // API call
       const response = await fetch(
-        "https://api.macautoindia.com/v1/enquiries",
+        "https://api.macautoindia.com/v1/kylas/leads",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(data),
+          body: JSON.stringify({
+            firstName: data.firstName,
+            lastName: data.lastName,
+            state: data.state,
+            city: data.city,
+            phoneNumber: data.phoneNumber,
+            companyName: data.companyName,
+            email: data.email,
+            cfDoYouHaveShowroomSpace: data.cfDoYouHaveShowroomSpace,
+            cfInvestmentCapacity: data.cfInvestmentCapacity,
+          }),
         }
       );
 
@@ -74,6 +81,7 @@ export default function DealerForm({ productId = "", onClose }) {
 
       toast.success("Your enquiry has been submitted successfully.");
       form.reset();
+      typeof callback === "function" && callback();
     } catch (error) {
       toast.error(
         error instanceof Error
@@ -94,8 +102,8 @@ export default function DealerForm({ productId = "", onClose }) {
     );
 
   return (
-    <div className="">
-      <div className="">
+    <div>
+      <div>
         <Button
           onClick={onClose}
           variant="ghost"
@@ -106,28 +114,48 @@ export default function DealerForm({ productId = "", onClose }) {
         </Button>
       </div>
 
-      <div className=" ">
+      <div>
         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
-          <input type="hidden" {...form.register("vehicle_id")} />
+          {/* <input type="hidden" {...form.register("vehicle_id")} /> */}
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* First Name */}
             <div className="space-y-2">
               <label
                 htmlFor="name"
                 className="text-sm font-medium text-gray-700 flex items-center gap-2"
               >
                 <User className="w-4 h-4 text-green-600" />
-                Full Name *
+                First Name *
               </label>
               <Input
-                id="name"
-                placeholder="Enter your full name"
+                id="firstName"
+                placeholder="Enter your first name"
                 className="h-12 border-gray-200 focus:border-green-500 focus:ring-green-500 transition-colors"
-                {...form.register("name")}
+                {...form.register("firstName")}
               />
-              {renderError("name")}
+              {renderError("firstName")}
             </div>
 
+            {/* Last Name */}
+            <div className="space-y-2">
+              <label
+                htmlFor="lastName"
+                className="text-sm font-medium text-gray-700 flex items-center gap-2"
+              >
+                <User className="w-4 h-4 text-green-600" />
+                Last Name *
+              </label>
+              <Input
+                id="lastName"
+                placeholder="Enter your last name"
+                className="h-12 border-gray-200 focus:border-green-500 focus:ring-green-500 transition-colors"
+                {...form.register("lastName")}
+              />
+              {renderError("lastName")}
+            </div>
+
+            {/* Email */}
             <div className="space-y-2">
               <label
                 htmlFor="email"
@@ -145,9 +173,8 @@ export default function DealerForm({ productId = "", onClose }) {
               />
               {renderError("email")}
             </div>
-          </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Phone & Company */}
             <div className="space-y-2">
               <label
                 htmlFor="phone"
@@ -157,34 +184,33 @@ export default function DealerForm({ productId = "", onClose }) {
                 Phone Number *
               </label>
               <Input
-                id="phone"
+                id="phoneNumber"
                 type="tel"
                 placeholder="+91 9876543210"
                 className="h-12 border-gray-200 focus:border-green-500 focus:ring-green-500 transition-colors"
-                {...form.register("phone")}
+                {...form.register("phoneNumber")}
               />
-              {renderError("phone")}
+              {renderError("phoneNumber")}
             </div>
 
             <div className="space-y-2">
               <label
-                htmlFor="company"
+                htmlFor="companyName"
                 className="text-sm font-medium text-gray-700 flex items-center gap-2"
               >
                 <Building className="w-4 h-4 text-green-600" />
                 Company Name *
               </label>
               <Input
-                id="company"
+                id="companyName"
                 placeholder="Your company name"
                 className="h-12 border-gray-200 focus:border-green-500 focus:ring-green-500 transition-colors"
-                {...form.register("company")}
+                {...form.register("companyName")}
               />
-              {renderError("company")}
+              {renderError("companyName")}
             </div>
-          </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* State & City */}
             <div className="space-y-2">
               <label
                 htmlFor="state"
@@ -218,38 +244,36 @@ export default function DealerForm({ productId = "", onClose }) {
               />
               {renderError("city")}
             </div>
-          </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="space-y-2">
               <label
-                htmlFor="showroom"
+                htmlFor="cfDoYouHaveShowroomSpace"
                 className="text-sm font-medium text-gray-700 flex items-center gap-2"
               >
                 <Store className="w-4 h-4 text-green-600" />
                 Do you have showroom/space? *
               </label>
               <select
-                {...form.register("showroom")}
+                {...form.register("cfDoYouHaveShowroomSpace")}
                 className="w-full h-12 border border-gray-200 rounded-md px-4 py-3 focus:border-green-500 focus:ring-green-500 focus:outline-none transition-colors bg-white"
               >
                 <option value="">Select an option</option>
-                <option value="Yes">Yes, I have a showroom/space</option>
-                <option value="No">No, I need assistance finding space</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
               </select>
-              {renderError("showroom")}
+              {renderError("cfDoYouHaveShowroomSpace")}
             </div>
 
             <div className="space-y-2">
               <label
-                htmlFor="investment"
+                htmlFor="cfInvestmentCapacity"
                 className="text-sm font-medium text-gray-700 flex items-center gap-2"
               >
                 <DollarSign className="w-4 h-4 text-green-600" />
                 Investment Capacity *
               </label>
               <select
-                {...form.register("investment")}
+                {...form.register("cfInvestmentCapacity")}
                 className="w-full h-12 border border-gray-200 rounded-md px-4 py-3 focus:border-green-500 focus:ring-green-500 focus:outline-none transition-colors bg-white"
               >
                 <option value="">Select investment range</option>
@@ -257,21 +281,23 @@ export default function DealerForm({ productId = "", onClose }) {
                 <option value="₹10-15 lakh">₹10-15 lakh</option>
                 <option value="Above ₹15 lakh">Above ₹15 lakh</option>
               </select>
-              {renderError("investment")}
+              {renderError("cfInvestmentCapacity")}
             </div>
           </div>
 
-          <button type="submit" disabled={isSubmitting} className="btn">
+          {/* Submit */}
+          <button
+            type="submit"
+            disabled={isSubmitting}
+            className="btn flex items-center gap-2"
+          >
             {isSubmitting ? (
               <>
-                <Loader2 className="mr-3 h-6 w-6 animate-spin" />
+                <Loader2 className="h-5 w-5 animate-spin" />
                 Processing Your Request...
               </>
             ) : (
-              <>
-                {/* <Send className="mr-3 h-6 w-6" /> */}
-                Submit Dealer Application
-              </>
+              "Submit Dealer Application"
             )}
           </button>
         </form>
