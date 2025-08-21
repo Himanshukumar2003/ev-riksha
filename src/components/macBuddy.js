@@ -54,9 +54,9 @@ export default function MacBuddy() {
 
       {/* Dropdown Menu */}
       {isOpen && (
-        <div className="absolute bottom-20 right-0 w-96 origin-bottom-right transform overflow-hidden rounded-3xl bg-white/90 backdrop-blur-xl shadow-2xl animate-in slide-in-from-bottom-4 fade-in-0">
+        <div className="absolute bottom-20   -right-5 lg:right-0 w-96 origin-bottom-right transform overflow-hidden rounded-3xl bg-white/90 backdrop-blur-xl shadow-2xl animate-in slide-in-from-bottom-4 fade-in-0">
           {/* Header */}
-          <div className="relative p-6 bg-gradient-to-tr bgThree rounded-t-3xl shadow-md">
+          <div className="relative p-4 md:p-6 bg-gradient-to-tr bgThree rounded-t-3xl shadow-md">
             <div className="absolute inset-0 bg-black/10 rounded-t-3xl"></div>
             <div className="relative flex items-center">
               <div className="mr-4 rounded-full bg-white/20 p-3 backdrop-blur-sm">
@@ -76,11 +76,10 @@ export default function MacBuddy() {
           </div>
 
           {/* Messages */}
-          <div className="max-h-72 overflow-y-auto p-6 bg-gradient-to-b from-gray-50 to-white">
+          <div className="max-h-72 overflow-y-auto p-4 md:p-6 bg-gradient-to-b from-gray-50 to-white">
             {[
               "👋 Hey there! I'm MacBuddy, your personal Mac expert and troubleshooter.",
-              "Whether you need help with setup, troubleshooting, or optimization - I've got you covered! 🚀",
-              "What Mac challenge can I help you solve today?",
+              ,
             ].map((msg, index) => (
               <div
                 key={index}
@@ -99,10 +98,10 @@ export default function MacBuddy() {
           <div className="p-6 border-t border-gray-200/50 bg-white/80">
             <div className="space-y-3">
               <a
-                href="https://wa.me/message/VI74RZXV4UM4N1"
+                href="https://api.whatsapp.com/send/?phone=919990018193&text=I+want+to+know+more+about+Dealership+Program&type=phone_number&app_absent=0"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center gap-3 w-full px-6 py-4 font-semibold text-white rounded-xl shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl active:scale-95 bgThree"
+                className="flex items-center justify-center gap-3 w-full px-6 py-4 font-semibold text-white rounded-[20px] shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl active:scale-95  bgThree"
               >
                 <MessageCircle
                   size={20}
