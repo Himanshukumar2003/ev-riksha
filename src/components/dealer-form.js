@@ -19,6 +19,7 @@ import {
 
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
+import { useRouter } from "next/navigation"; // ✅ yeh use karein
 
 const enquiryFormSchema = z.object({
   firstName: z.string().min(1, "First name is required"),
@@ -43,6 +44,7 @@ export default function DealerForm({
   callback = null,
 }) {
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const router = useRouter();
   console.log("first");
   const form = useForm({
     resolver: zodResolver(enquiryFormSchema),
