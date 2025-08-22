@@ -176,12 +176,10 @@ export default function RootLayout({ children }) {
         </Script>
 
         <noscript>
-          <Image
+          <img
             className="hidden w-full"
             style={{ display: "none" }}
             alt="Facebook Pixel"
-            width={100}
-            height={100}
             src="https://www.facebook.com/tr?id=932744845716336&ev=PageView&noscript=1"
           />
         </noscript>

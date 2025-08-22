@@ -80,8 +80,11 @@ export default function DealerForm({
       }
 
       toast.success("Your enquiry has been submitted successfully.");
+      toast.success("Your enquiry has been submitted successfully.");
+
       form.reset();
       typeof callback === "function" && callback();
+      router.push("/thank-you");
     } catch (error) {
       toast.error(
         error instanceof Error
