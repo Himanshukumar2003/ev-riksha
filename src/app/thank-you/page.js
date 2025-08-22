@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function ThankYouPage() {
   return (
-    <div className="min-h-screen section  flex items-center justify-center ">
+    <div className="section  flex items-center justify-center ">
       <div className="max-w-2xl w-full space-y-8 text-center">
         {/* Hero Section */}
 
