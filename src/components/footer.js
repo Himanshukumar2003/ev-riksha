@@ -15,6 +15,7 @@ import Image from "next/image";
 import Link from "next/link";
 import BecomeDealerDialog from "./become-dealer-dialog";
 import { Button } from "./ui/button";
+import { FaYoutube } from "react-icons/fa6";
 
 export default function Footer() {
   const [isOpen, setIsOpen] = useState(false);
@@ -221,10 +222,10 @@ export default function Footer() {
                   </Link>
                   <Link
                     target="_blank"
-                    href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmacautoindiaofficial%2F&is_from_rle"
+                    href="https://www.youtube.com/@Macautoindia"
                     className="w-10 h-10 bg-slate-700 hover:bg-blue-700 rounded-lg flex items-center justify-center transition-colors"
                   >
-                    <Linkedin className="w-5 h-5" />
+                    <FaYoutube className="w-5 h-5" />
                   </Link>
                   <Link
                     href="https://www.instagram.com/macautoindiaofficial/"
