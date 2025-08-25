@@ -9,7 +9,7 @@ import "swiper/css";
 import EnquiryFormModal from "./form";
 
 export default function MainProductViewer({ product }) {
-  // const [selectedColor, setSelectedColor] = useState(0);
+  const [selectedColor, setSelectedColor] = useState(0);
   // const [swiperImg, setSwiperImage] = useState(product.carousel);
   const [selectedState, setSelectedState] = useState("");
   const [selectedCity, setSelectedCity] = useState("");
@@ -130,7 +130,7 @@ export default function MainProductViewer({ product }) {
               </div>
 
               {/* Colors */}
-              {/* {product?.colors?.length > 0 && (
+              {product?.colors?.length > 0 && (
                 <div className="mb-6 sm:mb-8">
                   <div className="flex items-center gap-2 mb-3">
                     <Palette className="w-5 h-5 text-green-600" />
@@ -161,7 +161,7 @@ export default function MainProductViewer({ product }) {
                     ))}
                   </div>
                 </div>
-              )} */}
+              )}
 
               {/* State/City Pricing */}
               {/* <div className="mb-6 sm:mb-8">
