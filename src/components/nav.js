@@ -8,6 +8,8 @@ import SearchSidebar from "./serchbar";
 import Link from "next/link";
 import Container from "@mui/material/Container";
 import { Button, buttonVariants } from "@/components/ui/button";
+import { BiSupport } from "react-icons/bi";
+
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -102,7 +104,7 @@ export default function Navbar() {
             >
               MAC Care
             </Link>
-            <Link
+            {/* <Link
               href="/mac-rental"
               className={cn(
                 buttonVariants({ variant: "outline" }),
@@ -110,7 +112,7 @@ export default function Navbar() {
               )}
             >
               MAC Rental
-            </Link>
+            </Link> */}
             <Link
               href="/dealership"
               className={cn(
@@ -120,7 +122,7 @@ export default function Navbar() {
             >
               Dealership
             </Link>
-            <DropdownMenu>
+            {/* <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button
                   variant="outline"
@@ -183,7 +185,11 @@ export default function Navbar() {
                   }
                 )}
               </DropdownMenuContent>
-            </DropdownMenu>
+            </DropdownMenu> */}
+            <span className="text-white gap-2 font-medium hidden lg:flex text-sm items-center md:text-base">
+              <BiSupport className="text-xl" />
+              Help/support
+            </span>
             <span className="text-white gap-2 font-medium hidden lg:flex text-sm md:text-base">
               <Phone /> +91 80 9062 9062
             </span>
@@ -508,13 +514,13 @@ export default function Navbar() {
                       >
                         MAC Care
                       </Link>
-                      <Link
+                      {/* <Link
                         href="/mac-rental"
                         className="block font-medium py-2 border-b border-gray-200"
                         onClick={() => setIsMobileMenuOpen(false)}
                       >
                         MAC Rental
-                      </Link>
+                      </Link> */}
                       <Link
                         href="/dealership"
                         className="block font-medium py-2 border-b border-gray-200"

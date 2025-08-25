@@ -135,7 +135,7 @@ export default function MainProductViewer({ product }) {
                   <div className="flex items-center gap-2 mb-3">
                     <Palette className="w-5 h-5 text-green-600" />
                     <h3 className="text-base sm:text-lg font-semibold text-gray-700">
-                      Select Color
+                      Available Color
                     </h3>
                   </div>
                   <div className="flex flex-wrap gap-2 sm:gap-3">

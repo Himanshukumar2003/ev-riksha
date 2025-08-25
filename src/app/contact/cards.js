@@ -22,27 +22,27 @@ const services = [
     description: "8090629062",
     link: "tel:8090629062",
   },
-  {
-    id: 3,
-    icon: Wrench,
-    title: "Service Support",
-    description: "service@macauto.in",
-    link: "mailto:service@macauto.in",
-  },
-  {
-    id: 4,
-    icon: Mail,
-    title: "Mail Us",
-    description: "info@macauto.in",
-    link: "mailto:info@macauto.in",
-  },
+  // {
+  //   id: 3,
+  //   icon: Wrench,
+  //   title: "Service Support",
+  //   description: "service@macauto.in",
+  //   link: "mailto:service@macauto.in",
+  // },
+  // {
+  //   id: 4,
+  //   icon: Mail,
+  //   title: "Mail Us",
+  //   description: "info@macauto.in",
+  //   link: "mailto:info@macauto.in",
+  // },
 ];
 
 export default function ServicesSection() {
   return (
     <section className="section">
       <Container maxWidth="xl">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
           {services.map((service) => {
             const IconComponent = service.icon;
             return (
