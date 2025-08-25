@@ -5,7 +5,7 @@ import Container from "@mui/material/Container";
 import Image from "next/image";
 
 export default function Features({ product }) {
-  const features = product.features.map((item, index) => ({
+  const features = product?.features?.map((item, index) => ({
     ...item,
     id: `feature-${index}`,
   }));

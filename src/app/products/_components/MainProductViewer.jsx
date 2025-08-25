@@ -57,6 +57,7 @@ export default function MainProductViewer({ product }) {
   */
   }
 
+  console.log(product);
   const handleStateChange = (value) => {
     setSelectedState(value);
     setSelectedCity("");
@@ -85,7 +86,6 @@ export default function MainProductViewer({ product }) {
                           width={400}
                           height={400}
                           className="object-contain w-full max-h-[400px]"
-                          priority={index === 0}
                         />
                       </div>
                     </SwiperSlide>
