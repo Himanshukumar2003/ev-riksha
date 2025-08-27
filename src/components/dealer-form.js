@@ -172,7 +172,7 @@ export default function DealerForm({
               <Input
                 id="email"
                 type="email"
-                placeholder="your.email@company.com"
+                placeholder="Enter your Email"
                 className="h-12 border-gray-200 focus:border-green-500 focus:ring-green-500 transition-colors"
                 {...form.register("email")}
               />
@@ -191,7 +191,7 @@ export default function DealerForm({
               <Input
                 id="phoneNumber"
                 type="tel"
-                placeholder="+91 9999999999"
+                placeholder="+91 99 9999 9999"
                 className="h-12 border-gray-200 focus:border-green-500 focus:ring-green-500 transition-colors"
                 {...form.register("phoneNumber")}
               />

@@ -25,7 +25,7 @@ export default function Features({ product }) {
 
     setTimeout(() => {
       setActiveSection(sectionId);
-      const section = features.find((s) => s.id === sectionId);
+      const section = features?.find((s) => s.id === sectionId);
       const imageUrl = section?.image
         ? `https://api.macautoindia.com/${section.image.replace(/\\/g, "/")}`
         : "/placeholder.svg";
@@ -38,7 +38,7 @@ export default function Features({ product }) {
 
   return (
     <>
-      {features.length > 0 && (
+      {features?.length > 0 && (
         <div className="bg-gray-100 section">
           <Container maxWidth="xl">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-0">

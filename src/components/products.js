@@ -88,6 +88,20 @@ export default function AllVehiclesSwiper() {
                     <Badge className="absolute top-4 right-4  capitalize bg-white/90 text-gray-800 shadow-lg font-semibold ">
                       {product.category}
                     </Badge>
+                    <div className="absolute top-4 left-4 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
+                      <div className="flex gap-2 mb-4">
+                        {product.colors?.map((color, i) => (
+                          <div
+                            key={i}
+                            title={color.name}
+                            className="w-6 h-6 rounded-full border-2 border-gray-300"
+                            style={{
+                              backgroundColor: color.color,
+                            }}
+                          ></div>
+                        ))}
+                      </div>
+                    </div>
                   </div>
                   <CardHeader>
                     <CardTitle className="text-xl font-bold group-hover:text-green-500 text-gray-900 transition-colors duration-300">

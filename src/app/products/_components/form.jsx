@@ -137,7 +137,7 @@ export default function EnquiryFormData({ productId }) {
                   <Input
                     id="name"
                     {...form.register("name")}
-                    className="border-gray-300 focus:border-blue-600 focus:ring-blue-600 rounded-md"
+                    className="border-gray-300 focus:border-blue-600 focus:ring-blue-600 rounded-md "
                     placeholder="Enter your full name"
                   />
                   {form.formState.errors.name && (
@@ -184,7 +184,7 @@ export default function EnquiryFormData({ productId }) {
                     type="tel"
                     {...form.register("phone")}
                     className="border-gray-300 focus:border-blue-600 focus:ring-blue-600 rounded-md"
-                    placeholder="+1 (555) 123-4567"
+                    placeholder="+91 123 456-4567"
                   />
                   {form.formState.errors.phone && (
                     <p className="text-sm text-red-600 flex items-center gap-1">
@@ -235,7 +235,7 @@ export default function EnquiryFormData({ productId }) {
               <div className="space-y-2">
                 <label
                   htmlFor="email"
-                  className="text-gray-700 font-semibold text-sm uppercase tracking-wide"
+                  className="text-gray-700   font-normal text-sm uppercase tracking-wide"
                 >
                   Location *
                 </label>
@@ -245,7 +245,7 @@ export default function EnquiryFormData({ productId }) {
                   name="location"
                   {...form.register("location")}
                   className="border-gray-300 focus:border-blue-600 focus:ring-blue-600 rounded-md"
-                  placeholder="your.email@company.com"
+                  placeholder="Enter Your Location"
                 />
                 {form.formState.errors.location && (
                   <p className="text-sm text-red-600 flex items-center gap-1">

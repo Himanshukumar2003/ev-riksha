@@ -1,12 +1,13 @@
 "use client";
 import { useState, useEffect } from "react";
-import { MapPin, Palette } from "lucide-react";
+import { ChevronDown, Download, MapPin, Palette } from "lucide-react";
 import Container from "@mui/material/Container";
 import Image from "next/image";
 import EMICalculator from "./emi-calculator";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import EnquiryFormModal from "./form";
+import { Button } from "@/components/ui/button";
 
 export default function MainProductViewer({ product }) {
   const [selectedColor, setSelectedColor] = useState(0);
@@ -62,6 +63,8 @@ export default function MainProductViewer({ product }) {
     setSelectedState(value);
     setSelectedCity("");
   };
+
+  console.log(product);
 
   return (
     <>
@@ -231,7 +234,33 @@ export default function MainProductViewer({ product }) {
               
               </div> */}
 
-              <EnquiryFormModal productId={product?.id} />
+              <div className="flex gap-4 rounded-[10px]">
+                <EnquiryFormModal productId={product?.id} />
+                {product?.brochure?.length > 0 && (
+                  <Button
+                    variant="outline"
+                    className="text-green-500 hover:bg-green-500 hover:text-white rounded-[8px]"
+                    onClick={() => {
+                      const fileUrl = `https://api.macautoindia.com/${product.brochure[0]}`;
+                      const link = document.createElement("a");
+                      link.href = fileUrl;
+                      link.target = "_blank";
+                      const fileName = product?.title
+                        ? `${product.title}-brochure.pdf`
+                        : "brochure.pdf";
+                      link.setAttribute("download", fileName);
+                      document.body.appendChild(link);
+                      link.click();
+                      document.body.removeChild(link);
+                    }}
+                  >
+                    <span className="flex items-center gap-2">
+                      <Download className="h-4 w-4" />
+                      Download Brochure
+                    </span>
+                  </Button>
+                )}
+              </div>
             </div>
           </div>
         </Container>

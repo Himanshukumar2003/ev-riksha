@@ -19,7 +19,7 @@ const services = [
     id: 2,
     icon: PhoneCall,
     title: "Sales (Call Us 24x7)",
-    description: "8090629062",
+    description: "+91 80 9062 9062",
     link: "tel:8090629062",
   },
   // {
@@ -71,7 +71,7 @@ export default function ServicesSection() {
 
                     {/* Description */}
                     <div className="space-y-4">
-                      <p className="text-gray-600 text-sm leading-relaxed">
+                      <p className="text-gray-600 text-lg leading-relaxed">
                         {service.description}
                       </p>
                     </div>

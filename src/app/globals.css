@@ -520,3 +520,16 @@ h6 {
   }
 
 }
+
+
+
+.form-section h2 {
+  margin-bottom: 30px;
+
+}
+
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 0.5;
+}

@@ -241,19 +241,24 @@ export default function Component() {
       <Breadcrumb title="Dealership" />
 
       <div className="section">
-        <Container maxWidth="xl">
-          <div className="">
+        <Container maxWidth="lg">
+          <div className="grid lg:grid-cols-2 gap-6 lg:gap-2">
             {/* Left side - Images */}
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden">
                 <Image
-                  src="/img/benaer3.webp"
+                  src="/img/banner4.jpeg"
                   alt="Interior design team collaborating on projects"
                   width={2000}
                   height={2000}
-                  className="w-full h-auto object-contain   shadow-2xl  relative "
+                  className="w-full h-auto   object-contain max-h-[650px]   shadow-2xl     relative "
                 />
               </div>
+            </div>
+
+            <div className="form-section  shadow-2xl p-4">
+              <h2 className="mb-10">Apply For Dealership</h2>
+              <DealerForm></DealerForm>
             </div>
           </div>
         </Container>
@@ -648,7 +653,7 @@ export default function Component() {
                 <p className="text-gray-600">
                   Fill out our Dealer Inquiry Form or contact us today
                 </p>
-                <div className="flex gap-2 items-center font-bold">
+                {/* <div className="flex gap-2 items-center font-bold">
                   <MailIcon className="text-green-600 mt-2"></MailIcon>{" "}
                   <a
                     className="text-gray-600 mt-2"
@@ -657,7 +662,7 @@ export default function Component() {
                   >
                     dealers@macauto.in
                   </a>
-                </div>
+                </div> */}
               </div>
               <button className=" flex gap-2 bg-gradient-to-r from-[var(--color-primary-light)] to-[var(--color-primary-dark)] text-white px-8 py-3 rounded-full font-semibold hover:from-green-700 hover:to-green-800 transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl">
                 <Phone></Phone>
