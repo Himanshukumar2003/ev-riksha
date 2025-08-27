@@ -308,7 +308,7 @@ export default function Navbar() {
                           </div>
                           <div className="mt-6">
                             <Link
-                              href={selectedCategory.toLowerCase()}
+                              href={`/${selectedCategory.toLowerCase()}`}
                               className="text-sm font-medium hover:text-gray-700"
                             >
                               View all {selectedCategory} →

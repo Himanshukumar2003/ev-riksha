@@ -64,8 +64,6 @@ export default function MainProductViewer({ product }) {
     setSelectedCity("");
   };
 
-  console.log(product);
-
   return (
     <>
       <div className="section">
