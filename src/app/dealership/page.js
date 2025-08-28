@@ -241,7 +241,7 @@ export default function Component() {
       <Breadcrumb title="Dealership" />
 
       <div className="section">
-        <div className="contanier max-w-5xl mx-auto">
+        <div className="contanier max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-6 lg:gap-0">
             {/* Left side - Images */}
             <div className="relative">
