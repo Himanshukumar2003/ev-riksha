@@ -241,17 +241,17 @@ export default function Component() {
       <Breadcrumb title="Dealership" />
 
       <div className="section">
-        <Container maxWidth="lg">
-          <div className="grid lg:grid-cols-2 gap-6 lg:gap-2">
+        <div className="contanier max-w-5xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-6 lg:gap-0">
             {/* Left side - Images */}
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden">
                 <Image
-                  src="/img/banner4.jpeg"
+                  src="/img/banner5.jpeg"
                   alt="Interior design team collaborating on projects"
                   width={2000}
                   height={2000}
-                  className="w-full h-auto   object-contain max-h-[650px]   shadow-2xl     relative "
+                  className="w-full h-auto  max-h-[470px]   shadow-2xl     relative    object-contain "
                 />
               </div>
             </div>
@@ -261,7 +261,7 @@ export default function Component() {
               <DealerForm></DealerForm>
             </div>
           </div>
-        </Container>
+        </div>
       </div>
 
       <section className=" section">
