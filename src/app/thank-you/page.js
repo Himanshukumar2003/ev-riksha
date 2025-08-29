@@ -1,6 +1,5 @@
 "use client";
 
-import RedirectToHome from "@/components/RedirectToHome ";
 import { Card, CardContent } from "@/components/ui/card";
 import { Heart } from "lucide-react";
 import Link from "next/link";
