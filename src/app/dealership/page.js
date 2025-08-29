@@ -1,8 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+
 import {
   CheckCircle2,
   Phone,
@@ -36,13 +34,7 @@ import {
   RefreshCw,
   ArrowLeft,
 } from "lucide-react";
-import { IoArrowBackOutline } from "react-icons/io5";
 
-import Container from "@mui/material/Container";
-import FeaturesSection from "./_feachers";
-import AllVehiclesSwiper from "@/components/products";
-import Breadcrumb from "@/components/breadcrumb";
-import Btn from "@/components/btn";
 import DealerForm from "@/components/dealer-form";
 export const metadata = {
   title: " Start Your EV Dealership with Mac Auto – Apply Now!",
