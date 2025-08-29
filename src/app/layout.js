@@ -9,7 +9,7 @@ import Layout from "@/components/layout/layout";
 import { Toaster } from "sonner";
 import Script from "next/script";
 import Image from "next/image";
-
+import { GoogleAnalytics } from "@next/third-parties/google";
 // Local SpeedBeast font
 const SpeedBeast = localFont({
   src: [
@@ -197,13 +197,23 @@ export default function RootLayout({ children }) {
             gtag('config', 'G-YKPT1J5NNE');
           `}
         </Script>
+
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-5ZV7QXWR"
+            height="0"
+            width="0"
+            style="display:none;visibility:hidden"
+          ></iframe>
+        </noscript>
       </head>
 
       <meta
         name="google-site-verification"
         content="eMK-J7AIIge48keTYluNj9JqmmIGzGLqgoohVld9lB4"
       />
-      <GoogleTagManager gtmId="G-5Z8REY1QK8" />
+      <GoogleAnalytics gaId="G-5Z8REY1QK8" />
+      <GoogleTagManager gtmId="GTM-5ZV7QXWR" />
 
       <body
         className={`${SpeedBeast.variable} ${manrope.variable} antialiased`}

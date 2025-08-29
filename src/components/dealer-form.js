@@ -15,14 +15,16 @@ const enquiryFormSchema = z.object({
   firstName: z.string().min(1, "First name is required"),
   lastName: z.string().optional(),
   city: z.string().min(1, "City is required"),
+  state: z.string().min(1, "State is required"),
+
   phoneNumber: z.string().regex(/^[6-9]\d{9}$/, {
     message:
       "Phone number must be a valid 10-digit Indian number starting with 6-9",
   }),
-  cfDoYouHaveShowroomSpace: z.enum(["Yes", "No"], {
-    message: "Please select showroom/space option",
-  }),
-  cfInvestmentCapacity: z.string().min(1, "Investment capacity is required"),
+  // cfDoYouHaveShowroomSpace: z.enum(["Yes", "No"], {
+  //   message: "Please select showroom/space option",
+  // }),
+  // cfInvestmentCapacity: z.string().min(1, "Investment capacity is required"),
 });
 
 export default function DealerForm({
@@ -49,10 +51,12 @@ export default function DealerForm({
           body: JSON.stringify({
             firstName: data.firstName,
             lastName: data.lastName,
+            state: data.state,
+
             city: data.city,
             phoneNumber: data.phoneNumber,
-            cfDoYouHaveShowroomSpace: data.cfDoYouHaveShowroomSpace,
-            cfInvestmentCapacity: data.cfInvestmentCapacity,
+            // cfDoYouHaveShowroomSpace: data.cfDoYouHaveShowroomSpace,
+            // cfInvestmentCapacity: data.cfInvestmentCapacity,
           }),
         }
       );
@@ -170,9 +174,25 @@ export default function DealerForm({
             />
             {renderError("city")}
           </div>
+          <div className="space-y-2">
+            <label
+              htmlFor="state"
+              className="text-sm font-medium text-gray-700 flex items-center gap-2"
+            >
+              <MapPin className="w-4 h-4 text-green-600" />
+              State *
+            </label>
+            <Input
+              id="state"
+              placeholder="Enter your state"
+              className="h-12 border-gray-200 focus:border-green-500 focus:ring-green-500 transition-colors"
+              {...form.register("state")}
+            />
+            {renderError("state")}
+          </div>
 
           {/* Showroom Space */}
-          <div className="space-y-2">
+          {/* <div className="space-y-2">
             <label
               htmlFor="cfDoYouHaveShowroomSpace"
               className="text-sm font-medium text-gray-700 flex items-center gap-2"
@@ -189,10 +209,10 @@ export default function DealerForm({
               <option value="No">No</option>
             </select>
             {renderError("cfDoYouHaveShowroomSpace")}
-          </div>
+          </div> */}
 
           {/* Investment Capacity */}
-          <div className="space-y-2">
+          {/* <div className="space-y-2">
             <label
               htmlFor="cfInvestmentCapacity"
               className="text-sm font-medium text-gray-700 flex items-center gap-2"
@@ -210,7 +230,7 @@ export default function DealerForm({
               <option value="Above ₹15 lakh">Above ₹15 lakh</option>
             </select>
             {renderError("cfInvestmentCapacity")}
-          </div>
+          </div> */}
         </div>
 
         {/* Submit */}

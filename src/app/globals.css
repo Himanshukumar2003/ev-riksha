@@ -527,9 +527,3 @@ h6 {
   margin-bottom: 30px;
 
 }
-
-
-input::placeholder,
-textarea::placeholder {
-  opacity: 0.5;
-}

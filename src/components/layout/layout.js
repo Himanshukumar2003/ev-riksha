@@ -8,8 +8,7 @@ import MacBuddy from "../macBuddy";
 
 export default function Layout({ children }) {
   const pathname = usePathname();
-  const notShow = pathname === "/enquire";
-  const routes = ["/enquire"];
+  const routes = ["/dealership"];
 
   if (routes.includes(pathname)) return children;
   return (
