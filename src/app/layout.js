@@ -203,7 +203,7 @@ export default function RootLayout({ children }) {
             src="https://www.googletagmanager.com/ns.html?id=GTM-5ZV7QXWR"
             height="0"
             width="0"
-            style="display:none;visibility:hidden"
+            style={{ display: none, visibility: hidden }}
           ></iframe>
         </noscript>
       </head>
