@@ -85,7 +85,7 @@ export default function BlogMainPage() {
                     alt={blog.blogTitle}
                     width={400}
                     height={250}
-                    className="w-full max-h-[250px] transition-transform duration-300 group-hover:scale-105"
+                    className="w-full h-[250px] transition-transform duration-300 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
                 </div>

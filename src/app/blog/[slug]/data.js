@@ -91,10 +91,10 @@ export const blogs = [
     ],
   },
   {
-    blogTitle: "Mac Auto Leading the E Rickshaw Revolution in India",
+    blogTitle: "Mac Auto Leading the E-Rickshaw Revolution in India",
     slug: "mac-auto-leading-the-e-rickshaw-revolution-in-india",
     mainImage: "/img/blog/blog-3.jpg",
-    date: "Saturday, 26 July 2025", // Added date field
+    date: "Saturday, 26 July 2025",
 
     gallery: [
       "/placeholder.svg?height=200&width=200",
@@ -122,7 +122,7 @@ export const blogs = [
         summary: [
           "Mac Auto started with a mission to revolutionize urban and semi-urban transportation in India. At a time when electric vehicles were still considered a novelty, Mac Auto took bold steps by investing in research, innovation, and local manufacturing.",
           "The goal? To build electric rickshaws that are not only reliable and durable but also designed with the Indian terrain and customer in mind.",
-          "More than a decade later, Mac Auto is a name trusted by thousands across the country. With a PAN India presence, the company has helped countless drivers transition to electric vehicles — lowering running costs, reducing pollution, and improving livelihoods.",
+          "More than a decade later, Mac Auto is a name trusted by thousands across the country. With a PAN India presence, the company has helped countless drivers transition to electric rickshaws — lowering running costs, reducing pollution, and improving livelihoods.",
         ],
       },
       {
@@ -137,36 +137,21 @@ export const blogs = [
         summary: [
           "What truly sets Mac Auto apart from others is its continuous focus on innovation. Their in-house R&D team constantly works on improving the battery systems, motor efficiency, and overall vehicle performance.",
           "Their e-rickshaws are built with patented technology, featuring modern designs that don’t just look good but also offer better aerodynamics, comfort, and load capacity.",
-          "Whether it’s a passenger e-rickshaw or a cargo model, each product is a result of thoughtful engineering tailored for Indian users.",
+          "Every passenger e-rickshaw they produce is the result of thoughtful engineering tailored for Indian users.",
         ],
-      },
-      {
-        title: "Electric Cargo Carts India Can Rely On",
-        summary: [
-          "While Mac Auto made a name with passenger e-rickshaws, their Electric Cargo Carts in India are quickly gaining popularity too.",
-          "Designed for small businesses, delivery services, and vendors, these carts offer a practical, cost-effective, and eco-friendly way to transport goods.",
-        ],
-        points: [
-          "High load capacity",
-          "Rugged tires",
-          "Reliable battery life",
-          "Ideal for last-mile logistics in congested areas",
-        ],
-        subdescription:
-          "These cargo carts are a game-changer for India’s last-mile logistics, especially as diesel vehicles are phased out.",
       },
       {
         title: "Sustainability at the Core",
         summary: [
           "As a responsible EV Manufacturing Company in India, Mac Auto understands the urgent need to reduce carbon emissions and dependency on fossil fuels.",
-          "By promoting electric rickshaws and cargo carts, they’re directly contributing to India’s green mobility mission.",
+          "By promoting electric rickshaws, they’re directly contributing to India’s green mobility mission.",
           "Every vehicle manufactured by Mac Auto India replaces a polluting petrol or diesel engine on the road. Multiply that impact across thousands of vehicles, and the result is a significant reduction in CO₂ emissions, noise pollution, and fuel costs for users.",
         ],
       },
       {
         title: "Empowering Local Economies",
         summary: [
-          "Beyond technology and sustainability, Mac Auto has a deeply human story. By providing affordable electric mobility solutions, the company is empowering thousands of small business owners, rickshaw drivers, and delivery workers across India.",
+          "Beyond technology and sustainability, Mac Auto has a deeply human story. By providing affordable electric mobility solutions, the company is empowering thousands of small business owners, rickshaw drivers, and families across India.",
           "Earning a daily living becomes easier when vehicle maintenance is minimal, fuel is cheap (or zero), and performance is reliable.",
           "Mac Auto’s efforts are creating ripple effects — improving financial stability and promoting self-employment in urban and rural communities alike.",
         ],
@@ -185,7 +170,6 @@ export const blogs = [
         points: [
           "✔️ i-CAT Certified Electric Rickshaws that ensure safety and performance",
           "✔️ Affordable, low-maintenance vehicles perfect for Indian conditions",
-          "✔️ Electric Cargo Carts India needs for urban deliveries",
           "✔️ Modern designs with robust engineering",
           "✔️ PAN India network with dedicated support",
           "✔️ Focus on sustainable, eco-friendly solutions",
@@ -197,14 +181,14 @@ export const blogs = [
         summary: [
           "Mac Auto isn’t just building vehicles — they’re building the future of mobility in India.",
           "As government policies push for EV adoption and clean transportation, companies like Mac Auto are leading the charge with scalable, sustainable, and socially responsible solutions.",
-          "In the coming years, we can expect Mac Auto to expand its lineup, innovate in battery tech, and explore newer markets across Asia and Africa.",
+          "In the coming years, we can expect Mac Auto to expand its lineup, innovate in battery technology, and explore newer markets across Asia and Africa.",
           "But one thing will remain unchanged: their commitment to delivering quality electric vehicles that drive change — both on the road and in society.",
         ],
       },
       {
         title: "Final Thoughts",
         summary: [
-          "Whether you're a passenger looking for safe travel, a business seeking green delivery solutions, or a driver wanting to upgrade to electric, Mac Auto has something powerful to offer.",
+          "Whether you're a passenger looking for safe travel or a driver wanting to upgrade to electric, Mac Auto has something powerful to offer.",
           "Backed by years of experience, strong engineering, and a passion for clean energy, Mac Auto India is not just participating in the EV revolution — they are leading it.",
         ],
       },
@@ -287,21 +271,7 @@ export const blogs = [
           },
         ],
       },
-      {
-        title: "Electric Cargo Solutions by Mac Auto",
 
-        summary: [
-          "Mac Auto is also leading in the Electric Cargo Carts India segment. These carts are perfect for:",
-        ],
-        points: [
-          "Grocery deliveries",
-          "Local supply chain logistics",
-          "Waste collection",
-          "Food & beverage transportation",
-        ],
-        subdescription:
-          "Electric cargo carts reduce operational costs for businesses and support a cleaner city infrastructure.",
-      },
       {
         title: "A Future-Focused EV Manufacturer",
         summary: [
