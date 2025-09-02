@@ -231,6 +231,13 @@ export default function Footer() {
                   >
                     <Instagram className="w-5 h-5" />
                   </Link>
+                  <Link
+                    target="_blank"
+                    href="https://www.linkedin.com/company/mac-auto-india-pvt-ltd"
+                    className="w-10 h-10 bg-slate-700 hover:bg-blue-700 rounded-lg flex items-center justify-center transition-colors"
+                  >
+                    <Linkedin className="w-5 h-5" />
+                  </Link>
                 </div>
               </div>
             </div>
