@@ -10,16 +10,16 @@ import "swiper/css/effect-fade";
 
 const images = [
   {
-    src: "/img/banner7.jpeg",
+    src: "/img/banner7.png",
     alt: "Image 1",
   },
   {
-    src: "/img/banner9.jpeg",
+    src: "/img/banner9.png",
     alt: "Image 2",
   },
 
   {
-    src: "/img/banner8.jpeg",
+    src: "/img/banner8.png",
     alt: "Image 3",
   },
 
