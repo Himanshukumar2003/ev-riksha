@@ -60,6 +60,7 @@ export default function ImageSwiper() {
                 alt={image.alt || "Banner image"}
                 width={2000}
                 height={2000}
+                // className="max-h-[800px]"
               />
             </div>
           </SwiperSlide>
