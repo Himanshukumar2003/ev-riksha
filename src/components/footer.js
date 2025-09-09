@@ -44,6 +44,7 @@ export default function Footer() {
                   alt="logo"
                   width={150}
                   height={150}
+                  className="w-[150px] md:w-[200px]  scale-105"
                 ></Image>
               </div>
               <p className="text-sm text-gray-400 mb-6 leading-relaxed">
