@@ -57,11 +57,10 @@ export default function VehicleCategoryFilter() {
       <div className="container mx-auto px-4 py-12">
         <div className="text-center mb-12 max-w-[800px] mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-transparent mb-4">
-            Power up your savings with eco-friendly Passenger, Cargo & Garbage
-            vehicles. Pick your category now!
+            From passengers to cargo — we’ve got an EV for every need.
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Choose your preferred vehicle category and discover amazing deals
+            Explore your category now!
           </p>
         </div>
 
