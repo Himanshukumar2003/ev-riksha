@@ -47,16 +47,14 @@ export default function Footer() {
                   className="w-[150px] md:w-[200px]  scale-105"
                 ></Image>
               </div>
+              <h5 className="font-medium text-gray-400">     MACK.EV – Driving E-Rickshaw Innovation Since 2014</h5>
               <p className="text-sm text-gray-400 mb-6 leading-relaxed">
-                Mac Auto – Driving E-Rickshaw Innovation Since 2014. As one of
-                India’s pioneering electric vehicle manufacturers, we specialize
-                in eco-friendly E-Rickshaws and loading carts with patented
-                designs and i-CAT certifications. With a PAN India presence, Mac
-                Auto is committed to delivering innovative, reliable, and
-                high-performance electric mobility solutions. Our dedication to
-                quality and customer satisfaction sets us apart in the EV
-                industry.
-              </p>
+          
+
+As one of India’s pioneering electric vehicle manufacturers, MACK EV (formerly Mac Auto) specializes in eco-friendly E-Rickshaws and loading carts with patented designs and i-CAT certifications. With a strong PAN India presence, MACK EV is committed to delivering innovative, reliable, and high-performance electric mobility solutions.
+</p>
+<p className="text-sm text-gray-400 mb-6 leading-relaxed">Our dedication to quality and customer satisfaction sets us apart in the EV industry, as we continue to power a cleaner and greener future.
+       </p>      
             </div>
 
             {/* Company Section */}

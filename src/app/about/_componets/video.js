@@ -45,28 +45,16 @@ export default function VideoSection() {
                 SINCE 2014
               </div>
               <div className="text-2xl md:text-3xl font-bold leading-tight mb-6">
-                Mac Auto – Driving E-Rickshaw Innovation Since 2014
+                MACK EV – Driving Electric 3-Wheeler Innovation Since 2014
               </div>
               <p className="text-gray-600 text-lg leading-relaxed">
-                Founded in 2014, Mac Auto started as a visionary venture and has
-                grown into one of India’s top electric mobility brands with a
-                strong PAN India presence.
+                Founded in 2014 as Mac Auto, our journey began as a visionary venture and has grown into one of India’s top electric mobility brands with a strong PAN India presence. Today, we proudly carry forward that legacy as MACK EV, continuing to redefine sustainable mobility.</p>
+
+              <p className="text-gray-600 text-lg leading-relaxed">We specialize in manufacturing Electric 3-Wheeler Vehicles, spare parts, and accessories. All our products are i-CAT certified and recognized for patented technology and modern designs.
               </p>
-              <p className="text-gray-600 text-lg leading-relaxed">
-                We specialize in manufacturing Electric Rickshaws, spare parts,
-                and accessories. All products are i-CAT certified and known for
-                our patented technology and modern designs.
+              <p className="text-gray-600 text-lg leading-relaxed">Our lineup includes eco-friendly Electric 3-Wheelers for passengers and Electric Carts for cargo transportation – all built to support sustainable mobility.
               </p>
-              <p className="text-gray-600 text-lg leading-relaxed">
-                Our lineup includes eco-friendly Electric Rickshaws for
-                passengers and Electric Carts for cargo transportation, built to
-                support sustainable mobility.
-              </p>
-              <p className="text-gray-600 text-lg leading-relaxed">
-                With a skilled technical team and a well-equipped manufacturing
-                setup, we continue to innovate and contribute to a cleaner,
-                greener future.
-              </p>
+              <p className="text-gray-600 text-lg leading-relaxed">With a skilled technical team and a well-equipped manufacturing setup, MACK EV continues to innovate and contribute to a cleaner, greener future.</p>
             </div>
           </div>
         </div>

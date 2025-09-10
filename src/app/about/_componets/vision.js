@@ -6,14 +6,13 @@ export default function Component() {
       <div className="max-w-6xl mx-auto text-center ">
         <div className="mb-20">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8">
+
             Driving India&apos;s EV Future
           </h2>
 
           {/* Subtitle */}
           <p className="text-lg text-gray-700 mb-4 max-w-4xl mx-auto leading-relaxed">
-            At Mac Auto India, we believe in delivering sustainable, affordable,
-            and innovative electric mobility solutions to power the future of
-            transportation.
+          At MACK EV (formerly Mac Auto India), we believe in delivering sustainable, affordable, and innovative electric mobility solutions to power the future of transportation — with a strong focus on Electric 3-Wheeler Vehicles and beyond.
           </p>
         </div>
 
