@@ -70,22 +70,32 @@ export default function VehicleCategoryFilter() {
             <p>loading...</p>
           ) : (
             <>
-              {["passenger", "loader", "garbage", "golf"].map((category) => {
-                const selected = categories.find((cat) => cat.id === category);
+              {[
+                { id: "passenger", image: "/img/passenger.png" },
+                { id: "loader", image: "/img/loader.png" },
+                { id: "garbage" },
+                { id: "golf" },
+              ].map((category) => {
+                const selected = categories.find(
+                  (cat) => cat.id === category.id
+                );
+
+                const imageSrc =
+                  category.image ||
+                  `https://api.macautoindia.com/${selected?.carousel?.[0]}`;
+
                 return (
                   <button
-                    key={category}
-                    onClick={() => setSelectedCategory(category)}
+                    key={category.id}
+                    onClick={() => setSelectedCategory(category.id)}
                     className={`group relative flex flex-col items-center p-2 lg:p-8 rounded-2xl transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 text-black shadow:none lg:shadow-2xl ${
-                      selectedCategory === category
+                      selectedCategory === category.id
                         ? "bg-[linear-gradient(135deg,#8BC248,#58B947)] text-white"
                         : "bg-gray-100"
                     }`}
                   >
                     <Image
-                      src={`https://api.macautoindia.com/${
-                        selected?.carousel?.[0] || "images/vehicle-icon.png"
-                      }`}
+                      src={imageSrc}
                       alt={selected?.name ?? ""}
                       width={100}
                       height={100}
