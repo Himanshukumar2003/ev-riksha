@@ -22,7 +22,7 @@ import Breadcrumb from "@/components/breadcrumb";
 export const metadata = {
   title: "Mac Rental – Flexible E-Rickshaw Hire & Rent-to-Own Plans",
   description:
-    "Get 24×7 Mac Care after-sales support, genuine parts, AMC plans & expert help to keep your Mac Auto e-rickshaw running smoothly and reliably every day.",
+    "Get 24×7 Mac Care after-sales support, genuine parts, AMC plans & expert help to keep your MACK EV e-rickshaw running smoothly and reliably every day.",
 
   alternates: {
     canonical: `/sales-service`,
@@ -32,14 +32,14 @@ export default function SalesService() {
   const portalContent = {
     title: "Mac Care – After Sales Service Portal",
     description:
-      "Your dedicated hub for all Mac Auto after-sales services, ensuring your vehicle runs smoothly and efficiently.",
+      "Your dedicated hub for all MACK EV after-sales services, ensuring your vehicle runs smoothly and efficiently.",
     sections: [
       {
         id: "login",
         title: "Customer Login",
         description:
           "Access your vehicle dashboard, service history, AMC details & raise service tickets.",
-        details: "Secure portal for registered Mac Auto customers.",
+        details: "Secure portal for registered MACK EV customers.",
         actionText: "Login Now",
         actionLink: "#",
         icon: LogIn,
@@ -59,7 +59,7 @@ export default function SalesService() {
         id: "parts",
         title: "Spare Parts Option",
         description:
-          "Explore our range of genuine Mac Auto spare parts for all models:",
+          "Explore our range of genuine MACK EV spare parts for all models:",
         details: [
           "Batteries",
           "Controllers",

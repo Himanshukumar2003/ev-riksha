@@ -6,9 +6,9 @@ export const data = [
     slug: "electric-three-wheeler-noida",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto, undertook the acquisition of Faridabad-based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with a 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad-based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with a 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -87,9 +87,9 @@ export const data = [
     slug: "top-10-e-loader-manufacturers-in-noida",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -166,9 +166,9 @@ export const data = [
     slug: "best-e-loader-noida",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -246,9 +246,9 @@ export const data = [
     slug: "electric-rickshaw-noida",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -326,9 +326,9 @@ export const data = [
     slug: "e-auto-rickshaw-noida",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -416,9 +416,9 @@ export const data = [
     slug: "e-scooters-noida",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -507,9 +507,9 @@ export const data = [
     slug: "e-tricycle-noida",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -598,9 +598,9 @@ export const data = [
     slug: "e-loader-noida",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -626,7 +626,7 @@ export const data = [
     featuresPerformance: {
       title: "Why Mac E Loader?",
       description:
-        "Committed to building a clean last mile, Mac Auto proudly presents the Mac E-Rickshaw through its electric mobility subsidiary – Mego. With a strategic acquisition and a strong presence in the electric 3-wheeler market, Mac E-Rickshaw is designed to empower drivers with reliable performance, cost-efficiency, and increased earnings.",
+        "Committed to building a clean last mile, MACK EV proudly presents the Mac E-Rickshaw through its electric mobility subsidiary – Mego. With a strategic acquisition and a strong presence in the electric 3-wheeler market, Mac E-Rickshaw is designed to empower drivers with reliable performance, cost-efficiency, and increased earnings.",
       features: [
         {
           title: "Strong Build with Advanced Safety",
@@ -690,9 +690,9 @@ export const data = [
     slug: "electric-three-wheeler-ghaziabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -790,9 +790,9 @@ export const data = [
     slug: "electric-rickshaw-ghaziabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -890,9 +890,9 @@ export const data = [
     slug: "e-auto-rickshaw-ghaziabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -990,9 +990,9 @@ export const data = [
     slug: "top-10-e-loader-ghaziabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -1090,9 +1090,9 @@ export const data = [
     slug: "best-e-loader-ghaziabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto, undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -1170,9 +1170,9 @@ export const data = [
     slug: "e-scooters-ghaziabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto, undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -1250,9 +1250,9 @@ export const data = [
     slug: "e-tricycle-ghaziabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto, undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -1330,9 +1330,9 @@ export const data = [
     slug: "e-loader-ghaziabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto, undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -1410,9 +1410,9 @@ export const data = [
     slug: "top-10-e-rickshaw-ghaziabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto, undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -1488,9 +1488,9 @@ export const data = [
     slug: "e-rickshaw-ghaziabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community",
     ],
     driverBenefits: {
       title: "Enabling auto drivers with better employability",
@@ -1565,9 +1565,9 @@ export const data = [
     slug: "electric-three-wheeler-meerut",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Enabling auto drivers with better employability",
@@ -1644,9 +1644,9 @@ export const data = [
     slug: "e-loader-meerut",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Enabling auto drivers with better employability",
@@ -1737,9 +1737,9 @@ export const data = [
     slug: "electric-rickshaw-meerut",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Enabling auto drivers with better employability",
@@ -1815,9 +1815,9 @@ export const data = [
     slug: "top-10-e-loader-meerut",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Enabling auto drivers with better employability",
@@ -1893,9 +1893,9 @@ export const data = [
   //   slug: "electric-three-wheeler-meerut",
   //   img: "/img/benaer3.webp",
   //   paragraphs: [
-  //     "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-  //     "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-  //     "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+  //     "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+  //     "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+  //     "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
   //   ],
   //   driverBenefits: {
   //     title: "Enabling auto drivers with better employability",
@@ -1966,9 +1966,9 @@ export const data = [
     slug: "e-tricycle-meerut/",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Enabling auto drivers with better employability",
@@ -2039,9 +2039,9 @@ export const data = [
     slug: "e-scooters-meerut",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Enabling auto drivers with better employability",
@@ -2112,9 +2112,9 @@ export const data = [
     slug: "best-e-loader-meerut",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Enabling auto drivers with better employability",
@@ -2185,9 +2185,9 @@ export const data = [
     slug: "top-10-e-rickshaw-meerut",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Enabling auto drivers with better employability",
@@ -2258,9 +2258,9 @@ export const data = [
     slug: "e-rickshaw-meerut",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Enabling auto drivers with better employability",
@@ -2331,9 +2331,9 @@ export const data = [
     slug: "electric-three-wheeler-moradabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Enabling auto drivers with better employability",
@@ -2409,9 +2409,9 @@ export const data = [
     slug: "electric-three-wheeler-moradabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto takes pride in presenting the Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto, undertook the acquisition of Faridabad-based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad-based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -2482,7 +2482,7 @@ export const data = [
     slug: "top-10-e-loader-moradabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to building a clean last mile, Mac Auto proudly introduces the Mac E-Rickshaw under its electric mobility arm – Mego. With the acquisition of a Faridabad-based E-3Wheeler company holding 74% stake, Mac Auto aims to strengthen its presence in the rapidly growing E-Rickshaw segment across India.",
+      "Committed to building a clean last mile, MACK EV proudly introduces the Mac E-Rickshaw under its electric mobility arm – Mego. With the acquisition of a Faridabad-based E-3Wheeler company holding 74% stake, MACK EV aims to strengthen its presence in the rapidly growing E-Rickshaw segment across India.",
 
       "Mac E-Rickshaw is built for Indian roads with a strong steel body, ABS roof, alloy wheels and powerful drum brakes. It is ICAT-approved, offers a low running cost of just ₹2/km, and delivers up to 100 km range on a single charge — making it a clean, affordable and high-performance solution.",
 
@@ -2562,7 +2562,7 @@ export const data = [
     slug: "best-e-loader-moradabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to building a clean last mile, Mac Auto proudly presents the Mac E-Rickshaw under its electric mobility arm – Mego. With a 74% acquisition of a Faridabad-based E-3Wheeler company, Mac Auto is strengthening its position in the evolving E-2W and E-3W mobility market.",
+      "Committed to building a clean last mile, MACK EV proudly presents the Mac E-Rickshaw under its electric mobility arm – Mego. With a 74% acquisition of a Faridabad-based E-3Wheeler company, MACK EV is strengthening its position in the evolving E-2W and E-3W mobility market.",
 
       "Built for Indian roads, the Mac E-Rickshaw features a steel body, ABS roof, alloy wheels, and drum brakes. It is ICAT-approved, with a range of up to 100 km per charge and a running cost of just ₹2/km, making it a reliable, affordable, and eco-friendly choice for daily transport.",
 
@@ -2642,9 +2642,9 @@ export const data = [
     slug: "electric-scooter-moradabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -2720,9 +2720,9 @@ export const data = [
     slug: "electric-tricycle-moradabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -2798,9 +2798,9 @@ export const data = [
     slug: "e-rickshaw-moradabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E‑Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly‑owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad‑based E‑3Wheeler company Mac Auto which sells Electric Auto‑Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e‑mobility arm of Mego) will expand its presence in the fast disrupting E‑Rickshaw segment to become an integrated last mile E‑Mobility player with strong presence in both E‑2W and E‑3W. E‑Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost‑effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E‑Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly‑owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad‑based E‑3Wheeler company MACK EV which sells Electric Auto‑Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e‑mobility arm of Mego) will expand its presence in the fast disrupting E‑Rickshaw segment to become an integrated last mile E‑Mobility player with strong presence in both E‑2W and E‑3W. E‑Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost‑effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -2855,7 +2855,7 @@ export const data = [
         {
           title: "Proven Track Record",
           description:
-            "Mac Auto India is recognized as one of the top E‑Rickshaw brands in India, with wide adoption.",
+            "MACK EV is recognized as one of the top E‑Rickshaw brands in India, with wide adoption.",
         },
         {
           title: "160+ Dealer & Service Touchpoints",
@@ -2876,8 +2876,8 @@ export const data = [
     slug: "electric-loader-moradabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to taking concrete steps towards building a clean last mile, Mac Auto takes pride in presenting the Mac E‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly owned electric mobility subsidiary of Mac Auto, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts, and more under the Mac Auto India brand. These vehicles offer eco‑friendly alternatives to diesel or petrol-powered vehicles.",
+      "Committed to taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the Mac E‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly owned electric mobility subsidiary of MACK EV, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts, and more under the MACK EV brand. These vehicles offer eco‑friendly alternatives to diesel or petrol-powered vehicles.",
       "The Mac Zorawar E‑Loader is designed for efficient goods transport. It features a high loading capacity (500–1000 kg), regenerative braking, and lithium‑ion batteries—making it ideal for cost‑effective cargo operations across narrow lanes.",
     ],
     driverBenefits: {
@@ -2933,7 +2933,7 @@ export const data = [
         {
           title: "Comprehensive Electric Range",
           description:
-            "Mac Auto India offers a broad range of passenger and cargo EVs—including rickshaws, carts, loaders, and scooters—serving customers across India.",
+            "MACK EV offers a broad range of passenger and cargo EVs—including rickshaws, carts, loaders, and scooters—serving customers across India.",
         },
         {
           title: "Strong Dealer & Support Network",
@@ -2954,9 +2954,9 @@ export const data = [
     slug: "top-10-e-rickshaw-moradabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto, undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -3032,9 +3032,9 @@ export const data = [
     slug: "e-auto-rickshaw-moradabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -3121,9 +3121,9 @@ export const data = [
     slug: "electric-three-wheeler-banaras",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Enabling auto drivers with better employability",
@@ -3199,9 +3199,9 @@ export const data = [
     slug: "electric-three-wheeler-banaras",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto takes pride in presenting the Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto, undertook the acquisition of Faridabad-based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad-based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -3272,7 +3272,7 @@ export const data = [
     slug: "top-10-e-loader-Banaras",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to building a clean last mile, Mac Auto proudly introduces the Mac E-Rickshaw under its electric mobility arm – Mego. With the acquisition of a Faridabad-based E-3Wheeler company holding 74% stake, Mac Auto aims to strengthen its presence in the rapidly growing E-Rickshaw segment across India.",
+      "Committed to building a clean last mile, MACK EV proudly introduces the Mac E-Rickshaw under its electric mobility arm – Mego. With the acquisition of a Faridabad-based E-3Wheeler company holding 74% stake, MACK EV aims to strengthen its presence in the rapidly growing E-Rickshaw segment across India.",
 
       "Mac E-Rickshaw is built for Indian roads with a strong steel body, ABS roof, alloy wheels and powerful drum brakes. It is ICAT-approved, offers a low running cost of just ₹2/km, and delivers up to 100 km range on a single charge — making it a clean, affordable and high-performance solution.",
 
@@ -3352,7 +3352,7 @@ export const data = [
     slug: "best-e-loader-banaras",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to building a clean last mile, Mac Auto proudly presents the Mac E-Rickshaw under its electric mobility arm – Mego. With a 74% acquisition of a Faridabad-based E-3Wheeler company, Mac Auto is strengthening its position in the evolving E-2W and E-3W mobility market.",
+      "Committed to building a clean last mile, MACK EV proudly presents the Mac E-Rickshaw under its electric mobility arm – Mego. With a 74% acquisition of a Faridabad-based E-3Wheeler company, MACK EV is strengthening its position in the evolving E-2W and E-3W mobility market.",
 
       "Built for Indian roads, the Mac E-Rickshaw features a steel body, ABS roof, alloy wheels, and drum brakes. It is ICAT-approved, with a range of up to 100 km per charge and a running cost of just ₹2/km, making it a reliable, affordable, and eco-friendly choice for daily transport.",
 
@@ -3432,9 +3432,9 @@ export const data = [
     slug: "electric-scooter-banaras",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -3510,9 +3510,9 @@ export const data = [
     slug: "electric-tricycle-banaras",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -3588,9 +3588,9 @@ export const data = [
     slug: "e-rickshaw-banaras",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E‑Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly‑owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad‑based E‑3Wheeler company Mac Auto which sells Electric Auto‑Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e‑mobility arm of Mego) will expand its presence in the fast disrupting E‑Rickshaw segment to become an integrated last mile E‑Mobility player with strong presence in both E‑2W and E‑3W. E‑Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost‑effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E‑Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly‑owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad‑based E‑3Wheeler company MACK EV which sells Electric Auto‑Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e‑mobility arm of Mego) will expand its presence in the fast disrupting E‑Rickshaw segment to become an integrated last mile E‑Mobility player with strong presence in both E‑2W and E‑3W. E‑Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost‑effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -3645,7 +3645,7 @@ export const data = [
         {
           title: "Proven Track Record",
           description:
-            "Mac Auto India is recognized as one of the top E‑Rickshaw brands in India, with wide adoption.",
+            "MACK EV is recognized as one of the top E‑Rickshaw brands in India, with wide adoption.",
         },
         {
           title: "160+ Dealer & Service Touchpoints",
@@ -3666,8 +3666,8 @@ export const data = [
     slug: "electric-loader-banaras",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to taking concrete steps towards building a clean last mile, Mac Auto takes pride in presenting the Mac E‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly owned electric mobility subsidiary of Mac Auto, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts, and more under the Mac Auto India brand. These vehicles offer eco‑friendly alternatives to diesel or petrol-powered vehicles.",
+      "Committed to taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the Mac E‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly owned electric mobility subsidiary of MACK EV, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts, and more under the MACK EV brand. These vehicles offer eco‑friendly alternatives to diesel or petrol-powered vehicles.",
       "The Mac Zorawar E‑Loader is designed for efficient goods transport. It features a high loading capacity (500–1000 kg), regenerative braking, and lithium‑ion batteries—making it ideal for cost‑effective cargo operations across narrow lanes.",
     ],
     driverBenefits: {
@@ -3723,7 +3723,7 @@ export const data = [
         {
           title: "Comprehensive Electric Range",
           description:
-            "Mac Auto India offers a broad range of passenger and cargo EVs—including rickshaws, carts, loaders, and scooters—serving customers across India.",
+            "MACK EV offers a broad range of passenger and cargo EVs—including rickshaws, carts, loaders, and scooters—serving customers across India.",
         },
         {
           title: "Strong Dealer & Support Network",
@@ -3744,9 +3744,9 @@ export const data = [
     slug: "top-10-e-rickshaw-banaras",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto, undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -3822,9 +3822,9 @@ export const data = [
     slug: "e-auto-rickshaw-banaras",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -3911,9 +3911,9 @@ export const data = [
     slug: "electric-three-wheeler-basti",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Enabling auto drivers with better employability",
@@ -3989,9 +3989,9 @@ export const data = [
     slug: "electric-three-wheeler-basti",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto takes pride in presenting the Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto, undertook the acquisition of Faridabad-based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad-based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -4062,7 +4062,7 @@ export const data = [
     slug: "top-10-e-loader-basti",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to building a clean last mile, Mac Auto proudly introduces the Mac E-Rickshaw under its electric mobility arm – Mego. With the acquisition of a Faridabad-based E-3Wheeler company holding 74% stake, Mac Auto aims to strengthen its presence in the rapidly growing E-Rickshaw segment across India.",
+      "Committed to building a clean last mile, MACK EV proudly introduces the Mac E-Rickshaw under its electric mobility arm – Mego. With the acquisition of a Faridabad-based E-3Wheeler company holding 74% stake, MACK EV aims to strengthen its presence in the rapidly growing E-Rickshaw segment across India.",
 
       "Mac E-Rickshaw is built for Indian roads with a strong steel body, ABS roof, alloy wheels and powerful drum brakes. It is ICAT-approved, offers a low running cost of just ₹2/km, and delivers up to 100 km range on a single charge — making it a clean, affordable and high-performance solution.",
 
@@ -4142,7 +4142,7 @@ export const data = [
     slug: "best-e-loader-basti",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to building a clean last mile, Mac Auto proudly presents the Mac E-Rickshaw under its electric mobility arm – Mego. With a 74% acquisition of a Faridabad-based E-3Wheeler company, Mac Auto is strengthening its position in the evolving E-2W and E-3W mobility market.",
+      "Committed to building a clean last mile, MACK EV proudly presents the Mac E-Rickshaw under its electric mobility arm – Mego. With a 74% acquisition of a Faridabad-based E-3Wheeler company, MACK EV is strengthening its position in the evolving E-2W and E-3W mobility market.",
 
       "Built for Indian roads, the Mac E-Rickshaw features a steel body, ABS roof, alloy wheels, and drum brakes. It is ICAT-approved, with a range of up to 100 km per charge and a running cost of just ₹2/km, making it a reliable, affordable, and eco-friendly choice for daily transport.",
 
@@ -4222,9 +4222,9 @@ export const data = [
     slug: "electric-scooter-basti",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -4300,9 +4300,9 @@ export const data = [
     slug: "electric-tricycle-basti",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -4378,9 +4378,9 @@ export const data = [
     slug: "e-rickshaw-basti",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E‑Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly‑owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad‑based E‑3Wheeler company Mac Auto which sells Electric Auto‑Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e‑mobility arm of Mego) will expand its presence in the fast disrupting E‑Rickshaw segment to become an integrated last mile E‑Mobility player with strong presence in both E‑2W and E‑3W. E‑Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost‑effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E‑Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly‑owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad‑based E‑3Wheeler company MACK EV which sells Electric Auto‑Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e‑mobility arm of Mego) will expand its presence in the fast disrupting E‑Rickshaw segment to become an integrated last mile E‑Mobility player with strong presence in both E‑2W and E‑3W. E‑Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost‑effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -4435,7 +4435,7 @@ export const data = [
         {
           title: "Proven Track Record",
           description:
-            "Mac Auto India is recognized as one of the top E‑Rickshaw brands in India, with wide adoption.",
+            "MACK EV is recognized as one of the top E‑Rickshaw brands in India, with wide adoption.",
         },
         {
           title: "160+ Dealer & Service Touchpoints",
@@ -4456,8 +4456,8 @@ export const data = [
     slug: "electric-loader-basti",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to taking concrete steps towards building a clean last mile, Mac Auto takes pride in presenting the Mac E‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly owned electric mobility subsidiary of Mac Auto, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts, and more under the Mac Auto India brand. These vehicles offer eco‑friendly alternatives to diesel or petrol-powered vehicles.",
+      "Committed to taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the Mac E‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly owned electric mobility subsidiary of MACK EV, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts, and more under the MACK EV brand. These vehicles offer eco‑friendly alternatives to diesel or petrol-powered vehicles.",
       "The Mac Zorawar E‑Loader is designed for efficient goods transport. It features a high loading capacity (500–1000 kg), regenerative braking, and lithium‑ion batteries—making it ideal for cost‑effective cargo operations across narrow lanes.",
     ],
     driverBenefits: {
@@ -4513,7 +4513,7 @@ export const data = [
         {
           title: "Comprehensive Electric Range",
           description:
-            "Mac Auto India offers a broad range of passenger and cargo EVs—including rickshaws, carts, loaders, and scooters—serving customers across India.",
+            "MACK EV offers a broad range of passenger and cargo EVs—including rickshaws, carts, loaders, and scooters—serving customers across India.",
         },
         {
           title: "Strong Dealer & Support Network",
@@ -4534,9 +4534,9 @@ export const data = [
     slug: "top-10-e-rickshaw-basti",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto, undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -4612,9 +4612,9 @@ export const data = [
     slug: "e-auto-rickshaw-basti",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -4700,9 +4700,9 @@ export const data = [
     slug: "electric-three-wheeler-jaunpur",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Enabling auto drivers with better employability",
@@ -4778,9 +4778,9 @@ export const data = [
     slug: "electric-three-wheeler-jaunpur",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto takes pride in presenting the Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto, undertook the acquisition of Faridabad-based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad-based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -4851,7 +4851,7 @@ export const data = [
     slug: "top-10-e-loader-jaunpur",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to building a clean last mile, Mac Auto proudly introduces the Mac E-Rickshaw under its electric mobility arm – Mego. With the acquisition of a Faridabad-based E-3Wheeler company holding 74% stake, Mac Auto aims to strengthen its presence in the rapidly growing E-Rickshaw segment across India.",
+      "Committed to building a clean last mile, MACK EV proudly introduces the Mac E-Rickshaw under its electric mobility arm – Mego. With the acquisition of a Faridabad-based E-3Wheeler company holding 74% stake, MACK EV aims to strengthen its presence in the rapidly growing E-Rickshaw segment across India.",
 
       "Mac E-Rickshaw is built for Indian roads with a strong steel body, ABS roof, alloy wheels and powerful drum brakes. It is ICAT-approved, offers a low running cost of just ₹2/km, and delivers up to 100 km range on a single charge — making it a clean, affordable and high-performance solution.",
 
@@ -4931,7 +4931,7 @@ export const data = [
     slug: "best-e-loader-jaunpur",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to building a clean last mile, Mac Auto proudly presents the Mac E-Rickshaw under its electric mobility arm – Mego. With a 74% acquisition of a Faridabad-based E-3Wheeler company, Mac Auto is strengthening its position in the evolving E-2W and E-3W mobility market.",
+      "Committed to building a clean last mile, MACK EV proudly presents the Mac E-Rickshaw under its electric mobility arm – Mego. With a 74% acquisition of a Faridabad-based E-3Wheeler company, MACK EV is strengthening its position in the evolving E-2W and E-3W mobility market.",
 
       "Built for Indian roads, the Mac E-Rickshaw features a steel body, ABS roof, alloy wheels, and drum brakes. It is ICAT-approved, with a range of up to 100 km per charge and a running cost of just ₹2/km, making it a reliable, affordable, and eco-friendly choice for daily transport.",
 
@@ -5011,9 +5011,9 @@ export const data = [
     slug: "electric-scooter-jaunpur",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -5089,9 +5089,9 @@ export const data = [
     slug: "electric-tricycle-jaunpur",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -5167,9 +5167,9 @@ export const data = [
     slug: "e-rickshaw-jaunpur",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E‑Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly‑owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad‑based E‑3Wheeler company Mac Auto which sells Electric Auto‑Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e‑mobility arm of Mego) will expand its presence in the fast disrupting E‑Rickshaw segment to become an integrated last mile E‑Mobility player with strong presence in both E‑2W and E‑3W. E‑Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost‑effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E‑Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly‑owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad‑based E‑3Wheeler company MACK EV which sells Electric Auto‑Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e‑mobility arm of Mego) will expand its presence in the fast disrupting E‑Rickshaw segment to become an integrated last mile E‑Mobility player with strong presence in both E‑2W and E‑3W. E‑Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost‑effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -5224,7 +5224,7 @@ export const data = [
         {
           title: "Proven Track Record",
           description:
-            "Mac Auto India is recognized as one of the top E‑Rickshaw brands in India, with wide adoption.",
+            "MACK EV is recognized as one of the top E‑Rickshaw brands in India, with wide adoption.",
         },
         {
           title: "160+ Dealer & Service Touchpoints",
@@ -5245,8 +5245,8 @@ export const data = [
     slug: "electric-loader-jaunpur",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to taking concrete steps towards building a clean last mile, Mac Auto takes pride in presenting the Mac E‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly owned electric mobility subsidiary of Mac Auto, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts, and more under the Mac Auto India brand. These vehicles offer eco‑friendly alternatives to diesel or petrol-powered vehicles.",
+      "Committed to taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the Mac E‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly owned electric mobility subsidiary of MACK EV, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts, and more under the MACK EV brand. These vehicles offer eco‑friendly alternatives to diesel or petrol-powered vehicles.",
       "The Mac Zorawar E‑Loader is designed for efficient goods transport. It features a high loading capacity (500–1000 kg), regenerative braking, and lithium‑ion batteries—making it ideal for cost‑effective cargo operations across narrow lanes.",
     ],
     driverBenefits: {
@@ -5302,7 +5302,7 @@ export const data = [
         {
           title: "Comprehensive Electric Range",
           description:
-            "Mac Auto India offers a broad range of passenger and cargo EVs—including rickshaws, carts, loaders, and scooters—serving customers across India.",
+            "MACK EV offers a broad range of passenger and cargo EVs—including rickshaws, carts, loaders, and scooters—serving customers across India.",
         },
         {
           title: "Strong Dealer & Support Network",
@@ -5323,9 +5323,9 @@ export const data = [
     slug: "top-10-e-rickshaw-jaunpur",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto, undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -5401,9 +5401,9 @@ export const data = [
     slug: "e-auto-rickshaw-jaunpur",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -5490,9 +5490,9 @@ export const data = [
     slug: "electric-three-wheeler-kanpur-dehat",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Enabling auto drivers with better employability",
@@ -5568,9 +5568,9 @@ export const data = [
     slug: "electric-three-wheeler-kanpur-dehat",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto takes pride in presenting the Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto, undertook the acquisition of Faridabad-based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad-based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -5641,7 +5641,7 @@ export const data = [
     slug: "top-10-e-loader-kanpur-dehat",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to building a clean last mile, Mac Auto proudly introduces the Mac E-Rickshaw under its electric mobility arm – Mego. With the acquisition of a Faridabad-based E-3Wheeler company holding 74% stake, Mac Auto aims to strengthen its presence in the rapidly growing E-Rickshaw segment across India.",
+      "Committed to building a clean last mile, MACK EV proudly introduces the Mac E-Rickshaw under its electric mobility arm – Mego. With the acquisition of a Faridabad-based E-3Wheeler company holding 74% stake, MACK EV aims to strengthen its presence in the rapidly growing E-Rickshaw segment across India.",
 
       "Mac E-Rickshaw is built for Indian roads with a strong steel body, ABS roof, alloy wheels and powerful drum brakes. It is ICAT-approved, offers a low running cost of just ₹2/km, and delivers up to 100 km range on a single charge — making it a clean, affordable and high-performance solution.",
 
@@ -5721,7 +5721,7 @@ export const data = [
     slug: "best-e-loader-kanpur-dehat",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to building a clean last mile, Mac Auto proudly presents the Mac E-Rickshaw under its electric mobility arm – Mego. With a 74% acquisition of a Faridabad-based E-3Wheeler company, Mac Auto is strengthening its position in the evolving E-2W and E-3W mobility market.",
+      "Committed to building a clean last mile, MACK EV proudly presents the Mac E-Rickshaw under its electric mobility arm – Mego. With a 74% acquisition of a Faridabad-based E-3Wheeler company, MACK EV is strengthening its position in the evolving E-2W and E-3W mobility market.",
 
       "Built for Indian roads, the Mac E-Rickshaw features a steel body, ABS roof, alloy wheels, and drum brakes. It is ICAT-approved, with a range of up to 100 km per charge and a running cost of just ₹2/km, making it a reliable, affordable, and eco-friendly choice for daily transport.",
 
@@ -5801,9 +5801,9 @@ export const data = [
     slug: "electric-scooter-kanpur-dehat",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -5879,9 +5879,9 @@ export const data = [
     slug: "electric-tricycle-kanpur-dehat",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -5957,9 +5957,9 @@ export const data = [
     slug: "e-rickshaw-kanpur-dehat",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E‑Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly‑owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad‑based E‑3Wheeler company Mac Auto which sells Electric Auto‑Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e‑mobility arm of Mego) will expand its presence in the fast disrupting E‑Rickshaw segment to become an integrated last mile E‑Mobility player with strong presence in both E‑2W and E‑3W. E‑Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost‑effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E‑Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly‑owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad‑based E‑3Wheeler company MACK EV which sells Electric Auto‑Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e‑mobility arm of Mego) will expand its presence in the fast disrupting E‑Rickshaw segment to become an integrated last mile E‑Mobility player with strong presence in both E‑2W and E‑3W. E‑Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost‑effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -6014,7 +6014,7 @@ export const data = [
         {
           title: "Proven Track Record",
           description:
-            "Mac Auto India is recognized as one of the top E‑Rickshaw brands in India, with wide adoption.",
+            "MACK EV is recognized as one of the top E‑Rickshaw brands in India, with wide adoption.",
         },
         {
           title: "160+ Dealer & Service Touchpoints",
@@ -6035,8 +6035,8 @@ export const data = [
     slug: "electric-loader-kanpur-dehat",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to taking concrete steps towards building a clean last mile, Mac Auto takes pride in presenting the Mac E‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly owned electric mobility subsidiary of Mac Auto, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts, and more under the Mac Auto India brand. These vehicles offer eco‑friendly alternatives to diesel or petrol-powered vehicles.",
+      "Committed to taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the Mac E‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly owned electric mobility subsidiary of MACK EV, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts, and more under the MACK EV brand. These vehicles offer eco‑friendly alternatives to diesel or petrol-powered vehicles.",
       "The Mac Zorawar E‑Loader is designed for efficient goods transport. It features a high loading capacity (500–1000 kg), regenerative braking, and lithium‑ion batteries—making it ideal for cost‑effective cargo operations across narrow lanes.",
     ],
     driverBenefits: {
@@ -6094,7 +6094,7 @@ export const data = [
         {
           title: "Comprehensive Electric Range",
           description:
-            "Mac Auto India offers a broad range of passenger and cargo EVs—including rickshaws, carts, loaders, and scooters—serving customers across India.",
+            "MACK EV offers a broad range of passenger and cargo EVs—including rickshaws, carts, loaders, and scooters—serving customers across India.",
         },
         {
           title: "Strong Dealer & Support Network",
@@ -6115,9 +6115,9 @@ export const data = [
     slug: "top-10-e-rickshaw-kanpur-dehat",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto, undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -6193,9 +6193,9 @@ export const data = [
     slug: "e-auto-rickshaw-kanpur-dehat",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -6282,9 +6282,9 @@ export const data = [
     slug: "electric-three-wheeler-lucknow",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Enabling auto drivers with better employability",
@@ -6360,9 +6360,9 @@ export const data = [
     slug: "electric-three-wheeler-lucknow",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto takes pride in presenting the Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto, undertook the acquisition of Faridabad-based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad-based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -6433,7 +6433,7 @@ export const data = [
     slug: "top-10-e-loader-lucknow",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to building a clean last mile, Mac Auto proudly introduces the Mac E-Rickshaw under its electric mobility arm – Mego. With the acquisition of a Faridabad-based E-3Wheeler company holding 74% stake, Mac Auto aims to strengthen its presence in the rapidly growing E-Rickshaw segment across India.",
+      "Committed to building a clean last mile, MACK EV proudly introduces the Mac E-Rickshaw under its electric mobility arm – Mego. With the acquisition of a Faridabad-based E-3Wheeler company holding 74% stake, MACK EV aims to strengthen its presence in the rapidly growing E-Rickshaw segment across India.",
 
       "Mac E-Rickshaw is built for Indian roads with a strong steel body, ABS roof, alloy wheels and powerful drum brakes. It is ICAT-approved, offers a low running cost of just ₹2/km, and delivers up to 100 km range on a single charge — making it a clean, affordable and high-performance solution.",
 
@@ -6513,7 +6513,7 @@ export const data = [
     slug: "best-e-loader-lucknow",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to building a clean last mile, Mac Auto proudly presents the Mac E-Rickshaw under its electric mobility arm – Mego. With a 74% acquisition of a Faridabad-based E-3Wheeler company, Mac Auto is strengthening its position in the evolving E-2W and E-3W mobility market.",
+      "Committed to building a clean last mile, MACK EV proudly presents the Mac E-Rickshaw under its electric mobility arm – Mego. With a 74% acquisition of a Faridabad-based E-3Wheeler company, MACK EV is strengthening its position in the evolving E-2W and E-3W mobility market.",
 
       "Built for Indian roads, the Mac E-Rickshaw features a steel body, ABS roof, alloy wheels, and drum brakes. It is ICAT-approved, with a range of up to 100 km per charge and a running cost of just ₹2/km, making it a reliable, affordable, and eco-friendly choice for daily transport.",
 
@@ -6593,9 +6593,9 @@ export const data = [
     slug: "electric-scooter-lucknow",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -6671,9 +6671,9 @@ export const data = [
     slug: "electric-tricycle-lucknow",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -6749,9 +6749,9 @@ export const data = [
     slug: "e-rickshaw-lucknow",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E‑Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly‑owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad‑based E‑3Wheeler company Mac Auto which sells Electric Auto‑Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e‑mobility arm of Mego) will expand its presence in the fast disrupting E‑Rickshaw segment to become an integrated last mile E‑Mobility player with strong presence in both E‑2W and E‑3W. E‑Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost‑effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E‑Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly‑owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad‑based E‑3Wheeler company MACK EV which sells Electric Auto‑Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e‑mobility arm of Mego) will expand its presence in the fast disrupting E‑Rickshaw segment to become an integrated last mile E‑Mobility player with strong presence in both E‑2W and E‑3W. E‑Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost‑effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -6806,7 +6806,7 @@ export const data = [
         {
           title: "Proven Track Record",
           description:
-            "Mac Auto India is recognized as one of the top E‑Rickshaw brands in India, with wide adoption.",
+            "MACK EV is recognized as one of the top E‑Rickshaw brands in India, with wide adoption.",
         },
         {
           title: "160+ Dealer & Service Touchpoints",
@@ -6827,8 +6827,8 @@ export const data = [
     slug: "electric-loader-lucknow",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to taking concrete steps towards building a clean last mile, Mac Auto takes pride in presenting the Mac E‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly owned electric mobility subsidiary of Mac Auto, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts, and more under the Mac Auto India brand. These vehicles offer eco‑friendly alternatives to diesel or petrol-powered vehicles.",
+      "Committed to taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the Mac E‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly owned electric mobility subsidiary of MACK EV, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts, and more under the MACK EV brand. These vehicles offer eco‑friendly alternatives to diesel or petrol-powered vehicles.",
       "The Mac Zorawar E‑Loader is designed for efficient goods transport. It features a high loading capacity (500–1000 kg), regenerative braking, and lithium‑ion batteries—making it ideal for cost‑effective cargo operations across narrow lanes.",
     ],
     driverBenefits: {
@@ -6884,7 +6884,7 @@ export const data = [
         {
           title: "Comprehensive Electric Range",
           description:
-            "Mac Auto India offers a broad range of passenger and cargo EVs—including rickshaws, carts, loaders, and scooters—serving customers across India.",
+            "MACK EV offers a broad range of passenger and cargo EVs—including rickshaws, carts, loaders, and scooters—serving customers across India.",
         },
         {
           title: "Strong Dealer & Support Network",
@@ -6905,9 +6905,9 @@ export const data = [
     slug: "top-10-e-rickshaw-lucknow",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto, undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -6983,9 +6983,9 @@ export const data = [
     slug: "e-auto-rickshaw-lucknow",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -7072,9 +7072,9 @@ export const data = [
     slug: "electric-three-wheeler-prayagraj",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Enabling auto drivers with better employability",
@@ -7150,9 +7150,9 @@ export const data = [
     slug: "electric-three-wheeler-prayagraj",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto takes pride in presenting the Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto, undertook the acquisition of Faridabad-based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad-based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -7223,7 +7223,7 @@ export const data = [
     slug: "top-10-e-loader-prayagraj",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to building a clean last mile, Mac Auto proudly introduces the Mac E-Rickshaw under its electric mobility arm – Mego. With the acquisition of a Faridabad-based E-3Wheeler company holding 74% stake, Mac Auto aims to strengthen its presence in the rapidly growing E-Rickshaw segment across India.",
+      "Committed to building a clean last mile, MACK EV proudly introduces the Mac E-Rickshaw under its electric mobility arm – Mego. With the acquisition of a Faridabad-based E-3Wheeler company holding 74% stake, MACK EV aims to strengthen its presence in the rapidly growing E-Rickshaw segment across India.",
 
       "Mac E-Rickshaw is built for Indian roads with a strong steel body, ABS roof, alloy wheels and powerful drum brakes. It is ICAT-approved, offers a low running cost of just ₹2/km, and delivers up to 100 km range on a single charge — making it a clean, affordable and high-performance solution.",
 
@@ -7303,7 +7303,7 @@ export const data = [
     slug: "best-e-loader-prayagraj",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to building a clean last mile, Mac Auto proudly presents the Mac E-Rickshaw under its electric mobility arm – Mego. With a 74% acquisition of a Faridabad-based E-3Wheeler company, Mac Auto is strengthening its position in the evolving E-2W and E-3W mobility market.",
+      "Committed to building a clean last mile, MACK EV proudly presents the Mac E-Rickshaw under its electric mobility arm – Mego. With a 74% acquisition of a Faridabad-based E-3Wheeler company, MACK EV is strengthening its position in the evolving E-2W and E-3W mobility market.",
 
       "Built for Indian roads, the Mac E-Rickshaw features a steel body, ABS roof, alloy wheels, and drum brakes. It is ICAT-approved, with a range of up to 100 km per charge and a running cost of just ₹2/km, making it a reliable, affordable, and eco-friendly choice for daily transport.",
 
@@ -7383,9 +7383,9 @@ export const data = [
     slug: "electric-scooter-prayagraj",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -7461,9 +7461,9 @@ export const data = [
     slug: "electric-tricycle-prayagraj",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -7539,9 +7539,9 @@ export const data = [
     slug: "e-rickshaw-prayagraj",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E‑Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly‑owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad‑based E‑3Wheeler company Mac Auto which sells Electric Auto‑Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e‑mobility arm of Mego) will expand its presence in the fast disrupting E‑Rickshaw segment to become an integrated last mile E‑Mobility player with strong presence in both E‑2W and E‑3W. E‑Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost‑effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E‑Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly‑owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad‑based E‑3Wheeler company MACK EV which sells Electric Auto‑Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e‑mobility arm of Mego) will expand its presence in the fast disrupting E‑Rickshaw segment to become an integrated last mile E‑Mobility player with strong presence in both E‑2W and E‑3W. E‑Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost‑effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -7596,7 +7596,7 @@ export const data = [
         {
           title: "Proven Track Record",
           description:
-            "Mac Auto India is recognized as one of the top E‑Rickshaw brands in India, with wide adoption.",
+            "MACK EV is recognized as one of the top E‑Rickshaw brands in India, with wide adoption.",
         },
         {
           title: "160+ Dealer & Service Touchpoints",
@@ -7617,8 +7617,8 @@ export const data = [
     slug: "electric-loader-prayagraj",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to taking concrete steps towards building a clean last mile, Mac Auto takes pride in presenting the Mac E‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly owned electric mobility subsidiary of Mac Auto, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts, and more under the Mac Auto India brand. These vehicles offer eco‑friendly alternatives to diesel or petrol-powered vehicles.",
+      "Committed to taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the Mac E‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly owned electric mobility subsidiary of MACK EV, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts, and more under the MACK EV brand. These vehicles offer eco‑friendly alternatives to diesel or petrol-powered vehicles.",
       "The Mac Zorawar E‑Loader is designed for efficient goods transport. It features a high loading capacity (500–1000 kg), regenerative braking, and lithium‑ion batteries—making it ideal for cost‑effective cargo operations across narrow lanes.",
     ],
     driverBenefits: {
@@ -7674,7 +7674,7 @@ export const data = [
         {
           title: "Comprehensive Electric Range",
           description:
-            "Mac Auto India offers a broad range of passenger and cargo EVs—including rickshaws, carts, loaders, and scooters—serving customers across India.",
+            "MACK EV offers a broad range of passenger and cargo EVs—including rickshaws, carts, loaders, and scooters—serving customers across India.",
         },
         {
           title: "Strong Dealer & Support Network",
@@ -7696,9 +7696,9 @@ export const data = [
     slug: "top-10-e-rickshaw-prayagraj",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto, undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -7784,9 +7784,9 @@ export const data = [
     slug: "e-auto-rickshaw-prayagraj",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, Mac Auto take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "Mac Auto Vehicles, a wholly-owned electric mobility subsidiary of Mac Auto., undertook the acquisition of Faridabad based E-3Wheeler company Mac Auto which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, Mac Auto (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
       title: "Empowering Drivers, Ensuring Prosperity",
@@ -7811,7 +7811,7 @@ export const data = [
     featuresPerformance: {
       title: "Why Mac E-Auto Rickshaw ?",
       description:
-        "Committed to building a clean last-mile ecosystem, Mac Auto introduces the Mac E Auto Rickshaw through its electric mobility subsidiary, Mego. With strong features, nationwide support, and low running costs, it's designed to empower auto drivers with better earnings, safety, and comfort.",
+        "Committed to building a clean last-mile ecosystem, MACK EV introduces the Mac E Auto Rickshaw through its electric mobility subsidiary, Mego. With strong features, nationwide support, and low running costs, it's designed to empower auto drivers with better earnings, safety, and comfort.",
       features: [
         {
           title: "Strong Build for Indian Roads",

@@ -32,7 +32,7 @@ export default function ThankYou() {
 
             <div className="space-y-4">
               <h2 className="text-2xl font-semibold text-[var(--color-primary-dark)]">
-                Thank You for Applying for Mac Auto Dealership!
+                Thank You for Applying for MACK EV Dealership!
               </h2>
               <p className="text-gray-700 leading-relaxed max-w-lg mx-auto">
                 Your application has been received successfully. Our dealership

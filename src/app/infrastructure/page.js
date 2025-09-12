@@ -46,7 +46,7 @@ export default function Infrastructure(params) {
                   efficient, but socially responsible choices.
                 </p>
                 <p>
-                  MAC AUTO proudly launched India’s first Li-Ion battery-powered
+                  MACK EV proudly launched India’s first Li-Ion battery-powered
                   e-rickshaw in 2014. With our battery swapping tech, refueling
                   is quick and seamless.
                 </p>

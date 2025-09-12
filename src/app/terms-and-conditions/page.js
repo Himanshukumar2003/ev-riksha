@@ -8,7 +8,7 @@ export default function TermsAndConditionsPage() {
         <Container maxWidth="xl">
           <div className="mb-8 p-6 pl-0 border-b">
             <p className="text-foreground leading-relaxed mb-6">
-              Welcome to Mac Auto India Pvt. Ltd. (&quot;Mac Auto India&quot;,
+              Welcome to MACK EV Pvt. Ltd. (&quot;MACK EV&quot;,
               &quot;we&quot;, &quot;our&quot;, &quot;us&quot;). These Terms and
               Conditions (&quot;Terms&quot;) govern your access to and use of
               our website{" "}
@@ -46,7 +46,7 @@ export default function TermsAndConditionsPage() {
                 2. Scope of Services
               </h3>
               <p className="text-foreground leading-relaxed mb-4">
-                Mac Auto India is an electric vehicle manufacturer offering
+                MACK EV is an electric vehicle manufacturer offering
                 information, updates, booking options, and customer support
                 through this Website.
               </p>
@@ -69,7 +69,7 @@ export default function TermsAndConditionsPage() {
               <p className="text-foreground leading-relaxed mb-4">
                 All content on the Website, including text, images, graphics,
                 logos, designs, and software, is the intellectual property of
-                Mac Auto India Pvt. Ltd. and protected under applicable
+                MACK EV Pvt. Ltd. and protected under applicable
                 copyright and trademark laws.
               </p>
               <p className="text-foreground leading-relaxed">
@@ -143,7 +143,7 @@ export default function TermsAndConditionsPage() {
                 do not guarantee completeness or error-free content.
               </p>
               <p className="text-foreground leading-relaxed">
-                Mac Auto India will not be liable for any indirect, incidental,
+                MACK EV will not be liable for any indirect, incidental,
                 or consequential damages arising from your use of the Website or
                 reliance on its content.
               </p>
@@ -188,7 +188,7 @@ export default function TermsAndConditionsPage() {
               </p>
               <div className="bg-muted p-4 rounded-lg">
                 <p className="font-semibold text-foreground mb-2">
-                  Mac Auto India Pvt. Ltd.
+                  MACK EV Pvt. Ltd.
                 </p>
                 <p className="text-foreground">
                   Website:{" "}

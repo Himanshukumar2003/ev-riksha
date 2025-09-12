@@ -12,7 +12,7 @@ export default function Component() {
 
           {/* Subtitle */}
           <p className="text-lg text-gray-700 mb-4 max-w-4xl mx-auto leading-relaxed">
-          At MACK EV (formerly Mac Auto India), we believe in delivering sustainable, affordable, and innovative electric mobility solutions to power the future of transportation — with a strong focus on Electric 3-Wheeler Vehicles and beyond.
+          At MACK EV (formerly MACK EV), we believe in delivering sustainable, affordable, and innovative electric mobility solutions to power the future of transportation — with a strong focus on Electric 3-Wheeler Vehicles and beyond.
           </p>
         </div>
 

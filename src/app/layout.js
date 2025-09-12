@@ -30,10 +30,10 @@ const manrope = Manrope({
 export const metadata = {
   metadataBase: new URL("https://www.macautoindia.com"),
   title: {
-    default: "Mac Auto India | Electric Rickshaw & E-Cart Manufacturer",
+    default: "MACK EV | Electric Rickshaw & E-Cart Manufacturer",
   },
   description:
-    "Mac Auto India is a leading electric vehicle manufacturer in India, offering i-CAT certified e-rickshaws & EVs with patented designs & a PAN-India network.",
+    "MACK EV is a leading electric vehicle manufacturer in India, offering i-CAT certified e-rickshaws & EVs with patented designs & a PAN-India network.",
   keywords:
     "e rickshaw, e rickshaw price, electric auto rickshaw, electric auto price in india, E Rickshaw price On Road, E Rickshaw manufacturers in India, E Rickshaw Dealers in India, E rickshaw suppliers, Icat approved e rickshaw in india, Electric Rickshaw Manufacturer & Supplier, i-cat certified e rickshaw manufacturers, e rickshaw parts supplier India, electric vehicle manufacturers in India, eco friendly transport in India, E rickshaw parts supplier in India",
   alternates: {
@@ -53,15 +53,15 @@ export const metadata = {
   openGraph: {
     type: "website",
     url: "https://www.macautoindia.com/",
-    title: "Mac Auto India | Electric Rickshaw & E-Cart Manufacturer",
+    title: "MACK EV | Electric Rickshaw & E-Cart Manufacturer",
     description:
-      "Mac Auto India is a leading electric vehicle manufacturer in India, offering i-CAT certified e-rickshaws & EVs with patented designs & a PAN-India network.",
+      "MACK EV is a leading electric vehicle manufacturer in India, offering i-CAT certified e-rickshaws & EVs with patented designs & a PAN-India network.",
     images: [
       {
         url: "https://opengraph.b-cdn.net/production/images/b809beb0-ce95-448b-9240-3c11aaa75617.jpg?token=sVMwVS93ylb8wlGovaHw1_xvAHaesPxt-Z95RErdHeY&height=1000&width=1000&expires=33291090671",
         width: 1000,
         height: 1000,
-        alt: "Mac Auto India Electric Rickshaw",
+        alt: "MACK EV Electric Rickshaw",
       },
     ],
   },
@@ -70,9 +70,9 @@ export const metadata = {
     card: "summary_large_image",
     domain: "macautoindia.com",
     url: "https://www.macautoindia.com/",
-    title: "Mac Auto India | Electric Rickshaw & E-Cart Manufacturer",
+    title: "MACK EV | Electric Rickshaw & E-Cart Manufacturer",
     description:
-      "Mac Auto India is a leading electric vehicle manufacturer in India, offering i-CAT certified e-rickshaws & EVs with patented designs & a PAN-India network.",
+      "MACK EV is a leading electric vehicle manufacturer in India, offering i-CAT certified e-rickshaws & EVs with patented designs & a PAN-India network.",
     images: [
       "https://opengraph.b-cdn.net/production/images/b809beb0-ce95-448b-9240-3c11aaa75617.jpg?token=sVMwVS93ylb8wlGovaHw1_xvAHaesPxt-Z95RErdHeY&height=1000&width=1000&expires=33291090671",
     ],
@@ -91,13 +91,13 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": ["Organization", "LocalBusiness"],
-              name: "Mac Auto India",
+              name: "MACK EV",
               url: "https://www.macautoindia.com/",
               logo: "https://www.macautoindia.com/assets/images/logo.png",
               image:
                 "https://www.macautoindia.com/assets/images/home-banner.jpg",
               description:
-                "Mac Auto India is a leading electric vehicle manufacturer in India, specializing in e-rickshaws, electric carts, and eco-friendly mobility solutions with patented designs and i-CAT certification.",
+                "MACK EV is a leading electric vehicle manufacturer in India, specializing in e-rickshaws, electric carts, and eco-friendly mobility solutions with patented designs and i-CAT certification.",
               telephone: "+91-80-9062-9062",
               email: "info@macauto.in",
               address: {
@@ -135,7 +135,7 @@ export default function RootLayout({ children }) {
                     "@type": "Product",
                     name: "MAC Passenger E-Rickshaw",
                     category: "Passenger Electric Vehicle",
-                    brand: "Mac Auto India",
+                    brand: "MACK EV",
                   },
                 },
                 {
@@ -144,7 +144,7 @@ export default function RootLayout({ children }) {
                     "@type": "Product",
                     name: "MAC Cargo Loader E-Vehicle",
                     category: "Cargo Electric Vehicle",
-                    brand: "Mac Auto India",
+                    brand: "MACK EV",
                   },
                 },
                 {
@@ -153,7 +153,7 @@ export default function RootLayout({ children }) {
                     "@type": "Product",
                     name: "MAC Garbage Collection E-Vehicle",
                     category: "Waste Management Electric Vehicle",
-                    brand: "Mac Auto India",
+                    brand: "MACK EV",
                   },
                 },
               ],

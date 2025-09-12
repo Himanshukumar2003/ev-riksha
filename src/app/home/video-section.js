@@ -17,9 +17,9 @@ const videos = [
   {
     id: 1,
     title:
-      "Mac Auto Tejas SH E-Rickshaw | Best E-Rickshaw in India | Electric Rickshaw 2025",
+      "MACK EV Tejas SH E-Rickshaw | Best E-Rickshaw in India | Electric Rickshaw 2025",
     description:
-      "Meet the Mac Auto Tejas SH, your new smart e-rickshaw partner for daily rides designed for more comfort, more range and ultimate safety!",
+      "Meet the MACK EV Tejas SH, your new smart e-rickshaw partner for daily rides designed for more comfort, more range and ultimate safety!",
     thumbnail: "/img/youtub/img-1.jpg",
     videoId: "https://www.youtube.com/embed/xy4qt1JHG1Y?si=XbilkYh8k_8ANhb_",
     duration: "6:45",
@@ -63,9 +63,9 @@ const videos = [
   {
     id: 4,
     title:
-      "Mac Auto Tejas SH E-Rickshaw | Best E-Rickshaw in India | Electric Rickshaw 2025",
+      "MACK EV Tejas SH E-Rickshaw | Best E-Rickshaw in India | Electric Rickshaw 2025",
     description:
-      "Meet the Mac Auto Tejas SH, your new smart e-rickshaw partner for daily rides designed for more comfort, more range and ultimate safety!",
+      "Meet the MACK EV Tejas SH, your new smart e-rickshaw partner for daily rides designed for more comfort, more range and ultimate safety!",
     thumbnail: "/img/youtub/img-1.jpg",
     videoId: "https://www.youtube.com/embed/xy4qt1JHG1Y?si=XbilkYh8k_8ANhb_",
     duration: "6:45",

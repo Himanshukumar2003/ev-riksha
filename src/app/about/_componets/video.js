@@ -48,7 +48,7 @@ export default function VideoSection() {
                 MACK EV – Driving Electric 3-Wheeler Innovation Since 2014
               </div>
               <p className="text-gray-600 text-lg leading-relaxed">
-                Founded in 2014 as Mac Auto, our journey began as a visionary venture and has grown into one of India’s top electric mobility brands with a strong PAN India presence. Today, we proudly carry forward that legacy as MACK EV, continuing to redefine sustainable mobility.</p>
+                Founded in 2014 as MACK EV, our journey began as a visionary venture and has grown into one of India’s top electric mobility brands with a strong PAN India presence. Today, we proudly carry forward that legacy as MACK EV, continuing to redefine sustainable mobility.</p>
 
               <p className="text-gray-600 text-lg leading-relaxed">We specialize in manufacturing Electric 3-Wheeler Vehicles, spare parts, and accessories. All our products are i-CAT certified and recognized for patented technology and modern designs.
               </p>

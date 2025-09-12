@@ -37,10 +37,10 @@ import {
 
 import DealerForm from "@/components/dealer-form";
 export const metadata = {
-  title: " Start Your EV Dealership with Mac Auto – Apply Now!",
+  title: " Start Your EV Dealership with MACK EV – Apply Now!",
   keywords: `electric vehicle dealership India, EV dealer near me, best EV dealership India, electric vehicles in India, electric vehicles cost India, e rickshaw dealership India, electric auto rickshaw dealer India, electric auto rickshaw market India, e‑rickshaw business opportunity India `,
   description:
-    "Partner with Mac Auto for a profitable EV dealership. Low investment, high returns & full support to grow your electric vehicle business. Apply today!",
+    "Partner with MACK EV for a profitable EV dealership. Low investment, high returns & full support to grow your electric vehicle business. Apply today!",
 
   alternates: {
     canonical: `/dealership`,

@@ -15,8 +15,8 @@ export default function PrivacyPolicyPage() {
               availing the services or products offered through the Website
               and/or registering themselves on the Website to subscribe to our
               products/launches/promotions) privacy and ensuring that your
-              personal data is held securely is very important to Mac Auto India
-              Pvt. Ltd. (&ldquo;Mac Auto India&ldquo; or &ldquo;we/our/us&ldquo;
+              personal data is held securely is very important to MACK EV
+              Pvt. Ltd. (&ldquo;MACK EV&ldquo; or &ldquo;we/our/us&ldquo;
               or the &ldquo;Company&ldquo;, which includes its divisions,
               affiliates and group companies). This Privacy Policy and Privacy
               Statement form an integral part of the Terms of Use of the
@@ -187,7 +187,7 @@ export default function PrivacyPolicyPage() {
               </p>
               <div className="bg-muted p-4 rounded-lg">
                 <p className="font-semibold text-foreground mb-2">
-                  Mac Auto India Pvt. Ltd.
+                  MACK EV Pvt. Ltd.
                 </p>
                 <p className="text-foreground">
                   Website:{" "}

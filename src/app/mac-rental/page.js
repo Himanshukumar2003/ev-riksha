@@ -445,7 +445,7 @@ export default function Macmobility() {
 
                   <div className="space-y-4 text-gray-600 text-lg leading-relaxed">
                     <p>
-                      Explore why thousands trust Mac Auto for electric
+                      Explore why thousands trust MACK EV for electric
                       mobility—combining innovation, reliability, and support in
                       every journey.
                     </p>

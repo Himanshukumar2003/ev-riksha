@@ -51,7 +51,7 @@ export default function Footer() {
               <p className="text-sm text-gray-400 mb-6 leading-relaxed">
           
 
-As one of India’s pioneering electric vehicle manufacturers, MACK EV (formerly Mac Auto) specializes in eco-friendly E-Rickshaws and loading carts with patented designs and i-CAT certifications. With a strong PAN India presence, MACK EV is committed to delivering innovative, reliable, and high-performance electric mobility solutions.
+As one of India’s pioneering electric vehicle manufacturers, MACK EV (formerly MACK EV) specializes in eco-friendly E-Rickshaws and loading carts with patented designs and i-CAT certifications. With a strong PAN India presence, MACK EV is committed to delivering innovative, reliable, and high-performance electric mobility solutions.
 </p>
 <p className="text-sm text-gray-400 mb-6 leading-relaxed">Our dedication to quality and customer satisfaction sets us apart in the EV industry, as we continue to power a cleaner and greener future.
        </p>      
@@ -258,7 +258,7 @@ As one of India’s pioneering electric vehicle manufacturers, MACK EV (formerly
           {/* Bottom Section */}
           <div className="border-t border-slate-700 pt-6 flex flex-col lg:flex-row justify-between items-center gap-4">
             <p className="text-sm text-gray-400">
-              Mac Auto | Design & Developed By
+              MACK EV | Design & Developed By
               <a href="https://brandingwaale.com/"> Brandingwaale Webtech</a>
             </p>
             <div className="flex items-center gap-2">

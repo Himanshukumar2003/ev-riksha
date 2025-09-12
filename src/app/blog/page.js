@@ -6,9 +6,9 @@ import { Button } from "@/components/ui/button";
 import { blogs } from "./[slug]/data";
 import Breadcrumb from "@/components/breadcrumb";
 export const metadata = {
-  title: " Mac Auto India Blog – Electric Vehicle & E-Rickshaw Insights",
+  title: " MACK EV Blog – Electric Vehicle & E-Rickshaw Insights",
   description:
-    " Read the Mac Auto India Blog for inspiring EV stories, e-rickshaw insights, and clean mobility ideas driving a greener, better future for India.",
+    " Read the MACK EV Blog for inspiring EV stories, e-rickshaw insights, and clean mobility ideas driving a greener, better future for India.",
   alternates: {
     canonical: `/blog`,
   },
@@ -39,7 +39,7 @@ export default function BlogMainPage() {
         }
       }
     }
-    return "Discover the latest insights about Mac Auto's electric vehicles and sustainable mobility solutions.";
+    return "Discover the latest insights about MACK EV's electric vehicles and sustainable mobility solutions.";
   };
 
   // Get estimated reading time

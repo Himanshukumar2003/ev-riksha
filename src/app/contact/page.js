@@ -1,9 +1,9 @@
 import ContactSection from "./contact-us";
 export const metadata = {
-  title: " Mac Auto India – Contact Us | Faridabad EV Manufacturer",
+  title: " MACK EV – Contact Us | Faridabad EV Manufacturer",
 
   description:
-    "Get in touch with Mac Auto India—sales, service support, or general inquiries. Visit our Faridabad office or call +91-80 9062 9062 today.",
+    "Get in touch with MACK EV—sales, service support, or general inquiries. Visit our Faridabad office or call +91-80 9062 9062 today.",
   alternates: {
     canonical: `/contact`,
   },

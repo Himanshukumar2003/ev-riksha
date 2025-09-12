@@ -83,7 +83,7 @@ export default function ContactSection() {
             <div className="space-y-6 lg:sticky top-20">
               <div className="flex items-center gap-2 text-[var(--color-primary-light)] text-sm font-medium tracking-wide">
                 <div className="w-8 h-px bg-[var(--color-primary-light)]"></div>
-                Get in Touch with Mac Auto India Pvt. Ltd.
+                Get in Touch with MACK EV Pvt. Ltd.
               </div>
               <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
                 Have questions about our products, services, or need support?

@@ -7,10 +7,10 @@ import Link from "next/link";
 import NewsSection from "../home/news-section";
 
 export const metadata = {
-  title: "  Mac Auto India Media & Press – Stories, News and Updates",
+  title: "  MACK EV Media & Press – Stories, News and Updates",
 
   description:
-    " Explore Mac Auto India’s latest news, press stories, and media highlights. See how we’re driving e-rickshaw innovation across India since 2014.",
+    " Explore MACK EV’s latest news, press stories, and media highlights. See how we’re driving e-rickshaw innovation across India since 2014.",
   alternates: {
     canonical: `/media`,
   },
@@ -21,7 +21,7 @@ export default function NewsSectionPage() {
       id: 3,
       date: "Dec 27, 2021",
       title:
-        "EV sales have more than tripled in the first half of FY22 — Abhijeet Wassan, Mac Auto",
+        "EV sales have more than tripled in the first half of FY22 — Abhijeet Wassan, MACK EV",
       image: "/img/news/news-3.webp",
       slug: "https://www.financialexpress.com/business/express-mobility-interview-abhijeet-wassan-mac-auto-ev-sales-have-tripled-in-first-half-2390785/",
     },
@@ -59,7 +59,7 @@ export default function NewsSectionPage() {
             </h2>
             <p className="max-w-4xl mx-auto">
               Stay up-to-date with the latest announcements, product launches,
-              dealership expansions, and innovations from Mac Auto India.
+              dealership expansions, and innovations from MACK EV.
               Explore how we&apos;re shaping the future of electric mobility
               across the nation.
             </p>

@@ -78,12 +78,12 @@ export default function ContingentSection() {
                   SINCE 2014
                 </div>
                 <h1 className="text-2xl md:text-4xl   leading-tight mb-6">
-                  Mac Auto – Leading the Way in E-Rickshaw Innovation Since 2014
+                  MACK EV – Leading the Way in E-Rickshaw Innovation Since 2014
                 </h1>
                 <p className="text-gray-600 text-lg leading-relaxed ">
-                  Mac Auto started in early 2014 as a dream organization & today
+                  MACK EV started in early 2014 as a dream organization & today
                   has grown to become one of the industry leading players with
-                  PAN India presence. Mac Auto is one of the pioneers in
+                  PAN India presence. MACK EV is one of the pioneers in
                   Electric Rickshaw Manufacturer, spare parts & accessories in
                   India. Our products are i-CAT (International Centre for
                   Automotive Technology) certified by Govt of India and
