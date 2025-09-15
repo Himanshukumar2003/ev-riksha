@@ -133,56 +133,65 @@ As one of India’s pioneering electric vehicle manufacturers, MACK EV (formerly
               <h3 className="text-lg font-semibold text-white mb-4">
                 Our Products
               </h3>
-              <ul className="space-y-3">
-                <li>
-                  <Link
-                    href="/products/mac-tejas-sh"
-                    className="text-gray-400 hover:text-white transition-colors"
-                  >
-                    Tejas
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/products/mac-tejs-dhl"
-                    className="text-gray-400 hover:text-white transition-colors"
-                  >
-                    Tejas DHL
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href=""
-                    className="text-gray-400 hover:text-white transition-colors"
-                  >
-                    Mac Multi Utility E-Cart
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/products/mac-900"
-                    className="text-gray-400 hover:text-white transition-colors"
-                  >
-                    Mac 900
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/products/mac-mue-carbage"
-                    className="text-gray-400 hover:text-white transition-colors"
-                  >
-                    Mac MUE Garbage
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/products"
-                    className="text-gray-400 hover:text-white transition-colors"
-                  >
-                    View All Products
-                  </Link>
-                </li>
-              </ul>
+            <ul className="space-y-3">
+  <li>
+    <Link
+      href="/products/900"
+      className="text-gray-400 hover:text-white transition-colors"
+    >
+      900
+    </Link>
+  </li>
+  <li>
+    <Link
+      href="/products/dhoom"
+      className="text-gray-400 hover:text-white transition-colors"
+    >
+       Dhoom
+    </Link>
+  </li>
+  <li>
+    <Link
+      href="/products/tejas-dhl"
+      className="text-gray-400 hover:text-white transition-colors"
+    >
+       Tejas DHL
+    </Link>
+  </li>
+  <li>
+    <Link
+      href="/products/tejas-ultra"
+      className="text-gray-400 hover:text-white transition-colors"
+    >
+      Tejas Ultra
+    </Link>
+  </li>
+  <li>
+    <Link
+      href="/products/vajra"
+      className="text-gray-400 hover:text-white transition-colors"
+    >
+      Vajra
+    </Link>
+  </li>
+  <li>
+    <Link
+      href="/products/vayu"
+      className="text-gray-400 hover:text-white transition-colors"
+    >
+      Vayu
+    </Link>
+  </li>
+  <li>
+    <Link
+      href="/products"
+      className="text-gray-400 hover:text-white transition-colors"
+    >
+      View All Products
+    </Link>
+  </li>
+</ul>
+
             </div>
 
             {/* Contact Section */}

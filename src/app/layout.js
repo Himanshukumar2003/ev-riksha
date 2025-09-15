@@ -28,7 +28,7 @@ const manrope = Manrope({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://www.macautoindia.com"),
+  metadataBase: new URL("https://mack-ev.com/"),
   title: {
     default: "MACK EV | Electric Rickshaw & E-Cart Manufacturer",
   },
@@ -43,8 +43,10 @@ export const metadata = {
   //   index: true,
   //   follow: true,
   // },
-  verification: {
-    google: "eMK-J7AIIge48keTYluNj9JqmmIGzGLqgoohVld9lB4",
+ 
+
+   verification: {
+    google: "ujgvZFXfQFVhYm59UCfjX9wpScL3VAe13cdjBcJP-Io",
   },
   icons: {
     icon: "/favicon.ico",
@@ -52,7 +54,7 @@ export const metadata = {
 
   openGraph: {
     type: "website",
-    url: "https://www.macautoindia.com/",
+    url: "https://mack-ev.com/",
     title: "MACK EV | Electric Rickshaw & E-Cart Manufacturer",
     description:
       "MACK EV is a leading electric vehicle manufacturer in India, offering i-CAT certified e-rickshaws & EVs with patented designs & a PAN-India network.",
@@ -69,7 +71,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     domain: "macautoindia.com",
-    url: "https://www.macautoindia.com/",
+    url: "https://mack-ev.com/",
     title: "MACK EV | Electric Rickshaw & E-Cart Manufacturer",
     description:
       "MACK EV is a leading electric vehicle manufacturer in India, offering i-CAT certified e-rickshaws & EVs with patented designs & a PAN-India network.",
@@ -198,14 +200,9 @@ export default function RootLayout({ children }) {
           `}
         </Script>
 
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-5ZV7QXWR"
-            height="0"
-            width="0"
-            style={{ display: "none", visibility: "hidden" }}
-          ></iframe>
-        </noscript>
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6VR7WHJ"
+height="0" width="0" style={{ display: "none", visibility: "hidden" }}
+></iframe></noscript>
       </head>
 
       <meta
@@ -213,8 +210,15 @@ export default function RootLayout({ children }) {
         content="eMK-J7AIIge48keTYluNj9JqmmIGzGLqgoohVld9lB4"
       />
       <GoogleAnalytics gaId="G-5Z8REY1QK8" />
-      <GoogleTagManager gtmId="GTM-5ZV7QXWR" />
-
+      <GoogleTagManager gtmId="GTM-M6VR7WHJ" />
+  <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-M6VR7WHJ"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
       <body
         className={`${SpeedBeast.variable} ${manrope.variable} antialiased`}
         suppressHydrationWarning
