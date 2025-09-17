@@ -86,82 +86,82 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <Script
-          id="schema-org"
-          type="application/ld+json"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": ["Organization", "LocalBusiness"],
-              name: "MACK EV",
-              url: "https://www.macautoindia.com/",
-              logo: "https://www.macautoindia.com/assets/images/logo.png",
-              image:
-                "https://www.macautoindia.com/assets/images/home-banner.jpg",
-              description:
-                "MACK EV is a leading electric vehicle manufacturer in India, specializing in e-rickshaws, electric carts, and eco-friendly mobility solutions with patented designs and i-CAT certification.",
-              telephone: "+91-80-9062-9062",
-              email: "info@macauto.in",
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "Gurukul Indraprastha College, 121A, 121B",
-                addressLocality: "Faridabad",
-                addressRegion: "Haryana",
-                postalCode: "121004",
-                addressCountry: "IN",
-              },
-              geo: {
-                "@type": "GeoCoordinates",
-                latitude: "26.4983",
-                longitude: "78.6598",
-              },
-              sameAs: [
-                "https://www.facebook.com/MacAutoofficial",
-                "https://www.instagram.com/macautoindiaofficial/",
-                "https://x.com/macautoofficial",
-              ],
-              founder: {
-                "@type": "Person",
-                name: "Abhijeet Wassan",
-                jobTitle: "Founder & CEO",
-              },
-              foundingDate: "2014",
-              foundingLocation: {
-                "@type": "Place",
-                name: "Faridabad, India",
-              },
-              makesOffer: [
-                {
-                  "@type": "Offer",
-                  itemOffered: {
-                    "@type": "Product",
-                    name: "MAC Passenger E-Rickshaw",
-                    category: "Passenger Electric Vehicle",
-                    brand: "MACK EV",
-                  },
-                },
-                {
-                  "@type": "Offer",
-                  itemOffered: {
-                    "@type": "Product",
-                    name: "MAC Cargo Loader E-Vehicle",
-                    category: "Cargo Electric Vehicle",
-                    brand: "MACK EV",
-                  },
-                },
-                {
-                  "@type": "Offer",
-                  itemOffered: {
-                    "@type": "Product",
-                    name: "MAC Garbage Collection E-Vehicle",
-                    category: "Waste Management Electric Vehicle",
-                    brand: "MACK EV",
-                  },
-                },
-              ],
-            }),
-          }}
-        />
+  id="schema-org"
+  type="application/ld+json"
+  strategy="afterInteractive"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": ["Organization", "LocalBusiness"],
+      name: "MACK EV",
+      url: "https://mack-ev.com/",
+      logo: "https://mack-ev.com/assets/images/logo.png",
+      image: "https://mack-ev.com/assets/images/home-banner.jpg",
+      description:
+        "MACK EV is a leading electric vehicle manufacturer in India, specializing in e-rickshaws, electric carts, and eco-friendly mobility solutions with patented designs and i-CAT certification.",
+      telephone: "+91-80-9062-9062",
+      email: "info@mack-ev.com",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "Gurukul Indraprastha College, 121A, 121B",
+        addressLocality: "Faridabad",
+        addressRegion: "Haryana",
+        postalCode: "121004",
+        addressCountry: "IN",
+      },
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: "26.4983",
+        longitude: "78.6598",
+      },
+      sameAs: [
+        "https://www.facebook.com/MackEVofficial",
+        "https://www.instagram.com/mack-evofficial/",
+        "https://x.com/mackEVofficial",
+      ],
+      founder: {
+        "@type": "Person",
+        name: "Abhijeet Wassan",
+        jobTitle: "Founder & CEO",
+      },
+      foundingDate: "2014",
+      foundingLocation: {
+        "@type": "Place",
+        name: "Faridabad, India",
+      },
+      makesOffer: [
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Product",
+            name: "MACK EV Passenger E-Rickshaw",
+            category: "Passenger Electric Vehicle",
+            brand: "MACK EV",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Product",
+            name: "MACK EV Cargo Loader E-Vehicle",
+            category: "Cargo Electric Vehicle",
+            brand: "MACK EV",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Product",
+            name: "MACK EV Garbage Collection E-Vehicle",
+            category: "Waste Management Electric Vehicle",
+            brand: "MACK EV",
+          },
+        },
+      ],
+    }),
+  }}
+/>
+
         <Script id="fb-pixel" strategy="afterInteractive">
           {`
             !function(f,b,e,v,n,t,s)
@@ -185,7 +185,14 @@ export default function RootLayout({ children }) {
             src="https://www.facebook.com/tr?id=932744845716336&ev=PageView&noscript=1"
           />
         </noscript>
-
+  <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-M6VR7WHJ"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-YKPT1J5NNE"
           strategy="afterInteractive"
@@ -211,14 +218,7 @@ height="0" width="0" style={{ display: "none", visibility: "hidden" }}
       />
       <GoogleAnalytics gaId="G-5Z8REY1QK8" />
       <GoogleTagManager gtmId="GTM-M6VR7WHJ" />
-  <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-M6VR7WHJ"
-            height="0"
-            width="0"
-            style={{ display: "none", visibility: "hidden" }}
-          ></iframe>
-        </noscript>
+
       <body
         className={`${SpeedBeast.variable} ${manrope.variable} antialiased`}
         suppressHydrationWarning

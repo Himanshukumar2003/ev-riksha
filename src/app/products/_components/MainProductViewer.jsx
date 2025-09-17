@@ -1,68 +1,24 @@
-"use client";
-import { useState, useEffect } from "react";
-import { ChevronDown, Download, MapPin, Palette } from "lucide-react";
-import Container from "@mui/material/Container";
-import Image from "next/image";
-import EMICalculator from "./emi-calculator";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import EnquiryFormModal from "./form";
-import { Button } from "@/components/ui/button";
+"use client"
+import { useState } from "react"
+import { Palette } from "lucide-react"
+import Container from "@mui/material/Container"
+import Image from "next/image"
+import { Swiper, SwiperSlide } from "swiper/react"
+import "swiper/css"
+import EnquiryFormModal from "./form"
+import DownloadFormModal from "./download-form-modal"
 
 export default function MainProductViewer({ product }) {
-  const [selectedColor, setSelectedColor] = useState(0);
+  const [selectedColor, setSelectedColor] = useState(0)
   // const [swiperImg, setSwiperImage] = useState(product.carousel);
-  const [selectedState, setSelectedState] = useState("");
-  const [selectedCity, setSelectedCity] = useState("");
+  const [selectedState, setSelectedState] = useState("")
+  const [selectedCity, setSelectedCity] = useState("")
 
-  // Update Swiper images when selectedColor changes
-  // useEffect(() => {
-  //   if (product?.colors?.[selectedColor]) {
-  //     setSwiperImage(
-  //       product.colors[selectedColor].carousel || product.carousel
-  //     );
-  //   }
-  // }, [selectedColor, product]);
-
-  {
-    /* ---------- PRICE STATES & FUNCTIONS COMMENTED ---------- */
-  }
-  {
-    /*
-  const [currentPrice, setCurrentPrice] = useState(0);
-
-  const formatPrice = (price) => (price ? price.toLocaleString("en-IN") : "0");
-  const getCurrentLocation = () =>
-    selectedCity || selectedState || "your location";
-
-  useEffect(() => {
-    if (product) {
-      setSelectedColor(0);
-      const base = product?.pricing?.[0]?.base_price || 0;
-      setCurrentPrice(base);
-    }
-  }, [product]);
-
-  useEffect(() => {
-    if (!selectedState) return;
-    const stateObj = product?.pricing?.find((p) => p.name === selectedState);
-    if (!stateObj) return;
-
-    let base = stateObj.base_price || 0;
-    if (selectedCity && stateObj.cities?.length) {
-      const cityObj = stateObj.cities.find((c) => c.name === selectedCity);
-      if (cityObj) base += cityObj.price_modifier || 0;
-    }
-    setCurrentPrice(base);
-  }, [selectedState, selectedCity, product]);
-  */
-  }
-
-  console.log(product);
+  console.log(product)
   const handleStateChange = (value) => {
-    setSelectedState(value);
-    setSelectedCity("");
-  };
+    setSelectedState(value)
+    setSelectedCity("")
+  }
 
   return (
     <>
@@ -105,14 +61,10 @@ export default function MainProductViewer({ product }) {
               <div className="border-b border-gray-100 pb-4 sm:pb-6 mb-4 sm:mb-6">
                 <div className="flex items-center gap-3 mb-3 sm:mb-4">
                   <div className="w-10 h-10 sm:w-12 sm:h-12 bg-green-600 rounded-xl flex items-center justify-center shadow-lg">
-                    <span className="text-white text-base sm:text-lg font-bold">
-                      {product?.title?.charAt(0)}
-                    </span>
+                    <span className="text-white text-base sm:text-lg font-bold">{product?.title?.charAt(0)}</span>
                   </div>
                   <div>
-                    <div className="text-xs capitalize sm:text-sm text-gray-500 font-medium">
-                      {product?.category}
-                    </div>
+                    <div className="text-xs capitalize sm:text-sm text-gray-500 font-medium">{product?.category}</div>
                     <h1
                       className="font-bold "
                       style={{
@@ -125,9 +77,7 @@ export default function MainProductViewer({ product }) {
                     </h1>
                   </div>
                 </div>
-                <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
-                  {product?.description}
-                </p>
+                <p className="text-gray-600 text-sm sm:text-base leading-relaxed">{product?.description}</p>
               </div>
 
               {/* Colors */}
@@ -135,9 +85,7 @@ export default function MainProductViewer({ product }) {
                 <div className="mb-6 sm:mb-8">
                   <div className="flex items-center gap-2 mb-3">
                     <Palette className="w-5 h-5 text-green-600" />
-                    <h3 className="text-base sm:text-lg font-semibold text-gray-700">
-                      Available Color
-                    </h3>
+                    <h3 className="text-base sm:text-lg font-semibold text-gray-700">Available Color</h3>
                   </div>
                   <div className="flex flex-wrap gap-2 sm:gap-3">
                     {product.colors.map((color, index) => (
@@ -235,28 +183,10 @@ export default function MainProductViewer({ product }) {
               <div className="flex gap-4 rounded-[10px]">
                 <EnquiryFormModal productId={product?.id} />
                 {product?.brochure?.length > 0 && (
-                  <Button
-                    variant="outline"
-                    className="text-green-500 hover:bg-green-500 hover:text-white rounded-[8px]"
-                    onClick={() => {
-                      const fileUrl = `https://api.macautoindia.com/${product.brochure[0]}`;
-                      const link = document.createElement("a");
-                      link.href = fileUrl;
-                      link.target = "_blank";
-                      const fileName = product?.title
-                        ? `${product.title}-brochure.pdf`
-                        : "brochure.pdf";
-                      link.setAttribute("download", fileName);
-                      document.body.appendChild(link);
-                      link.click();
-                      document.body.removeChild(link);
-                    }}
-                  >
-                    <span className="flex items-center gap-2">
-                      <Download className="h-4 w-4" />
-                      Download Brochure
-                    </span>
-                  </Button>
+                  <DownloadFormModal
+                    fileUrl={`https://api.macautoindia.com/${product.brochure[0]}`}
+                    fileName={product?.title ? `${product.title}-brochure.pdf` : "brochure.pdf"}
+                  />
                 )}
               </div>
             </div>
@@ -280,9 +210,8 @@ export default function MainProductViewer({ product }) {
                   Explore Our YouTube Channel
                 </h2>
                 <p className="text-sm sm:text-base md:text-lg text-gray-600 mb-4 sm:mb-6">
-                  Dive deeper into our innovations, product demonstrations, and
-                  behind-the-scenes videos. Subscribe to our YouTube channel and
-                  stay updated with the latest content from Macauto India.
+                  Dive deeper into our innovations, product demonstrations, and behind-the-scenes videos. Subscribe to
+                  our YouTube channel and stay updated with the latest content from Macauto India.
                 </p>
                 <a
                   href="https://www.youtube.com/@Macautoindia"
@@ -308,5 +237,5 @@ export default function MainProductViewer({ product }) {
         </div>
       )}
     </>
-  );
+  )
 }
