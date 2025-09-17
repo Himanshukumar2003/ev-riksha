@@ -35,7 +35,7 @@ export const metadata = {
   description:
     "MACK EV is a leading electric vehicle manufacturer in India, offering i-CAT certified e-rickshaws & EVs with patented designs & a PAN-India network.",
   keywords:
-    "e rickshaw, e rickshaw price, electric auto rickshaw, electric auto price in india, E Rickshaw price On Road, E Rickshaw manufacturers in India, E Rickshaw Dealers in India, E rickshaw suppliers, Icat approved e rickshaw in india, Electric Rickshaw Manufacturer & Supplier, i-cat certified e rickshaw manufacturers, e rickshaw parts supplier India, electric vehicle manufacturers in India, eco friendly transport in India, E rickshaw parts supplier in India",
+      "e rickshaws, e rickshaw price, electric auto rickshaw, electric auto price in india, E Rickshaw price On Road, E Rickshaw manufacturers in India, E Rickshaw Dealers in India, E rickshaw suppliers, Icat approved e rickshaw in india, Electric Rickshaw Manufacturer & Supplier, i-cat certified e rickshaw manufacturers, e rickshaw parts supplier India, electric vehicle manufacturers in India, eco friendly transport in India, E rickshaw parts supplier in India",
   alternates: {
     canonical: `/`,
   },
@@ -162,7 +162,7 @@ export default function RootLayout({ children }) {
   }}
 /> */}
 
-        <Script id="fb-pixel" strategy="afterInteractive">
+        {/* <Script id="fb-pixel" strategy="afterInteractive">
           {`
             !function(f,b,e,v,n,t,s)
             {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -175,7 +175,7 @@ export default function RootLayout({ children }) {
             fbq('init', '932744845716336');
             fbq('track', 'PageView');
           `}
-        </Script>
+        </Script> */}
 
         <noscript>
           <img
