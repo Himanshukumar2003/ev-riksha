@@ -85,7 +85,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <Script
+        {/* <Script
   id="schema-org"
   type="application/ld+json"
   strategy="afterInteractive"
@@ -160,7 +160,7 @@ export default function RootLayout({ children }) {
       ],
     }),
   }}
-/>
+/> */}
 
         <Script id="fb-pixel" strategy="afterInteractive">
           {`
