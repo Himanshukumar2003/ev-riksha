@@ -180,7 +180,7 @@ export default function MainProductViewer({ product }) {
               
               </div> */}
 
-              {/* <div className="flex gap-4 rounded-[10px]">
+              <div className="flex gap-4 rounded-[10px]">
                 <EnquiryFormModal productId={product?.id} />
                 {product?.brochure?.length > 0 && (
                   <DownloadFormModal
@@ -188,7 +188,7 @@ export default function MainProductViewer({ product }) {
                     fileName={product?.title ? `${product.title}-brochure.pdf` : "brochure.pdf"}
                   />
                 )}
-              </div> */}
+              </div>
             </div>
           </div>
         </Container>
