@@ -35,7 +35,7 @@ export const metadata = {
   description:
     "MACK EV is a leading electric vehicle manufacturer in India, offering i-CAT certified e-rickshaws & EVs with patented designs & a PAN-India network.",
   keywords:
-      "e rickshaws, e rickshaw price, electric auto rickshaw, electric auto price in india, E Rickshaw price On Road, E Rickshaw manufacturers in India, E Rickshaw Dealers in India, E rickshaw suppliers, Icat approved e rickshaw in india, Electric Rickshaw Manufacturer & Supplier, i-cat certified e rickshaw manufacturers, e rickshaw parts supplier India, electric vehicle manufacturers in India, eco friendly transport in India, E rickshaw parts supplier in India",
+    "e rickshaw, e rickshaw price, electric auto rickshaw, electric auto price in india, E Rickshaw price On Road, E Rickshaw manufacturers in India, E Rickshaw Dealers in India, E rickshaw suppliers, Icat approved e rickshaw in india, Electric Rickshaw Manufacturer & Supplier, i-cat certified e rickshaw manufacturers, e rickshaw parts supplier India, electric vehicle manufacturers in India, eco friendly transport in India, E rickshaw parts supplier in India",
   alternates: {
     canonical: `/`,
   },
@@ -60,7 +60,7 @@ export const metadata = {
       "MACK EV is a leading electric vehicle manufacturer in India, offering i-CAT certified e-rickshaws & EVs with patented designs & a PAN-India network.",
     images: [
       {
-        url: "https://opengraph.b-cdn.net/production/images/b809beb0-ce95-448b-9240-3c11aaa75617.jpg?token=sVMwVS93ylb8wlGovaHw1_xvAHaesPxt-Z95RErdHeY&height=1000&width=1000&expires=33291090671",
+        url: "https://mack-ev.com/logo.png",
         width: 1000,
         height: 1000,
         alt: "MACK EV Electric Rickshaw",
@@ -85,7 +85,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        {/* <Script
+        <Script
   id="schema-org"
   type="application/ld+json"
   strategy="afterInteractive"
@@ -160,9 +160,9 @@ export default function RootLayout({ children }) {
       ],
     }),
   }}
-/> */}
+/>
 
-        {/* <Script id="fb-pixel" strategy="afterInteractive">
+        <Script id="fb-pixel" strategy="afterInteractive">
           {`
             !function(f,b,e,v,n,t,s)
             {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -175,7 +175,7 @@ export default function RootLayout({ children }) {
             fbq('init', '932744845716336');
             fbq('track', 'PageView');
           `}
-        </Script> */}
+        </Script>
 
         <noscript>
           <img

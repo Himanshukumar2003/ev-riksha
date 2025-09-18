@@ -7867,4 +7867,92 @@ export const data = [
         "With tie ups from leading banks and financial institutions, the E-Rickshaw can be easily afforded with attractive finance schemes and pocket friendly EMI plans.",
     },
   },
+
+
+
+  {
+  title: "Electric Rickshaw Manufacturer",
+  id: "101",
+  city: "India",
+  slug: "electric-rickshaw-manufacturer",
+  img: "/img/benaer3.webp",
+  paragraphs: [
+    "Committed to building a clean and sustainable last mile, MACK EV proudly presents the Mac E-Rickshaw through its electric mobility subsidiary – Mego. With innovation, reliability, and customer trust at the core, MACK EV has emerged as a trusted electric rickshaw manufacturer in India, empowering thousands of drivers while shaping the future of green mobility.",
+    "MACK EV Vehicles, a wholly-owned electric mobility subsidiary, acquired a Faridabad-based E-3Wheeler company that manufactures electric auto-rickshaws under the popular Mac brand with a 74% stake.",
+    "Through this acquisition, MACK EV strengthened its presence in the fast-growing E-Rickshaw segment, expanding into both E-2W and E-3W categories. Today, it stands tall as a reliable electric rickshaw manufacturer committed to sustainable last-mile connectivity.",
+  ],
+  driverBenefits: {
+    title: "Empowering Drivers, Ensuring Prosperity",
+    benefits: [
+      {
+        title: "Higher Earnings",
+        description:
+          "With a running cost of just ₹2/km, Mac E-Rickshaws help drivers increase their daily income and improve their financial stability.",
+      },
+      {
+        title: "Enhanced Employability",
+        description:
+          "The Mac E-Rickshaw is more than just a vehicle – it’s a livelihood opportunity. By making driving affordable, MACK EV supports drivers in sustaining their families and securing a better future.",
+      },
+      {
+        title: "Sustainable Future",
+        description:
+          "As a responsible electric rickshaw manufacturer, MACK EV ensures every vehicle contributes to reducing pollution, supporting India’s green mobility goals.",
+      },
+    ],
+  },
+  featuresPerformance: {
+    title: "Made for India, Built to Perform",
+    description:
+      "The Mac E-Rickshaw is designed to endure Indian road conditions with robust construction and advanced features, ensuring excellent safety, comfort, and performance.",
+    features: [
+      {
+        title: "Durable Build",
+        description:
+          "Equipped with a strong steel body, ABS roof, and sturdy alloy wheels, Mac E-Rickshaws are designed for Indian road conditions, ensuring durability and reliability.",
+      },
+      {
+        title: "Certified Safety",
+        description:
+          "All vehicles are ICAT approved and come with powerful drum brakes for maximum safety of drivers and passengers.",
+      },
+      {
+        title: "Efficient Charging & Long Range",
+        description:
+          "With a charging time of 8–10 hours and a range of up to 100 km per charge, Mac E-Rickshaws provide efficiency and convenience for everyday use.",
+      },
+      {
+        title: "Comfortable & Profitable",
+        description:
+          "Built for comfort and safety, these rickshaws also ensure higher profitability, leading to improved satisfaction for drivers.",
+      },
+    ],
+  },
+  brandReputation: {
+    title: "Trusted Name with Nationwide Presence",
+    points: [
+      {
+        title: "10,000+ Happy Customers",
+        description:
+          "10,000+ Happy Customers trusting the Mac brand.",
+      },
+      {
+        title: "125+ Dealer Touchpoints",
+        description:
+          "125+ Dealer Touchpoints across 16 Indian states, making service and spares easily accessible.",
+      },
+      {
+        title: "Growing Reputation",
+        description:
+          "A growing reputation as a leading electric rickshaw manufacturer delivering quality, trust, and innovation.",
+      },
+    ],
+  },
+  financing: {
+    title: "Easy Financing Options for Every Buyer",
+    description:
+      "With support from top banks and financial institutions, Mac offers affordable finance schemes and EMI plans to make E-Rickshaw ownership easy and accessible.",
+  },
+}
+
 ];

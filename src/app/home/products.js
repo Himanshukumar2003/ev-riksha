@@ -88,7 +88,7 @@ export default function VehicleCategoryFilter() {
                   <button
                     key={category.id}
                     onClick={() => setSelectedCategory(category.id)}
-                    className={`group relative flex flex-col items-center p-2 lg:p-8 rounded-2xl transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 text-black shadow:none lg:shadow-2xl ${
+                    className={`group relative flex flex-col items-center justify-center p-2 lg:p-8 rounded-2xl transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 text-black shadow:none lg:shadow-2xl ${
                       selectedCategory === category.id
                         ? "bg-[linear-gradient(135deg,#8BC248,#58B947)] text-white"
                         : "bg-gray-100"
