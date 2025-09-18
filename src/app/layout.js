@@ -95,12 +95,11 @@ export default function RootLayout({ children }) {
       "@type": ["Organization", "LocalBusiness"],
       name: "MACK EV",
       url: "https://mack-ev.com/",
-      logo: "https://mack-ev.com/assets/images/logo.png",
-      image: "https://mack-ev.com/assets/images/home-banner.jpg",
+      logo: "https://mack-ev.com/logo.png",
+      image: "https://mack-ev.com/img/banner1.png",
       description:
-        "MACK EV is a leading electric vehicle manufacturer in India, specializing in e-rickshaws, electric carts, and eco-friendly mobility solutions with patented designs and i-CAT certification.",
+        "MACK EV is a leading electric vehicle manufacturer in India, offering i-CAT certified e-rickshaws & EVs with patented designs & a PAN-India network.",
       telephone: "+91-80-9062-9062",
-      email: "info@mack-ev.com",
       address: {
         "@type": "PostalAddress",
         streetAddress: "Gurukul Indraprastha College, 121A, 121B",
@@ -115,9 +114,9 @@ export default function RootLayout({ children }) {
         longitude: "78.6598",
       },
       sameAs: [
-        "https://www.facebook.com/MackEVofficial",
-        "https://www.instagram.com/mack-evofficial/",
-        "https://x.com/mackEVofficial",
+        "https://www.facebook.com/MacAutoofficial",
+        "https://x.com/macautoofficial",
+        "https://www.facebook.com/MacAutoofficial",
       ],
       founder: {
         "@type": "Person",
@@ -128,39 +127,12 @@ export default function RootLayout({ children }) {
       foundingLocation: {
         "@type": "Place",
         name: "Faridabad, India",
-      },
-      makesOffer: [
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Product",
-            name: "MACK EV Passenger E-Rickshaw",
-            category: "Passenger Electric Vehicle",
-            brand: "MACK EV",
-          },
         },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Product",
-            name: "MACK EV Cargo Loader E-Vehicle",
-            category: "Cargo Electric Vehicle",
-            brand: "MACK EV",
-          },
-        },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Product",
-            name: "MACK EV Garbage Collection E-Vehicle",
-            category: "Waste Management Electric Vehicle",
-            brand: "MACK EV",
-          },
-        },
-      ],
     }),
   }}
 />
+
+
 
         <Script id="fb-pixel" strategy="afterInteractive">
           {`
