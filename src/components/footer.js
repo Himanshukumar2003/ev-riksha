@@ -30,6 +30,7 @@ export default function Footer() {
     { title: "Kanpur Dehat", city: "kanpur-dehat" },
     { title: "Lucknow", city: "lucknow" },
     { title: "Prayagraj", city: "prayagraj" },
+    
   ];
   return (
     <>
