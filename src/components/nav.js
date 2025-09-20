@@ -11,12 +11,6 @@ import { Button, buttonVariants } from "@/components/ui/button";
 import { BiSupport } from "react-icons/bi";
 
 import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
@@ -24,7 +18,6 @@ import {
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { useData } from "./DataContext";
 import { cn } from "@/lib/utils";
-import { data } from "autoprefixer";
 import { Card } from "./ui/card";
 import {
   Dialog,

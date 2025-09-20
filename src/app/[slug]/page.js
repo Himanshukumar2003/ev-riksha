@@ -46,9 +46,9 @@ export default async function Page({ params }) {
         <Container maxWidth="xl">
           {/* Hero/Introduction Section */}
           <div className=" max-w-4xl mx-auto text-center space-y-6">
-            <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight ">
+            <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight ">
               {content.title}
-            </h1>
+            </h2>
             {content.paragraphs.map((para, i) => (
               <p key={i}>{para}</p>
             ))}
