@@ -30,7 +30,6 @@ export default function Footer() {
     { title: "Kanpur Dehat", city: "kanpur-dehat" },
     { title: "Lucknow", city: "lucknow" },
     { title: "Prayagraj", city: "prayagraj" },
-    
   ];
   return (
     <>
@@ -48,14 +47,23 @@ export default function Footer() {
                   className="w-[150px] md:w-[200px]  scale-105"
                 ></Image>
               </div>
-              <h5 className="font-medium text-gray-400">     MACK.EV – Driving E-Rickshaw Innovation Since 2014</h5>
+              <h5 className="font-medium text-gray-400">
+                {" "}
+                MACK.EV – Driving E-Rickshaw Innovation Since 2014
+              </h5>
               <p className="text-sm text-gray-400 mb-6 leading-relaxed">
-          
-
-As one of India’s pioneering electric vehicle manufacturers, MACK EV (formerly MACK EV) specializes in eco-friendly E-Rickshaws and loading carts with patented designs and i-CAT certifications. With a strong PAN India presence, MACK EV is committed to delivering innovative, reliable, and high-performance electric mobility solutions.
-</p>
-<p className="text-sm text-gray-400 mb-6 leading-relaxed">Our dedication to quality and customer satisfaction sets us apart in the EV industry, as we continue to power a cleaner and greener future.
-       </p>      
+                As one of India’s pioneering electric vehicle manufacturers,
+                MACK EV (formerly MACK EV) specializes in eco-friendly
+                E-Rickshaws and loading carts with patented designs and i-CAT
+                certifications. With a strong PAN India presence, MACK EV is
+                committed to delivering innovative, reliable, and
+                high-performance electric mobility solutions.
+              </p>
+              <p className="text-sm text-gray-400 mb-6 leading-relaxed">
+                Our dedication to quality and customer satisfaction sets us
+                apart in the EV industry, as we continue to power a cleaner and
+                greener future.
+              </p>
             </div>
 
             {/* Company Section */}
@@ -134,65 +142,64 @@ As one of India’s pioneering electric vehicle manufacturers, MACK EV (formerly
               <h3 className="text-lg font-semibold text-white mb-4">
                 Our Products
               </h3>
-            <ul className="space-y-3">
-  <li>
-    <Link
-      href="/products/900"
-      className="text-gray-400 hover:text-white transition-colors"
-    >
-      900
-    </Link>
-  </li>
-  <li>
-    <Link
-      href="/products/dhoom"
-      className="text-gray-400 hover:text-white transition-colors"
-    >
-       Dhoom
-    </Link>
-  </li>
-  <li>
-    <Link
-      href="/products/tejas-dhl"
-      className="text-gray-400 hover:text-white transition-colors"
-    >
-       Tejas DHL
-    </Link>
-  </li>
-  <li>
-    <Link
-      href="/products/tejas-ultra"
-      className="text-gray-400 hover:text-white transition-colors"
-    >
-      Tejas Ultra
-    </Link>
-  </li>
-  <li>
-    <Link
-      href="/products/vajra"
-      className="text-gray-400 hover:text-white transition-colors"
-    >
-      Vajra
-    </Link>
-  </li>
-  <li>
-    <Link
-      href="/products/vayu"
-      className="text-gray-400 hover:text-white transition-colors"
-    >
-      Vayu
-    </Link>
-  </li>
-  <li>
-    <Link
-      href="/products"
-      className="text-gray-400 hover:text-white transition-colors"
-    >
-      View All Products
-    </Link>
-  </li>
-</ul>
-
+              <ul className="space-y-3">
+                <li>
+                  <Link
+                    href="/products/900"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
+                    900
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/products/dhoom"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
+                    Dhoom
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/products/tejas-dhl"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
+                    Tejas DHL
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/products/tejas-ultra"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
+                    Tejas Ultra
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/products/vajra"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
+                    Vajra
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/products/vayu"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
+                    Vayu
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/products"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
+                    View All Products
+                  </Link>
+                </li>
+              </ul>
             </div>
 
             {/* Contact Section */}
@@ -228,13 +235,13 @@ As one of India’s pioneering electric vehicle manufacturers, MACK EV (formerly
                   </Link>
                   <Link
                     target="_blank"
-                    href="https://www.youtube.com/@Macautoindia"
+                    href="https://www.youtube.com/@mackevofficial"
                     className="w-10 h-10 bg-slate-700 hover:bg-blue-700 rounded-lg flex items-center justify-center transition-colors"
                   >
                     <FaYoutube className="w-5 h-5" />
                   </Link>
                   <Link
-                    href="https://www.instagram.com/macautoindiaofficial/"
+                    href="https://www.instagram.com/mackevofficial/"
                     target="_blank"
                     className="w-10 h-10 bg-slate-700 hover:bg-pink-600 rounded-lg flex items-center justify-center transition-colors"
                   >
