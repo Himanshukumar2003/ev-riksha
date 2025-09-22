@@ -10,8 +10,32 @@ import Image from "next/image";
 import Breadcrumb from "@/components/breadcrumb";
 import { data } from "./_data";
 
+// Generate dynamic meta tags based on content
+export async function generateMetadata({ params, searchParams, request }) {
+  const { slug } = params;
+  const content = data.find((item) => item.slug === slug);
+
+  if (!content) {
+    return {
+      title: "Product Not Found",
+      description: "The requested product could not be found.",
+    };
+  }
+
+  const meta = content.metaData || {};
+
+  return {
+    title: meta.metaTitle || content.title,
+    description: meta.metaDescription || "",
+    keywords: meta.keywords ? meta.keywords.join(", ") : "",
+    alternates: {
+      canonical: `https://mack-ev.com/${content.slug}`,
+    },
+  };
+}
+
 export default async function Page({ params }) {
-  const { slug } = await params;
+  const { slug } = params;
   const content = data.find((item) => item.slug === slug);
 
   if (!content) {
@@ -21,7 +45,6 @@ export default async function Page({ params }) {
   return (
     <>
       <Breadcrumb title={content.title} />
-
       {/* Hero Image */}
       <div className="section">
         <Container maxWidth="xl">
@@ -36,8 +59,6 @@ export default async function Page({ params }) {
           </div>
         </Container>
       </div>
-
-      {/* Intro Paragraphs */}
       <div className="section bg-gray-50">
         {content.paragraphs?.length > 0 && (
           <div>
@@ -67,16 +88,17 @@ export default async function Page({ params }) {
                   </h3>
                 ))}
                 {content.subHeading.paragraphs?.map((para, i) => (
-                  <p key={i} className="text-center">
-                    {para}
-                  </p>
+                  <p
+                    className="text-center"
+                    key={i}
+                    dangerouslySetInnerHTML={{ __html: para }}
+                  ></p>
                 ))}
               </div>
             </Container>
           </div>
         )}
       </div>
-
       {/* Driver Benefits */}
       {content.driverBenefits && (
         <div className="section">
@@ -108,7 +130,6 @@ export default async function Page({ params }) {
           </Container>
         </div>
       )}
-
       {/* Features & Performance */}
       {content.featuresPerformance && (
         <section className="bg-gray-50 section">
@@ -144,7 +165,6 @@ export default async function Page({ params }) {
           </Container>
         </section>
       )}
-
       {/* Brand Reputation */}
       {content.brandReputation && (
         <section className="section">
@@ -174,7 +194,6 @@ export default async function Page({ params }) {
           </div>
         </section>
       )}
-
       {/* Financing */}
       {content.financing && (
         <section className="section bg-gray-50">
@@ -188,9 +207,7 @@ export default async function Page({ params }) {
           </Container>
         </section>
       )}
-
       {/* Manufacturers */}
-
       {/* Conclusion */}
       {content.conclusion && (
         <section className="section text-center">
@@ -201,7 +218,7 @@ export default async function Page({ params }) {
             </div>
           </Container>
         </section>
-      )}
+      )}{" "}
     </>
   );
 }

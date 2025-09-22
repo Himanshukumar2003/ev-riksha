@@ -25,20 +25,20 @@ export default function Products() {
 
   // Filter vehicles to only show category = "Garbage"
   const garbageVehicles = vehicles.filter(
-    (product) => product.category?.toLowerCase() === "golf"
+    (product) => product.category?.toLowerCase() === "passenger"
   );
 
   return (
     <>
-      <Breadcrumb title="Golf" />
+      <Breadcrumb title="Passenger" />
       <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-100">
         <div className="container mx-auto px-4 py-12">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-transparent mb-4">
-              Golf Vehicles Collection
+              Passenger Vehicles Collection
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Explore our range of Golf disposal and utility vehicles
+              Explore our range of Passenger disposal and utility vehicles
             </p>
           </div>
 
