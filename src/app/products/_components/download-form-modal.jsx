@@ -1,92 +1,111 @@
-"use client"
-import { useState } from "react"
+"use client";
+import { useState } from "react";
 
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/components/ui/dialog"
-import { Download } from "lucide-react"
+} from "@/components/ui/dialog";
+import { Download } from "lucide-react";
 
 export default function DownloadFormModal({ fileUrl, fileName }) {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
+    lastName: "", // ✅ Added lastName
     phone: "",
     city: "",
-  })
-  const [errors, setErrors] = useState({})
-  const [isSubmitting, setIsSubmitting] = useState(false)
+  });
+  const [errors, setErrors] = useState({});
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleInputChange = (e) => {
-    const { name, value } = e.target
+    const { name, value } = e.target;
     setFormData((prev) => ({
       ...prev,
       [name]: value,
-    }))
-    setErrors((prev) => ({ ...prev, [name]: "" })) // clear error while typing
-  }
+    }));
+    setErrors((prev) => ({ ...prev, [name]: "" }));
+  };
 
   const validateForm = () => {
-    const newErrors = {}
+    const newErrors = {};
 
-    if (!formData.name.trim()) {
-      newErrors.name = "Name is required"
-    } else if (!/^[a-zA-Z\s]+$/.test(formData.name)) {
-      newErrors.name = "Name should only contain letters"
+    if (!String(formData.name).trim()) {
+      newErrors.name = "Name is required";
+    } else if (!/^[a-zA-Z\s]+$/.test(String(formData.name))) {
+      newErrors.name = "Name should only contain letters";
     }
 
-    if (!formData.phone.trim()) {
-      newErrors.phone = "Phone number is required"
-    } else if (!/^[0-9]{10}$/.test(formData.phone)) {
-      newErrors.phone = "Enter a valid 10-digit phone number"
+    if (!String(formData.phone).trim()) {
+      newErrors.phone = "Phone number is required";
+    } else if (!/^[0-9]{10}$/.test(String(formData.phone))) {
+      newErrors.phone = "Enter a valid 10-digit phone number";
     }
 
-    if (!formData.city.trim()) {
-      newErrors.city = "City is required"
+    if (!String(formData.city).trim()) {
+      newErrors.city = "City is required";
     }
 
-    return newErrors
-  }
+    return newErrors;
+  };
 
   const handleSubmit = async (e) => {
-    e.preventDefault()
-    const validationErrors = validateForm()
+    e.preventDefault();
+    const validationErrors = validateForm();
 
     if (Object.keys(validationErrors).length > 0) {
-      setErrors(validationErrors)
-      return
+      setErrors(validationErrors);
+      return;
     }
 
-    setIsSubmitting(true)
+    setIsSubmitting(true);
 
     try {
-      console.log("Form submitted:", formData)
+      // ✅ API call with lastName included
+      const response = await fetch(
+        "https://api.macautoindia.com/v1/kylas/download-brochure",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            firstName: formData.name,
+            lastName: formData.lastName,
+            city: formData.city,
+            phoneNumber: formData.phone,
+          }),
+        }
+      );
 
-      // Trigger PDF download
-      const link = document.createElement("a")
-      link.href = fileUrl
-      link.target = "_blank"
-      link.setAttribute("download", fileName)
-      document.body.appendChild(link)
-      link.click()
-      document.body.removeChild(link)
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.message || "Failed to submit enquiry.");
+      }
+
+      // ✅ Trigger PDF download after success
+      const link = document.createElement("a");
+      link.href = fileUrl;
+      link.target = "_blank";
+      link.setAttribute("download", fileName);
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
 
       // Reset form and close modal
-      setFormData({ name: "", phone: "", city: "" })
-      setIsOpen(false)
+      setFormData({ name: "", lastName: "", phone: "", city: "" });
+      setIsOpen(false);
     } catch (error) {
-      console.error("Error submitting form:", error)
-      alert("Error submitting form. Please try again.")
+      console.error("Error submitting form:", error);
+      alert(error.message || "Submission failed. Please try again.");
     } finally {
-      setIsSubmitting(false)
+      setIsSubmitting(false);
     }
-  }
+  };
 
   return (
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
@@ -106,20 +125,38 @@ export default function DownloadFormModal({ fileUrl, fileName }) {
           <DialogTitle>Download Brochure</DialogTitle>
         </DialogHeader>
         <form onSubmit={handleSubmit} className="space-y-4">
+          {/* First Name */}
           <div className="space-y-2">
-            <Label htmlFor="name">Name *</Label>
+            <Label htmlFor="name">First Name *</Label>
             <Input
               id="name"
               name="name"
               type="text"
-              placeholder="Enter your name"
-              className="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 flex h-9 w-full min-w-0 border bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border-gray-300 focus:border-blue-600 focus:ring-blue-600 rounded-md"
+              placeholder="Enter your first name"
               value={formData.name}
               onChange={handleInputChange}
+              className="flex h-9 w-full border border-gray-300 rounded-md px-3 py-1 focus:border-blue-600 focus:ring-blue-600"
             />
-            {errors.name && <p className="text-red-500 text-sm">{errors.name}</p>}
+            {errors.name && (
+              <p className="text-red-500 text-sm">{errors.name}</p>
+            )}
           </div>
 
+          {/* Last Name (no validation) */}
+          <div className="space-y-2">
+            <Label htmlFor="lastName">Last Name</Label>
+            <Input
+              id="lastName"
+              name="lastName"
+              type="text"
+              placeholder="Enter your last name"
+              value={formData.lastName}
+              onChange={handleInputChange}
+              className="flex h-9 w-full border border-gray-300 rounded-md px-3 py-1 focus:border-blue-600 focus:ring-blue-600"
+            />
+          </div>
+
+          {/* Phone */}
           <div className="space-y-2">
             <Label htmlFor="phone">Phone Number *</Label>
             <Input
@@ -128,12 +165,15 @@ export default function DownloadFormModal({ fileUrl, fileName }) {
               type="tel"
               placeholder="Enter your phone number"
               value={formData.phone}
-              className="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 flex h-9 w-full min-w-0 border bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border-gray-300 focus:border-blue-600 focus:ring-blue-600 rounded-md"
               onChange={handleInputChange}
+              className="flex h-9 w-full border border-gray-300 rounded-md px-3 py-1 focus:border-blue-600 focus:ring-blue-600"
             />
-            {errors.phone && <p className="text-red-500 text-sm">{errors.phone}</p>}
+            {errors.phone && (
+              <p className="text-red-500 text-sm">{errors.phone}</p>
+            )}
           </div>
 
+          {/* City */}
           <div className="space-y-2">
             <Label htmlFor="city">City *</Label>
             <Input
@@ -141,11 +181,13 @@ export default function DownloadFormModal({ fileUrl, fileName }) {
               name="city"
               type="text"
               placeholder="Enter your city"
-              className="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 flex h-9 w-full min-w-0 border bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border-gray-300 focus:border-blue-600 focus:ring-blue-600 rounded-md"
               value={formData.city}
               onChange={handleInputChange}
+              className="flex h-9 w-full border border-gray-300 rounded-md px-3 py-1 focus:border-blue-600 focus:ring-blue-600"
             />
-            {errors.city && <p className="text-red-500 text-sm">{errors.city}</p>}
+            {errors.city && (
+              <p className="text-red-500 text-sm">{errors.city}</p>
+            )}
           </div>
 
           <Button
@@ -158,5 +200,5 @@ export default function DownloadFormModal({ fileUrl, fileName }) {
         </form>
       </DialogContent>
     </Dialog>
-  )
+  );
 }
