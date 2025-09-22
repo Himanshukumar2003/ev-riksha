@@ -74,7 +74,7 @@ export default function VehicleCategoryFilter() {
                 { id: "passenger", image: "/img/passenger.png" },
                 { id: "loader", image: "/img/loader.png" },
                 { id: "garbage" },
-                { id: "golf" },
+                { id: "golf", image: "/img/golf.png" },
               ].map((category) => {
                 const selected = categories.find(
                   (cat) => cat.id === category.id

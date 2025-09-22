@@ -6,8 +6,8 @@ export const data = [
     slug: "electric-three-wheeler-noida",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad-based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with a 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad-based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with a 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -21,7 +21,7 @@ export const data = [
         {
           title: "Enhanced Employability",
           description:
-            "The Mac E-Rickshaw offers reliable means of employment, helping auto drivers support their families and ensure a better future.",
+            "The MackE-Rickshaw offers reliable means of employment, helping auto drivers support their families and ensure a better future.",
         },
         {
           title: "Sustainable Future",
@@ -33,7 +33,7 @@ export const data = [
     featuresPerformance: {
       title: "Made for India, Built to Perform",
       description:
-        "The Mac E-Rickshaw is designed to endure Indian road conditions with robust construction and advanced features, ensuring excellent safety, comfort, and performance.",
+        "The MackE-Rickshaw is designed to endure Indian road conditions with robust construction and advanced features, ensuring excellent safety, comfort, and performance.",
       features: [
         {
           title: "Durable Build",
@@ -63,7 +63,7 @@ export const data = [
         {
           title: "10,000+ Satisfied Customers",
           description:
-            "Years of experience and customer satisfaction make Mac a highly trusted brand in the E-Rickshaw sector.",
+            "Years of experience and customer satisfaction make Macka highly trusted brand in the E-Rickshaw sector.",
         },
         {
           title: "Widespread Dealer Network",
@@ -75,7 +75,7 @@ export const data = [
     financing: {
       title: "Easy Financing Options for Every Buyer",
       description:
-        "With support from top banks and financial institutions, Mac offers affordable finance schemes and EMI plans to make E-Rickshaw ownership easy and accessible.",
+        "With support from top banks and financial institutions, Mackoffers affordable finance schemes and EMI plans to make E-Rickshaw ownership easy and accessible.",
     },
   },
 
@@ -87,8 +87,8 @@ export const data = [
     slug: "top-10-e-loader-manufacturers-in-noida",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -102,7 +102,7 @@ export const data = [
         {
           title: "Enhanced Employability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability.",
         },
         {
           title: "Sustainable Future",
@@ -119,7 +119,7 @@ export const data = [
         {
           title: "Durable Build",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
         },
         {
           title: "Certified Safety",
@@ -129,7 +129,7 @@ export const data = [
         {
           title: "Efficient Charging & Long Range",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "Comfortable & Profitable",
@@ -144,7 +144,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and more than 10,000 happy customers, the Mac brand carries a good reputation of quality and trust.",
+            "With many years in the E-Rickshaw segment and more than 10,000 happy customers, the Mackbrand carries a good reputation of quality and trust.",
         },
         {
           title: "Extensive Dealer Network",
@@ -166,8 +166,8 @@ export const data = [
     slug: "best-e-loader-noida",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -181,7 +181,7 @@ export const data = [
         {
           title: "Enhanced Employability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability.",
         },
         {
           title: "Sustainable Future",
@@ -198,7 +198,7 @@ export const data = [
         {
           title: "Durable Build",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
         },
         {
           title: "Certified Safety",
@@ -208,7 +208,7 @@ export const data = [
         {
           title: "Efficient Charging & Long Range",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "Comfortable & Profitable",
@@ -223,7 +223,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and more than 10,000 happy customers, the Mac brand carries a good reputation of quality and trust.",
+            "With many years in the E-Rickshaw segment and more than 10,000 happy customers, the Mackbrand carries a good reputation of quality and trust.",
         },
         {
           title: "Extensive Dealer Network",
@@ -246,8 +246,8 @@ export const data = [
     slug: "electric-rickshaw-noida",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -261,7 +261,7 @@ export const data = [
         {
           title: "Enhanced Employability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability.",
         },
         {
           title: "Sustainable Future",
@@ -278,7 +278,7 @@ export const data = [
         {
           title: "Durable Build",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
         },
         {
           title: "Certified Safety",
@@ -288,7 +288,7 @@ export const data = [
         {
           title: "Efficient Charging & Long Range",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "Comfortable & Profitable",
@@ -303,7 +303,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and more than 10,000 happy customers, the Mac brand carries a good reputation of quality and trust.",
+            "With many years in the E-Rickshaw segment and more than 10,000 happy customers, the Mackbrand carries a good reputation of quality and trust.",
         },
         {
           title: "Extensive Dealer Network",
@@ -326,8 +326,8 @@ export const data = [
     slug: "e-auto-rickshaw-noida",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -336,7 +336,7 @@ export const data = [
         {
           title: "Enhanced Employability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability.",
         },
         {
           title: "Higher Earnings",
@@ -351,14 +351,14 @@ export const data = [
       ],
     },
     featuresPerformance: {
-      title: "Why Mac E Auto Rickshaw ?",
+      title: "Why MackE Auto Rickshaw ?",
       description:
-        "Built specifically for Indian road conditions, Mac E Auto Rickshaw is packed with superior features like a strong steel body, ABS roof, alloy wheels, and powerful drum brakes. It’s ICAT approved and designed to offer unmatched safety, comfort, and profitability to drivers.",
+        "Built specifically for Indian road conditions, MackE Auto Rickshaw is packed with superior features like a strong steel body, ABS roof, alloy wheels, and powerful drum brakes. It’s ICAT approved and designed to offer unmatched safety, comfort, and profitability to drivers.",
       features: [
         {
           title: "Strong Build with Advanced Safety",
           description:
-            "Mac E-Rickshaw features a steel body, ABS roof, and powerful drum brakes, ensuring durability and safety during everyday rides.",
+            "MackE-Rickshaw features a steel body, ABS roof, and powerful drum brakes, ensuring durability and safety during everyday rides.",
         },
         {
           title: "ICAT Approved Design",
@@ -373,7 +373,7 @@ export const data = [
         {
           title: "Low Maintenance Requirements",
           description:
-            "Engineered with robust parts and fewer moving components, Mac E-Rickshaw reduces overall maintenance cost and effort.",
+            "Engineered with robust parts and fewer moving components, MackE-Rickshaw reduces overall maintenance cost and effort.",
         },
         {
           title: "Driver-Centric Comfort",
@@ -393,7 +393,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mac brand carries a good reputation of quality and trust amongst it’s users.",
+            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mackbrand carries a good reputation of quality and trust amongst it’s users.",
         },
         {
           title: "Extensive Dealer Network",
@@ -416,8 +416,8 @@ export const data = [
     slug: "e-scooters-noida",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -426,7 +426,7 @@ export const data = [
         {
           title: "Enhanced Employability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability.",
         },
         {
           title: "Higher Earnings",
@@ -441,14 +441,14 @@ export const data = [
       ],
     },
     featuresPerformance: {
-      title: "Why Mac E-Scooters ?",
+      title: "Why MackE-Scooters ?",
       description:
-        "Mac E-Scooters are designed to meet the demands of Indian roads with advanced engineering, strong build quality, and a commitment to efficiency and safety. Backed by ICAT certification and modern components, they offer a reliable and cost-effective mobility experience.",
+        "MackE-Scooters are designed to meet the demands of Indian roads with advanced engineering, strong build quality, and a commitment to efficiency and safety. Backed by ICAT certification and modern components, they offer a reliable and cost-effective mobility experience.",
       features: [
         {
           title: "Rugged Build for Indian Roads",
           description:
-            "Built with a strong steel frame and ABS body, Mac E-Scooters are tailored for Indian road conditions, ensuring long-lasting durability.",
+            "Built with a strong steel frame and ABS body, MackE-Scooters are tailored for Indian road conditions, ensuring long-lasting durability.",
         },
         {
           title: "Certified Performance",
@@ -463,7 +463,7 @@ export const data = [
         {
           title: "Low Operational Cost",
           description:
-            "With an estimated running cost as low as Rs. 2/km, Mac E-Scooters help users save significantly on fuel expenses.",
+            "With an estimated running cost as low as Rs. 2/km, MackE-Scooters help users save significantly on fuel expenses.",
         },
         {
           title: "Enhanced Riding Comfort",
@@ -473,7 +473,7 @@ export const data = [
         {
           title: "Stylish and Functional Design",
           description:
-            "Modern aesthetics, LED lighting, alloy wheels, and practical storage make Mac E-Scooters both appealing and user-friendly for everyday use.",
+            "Modern aesthetics, LED lighting, alloy wheels, and practical storage make MackE-Scooters both appealing and user-friendly for everyday use.",
         },
       ],
     },
@@ -484,7 +484,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mac brand carries a good reputation of quality and trust amongst it’s users.",
+            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mackbrand carries a good reputation of quality and trust amongst it’s users.",
         },
         {
           title: "Extensive Dealer Network",
@@ -507,8 +507,8 @@ export const data = [
     slug: "e-tricycle-noida",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -517,7 +517,7 @@ export const data = [
         {
           title: "Enhanced Employability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability.",
         },
         {
           title: "Higher Earnings",
@@ -532,9 +532,9 @@ export const data = [
       ],
     },
     featuresPerformance: {
-      title: "Why Mac E-Tricycle ?",
+      title: "Why MackE-Tricycle ?",
       description:
-        "Mac E-Tricycle is designed for durable performance, efficient mobility, and maximum profitability for drivers. Built for Indian road conditions with ICAT approval, it ensures safety, comfort, and cost-effective operations for last-mile transport.",
+        "MackE-Tricycle is designed for durable performance, efficient mobility, and maximum profitability for drivers. Built for Indian road conditions with ICAT approval, it ensures safety, comfort, and cost-effective operations for last-mile transport.",
       features: [
         {
           title: "Strong Steel Body & ABS Roof",
@@ -554,7 +554,7 @@ export const data = [
         {
           title: "Cost-Effective Daily Operation",
           description:
-            "Running at just Rs. 2/km, the Mac E-Tricycle offers highly affordable transportation while maximizing driver income.",
+            "Running at just Rs. 2/km, the MackE-Tricycle offers highly affordable transportation while maximizing driver income.",
         },
         {
           title: "Enhanced Driver Earnings",
@@ -575,7 +575,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mac brand carries a good reputation of quality and trust amongst it’s users.",
+            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mackbrand carries a good reputation of quality and trust amongst it’s users.",
         },
         {
           title: "Extensive Dealer Network",
@@ -598,8 +598,8 @@ export const data = [
     slug: "e-loader-noida",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -608,7 +608,7 @@ export const data = [
         {
           title: "Enhanced Employability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability.",
         },
         {
           title: "Higher Earnings",
@@ -624,14 +624,14 @@ export const data = [
     },
 
     featuresPerformance: {
-      title: "Why Mac E Loader?",
+      title: "Why MackE Loader?",
       description:
-        "Committed to building a clean last mile, MACK EV proudly presents the Mac E-Rickshaw through its electric mobility subsidiary – Mego. With a strategic acquisition and a strong presence in the electric 3-wheeler market, Mac E-Rickshaw is designed to empower drivers with reliable performance, cost-efficiency, and increased earnings.",
+        "Committed to building a clean last mile, MACK EV proudly presents the MackE-Rickshaw through its electric mobility subsidiary – Mego. With a strategic acquisition and a strong presence in the electric 3-wheeler market, MackE-Rickshaw is designed to empower drivers with reliable performance, cost-efficiency, and increased earnings.",
       features: [
         {
           title: "Strong Build with Advanced Safety",
           description:
-            "Built for Indian roads, the Mac E-Rickshaw includes a steel body, ABS roof, alloy wheels, and powerful drum brakes to deliver superior safety and durability.",
+            "Built for Indian roads, the MackE-Rickshaw includes a steel body, ABS roof, alloy wheels, and powerful drum brakes to deliver superior safety and durability.",
         },
         {
           title: "ICAT Approved Design",
@@ -646,17 +646,17 @@ export const data = [
         {
           title: "Low Running and Maintenance Cost",
           description:
-            "At just ₹2/km and with robust, low-maintenance parts, the Mac E-Rickshaw ensures maximum profitability and minimum hassle for drivers.",
+            "At just ₹2/km and with robust, low-maintenance parts, the MackE-Rickshaw ensures maximum profitability and minimum hassle for drivers.",
         },
         {
           title: "Driver Empowerment & Comfort",
           description:
-            "With a focus on ergonomics, spacious interiors, and smooth handling, Mac supports longer work hours in comfort while boosting daily earnings.",
+            "With a focus on ergonomics, spacious interiors, and smooth handling, Macksupports longer work hours in comfort while boosting daily earnings.",
         },
         {
           title: "Pan-India Service & Easy Financing",
           description:
-            "With 125+ dealer touchpoints across 16+ states and partnerships with top banks, Mac E-Rickshaw offers strong service support and pocket-friendly EMI plans.",
+            "With 125+ dealer touchpoints across 16+ states and partnerships with top banks, MackE-Rickshaw offers strong service support and pocket-friendly EMI plans.",
         },
       ],
     },
@@ -667,7 +667,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mac brand carries a good reputation of quality and trust amongst it’s users.",
+            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mackbrand carries a good reputation of quality and trust amongst it’s users.",
         },
         {
           title: "Extensive Dealer Network",
@@ -690,8 +690,8 @@ export const data = [
     slug: "electric-three-wheeler-ghaziabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -700,7 +700,7 @@ export const data = [
         {
           title: "Enhanced Employability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability.",
         },
         {
           title: "Higher Earnings",
@@ -722,7 +722,7 @@ export const data = [
         {
           title: "ICAT Approved",
           description:
-            "The Mac E-Rickshaw is ICAT certified, ensuring safety and regulatory compliance.",
+            "The MackE-Rickshaw is ICAT certified, ensuring safety and regulatory compliance.",
         },
         {
           title: "Steel Body",
@@ -767,12 +767,12 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and more than 10,000 satisfied customers, the Mac brand is known for its trust and quality.",
+            "With many years in the E-Rickshaw segment and more than 10,000 satisfied customers, the Mackbrand is known for its trust and quality.",
         },
         {
           title: "Extensive Dealer Network",
           description:
-            "Mac is present in over 16 Indian states with 125+ dealer touchpoints offering excellent service and spare part support.",
+            "Mackis present in over 16 Indian states with 125+ dealer touchpoints offering excellent service and spare part support.",
         },
       ],
     },
@@ -790,8 +790,8 @@ export const data = [
     slug: "electric-rickshaw-ghaziabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -800,7 +800,7 @@ export const data = [
         {
           title: "Enhanced Employability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability.",
         },
         {
           title: "Higher Earnings",
@@ -822,7 +822,7 @@ export const data = [
         {
           title: "ICAT Approved",
           description:
-            "The Mac E-Rickshaw is ICAT certified, ensuring safety and regulatory compliance.",
+            "The MackE-Rickshaw is ICAT certified, ensuring safety and regulatory compliance.",
         },
         {
           title: "Steel Body",
@@ -867,12 +867,12 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and more than 10,000 satisfied customers, the Mac brand is known for its trust and quality.",
+            "With many years in the E-Rickshaw segment and more than 10,000 satisfied customers, the Mackbrand is known for its trust and quality.",
         },
         {
           title: "Extensive Dealer Network",
           description:
-            "Mac is present in over 16 Indian states with 125+ dealer touchpoints offering excellent service and spare part support.",
+            "Mackis present in over 16 Indian states with 125+ dealer touchpoints offering excellent service and spare part support.",
         },
       ],
     },
@@ -890,8 +890,8 @@ export const data = [
     slug: "e-auto-rickshaw-ghaziabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -900,7 +900,7 @@ export const data = [
         {
           title: "Enhanced Employability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability.",
         },
         {
           title: "Higher Earnings",
@@ -922,7 +922,7 @@ export const data = [
         {
           title: "ICAT Approved",
           description:
-            "The Mac E-Rickshaw is ICAT certified, ensuring safety and regulatory compliance.",
+            "The MackE-Rickshaw is ICAT certified, ensuring safety and regulatory compliance.",
         },
         {
           title: "Steel Body",
@@ -967,12 +967,12 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and more than 10,000 satisfied customers, the Mac brand is known for its trust and quality.",
+            "With many years in the E-Rickshaw segment and more than 10,000 satisfied customers, the Mackbrand is known for its trust and quality.",
         },
         {
           title: "Extensive Dealer Network",
           description:
-            "Mac is present in over 16 Indian states with 125+ dealer touchpoints offering excellent service and spare part support.",
+            "Mackis present in over 16 Indian states with 125+ dealer touchpoints offering excellent service and spare part support.",
         },
       ],
     },
@@ -990,8 +990,8 @@ export const data = [
     slug: "top-10-e-loader-ghaziabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -1000,7 +1000,7 @@ export const data = [
         {
           title: "Enhanced Employability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability.",
         },
         {
           title: "Higher Earnings",
@@ -1022,7 +1022,7 @@ export const data = [
         {
           title: "ICAT Approved",
           description:
-            "The Mac E-Rickshaw is ICAT certified, ensuring safety and regulatory compliance.",
+            "The MackE-Rickshaw is ICAT certified, ensuring safety and regulatory compliance.",
         },
         {
           title: "Steel Body",
@@ -1067,12 +1067,12 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and more than 10,000 satisfied customers, the Mac brand is known for its trust and quality.",
+            "With many years in the E-Rickshaw segment and more than 10,000 satisfied customers, the Mackbrand is known for its trust and quality.",
         },
         {
           title: "Extensive Dealer Network",
           description:
-            "Mac is present in over 16 Indian states with 125+ dealer touchpoints offering excellent service and spare part support.",
+            "Mackis present in over 16 Indian states with 125+ dealer touchpoints offering excellent service and spare part support.",
         },
       ],
     },
@@ -1090,8 +1090,8 @@ export const data = [
     slug: "best-e-loader-ghaziabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -1105,19 +1105,19 @@ export const data = [
         {
           title: "Enhanced Employability",
           description:
-            "The Mac E-Rickshaw enables better employability, offering strong support for drivers to sustain their families and look ahead to a better future.",
+            "The MackE-Rickshaw enables better employability, offering strong support for drivers to sustain their families and look ahead to a better future.",
         },
         {
           title: "Sustainable Future",
           description:
-            "With Mac E-Rickshaws, drivers contribute to a cleaner environment while creating financial and emotional satisfaction for their families.",
+            "With MackE-Rickshaws, drivers contribute to a cleaner environment while creating financial and emotional satisfaction for their families.",
         },
       ],
     },
     featuresPerformance: {
       title: "Made for India, Built to Perform",
       description:
-        "Made for Indian road conditions, the Mac E-Rickshaw features a strong build and advanced safety features to ensure high performance and driver comfort.",
+        "Made for Indian road conditions, the MackE-Rickshaw features a strong build and advanced safety features to ensure high performance and driver comfort.",
       features: [
         {
           title: "Durable Build",
@@ -1132,7 +1132,7 @@ export const data = [
         {
           title: "Efficient Charging & Long Range",
           description:
-            "Charges fully within 8–10 hours and delivers a range of up to 100 km per full charge, depending on the Mac model.",
+            "Charges fully within 8–10 hours and delivers a range of up to 100 km per full charge, depending on the Mackmodel.",
         },
         {
           title: "Comfortable & Profitable",
@@ -1147,7 +1147,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With years of experience and a wide customer base, the Mac brand stands strong on quality, trust, and satisfaction.",
+            "With years of experience and a wide customer base, the Mackbrand stands strong on quality, trust, and satisfaction.",
         },
         {
           title: "Widespread Dealer Network",
@@ -1159,7 +1159,7 @@ export const data = [
     financing: {
       title: "Easy Financing Options for Every Buyer",
       description:
-        "Backed by leading banks and financial institutions, Mac offers attractive finance options and EMI plans that make E-Rickshaw ownership budget-friendly.",
+        "Backed by leading banks and financial institutions, Mackoffers attractive finance options and EMI plans that make E-Rickshaw ownership budget-friendly.",
     },
   },
   {
@@ -1170,8 +1170,8 @@ export const data = [
     slug: "e-scooters-ghaziabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -1185,19 +1185,19 @@ export const data = [
         {
           title: "Enhanced Employability",
           description:
-            "The Mac E-Rickshaw enables better employability, offering strong support for drivers to sustain their families and look ahead to a better future.",
+            "The MackE-Rickshaw enables better employability, offering strong support for drivers to sustain their families and look ahead to a better future.",
         },
         {
           title: "Sustainable Future",
           description:
-            "With Mac E-Rickshaws, drivers contribute to a cleaner environment while creating financial and emotional satisfaction for their families.",
+            "With MackE-Rickshaws, drivers contribute to a cleaner environment while creating financial and emotional satisfaction for their families.",
         },
       ],
     },
     featuresPerformance: {
       title: "Made for India, Built to Perform",
       description:
-        "Made for Indian road conditions, the Mac E-Rickshaw features a strong build and advanced safety features to ensure high performance and driver comfort.",
+        "Made for Indian road conditions, the MackE-Rickshaw features a strong build and advanced safety features to ensure high performance and driver comfort.",
       features: [
         {
           title: "Durable Build",
@@ -1212,7 +1212,7 @@ export const data = [
         {
           title: "Efficient Charging & Long Range",
           description:
-            "Charges fully within 8–10 hours and delivers a range of up to 100 km per full charge, depending on the Mac model.",
+            "Charges fully within 8–10 hours and delivers a range of up to 100 km per full charge, depending on the Mackmodel.",
         },
         {
           title: "Comfortable & Profitable",
@@ -1227,7 +1227,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With years of experience and a wide customer base, the Mac brand stands strong on quality, trust, and satisfaction.",
+            "With years of experience and a wide customer base, the Mackbrand stands strong on quality, trust, and satisfaction.",
         },
         {
           title: "Widespread Dealer Network",
@@ -1239,7 +1239,7 @@ export const data = [
     financing: {
       title: "Easy Financing Options for Every Buyer",
       description:
-        "Backed by leading banks and financial institutions, Mac offers attractive finance options and EMI plans that make E-Rickshaw ownership budget-friendly.",
+        "Backed by leading banks and financial institutions, Mackoffers attractive finance options and EMI plans that make E-Rickshaw ownership budget-friendly.",
     },
   },
   {
@@ -1250,8 +1250,8 @@ export const data = [
     slug: "e-tricycle-ghaziabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -1265,19 +1265,19 @@ export const data = [
         {
           title: "Enhanced Employability",
           description:
-            "The Mac E-Rickshaw enables better employability, offering strong support for drivers to sustain their families and look ahead to a better future.",
+            "The MackE-Rickshaw enables better employability, offering strong support for drivers to sustain their families and look ahead to a better future.",
         },
         {
           title: "Sustainable Future",
           description:
-            "With Mac E-Rickshaws, drivers contribute to a cleaner environment while creating financial and emotional satisfaction for their families.",
+            "With MackE-Rickshaws, drivers contribute to a cleaner environment while creating financial and emotional satisfaction for their families.",
         },
       ],
     },
     featuresPerformance: {
       title: "Made for India, Built to Perform",
       description:
-        "Made for Indian road conditions, the Mac E-Rickshaw features a strong build and advanced safety features to ensure high performance and driver comfort.",
+        "Made for Indian road conditions, the MackE-Rickshaw features a strong build and advanced safety features to ensure high performance and driver comfort.",
       features: [
         {
           title: "Durable Build",
@@ -1292,7 +1292,7 @@ export const data = [
         {
           title: "Efficient Charging & Long Range",
           description:
-            "Charges fully within 8–10 hours and delivers a range of up to 100 km per full charge, depending on the Mac model.",
+            "Charges fully within 8–10 hours and delivers a range of up to 100 km per full charge, depending on the Mackmodel.",
         },
         {
           title: "Comfortable & Profitable",
@@ -1307,7 +1307,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With years of experience and a wide customer base, the Mac brand stands strong on quality, trust, and satisfaction.",
+            "With years of experience and a wide customer base, the Mackbrand stands strong on quality, trust, and satisfaction.",
         },
         {
           title: "Widespread Dealer Network",
@@ -1319,7 +1319,7 @@ export const data = [
     financing: {
       title: "Easy Financing Options for Every Buyer",
       description:
-        "Backed by leading banks and financial institutions, Mac offers attractive finance options and EMI plans that make E-Rickshaw ownership budget-friendly.",
+        "Backed by leading banks and financial institutions, Mackoffers attractive finance options and EMI plans that make E-Rickshaw ownership budget-friendly.",
     },
   },
   {
@@ -1330,8 +1330,8 @@ export const data = [
     slug: "e-loader-ghaziabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -1345,19 +1345,19 @@ export const data = [
         {
           title: "Enhanced Employability",
           description:
-            "The Mac E-Rickshaw enables better employability, offering strong support for drivers to sustain their families and look ahead to a better future.",
+            "The MackE-Rickshaw enables better employability, offering strong support for drivers to sustain their families and look ahead to a better future.",
         },
         {
           title: "Sustainable Future",
           description:
-            "With Mac E-Rickshaws, drivers contribute to a cleaner environment while creating financial and emotional satisfaction for their families.",
+            "With MackE-Rickshaws, drivers contribute to a cleaner environment while creating financial and emotional satisfaction for their families.",
         },
       ],
     },
     featuresPerformance: {
       title: "Made for India, Built to Perform",
       description:
-        "Made for Indian road conditions, the Mac E-Rickshaw features a strong build and advanced safety features to ensure high performance and driver comfort.",
+        "Made for Indian road conditions, the MackE-Rickshaw features a strong build and advanced safety features to ensure high performance and driver comfort.",
       features: [
         {
           title: "Durable Build",
@@ -1372,7 +1372,7 @@ export const data = [
         {
           title: "Efficient Charging & Long Range",
           description:
-            "Charges fully within 8–10 hours and delivers a range of up to 100 km per full charge, depending on the Mac model.",
+            "Charges fully within 8–10 hours and delivers a range of up to 100 km per full charge, depending on the Mackmodel.",
         },
         {
           title: "Comfortable & Profitable",
@@ -1387,7 +1387,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With years of experience and a wide customer base, the Mac brand stands strong on quality, trust, and satisfaction.",
+            "With years of experience and a wide customer base, the Mackbrand stands strong on quality, trust, and satisfaction.",
         },
         {
           title: "Widespread Dealer Network",
@@ -1399,7 +1399,7 @@ export const data = [
     financing: {
       title: "Easy Financing Options for Every Buyer",
       description:
-        "Backed by leading banks and financial institutions, Mac offers attractive finance options and EMI plans that make E-Rickshaw ownership budget-friendly.",
+        "Backed by leading banks and financial institutions, Mackoffers attractive finance options and EMI plans that make E-Rickshaw ownership budget-friendly.",
     },
   },
   {
@@ -1410,8 +1410,8 @@ export const data = [
     slug: "top-10-e-rickshaw-ghaziabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -1437,7 +1437,7 @@ export const data = [
     featuresPerformance: {
       title: "Built to Deliver, Built for India",
       description:
-        "The Mac E-Rickshaw is designed for Indian roads, ensuring high durability, performance, and comfort for both driver and passengers.",
+        "The MackE-Rickshaw is designed for Indian roads, ensuring high durability, performance, and comfort for both driver and passengers.",
       features: [
         {
           title: "Robust Engineering",
@@ -1467,7 +1467,7 @@ export const data = [
         {
           title: "Thousands of Satisfied Users",
           description:
-            "The Mac brand is trusted by over 10,000 customers nationwide for quality and service excellence.",
+            "The Mackbrand is trusted by over 10,000 customers nationwide for quality and service excellence.",
         },
         {
           title: "Extensive Network",
@@ -1479,7 +1479,7 @@ export const data = [
     financing: {
       title: "Flexible Financing Options",
       description:
-        "Mac offers EMI and loan plans in partnership with top banks, making it easy for anyone to own an electric rickshaw.",
+        "Mackoffers EMI and loan plans in partnership with top banks, making it easy for anyone to own an electric rickshaw.",
     },
   },
   {
@@ -1488,8 +1488,8 @@ export const data = [
     slug: "e-rickshaw-ghaziabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community",
     ],
     driverBenefits: {
@@ -1544,7 +1544,7 @@ export const data = [
       points: [
         {
           title: "10,000+ Happy Customers",
-          description: "Mac is a trusted brand known for quality across India.",
+          description: "Mackis a trusted brand known for quality across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -1565,8 +1565,8 @@ export const data = [
     slug: "electric-three-wheeler-meerut",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -1603,7 +1603,7 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, 8–10 hours of charging delivers up to 100 km range.",
+            "Depending on the Mackmodel, 8–10 hours of charging delivers up to 100 km range.",
         },
         {
           title: "Certified by ICAT",
@@ -1623,7 +1623,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "Mac is a reputed brand trusted by thousands of users across India.",
+            "Mackis a reputed brand trusted by thousands of users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -1635,7 +1635,7 @@ export const data = [
     financing: {
       title: "With tie ups from leading banks and financial institutions",
       description:
-        "Affordable EMI plans and attractive finance schemes make the Mac E-Rickshaw easily accessible.",
+        "Affordable EMI plans and attractive finance schemes make the MackE-Rickshaw easily accessible.",
     },
   },
   {
@@ -1644,8 +1644,8 @@ export const data = [
     slug: "e-loader-meerut",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -1681,7 +1681,7 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, 8–10 hours of charging delivers up to 100 km range.",
+            "Depending on the Mackmodel, 8–10 hours of charging delivers up to 100 km range.",
         },
         {
           title: "Certified by ICAT",
@@ -1716,7 +1716,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "Mac is a reputed brand trusted by thousands of users across India.",
+            "Mackis a reputed brand trusted by thousands of users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -1728,7 +1728,7 @@ export const data = [
     financing: {
       title: "With tie ups from leading banks and financial institutions",
       description:
-        "Affordable EMI plans and attractive finance schemes make the Mac E-Rickshaw easily accessible.",
+        "Affordable EMI plans and attractive finance schemes make the MackE-Rickshaw easily accessible.",
     },
   },
   {
@@ -1737,8 +1737,8 @@ export const data = [
     slug: "electric-rickshaw-meerut",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -1774,7 +1774,7 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, 8–10 hours of charging delivers up to 100 km range.",
+            "Depending on the Mackmodel, 8–10 hours of charging delivers up to 100 km range.",
         },
         {
           title: "Certified by ICAT",
@@ -1794,7 +1794,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "Mac is a reputed brand trusted by thousands of users across India.",
+            "Mackis a reputed brand trusted by thousands of users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -1806,7 +1806,7 @@ export const data = [
     financing: {
       title: "With tie ups from leading banks and financial institutions",
       description:
-        "Affordable EMI plans and attractive finance schemes make the Mac E-Rickshaw easily accessible.",
+        "Affordable EMI plans and attractive finance schemes make the MackE-Rickshaw easily accessible.",
     },
   },
   {
@@ -1815,8 +1815,8 @@ export const data = [
     slug: "top-10-e-loader-meerut",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -1852,7 +1852,7 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, 8–10 hours of charging delivers up to 100 km range.",
+            "Depending on the Mackmodel, 8–10 hours of charging delivers up to 100 km range.",
         },
         {
           title: "Certified by ICAT",
@@ -1872,7 +1872,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "Mac is a reputed brand trusted by thousands of users across India.",
+            "Mackis a reputed brand trusted by thousands of users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -1884,7 +1884,7 @@ export const data = [
     financing: {
       title: "With tie ups from leading banks and financial institutions",
       description:
-        "Affordable EMI plans and attractive finance schemes make the Mac E-Rickshaw easily accessible.",
+        "Affordable EMI plans and attractive finance schemes make the MackE-Rickshaw easily accessible.",
     },
   },
   // {
@@ -1893,8 +1893,8 @@ export const data = [
   //   slug: "electric-three-wheeler-meerut",
   //   img: "/img/benaer3.webp",
   //   paragraphs: [
-  //     "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-  //     "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+  //     "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+  //     "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
   //     "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
   //   ],
   //   driverBenefits: {
@@ -1925,12 +1925,12 @@ export const data = [
   //       {
   //         title: "Efficient Charging",
   //         description:
-  //           "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+  //           "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
   //       },
   //       {
   //         title: "ICAT Approved Design",
   //         description:
-  //           "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+  //           "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
   //       },
   //       {
   //         title: "Alloy Wheels & Drum Brakes",
@@ -1945,7 +1945,7 @@ export const data = [
   //       {
   //         title: "10,000+ Happy Customers",
   //         description:
-  //           "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+  //           "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
   //       },
   //       {
   //         title: "125+ Dealer Touchpoints",
@@ -1966,8 +1966,8 @@ export const data = [
     slug: "e-tricycle-meerut/",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -1998,12 +1998,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -2018,7 +2018,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -2039,8 +2039,8 @@ export const data = [
     slug: "e-scooters-meerut",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -2071,12 +2071,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -2091,7 +2091,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -2112,8 +2112,8 @@ export const data = [
     slug: "best-e-loader-meerut",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -2144,12 +2144,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -2164,7 +2164,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -2180,86 +2180,94 @@ export const data = [
     },
   },
   {
-    title: "Top 10 E Rickshaw Manufacturers in meerut",
+    title: "Top 10 E Rickshaw Manufacturers in Meerut",
     id: "29",
     slug: "top-10-e-rickshaw-meerut",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Meerut is witnessing rapid growth in sustainable urban mobility, and E-Rickshaws have become a vital solution for affordable, eco-friendly transport. Among various options, Mack EV is a trusted name, offering reliable vehicles with advanced features. In this guide, we explore the <a href='/top-10-e-rickshaw-meerut'> Top 10 E Rickshaw Manufacturers</a> in Meerut and why MackE-Rickshaw is a preferred choice.",
     ],
+
+    subHeading: {
+      heading: ["Mack EV – Leading Clean Mobility in Meerut"],
+      paragraphs: [
+        "Committed to building a sustainable last mile, Mack EV presents the Mack E-Rickshaw through its electric mobility subsidiary – Mego.",
+        "Mack EV Vehicles, a wholly-owned subsidiary, acquired a Faridabad-based E-3 Wheeler company with a 74% stake, expanding its presence in both E-2W and E-3W categories. This positions Mack EV as a key player in the rapidly growing E-Rickshaw segment, offering clean, comfortable, and cost-effective mobility while enhancing the daily earning potential of drivers.",
+      ],
+    },
+
     driverBenefits: {
-      title: "Enabling auto drivers with better employability",
+      title: "Benefits for Auto Drivers",
       benefits: [
         {
           title: "Higher Earnability",
           description:
-            "With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
+            "With a running cost of only ₹2/km, auto drivers can earn more on every trip.",
         },
         {
           title: "Better Future for Families",
           description:
-            "With the Mac, Auto-drivers can look forward to having a future that makes them and their family happy and satisfied.",
+            "The Mack  E-Rickshaw provides consistent income, helping drivers and their families look forward to a secure and happy future.",
+        },
+        {
+          title: "Made for Indian Road Conditions",
+          description:
+            "Built for Indian roads, the E-Rickshaw features steel body, ABS roof, alloy wheels, and powerful drum brakes, ensuring durability and safety.",
         },
       ],
     },
     featuresPerformance: {
-      title: "Made for Indian Road Conditions",
+      title: "Key Features of Mack  E-Rickshaw",
       description:
-        "Made for Indian road conditions, the E-Rickshaw comes with a strong build quality and advanced features like – Steel body, ABS Roof, Alloy wheels and Powerful Drum brakes etc.",
+        "Built for Indian roads, the E-Rickshaw features steel body, ABS roof, alloy wheels, and powerful drum brakes, ensuring durability and safety.",
       features: [
         {
           title: "Strong Build Quality",
-          description:
-            "The E-Rickshaw comes with a steel body and ABS roof for better durability and safety.",
+          description: "Steel body and ABS roof for long-lasting durability.",
         },
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the model, the vehicle can charge in 8–10 hours and run up to 100 km per charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "Ensures extra safety, comfort, performance, and profit.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
-          description:
-            "Advanced features like Alloy wheels and Powerful Drum brakes provide better control and safety.",
+          description: "Advanced features for better control and safety.",
         },
       ],
     },
     brandReputation: {
-      title: "Trusted Brand in the E-Rickshaw Market",
+      title: "Trusted Brand in the Market",
       points: [
         {
           title: "10,000+ Happy Customers",
-          description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+          description: "The Mack brand is trusted across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
           description:
-            "Currently it is present in more than 16 states in India. The service and spares support extended is also best-in-class due to it’s nationwide presence through more than 125 dealer touchpoints.",
+            "Presence in more than 16 states, offering nationwide service and spares support.",
         },
       ],
     },
-    financing: {
-      title: "Easy Financing Options",
-      description:
-        "With tie ups from leading banks and financial institutions, the E-Rickshaw can be easily afforded with attractive finance schemes and pocket friendly EMI plans.",
-    },
+
+    conclusion:
+      "The demand for  Top 10 E Rickshaw Manufacturers in Meerut is growing rapidly. Among all, MackE-Rickshaw by <a href='/'> Mack EV stands </a> out with an ICAT-approved design, strong build quality, efficient charging, and a trusted dealer network. It is the ideal choice for drivers seeking higher earnings, comfort, and a greener future.",
   },
+
   {
     title: "E Rickshaw Manufacturers in Meerut",
     id: "30",
     slug: "e-rickshaw-meerut",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -2290,12 +2298,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -2310,7 +2318,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -2331,8 +2339,8 @@ export const data = [
     slug: "electric-three-wheeler-moradabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -2351,7 +2359,7 @@ export const data = [
         {
           title: "Focus on Driver & Family Satisfaction",
           description:
-            "Mac E-Rickshaw empowers drivers with a brighter future, ensuring happiness and satisfaction for their families. Its cost-effective operation helps uplift their livelihoods.",
+            "MackE-Rickshaw empowers drivers with a brighter future, ensuring happiness and satisfaction for their families. Its cost-effective operation helps uplift their livelihoods.",
         },
       ],
     },
@@ -2368,12 +2376,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -2388,7 +2396,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -2409,8 +2417,8 @@ export const data = [
     slug: "electric-three-wheeler-moradabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad-based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the MackE-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad-based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -2441,12 +2449,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -2461,7 +2469,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -2482,11 +2490,11 @@ export const data = [
     slug: "top-10-e-loader-moradabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to building a clean last mile, MACK EV proudly introduces the Mac E-Rickshaw under its electric mobility arm – Mego. With the acquisition of a Faridabad-based E-3Wheeler company holding 74% stake, MACK EV aims to strengthen its presence in the rapidly growing E-Rickshaw segment across India.",
+      "Committed to building a clean last mile, MACK EV proudly introduces the MackE-Rickshaw under its electric mobility arm – Mego. With the acquisition of a Faridabad-based E-3Wheeler company holding 74% stake, MACK EV aims to strengthen its presence in the rapidly growing E-Rickshaw segment across India.",
 
-      "Mac E-Rickshaw is built for Indian roads with a strong steel body, ABS roof, alloy wheels and powerful drum brakes. It is ICAT-approved, offers a low running cost of just ₹2/km, and delivers up to 100 km range on a single charge — making it a clean, affordable and high-performance solution.",
+      "MackE-Rickshaw is built for Indian roads with a strong steel body, ABS roof, alloy wheels and powerful drum brakes. It is ICAT-approved, offers a low running cost of just ₹2/km, and delivers up to 100 km range on a single charge — making it a clean, affordable and high-performance solution.",
 
-      "More than just a vehicle, the Mac E-Rickshaw supports driver livelihoods by boosting daily earnings and offering a reliable means of income. It empowers communities with eco-friendly transport while contributing to India’s sustainable mobility mission.",
+      "More than just a vehicle, the MackE-Rickshaw supports driver livelihoods by boosting daily earnings and offering a reliable means of income. It empowers communities with eco-friendly transport while contributing to India’s sustainable mobility mission.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -2504,7 +2512,7 @@ export const data = [
         {
           title: "Reliable Daily Income",
           description:
-            "Mac E-Rickshaws provide a dependable source of daily income, helping drivers build financial stability and long-term growth.",
+            "MackE-Rickshaws provide a dependable source of daily income, helping drivers build financial stability and long-term growth.",
         },
       ],
     },
@@ -2521,12 +2529,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -2541,7 +2549,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -2562,9 +2570,9 @@ export const data = [
     slug: "best-e-loader-moradabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to building a clean last mile, MACK EV proudly presents the Mac E-Rickshaw under its electric mobility arm – Mego. With a 74% acquisition of a Faridabad-based E-3Wheeler company, MACK EV is strengthening its position in the evolving E-2W and E-3W mobility market.",
+      "Committed to building a clean last mile, MACK EV proudly presents the MackE-Rickshaw under its electric mobility arm – Mego. With a 74% acquisition of a Faridabad-based E-3Wheeler company, MACK EV is strengthening its position in the evolving E-2W and E-3W mobility market.",
 
-      "Built for Indian roads, the Mac E-Rickshaw features a steel body, ABS roof, alloy wheels, and drum brakes. It is ICAT-approved, with a range of up to 100 km per charge and a running cost of just ₹2/km, making it a reliable, affordable, and eco-friendly choice for daily transport.",
+      "Built for Indian roads, the MackE-Rickshaw features a steel body, ABS roof, alloy wheels, and drum brakes. It is ICAT-approved, with a range of up to 100 km per charge and a running cost of just ₹2/km, making it a reliable, affordable, and eco-friendly choice for daily transport.",
 
       "Designed to empower drivers, the E-Rickshaw enhances daily earnings and provides a dependable livelihood option. With easy financing and solid after-sales support, it plays a key role in enabling financial growth and sustainable urban mobility.",
     ],
@@ -2584,7 +2592,7 @@ export const data = [
         {
           title: "Reliable Daily Income",
           description:
-            "Mac E-Rickshaws provide a dependable source of daily income, helping drivers build financial stability and long-term growth.",
+            "MackE-Rickshaws provide a dependable source of daily income, helping drivers build financial stability and long-term growth.",
         },
       ],
     },
@@ -2601,12 +2609,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -2621,7 +2629,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -2642,8 +2650,8 @@ export const data = [
     slug: "electric-scooter-moradabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -2652,7 +2660,7 @@ export const data = [
         {
           title: "Higher Earnability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability. With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability. With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
         },
         {
           title: "Better Future for Families",
@@ -2662,7 +2670,7 @@ export const data = [
         {
           title: "Low Maintenance Hassle",
           description:
-            "Mac E-Rickshaws are designed with robust components that require less frequent servicing, helping drivers save more and drive worry-free.",
+            "MackE-Rickshaws are designed with robust components that require less frequent servicing, helping drivers save more and drive worry-free.",
         },
       ],
     },
@@ -2679,12 +2687,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -2699,7 +2707,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mac brand carries a good reputation of quality and trust amongst it’s users.",
+            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mackbrand carries a good reputation of quality and trust amongst it’s users.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -2720,8 +2728,8 @@ export const data = [
     slug: "electric-tricycle-moradabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -2730,7 +2738,7 @@ export const data = [
         {
           title: "Higher Earnability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability. With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability. With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
         },
         {
           title: "Better Future for Families",
@@ -2740,7 +2748,7 @@ export const data = [
         {
           title: "Low Maintenance Hassle",
           description:
-            "Mac E-Rickshaws are designed with robust components that require less frequent servicing, helping drivers save more and drive worry-free.",
+            "MackE-Rickshaws are designed with robust components that require less frequent servicing, helping drivers save more and drive worry-free.",
         },
       ],
     },
@@ -2757,12 +2765,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -2777,7 +2785,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mac brand carries a good reputation of quality and trust amongst it’s users.",
+            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mackbrand carries a good reputation of quality and trust amongst it’s users.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -2798,8 +2806,8 @@ export const data = [
     slug: "e-rickshaw-moradabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E‑Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly‑owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad‑based E‑3Wheeler company MACK EV which sells Electric Auto‑Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE‑Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly‑owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad‑based E‑3Wheeler company MACK EV which sells Electric Auto‑Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e‑mobility arm of Mego) will expand its presence in the fast disrupting E‑Rickshaw segment to become an integrated last mile E‑Mobility player with strong presence in both E‑2W and E‑3W. E‑Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost‑effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -2808,7 +2816,7 @@ export const data = [
         {
           title: "Higher Earnability",
           description:
-            "Enabling auto drivers with better employability, Mac E‑Rickshaw supports higher earnings via low running cost (~₹2/km) and superior mileage.",
+            "Enabling auto drivers with better employability, MackE‑Rickshaw supports higher earnings via low running cost (~₹2/km) and superior mileage.",
         },
         {
           title: "Built for Indian Conditions",
@@ -2825,12 +2833,12 @@ export const data = [
     featuresPerformance: {
       title: "Specifically Built for India",
       description:
-        "The Mac E‑Rickshaw is ICAT approved and outfitted for maximum safety, comfort, performance and profit for drivers.",
+        "The MackE‑Rickshaw is ICAT approved and outfitted for maximum safety, comfort, performance and profit for drivers.",
       features: [
         {
           title: "ICAT‑Approved Design",
           description:
-            "The Mac E‑Rickshaw meets ICAT standards for safety and performance, offering extra comfort, profit and reliability.",
+            "The MackE‑Rickshaw meets ICAT standards for safety and performance, offering extra comfort, profit and reliability.",
         },
         {
           title: "Efficient Charging & Range",
@@ -2876,9 +2884,9 @@ export const data = [
     slug: "electric-loader-moradabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the Mac E‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
+      "Committed to taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the MackE‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
       "MACK EV Vehicles, a wholly owned electric mobility subsidiary of MACK EV, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts, and more under the MACK EV brand. These vehicles offer eco‑friendly alternatives to diesel or petrol-powered vehicles.",
-      "The Mac Zorawar E‑Loader is designed for efficient goods transport. It features a high loading capacity (500–1000 kg), regenerative braking, and lithium‑ion batteries—making it ideal for cost‑effective cargo operations across narrow lanes.",
+      "The MackZorawar E‑Loader is designed for efficient goods transport. It features a high loading capacity (500–1000 kg), regenerative braking, and lithium‑ion batteries—making it ideal for cost‑effective cargo operations across narrow lanes.",
     ],
     driverBenefits: {
       title: "Empowering Driver‑Entrepreneurs",
@@ -2903,7 +2911,7 @@ export const data = [
     featuresPerformance: {
       title: "Built for Urban Goods Transport",
       description:
-        "Mac E‑Loader combines smart engineering and practical design to offer safe, efficient, and comfortable cargo transport for small businesses and driver‑operators.",
+        "MackE‑Loader combines smart engineering and practical design to offer safe, efficient, and comfortable cargo transport for small businesses and driver‑operators.",
       features: [
         {
           title: "Efficient Powertrain",
@@ -2913,7 +2921,7 @@ export const data = [
         {
           title: "High Payload Capacity",
           description:
-            "Supports a payload of 500–1000 kg depending on the model (e.g., Mac Haul, Zorawar full‑body).",
+            "Supports a payload of 500–1000 kg depending on the model (e.g., MackHaul, Zorawar full‑body).",
         },
         {
           title: "Long Running Range",
@@ -2945,7 +2953,7 @@ export const data = [
     financing: {
       title: "Affordable Financing",
       description:
-        "With financial partnerships available, drivers can access attractive EMI schemes and ownership support for Mac E‑Loader models.",
+        "With financial partnerships available, drivers can access attractive EMI schemes and ownership support for MackE‑Loader models.",
     },
   },
   {
@@ -2954,8 +2962,8 @@ export const data = [
     slug: "top-10-e-rickshaw-moradabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -2981,7 +2989,7 @@ export const data = [
     featuresPerformance: {
       title: "Built to Deliver, Built for India",
       description:
-        "The Mac E-Rickshaw is designed for Indian roads, ensuring high durability, performance, and comfort for both driver and passengers.",
+        "The MackE-Rickshaw is designed for Indian roads, ensuring high durability, performance, and comfort for both driver and passengers.",
       features: [
         {
           title: "Robust Engineering",
@@ -3011,7 +3019,7 @@ export const data = [
         {
           title: "Thousands of Satisfied Users",
           description:
-            "The Mac brand is trusted by over 10,000 customers nationwide for quality and service excellence.",
+            "The Mackbrand is trusted by over 10,000 customers nationwide for quality and service excellence.",
         },
         {
           title: "Extensive Network",
@@ -3023,7 +3031,7 @@ export const data = [
     financing: {
       title: "Flexible Financing Options",
       description:
-        "Mac offers EMI and loan plans in partnership with top banks, making it easy for anyone to own an electric rickshaw.",
+        "Mackoffers EMI and loan plans in partnership with top banks, making it easy for anyone to own an electric rickshaw.",
     },
   },
   {
@@ -3032,8 +3040,8 @@ export const data = [
     slug: "e-auto-rickshaw-moradabad",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -3042,7 +3050,7 @@ export const data = [
         {
           title: "Enhanced Employability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability.",
         },
         {
           title: "Higher Earnings",
@@ -3064,7 +3072,7 @@ export const data = [
         {
           title: "Strong Build with Advanced Safety",
           description:
-            "Mac E Auto Rickshaw features a steel body, ABS roof, and powerful drum brakes, ensuring durability and safety during everyday rides.",
+            "MackE Auto Rickshaw features a steel body, ABS roof, and powerful drum brakes, ensuring durability and safety during everyday rides.",
         },
         {
           title: "ICAT Approved Design",
@@ -3079,7 +3087,7 @@ export const data = [
         {
           title: "Low Maintenance Requirements",
           description:
-            "Engineered with robust parts and fewer moving components, Mac E-Rickshaw reduces overall maintenance cost and effort.",
+            "Engineered with robust parts and fewer moving components, MackE-Rickshaw reduces overall maintenance cost and effort.",
         },
         {
           title: "Driver-Centric Comfort",
@@ -3099,7 +3107,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mac brand carries a good reputation of quality and trust amongst it’s users.",
+            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mackbrand carries a good reputation of quality and trust amongst it’s users.",
         },
         {
           title: "Extensive Dealer Network",
@@ -3121,8 +3129,8 @@ export const data = [
     slug: "electric-three-wheeler-banaras",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -3141,7 +3149,7 @@ export const data = [
         {
           title: "Focus on Driver & Family Satisfaction",
           description:
-            "Mac E-Rickshaw empowers drivers with a brighter future, ensuring happiness and satisfaction for their families. Its cost-effective operation helps uplift their livelihoods.",
+            "MackE-Rickshaw empowers drivers with a brighter future, ensuring happiness and satisfaction for their families. Its cost-effective operation helps uplift their livelihoods.",
         },
       ],
     },
@@ -3158,12 +3166,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -3178,7 +3186,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -3199,8 +3207,8 @@ export const data = [
     slug: "electric-three-wheeler-banaras",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad-based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the MackE-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad-based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -3231,12 +3239,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -3251,7 +3259,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -3272,11 +3280,11 @@ export const data = [
     slug: "top-10-e-loader-Banaras",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to building a clean last mile, MACK EV proudly introduces the Mac E-Rickshaw under its electric mobility arm – Mego. With the acquisition of a Faridabad-based E-3Wheeler company holding 74% stake, MACK EV aims to strengthen its presence in the rapidly growing E-Rickshaw segment across India.",
+      "Committed to building a clean last mile, MACK EV proudly introduces the MackE-Rickshaw under its electric mobility arm – Mego. With the acquisition of a Faridabad-based E-3Wheeler company holding 74% stake, MACK EV aims to strengthen its presence in the rapidly growing E-Rickshaw segment across India.",
 
-      "Mac E-Rickshaw is built for Indian roads with a strong steel body, ABS roof, alloy wheels and powerful drum brakes. It is ICAT-approved, offers a low running cost of just ₹2/km, and delivers up to 100 km range on a single charge — making it a clean, affordable and high-performance solution.",
+      "MackE-Rickshaw is built for Indian roads with a strong steel body, ABS roof, alloy wheels and powerful drum brakes. It is ICAT-approved, offers a low running cost of just ₹2/km, and delivers up to 100 km range on a single charge — making it a clean, affordable and high-performance solution.",
 
-      "More than just a vehicle, the Mac E-Rickshaw supports driver livelihoods by boosting daily earnings and offering a reliable means of income. It empowers communities with eco-friendly transport while contributing to India’s sustainable mobility mission.",
+      "More than just a vehicle, the MackE-Rickshaw supports driver livelihoods by boosting daily earnings and offering a reliable means of income. It empowers communities with eco-friendly transport while contributing to India’s sustainable mobility mission.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -3294,7 +3302,7 @@ export const data = [
         {
           title: "Reliable Daily Income",
           description:
-            "Mac E-Rickshaws provide a dependable source of daily income, helping drivers build financial stability and long-term growth.",
+            "MackE-Rickshaws provide a dependable source of daily income, helping drivers build financial stability and long-term growth.",
         },
       ],
     },
@@ -3311,12 +3319,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -3331,7 +3339,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -3352,9 +3360,9 @@ export const data = [
     slug: "best-e-loader-banaras",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to building a clean last mile, MACK EV proudly presents the Mac E-Rickshaw under its electric mobility arm – Mego. With a 74% acquisition of a Faridabad-based E-3Wheeler company, MACK EV is strengthening its position in the evolving E-2W and E-3W mobility market.",
+      "Committed to building a clean last mile, MACK EV proudly presents the MackE-Rickshaw under its electric mobility arm – Mego. With a 74% acquisition of a Faridabad-based E-3Wheeler company, MACK EV is strengthening its position in the evolving E-2W and E-3W mobility market.",
 
-      "Built for Indian roads, the Mac E-Rickshaw features a steel body, ABS roof, alloy wheels, and drum brakes. It is ICAT-approved, with a range of up to 100 km per charge and a running cost of just ₹2/km, making it a reliable, affordable, and eco-friendly choice for daily transport.",
+      "Built for Indian roads, the MackE-Rickshaw features a steel body, ABS roof, alloy wheels, and drum brakes. It is ICAT-approved, with a range of up to 100 km per charge and a running cost of just ₹2/km, making it a reliable, affordable, and eco-friendly choice for daily transport.",
 
       "Designed to empower drivers, the E-Rickshaw enhances daily earnings and provides a dependable livelihood option. With easy financing and solid after-sales support, it plays a key role in enabling financial growth and sustainable urban mobility.",
     ],
@@ -3374,7 +3382,7 @@ export const data = [
         {
           title: "Reliable Daily Income",
           description:
-            "Mac E-Rickshaws provide a dependable source of daily income, helping drivers build financial stability and long-term growth.",
+            "MackE-Rickshaws provide a dependable source of daily income, helping drivers build financial stability and long-term growth.",
         },
       ],
     },
@@ -3391,12 +3399,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -3411,7 +3419,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -3432,8 +3440,8 @@ export const data = [
     slug: "electric-scooter-banaras",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -3442,7 +3450,7 @@ export const data = [
         {
           title: "Higher Earnability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability. With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability. With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
         },
         {
           title: "Better Future for Families",
@@ -3452,7 +3460,7 @@ export const data = [
         {
           title: "Low Maintenance Hassle",
           description:
-            "Mac E-Rickshaws are designed with robust components that require less frequent servicing, helping drivers save more and drive worry-free.",
+            "MackE-Rickshaws are designed with robust components that require less frequent servicing, helping drivers save more and drive worry-free.",
         },
       ],
     },
@@ -3469,12 +3477,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -3489,7 +3497,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mac brand carries a good reputation of quality and trust amongst it’s users.",
+            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mackbrand carries a good reputation of quality and trust amongst it’s users.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -3510,8 +3518,8 @@ export const data = [
     slug: "electric-tricycle-banaras",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -3520,7 +3528,7 @@ export const data = [
         {
           title: "Higher Earnability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability. With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability. With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
         },
         {
           title: "Better Future for Families",
@@ -3530,7 +3538,7 @@ export const data = [
         {
           title: "Low Maintenance Hassle",
           description:
-            "Mac E-Rickshaws are designed with robust components that require less frequent servicing, helping drivers save more and drive worry-free.",
+            "MackE-Rickshaws are designed with robust components that require less frequent servicing, helping drivers save more and drive worry-free.",
         },
       ],
     },
@@ -3547,12 +3555,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -3567,7 +3575,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mac brand carries a good reputation of quality and trust amongst it’s users.",
+            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mackbrand carries a good reputation of quality and trust amongst it’s users.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -3588,8 +3596,8 @@ export const data = [
     slug: "e-rickshaw-banaras",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E‑Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly‑owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad‑based E‑3Wheeler company MACK EV which sells Electric Auto‑Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE‑Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly‑owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad‑based E‑3Wheeler company MACK EV which sells Electric Auto‑Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e‑mobility arm of Mego) will expand its presence in the fast disrupting E‑Rickshaw segment to become an integrated last mile E‑Mobility player with strong presence in both E‑2W and E‑3W. E‑Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost‑effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -3598,7 +3606,7 @@ export const data = [
         {
           title: "Higher Earnability",
           description:
-            "Enabling auto drivers with better employability, Mac E‑Rickshaw supports higher earnings via low running cost (~₹2/km) and superior mileage.",
+            "Enabling auto drivers with better employability, MackE‑Rickshaw supports higher earnings via low running cost (~₹2/km) and superior mileage.",
         },
         {
           title: "Built for Indian Conditions",
@@ -3615,12 +3623,12 @@ export const data = [
     featuresPerformance: {
       title: "Specifically Built for India",
       description:
-        "The Mac E‑Rickshaw is ICAT approved and outfitted for maximum safety, comfort, performance and profit for drivers.",
+        "The MackE‑Rickshaw is ICAT approved and outfitted for maximum safety, comfort, performance and profit for drivers.",
       features: [
         {
           title: "ICAT‑Approved Design",
           description:
-            "The Mac E‑Rickshaw meets ICAT standards for safety and performance, offering extra comfort, profit and reliability.",
+            "The MackE‑Rickshaw meets ICAT standards for safety and performance, offering extra comfort, profit and reliability.",
         },
         {
           title: "Efficient Charging & Range",
@@ -3666,9 +3674,9 @@ export const data = [
     slug: "electric-loader-banaras",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the Mac E‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
+      "Committed to taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the MackE‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
       "MACK EV Vehicles, a wholly owned electric mobility subsidiary of MACK EV, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts, and more under the MACK EV brand. These vehicles offer eco‑friendly alternatives to diesel or petrol-powered vehicles.",
-      "The Mac Zorawar E‑Loader is designed for efficient goods transport. It features a high loading capacity (500–1000 kg), regenerative braking, and lithium‑ion batteries—making it ideal for cost‑effective cargo operations across narrow lanes.",
+      "The MackZorawar E‑Loader is designed for efficient goods transport. It features a high loading capacity (500–1000 kg), regenerative braking, and lithium‑ion batteries—making it ideal for cost‑effective cargo operations across narrow lanes.",
     ],
     driverBenefits: {
       title: "Empowering Driver‑Entrepreneurs",
@@ -3693,7 +3701,7 @@ export const data = [
     featuresPerformance: {
       title: "Built for Urban Goods Transport",
       description:
-        "Mac E‑Loader combines smart engineering and practical design to offer safe, efficient, and comfortable cargo transport for small businesses and driver‑operators.",
+        "MackE‑Loader combines smart engineering and practical design to offer safe, efficient, and comfortable cargo transport for small businesses and driver‑operators.",
       features: [
         {
           title: "Efficient Powertrain",
@@ -3703,7 +3711,7 @@ export const data = [
         {
           title: "High Payload Capacity",
           description:
-            "Supports a payload of 500–1000 kg depending on the model (e.g., Mac Haul, Zorawar full‑body).",
+            "Supports a payload of 500–1000 kg depending on the model (e.g., MackHaul, Zorawar full‑body).",
         },
         {
           title: "Long Running Range",
@@ -3735,7 +3743,7 @@ export const data = [
     financing: {
       title: "Affordable Financing",
       description:
-        "With financial partnerships available, drivers can access attractive EMI schemes and ownership support for Mac E‑Loader models.",
+        "With financial partnerships available, drivers can access attractive EMI schemes and ownership support for MackE‑Loader models.",
     },
   },
   {
@@ -3744,8 +3752,8 @@ export const data = [
     slug: "top-10-e-rickshaw-banaras",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -3771,7 +3779,7 @@ export const data = [
     featuresPerformance: {
       title: "Built to Deliver, Built for India",
       description:
-        "The Mac E-Rickshaw is designed for Indian roads, ensuring high durability, performance, and comfort for both driver and passengers.",
+        "The MackE-Rickshaw is designed for Indian roads, ensuring high durability, performance, and comfort for both driver and passengers.",
       features: [
         {
           title: "Robust Engineering",
@@ -3801,7 +3809,7 @@ export const data = [
         {
           title: "Thousands of Satisfied Users",
           description:
-            "The Mac brand is trusted by over 10,000 customers nationwide for quality and service excellence.",
+            "The Mackbrand is trusted by over 10,000 customers nationwide for quality and service excellence.",
         },
         {
           title: "Extensive Network",
@@ -3813,7 +3821,7 @@ export const data = [
     financing: {
       title: "Flexible Financing Options",
       description:
-        "Mac offers EMI and loan plans in partnership with top banks, making it easy for anyone to own an electric rickshaw.",
+        "Mackoffers EMI and loan plans in partnership with top banks, making it easy for anyone to own an electric rickshaw.",
     },
   },
   {
@@ -3822,8 +3830,8 @@ export const data = [
     slug: "e-auto-rickshaw-banaras",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -3832,7 +3840,7 @@ export const data = [
         {
           title: "Enhanced Employability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability.",
         },
         {
           title: "Higher Earnings",
@@ -3854,7 +3862,7 @@ export const data = [
         {
           title: "Strong Build with Advanced Safety",
           description:
-            "Mac E Auto Rickshaw features a steel body, ABS roof, and powerful drum brakes, ensuring durability and safety during everyday rides.",
+            "MackE Auto Rickshaw features a steel body, ABS roof, and powerful drum brakes, ensuring durability and safety during everyday rides.",
         },
         {
           title: "ICAT Approved Design",
@@ -3869,7 +3877,7 @@ export const data = [
         {
           title: "Low Maintenance Requirements",
           description:
-            "Engineered with robust parts and fewer moving components, Mac E-Rickshaw reduces overall maintenance cost and effort.",
+            "Engineered with robust parts and fewer moving components, MackE-Rickshaw reduces overall maintenance cost and effort.",
         },
         {
           title: "Driver-Centric Comfort",
@@ -3889,7 +3897,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mac brand carries a good reputation of quality and trust amongst it’s users.",
+            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mackbrand carries a good reputation of quality and trust amongst it’s users.",
         },
         {
           title: "Extensive Dealer Network",
@@ -3911,8 +3919,8 @@ export const data = [
     slug: "electric-three-wheeler-basti",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -3931,7 +3939,7 @@ export const data = [
         {
           title: "Focus on Driver & Family Satisfaction",
           description:
-            "Mac E-Rickshaw empowers drivers with a brighter future, ensuring happiness and satisfaction for their families. Its cost-effective operation helps uplift their livelihoods.",
+            "MackE-Rickshaw empowers drivers with a brighter future, ensuring happiness and satisfaction for their families. Its cost-effective operation helps uplift their livelihoods.",
         },
       ],
     },
@@ -3948,12 +3956,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -3968,7 +3976,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -3989,8 +3997,8 @@ export const data = [
     slug: "electric-three-wheeler-basti",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad-based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the MackE-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad-based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -4021,12 +4029,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -4041,7 +4049,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -4062,11 +4070,11 @@ export const data = [
     slug: "top-10-e-loader-basti",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to building a clean last mile, MACK EV proudly introduces the Mac E-Rickshaw under its electric mobility arm – Mego. With the acquisition of a Faridabad-based E-3Wheeler company holding 74% stake, MACK EV aims to strengthen its presence in the rapidly growing E-Rickshaw segment across India.",
+      "Committed to building a clean last mile, MACK EV proudly introduces the MackE-Rickshaw under its electric mobility arm – Mego. With the acquisition of a Faridabad-based E-3Wheeler company holding 74% stake, MACK EV aims to strengthen its presence in the rapidly growing E-Rickshaw segment across India.",
 
-      "Mac E-Rickshaw is built for Indian roads with a strong steel body, ABS roof, alloy wheels and powerful drum brakes. It is ICAT-approved, offers a low running cost of just ₹2/km, and delivers up to 100 km range on a single charge — making it a clean, affordable and high-performance solution.",
+      "MackE-Rickshaw is built for Indian roads with a strong steel body, ABS roof, alloy wheels and powerful drum brakes. It is ICAT-approved, offers a low running cost of just ₹2/km, and delivers up to 100 km range on a single charge — making it a clean, affordable and high-performance solution.",
 
-      "More than just a vehicle, the Mac E-Rickshaw supports driver livelihoods by boosting daily earnings and offering a reliable means of income. It empowers communities with eco-friendly transport while contributing to India’s sustainable mobility mission.",
+      "More than just a vehicle, the MackE-Rickshaw supports driver livelihoods by boosting daily earnings and offering a reliable means of income. It empowers communities with eco-friendly transport while contributing to India’s sustainable mobility mission.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -4084,7 +4092,7 @@ export const data = [
         {
           title: "Reliable Daily Income",
           description:
-            "Mac E-Rickshaws provide a dependable source of daily income, helping drivers build financial stability and long-term growth.",
+            "MackE-Rickshaws provide a dependable source of daily income, helping drivers build financial stability and long-term growth.",
         },
       ],
     },
@@ -4101,12 +4109,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -4121,7 +4129,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -4142,9 +4150,9 @@ export const data = [
     slug: "best-e-loader-basti",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to building a clean last mile, MACK EV proudly presents the Mac E-Rickshaw under its electric mobility arm – Mego. With a 74% acquisition of a Faridabad-based E-3Wheeler company, MACK EV is strengthening its position in the evolving E-2W and E-3W mobility market.",
+      "Committed to building a clean last mile, MACK EV proudly presents the MackE-Rickshaw under its electric mobility arm – Mego. With a 74% acquisition of a Faridabad-based E-3Wheeler company, MACK EV is strengthening its position in the evolving E-2W and E-3W mobility market.",
 
-      "Built for Indian roads, the Mac E-Rickshaw features a steel body, ABS roof, alloy wheels, and drum brakes. It is ICAT-approved, with a range of up to 100 km per charge and a running cost of just ₹2/km, making it a reliable, affordable, and eco-friendly choice for daily transport.",
+      "Built for Indian roads, the MackE-Rickshaw features a steel body, ABS roof, alloy wheels, and drum brakes. It is ICAT-approved, with a range of up to 100 km per charge and a running cost of just ₹2/km, making it a reliable, affordable, and eco-friendly choice for daily transport.",
 
       "Designed to empower drivers, the E-Rickshaw enhances daily earnings and provides a dependable livelihood option. With easy financing and solid after-sales support, it plays a key role in enabling financial growth and sustainable urban mobility.",
     ],
@@ -4164,7 +4172,7 @@ export const data = [
         {
           title: "Reliable Daily Income",
           description:
-            "Mac E-Rickshaws provide a dependable source of daily income, helping drivers build financial stability and long-term growth.",
+            "MackE-Rickshaws provide a dependable source of daily income, helping drivers build financial stability and long-term growth.",
         },
       ],
     },
@@ -4181,12 +4189,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -4201,7 +4209,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -4222,8 +4230,8 @@ export const data = [
     slug: "electric-scooter-basti",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -4232,7 +4240,7 @@ export const data = [
         {
           title: "Higher Earnability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability. With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability. With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
         },
         {
           title: "Better Future for Families",
@@ -4242,7 +4250,7 @@ export const data = [
         {
           title: "Low Maintenance Hassle",
           description:
-            "Mac E-Rickshaws are designed with robust components that require less frequent servicing, helping drivers save more and drive worry-free.",
+            "MackE-Rickshaws are designed with robust components that require less frequent servicing, helping drivers save more and drive worry-free.",
         },
       ],
     },
@@ -4259,12 +4267,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -4279,7 +4287,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mac brand carries a good reputation of quality and trust amongst it’s users.",
+            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mackbrand carries a good reputation of quality and trust amongst it’s users.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -4300,8 +4308,8 @@ export const data = [
     slug: "electric-tricycle-basti",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -4310,7 +4318,7 @@ export const data = [
         {
           title: "Higher Earnability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability. With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability. With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
         },
         {
           title: "Better Future for Families",
@@ -4320,7 +4328,7 @@ export const data = [
         {
           title: "Low Maintenance Hassle",
           description:
-            "Mac E-Rickshaws are designed with robust components that require less frequent servicing, helping drivers save more and drive worry-free.",
+            "MackE-Rickshaws are designed with robust components that require less frequent servicing, helping drivers save more and drive worry-free.",
         },
       ],
     },
@@ -4337,12 +4345,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -4357,7 +4365,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mac brand carries a good reputation of quality and trust amongst it’s users.",
+            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mackbrand carries a good reputation of quality and trust amongst it’s users.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -4378,8 +4386,8 @@ export const data = [
     slug: "e-rickshaw-basti",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E‑Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly‑owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad‑based E‑3Wheeler company MACK EV which sells Electric Auto‑Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE‑Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly‑owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad‑based E‑3Wheeler company MACK EV which sells Electric Auto‑Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e‑mobility arm of Mego) will expand its presence in the fast disrupting E‑Rickshaw segment to become an integrated last mile E‑Mobility player with strong presence in both E‑2W and E‑3W. E‑Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost‑effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -4388,7 +4396,7 @@ export const data = [
         {
           title: "Higher Earnability",
           description:
-            "Enabling auto drivers with better employability, Mac E‑Rickshaw supports higher earnings via low running cost (~₹2/km) and superior mileage.",
+            "Enabling auto drivers with better employability, MackE‑Rickshaw supports higher earnings via low running cost (~₹2/km) and superior mileage.",
         },
         {
           title: "Built for Indian Conditions",
@@ -4405,12 +4413,12 @@ export const data = [
     featuresPerformance: {
       title: "Specifically Built for India",
       description:
-        "The Mac E‑Rickshaw is ICAT approved and outfitted for maximum safety, comfort, performance and profit for drivers.",
+        "The MackE‑Rickshaw is ICAT approved and outfitted for maximum safety, comfort, performance and profit for drivers.",
       features: [
         {
           title: "ICAT‑Approved Design",
           description:
-            "The Mac E‑Rickshaw meets ICAT standards for safety and performance, offering extra comfort, profit and reliability.",
+            "The MackE‑Rickshaw meets ICAT standards for safety and performance, offering extra comfort, profit and reliability.",
         },
         {
           title: "Efficient Charging & Range",
@@ -4456,9 +4464,9 @@ export const data = [
     slug: "electric-loader-basti",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the Mac E‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
+      "Committed to taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the MackE‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
       "MACK EV Vehicles, a wholly owned electric mobility subsidiary of MACK EV, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts, and more under the MACK EV brand. These vehicles offer eco‑friendly alternatives to diesel or petrol-powered vehicles.",
-      "The Mac Zorawar E‑Loader is designed for efficient goods transport. It features a high loading capacity (500–1000 kg), regenerative braking, and lithium‑ion batteries—making it ideal for cost‑effective cargo operations across narrow lanes.",
+      "The MackZorawar E‑Loader is designed for efficient goods transport. It features a high loading capacity (500–1000 kg), regenerative braking, and lithium‑ion batteries—making it ideal for cost‑effective cargo operations across narrow lanes.",
     ],
     driverBenefits: {
       title: "Empowering Driver‑Entrepreneurs",
@@ -4483,7 +4491,7 @@ export const data = [
     featuresPerformance: {
       title: "Built for Urban Goods Transport",
       description:
-        "Mac E‑Loader combines smart engineering and practical design to offer safe, efficient, and comfortable cargo transport for small businesses and driver‑operators.",
+        "MackE‑Loader combines smart engineering and practical design to offer safe, efficient, and comfortable cargo transport for small businesses and driver‑operators.",
       features: [
         {
           title: "Efficient Powertrain",
@@ -4493,7 +4501,7 @@ export const data = [
         {
           title: "High Payload Capacity",
           description:
-            "Supports a payload of 500–1000 kg depending on the model (e.g., Mac Haul, Zorawar full‑body).",
+            "Supports a payload of 500–1000 kg depending on the model (e.g., MackHaul, Zorawar full‑body).",
         },
         {
           title: "Long Running Range",
@@ -4525,7 +4533,7 @@ export const data = [
     financing: {
       title: "Affordable Financing",
       description:
-        "With financial partnerships available, drivers can access attractive EMI schemes and ownership support for Mac E‑Loader models.",
+        "With financial partnerships available, drivers can access attractive EMI schemes and ownership support for MackE‑Loader models.",
     },
   },
   {
@@ -4534,8 +4542,8 @@ export const data = [
     slug: "top-10-e-rickshaw-basti",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -4561,7 +4569,7 @@ export const data = [
     featuresPerformance: {
       title: "Built to Deliver, Built for India",
       description:
-        "The Mac E-Rickshaw is designed for Indian roads, ensuring high durability, performance, and comfort for both driver and passengers.",
+        "The MackE-Rickshaw is designed for Indian roads, ensuring high durability, performance, and comfort for both driver and passengers.",
       features: [
         {
           title: "Robust Engineering",
@@ -4591,7 +4599,7 @@ export const data = [
         {
           title: "Thousands of Satisfied Users",
           description:
-            "The Mac brand is trusted by over 10,000 customers nationwide for quality and service excellence.",
+            "The Mackbrand is trusted by over 10,000 customers nationwide for quality and service excellence.",
         },
         {
           title: "Extensive Network",
@@ -4603,7 +4611,7 @@ export const data = [
     financing: {
       title: "Flexible Financing Options",
       description:
-        "Mac offers EMI and loan plans in partnership with top banks, making it easy for anyone to own an electric rickshaw.",
+        "Mackoffers EMI and loan plans in partnership with top banks, making it easy for anyone to own an electric rickshaw.",
     },
   },
   {
@@ -4612,8 +4620,8 @@ export const data = [
     slug: "e-auto-rickshaw-basti",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -4622,7 +4630,7 @@ export const data = [
         {
           title: "Enhanced Employability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability.",
         },
         {
           title: "Higher Earnings",
@@ -4644,7 +4652,7 @@ export const data = [
         {
           title: "Strong Build with Advanced Safety",
           description:
-            "Mac E Auto Rickshaw features a steel body, ABS roof, and powerful drum brakes, ensuring durability and safety during everyday rides.",
+            "MackE Auto Rickshaw features a steel body, ABS roof, and powerful drum brakes, ensuring durability and safety during everyday rides.",
         },
         {
           title: "ICAT Approved Design",
@@ -4659,7 +4667,7 @@ export const data = [
         {
           title: "Low Maintenance Requirements",
           description:
-            "Engineered with robust parts and fewer moving components, Mac E-Rickshaw reduces overall maintenance cost and effort.",
+            "Engineered with robust parts and fewer moving components, MackE-Rickshaw reduces overall maintenance cost and effort.",
         },
         {
           title: "Driver-Centric Comfort",
@@ -4679,7 +4687,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mac brand carries a good reputation of quality and trust amongst it’s users.",
+            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mackbrand carries a good reputation of quality and trust amongst it’s users.",
         },
         {
           title: "Extensive Dealer Network",
@@ -4700,8 +4708,8 @@ export const data = [
     slug: "electric-three-wheeler-jaunpur",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -4720,7 +4728,7 @@ export const data = [
         {
           title: "Focus on Driver & Family Satisfaction",
           description:
-            "Mac E-Rickshaw empowers drivers with a brighter future, ensuring happiness and satisfaction for their families. Its cost-effective operation helps uplift their livelihoods.",
+            "MackE-Rickshaw empowers drivers with a brighter future, ensuring happiness and satisfaction for their families. Its cost-effective operation helps uplift their livelihoods.",
         },
       ],
     },
@@ -4737,12 +4745,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -4757,7 +4765,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -4778,8 +4786,8 @@ export const data = [
     slug: "electric-three-wheeler-jaunpur",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad-based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the MackE-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad-based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -4810,12 +4818,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -4830,7 +4838,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -4851,11 +4859,11 @@ export const data = [
     slug: "top-10-e-loader-jaunpur",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to building a clean last mile, MACK EV proudly introduces the Mac E-Rickshaw under its electric mobility arm – Mego. With the acquisition of a Faridabad-based E-3Wheeler company holding 74% stake, MACK EV aims to strengthen its presence in the rapidly growing E-Rickshaw segment across India.",
+      "Committed to building a clean last mile, MACK EV proudly introduces the MackE-Rickshaw under its electric mobility arm – Mego. With the acquisition of a Faridabad-based E-3Wheeler company holding 74% stake, MACK EV aims to strengthen its presence in the rapidly growing E-Rickshaw segment across India.",
 
-      "Mac E-Rickshaw is built for Indian roads with a strong steel body, ABS roof, alloy wheels and powerful drum brakes. It is ICAT-approved, offers a low running cost of just ₹2/km, and delivers up to 100 km range on a single charge — making it a clean, affordable and high-performance solution.",
+      "MackE-Rickshaw is built for Indian roads with a strong steel body, ABS roof, alloy wheels and powerful drum brakes. It is ICAT-approved, offers a low running cost of just ₹2/km, and delivers up to 100 km range on a single charge — making it a clean, affordable and high-performance solution.",
 
-      "More than just a vehicle, the Mac E-Rickshaw supports driver livelihoods by boosting daily earnings and offering a reliable means of income. It empowers communities with eco-friendly transport while contributing to India’s sustainable mobility mission.",
+      "More than just a vehicle, the MackE-Rickshaw supports driver livelihoods by boosting daily earnings and offering a reliable means of income. It empowers communities with eco-friendly transport while contributing to India’s sustainable mobility mission.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -4873,7 +4881,7 @@ export const data = [
         {
           title: "Reliable Daily Income",
           description:
-            "Mac E-Rickshaws provide a dependable source of daily income, helping drivers build financial stability and long-term growth.",
+            "MackE-Rickshaws provide a dependable source of daily income, helping drivers build financial stability and long-term growth.",
         },
       ],
     },
@@ -4890,12 +4898,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -4910,7 +4918,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -4931,9 +4939,9 @@ export const data = [
     slug: "best-e-loader-jaunpur",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to building a clean last mile, MACK EV proudly presents the Mac E-Rickshaw under its electric mobility arm – Mego. With a 74% acquisition of a Faridabad-based E-3Wheeler company, MACK EV is strengthening its position in the evolving E-2W and E-3W mobility market.",
+      "Committed to building a clean last mile, MACK EV proudly presents the MackE-Rickshaw under its electric mobility arm – Mego. With a 74% acquisition of a Faridabad-based E-3Wheeler company, MACK EV is strengthening its position in the evolving E-2W and E-3W mobility market.",
 
-      "Built for Indian roads, the Mac E-Rickshaw features a steel body, ABS roof, alloy wheels, and drum brakes. It is ICAT-approved, with a range of up to 100 km per charge and a running cost of just ₹2/km, making it a reliable, affordable, and eco-friendly choice for daily transport.",
+      "Built for Indian roads, the MackE-Rickshaw features a steel body, ABS roof, alloy wheels, and drum brakes. It is ICAT-approved, with a range of up to 100 km per charge and a running cost of just ₹2/km, making it a reliable, affordable, and eco-friendly choice for daily transport.",
 
       "Designed to empower drivers, the E-Rickshaw enhances daily earnings and provides a dependable livelihood option. With easy financing and solid after-sales support, it plays a key role in enabling financial growth and sustainable urban mobility.",
     ],
@@ -4953,7 +4961,7 @@ export const data = [
         {
           title: "Reliable Daily Income",
           description:
-            "Mac E-Rickshaws provide a dependable source of daily income, helping drivers build financial stability and long-term growth.",
+            "MackE-Rickshaws provide a dependable source of daily income, helping drivers build financial stability and long-term growth.",
         },
       ],
     },
@@ -4970,12 +4978,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -4990,7 +4998,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -5011,8 +5019,8 @@ export const data = [
     slug: "electric-scooter-jaunpur",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -5021,7 +5029,7 @@ export const data = [
         {
           title: "Higher Earnability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability. With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability. With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
         },
         {
           title: "Better Future for Families",
@@ -5031,7 +5039,7 @@ export const data = [
         {
           title: "Low Maintenance Hassle",
           description:
-            "Mac E-Rickshaws are designed with robust components that require less frequent servicing, helping drivers save more and drive worry-free.",
+            "MackE-Rickshaws are designed with robust components that require less frequent servicing, helping drivers save more and drive worry-free.",
         },
       ],
     },
@@ -5048,12 +5056,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -5068,7 +5076,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mac brand carries a good reputation of quality and trust amongst it’s users.",
+            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mackbrand carries a good reputation of quality and trust amongst it’s users.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -5089,8 +5097,8 @@ export const data = [
     slug: "electric-tricycle-jaunpur",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -5099,7 +5107,7 @@ export const data = [
         {
           title: "Higher Earnability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability. With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability. With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
         },
         {
           title: "Better Future for Families",
@@ -5109,7 +5117,7 @@ export const data = [
         {
           title: "Low Maintenance Hassle",
           description:
-            "Mac E-Rickshaws are designed with robust components that require less frequent servicing, helping drivers save more and drive worry-free.",
+            "MackE-Rickshaws are designed with robust components that require less frequent servicing, helping drivers save more and drive worry-free.",
         },
       ],
     },
@@ -5126,12 +5134,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -5146,7 +5154,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mac brand carries a good reputation of quality and trust amongst it’s users.",
+            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mackbrand carries a good reputation of quality and trust amongst it’s users.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -5167,8 +5175,8 @@ export const data = [
     slug: "e-rickshaw-jaunpur",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E‑Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly‑owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad‑based E‑3Wheeler company MACK EV which sells Electric Auto‑Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE‑Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly‑owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad‑based E‑3Wheeler company MACK EV which sells Electric Auto‑Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e‑mobility arm of Mego) will expand its presence in the fast disrupting E‑Rickshaw segment to become an integrated last mile E‑Mobility player with strong presence in both E‑2W and E‑3W. E‑Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost‑effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -5177,7 +5185,7 @@ export const data = [
         {
           title: "Higher Earnability",
           description:
-            "Enabling auto drivers with better employability, Mac E‑Rickshaw supports higher earnings via low running cost (~₹2/km) and superior mileage.",
+            "Enabling auto drivers with better employability, MackE‑Rickshaw supports higher earnings via low running cost (~₹2/km) and superior mileage.",
         },
         {
           title: "Built for Indian Conditions",
@@ -5194,12 +5202,12 @@ export const data = [
     featuresPerformance: {
       title: "Specifically Built for India",
       description:
-        "The Mac E‑Rickshaw is ICAT approved and outfitted for maximum safety, comfort, performance and profit for drivers.",
+        "The MackE‑Rickshaw is ICAT approved and outfitted for maximum safety, comfort, performance and profit for drivers.",
       features: [
         {
           title: "ICAT‑Approved Design",
           description:
-            "The Mac E‑Rickshaw meets ICAT standards for safety and performance, offering extra comfort, profit and reliability.",
+            "The MackE‑Rickshaw meets ICAT standards for safety and performance, offering extra comfort, profit and reliability.",
         },
         {
           title: "Efficient Charging & Range",
@@ -5245,9 +5253,9 @@ export const data = [
     slug: "electric-loader-jaunpur",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the Mac E‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
+      "Committed to taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the MackE‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
       "MACK EV Vehicles, a wholly owned electric mobility subsidiary of MACK EV, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts, and more under the MACK EV brand. These vehicles offer eco‑friendly alternatives to diesel or petrol-powered vehicles.",
-      "The Mac Zorawar E‑Loader is designed for efficient goods transport. It features a high loading capacity (500–1000 kg), regenerative braking, and lithium‑ion batteries—making it ideal for cost‑effective cargo operations across narrow lanes.",
+      "The MackZorawar E‑Loader is designed for efficient goods transport. It features a high loading capacity (500–1000 kg), regenerative braking, and lithium‑ion batteries—making it ideal for cost‑effective cargo operations across narrow lanes.",
     ],
     driverBenefits: {
       title: "Empowering Driver‑Entrepreneurs",
@@ -5272,7 +5280,7 @@ export const data = [
     featuresPerformance: {
       title: "Built for Urban Goods Transport",
       description:
-        "Mac E‑Loader combines smart engineering and practical design to offer safe, efficient, and comfortable cargo transport for small businesses and driver‑operators.",
+        "MackE‑Loader combines smart engineering and practical design to offer safe, efficient, and comfortable cargo transport for small businesses and driver‑operators.",
       features: [
         {
           title: "Efficient Powertrain",
@@ -5282,7 +5290,7 @@ export const data = [
         {
           title: "High Payload Capacity",
           description:
-            "Supports a payload of 500–1000 kg depending on the model (e.g., Mac Haul, Zorawar full‑body).",
+            "Supports a payload of 500–1000 kg depending on the model (e.g., MackHaul, Zorawar full‑body).",
         },
         {
           title: "Long Running Range",
@@ -5314,7 +5322,7 @@ export const data = [
     financing: {
       title: "Affordable Financing",
       description:
-        "With financial partnerships available, drivers can access attractive EMI schemes and ownership support for Mac E‑Loader models.",
+        "With financial partnerships available, drivers can access attractive EMI schemes and ownership support for MackE‑Loader models.",
     },
   },
   {
@@ -5323,8 +5331,8 @@ export const data = [
     slug: "top-10-e-rickshaw-jaunpur",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -5350,7 +5358,7 @@ export const data = [
     featuresPerformance: {
       title: "Built to Deliver, Built for India",
       description:
-        "The Mac E-Rickshaw is designed for Indian roads, ensuring high durability, performance, and comfort for both driver and passengers.",
+        "The MackE-Rickshaw is designed for Indian roads, ensuring high durability, performance, and comfort for both driver and passengers.",
       features: [
         {
           title: "Robust Engineering",
@@ -5380,7 +5388,7 @@ export const data = [
         {
           title: "Thousands of Satisfied Users",
           description:
-            "The Mac brand is trusted by over 10,000 customers nationwide for quality and service excellence.",
+            "The Mackbrand is trusted by over 10,000 customers nationwide for quality and service excellence.",
         },
         {
           title: "Extensive Network",
@@ -5392,7 +5400,7 @@ export const data = [
     financing: {
       title: "Flexible Financing Options",
       description:
-        "Mac offers EMI and loan plans in partnership with top banks, making it easy for anyone to own an electric rickshaw.",
+        "Mackoffers EMI and loan plans in partnership with top banks, making it easy for anyone to own an electric rickshaw.",
     },
   },
   {
@@ -5401,8 +5409,8 @@ export const data = [
     slug: "e-auto-rickshaw-jaunpur",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -5411,7 +5419,7 @@ export const data = [
         {
           title: "Enhanced Employability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability.",
         },
         {
           title: "Higher Earnings",
@@ -5433,7 +5441,7 @@ export const data = [
         {
           title: "Strong Build with Advanced Safety",
           description:
-            "Mac E Auto Rickshaw features a steel body, ABS roof, and powerful drum brakes, ensuring durability and safety during everyday rides.",
+            "MackE Auto Rickshaw features a steel body, ABS roof, and powerful drum brakes, ensuring durability and safety during everyday rides.",
         },
         {
           title: "ICAT Approved Design",
@@ -5448,7 +5456,7 @@ export const data = [
         {
           title: "Low Maintenance Requirements",
           description:
-            "Engineered with robust parts and fewer moving components, Mac E-Rickshaw reduces overall maintenance cost and effort.",
+            "Engineered with robust parts and fewer moving components, MackE-Rickshaw reduces overall maintenance cost and effort.",
         },
         {
           title: "Driver-Centric Comfort",
@@ -5468,7 +5476,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mac brand carries a good reputation of quality and trust amongst it’s users.",
+            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mackbrand carries a good reputation of quality and trust amongst it’s users.",
         },
         {
           title: "Extensive Dealer Network",
@@ -5490,8 +5498,8 @@ export const data = [
     slug: "electric-three-wheeler-kanpur-dehat",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -5510,7 +5518,7 @@ export const data = [
         {
           title: "Focus on Driver & Family Satisfaction",
           description:
-            "Mac E-Rickshaw empowers drivers with a brighter future, ensuring happiness and satisfaction for their families. Its cost-effective operation helps uplift their livelihoods.",
+            "MackE-Rickshaw empowers drivers with a brighter future, ensuring happiness and satisfaction for their families. Its cost-effective operation helps uplift their livelihoods.",
         },
       ],
     },
@@ -5527,12 +5535,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -5547,7 +5555,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -5568,8 +5576,8 @@ export const data = [
     slug: "electric-three-wheeler-kanpur-dehat",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad-based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the MackE-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad-based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -5600,12 +5608,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -5620,7 +5628,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -5641,11 +5649,11 @@ export const data = [
     slug: "top-10-e-loader-kanpur-dehat",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to building a clean last mile, MACK EV proudly introduces the Mac E-Rickshaw under its electric mobility arm – Mego. With the acquisition of a Faridabad-based E-3Wheeler company holding 74% stake, MACK EV aims to strengthen its presence in the rapidly growing E-Rickshaw segment across India.",
+      "Committed to building a clean last mile, MACK EV proudly introduces the MackE-Rickshaw under its electric mobility arm – Mego. With the acquisition of a Faridabad-based E-3Wheeler company holding 74% stake, MACK EV aims to strengthen its presence in the rapidly growing E-Rickshaw segment across India.",
 
-      "Mac E-Rickshaw is built for Indian roads with a strong steel body, ABS roof, alloy wheels and powerful drum brakes. It is ICAT-approved, offers a low running cost of just ₹2/km, and delivers up to 100 km range on a single charge — making it a clean, affordable and high-performance solution.",
+      "MackE-Rickshaw is built for Indian roads with a strong steel body, ABS roof, alloy wheels and powerful drum brakes. It is ICAT-approved, offers a low running cost of just ₹2/km, and delivers up to 100 km range on a single charge — making it a clean, affordable and high-performance solution.",
 
-      "More than just a vehicle, the Mac E-Rickshaw supports driver livelihoods by boosting daily earnings and offering a reliable means of income. It empowers communities with eco-friendly transport while contributing to India’s sustainable mobility mission.",
+      "More than just a vehicle, the MackE-Rickshaw supports driver livelihoods by boosting daily earnings and offering a reliable means of income. It empowers communities with eco-friendly transport while contributing to India’s sustainable mobility mission.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -5663,7 +5671,7 @@ export const data = [
         {
           title: "Reliable Daily Income",
           description:
-            "Mac E-Rickshaws provide a dependable source of daily income, helping drivers build financial stability and long-term growth.",
+            "MackE-Rickshaws provide a dependable source of daily income, helping drivers build financial stability and long-term growth.",
         },
       ],
     },
@@ -5680,12 +5688,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -5700,7 +5708,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -5721,9 +5729,9 @@ export const data = [
     slug: "best-e-loader-kanpur-dehat",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to building a clean last mile, MACK EV proudly presents the Mac E-Rickshaw under its electric mobility arm – Mego. With a 74% acquisition of a Faridabad-based E-3Wheeler company, MACK EV is strengthening its position in the evolving E-2W and E-3W mobility market.",
+      "Committed to building a clean last mile, MACK EV proudly presents the MackE-Rickshaw under its electric mobility arm – Mego. With a 74% acquisition of a Faridabad-based E-3Wheeler company, MACK EV is strengthening its position in the evolving E-2W and E-3W mobility market.",
 
-      "Built for Indian roads, the Mac E-Rickshaw features a steel body, ABS roof, alloy wheels, and drum brakes. It is ICAT-approved, with a range of up to 100 km per charge and a running cost of just ₹2/km, making it a reliable, affordable, and eco-friendly choice for daily transport.",
+      "Built for Indian roads, the MackE-Rickshaw features a steel body, ABS roof, alloy wheels, and drum brakes. It is ICAT-approved, with a range of up to 100 km per charge and a running cost of just ₹2/km, making it a reliable, affordable, and eco-friendly choice for daily transport.",
 
       "Designed to empower drivers, the E-Rickshaw enhances daily earnings and provides a dependable livelihood option. With easy financing and solid after-sales support, it plays a key role in enabling financial growth and sustainable urban mobility.",
     ],
@@ -5743,7 +5751,7 @@ export const data = [
         {
           title: "Reliable Daily Income",
           description:
-            "Mac E-Rickshaws provide a dependable source of daily income, helping drivers build financial stability and long-term growth.",
+            "MackE-Rickshaws provide a dependable source of daily income, helping drivers build financial stability and long-term growth.",
         },
       ],
     },
@@ -5760,12 +5768,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -5780,7 +5788,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -5801,8 +5809,8 @@ export const data = [
     slug: "electric-scooter-kanpur-dehat",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -5811,7 +5819,7 @@ export const data = [
         {
           title: "Higher Earnability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability. With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability. With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
         },
         {
           title: "Better Future for Families",
@@ -5821,7 +5829,7 @@ export const data = [
         {
           title: "Low Maintenance Hassle",
           description:
-            "Mac E-Rickshaws are designed with robust components that require less frequent servicing, helping drivers save more and drive worry-free.",
+            "MackE-Rickshaws are designed with robust components that require less frequent servicing, helping drivers save more and drive worry-free.",
         },
       ],
     },
@@ -5838,12 +5846,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -5858,7 +5866,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mac brand carries a good reputation of quality and trust amongst it’s users.",
+            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mackbrand carries a good reputation of quality and trust amongst it’s users.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -5879,8 +5887,8 @@ export const data = [
     slug: "electric-tricycle-kanpur-dehat",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -5889,7 +5897,7 @@ export const data = [
         {
           title: "Higher Earnability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability. With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability. With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
         },
         {
           title: "Better Future for Families",
@@ -5899,7 +5907,7 @@ export const data = [
         {
           title: "Low Maintenance Hassle",
           description:
-            "Mac E-Rickshaws are designed with robust components that require less frequent servicing, helping drivers save more and drive worry-free.",
+            "MackE-Rickshaws are designed with robust components that require less frequent servicing, helping drivers save more and drive worry-free.",
         },
       ],
     },
@@ -5916,12 +5924,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -5936,7 +5944,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mac brand carries a good reputation of quality and trust amongst it’s users.",
+            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mackbrand carries a good reputation of quality and trust amongst it’s users.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -5957,8 +5965,8 @@ export const data = [
     slug: "e-rickshaw-kanpur-dehat",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E‑Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly‑owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad‑based E‑3Wheeler company MACK EV which sells Electric Auto‑Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE‑Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly‑owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad‑based E‑3Wheeler company MACK EV which sells Electric Auto‑Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e‑mobility arm of Mego) will expand its presence in the fast disrupting E‑Rickshaw segment to become an integrated last mile E‑Mobility player with strong presence in both E‑2W and E‑3W. E‑Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost‑effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -5967,7 +5975,7 @@ export const data = [
         {
           title: "Higher Earnability",
           description:
-            "Enabling auto drivers with better employability, Mac E‑Rickshaw supports higher earnings via low running cost (~₹2/km) and superior mileage.",
+            "Enabling auto drivers with better employability, MackE‑Rickshaw supports higher earnings via low running cost (~₹2/km) and superior mileage.",
         },
         {
           title: "Built for Indian Conditions",
@@ -5984,12 +5992,12 @@ export const data = [
     featuresPerformance: {
       title: "Specifically Built for India",
       description:
-        "The Mac E‑Rickshaw is ICAT approved and outfitted for maximum safety, comfort, performance and profit for drivers.",
+        "The MackE‑Rickshaw is ICAT approved and outfitted for maximum safety, comfort, performance and profit for drivers.",
       features: [
         {
           title: "ICAT‑Approved Design",
           description:
-            "The Mac E‑Rickshaw meets ICAT standards for safety and performance, offering extra comfort, profit and reliability.",
+            "The MackE‑Rickshaw meets ICAT standards for safety and performance, offering extra comfort, profit and reliability.",
         },
         {
           title: "Efficient Charging & Range",
@@ -6035,9 +6043,9 @@ export const data = [
     slug: "electric-loader-kanpur-dehat",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the Mac E‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
+      "Committed to taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the MackE‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
       "MACK EV Vehicles, a wholly owned electric mobility subsidiary of MACK EV, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts, and more under the MACK EV brand. These vehicles offer eco‑friendly alternatives to diesel or petrol-powered vehicles.",
-      "The Mac Zorawar E‑Loader is designed for efficient goods transport. It features a high loading capacity (500–1000 kg), regenerative braking, and lithium‑ion batteries—making it ideal for cost‑effective cargo operations across narrow lanes.",
+      "The MackZorawar E‑Loader is designed for efficient goods transport. It features a high loading capacity (500–1000 kg), regenerative braking, and lithium‑ion batteries—making it ideal for cost‑effective cargo operations across narrow lanes.",
     ],
     driverBenefits: {
       title: "Empowering Driver‑Entrepreneurs",
@@ -6063,7 +6071,7 @@ export const data = [
     featuresPerformance: {
       title: "Built for Urban Goods Transport",
       description:
-        "Mac E‑Loader combines smart engineering and practical design to offer safe, efficient, and comfortable cargo transport for small businesses and driver‑operators.",
+        "MackE‑Loader combines smart engineering and practical design to offer safe, efficient, and comfortable cargo transport for small businesses and driver‑operators.",
       features: [
         {
           title: "Efficient Powertrain",
@@ -6073,7 +6081,7 @@ export const data = [
         {
           title: "High Payload Capacity",
           description:
-            "Supports a payload of 500–1000 kg depending on the model (e.g., Mac Haul, Zorawar full‑body).",
+            "Supports a payload of 500–1000 kg depending on the model (e.g., MackHaul, Zorawar full‑body).",
         },
         {
           title: "Long Running Range",
@@ -6106,7 +6114,7 @@ export const data = [
     financing: {
       title: "Affordable Financing",
       description:
-        "With financial partnerships available, drivers can access attractive EMI schemes and ownership support for Mac E‑Loader models.",
+        "With financial partnerships available, drivers can access attractive EMI schemes and ownership support for MackE‑Loader models.",
     },
   },
   {
@@ -6115,8 +6123,8 @@ export const data = [
     slug: "top-10-e-rickshaw-kanpur-dehat",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -6142,7 +6150,7 @@ export const data = [
     featuresPerformance: {
       title: "Built to Deliver, Built for India",
       description:
-        "The Mac E-Rickshaw is designed for Indian roads, ensuring high durability, performance, and comfort for both driver and passengers.",
+        "The MackE-Rickshaw is designed for Indian roads, ensuring high durability, performance, and comfort for both driver and passengers.",
       features: [
         {
           title: "Robust Engineering",
@@ -6172,7 +6180,7 @@ export const data = [
         {
           title: "Thousands of Satisfied Users",
           description:
-            "The Mac brand is trusted by over 10,000 customers nationwide for quality and service excellence.",
+            "The Mackbrand is trusted by over 10,000 customers nationwide for quality and service excellence.",
         },
         {
           title: "Extensive Network",
@@ -6184,7 +6192,7 @@ export const data = [
     financing: {
       title: "Flexible Financing Options",
       description:
-        "Mac offers EMI and loan plans in partnership with top banks, making it easy for anyone to own an electric rickshaw.",
+        "Mackoffers EMI and loan plans in partnership with top banks, making it easy for anyone to own an electric rickshaw.",
     },
   },
   {
@@ -6193,8 +6201,8 @@ export const data = [
     slug: "e-auto-rickshaw-kanpur-dehat",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -6203,7 +6211,7 @@ export const data = [
         {
           title: "Enhanced Employability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability.",
         },
         {
           title: "Higher Earnings",
@@ -6218,14 +6226,14 @@ export const data = [
       ],
     },
     featuresPerformance: {
-      title: "Why Mac E-Rickshaw ?",
+      title: "Why MackE-Rickshaw ?",
       description:
-        "Built specifically for Indian road conditions, Mac E-Rickshaw is packed with superior features like a strong steel body, ABS roof, alloy wheels, and powerful drum brakes. It’s ICAT approved and designed to offer unmatched safety, comfort, and profitability to drivers.",
+        "Built specifically for Indian road conditions, MackE-Rickshaw is packed with superior features like a strong steel body, ABS roof, alloy wheels, and powerful drum brakes. It’s ICAT approved and designed to offer unmatched safety, comfort, and profitability to drivers.",
       features: [
         {
           title: "Strong Build with Advanced Safety",
           description:
-            "Mac E-Rickshaw features a steel body, ABS roof, and powerful drum brakes, ensuring durability and safety during everyday rides.",
+            "MackE-Rickshaw features a steel body, ABS roof, and powerful drum brakes, ensuring durability and safety during everyday rides.",
         },
         {
           title: "ICAT Approved Design",
@@ -6240,7 +6248,7 @@ export const data = [
         {
           title: "Low Maintenance Requirements",
           description:
-            "Engineered with robust parts and fewer moving components, Mac E-Rickshaw reduces overall maintenance cost and effort.",
+            "Engineered with robust parts and fewer moving components, MackE-Rickshaw reduces overall maintenance cost and effort.",
         },
         {
           title: "Driver-Centric Comfort",
@@ -6260,7 +6268,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mac brand carries a good reputation of quality and trust amongst it’s users.",
+            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mackbrand carries a good reputation of quality and trust amongst it’s users.",
         },
         {
           title: "Extensive Dealer Network",
@@ -6282,8 +6290,8 @@ export const data = [
     slug: "electric-three-wheeler-lucknow",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -6302,7 +6310,7 @@ export const data = [
         {
           title: "Focus on Driver & Family Satisfaction",
           description:
-            "Mac E-Rickshaw empowers drivers with a brighter future, ensuring happiness and satisfaction for their families. Its cost-effective operation helps uplift their livelihoods.",
+            "MackE-Rickshaw empowers drivers with a brighter future, ensuring happiness and satisfaction for their families. Its cost-effective operation helps uplift their livelihoods.",
         },
       ],
     },
@@ -6319,12 +6327,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -6339,7 +6347,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -6360,8 +6368,8 @@ export const data = [
     slug: "electric-three-wheeler-lucknow",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad-based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the MackE-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad-based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -6392,12 +6400,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -6412,7 +6420,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -6433,11 +6441,11 @@ export const data = [
     slug: "top-10-e-loader-lucknow",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to building a clean last mile, MACK EV proudly introduces the Mac E-Rickshaw under its electric mobility arm – Mego. With the acquisition of a Faridabad-based E-3Wheeler company holding 74% stake, MACK EV aims to strengthen its presence in the rapidly growing E-Rickshaw segment across India.",
+      "Committed to building a clean last mile, MACK EV proudly introduces the MackE-Rickshaw under its electric mobility arm – Mego. With the acquisition of a Faridabad-based E-3Wheeler company holding 74% stake, MACK EV aims to strengthen its presence in the rapidly growing E-Rickshaw segment across India.",
 
-      "Mac E-Rickshaw is built for Indian roads with a strong steel body, ABS roof, alloy wheels and powerful drum brakes. It is ICAT-approved, offers a low running cost of just ₹2/km, and delivers up to 100 km range on a single charge — making it a clean, affordable and high-performance solution.",
+      "MackE-Rickshaw is built for Indian roads with a strong steel body, ABS roof, alloy wheels and powerful drum brakes. It is ICAT-approved, offers a low running cost of just ₹2/km, and delivers up to 100 km range on a single charge — making it a clean, affordable and high-performance solution.",
 
-      "More than just a vehicle, the Mac E-Rickshaw supports driver livelihoods by boosting daily earnings and offering a reliable means of income. It empowers communities with eco-friendly transport while contributing to India’s sustainable mobility mission.",
+      "More than just a vehicle, the MackE-Rickshaw supports driver livelihoods by boosting daily earnings and offering a reliable means of income. It empowers communities with eco-friendly transport while contributing to India’s sustainable mobility mission.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -6455,7 +6463,7 @@ export const data = [
         {
           title: "Reliable Daily Income",
           description:
-            "Mac E-Rickshaws provide a dependable source of daily income, helping drivers build financial stability and long-term growth.",
+            "MackE-Rickshaws provide a dependable source of daily income, helping drivers build financial stability and long-term growth.",
         },
       ],
     },
@@ -6472,12 +6480,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -6492,7 +6500,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -6513,9 +6521,9 @@ export const data = [
     slug: "best-e-loader-lucknow",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to building a clean last mile, MACK EV proudly presents the Mac E-Rickshaw under its electric mobility arm – Mego. With a 74% acquisition of a Faridabad-based E-3Wheeler company, MACK EV is strengthening its position in the evolving E-2W and E-3W mobility market.",
+      "Committed to building a clean last mile, MACK EV proudly presents the MackE-Rickshaw under its electric mobility arm – Mego. With a 74% acquisition of a Faridabad-based E-3Wheeler company, MACK EV is strengthening its position in the evolving E-2W and E-3W mobility market.",
 
-      "Built for Indian roads, the Mac E-Rickshaw features a steel body, ABS roof, alloy wheels, and drum brakes. It is ICAT-approved, with a range of up to 100 km per charge and a running cost of just ₹2/km, making it a reliable, affordable, and eco-friendly choice for daily transport.",
+      "Built for Indian roads, the MackE-Rickshaw features a steel body, ABS roof, alloy wheels, and drum brakes. It is ICAT-approved, with a range of up to 100 km per charge and a running cost of just ₹2/km, making it a reliable, affordable, and eco-friendly choice for daily transport.",
 
       "Designed to empower drivers, the E-Rickshaw enhances daily earnings and provides a dependable livelihood option. With easy financing and solid after-sales support, it plays a key role in enabling financial growth and sustainable urban mobility.",
     ],
@@ -6535,7 +6543,7 @@ export const data = [
         {
           title: "Reliable Daily Income",
           description:
-            "Mac E-Rickshaws provide a dependable source of daily income, helping drivers build financial stability and long-term growth.",
+            "MackE-Rickshaws provide a dependable source of daily income, helping drivers build financial stability and long-term growth.",
         },
       ],
     },
@@ -6552,12 +6560,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -6572,7 +6580,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -6593,8 +6601,8 @@ export const data = [
     slug: "electric-scooter-lucknow",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -6603,7 +6611,7 @@ export const data = [
         {
           title: "Higher Earnability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability. With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability. With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
         },
         {
           title: "Better Future for Families",
@@ -6613,7 +6621,7 @@ export const data = [
         {
           title: "Low Maintenance Hassle",
           description:
-            "Mac E-Rickshaws are designed with robust components that require less frequent servicing, helping drivers save more and drive worry-free.",
+            "MackE-Rickshaws are designed with robust components that require less frequent servicing, helping drivers save more and drive worry-free.",
         },
       ],
     },
@@ -6630,12 +6638,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -6650,7 +6658,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mac brand carries a good reputation of quality and trust amongst it’s users.",
+            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mackbrand carries a good reputation of quality and trust amongst it’s users.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -6671,8 +6679,8 @@ export const data = [
     slug: "electric-tricycle-lucknow",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -6681,7 +6689,7 @@ export const data = [
         {
           title: "Higher Earnability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability. With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability. With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
         },
         {
           title: "Better Future for Families",
@@ -6691,7 +6699,7 @@ export const data = [
         {
           title: "Low Maintenance Hassle",
           description:
-            "Mac E-Rickshaws are designed with robust components that require less frequent servicing, helping drivers save more and drive worry-free.",
+            "MackE-Rickshaws are designed with robust components that require less frequent servicing, helping drivers save more and drive worry-free.",
         },
       ],
     },
@@ -6708,12 +6716,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -6728,7 +6736,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mac brand carries a good reputation of quality and trust amongst it’s users.",
+            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mackbrand carries a good reputation of quality and trust amongst it’s users.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -6749,8 +6757,8 @@ export const data = [
     slug: "e-rickshaw-lucknow",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E‑Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly‑owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad‑based E‑3Wheeler company MACK EV which sells Electric Auto‑Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE‑Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly‑owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad‑based E‑3Wheeler company MACK EV which sells Electric Auto‑Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e‑mobility arm of Mego) will expand its presence in the fast disrupting E‑Rickshaw segment to become an integrated last mile E‑Mobility player with strong presence in both E‑2W and E‑3W. E‑Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost‑effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -6759,7 +6767,7 @@ export const data = [
         {
           title: "Higher Earnability",
           description:
-            "Enabling auto drivers with better employability, Mac E‑Rickshaw supports higher earnings via low running cost (~₹2/km) and superior mileage.",
+            "Enabling auto drivers with better employability, MackE‑Rickshaw supports higher earnings via low running cost (~₹2/km) and superior mileage.",
         },
         {
           title: "Built for Indian Conditions",
@@ -6776,12 +6784,12 @@ export const data = [
     featuresPerformance: {
       title: "Specifically Built for India",
       description:
-        "The Mac E‑Rickshaw is ICAT approved and outfitted for maximum safety, comfort, performance and profit for drivers.",
+        "The MackE‑Rickshaw is ICAT approved and outfitted for maximum safety, comfort, performance and profit for drivers.",
       features: [
         {
           title: "ICAT‑Approved Design",
           description:
-            "The Mac E‑Rickshaw meets ICAT standards for safety and performance, offering extra comfort, profit and reliability.",
+            "The MackE‑Rickshaw meets ICAT standards for safety and performance, offering extra comfort, profit and reliability.",
         },
         {
           title: "Efficient Charging & Range",
@@ -6827,9 +6835,9 @@ export const data = [
     slug: "electric-loader-lucknow",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the Mac E‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
+      "Committed to taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the MackE‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
       "MACK EV Vehicles, a wholly owned electric mobility subsidiary of MACK EV, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts, and more under the MACK EV brand. These vehicles offer eco‑friendly alternatives to diesel or petrol-powered vehicles.",
-      "The Mac Zorawar E‑Loader is designed for efficient goods transport. It features a high loading capacity (500–1000 kg), regenerative braking, and lithium‑ion batteries—making it ideal for cost‑effective cargo operations across narrow lanes.",
+      "The MackZorawar E‑Loader is designed for efficient goods transport. It features a high loading capacity (500–1000 kg), regenerative braking, and lithium‑ion batteries—making it ideal for cost‑effective cargo operations across narrow lanes.",
     ],
     driverBenefits: {
       title: "Empowering Driver‑Entrepreneurs",
@@ -6854,7 +6862,7 @@ export const data = [
     featuresPerformance: {
       title: "Built for Urban Goods Transport",
       description:
-        "Mac E‑Loader combines smart engineering and practical design to offer safe, efficient, and comfortable cargo transport for small businesses and driver‑operators.",
+        "MackE‑Loader combines smart engineering and practical design to offer safe, efficient, and comfortable cargo transport for small businesses and driver‑operators.",
       features: [
         {
           title: "Efficient Powertrain",
@@ -6864,7 +6872,7 @@ export const data = [
         {
           title: "High Payload Capacity",
           description:
-            "Supports a payload of 500–1000 kg depending on the model (e.g., Mac Haul, Zorawar full‑body).",
+            "Supports a payload of 500–1000 kg depending on the model (e.g., MackHaul, Zorawar full‑body).",
         },
         {
           title: "Long Running Range",
@@ -6896,7 +6904,7 @@ export const data = [
     financing: {
       title: "Affordable Financing",
       description:
-        "With financial partnerships available, drivers can access attractive EMI schemes and ownership support for Mac E‑Loader models.",
+        "With financial partnerships available, drivers can access attractive EMI schemes and ownership support for MackE‑Loader models.",
     },
   },
   {
@@ -6905,8 +6913,8 @@ export const data = [
     slug: "top-10-e-rickshaw-lucknow",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -6932,7 +6940,7 @@ export const data = [
     featuresPerformance: {
       title: "Built to Deliver, Built for India",
       description:
-        "The Mac E-Rickshaw is designed for Indian roads, ensuring high durability, performance, and comfort for both driver and passengers.",
+        "The MackE-Rickshaw is designed for Indian roads, ensuring high durability, performance, and comfort for both driver and passengers.",
       features: [
         {
           title: "Robust Engineering",
@@ -6962,7 +6970,7 @@ export const data = [
         {
           title: "Thousands of Satisfied Users",
           description:
-            "The Mac brand is trusted by over 10,000 customers nationwide for quality and service excellence.",
+            "The Mackbrand is trusted by over 10,000 customers nationwide for quality and service excellence.",
         },
         {
           title: "Extensive Network",
@@ -6974,7 +6982,7 @@ export const data = [
     financing: {
       title: "Flexible Financing Options",
       description:
-        "Mac offers EMI and loan plans in partnership with top banks, making it easy for anyone to own an electric rickshaw.",
+        "Mackoffers EMI and loan plans in partnership with top banks, making it easy for anyone to own an electric rickshaw.",
     },
   },
   {
@@ -6983,8 +6991,8 @@ export const data = [
     slug: "e-auto-rickshaw-lucknow",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -6993,7 +7001,7 @@ export const data = [
         {
           title: "Enhanced Employability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability.",
         },
         {
           title: "Higher Earnings",
@@ -7015,7 +7023,7 @@ export const data = [
         {
           title: "Strong Build with Advanced Safety",
           description:
-            "Mac E Auto Rickshaw features a steel body, ABS roof, and powerful drum brakes, ensuring durability and safety during everyday rides.",
+            "MackE Auto Rickshaw features a steel body, ABS roof, and powerful drum brakes, ensuring durability and safety during everyday rides.",
         },
         {
           title: "ICAT Approved Design",
@@ -7030,7 +7038,7 @@ export const data = [
         {
           title: "Low Maintenance Requirements",
           description:
-            "Engineered with robust parts and fewer moving components, Mac E-Rickshaw reduces overall maintenance cost and effort.",
+            "Engineered with robust parts and fewer moving components, MackE-Rickshaw reduces overall maintenance cost and effort.",
         },
         {
           title: "Driver-Centric Comfort",
@@ -7050,7 +7058,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mac brand carries a good reputation of quality and trust amongst it’s users.",
+            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mackbrand carries a good reputation of quality and trust amongst it’s users.",
         },
         {
           title: "Extensive Dealer Network",
@@ -7072,8 +7080,8 @@ export const data = [
     slug: "electric-three-wheeler-prayagraj",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -7092,7 +7100,7 @@ export const data = [
         {
           title: "Focus on Driver & Family Satisfaction",
           description:
-            "Mac E-Rickshaw empowers drivers with a brighter future, ensuring happiness and satisfaction for their families. Its cost-effective operation helps uplift their livelihoods.",
+            "MackE-Rickshaw empowers drivers with a brighter future, ensuring happiness and satisfaction for their families. Its cost-effective operation helps uplift their livelihoods.",
         },
       ],
     },
@@ -7109,12 +7117,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -7129,7 +7137,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -7150,8 +7158,8 @@ export const data = [
     slug: "electric-three-wheeler-prayagraj",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad-based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the MackE-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad-based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -7182,12 +7190,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -7202,7 +7210,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -7223,11 +7231,11 @@ export const data = [
     slug: "top-10-e-loader-prayagraj",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to building a clean last mile, MACK EV proudly introduces the Mac E-Rickshaw under its electric mobility arm – Mego. With the acquisition of a Faridabad-based E-3Wheeler company holding 74% stake, MACK EV aims to strengthen its presence in the rapidly growing E-Rickshaw segment across India.",
+      "Committed to building a clean last mile, MACK EV proudly introduces the MackE-Rickshaw under its electric mobility arm – Mego. With the acquisition of a Faridabad-based E-3Wheeler company holding 74% stake, MACK EV aims to strengthen its presence in the rapidly growing E-Rickshaw segment across India.",
 
-      "Mac E-Rickshaw is built for Indian roads with a strong steel body, ABS roof, alloy wheels and powerful drum brakes. It is ICAT-approved, offers a low running cost of just ₹2/km, and delivers up to 100 km range on a single charge — making it a clean, affordable and high-performance solution.",
+      "MackE-Rickshaw is built for Indian roads with a strong steel body, ABS roof, alloy wheels and powerful drum brakes. It is ICAT-approved, offers a low running cost of just ₹2/km, and delivers up to 100 km range on a single charge — making it a clean, affordable and high-performance solution.",
 
-      "More than just a vehicle, the Mac E-Rickshaw supports driver livelihoods by boosting daily earnings and offering a reliable means of income. It empowers communities with eco-friendly transport while contributing to India’s sustainable mobility mission.",
+      "More than just a vehicle, the MackE-Rickshaw supports driver livelihoods by boosting daily earnings and offering a reliable means of income. It empowers communities with eco-friendly transport while contributing to India’s sustainable mobility mission.",
     ],
     driverBenefits: {
       title: "Empowering Auto Drivers",
@@ -7245,7 +7253,7 @@ export const data = [
         {
           title: "Reliable Daily Income",
           description:
-            "Mac E-Rickshaws provide a dependable source of daily income, helping drivers build financial stability and long-term growth.",
+            "MackE-Rickshaws provide a dependable source of daily income, helping drivers build financial stability and long-term growth.",
         },
       ],
     },
@@ -7262,12 +7270,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -7282,7 +7290,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -7303,9 +7311,9 @@ export const data = [
     slug: "best-e-loader-prayagraj",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to building a clean last mile, MACK EV proudly presents the Mac E-Rickshaw under its electric mobility arm – Mego. With a 74% acquisition of a Faridabad-based E-3Wheeler company, MACK EV is strengthening its position in the evolving E-2W and E-3W mobility market.",
+      "Committed to building a clean last mile, MACK EV proudly presents the MackE-Rickshaw under its electric mobility arm – Mego. With a 74% acquisition of a Faridabad-based E-3Wheeler company, MACK EV is strengthening its position in the evolving E-2W and E-3W mobility market.",
 
-      "Built for Indian roads, the Mac E-Rickshaw features a steel body, ABS roof, alloy wheels, and drum brakes. It is ICAT-approved, with a range of up to 100 km per charge and a running cost of just ₹2/km, making it a reliable, affordable, and eco-friendly choice for daily transport.",
+      "Built for Indian roads, the MackE-Rickshaw features a steel body, ABS roof, alloy wheels, and drum brakes. It is ICAT-approved, with a range of up to 100 km per charge and a running cost of just ₹2/km, making it a reliable, affordable, and eco-friendly choice for daily transport.",
 
       "Designed to empower drivers, the E-Rickshaw enhances daily earnings and provides a dependable livelihood option. With easy financing and solid after-sales support, it plays a key role in enabling financial growth and sustainable urban mobility.",
     ],
@@ -7325,7 +7333,7 @@ export const data = [
         {
           title: "Reliable Daily Income",
           description:
-            "Mac E-Rickshaws provide a dependable source of daily income, helping drivers build financial stability and long-term growth.",
+            "MackE-Rickshaws provide a dependable source of daily income, helping drivers build financial stability and long-term growth.",
         },
       ],
     },
@@ -7342,12 +7350,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -7362,7 +7370,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mac brand is trusted by more than 10,000 users across India.",
+            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -7383,8 +7391,8 @@ export const data = [
     slug: "electric-scooter-prayagraj",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -7393,7 +7401,7 @@ export const data = [
         {
           title: "Higher Earnability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability. With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability. With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
         },
         {
           title: "Better Future for Families",
@@ -7403,7 +7411,7 @@ export const data = [
         {
           title: "Low Maintenance Hassle",
           description:
-            "Mac E-Rickshaws are designed with robust components that require less frequent servicing, helping drivers save more and drive worry-free.",
+            "MackE-Rickshaws are designed with robust components that require less frequent servicing, helping drivers save more and drive worry-free.",
         },
       ],
     },
@@ -7420,12 +7428,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -7440,7 +7448,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mac brand carries a good reputation of quality and trust amongst it’s users.",
+            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mackbrand carries a good reputation of quality and trust amongst it’s users.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -7461,8 +7469,8 @@ export const data = [
     slug: "electric-tricycle-prayagraj",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -7471,7 +7479,7 @@ export const data = [
         {
           title: "Higher Earnability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability. With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability. With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
         },
         {
           title: "Better Future for Families",
@@ -7481,7 +7489,7 @@ export const data = [
         {
           title: "Low Maintenance Hassle",
           description:
-            "Mac E-Rickshaws are designed with robust components that require less frequent servicing, helping drivers save more and drive worry-free.",
+            "MackE-Rickshaws are designed with robust components that require less frequent servicing, helping drivers save more and drive worry-free.",
         },
       ],
     },
@@ -7498,12 +7506,12 @@ export const data = [
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mac model, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
+            "Depending on the Mackmodel, the E-Rick can be charged for up to 8-10 hrs and it can give up to 100 kms in a single charge.",
         },
         {
           title: "ICAT Approved Design",
           description:
-            "The Mac E-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
+            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance to the Auto Driver.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
@@ -7518,7 +7526,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mac brand carries a good reputation of quality and trust amongst it’s users.",
+            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mackbrand carries a good reputation of quality and trust amongst it’s users.",
         },
         {
           title: "125+ Dealer Touchpoints",
@@ -7539,8 +7547,8 @@ export const data = [
     slug: "e-rickshaw-prayagraj",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E‑Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly‑owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad‑based E‑3Wheeler company MACK EV which sells Electric Auto‑Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE‑Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly‑owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad‑based E‑3Wheeler company MACK EV which sells Electric Auto‑Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e‑mobility arm of Mego) will expand its presence in the fast disrupting E‑Rickshaw segment to become an integrated last mile E‑Mobility player with strong presence in both E‑2W and E‑3W. E‑Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost‑effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -7549,7 +7557,7 @@ export const data = [
         {
           title: "Higher Earnability",
           description:
-            "Enabling auto drivers with better employability, Mac E‑Rickshaw supports higher earnings via low running cost (~₹2/km) and superior mileage.",
+            "Enabling auto drivers with better employability, MackE‑Rickshaw supports higher earnings via low running cost (~₹2/km) and superior mileage.",
         },
         {
           title: "Built for Indian Conditions",
@@ -7566,12 +7574,12 @@ export const data = [
     featuresPerformance: {
       title: "Specifically Built for India",
       description:
-        "The Mac E‑Rickshaw is ICAT approved and outfitted for maximum safety, comfort, performance and profit for drivers.",
+        "The MackE‑Rickshaw is ICAT approved and outfitted for maximum safety, comfort, performance and profit for drivers.",
       features: [
         {
           title: "ICAT‑Approved Design",
           description:
-            "The Mac E‑Rickshaw meets ICAT standards for safety and performance, offering extra comfort, profit and reliability.",
+            "The MackE‑Rickshaw meets ICAT standards for safety and performance, offering extra comfort, profit and reliability.",
         },
         {
           title: "Efficient Charging & Range",
@@ -7617,9 +7625,9 @@ export const data = [
     slug: "electric-loader-prayagraj",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed to taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the Mac E‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
+      "Committed to taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the MackE‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
       "MACK EV Vehicles, a wholly owned electric mobility subsidiary of MACK EV, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts, and more under the MACK EV brand. These vehicles offer eco‑friendly alternatives to diesel or petrol-powered vehicles.",
-      "The Mac Zorawar E‑Loader is designed for efficient goods transport. It features a high loading capacity (500–1000 kg), regenerative braking, and lithium‑ion batteries—making it ideal for cost‑effective cargo operations across narrow lanes.",
+      "The MackZorawar E‑Loader is designed for efficient goods transport. It features a high loading capacity (500–1000 kg), regenerative braking, and lithium‑ion batteries—making it ideal for cost‑effective cargo operations across narrow lanes.",
     ],
     driverBenefits: {
       title: "Empowering Driver‑Entrepreneurs",
@@ -7644,7 +7652,7 @@ export const data = [
     featuresPerformance: {
       title: "Built for Urban Goods Transport",
       description:
-        "Mac E‑Loader combines smart engineering and practical design to offer safe, efficient, and comfortable cargo transport for small businesses and driver‑operators.",
+        "MackE‑Loader combines smart engineering and practical design to offer safe, efficient, and comfortable cargo transport for small businesses and driver‑operators.",
       features: [
         {
           title: "Efficient Powertrain",
@@ -7654,7 +7662,7 @@ export const data = [
         {
           title: "High Payload Capacity",
           description:
-            "Supports a payload of 500–1000 kg depending on the model (e.g., Mac Haul, Zorawar full‑body).",
+            "Supports a payload of 500–1000 kg depending on the model (e.g., MackHaul, Zorawar full‑body).",
         },
         {
           title: "Long Running Range",
@@ -7687,7 +7695,7 @@ export const data = [
     financing: {
       title: "Affordable Financing",
       description:
-        "With financial partnerships available, drivers can access attractive EMI schemes and ownership support for Mac E‑Loader models.",
+        "With financial partnerships available, drivers can access attractive EMI schemes and ownership support for MackE‑Loader models.",
     },
   },
   {
@@ -7696,8 +7704,8 @@ export const data = [
     slug: "top-10-e-rickshaw-prayagraj",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through its Electric Mobility Subsidiary – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -7721,19 +7729,19 @@ export const data = [
       ],
     },
     featuresPerformance: {
-      title: "Why Mac E-Rickshaw ?",
+      title: "Why MackE-Rickshaw ?",
       description:
-        "Mac E-Rickshaw is engineered for the Indian environment, offering exceptional durability, safety, and affordability. With strong technical specs, ICAT certification, and a vast support network, it’s one of the top choices in the E-Rickshaw market.",
+        "MackE-Rickshaw is engineered for the Indian environment, offering exceptional durability, safety, and affordability. With strong technical specs, ICAT certification, and a vast support network, it’s one of the top choices in the E-Rickshaw market.",
       features: [
         {
           title: "Robust Steel Construction",
           description:
-            "Built with a durable steel body and ABS roof, Mac E-Rickshaw ensures safety and long-term structural strength on challenging roads.",
+            "Built with a durable steel body and ABS roof, MackE-Rickshaw ensures safety and long-term structural strength on challenging roads.",
         },
         {
           title: "Top-Class Certification",
           description:
-            "ICAT-approved and thoroughly tested, Mac E-Rickshaw meets the highest safety and performance standards for electric three-wheelers.",
+            "ICAT-approved and thoroughly tested, MackE-Rickshaw meets the highest safety and performance standards for electric three-wheelers.",
         },
         {
           title: "Efficient Battery & Long Range",
@@ -7763,7 +7771,7 @@ export const data = [
         {
           title: "Thousands of Satisfied Users",
           description:
-            "The Mac brand is trusted by over 10,000 customers nationwide for quality and service excellence.",
+            "The Mackbrand is trusted by over 10,000 customers nationwide for quality and service excellence.",
         },
         {
           title: "Extensive Network",
@@ -7775,7 +7783,7 @@ export const data = [
     financing: {
       title: "Flexible Financing Options",
       description:
-        "Mac offers EMI and loan plans in partnership with top banks, making it easy for anyone to own an electric rickshaw.",
+        "Mackoffers EMI and loan plans in partnership with top banks, making it easy for anyone to own an electric rickshaw.",
     },
   },
   {
@@ -7784,8 +7792,8 @@ export const data = [
     slug: "e-auto-rickshaw-prayagraj",
     img: "/img/benaer3.webp",
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting Mac E-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mac brand with 74% stake in the company, subject to customary closing conditions.",
+      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
       "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
     ],
     driverBenefits: {
@@ -7794,7 +7802,7 @@ export const data = [
         {
           title: "Enhanced Employability",
           description:
-            "Enabling auto drivers with better employability, the Mac E-Rickshaw will be of great support in helping them with higher earnability.",
+            "Enabling auto drivers with better employability, the MackE-Rickshaw will be of great support in helping them with higher earnability.",
         },
         {
           title: "Higher Earnings",
@@ -7809,14 +7817,14 @@ export const data = [
       ],
     },
     featuresPerformance: {
-      title: "Why Mac E-Auto Rickshaw ?",
+      title: "Why MackE-Auto Rickshaw ?",
       description:
-        "Committed to building a clean last-mile ecosystem, MACK EV introduces the Mac E Auto Rickshaw through its electric mobility subsidiary, Mego. With strong features, nationwide support, and low running costs, it's designed to empower auto drivers with better earnings, safety, and comfort.",
+        "Committed to building a clean last-mile ecosystem, MACK EV introduces the MackE Auto Rickshaw through its electric mobility subsidiary, Mego. With strong features, nationwide support, and low running costs, it's designed to empower auto drivers with better earnings, safety, and comfort.",
       features: [
         {
           title: "Strong Build for Indian Roads",
           description:
-            "Built to withstand Indian road conditions, the Mac E Auto Rickshaw features a robust steel body, ABS roof, alloy wheels, and powerful drum brakes for a safe and reliable ride.",
+            "Built to withstand Indian road conditions, the MackE Auto Rickshaw features a robust steel body, ABS roof, alloy wheels, and powerful drum brakes for a safe and reliable ride.",
         },
         {
           title: "ICAT Certified Performance",
@@ -7826,7 +7834,7 @@ export const data = [
         {
           title: "Low Running Cost",
           description:
-            "With a running cost of just ₹2/km, the Mac E Auto Rickshaw helps drivers maximize daily earnings with minimal operational expense.",
+            "With a running cost of just ₹2/km, the MackE Auto Rickshaw helps drivers maximize daily earnings with minimal operational expense.",
         },
         {
           title: "Long Battery Range",
@@ -7841,7 +7849,7 @@ export const data = [
         {
           title: "Made for Daily Profitability",
           description:
-            "Designed to boost driver income, the Mac E Auto helps increase daily trips with reliable uptime and low maintenance demands.",
+            "Designed to boost driver income, the MackE Auto helps increase daily trips with reliable uptime and low maintenance demands.",
         },
       ],
     },
@@ -7852,7 +7860,7 @@ export const data = [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mac brand carries a good reputation of quality and trust amongst it’s users.",
+            "With many years in the E-Rickshaw segment and with more than 10,000 happy customers, the Mackbrand carries a good reputation of quality and trust amongst it’s users.",
         },
         {
           title: "Extensive Dealer Network",
@@ -7868,91 +7876,87 @@ export const data = [
     },
   },
 
-
-
   {
-  title: "Electric Rickshaw Manufacturer",
-  id: "101",
-  city: "India",
-  slug: "electric-rickshaw-manufacturer",
-  img: "/img/benaer3.webp",
-  paragraphs: [
-    "Committed to building a clean and sustainable last mile, MACK EV proudly presents the Mac E-Rickshaw through its electric mobility subsidiary – Mego. With innovation, reliability, and customer trust at the core, MACK EV has emerged as a trusted electric rickshaw manufacturer in India, empowering thousands of drivers while shaping the future of green mobility.",
-    "MACK EV Vehicles, a wholly-owned electric mobility subsidiary, acquired a Faridabad-based E-3Wheeler company that manufactures electric auto-rickshaws under the popular Mac brand with a 74% stake.",
-    "Through this acquisition, MACK EV strengthened its presence in the fast-growing E-Rickshaw segment, expanding into both E-2W and E-3W categories. Today, it stands tall as a reliable electric rickshaw manufacturer committed to sustainable last-mile connectivity.",
-  ],
-  driverBenefits: {
-    title: "Empowering Drivers, Ensuring Prosperity",
-    benefits: [
-      {
-        title: "Higher Earnings",
-        description:
-          "With a running cost of just ₹2/km, Mac E-Rickshaws help drivers increase their daily income and improve their financial stability.",
-      },
-      {
-        title: "Enhanced Employability",
-        description:
-          "The Mac E-Rickshaw is more than just a vehicle – it’s a livelihood opportunity. By making driving affordable, MACK EV supports drivers in sustaining their families and securing a better future.",
-      },
-      {
-        title: "Sustainable Future",
-        description:
-          "As a responsible electric rickshaw manufacturer, MACK EV ensures every vehicle contributes to reducing pollution, supporting India’s green mobility goals.",
-      },
+    title: "Electric Rickshaw Manufacturer",
+    id: "101",
+    city: "India",
+    slug: "electric-rickshaw-manufacturer",
+    img: "/img/benaer3.webp",
+    paragraphs: [
+      "Committed to building a clean and sustainable last mile, MACK EV proudly presents the MackE-Rickshaw through its electric mobility subsidiary – Mego. With innovation, reliability, and customer trust at the core, MACK EV has emerged as a trusted electric rickshaw manufacturer in India, empowering thousands of drivers while shaping the future of green mobility.",
+      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary, acquired a Faridabad-based E-3Wheeler company that manufactures electric auto-rickshaws under the popular Mackbrand with a 74% stake.",
+      "Through this acquisition, MACK EV strengthened its presence in the fast-growing E-Rickshaw segment, expanding into both E-2W and E-3W categories. Today, it stands tall as a reliable electric rickshaw manufacturer committed to sustainable last-mile connectivity.",
     ],
+    driverBenefits: {
+      title: "Empowering Drivers, Ensuring Prosperity",
+      benefits: [
+        {
+          title: "Higher Earnings",
+          description:
+            "With a running cost of just ₹2/km, MackE-Rickshaws help drivers increase their daily income and improve their financial stability.",
+        },
+        {
+          title: "Enhanced Employability",
+          description:
+            "The MackE-Rickshaw is more than just a vehicle – it’s a livelihood opportunity. By making driving affordable, MACK EV supports drivers in sustaining their families and securing a better future.",
+        },
+        {
+          title: "Sustainable Future",
+          description:
+            "As a responsible electric rickshaw manufacturer, MACK EV ensures every vehicle contributes to reducing pollution, supporting India’s green mobility goals.",
+        },
+      ],
+    },
+    featuresPerformance: {
+      title: "Made for India, Built to Perform",
+      description:
+        "The MackE-Rickshaw is designed to endure Indian road conditions with robust construction and advanced features, ensuring excellent safety, comfort, and performance.",
+      features: [
+        {
+          title: "Durable Build",
+          description:
+            "Equipped with a strong steel body, ABS roof, and sturdy alloy wheels, MackE-Rickshaws are designed for Indian road conditions, ensuring durability and reliability.",
+        },
+        {
+          title: "Certified Safety",
+          description:
+            "All vehicles are ICAT approved and come with powerful drum brakes for maximum safety of drivers and passengers.",
+        },
+        {
+          title: "Efficient Charging & Long Range",
+          description:
+            "With a charging time of 8–10 hours and a range of up to 100 km per charge, MackE-Rickshaws provide efficiency and convenience for everyday use.",
+        },
+        {
+          title: "Comfortable & Profitable",
+          description:
+            "Built for comfort and safety, these rickshaws also ensure higher profitability, leading to improved satisfaction for drivers.",
+        },
+      ],
+    },
+    brandReputation: {
+      title: "Trusted Name with Nationwide Presence",
+      points: [
+        {
+          title: "10,000+ Happy Customers",
+          description: "10,000+ Happy Customers trusting the Mackbrand.",
+        },
+        {
+          title: "125+ Dealer Touchpoints",
+          description:
+            "125+ Dealer Touchpoints across 16 Indian states, making service and spares easily accessible.",
+        },
+        {
+          title: "Growing Reputation",
+          description:
+            "A growing reputation as a leading electric rickshaw manufacturer delivering quality, trust, and innovation.",
+        },
+      ],
+    },
+    financing: {
+      title: "Easy Financing Options for Every Buyer",
+      description:
+        "With support from top banks and financial institutions, Mackoffers affordable finance schemes and EMI plans to make E-Rickshaw ownership easy and accessible.",
+    },
   },
-  featuresPerformance: {
-    title: "Made for India, Built to Perform",
-    description:
-      "The Mac E-Rickshaw is designed to endure Indian road conditions with robust construction and advanced features, ensuring excellent safety, comfort, and performance.",
-    features: [
-      {
-        title: "Durable Build",
-        description:
-          "Equipped with a strong steel body, ABS roof, and sturdy alloy wheels, Mac E-Rickshaws are designed for Indian road conditions, ensuring durability and reliability.",
-      },
-      {
-        title: "Certified Safety",
-        description:
-          "All vehicles are ICAT approved and come with powerful drum brakes for maximum safety of drivers and passengers.",
-      },
-      {
-        title: "Efficient Charging & Long Range",
-        description:
-          "With a charging time of 8–10 hours and a range of up to 100 km per charge, Mac E-Rickshaws provide efficiency and convenience for everyday use.",
-      },
-      {
-        title: "Comfortable & Profitable",
-        description:
-          "Built for comfort and safety, these rickshaws also ensure higher profitability, leading to improved satisfaction for drivers.",
-      },
-    ],
-  },
-  brandReputation: {
-    title: "Trusted Name with Nationwide Presence",
-    points: [
-      {
-        title: "10,000+ Happy Customers",
-        description:
-          "10,000+ Happy Customers trusting the Mac brand.",
-      },
-      {
-        title: "125+ Dealer Touchpoints",
-        description:
-          "125+ Dealer Touchpoints across 16 Indian states, making service and spares easily accessible.",
-      },
-      {
-        title: "Growing Reputation",
-        description:
-          "A growing reputation as a leading electric rickshaw manufacturer delivering quality, trust, and innovation.",
-      },
-    ],
-  },
-  financing: {
-    title: "Easy Financing Options for Every Buyer",
-    description:
-      "With support from top banks and financial institutions, Mac offers affordable finance schemes and EMI plans to make E-Rickshaw ownership easy and accessible.",
-  },
-}
-
 ];
