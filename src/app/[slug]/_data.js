@@ -1512,161 +1512,244 @@ export const data = [
   {
     title: "E Scooters Manufacturers in Ghaziabad",
     id: "15",
-    city: "Ghaziabad",
-
     slug: "e-scooters-ghaziabad",
-    img: "/img/benaer3.webp",
-    paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
-    ],
-    driverBenefits: {
-      title: "Empowering Drivers, Ensuring Prosperity",
-      benefits: [
-        {
-          title: "Higher Earnings",
-          description:
-            "With a running cost of only Rs. 2/km, auto drivers can aspire to get good earnings on every run, improving their daily income effectively.",
-        },
-        {
-          title: "Enhanced Employability",
-          description:
-            "The MackE-Rickshaw enables better employability, offering strong support for drivers to sustain their families and look ahead to a better future.",
-        },
-        {
-          title: "Sustainable Future",
-          description:
-            "With MackE-Rickshaws, drivers contribute to a cleaner environment while creating financial and emotional satisfaction for their families.",
-        },
+    img: "/img/escooter.webp",
+    city: "Ghaziabad",
+    metaData: {
+      metaTitle: "Top E Scooters Manufacturers in Ghaziabad | Mack EV",
+      metaDescription:
+        "Mack EV, one of the leading E Scooters manufacturers in Ghaziabad, delivers eco-friendly, stylish, and high-performance scooters designed for modern commuters.",
+      keywords: [
+        "E Scooters Manufacturers in Ghaziabad",
+        "electric scooter manufacturers in Ghaziabad",
+        "e bike manufacturers in Ghaziabad",
+        "best electric scooter in Ghaziabad",
+        "EV scooter price Ghaziabad",
+        "electric two wheeler companies in Ghaziabad",
+        "e scooter dealers in Ghaziabad",
+        "scooter EMI Ghaziabad",
+        "scooter showroom Ghaziabad",
+        "top e scooter manufacturers Ghaziabad",
       ],
     },
+
+    paragraphs: [
+      "Mack EV is redefining urban mobility in Ghaziabad with its innovative, eco-friendly, and high-performance electric scooters. Known among the top E Scooters Manufacturers in Ghaziabad, Mack EV combines style, sustainability, and efficiency for today’s commuters.",
+      "Focused on comfort, safety, and affordability, Mack EV scooters are designed for urban riders who want to reduce fuel expenses while contributing to cleaner cities.",
+    ],
+
+    subHeading: {
+      heading: ["Pioneering Electric Two-Wheelers in Ghaziabad"],
+      paragraphs: [
+        "As one of the leading E Scooters Manufacturers in Ghaziabad, Mack EV delivers scooters that meet the demands of daily commuters while ensuring low running costs and minimal environmental impact.",
+        "Every Mack EV scooter reflects the company’s dedication to quality, performance, and customer satisfaction.",
+      ],
+    },
+
     featuresPerformance: {
-      title: "Made for India, Built to Perform",
+      title: "Why Mack EV Scooters Stand Out",
       description:
-        "Made for Indian road conditions, the MackE-Rickshaw features a strong build and advanced safety features to ensure high performance and driver comfort.",
+        "Mack EV scooters are engineered for modern commuting with features that ensure safety, comfort, and long-term savings.",
       features: [
         {
-          title: "Durable Build",
+          title: "Eco-Friendly Mobility",
           description:
-            "Equipped with a strong steel body, ABS roof, and sturdy alloy wheels for long-lasting durability and reliable performance.",
+            "Zero emissions technology helps reduce carbon footprint and build greener cities.",
         },
         {
-          title: "Certified Safety",
+          title: "Cost-Effective Travel",
           description:
-            "ICAT approved and fitted with powerful drum brakes to ensure maximum safety for both driver and passengers.",
+            "Low running costs allow commuters to save significantly on fuel expenses.",
         },
         {
-          title: "Efficient Charging & Long Range",
+          title: "Driver Comfort & Safety",
           description:
-            "Charges fully within 8–10 hours and delivers a range of up to 100 km per full charge, depending on the Mackmodel.",
+            "Ergonomic seating, reliable brakes, and sturdy build for smooth daily rides.",
         },
         {
-          title: "Comfortable & Profitable",
+          title: "Long-Lasting Performance",
           description:
-            "Designed to provide extra safety, extra comfort, and increased profits, leading to improved satisfaction for drivers.",
+            "Durable components and efficient design ensure reliable operation on Indian roads.",
         },
       ],
     },
-    brandReputation: {
-      title: "Trusted Name with Pan-India Presence",
+
+    technicalData: {
+      title: "Engineered for Indian Roads",
       points: [
         {
-          title: "10,000+ Happy Customers",
+          title: "ICAT Certified",
           description:
-            "With years of experience and a wide customer base, the Mackbrand stands strong on quality, trust, and satisfaction.",
+            "Ensures compliance with safety and performance standards.",
         },
         {
-          title: "Widespread Dealer Network",
+          title: "Durable Frame",
           description:
-            "Available in over 16 Indian states with more than 125 dealer touchpoints, ensuring easy access to service and spares.",
+            "Built with strong materials for longevity and stability in varied conditions.",
+        },
+        {
+          title: "Efficient Charging",
+          description:
+            "Quick 4–6 hour charging cycle ensures uninterrupted daily use.",
+        },
+        {
+          title: "Extended Range",
+          description:
+            "Travel up to 80–100 km per charge depending on model and usage.",
+        },
+        {
+          title: "Modern Features",
+          description:
+            "Smart battery management, LED lights, and digital displays for smarter commuting.",
         },
       ],
     },
-    financing: {
-      title: "Easy Financing Options for Every Buyer",
-      description:
-        "Backed by leading banks and financial institutions, Mackoffers attractive finance options and EMI plans that make E-Rickshaw ownership budget-friendly.",
+
+    brandReputation: {
+      title: "Trusted E Scooter Brand in Ghaziabad",
+      points: [
+        {
+          title: "10,000+ Happy Riders",
+          description:
+            "Thousands of customers rely on Mack EV for reliable and efficient commuting.",
+        },
+        {
+          title: "Extensive Dealer Network",
+          description:
+            "Service centers and spare support available across multiple states.",
+        },
+        {
+          title: "Flexible Financing Options",
+          description:
+            "Affordable EMI plans make it easier for customers to own their Mack EV scooter.",
+        },
+      ],
+    },
+
+    conclusion: {
+      heading: "Mack EV – The Smart Choice for E Scooters in Ghaziabad",
+      paragraph:
+        "For anyone looking for reliable E Scooters Manufacturers in Ghaziabad, <a href='/'>Mack EV</a> offers the perfect combination of safety, performance, and eco-conscious design. Whether for everyday commuting or urban travel, Mack EV ensures a smooth, cost-effective, and sustainable ride.",
     },
   },
   {
-    title: " E Tricycle Manufacturers in Ghaziabad",
+    title: "E Tricycle Manufacturers in Ghaziabad",
     id: "16",
-    city: "Ghaziabad",
-
     slug: "e-tricycle-ghaziabad",
-    img: "/img/benaer3.webp",
+    img: "/img/etricycle.webp",
+    city: "Ghaziabad",
+    metaData: {
+      metaTitle: "Top E Tricycle Manufacturers in Ghaziabad | Mack EV",
+      metaDescription:
+        "Mack EV, one of the leading E Tricycle Manufacturers in Ghaziabad, offers durable, eco-friendly, and high-performance tricycles for goods transport and daily commuting.",
+      keywords: [
+        "E Tricycle Manufacturers in Ghaziabad",
+        "electric tricycle manufacturers in Ghaziabad",
+        "battery tricycle in Ghaziabad",
+        "electric three wheeler in Ghaziabad",
+        "cargo e tricycle Ghaziabad",
+        "best e tricycle price in Ghaziabad",
+        "passenger e tricycle Ghaziabad",
+        "e tricycle dealers Ghaziabad",
+        "e loader tricycle Ghaziabad",
+        "electric rickshaw tricycle Ghaziabad",
+      ],
+      canonical: "https://mack-ev.com/e-tricycle-ghaziabad",
+    },
+
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through its Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV, undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Mack EV is transforming urban and commercial mobility with its reliable, eco-friendly, and high-performance electric tricycles. Recognized among the top E Tricycle Manufacturers in Ghaziabad, Mack EV offers vehicles tailored for drivers, small businesses, and city commuters, ensuring sustainability and efficiency.",
+      "Whether for passenger mobility or goods transport, Mack EV tricycles deliver a smooth, profitable, and eco-conscious ride for modern Indian roads.",
     ],
-    driverBenefits: {
-      title: "Empowering Drivers, Ensuring Prosperity",
-      benefits: [
-        {
-          title: "Higher Earnings",
-          description:
-            "With a running cost of only Rs. 2/km, auto drivers can aspire to get good earnings on every run, improving their daily income effectively.",
-        },
-        {
-          title: "Enhanced Employability",
-          description:
-            "The MackE-Rickshaw enables better employability, offering strong support for drivers to sustain their families and look ahead to a better future.",
-        },
-        {
-          title: "Sustainable Future",
-          description:
-            "With MackE-Rickshaws, drivers contribute to a cleaner environment while creating financial and emotional satisfaction for their families.",
-        },
+
+    subHeading: {
+      heading: ["Mack EV – Pioneering Electric Three-Wheelers in Ghaziabad"],
+      paragraphs: [
+        "As one of the trusted E Tricycle Manufacturers in Ghaziabad, Mack EV designs vehicles that balance durability, comfort, and cost-effectiveness.",
+        "Built with ICAT-approved technology and robust design, Mack EV tricycles ensure dependable performance for both urban and commercial applications.",
       ],
     },
+
     featuresPerformance: {
-      title: "Made for India, Built to Perform",
+      title: "Why Mack EV E Tricycles Stand Out",
       description:
-        "Made for Indian road conditions, the MackE-Rickshaw features a strong build and advanced safety features to ensure high performance and driver comfort.",
+        "Mack EV electric tricycles are designed to support drivers with comfort, efficiency, and low operational costs.",
       features: [
+        {
+          title: "Eco-Friendly Transport",
+          description:
+            "Zero-emission operation helps reduce pollution and support cleaner cities.",
+        },
+        {
+          title: "Lower Running Costs",
+          description:
+            "Affordable energy consumption ensures higher daily profits for drivers.",
+        },
+        {
+          title: "Driver Comfort & Safety",
+          description:
+            "Ergonomic design, sturdy frame, and reliable braking system for safe rides.",
+        },
         {
           title: "Durable Build",
           description:
-            "Equipped with a strong steel body, ABS roof, and sturdy alloy wheels for long-lasting durability and reliable performance.",
-        },
-        {
-          title: "Certified Safety",
-          description:
-            "ICAT approved and fitted with powerful drum brakes to ensure maximum safety for both driver and passengers.",
-        },
-        {
-          title: "Efficient Charging & Long Range",
-          description:
-            "Charges fully within 8–10 hours and delivers a range of up to 100 km per full charge, depending on the Mackmodel.",
-        },
-        {
-          title: "Comfortable & Profitable",
-          description:
-            "Designed to provide extra safety, extra comfort, and increased profits, leading to improved satisfaction for drivers.",
+            "Engineered to withstand heavy usage and challenging Indian roads.",
         },
       ],
     },
+
+    technicalData: {
+      title: "Built for Performance and Reliability",
+      points: [
+        {
+          title: "ICAT Certified",
+          description:
+            "Ensures compliance with safety and regulatory standards.",
+        },
+        {
+          title: "Robust Steel Body",
+          description: "Strong construction delivers long-lasting durability.",
+        },
+        {
+          title: "Efficient Charging",
+          description: "Recharges in 8–10 hours, reducing downtime.",
+        },
+        {
+          title: "Long Travel Range",
+          description: "Covers up to 100 km per charge depending on the model.",
+        },
+        {
+          title: "High Load Capacity",
+          description: "Designed for both goods transport and passenger use.",
+        },
+      ],
+    },
+
     brandReputation: {
-      title: "Trusted Name with Pan-India Presence",
+      title: "Trusted Among E Tricycle Manufacturers in Ghaziabad",
       points: [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With years of experience and a wide customer base, the Mackbrand stands strong on quality, trust, and satisfaction.",
+            "Thousands of drivers and businesses trust Mack EV for consistent performance.",
         },
         {
-          title: "Widespread Dealer Network",
+          title: "Extensive Dealer Network",
           description:
-            "Available in over 16 Indian states with more than 125 dealer touchpoints, ensuring easy access to service and spares.",
+            "Nationwide service centers and spare support ensure reliability.",
+        },
+        {
+          title: "Flexible Financing Options",
+          description:
+            "Affordable EMI plans and bank tie-ups make ownership simple.",
         },
       ],
     },
-    financing: {
-      title: "Easy Financing Options for Every Buyer",
-      description:
-        "Backed by leading banks and financial institutions, Mackoffers attractive finance options and EMI plans that make E-Rickshaw ownership budget-friendly.",
+
+    conclusion: {
+      heading: "Mack EV – The Smart Choice for E Tricycles in Ghaziabad",
+      paragraph:
+        "For anyone searching for reliable E Tricycle Manufacturers in Ghaziabad, <a href='/'>Mack EV</a> provides vehicles that combine safety, efficiency, and profitability. Whether for urban commuting or commercial operations, Mack EV ensures drivers enjoy a smooth, comfortable, and cost-effective ride.",
     },
   },
   {

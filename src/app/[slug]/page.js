@@ -173,7 +173,7 @@ export default async function Page({ params }) {
               {content.brandReputation.title}
             </h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
             {content.brandReputation.points?.map((point, i) => (
               <Card
                 key={i}
@@ -211,14 +211,31 @@ export default async function Page({ params }) {
       {/* Conclusion */}
       {content.conclusion && (
         <section className="section text-center">
-          <h2 className="text-3xl md:text-4xl font-bold">Conclusion</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">
+            {typeof content.conclusion === "object" &&
+            content.conclusion.heading
+              ? content.conclusion.heading
+              : "Conclusion"}
+          </h2>
           <Container maxWidth="xl">
             <div className="max-w-3xl mx-auto text-center">
-              <p dangerouslySetInnerHTML={{ __html: content.conclusion }}></p>
+              {typeof content.conclusion === "string" ? (
+                <p dangerouslySetInnerHTML={{ __html: content.conclusion }}></p>
+              ) : (
+                <>
+                  {content.conclusion.paragraph && (
+                    <p
+                      dangerouslySetInnerHTML={{
+                        __html: content.conclusion.paragraph,
+                      }}
+                    ></p>
+                  )}
+                </>
+              )}
             </div>
           </Container>
         </section>
-      )}{" "}
+      )}
     </>
   );
 }

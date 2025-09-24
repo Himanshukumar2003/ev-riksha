@@ -1,6 +1,4 @@
 import "./globals.css";
-import MahindraNavbar from "@/components/nav";
-import Footer from "@/components/footer";
 import { GoogleTagManager } from "@next/third-parties/google";
 
 import localFont from "next/font/local";
@@ -8,7 +6,6 @@ import { Manrope } from "next/font/google";
 import Layout from "@/components/layout/layout";
 import { Toaster } from "sonner";
 import Script from "next/script";
-import Image from "next/image";
 import { GoogleAnalytics } from "@next/third-parties/google";
 // Local SpeedBeast font
 const SpeedBeast = localFont({
@@ -43,9 +40,8 @@ export const metadata = {
   //   index: true,
   //   follow: true,
   // },
- 
 
-   verification: {
+  verification: {
     google: "ujgvZFXfQFVhYm59UCfjX9wpScL3VAe13cdjBcJP-Io",
   },
   icons: {
@@ -86,53 +82,51 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <Script
-  id="schema-org"
-  type="application/ld+json"
-  strategy="afterInteractive"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": ["Organization", "LocalBusiness"],
-      name: "MACK EV",
-      url: "https://mack-ev.com/",
-      logo: "https://mack-ev.com/logo.png",
-      image: "https://mack-ev.com/img/banner1.png",
-      description:
-        "MACK EV is a leading electric vehicle manufacturer in India, offering i-CAT certified e-rickshaws & EVs with patented designs & a PAN-India network.",
-      telephone: "+91-80-9062-9062",
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: "Gurukul Indraprastha College, 121A, 121B",
-        addressLocality: "Faridabad",
-        addressRegion: "Haryana",
-        postalCode: "121004",
-        addressCountry: "IN",
-      },
-      geo: {
-        "@type": "GeoCoordinates",
-        latitude: "26.4983",
-        longitude: "78.6598",
-      },
-      sameAs: [
-        "https://www.facebook.com/MacAutoofficial",
-        "https://x.com/macautoofficial",
-        "https://www.facebook.com/MacAutoofficial",
-      ],
-      founder: {
-        "@type": "Person",
-        name: "Abhijeet Wassan",
-        jobTitle: "Founder & CEO",
-      },
-      foundingDate: "2014",
-      foundingLocation: {
-        "@type": "Place",
-        name: "Faridabad, India",
-        },
-    }),
-  }}
-/>
-
-
+          id="schema-org"
+          type="application/ld+json"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": ["Organization", "LocalBusiness"],
+              name: "MACK EV",
+              url: "https://mack-ev.com/",
+              logo: "https://mack-ev.com/logo.png",
+              image: "https://mack-ev.com/img/banner1.png",
+              description:
+                "MACK EV is a leading electric vehicle manufacturer in India, offering i-CAT certified e-rickshaws & EVs with patented designs & a PAN-India network.",
+              telephone: "+91-80-9062-9062",
+              address: {
+                "@type": "PostalAddress",
+                streetAddress: "Gurukul Indraprastha College, 121A, 121B",
+                addressLocality: "Faridabad",
+                addressRegion: "Haryana",
+                postalCode: "121004",
+                addressCountry: "IN",
+              },
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: "26.4983",
+                longitude: "78.6598",
+              },
+              sameAs: [
+                "https://www.facebook.com/MacAutoofficial",
+                "https://x.com/macautoofficial",
+                "https://www.facebook.com/MacAutoofficial",
+              ],
+              founder: {
+                "@type": "Person",
+                name: "Abhijeet Wassan",
+                jobTitle: "Founder & CEO",
+              },
+              foundingDate: "2014",
+              foundingLocation: {
+                "@type": "Place",
+                name: "Faridabad, India",
+              },
+            }),
+          }}
+        />
 
         <Script id="fb-pixel" strategy="afterInteractive">
           {`
@@ -149,12 +143,16 @@ fbq('track', 'PageView');
           `}
         </Script>
 
-        <noscript><img height="1" width="1" style={{ display: "none", visibility: "hidden" }}
-src="https://www.facebook.com/tr?id=932744845716336&ev=PageView&noscript=1"
-/></noscript>
+        <noscript>
+          <img
+            height="1"
+            width="1"
+            style={{ display: "none", visibility: "hidden" }}
+            src="https://www.facebook.com/tr?id=932744845716336&ev=PageView&noscript=1"
+          />
+        </noscript>
 
-       
-  <noscript>
+        <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-M6VR7WHJ"
             height="0"
@@ -176,9 +174,14 @@ src="https://www.facebook.com/tr?id=932744845716336&ev=PageView&noscript=1"
           `}
         </Script>
 
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6VR7WHJ"
-height="0" width="0" style={{ display: "none", visibility: "hidden" }}
-></iframe></noscript>
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-M6VR7WHJ"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
       </head>
 
       <meta
