@@ -1,24 +1,22 @@
-"use client"
-import { useState } from "react"
-import { Palette } from "lucide-react"
-import Container from "@mui/material/Container"
-import Image from "next/image"
-import { Swiper, SwiperSlide } from "swiper/react"
-import "swiper/css"
-import EnquiryFormModal from "./form"
-import DownloadFormModal from "./download-form-modal"
+"use client";
+import { useState } from "react";
+import { Palette } from "lucide-react";
+import Container from "@mui/material/Container";
+import Image from "next/image";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import EnquiryFormModal from "./form";
+import DownloadFormModal from "./download-form-modal";
 
 export default function MainProductViewer({ product }) {
-  const [selectedColor, setSelectedColor] = useState(0)
-  // const [swiperImg, setSwiperImage] = useState(product.carousel);
-  const [selectedState, setSelectedState] = useState("")
-  const [selectedCity, setSelectedCity] = useState("")
+  const [selectedColor, setSelectedColor] = useState(0);
+  // const [selectedState, setSelectedState] = useState("");
+  // const [selectedCity, setSelectedCity] = useState("");
 
-  console.log(product)
-  const handleStateChange = (value) => {
-    setSelectedState(value)
-    setSelectedCity("")
-  }
+  // const handleStateChange = (value) => {
+  //   setSelectedState(value);
+  //   setSelectedCity("");
+  // };
 
   return (
     <>
@@ -61,10 +59,14 @@ export default function MainProductViewer({ product }) {
               <div className="border-b border-gray-100 pb-4 sm:pb-6 mb-4 sm:mb-6">
                 <div className="flex items-center gap-3 mb-3 sm:mb-4">
                   <div className="w-10 h-10 sm:w-12 sm:h-12 bg-green-600 rounded-xl flex items-center justify-center shadow-lg">
-                    <span className="text-white text-base sm:text-lg font-bold">{product?.title?.charAt(0)}</span>
+                    <span className="text-white text-base sm:text-lg font-bold">
+                      {product?.title?.charAt(0)}
+                    </span>
                   </div>
                   <div>
-                    <div className="text-xs capitalize sm:text-sm text-gray-500 font-medium">{product?.category}</div>
+                    <div className="text-xs capitalize sm:text-sm text-gray-500 font-medium">
+                      {product?.category}
+                    </div>
                     <h1
                       className="font-bold "
                       style={{
@@ -77,7 +79,9 @@ export default function MainProductViewer({ product }) {
                     </h1>
                   </div>
                 </div>
-                <p className="text-gray-600 text-sm sm:text-base leading-relaxed">{product?.description}</p>
+                <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
+                  {product?.description}
+                </p>
               </div>
 
               {/* Colors */}
@@ -85,7 +89,9 @@ export default function MainProductViewer({ product }) {
                 <div className="mb-6 sm:mb-8">
                   <div className="flex items-center gap-2 mb-3">
                     <Palette className="w-5 h-5 text-green-600" />
-                    <h3 className="text-base sm:text-lg font-semibold text-gray-700">Available Color</h3>
+                    <h3 className="text-base sm:text-lg font-semibold text-gray-700">
+                      Available Color
+                    </h3>
                   </div>
                   <div className="flex flex-wrap gap-2 sm:gap-3">
                     {product.colors.map((color, index) => (
@@ -185,7 +191,11 @@ export default function MainProductViewer({ product }) {
                 {product?.brochure?.length > 0 && (
                   <DownloadFormModal
                     fileUrl={`https://api.macautoindia.com/${product.brochure[0]}`}
-                    fileName={product?.title ? `${product.title}-brochure.pdf` : "brochure.pdf"}
+                    fileName={
+                      product?.title
+                        ? `${product.title}-brochure.pdf`
+                        : "brochure.pdf"
+                    }
                   />
                 )}
               </div>
@@ -210,8 +220,9 @@ export default function MainProductViewer({ product }) {
                   Explore Our YouTube Channel
                 </h2>
                 <p className="text-sm sm:text-base md:text-lg text-gray-600 mb-4 sm:mb-6">
-                  Dive deeper into our innovations, product demonstrations, and behind-the-scenes videos. Subscribe to
-                  our YouTube channel and stay updated with the latest content from Macauto India.
+                  Dive deeper into our innovations, product demonstrations, and
+                  behind-the-scenes videos. Subscribe to our YouTube channel and
+                  stay updated with the latest content from Macauto India.
                 </p>
                 <a
                   href="https://www.youtube.com/@Macautoindia"
@@ -237,5 +248,5 @@ export default function MainProductViewer({ product }) {
         </div>
       )}
     </>
-  )
+  );
 }
