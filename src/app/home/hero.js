@@ -4,7 +4,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade } from "swiper/modules";
 import Image from "next/image";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-fade";
 
@@ -58,9 +57,11 @@ export default function ImageSwiper() {
               <Image
                 src={image.src || "/placeholder.svg"}
                 alt={image.alt || "Banner image"}
-                width={2000}
-                height={2000}
-                // className="max-h-[800px]"
+                width={800}
+                height={800}
+                priority={index === 0}
+                loading={index === 0 ? "eager" : "lazy"}
+                className="w-full object-cover"
               />
             </div>
           </SwiperSlide>

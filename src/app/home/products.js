@@ -99,7 +99,11 @@ export default function VehicleCategoryFilter() {
                       alt={selected?.name ?? ""}
                       width={100}
                       height={100}
+                      sizes="100px"
+                      loading="lazy"
+                      className="object-contain"
                     />
+
                     <span className="font-bold text-sm lg:text-lg mb-2">
                       {selected?.name}
                     </span>
@@ -126,14 +130,17 @@ export default function VehicleCategoryFilter() {
             >
               <div className="relative h-56 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden">
                 <Image
-                  src={`https://api.macautoindia.com/${product.carousel[0].replace(
-                    /\\/g,
-                    "/"
-                  )}`}
+                  src={`https://api.macautoindia.com/${product.carousel[0].replace(/\\/g, "/")}`}
                   alt={product.title}
                   fill
+                  sizes="(max-width: 768px) 100vw,
+         (max-width: 1200px) 50vw,
+         25vw"
+                  priority={index < 4} // only first row priority
+                  loading={index < 4 ? "eager" : "lazy"}
                   className="object-contain transition-transform duration-700 group-hover:scale-110"
                 />
+
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <Badge className="absolute capitalize top-4 right-4 bg-white/90 text-gray-800 shadow-lg backdrop-blur-sm border-0 font-semibold">
                   {product.category}
