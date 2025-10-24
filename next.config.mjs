@@ -20,11 +20,11 @@ const nextConfig = {
         destination: "/",
         permanent: true,
       },
-      {
-        source: "/e-tricycle-meerut",
-        destination: "/",
-        permanent: true,
-      },
+      // {
+      //   source: "/e-tricycle-meerut",
+      //   destination: "/",
+      //   permanent: true,
+      // },
     ];
   },
 };
