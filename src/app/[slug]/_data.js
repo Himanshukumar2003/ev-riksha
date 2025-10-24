@@ -2144,33 +2144,59 @@ export const data = [
         "Affordable EMI plans and loans available through top financial partners.",
     },
   },
+
   {
     title: "Electric Three Wheeler Manufacturers in Meerut",
     id: "21",
     slug: "electric-three-wheeler-meerut",
     img: "/img/benaer3.webp",
+    city: "Meerut",
+    metaData: {
+      metaTitle: "Electric Three Wheeler Manufacturers in Meerut",
+      metaDescription:
+        "Mack EV is a leading Electric Three Wheeler Manufacturer in Meerut, offering durable, eco-friendly e-rickshaws that empower drivers every day.",
+      keywords: [
+        "Electric three wheeler manufacturers in Meerut contact number",
+        "Electric three wheeler manufacturers in Meerut price list",
+        "Electric three wheeler manufacturers in Meerut price",
+        "Top 10 electric three wheeler manufacturers in Meerut",
+        "E Rickshaw Manufacturers in Meerut",
+        "E Rickshaw price Meerut",
+        "E Rickshaw Showroom in Meerut",
+      ],
+      canonical: "https://mack-ev.com/electric-three-wheeler-meerut",
+    },
+
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "As one of the leading Electric Three Wheeler Manufacturers in Meerut, Mack EV is transforming the way the city moves — quietly, cleanly, and efficiently. Committed to building a sustainable last-mile ecosystem, Mack EV proudly presents the Mack E-Rickshaw, designed and developed through its electric mobility subsidiary, Mego.",
+      "With a mission to empower local drivers and promote cleaner urban transport, Mack EV combines innovation, durability, and affordability — all in one powerful electric three-wheeler built for Indian roads.",
     ],
+
+    subHeading: {
+      heading: ["Mack EV: Powering the Future of Electric Mobility"],
+      paragraphs: [
+        "Mack EV Vehicles, a wholly-owned subsidiary of Mack EV, recently expanded its electric mobility presence through the acquisition of a Faridabad-based E-3 Wheeler company. With a 74% stake, this move strengthens Mack EV’s footprint in India’s rapidly growing E-Rickshaw segment, making it a complete last-mile mobility brand with strong offerings in both E-2W (electric two-wheelers) and E-3W (electric three-wheelers).",
+        "E-Rickshaws are among the fastest-growing EV categories in India — offering clean, affordable, and dependable mobility while helping drivers increase their daily earnings.",
+      ],
+    },
+
     driverBenefits: {
-      title: "Enabling auto drivers with better employability",
+      title: "Empowering Auto Drivers for a Better Tomorrow",
       benefits: [
         {
           title: "Higher Earnability",
           description:
-            "With a running cost of only ₹2/km, auto drivers earn more on every trip and improve their savings.",
+            "With a running cost as low as ₹2/km, Mack E-Rickshaw drivers earn more on every ride.",
         },
         {
           title: "Better Future for Families",
           description:
-            "Drivers can look forward to a future that makes them and their families happy and financially secure.",
+            "Improved income means financial stability and a happier household.",
         },
         {
-          title: "Clean and Comfortable Ride",
+          title: "Clean & Comfortable Rides",
           description:
-            "Electric mobility offers a smooth, noise-free, and pollution-free driving experience for drivers and passengers alike.",
+            "Noise-free, pollution-free, and smooth — delivering comfort to both driver and passenger.",
         },
       ],
     },
@@ -2178,299 +2204,432 @@ export const data = [
     featuresPerformance: {
       title: "Engineered for Indian Roads",
       description:
-        "Steel body, ABS Roof, Alloy wheels, and Powerful Drum brakes for safety, comfort, and performance.",
+        "Our vehicles are built tough to handle real Indian conditions.",
       features: [
         {
           title: "Strong Build Quality",
-          description:
-            "Steel body and ABS roof offer better durability and safety.",
+          description: "Durable steel body and ABS roof for enhanced safety.",
         },
         {
           title: "Efficient Charging",
-          description:
-            "Depending on the Mackmodel, 8–10 hours of charging delivers up to 100 km range.",
+          description: "Up to 100 km range with just 8–10 hours of charging.",
         },
         {
-          title: "Certified by ICAT",
-          description:
-            "ICAT approved design ensures extra safety, extra comfort, and extra profit.",
+          title: "ICAT Certified Design",
+          description: "Ensures safety, comfort, and profitability.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
-          description:
-            "Provides improved control and enhanced driver confidence.",
+          description: "Superior control for confident driving.",
         },
       ],
     },
+
     brandReputation: {
-      title: "A Legacy of Trust in the E-Rickshaw Market",
+      title: "A Legacy of Trust and Reliability",
       points: [
         {
           title: "10,000+ Happy Customers",
           description:
-            "Mackis a reputed brand trusted by thousands of users across India.",
+            "Mack EV is a trusted name in India’s electric mobility market.",
         },
         {
           title: "125+ Dealer Touchpoints",
           description:
-            "Presence in 16+ states with best-in-class service and spares support.",
+            "Across 16+ states, offering nationwide service and spare support.",
+        },
+        {
+          title: "Affordable Financing",
+          description:
+            "Partnering with banks and financial institutions to offer EMI options and flexible finance schemes.",
         },
       ],
     },
-    financing: {
-      title: "With tie ups from leading banks and financial institutions",
-      description:
-        "Affordable EMI plans and attractive finance schemes make the MackE-Rickshaw easily accessible.",
+
+    whyChoose: {
+      title: "Why Choose Mack EV in Meerut?",
+      points: [
+        "Local expertise with national reach",
+        "Proven reliability and after-sales support",
+        "Robust build and advanced technology",
+        "Sustainable earning opportunities for drivers",
+      ],
     },
+
+    conclusion:
+      "Join the green mobility revolution today with Mack EV, your trusted Electric Three Wheeler Manufacturer in Meerut — driving India toward a cleaner, smarter, and more sustainable future.",
   },
+
   {
-    title: "E Loader Meerut",
+    title: "E Loader in Meerut",
     id: "22",
     slug: "e-loader-meerut",
     img: "/img/benaer3.webp",
+    city: "Meerut",
+    metaData: {
+      metaTitle: "E Loader in Meerut",
+      metaDescription:
+        "Mack EV is your trusted choice for E Loader in Meerut, delivering efficient, reliable, and sustainable electric loaders for local businesses.",
+      keywords: [
+        "E Loader in Meerut",
+        "E loader in meerut price",
+        "Best e loader in meerut",
+        "Mini Metro E Rickshaw Loader",
+        "E Rickshaw price Meerut",
+        "e rickshaw loader price in meerut",
+        "E Rickshaw Loader 1000 Kg price",
+        "E Rickshaw Showroom in Meerut",
+        "E Rickshaw Manufacturers in Meerut",
+      ],
+      canonical: "https://mack-ev.com/e-loader-meerut",
+    },
+
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "As one of the most trusted names in electric mobility, Mack EV is transforming goods transportation with its efficient and eco-friendly E Loader in Meerut. Built for strength, durability, and sustainability, the Mack E-Loader is the perfect solution for businesses looking to move smarter and greener.",
+      "Committed to driving clean last-mile logistics, Mack EV develops its vehicles through its electric mobility subsidiary, Mego, ensuring every E-Loader delivers power, reliability, and performance that meets real-world demands.",
     ],
-    driverBenefits: {
-      title: "Enabling auto drivers with better employability",
-      benefits: [
-        {
-          title: "Higher Earnability",
-          description:
-            "With a running cost of only ₹2/km, auto drivers earn more on every trip and improve their savings.",
-        },
-        {
-          title: "Better Future for Families",
-          description:
-            "Drivers can look forward to a future that makes them and their families happy and financially secure.",
-        },
-        {
-          title: "Clean and Comfortable Ride",
-          description:
-            "Electric mobility offers a smooth, noise-free, and pollution-free driving experience for drivers and passengers alike.",
-        },
+
+    subHeading: {
+      heading: ["Mack EV: Powering India’s Electric Logistics Revolution"],
+      paragraphs: [
+        "Mack EV Vehicles, a wholly owned subsidiary of Mack EV, continues to expand its presence in India’s electric mobility space. With its recent acquisition of a Faridabad-based E-3 Wheeler company (74% stake), Mack EV has become a strong player in both E-2W and E-3W categories — including the fast-growing E Loader in Meerut segment.",
+        "E-Loaders are quickly becoming India’s go-to choice for eco-friendly cargo movement — reducing pollution, lowering running costs, and improving delivery efficiency for small businesses and fleet owners.",
       ],
     },
-    featuresPerformance: {
-      title: "Engineered for Indian Roads",
-      description:
-        "Steel body, ABS Roof, Alloy wheels, and Powerful Drum brakes for safety, comfort, and performance.",
-      features: [
+
+    driverBenefits: {
+      title: "Empowering Businesses with Smart and Sustainable Transport",
+      benefits: [
         {
-          title: "Strong Build Quality",
-          description:
-            "Steel body and ABS roof offer better durability and safety.",
-        },
-        {
-          title: "Efficient Charging",
-          description:
-            "Depending on the Mackmodel, 8–10 hours of charging delivers up to 100 km range.",
-        },
-        {
-          title: "Certified by ICAT",
-          description:
-            "ICAT approved design ensures extra safety, extra comfort, and extra profit.",
-        },
-        {
-          title: "Alloy Wheels & Drum Brakes",
-          description:
-            "Provides improved control and enhanced driver confidence.",
-        },
-        {
-          title: "Driver-Centric Design",
-          description:
-            "Ergonomically designed interiors and smooth handling for enhanced driver comfort during long hours.",
+          title: "High Load Capacity",
+          description: "Perfect for daily deliveries and business logistics.",
         },
         {
           title: "Low Running Cost",
           description:
-            "With a running cost of only ₹2/km, it helps drivers maximize their daily earnings efficiently.",
+            "Only ₹2/km, ensuring maximum savings and higher profits.",
         },
         {
-          title: "Long Battery Life",
-          description:
-            "Reliable battery performance with up to 100 km range, supporting full-day operations on a single charge.",
+          title: "Eco-Friendly Mobility",
+          description: "Zero emissions, zero noise, 100% clean energy.",
         },
       ],
     },
+
+    featuresPerformance: {
+      title: "Engineered to Perform on Indian Roads",
+      description:
+        "Each Mack EV E Loader in Meerut is designed for tough usage and consistent performance.",
+      features: [
+        {
+          title: "Strong Steel Body",
+          description:
+            "Durable and protective structure built for long-term use.",
+        },
+        {
+          title: "ABS Roof & Alloy Wheels",
+          description: "Enhanced stability and strength on every terrain.",
+        },
+        {
+          title: "Efficient Battery",
+          description: "Up to 100 km range on a single charge.",
+        },
+        {
+          title: "ICAT Certified Design",
+          description: "Ensuring safety, comfort, and long-term reliability.",
+        },
+        {
+          title: "Powerful Drum Brakes",
+          description: "Better control and safety under heavy loads.",
+        },
+      ],
+    },
+
+    driverComfort: {
+      title: "Designed Around Drivers and Businesses",
+      points: [
+        "Ergonomic seating and easy handling",
+        "Long battery life for day-long operations",
+        "Spacious cargo area for large or heavy goods",
+        "Minimal maintenance and quick charging support",
+      ],
+    },
+
     brandReputation: {
-      title: "A Legacy of Trust in the E-Rickshaw Market",
+      title: "A Legacy of Trust with Mack EV",
       points: [
         {
           title: "10,000+ Happy Customers",
-          description:
-            "Mackis a reputed brand trusted by thousands of users across India.",
+          description: "Trusted by drivers and businesses across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
           description:
-            "Presence in 16+ states with best-in-class service and spares support.",
+            "Presence across 16+ states ensuring nationwide service and support.",
+        },
+        {
+          title: "Affordable Financing Options",
+          description:
+            "Through partnerships with banks and financial institutions, Mack EV offers EMI options and flexible finance plans.",
         },
       ],
     },
-    financing: {
-      title: "With tie ups from leading banks and financial institutions",
-      description:
-        "Affordable EMI plans and attractive finance schemes make the MackE-Rickshaw easily accessible.",
+
+    whyChoose: {
+      title: "Why Choose Mack EV?",
+      points: [
+        "Trusted brand with proven performance",
+        "Designed for Indian business needs",
+        "Reliable, cost-effective, and eco-friendly",
+        "Excellent after-sales and dealer network",
+      ],
     },
+
+    conclusion:
+      "Join the green logistics movement with Mack EV, your trusted partner for E Loader in Meerut — powering sustainable business growth and a cleaner tomorrow.",
   },
   {
-    title: "E Rickshaw Meerut",
+    title: "E Rickshaw  Meerut",
     id: "23",
     slug: "electric-rickshaw-meerut",
     img: "/img/benaer3.webp",
+    city: "Meerut",
+    metaData: {
+      metaTitle: "E Rickshaw in Meerut",
+      metaDescription:
+        "Mack EV introduces a new E Rickshaw in Meerut. It offers higher earnings, smooth rides, and a more eco-friendly way to travel each day.",
+      keywords: [
+        "E rickshaw in meerut price list",
+        "E rickshaw in meerut price",
+        "E Rickshaw Showroom in Meerut",
+        "E Rickshaw Manufacturers in Meerut",
+        "E Rickshaw price",
+        "Top 10 e rickshaw manufacturers in meerut",
+        "Best e rickshaw manufacturers in meerut",
+        "Top e rickshaw manufacturers in meerut",
+        "E rickshaw manufacturers in meerut contact number",
+        "Best e rickshaw manufacturers in meerut contact number near",
+      ],
+      canonical: "https://mack-ev.com/electric-rickshaw-meerut",
+    },
+
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "As a pioneer in sustainable urban transport, Mack EV is leading the way in redefining city mobility with its advanced E Rickshaw in Meerut. Designed to offer comfort, reliability, and affordability, the Mack E-Rickshaw helps drivers and passengers experience a cleaner, quieter, and more efficient way to travel.",
+      "Committed to creating a greener last-mile ecosystem, Mack EV develops every e-rickshaw through its dedicated electric mobility subsidiary, Mego, ensuring unmatched quality, safety, and long-term performance.",
     ],
+
+    subHeading: {
+      heading: ["Mack EV: Powering the Future of Electric Mobility"],
+      paragraphs: [
+        "Mack EV Vehicles, a wholly-owned electric mobility subsidiary of Mack EV, has strengthened its position in India’s electric three-wheeler segment through the acquisition of a Faridabad-based E-3 Wheeler company with a 74% stake.",
+        "With this strategic expansion, Mack EV has grown into a complete last-mile e-mobility brand offering both E-2W and E-3W solutions. The E Rickshaw in Meerut represents this vision — providing efficient, eco-friendly, and affordable transport for passengers while helping drivers earn more.",
+      ],
+    },
+
     driverBenefits: {
-      title: "Enabling auto drivers with better employability",
+      title: "Empowering Drivers and Building a Cleaner Future",
       benefits: [
         {
-          title: "Higher Earnability",
+          title: "Higher Earnings",
           description:
-            "With a running cost of only ₹2/km, auto drivers earn more on every trip and improve their savings.",
+            "With a running cost of just ₹2/km, drivers save more and earn more each day.",
+        },
+        {
+          title: "Eco-Friendly Mobility",
+          description:
+            "100% electric, noise-free, and emission-free rides for a cleaner Meerut.",
         },
         {
           title: "Better Future for Families",
-          description:
-            "Drivers can look forward to a future that makes them and their families happy and financially secure.",
-        },
-        {
-          title: "Clean and Comfortable Ride",
-          description:
-            "Electric mobility offers a smooth, noise-free, and pollution-free driving experience for drivers and passengers alike.",
+          description: "More income, less maintenance, and a happier tomorrow.",
         },
       ],
     },
+
     featuresPerformance: {
       title: "Engineered for Indian Roads",
       description:
-        "Steel body, ABS Roof, Alloy wheels, and Powerful Drum brakes for safety, comfort, and performance.",
+        "Every Mack EV E-Rickshaw is built to perform on real Indian roads — combining strength, comfort, and reliability.",
       features: [
         {
-          title: "Strong Build Quality",
+          title: "Steel Body & ABS Roof",
           description:
-            "Steel body and ABS roof offer better durability and safety.",
+            "Provides strong build and safety for long-term performance.",
         },
         {
           title: "Efficient Charging",
-          description:
-            "Depending on the Mackmodel, 8–10 hours of charging delivers up to 100 km range.",
+          description: "8–10 hours of charging delivers up to 100 km range.",
         },
         {
-          title: "Certified by ICAT",
-          description:
-            "ICAT approved design ensures extra safety, extra comfort, and extra profit.",
+          title: "ICAT Certified Design",
+          description: "Assures safety, comfort, and reliability.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
+          description: "Improved grip, control, and braking efficiency.",
+        },
+        {
+          title: "Smooth Suspension",
           description:
-            "Provides improved control and enhanced driver confidence.",
+            "Ensures stability and comfortable rides on all road conditions.",
         },
       ],
     },
+
+    driverComfort: {
+      title: "Driver-Centric Design",
+      points: [
+        "Ergonomic driver cabin for all-day comfort",
+        "Easy maneuvering and smooth acceleration",
+        "Long battery life for worry-free operations",
+        "Minimal maintenance, maximum uptime",
+      ],
+    },
+
     brandReputation: {
-      title: "A Legacy of Trust in the E-Rickshaw Market",
+      title: "A Legacy of Trust and Innovation",
       points: [
         {
           title: "10,000+ Happy Customers",
-          description:
-            "Mackis a reputed brand trusted by thousands of users across India.",
+          description: "Trusted by drivers and passengers across India.",
         },
         {
           title: "125+ Dealer Touchpoints",
           description:
-            "Presence in 16+ states with best-in-class service and spares support.",
+            "Available in 16+ states, ensuring nationwide service and parts support.",
+        },
+        {
+          title: "Affordable Finance Options",
+          description:
+            "Through partnerships with banks and financial institutions, Mack EV offers flexible EMI and finance plans.",
         },
       ],
     },
-    financing: {
-      title: "With tie ups from leading banks and financial institutions",
-      description:
-        "Affordable EMI plans and attractive finance schemes make the MackE-Rickshaw easily accessible.",
+
+    whyChoose: {
+      title: "Why Choose Mack EV in Meerut?",
+      points: [
+        "Proven expertise in electric mobility solutions",
+        "Reliable and durable e-rickshaws made for Indian conditions",
+        "Affordable ownership and low running costs",
+        "Strong service and dealer network across India",
+      ],
     },
+
+    conclusion:
+      "Join the clean mobility revolution with Mack EV, your trusted partner for E Rickshaw in Meerut — empowering drivers, protecting the environment, and shaping a smarter future.",
   },
+
   {
     title: "Top 10 E Rickshaw Manufacturers in Meerut",
     id: "24",
     slug: "top-10-e-loader-meerut",
     img: "/img/benaer3.webp",
+    city: "Meerut",
+    metaData: {
+      metaTitle: "Top 10 E Rickshaw Manufacturers in Meerut",
+      metaDescription:
+        "Mack EV is a trusted name among the Top 10 E Rickshaw Manufacturers in Meerut, offering efficient and eco-smart vehicles for better urban transport.",
+      keywords: [
+        "E Rickshaw Showroom in Meerut",
+        "E rickshaw manufacturers in meerut contact no",
+        "E rickshaw manufacturers in meerut price list",
+        "E rickshaw manufacturers in meerut contact number",
+        "Top e rickshaw manufacturers in meerut",
+        "Top 10 e rickshaw manufacturers in meerut",
+        "Best e rickshaw manufacturers in meerut",
+      ],
+      canonical: "https://mack-ev.com/top-10-e-loader-meerut",
+    },
+
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "Building a cleaner, smarter, and more sustainable future for local transport, Mack EV proudly stands among the Top 10 E Rickshaw Manufacturers in Meerut, offering reliable, efficient, and eco-friendly mobility solutions for India’s growing last-mile sector.",
+      "At Mack EV, we believe clean mobility should be accessible to everyone. Our electric rickshaws are designed through our dedicated electric mobility subsidiary, Mego, combining innovation, durability, and performance tailored for Indian roads.",
     ],
+
+    subHeading: {
+      heading: ["Mack EV – Driving Meerut Towards Green Mobility"],
+      paragraphs: [
+        "As part of its vision to build a sustainable last-mile ecosystem, Mack EV continues to set benchmarks in quality and innovation. The brand has strengthened its presence in India’s electric three-wheeler market through strategic expansion and trusted customer service.",
+        "E-Rickshaws have become one of the fastest-growing electric vehicle segments in India, offering clean, affordable, and dependable transport options for passengers and better earning potential for drivers.",
+      ],
+    },
+
     driverBenefits: {
-      title: "Enabling auto drivers with better employability",
+      title: "Empowering Drivers with Opportunity and Growth",
       benefits: [
         {
-          title: "Higher Earnability",
+          title: "Higher Earnings",
           description:
-            "With a running cost of only ₹2/km, auto drivers earn more on every trip and improve their savings.",
+            "With a low running cost of around ₹2 per km, Mack EV E-Rickshaws help drivers save more and earn better every day.",
         },
         {
-          title: "Better Future for Families",
+          title: "Better Livelihood",
           description:
-            "Drivers can look forward to a future that makes them and their families happy and financially secure.",
+            "Improved income ensures financial stability and happiness for families.",
         },
         {
-          title: "Clean and Comfortable Ride",
+          title: "Clean and Comfortable Rides",
           description:
-            "Electric mobility offers a smooth, noise-free, and pollution-free driving experience for drivers and passengers alike.",
+            "Experience smooth, noise-free, and pollution-free mobility that makes city rides better for everyone.",
         },
       ],
     },
+
     featuresPerformance: {
       title: "Engineered for Indian Roads",
       description:
-        "Steel body, ABS Roof, Alloy wheels, and Powerful Drum brakes for safety, comfort, and performance.",
+        "Mack EV designs every E-Rickshaw with precision, ensuring safety, comfort, and performance that match the challenges of Indian roads.",
       features: [
         {
           title: "Strong Build Quality",
           description:
-            "Steel body and ABS roof offer better durability and safety.",
+            "Steel body and ABS roof for extra durability and protection.",
         },
         {
           title: "Efficient Charging",
           description:
-            "Depending on the Mackmodel, 8–10 hours of charging delivers up to 100 km range.",
+            "Get up to 100 km range with just 8–10 hours of charging.",
         },
         {
-          title: "Certified by ICAT",
-          description:
-            "ICAT approved design ensures extra safety, extra comfort, and extra profit.",
+          title: "ICAT Certified Design",
+          description: "Ensures safety, comfort, and profitability.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
-          description:
-            "Provides improved control and enhanced driver confidence.",
+          description: "Provide excellent control and driving confidence.",
         },
       ],
     },
+
     brandReputation: {
-      title: "A Legacy of Trust in the E-Rickshaw Market",
+      title: "Trusted Brand with Proven Legacy",
       points: [
         {
           title: "10,000+ Happy Customers",
           description:
-            "Mackis a reputed brand trusted by thousands of users across India.",
+            "With 10,000+ happy customers and 125+ dealer touchpoints across 16+ states, Mack EV continues to be a preferred name among the Top 10 E Rickshaw Manufacturers in Meerut.",
         },
         {
           title: "125+ Dealer Touchpoints",
           description:
-            "Presence in 16+ states with best-in-class service and spares support.",
+            "We also partner with leading banks and financial institutions to provide easy EMI options and affordable finance schemes, making it easier for drivers to own and grow with Mack.",
         },
       ],
     },
-    financing: {
-      title: "With tie ups from leading banks and financial institutions",
-      description:
-        "Affordable EMI plans and attractive finance schemes make the MackE-Rickshaw easily accessible.",
+
+    whyChoose: {
+      title: "Why Choose Mack EV?",
+      points: [
+        "Local expertise and nationwide reach",
+        "Reliable after-sales support",
+        "Durable design with advanced EV technology",
+        "Empowering drivers through sustainable mobility",
+      ],
     },
+
+    conclusion:
+      "Join the green movement with Mack EV, one of the Top 10 E Rickshaw Manufacturers in Meerut, and experience the future of electric mobility — clean, affordable, and built for India.",
   },
   // {
   //   title: "Electric Three Wheeler",
@@ -2545,6 +2704,73 @@ export const data = [
   //       "With tie ups from leading banks and financial institutions, the E-Rickshaw can be easily afforded with attractive finance schemes and pocket friendly EMI plans.",
   //   },
   // },
+
+  {
+    title: "E Scooters in Meerut",
+    id: "25",
+    slug: "e-scooters-meerut",
+    img: "/img/benaer3.webp",
+    city: "Meerut",
+    metaData: {
+      metaTitle: "E Scooters in Meerut",
+      metaDescription:
+        "Mack EV offers stylish and efficient E Scooters in Meerut, delivering smooth rides, low running costs, and eco-friendly mobility for every rider.",
+      keywords: [
+        "Best electric scooter in Meerut",
+        "Best e scooters in meerut",
+        "Electric scooter in Meerut price",
+        "E scooters in meerut price",
+        "Electric scooter showroom in Meerut",
+        "Best e scooters in meerut on road price",
+        "Meerut Electric scooter",
+      ],
+      canonical: "https://mack-ev.com/e-scooters-meerut",
+    },
+
+    paragraphs: [
+      "Mack EV, through its dedicated electric mobility subsidiary Mego, is leading the charge toward a greener future. Expanding its presence across India, the brand has built a trusted name in both E-2W (Electric Two-Wheelers) and E-3W (Electric Three-Wheelers), delivering excellence in design, efficiency, and durability.",
+      "E-Scooters are revolutionizing the way India commutes — offering quiet, zero-emission rides that save fuel costs and make cities like Meerut cleaner and more sustainable.",
+    ],
+
+    whyChoose: {
+      title: "Why Choose Mack EV E Scooters in Meerut?",
+      points: [
+        "Low Running Cost – Ride for just a fraction of the cost compared to petrol scooters and save every day.",
+        "Powerful Performance – Advanced battery technology ensures smooth acceleration and dependable power for city rides.",
+        "Eco-Friendly Mobility – Zero emissions mean a cleaner environment and a greener tomorrow.",
+        "Built for Indian Roads – Strong body, superior brakes, and comfortable suspension make every journey safe and reliable.",
+        "Long Battery Life – Efficient charging system with up to 100 km range per charge, ensuring worry-free commutes.",
+      ],
+    },
+
+    driverBenefits: {
+      title: "Empowering Riders with Freedom and Savings",
+      paragraphs: [
+        "At Mack EV, we believe every ride should bring freedom — freedom from rising fuel prices, noisy traffic, and pollution. Our E Scooters in Meerut are crafted for those who want to move smarter, cleaner, and more confidently.",
+        "Whether you’re a student, professional, or delivery rider, Mack EV scooters offer comfort, savings, and sustainability all in one ride.",
+      ],
+    },
+
+    brandReputation: {
+      title: "A Trusted Brand with a Growing Legacy",
+      points: [
+        {
+          title: "10,000+ Happy Customers",
+          description:
+            "With 10,000+ happy customers and 125+ dealer touchpoints across India, Mack EV has become one of the most trusted names in the electric mobility market.",
+        },
+        {
+          title: "Affordable Finance Plans",
+          description:
+            "Backed by partnerships with leading banks and financial institutions, we make owning an E Scooter in Meerut easy with flexible finance plans and affordable EMIs.",
+        },
+      ],
+    },
+
+    conclusion:
+      "Join the Green Revolution with Mack EV. Choose Mack EV — a brand that blends innovation, performance, and trust. Our mission is simple: to make electric mobility accessible, affordable, and sustainable for everyone. Experience the joy of silent, emission-free rides with Mack EV E Scooters in Meerut — where every journey is a step toward a cleaner, brighter future.",
+  },
+
   {
     title: "E Tricycle Manufacturers in Meerut",
     id: "26",
@@ -2618,248 +2844,80 @@ export const data = [
         "With tie ups from leading banks and financial institutions, the E-Rickshaw can be easily afforded with attractive finance schemes and pocket friendly EMI plans.",
     },
   },
-  {
-    title: "E Scooters Meerut",
-    id: "27",
-    slug: "e-scooters-meerut",
-    img: "/img/benaer3.webp",
-    paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
-    ],
-    driverBenefits: {
-      title: "Enabling auto drivers with better employability",
-      benefits: [
-        {
-          title: "Higher Earnability",
-          description:
-            "With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
-        },
-        {
-          title: "Better Future for Families",
-          description:
-            "With the Mac, Auto-drivers can look forward to having a future that makes them and their family happy and satisfied.",
-        },
-      ],
-    },
-    featuresPerformance: {
-      title: "Made for Indian Road Conditions",
-      description:
-        "Steel body, ABS Roof, Alloy wheels and Powerful Drum brakes make it durable, comfortable and high performing.",
-      features: [
-        {
-          title: "Strong Build Quality",
-          description:
-            "The E-Rickshaw comes with a steel body and ABS roof for better durability and safety.",
-        },
-        {
-          title: "Efficient Charging",
-          description:
-            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
-        },
-        {
-          title: "ICAT Approved Design",
-          description:
-            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
-        },
-        {
-          title: "Alloy Wheels & Drum Brakes",
-          description:
-            "Advanced features like Alloy wheels and Powerful Drum brakes provide better control and safety.",
-        },
-      ],
-    },
-    brandReputation: {
-      title: "Trusted Brand in the E-Rickshaw Market",
-      points: [
-        {
-          title: "10,000+ Happy Customers",
-          description:
-            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
-        },
-        {
-          title: "125+ Dealer Touchpoints",
-          description:
-            "Currently present in 16+ states with best-in-class service and spares support through over 125 dealer touchpoints.",
-        },
-      ],
-    },
-    financing: {
-      title: "Easy Financing Options",
-      description:
-        "With tie ups from leading banks and financial institutions, the E-Rickshaw can be easily afforded with attractive finance schemes and pocket friendly EMI plans.",
-    },
-  },
+
   {
     title: "Best E Loader Manufacturers in Meerut",
-    id: "28",
+    id: "29",
     slug: "best-e-loader-meerut",
     img: "/img/benaer3.webp",
-    paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
-    ],
-    driverBenefits: {
-      title: "Enabling auto drivers with better employability",
-      benefits: [
-        {
-          title: "Higher Earnability",
-          description:
-            "With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
-        },
-        {
-          title: "Better Future for Families",
-          description:
-            "With the Mac, Auto-drivers can look forward to having a future that makes them and their family happy and satisfied.",
-        },
-      ],
-    },
-    featuresPerformance: {
-      title: "Made for Indian Road Conditions",
-      description:
-        "Steel body, ABS Roof, Alloy wheels and Powerful Drum brakes make it durable, comfortable and high performing.",
-      features: [
-        {
-          title: "Strong Build Quality",
-          description:
-            "The E-Rickshaw comes with a steel body and ABS roof for better durability and safety.",
-        },
-        {
-          title: "Efficient Charging",
-          description:
-            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
-        },
-        {
-          title: "ICAT Approved Design",
-          description:
-            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
-        },
-        {
-          title: "Alloy Wheels & Drum Brakes",
-          description:
-            "Advanced features like Alloy wheels and Powerful Drum brakes provide better control and safety.",
-        },
-      ],
-    },
-    brandReputation: {
-      title: "Trusted Brand in the E-Rickshaw Market",
-      points: [
-        {
-          title: "10,000+ Happy Customers",
-          description:
-            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
-        },
-        {
-          title: "125+ Dealer Touchpoints",
-          description:
-            "Currently present in 16+ states with best-in-class service and spares support through over 125 dealer touchpoints.",
-        },
-      ],
-    },
-    financing: {
-      title: "Easy Financing Options",
-      description:
-        "With tie ups from leading banks and financial institutions, the E-Rickshaw can be easily afforded with attractive finance schemes and pocket friendly EMI plans.",
-    },
-  },
-  {
-    title: "Top 10 E Rickshaw Manufacturers in Meerut",
-    id: "29",
-    slug: "top-10-e-rickshaw-meerut",
-    img: "/img/benaer3.webp",
-
+    city: "Meerut",
     metaData: {
-      metaTitle: "Top 10 E Rickshaw Manufacturers in Meerut",
+      metaTitle: "Best E Loader Manufacturers in Meerut",
       metaDescription:
-        "Find the Top 10 E Rickshaw Manufacturers in Meerut with Mack EV, offering reliable, eco-friendly rides designed for comfort, durability, and greener mobility.",
+        "Mack EV is one of the Best E Loader Manufacturers in Meerut, offering powerful, affordable, and eco-friendly electric loaders for modern businesses.",
       keywords: [
-        "Top 10 E Rickshaw Manufacturers in Meerut",
-        "Electric Three Wheeler Manufacturers in Meerut",
-        "E Loader in Meerut",
-        "E Rickshaw in Meerut",
-        "E Tricycle Manufacturers in Meerut",
-        "E Scooters in Meerut",
-        "Best E Loader Manufacturers in Meerut",
-        "E",
+        "E Rickshaw price Meerut",
+        "Best e loader manufacturers in meerut contact number",
+        "Best Electric loader in Meerut",
+        "Material loader electric rickshaw price",
+        "E Rickshaw Loader 500 Kg",
+        "E Rickshaw Loader 2000 kg Price",
+        "E Rickshaw Loader 1000 Kg",
+        "E Rickshaw Loader 1000 Kg price",
       ],
+      canonical: "https://mack-ev.com/best-e-loader-meerut",
     },
 
     paragraphs: [
-      "Meerut is witnessing rapid growth in sustainable urban mobility, and E-Rickshaws have become a vital solution for affordable, eco-friendly transport. Among various options, Mack EV is a trusted name, offering reliable vehicles with advanced features. In this guide, we explore the <a href='/top-10-e-rickshaw-meerut'> Top 10 E Rickshaw Manufacturers</a> in Meerut and why MackE-Rickshaw is a preferred choice.",
+      "In the era of clean mobility and efficient logistics, Mack EV proudly stands among the Best E Loader Manufacturers in Meerut, offering robust, reliable, and eco-friendly electric loaders designed to transform the way businesses move goods.",
+      "With a strong commitment to sustainability and innovation, Mack EV delivers electric mobility solutions that help local businesses reduce costs, increase efficiency, and contribute to a greener future.",
     ],
 
     subHeading: {
-      heading: ["Mack EV – Leading Clean Mobility in Meerut"],
+      heading: ["Mack EV – Driving Sustainable Logistics for India"],
       paragraphs: [
-        "Committed to building a sustainable last mile, Mack EV presents the Mack E-Rickshaw through its electric mobility subsidiary – Mego.",
-        "Mack EV Vehicles, a wholly-owned subsidiary, acquired a Faridabad-based E-3 Wheeler company with a 74% stake, expanding its presence in both E-2W and E-3W categories. This positions Mack EV as a key player in the rapidly growing E-Rickshaw segment, offering clean, comfortable, and cost-effective mobility while enhancing the daily earning potential of drivers.",
+        "Through its electric mobility subsidiary Mego, Mack EV has established itself as a trusted brand in India’s fast-growing electric vehicle sector. Expanding its presence across E-2W and E-3W categories, the company continues to empower drivers and entrepreneurs with next-generation electric vehicles.",
+        "E-Loaders are redefining last-mile delivery — offering high performance, zero emissions, and exceptional savings for small businesses, shop owners, and fleet operators alike.",
+      ],
+    },
+
+    whyChoose: {
+      title: "Why Mack EV is Among the Best E Loader Manufacturers in Meerut",
+      points: [
+        "Powerful Performance – Engineered for heavy loads with smooth acceleration and strong torque to handle city deliveries with ease.",
+        "Low Running Cost – Operates at just about ₹2/km, helping businesses save more on every trip.",
+        "Efficient Battery System – Delivers up to 100 km range per charge, ensuring a full day of productivity.",
+        "Eco-Friendly Operation – Zero noise and zero emissions for a cleaner, greener environment.",
+        "Durable Build Quality – Steel body and sturdy chassis ensure long life and reliable performance on Indian roads.",
       ],
     },
 
     driverBenefits: {
-      title: "Benefits for Auto Drivers",
-      benefits: [
-        {
-          title: "Higher Earnability",
-          description:
-            "With a running cost of only ₹2/km, auto drivers can earn more on every trip.",
-        },
-        {
-          title: "Better Future for Families",
-          description:
-            "The Mack  E-Rickshaw provides consistent income, helping drivers and their families look forward to a secure and happy future.",
-        },
-        {
-          title: "Made for Indian Road Conditions",
-          description:
-            "Built for Indian roads, the E-Rickshaw features steel body, ABS roof, alloy wheels, and powerful drum brakes, ensuring durability and safety.",
-        },
+      title: "Empowering Local Businesses with Electric Innovation",
+      paragraphs: [
+        "At Mack EV, we believe electric mobility is not just about transport — it’s about empowering people. Our E Loaders in Meerut are designed to support small business owners, delivery partners, and entrepreneurs with better efficiency and improved profitability.",
+        "From grocery deliveries to industrial supplies, Mack EV E-Loaders help transport goods safely, quietly, and affordably, making them a trusted choice for smart business owners.",
       ],
     },
-    featuresPerformance: {
-      title: "Key Features of Mack  E-Rickshaw",
-      description:
-        "Built for Indian roads, the E-Rickshaw features steel body, ABS roof, alloy wheels, and powerful drum brakes, ensuring durability and safety.",
-      features: [
-        {
-          title: "Strong Build Quality",
-          description: "Steel body and ABS roof for long-lasting durability.",
-        },
-        {
-          title: "Efficient Charging",
-          description:
-            "Depending on the model, the vehicle can charge in 8–10 hours and run up to 100 km per charge.",
-        },
-        {
-          title: "ICAT Approved Design",
-          description:
-            "Ensures extra safety, comfort, performance, and profit.",
-        },
-        {
-          title: "Alloy Wheels & Drum Brakes",
-          description: "Advanced features for better control and safety.",
-        },
-      ],
-    },
+
     brandReputation: {
-      title: "Trusted Brand in the Market",
+      title: "Trust, Technology, and Reliability – The Mack EV Promise",
       points: [
         {
           title: "10,000+ Happy Customers",
-          description: "The Mack brand is trusted across India.",
+          description:
+            "With 10,000+ happy customers and a growing network of 125+ dealer touchpoints across 16+ states, Mack EV has earned its place among the Best E Loader Manufacturers in Meerut.",
         },
         {
-          title: "125+ Dealer Touchpoints",
+          title: "Affordable Financing",
           description:
-            "Presence in more than 16 states, offering nationwide service and spares support.",
+            "Partnering with leading banks and financial institutions, Mack EV also offers easy finance options and flexible EMIs, making electric ownership more accessible than ever.",
         },
       ],
     },
 
     conclusion:
-      "The demand for  Top 10 E Rickshaw Manufacturers in Meerut is growing rapidly. Among all, MackE-Rickshaw by <a href='/'> Mack EV stands </a> out with an ICAT-approved design, strong build quality, efficient charging, and a trusted dealer network. It is the ideal choice for drivers seeking higher earnings, comfort, and a greener future.",
+      "Join the electric revolution with Mack EV, a brand trusted for its quality, innovation, and commitment to clean mobility. Discover how the Best E Loader Manufacturers in Meerut are shaping a future where logistics meet sustainability — powered by performance, driven by purpose, and led by Mack EV.",
   },
 
   {
@@ -2867,74 +2925,119 @@ export const data = [
     id: "30",
     slug: "e-rickshaw-meerut",
     img: "/img/benaer3.webp",
+    city: "Meerut",
+    metaData: {
+      metaTitle: "E Rickshaw Manufacturers in Meerut",
+      metaDescription:
+        "Mack EV is a trusted E Rickshaw Manufacturer in Meerut, delivering durable, eco-friendly, and cost-efficient e-rickshaws for drivers and passengers.",
+      keywords: [
+        "Top e rickshaw manufacturers in meerut",
+        "Best e rickshaw manufacturers in meerut",
+        "Top 10 e rickshaw manufacturers in meerut",
+        "E rickshaw manufacturers in meerut price lis",
+        "E Rickshaw Showroom in Meerut",
+        "E rickshaw manufacturers in meerut contact number",
+        "E rickshaw manufacturers in meerut contact no",
+      ],
+      canonical: "https://mack-ev.com/e-rickshaw-meerut",
+    },
+
     paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary  – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
+      "As one of the leading E Rickshaw Manufacturers in Meerut, Mack EV is transforming urban mobility with eco-friendly, reliable, and cost-efficient electric rickshaws. Designed to meet the needs of drivers and passengers alike, Mack EV’s E-Rickshaws make city travel cleaner, quieter, and more efficient.",
+      "With a strong commitment to sustainability, Mack EV develops its vehicles through its dedicated electric mobility subsidiary, Mego, combining innovation, durability, and safety for Indian roads.",
     ],
+
+    subHeading: {
+      heading: ["Mack EV – Leading the Electric Mobility Revolution"],
+      paragraphs: [
+        "Mack EV Vehicles, a wholly-owned subsidiary of Mack EV, has expanded its footprint in India’s electric vehicle market through strategic acquisitions and innovative design. With a focus on E-3W and E-2W electric vehicles, Mack EV has become a trusted name for drivers and fleet operators looking for reliable and cost-effective transport solutions.",
+        "The E-Rickshaw segment is one of the fastest-growing categories of electric vehicles in India, offering clean, comfortable, and efficient transportation while increasing drivers’ daily earning potential.",
+      ],
+    },
+
     driverBenefits: {
-      title: "Enabling auto drivers with better employability",
+      title: "Empowering Drivers and Enhancing Livelihoods",
       benefits: [
         {
-          title: "Higher Earnability",
+          title: "Higher Earnings",
           description:
-            "With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
+            "Low running cost of just ₹2/km helps drivers save more and earn better every day.",
+        },
+        {
+          title: "Clean Mobility",
+          description:
+            "Noise-free, emission-free rides make commuting healthier for everyone.",
         },
         {
           title: "Better Future for Families",
           description:
-            "With the Mac, Auto-drivers can look forward to having a future that makes them and their family happy and satisfied.",
+            "More income and lower maintenance costs lead to financial security and happiness.",
         },
       ],
     },
+
     featuresPerformance: {
-      title: "Made for Indian Road Conditions",
-      description:
-        "Made for Indian road conditions, the E-Rickshaw comes with a strong build quality and advanced features like – Steel body, ABS Roof, Alloy wheels and Powerful Drum brakes etc.",
+      title: "Built for Indian Roads",
       features: [
         {
-          title: "Strong Build Quality",
-          description:
-            "The E-Rickshaw comes with a steel body and ABS roof for better durability and safety.",
+          title: "Steel Body & ABS Roof",
+          description: "Enhanced safety and long-lasting durability.",
         },
         {
           title: "Efficient Charging",
-          description:
-            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
+          description: "8–10 hours of charging provides up to 100 km range.",
         },
         {
-          title: "ICAT Approved Design",
-          description:
-            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
+          title: "ICAT Certified Design",
+          description: "Ensures safety, comfort, and reliability.",
         },
         {
           title: "Alloy Wheels & Drum Brakes",
-          description:
-            "Advanced features like Alloy wheels and Powerful Drum brakes provide better control and safety.",
+          description: "Better control and stability on city roads.",
         },
       ],
     },
+
+    driverComfort: {
+      title: "Driver-Centric Design",
+      points: [
+        "Comfortable seating for long hours of operation",
+        "Easy maneuverability for city traffic",
+        "Long battery life for uninterrupted daily operations",
+        "Low maintenance for cost efficiency",
+      ],
+    },
+
     brandReputation: {
-      title: "Trusted Brand in the E-Rickshaw Market",
+      title: "Trusted Brand with Nationwide Reach",
       points: [
         {
           title: "10,000+ Happy Customers",
           description:
-            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
+            "With over 10,000 happy customers and 125+ dealer touchpoints across 16+ states, Mack EV is a preferred choice among E Rickshaw Manufacturers in Meerut.",
         },
         {
-          title: "125+ Dealer Touchpoints",
+          title: "Easy Finance Options",
           description:
-            "Currently it is present in more than 16 states in India. The service and spares support extended is also best-in-class due to it’s nationwide presence through more than 125 dealer touchpoints.",
+            "We also provide affordable EMI plans and tie-ups with leading banks, making it easier for drivers to own a Mack EV E-Rickshaw and grow their livelihood.",
         },
       ],
     },
-    financing: {
-      title: "Easy Financing Options",
-      description:
-        "With tie ups from leading banks and financial institutions, the E-Rickshaw can be easily afforded with attractive finance schemes and pocket friendly EMI plans.",
+
+    whyChoose: {
+      title: "Why Choose Mack EV in Meerut?",
+      points: [
+        "Proven expertise in electric mobility solutions",
+        "Durable and reliable vehicles for Indian conditions",
+        "Affordable ownership with low running costs",
+        "Extensive service and dealer network",
+      ],
     },
+
+    conclusion:
+      "Join the electric mobility revolution with Mack EV, a leading E Rickshaw Manufacturer in Meerut, and experience clean, efficient, and sustainable transportation for a brighter future.",
   },
+
   {
     title: "Electric Three Wheeler Manufacturers in Moradabad",
     id: "31",

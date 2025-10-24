@@ -108,6 +108,11 @@ export default async function Page({ params }) {
                 {content.driverBenefits.title}
               </h2>
             </div>
+            {content.driverBenefits?.paragraphs?.map((item, index) => (
+              <p className="text-center max-w-[900px] mx-auto" key={index}>
+                {item}
+              </p>
+            ))}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {content.driverBenefits.benefits?.map((benefit, i) => (
                 <Card
@@ -192,6 +197,39 @@ export default async function Page({ params }) {
               </Card>
             ))}
           </div>
+        </section>
+      )}
+
+      {content.whyChoose && (
+        <section className="bg-gray-50 section">
+          <Container maxWidth="xl">
+            <div className="">
+              <div className="t lg:text-left mb-8 text-center">
+                {content?.whyChoose?.title && (
+                  <h2 className="text-4xl md:text-3xl  text-center text lg:text-5xl font-bold text-gray-900 leading-tight">
+                    {content?.whyChoose?.title}
+                  </h2>
+                )}
+
+                {content?.whyChoose?.description && (
+                  <p className="text-gray-600 text-lg  text-center leading-relaxed max-w-3xl mt-6">
+                    {content.whyChoose.description}
+                  </p>
+                )}
+              </div>
+
+              <div className="flex justify-center gap-5 flex-wrap">
+                {content.whyChoose.points?.map((feature, i) => (
+                  <div
+                    key={i}
+                    className="space-y-4 p-4 border-l-2 border-l-green-500 border-1 border-green-300 rounded-[20px]"
+                  >
+                    <p className="text-gray-600 leading-relaxed">{feature}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </Container>
         </section>
       )}
       {/* Financing */}
