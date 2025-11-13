@@ -6828,82 +6828,99 @@ export const data = [
       ],
     },
   },
+
   {
-    title: "E Loader  Manufacturers in Jaunpur",
-    id: "68",
+    id: 67,
+    title: "E Loader Manufacturers in Jaunpur",
     slug: "electric-loader-jaunpur",
-    img: "/img/benaer3.webp",
+    img: "/img/electric-loader-jaunpur.webp",
+    city: "Jaunpur",
+    metaData: {
+      metaTitle: "E Loader Manufacturers in Jaunpur",
+      metaDescription:
+        "Mack EV is a trusted E Loader Manufacturers in Jaunpur, delivers eco-friendly, powerful, and low-maintenance e-loaders for daily transport needs.",
+      keywords: [
+        "Electric rickshaw manufacturers in Jaunpur price list",
+        "Best electric rickshaw manufacturers in Jaunpur",
+        "Electric rickshaw manufacturers in Jaunpur contact no",
+        "E-Rickshaw Dealership in Jaunpur",
+        "Top E-Rickshaw Loader in Jaunpur",
+        "Top Electric Rickshaw in Jaunpur",
+        "Top Electric Rickshaw in Jaunpur",
+        "Top electric rickshaw in Jaunpur price",
+        "E-Rickshaw Dealership in Jaunpur",
+        "Mini Metro E Rickshaw Price in Jaunpur",
+        "Mini Metro Price On Road in Jaunpur",
+        "E Auto Rickshaw Manufacturers in Jaunpur",
+        "E Loader Manufacturers in Jaunpur",
+        "E Rickshaw Manufacturers in Jaunpur",
+        "Electric Rickshaw Manufacturers in Jaunpur",
+        "E Rickshaw Loader Price in Jaunpur",
+      ],
+      canonical: "https://mack-ev.com/electric-loader-jaunpur",
+    },
+
     paragraphs: [
-      "Committed to taking concrete steps towards building a clean last mile, MACK EV takes pride in presenting the MackE‑Loader Rickshaw through its electric mobility subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly owned electric mobility subsidiary of MACK EV, manufactures a wide range of electric vehicles including E‑Loaders, E‑Rickshaws, E‑Carts, and more under the MACK EV brand. These vehicles offer eco‑friendly alternatives to diesel or petrol-powered vehicles.",
-      "The MackZorawar E‑Loader is designed for efficient goods transport. It features a high loading capacity (500–1000 kg), regenerative braking, and lithium‑ion batteries—making it ideal for cost‑effective cargo operations across narrow lanes.",
+      "Committed to taking concrete steps towards building a clean last mile, Mack EV takes pride in presenting the MackE-Loader Rickshaw through its electric mobility subsidiary – Mego.",
+      "As one of the leading E Loader Manufacturers in Jaunpur, Mack EV Vehicles, a wholly owned electric mobility subsidiary of Mack EV, manufactures a wide range of electric vehicles including E-Loaders, E-Rickshaws, and E-Carts under the Mack EV brand. These vehicles provide sustainable, affordable, and efficient alternatives to traditional fuel-powered models—helping drive a greener and cleaner future.",
     ],
-    driverBenefits: {
-      title: "Empowering Driver‑Entrepreneurs",
+
+    empoweringDrivers: {
+      title: "Empowering Driver-Entrepreneurs in Jaunpur",
       benefits: [
         {
           title: "Higher Payload, More Earnings",
           description:
-            "With a payload capacity of up to 1 ton, drivers can transport more per trip and increase their earning potential.",
-        },
-        {
-          title: "Low Operating Cost",
-          description:
-            "Efficient lithium-ion batteries and regenerative braking significantly reduce fuel and maintenance costs.",
-        },
-        {
-          title: "Reliable Uptime",
-          description:
-            "A robust build and ergonomic design ensure minimal downtime, keeping drivers consistently on the move.",
+            "With a payload capacity of up to 1 ton, drivers can carry more goods per trip—maximizing income and productivity.",
         },
       ],
     },
-    featuresPerformance: {
+
+    roadReadyFeatures: {
       title: "Built for Urban Goods Transport",
-      description:
-        "MackE‑Loader combines smart engineering and practical design to offer safe, efficient, and comfortable cargo transport for small businesses and driver‑operators.",
       features: [
         {
           title: "Efficient Powertrain",
           description:
-            "Powered by a brushless DC motor (48 V, 60 A) and a lithium‑ion battery that delivers up to 110–120 km per charge, with a full recharge time of 6–8 hours.",
+            "Powered by a brushless DC motor (48 V, 60 A) and lithium-ion battery, it delivers a range of 110–120 km per charge, with a full recharge time of 6–8 hours—ideal for daily cargo operations.",
         },
         {
           title: "High Payload Capacity",
           description:
-            "Supports a payload of 500–1000 kg depending on the model (e.g., MackHaul, Zorawar full‑body).",
+            "Depending on the model variant, such as MackHaul or Zorawar Full-Body, the MackE-Loader supports a payload of 500–1000 kg, suitable for a variety of transport requirements.",
         },
         {
           title: "Long Running Range",
           description:
-            "Delivers a general range of 110–120 km per charge under light load conditions. Actual mileage may vary depending on cargo weight.",
+            "Offering a general range of 110–120 km per charge under light load conditions, Mack EV E-Loaders are built for dependable performance across Jaunpur’s busy routes.",
         },
         {
           title: "Regenerative Braking & Fast Charging",
           description:
-            "Equipped with regenerative braking for energy recovery and supports fast charging through standard 15 A charger setups.",
+            "Equipped with regenerative braking for energy recovery, the MackE-Loader supports fast charging through standard 15 A setups—ensuring quick turnaround and higher productivity.",
         },
       ],
     },
-    brandReputation: {
-      title: "Trusted Cargo Vehicle Brand",
+
+    brandTrust: {
+      title: "Trusted Cargo Vehicle Brand – Mack EV",
       points: [
         {
           title: "Comprehensive Electric Range",
           description:
-            "MACK EV offers a broad range of passenger and cargo EVs—including rickshaws, carts, loaders, and scooters—serving customers across India.",
+            "Mack EV offers a complete range of electric vehicles, from E-Rickshaws to E-Loaders, delivering trusted performance across India.",
         },
         {
           title: "Strong Dealer & Support Network",
           description:
-            "Supported by a wide network of state-level dealers across India, providing service, spare parts, and assistance for driver peace of mind.",
+            "A wide dealer network across Uttar Pradesh, including Jaunpur, provides dependable after-sales support, spare parts, and maintenance services.",
+        },
+        {
+          title: "Affordable Financing",
+          description:
+            "With flexible EMI plans and easy financing options, Mack EV helps driver-entrepreneurs start their electric journey with confidence.",
         },
       ],
-    },
-    financing: {
-      title: "Affordable Financing",
-      description:
-        "With financial partnerships available, drivers can access attractive EMI schemes and ownership support for MackE‑Loader models.",
     },
   },
   {
