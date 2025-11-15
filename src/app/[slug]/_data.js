@@ -7019,136 +7019,172 @@ export const data = [
     },
   },
   {
-    id: 70,
     title: "E Auto Rickshaw Manufacturers in Jaunpur",
+    id: "70",
     slug: "e-auto-rickshaw-jaunpur",
     img: "https://mack-ev.com/assets/images/e-auto-rickshaw-jaunpur.webp",
     city: "Jaunpur",
+
     metaData: {
       metaTitle: "E Auto Rickshaw Manufacturers in Jaunpur",
       metaDescription:
         "Mack EV is one of the best E Auto Rickshaw Manufacturers in Jaunpur, offering eco friendly reliable, and affordable electric autos for daily use.",
-      keywords:
-        "Electric rickshaw manufacturers in Jaunpur price list, Best electric rickshaw manufacturers in Jaunpur, Electric rickshaw manufacturers in Jaunpur contact no, E-Rickshaw Dealership in Jaunpur, Top E-Rickshaw Loader in Jaunpur, Top Electric Rickshaw in Jaunpur, Top Electric Rickshaw in Jaunpur, Top electric rickshaw in Jaunpur price, E-Rickshaw Dealership in Jaunpur, Mini Metro E Rickshaw Price in Jaunpur, Mini Metro Price On Road in Jaunpur, E Auto Rickshaw Manufacturers in Jaunpur, E Loader Manufacturers in Jaunpur, E Rickshaw Manufacturers in Jaunpur, Electric Rickshaw Manufacturers in Jaunpur, E Rickshaw Loader Price in Jaunpur",
-      canonicalTag:
-        '<link rel="canonical" href="https://mack-ev.com/e-auto-rickshaw-jaunpur" />',
+      keywords: [
+        "Electric rickshaw manufacturers in Jaunpur price list",
+        "Best electric rickshaw manufacturers in Jaunpur",
+        "Electric rickshaw manufacturers in Jaunpur contact no",
+        "E-Rickshaw Dealership in Jaunpur",
+        "Top E-Rickshaw Loader in Jaunpur",
+        "Top Electric Rickshaw in Jaunpur",
+        "Top electric rickshaw in Jaunpur price",
+        "Mini Metro E Rickshaw Price in Jaunpur",
+        "Mini Metro Price On Road in Jaunpur",
+        "E Auto Rickshaw Manufacturers in Jaunpur",
+        "E Loader Manufacturers in Jaunpur",
+        "E Rickshaw Manufacturers in Jaunpur",
+        "Electric Rickshaw Manufacturers in Jaunpur",
+        "E Rickshaw Loader Price in Jaunpur",
+      ],
+      canonical: "https://mack-ev.com/e-auto-rickshaw-jaunpur",
     },
-    paragraphs: {
-      intro:
-        "Committed to taking real steps toward sustainable mobility, Mack EV proudly introduces its range of E Auto Rickshaws through its electric mobility division, Mego. Designed for everyday commuters and driver-entrepreneurs, these e-rickshaws are built to deliver clean, reliable, and cost-efficient transport for the people of Jaunpur.",
-      acquisition:
-        "Mack EV Vehicles, the e-mobility arm of Mack EV, continues to strengthen its presence in India’s fast-growing electric three-wheeler market. With advanced engineering and an eco-conscious vision, the brand has emerged as one of the most trusted E Auto Rickshaw Manufacturers in Jaunpur, setting new benchmarks in performance and sustainability.",
+
+    paragraphs: [
+      "Committed to taking real steps toward sustainable mobility, Mack EV proudly introduces its range of E Auto Rickshaws through its electric mobility division, Mego. Designed for everyday commuters and driver-entrepreneurs, these e-rickshaws are built to deliver clean, reliable, and cost-efficient transport for the people of Jaunpur.",
+      "Mack EV Vehicles, the e-mobility arm of Mack EV, continues to strengthen its presence in India’s fast-growing electric three-wheeler market. With advanced engineering and an eco-conscious vision, the brand has emerged as one of the most trusted E Auto Rickshaw Manufacturers in Jaunpur, setting new benchmarks in performance and sustainability.",
+    ],
+
+    businessBenefits: {
+      title: "Benefits for Drivers & Operators",
+      benefits: [
+        {
+          title: "Better Earnings",
+          description:
+            "Mack EV’s E-Auto Rickshaws reduce operating costs with efficient lithium-ion batteries, allowing drivers to earn more each day.",
+        },
+        {
+          title: "Reliable Performance",
+          description:
+            "Strong build quality and advanced technology minimize breakdowns, ensuring consistent income and peace of mind.",
+        },
+        {
+          title: "Green Sustainability",
+          description:
+            "Each ride contributes to cleaner air and a greener Jaunpur, helping reduce fuel dependency and pollution.",
+        },
+      ],
     },
-    communityBenefits: {
-      betterEarnings:
-        "Mack EV’s E-Auto Rickshaws reduce operating costs with efficient lithium-ion batteries, allowing drivers to earn more each day.",
-      reliablePerformance:
-        "Strong build quality and advanced technology minimize breakdowns, ensuring consistent income and peace of mind.",
-      greenSustainability:
-        "Each ride contributes to cleaner air and a greener Jaunpur, helping reduce fuel dependency and pollution.",
-    },
+
     featuresPerformance: {
-      heading: "Built for Comfort and Durability",
-      durableStructure:
-        "Equipped with a sturdy chassis, ABS roof, and durable suspension for long-lasting performance.",
-      efficientPowerSystem:
-        "Powered by a BLDC motor and high-capacity lithium-ion battery, delivering a smooth ride and longer range.",
-      rangeCharging:
-        "Capable of covering up to 100 km on a single charge with quick recharging in 6–8 hours, making it ideal for daily commercial use.",
-      passengerComfort:
-        "Spacious interiors and ergonomic seating ensure a pleasant ride for passengers and ease of driving for operators.",
+      title: "Built for Comfort and Durability",
+      features: [
+        {
+          title: "Durable Structure",
+          description:
+            "Equipped with a sturdy chassis, ABS roof, and durable suspension for long-lasting performance.",
+        },
+        {
+          title: "Efficient Power System",
+          description:
+            "Powered by a BLDC motor and high-capacity lithium-ion battery, delivering a smooth ride and longer range.",
+        },
+        {
+          title: "Range & Charging",
+          description:
+            "Capable of covering up to 100 km on a single charge with quick recharging in 6–8 hours, making it ideal for daily commercial use.",
+        },
+        {
+          title: "Passenger Comfort",
+          description:
+            "Spacious interiors and ergonomic seating ensure a pleasant ride for passengers and ease of driving for operators.",
+        },
+      ],
     },
+
     brandReputation: {
-      heading: "Mack EV – Leading the Way in Electric Mobility",
-      trustedNationwide:
-        "With thousands of happy customers, Mack EV has earned a strong reputation for reliability and innovation in the EV sector.",
-      dealerNetwork:
-        "Present across 16+ states with 125+ dealers, providing quick service, spare parts, and customer support.",
-      financingOptions:
-        "Mack EV partners with leading banks to offer affordable EMI and loan plans, making ownership easy for new entrepreneurs.",
+      title: "Mack EV – Leading the Way in Electric Mobility",
+      points: [
+        {
+          title: "Trusted Nationwide",
+          description:
+            "With thousands of happy customers, Mack EV has earned a strong reputation for reliability and innovation in the EV sector.",
+        },
+        {
+          title: "Dealer Network",
+          description:
+            "Present across 16+ states with 125+ dealers, providing quick service, spare parts, and customer support.",
+        },
+        {
+          title: "Financing Options",
+          description:
+            "Mack EV partners with leading banks to offer affordable EMI and loan plans, making ownership easy for new entrepreneurs.",
+        },
+      ],
     },
+
     conclusion: {
-      summary:
+      heading: "Conclusion",
+      paragraph:
         "As one of the leading E Auto Rickshaw Manufacturers in Jaunpur, Mack EV is committed to building a clean, efficient, and inclusive mobility ecosystem. Every MackE-Auto is not just a vehicle—it’s a promise of progress, sustainability, and better livelihoods for drivers and communities.",
     },
   },
-
   {
+    id: 71,
     title: "Electric Three Wheeler Manufacturers in Kanpur Dehat",
-    id: "71",
     slug: "electric-three-wheeler-kanpur-dehat",
     img: "/img/benaer3.webp",
-    paragraphs: [
-      "Committed in taking concrete steps towards building a clean last mile, MACK EV take pride in presenting MackE-Rickshaw through it’s Electric Mobility Subsidiary – Mego.",
-      "MACK EV Vehicles, a wholly-owned electric mobility subsidiary of MACK EV., undertook the acquisition of Faridabad based E-3Wheeler company MACK EV which sells Electric Auto-Rickshaws under the popular Mackbrand with 74% stake in the company, subject to customary closing conditions.",
-      "Through this acquisition, MACK EV (e-mobility arm of Mego) will expand its presence in the fast disrupting E-Rickshaw segment to become an integrated last mile E-Mobility player with strong presence in both E-2W and E-3W. E-Rickshaw is one of the largest and fastest growing category of electric vehicles in India and offers clean, comfortable and cost-effective mobility to customers and also increases the daily earning potential of driver community.",
-    ],
-    driverBenefits: {
-      title: "Enabling auto drivers with better employability",
-      benefits: [
-        {
-          title: "Higher Earnability",
-          description:
-            "With a running cost of only Rs. 2/km, Auto drivers can aspire to get good earnings on every run.",
-        },
-        {
-          title: "Better Future for Families",
-          description:
-            "With the Mac, Auto-drivers can look forward to having a future that makes them and their family happy and satisfied.",
-        },
-        {
-          title: "Focus on Driver & Family Satisfaction",
-          description:
-            "MackE-Rickshaw empowers drivers with a brighter future, ensuring happiness and satisfaction for their families. Its cost-effective operation helps uplift their livelihoods.",
-        },
-      ],
+    city: "Kanpur Dehat",
+
+    metaData: {
+      metaTitle: "Electric Three Wheeler Manufacturers in Kanpur Dehat",
+      metaDescription:
+        "Mack EV is one of the top Electric Three Wheeler Manufacturers in Kanpur Dehat, offering reliable, durable, and affordable e-rickshaws built for Indian conditions.",
+      keywords:
+        "Electric three wheeler manufacturers in Kanpur Dehat price list, Best electric three wheeler manufacturers in Kanpur Dehat, Electric rickshaw manufacturers in Kanpur Dehat contact no, E-Rickshaw Dealership in Kanpur Dehat, Top E-Rickshaw Loader in Kanpur Dehat, Top Electric Rickshaw in Kanpur Dehat, Electric Three Wheeler Manufacturers in Kanpur Dehat, E Loader Manufacturers in Kanpur Dehat, E Rickshaw Manufacturers in Kanpur Dehat, E Rickshaw Loader Price in Kanpur Dehat",
+      canonicalTag:
+        '<link rel="canonical" href="https://mack-ev.com/electric-three-wheeler-kanpur-dehat" />',
     },
+
+    paragraphs: {
+      intro:
+        "Committed in taking concrete steps towards building a clean last mile, Mack EV proudly introduces its MackE-Rickshaw through its electric mobility division, Mego. Designed for daily commuters and driver-entrepreneurs, these electric three-wheelers offer clean, reliable, and cost-efficient mobility for the people of Kanpur Dehat.",
+      acquisition:
+        "Mack EV Vehicles, the e-mobility arm of Mego, has strengthened its position in India's rapidly expanding electric three-wheeler segment through strategic acquisitions and advanced engineering. As a result, Mack EV has become one of the most trusted Electric Three Wheeler Manufacturers in Kanpur Dehat, delivering superior performance and long-term sustainability.",
+    },
+
+    communityBenefits: {
+      betterEarnings:
+        "With an operating cost of just ₹2 per kilometre, MackE-Rickshaws help drivers significantly increase daily earnings.",
+      reliablePerformance:
+        "Strong steel body, ABS roof, and robust drum brakes ensure smooth performance and reduced maintenance downtime.",
+      greenSustainability:
+        "Every electric ride reduces emissions, contributing to cleaner air and a greener Kanpur Dehat.",
+    },
+
     featuresPerformance: {
-      title: "Made for Indian Road Conditions",
-      description:
-        "Made for Indian road conditions, the E-Rickshaw comes with a strong build quality and advanced features like – Steel body, ABS Roof, Alloy wheels and Powerful Drum brakes etc.",
-      features: [
-        {
-          title: "Strong Build Quality",
-          description:
-            "The E-Rickshaw comes with a steel body and ABS roof for better durability and safety.",
-        },
-        {
-          title: "Efficient Charging",
-          description:
-            "Depending on the Mackmodel, the E-Rick can be charged for up to 8–10 hrs and it can give up to 100 kms in a single charge.",
-        },
-        {
-          title: "ICAT Approved Design",
-          description:
-            "The MackE-Rickshaw is ICAT approved and designed to deliver extra safety, extra comfort, extra profit and extra performance.",
-        },
-        {
-          title: "Alloy Wheels & Drum Brakes",
-          description:
-            "Advanced features like Alloy wheels and Powerful Drum brakes provide better control and safety.",
-        },
-      ],
+      heading: "Made for Indian Road Conditions",
+      durableStructure:
+        "Built with a strong steel body, ABS roof, and durable suspension designed for long-term rugged performance.",
+      efficientPowerSystem:
+        "Powered by a high-efficiency electric drivetrain that provides smooth acceleration and consistent performance.",
+      rangeCharging:
+        "Delivers up to 100 km range per charge with a charging time of 8–10 hours, ideal for commercial operations.",
+      passengerComfort:
+        "Offers spacious interiors, stable ride quality, and ergonomic seating to ensure comfort for both drivers and passengers.",
     },
+
     brandReputation: {
-      title: "Trusted Brand in the E-Rickshaw Market",
-      points: [
-        {
-          title: "10,000+ Happy Customers",
-          description:
-            "With many years in the E-Rickshaw segment, the Mackbrand is trusted by more than 10,000 users across India.",
-        },
-        {
-          title: "125+ Dealer Touchpoints",
-          description:
-            "Currently it is present in more than 16 states in India. The service and spares support extended is also best-in-class due to it’s nationwide presence through more than 125 dealer touchpoints.",
-        },
-      ],
+      heading: "A Trusted Brand in the E-Rickshaw Market",
+      trustedNationwide:
+        "With more than 10,000+ happy customers, Mack EV stands as a trusted and innovative brand in the electric mobility industry.",
+      dealerNetwork:
+        "Operational across 16+ states with 125+ dealer touchpoints, offering quick service, spare parts, and strong after-sales support.",
+      financingOptions:
+        "Mack EV partners with leading finance institutions to offer easy loan approvals and pocket-friendly EMI options.",
     },
-    financing: {
-      title: "Easy Financing Options",
-      description:
-        "With tie ups from leading banks and financial institutions, the E-Rickshaw can be easily afforded with attractive finance schemes and pocket friendly EMI plans.",
+
+    conclusion: {
+      summary:
+        "As a leading Electric Three Wheeler Manufacturer in Kanpur Dehat, Mack EV is committed to delivering clean, efficient, and reliable mobility solutions. Each MackE-Rickshaw is designed to empower drivers with higher earnings, improved comfort, and long-term sustainability.",
     },
   },
   {
