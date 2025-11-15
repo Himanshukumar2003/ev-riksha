@@ -31,6 +31,7 @@ export default function Footer() {
     { title: "Lucknow", city: "lucknow" },
     { title: "Prayagraj", city: "prayagraj" },
     { title: "Faridabad", city: "faridabad" },
+    { title: "Delhi", city: "Delhi" },
   ];
   return (
     <>
