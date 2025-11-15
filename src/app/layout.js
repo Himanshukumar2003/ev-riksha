@@ -2,7 +2,6 @@ import "./globals.css";
 import { GoogleTagManager } from "@next/third-parties/google";
 
 import localFont from "next/font/local";
-import { Manrope } from "next/font/google";
 import Layout from "@/components/layout/layout";
 import { Toaster } from "sonner";
 import Script from "next/script";
@@ -16,12 +15,6 @@ const SpeedBeast = localFont({
     },
   ],
   variable: "--font-SpeedBeast",
-});
-
-// Google Font: Manrope
-const manrope = Manrope({
-  subsets: ["latin"],
-  variable: "--font-manrope",
 });
 
 export const metadata = {
@@ -191,7 +184,7 @@ fbq('track', 'PageView');       `}
       <GoogleTagManager gtmId="GTM-M6VR7WHJ" />
 
       <body
-        className={`${SpeedBeast.variable} ${manrope.variable} antialiased`}
+        className={`${SpeedBeast.variable} antialiased`}
         suppressHydrationWarning
       >
         <Layout>{children}</Layout>
