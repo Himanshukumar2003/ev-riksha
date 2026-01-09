@@ -187,7 +187,7 @@ export default function MainProductViewer({ product }) {
               </div> */}
 
               <div className="flex gap-4 rounded-[10px]">
-                <EnquiryFormModal productId={product?.id} />
+                <EnquiryFormModal vehicle_name={product.title} />
                 {product?.brochure?.length > 0 && (
                   <DownloadFormModal
                     fileUrl={`https://api.macautoindia.com/${product.brochure[0]}`}
