@@ -3,8 +3,8 @@ import Container from "@mui/material/Container";
 import Link from "next/link";
 import React from "react";
 
-export default function Page({ params }) {
-  const { city } = params;
+export default async function Page({ params }) {
+  const { city } = await params;
 
   // Filter items where slug exists in title (case-insensitive)
   const matchedItems = data.filter((item) =>

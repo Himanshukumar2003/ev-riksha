@@ -12,7 +12,7 @@ import { data } from "./_data";
 
 // Generate dynamic meta tags based on content
 export async function generateMetadata({ params, searchParams, request }) {
-  const { slug } = params;
+  const { slug } = await params;
   const content = data.find((item) => item.slug === slug);
 
   if (!content) {
@@ -35,7 +35,7 @@ export async function generateMetadata({ params, searchParams, request }) {
 }
 
 export default async function Page({ params }) {
-  const { slug } = params;
+  const { slug } = await params;
   const content = data.find((item) => item.slug === slug);
 
   if (!content) {
