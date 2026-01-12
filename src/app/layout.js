@@ -152,18 +152,19 @@ fbq('track', 'PageView');       `}
             style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
+
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-YKPT1J5NNE"
-          strategy="afterInteractive"
           async
-        />
+          src="https://www.googletagmanager.com/gtag/js?id=G-5Z8REY1QK8"
+        ></Script>
+
         <Script id="google-analytics" strategy="afterInteractive">
           {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-YKPT1J5NNE');
-          `}
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-5Z8REY1QK8');
+        `}
         </Script>
 
         <noscript>
