@@ -3,79 +3,97 @@
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { Send } from "lucide-react";
-
+import { Loader2, MapPin, Phone, Send, User, X } from "lucide-react";
 import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
+
 import ServicesSection from "./cards";
 import Breadcrumb from "@/components/breadcrumb";
 import Container from "@mui/material/Container";
+import { useState } from "react";
+import { toast } from "sonner";
+const enquiryFormSchema = z.object({
+  firstName: z
+    .string({ required_error: "First name is required" })
+    .trim()
+    .min(2, "First name must be at least 2 characters")
+    .regex(/^[a-zA-Z\s]+$/, "First name can contain only letters"),
 
-/* ===============================
-   BACKEND-MATCHED ZOD SCHEMA
-================================ */
-const contactFormSchema = z.object({
-  name: z.string({ required_error: "required*" }).min(1, "Name is required"),
+  lastName: z
+    .string()
+    .trim()
+    .regex(/^[a-zA-Z\s]*$/, "Last name can contain only letters")
+    .optional(),
 
-  email: z
-    .string({ required_error: "required*" })
-    .email("Invalid email address"),
+  lead_type: z
+    .string({ required_error: "Please select enquiry type" })
+    .min(1, "Please select enquiry type"),
 
-  phone: z
-    .string({ required_error: "required*" })
-    .regex(/^(?:\+91|91)?[6-9]\d{9}$/, "Enter a valid Indian mobile number"),
-
-  subject: z
-    .string({ required_error: "required*" })
-    .min(1, "Subject is required"),
-
-  source: z.string().optional(),
-
-  message: z
-    .string({ required_error: "required*" })
-    .min(1, "Message is required"),
+  phoneNumber: z
+    .string({ required_error: "Phone number is required" })
+    .regex(/^[6-9]\d{9}$/, {
+      message:
+        "Phone number must be a valid 10-digit Indian number starting with 6-9",
+    }),
 });
 
-export default function ContactSection() {
-  const {
-    register,
-    handleSubmit,
-    formState: { errors, isSubmitting },
-    reset,
-  } = useForm({
-    resolver: zodResolver(contactFormSchema),
-    defaultValues: {
-      name: "",
-      email: "",
-      phone: "",
-      subject: "",
-      source: "",
-      message: "",
-    },
-  });
+const LEAD_TYPES = [
+  { label: "Dealership Enquiry", value: 2561916 },
+  { label: "Retail Sales Enquiry", value: 2561917 },
+  { label: "Govt. Supply Enquiry", value: 2568926 },
+  { label: "Bulk Order Enquiry", value: 2574534 },
+];
 
-  async function onSubmit(formData) {
+export default function ContactSection() {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const form = useForm({ resolver: zodResolver(enquiryFormSchema) });
+
+  const onSubmit = async (data) => {
+    setIsSubmitting(true);
     try {
       const response = await fetch(
-        "https://n84j51mp-3001.inc1.devtunnels.ms/v1/queries",
+        "https://api.macautoindia.com/v1/kylas/contact-lead",
         {
           method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(formData),
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            firstName: data.firstName,
+            lastName: data.lastName,
+
+            lead_type: data.lead_type,
+
+            phoneNumber: data.phoneNumber,
+            // cfDoYouHaveShowroomSpace: data.cfDoYouHaveShowroomSpace,
+            // cfInvestmentCapacity: data.cfInvestmentCapacity,
+          }),
         }
       );
 
-      if (!response.ok) throw new Error("Failed to submit form");
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.message || "Failed to submit enquiry.");
+      }
 
-      reset();
-      alert("Message sent successfully!");
+      toast.success("Your enquiry has been submitted successfully.");
+      form.reset();
     } catch (error) {
-      console.error("Error:", error);
-      alert("Something went wrong. Please try again.");
+      toast.error(
+        error instanceof Error
+          ? error.message
+          : "Submission failed. Please try again."
+      );
+    } finally {
+      setIsSubmitting(false);
     }
-  }
+  };
+
+  const renderError = (field) =>
+    form.formState.errors[field] && (
+      <p className="text-sm text-red-500 mt-1 flex items-center gap-1">
+        <span className="w-1 h-1 bg-red-500 rounded-full"></span>
+        {form.formState.errors[field]?.message}
+      </p>
+    );
 
   return (
     <>
@@ -106,129 +124,116 @@ export default function ContactSection() {
             </div>
 
             {/* Form */}
-            <div className="bg-white shadow-md p-10 rounded-4xl">
-              <h3 className="text-2xl font-bold text-gray-900 mb-8">
-                Send a Message
-              </h3>
-
-              <form onSubmit={handleSubmit(onSubmit)} className="space-y-6 ">
+            <div className="  shadow-lg bg-white p-10   overflow-hidden   rounded-2xl">
+              <form
+                onSubmit={form.handleSubmit(onSubmit)}
+                className="space-y-6"
+              >
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  {/* Name */}
-                  <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
-                      Name *
+                  {/* First Name */}
+                  <div className="space-y-2">
+                    <label
+                      htmlFor="firstName"
+                      className="text-sm font-medium text-gray-700 flex items-center gap-2"
+                    >
+                      <User className="w-4 h-4 text-green-600" />
+                      First Name *
                     </label>
                     <Input
-                      {...register("name")}
-                      className={`border-gray-200 focus:border-[var(--color-primary-light)] focus:ring-[var(--color-primary-light)] ${
-                        errors.name ? "border-red-500 focus:ring-red-500" : ""
-                      }`}
+                      id="firstName"
+                      placeholder="Enter your first name"
+                      className="h-12 border-gray-200 focus:border-green-500 focus:ring-green-500 transition-colors"
+                      {...form.register("firstName")}
                     />
-                    {errors.name && (
-                      <p className="text-sm text-red-600 mt-1">
-                        {errors.name.message}
-                      </p>
-                    )}
+                    {renderError("firstName")}
                   </div>
 
-                  {/* Email */}
-                  <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
-                      Email *
+                  {/* Last Name */}
+                  <div className="space-y-2">
+                    <label
+                      htmlFor="lastName"
+                      className="text-sm font-medium text-gray-700 flex items-center gap-2"
+                    >
+                      <User className="w-4 h-4 text-green-600" />
+                      Last Name
                     </label>
                     <Input
-                      type="email"
-                      {...register("email")}
-                      className={`border-gray-200 focus:border-[var(--color-primary-light)] focus:ring-[var(--color-primary-light)] ${
-                        errors.email ? "border-red-500 focus:ring-red-500" : ""
-                      }`}
+                      id="lastName"
+                      placeholder="Enter your last name"
+                      className="h-12 border-gray-200 focus:border-green-500 focus:ring-green-500 transition-colors"
+                      {...form.register("lastName")}
                     />
-                    {errors.email && (
-                      <p className="text-sm text-red-600 mt-1">
-                        {errors.email.message}
-                      </p>
-                    )}
                   </div>
 
-                  {/* Phone */}
-                  <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
-                      Phone *
+                  {/* Phone Number */}
+                  <div className="space-y-2">
+                    <label
+                      htmlFor="phoneNumber"
+                      className="text-sm font-medium text-gray-700 flex items-center gap-2"
+                    >
+                      <Phone className="w-4 h-4 text-green-600" />
+                      Phone Number *
                     </label>
                     <Input
-                      {...register("phone")}
-                      className={`border-gray-200 focus:border-[var(--color-primary-light)] focus:ring-[var(--color-primary-light)] ${
-                        errors.phone ? "border-red-500 focus:ring-red-500" : ""
-                      }`}
+                      id="phoneNumber"
+                      type="tel"
+                      placeholder="+91 99 9999 9999"
+                      className="h-12 border-gray-200 focus:border-green-500 focus:ring-green-500 transition-colors"
+                      {...form.register("phoneNumber")}
                     />
-                    {errors.phone && (
-                      <p className="text-sm text-red-600 mt-1">
-                        {errors.phone.message}
-                      </p>
-                    )}
+                    {renderError("phoneNumber")}
                   </div>
 
-                  {/* Subject */}
-                  <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
-                      Subject *
+                  <div className="space-y-2">
+                    <label className="text-sm font-medium text-gray-700 flex items-center gap-2">
+                      <Send className="w-4 h-4 text-green-600" />
+                      Enquiry Type *
                     </label>
-                    <Input
-                      {...register("subject")}
-                      className={`border-gray-200 focus:border-[var(--color-primary-light)] focus:ring-[var(--color-primary-light)] ${
-                        errors.subject
-                          ? "border-red-500 focus:ring-red-500"
-                          : ""
-                      }`}
-                    />
-                    {errors.subject && (
-                      <p className="text-sm text-red-600 mt-1">
-                        {errors.subject.message}
-                      </p>
-                    )}
+
+                    <select
+                      {...form.register("lead_type")}
+                      className="w-full h-12 border border-gray-200 rounded-md px-4 py-3"
+                    >
+                      <option value="">Select enquiry type</option>
+                      {LEAD_TYPES.map((item) => (
+                        <option key={item.value} value={item.value}>
+                          {item.label}
+                        </option>
+                      ))}
+                    </select>
+
+                    {renderError("lead_type")}
                   </div>
                 </div>
-                {/* Message */}
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Message *
-                  </label>
-                  <Textarea
-                    {...register("message")}
-                    placeholder="Your message..."
-                    className={`min-h-[120px] border-gray-200 focus:border-[var(--color-primary-light)] focus:ring-[var(--color-primary-light)] ${
-                      errors.message ? "border-red-500 focus:ring-red-500" : ""
-                    }`}
-                  />
-                  {errors.message && (
-                    <p className="text-sm text-red-600 mt-1">
-                      {errors.message.message}
-                    </p>
-                  )}
-                </div>
-
                 {/* Submit */}
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="bg-[var(--color-primary-light)] hover:bg-[var(--color-secondary)] text-white px-8 py-3 rounded-full font-medium flex items-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
+                  className="btn flex items-center gap-2"
                 >
-                  {isSubmitting ? "Sending..." : "Submit Now"}
-                  <Send className="w-4 h-4" />
+                  {isSubmitting ? (
+                    <>
+                      <Loader2 className="h-5 w-5 animate-spin" />
+                      Processing Your Request...
+                    </>
+                  ) : (
+                    "Submit Now"
+                  )}
                 </button>
               </form>
             </div>
           </div>
         </Container>
       </section>
-
-      <div className="w-full h-[450px] overflow-hidden rounded-lg shadow-lg">
+      <div className="w-full h-[450px] overflow-hidden rounded-lg shadow-lg ">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224393.60584039075!2d77.17756708324724!3d28.505131673756303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce7ef32e76bb7%3A0xa7a6ee1e11ce522c!2sMac%20Auto%20India%2C%20a%20leading%20manufacturer%20%26%20Supplier%20of%20Electric%20Rickshaws%2C%20E-Loaders%2C%20and%20E-Scooters!5e0!3m2!1sen!2sin!4v1768193852218!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.2417481361026!2d77.29446337428665!3d28.472265391342656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce7ef32e76bb7%3A0xa7a6ee1e11ce522c!2sMac%20Auto%20India%2C%20a%20leading%20manufacturer%20%26%20Supplier%20of%20Electric%20Rickshaws%2C%20E-Loaders%2C%20and%20E-Scooters!5e0!3m2!1sen!2sin!4v1754371138643!5m2!1sen!2sin"
           width="100%"
           height="100%"
           style={{ border: 0 }}
+          allowFullScreen=""
           loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
     </>
