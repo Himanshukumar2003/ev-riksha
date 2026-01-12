@@ -4,37 +4,36 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Send } from "lucide-react";
+
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Checkbox } from "@/components/ui/checkbox";
 import ServicesSection from "./cards";
 import Breadcrumb from "@/components/breadcrumb";
 import Container from "@mui/material/Container";
-// Zod validation schema
+
+/* ===============================
+   BACKEND-MATCHED ZOD SCHEMA
+================================ */
 const contactFormSchema = z.object({
-  firstName: z
-    .string()
-    .min(2, "First name must be at least 2 characters")
-    .max(50),
-  lastName: z
-    .string()
-    .min(2, "Last name must be at least 2 characters")
-    .max(50),
+  name: z.string({ required_error: "required*" }).min(1, "Name is required"),
+
+  email: z
+    .string({ required_error: "required*" })
+    .email("Invalid email address"),
+
   phone: z
-    .string()
-    .min(10, "Phone number must be at least 10 digits")
-    .regex(/^[+]?[1-9][\d]{9,14}$/, "Please enter a valid phone number"),
+    .string({ required_error: "required*" })
+    .regex(/^(?:\+91|91)?[6-9]\d{9}$/, "Enter a valid Indian mobile number"),
+
   subject: z
-    .string()
-    .min(3, "Subject must be at least 3 characters")
-    .max(100, "Subject must be less than 100 characters")
-    .optional()
-    .or(z.literal("")),
+    .string({ required_error: "required*" })
+    .min(1, "Subject is required"),
+
+  source: z.string().optional(),
+
   message: z
-    .string()
-    .min(10, "Message must be at least 10 characters")
-    .max(1000),
-  saveInfo: z.boolean().optional(),
+    .string({ required_error: "required*" })
+    .min(1, "Message is required"),
 });
 
 export default function ContactSection() {
@@ -43,32 +42,40 @@ export default function ContactSection() {
     handleSubmit,
     formState: { errors, isSubmitting },
     reset,
-    setValue,
-    watch,
   } = useForm({
     resolver: zodResolver(contactFormSchema),
     defaultValues: {
-      firstName: "",
-      lastName: "",
+      name: "",
+      email: "",
       phone: "",
       subject: "",
+      source: "",
       message: "",
-      saveInfo: false,
     },
   });
 
-  const saveInfo = watch("saveInfo");
-
-  const onSubmit = async (data) => {
+  async function onSubmit(formData) {
     try {
-      await new Promise((resolve) => setTimeout(resolve, 2000));
+      const response = await fetch(
+        "https://n84j51mp-3001.inc1.devtunnels.ms/v1/queries",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
+
+      if (!response.ok) throw new Error("Failed to submit form");
+
       reset();
       alert("Message sent successfully!");
     } catch (error) {
-      console.error("Submission error:", error);
-      alert("Error sending message. Please try again.");
+      console.error("Error:", error);
+      alert("Something went wrong. Please try again.");
     }
-  };
+  }
 
   return (
     <>
@@ -104,66 +111,51 @@ export default function ContactSection() {
                 Send a Message
               </h3>
 
-              <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
-                {/* First & Last Name */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <form onSubmit={handleSubmit(onSubmit)} className="space-y-6 ">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  {/* Name */}
                   <div>
-                    <label
-                      htmlFor="firstName"
-                      className="block text-sm font-medium text-gray-700 mb-2"
-                    >
-                      First Name *
+                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                      Name *
                     </label>
                     <Input
-                      id="firstName"
-                      {...register("firstName")}
+                      {...register("name")}
                       className={`border-gray-200 focus:border-[var(--color-primary-light)] focus:ring-[var(--color-primary-light)] ${
-                        errors.firstName
-                          ? "border-red-500 focus:ring-red-500"
-                          : ""
+                        errors.name ? "border-red-500 focus:ring-red-500" : ""
                       }`}
                     />
-                    {errors.firstName && (
+                    {errors.name && (
                       <p className="text-sm text-red-600 mt-1">
-                        {errors.firstName.message}
+                        {errors.name.message}
                       </p>
                     )}
                   </div>
-                  <div>
-                    <label
-                      htmlFor="lastName"
-                      className="block text-sm font-medium text-gray-700 mb-2"
-                    >
-                      Last Name *
-                    </label>
-                    <Input
-                      id="lastName"
-                      {...register("lastName")}
-                      className={`border-gray-200 focus:border-[var(--color-primary-light)] focus:ring-[var(--color-primary-light)] ${
-                        errors.lastName
-                          ? "border-red-500 focus:ring-red-500"
-                          : ""
-                      }`}
-                    />
-                    {errors.lastName && (
-                      <p className="text-sm text-red-600 mt-1">
-                        {errors.lastName.message}
-                      </p>
-                    )}
-                  </div>
-                </div>
 
-                {/* Phone & Subject */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {/* Email */}
                   <div>
-                    <label
-                      htmlFor="phone"
-                      className="block text-sm font-medium text-gray-700 mb-2"
-                    >
+                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                      Email *
+                    </label>
+                    <Input
+                      type="email"
+                      {...register("email")}
+                      className={`border-gray-200 focus:border-[var(--color-primary-light)] focus:ring-[var(--color-primary-light)] ${
+                        errors.email ? "border-red-500 focus:ring-red-500" : ""
+                      }`}
+                    />
+                    {errors.email && (
+                      <p className="text-sm text-red-600 mt-1">
+                        {errors.email.message}
+                      </p>
+                    )}
+                  </div>
+
+                  {/* Phone */}
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">
                       Phone *
                     </label>
                     <Input
-                      id="phone"
                       {...register("phone")}
                       className={`border-gray-200 focus:border-[var(--color-primary-light)] focus:ring-[var(--color-primary-light)] ${
                         errors.phone ? "border-red-500 focus:ring-red-500" : ""
@@ -175,15 +167,13 @@ export default function ContactSection() {
                       </p>
                     )}
                   </div>
+
+                  {/* Subject */}
                   <div>
-                    <label
-                      htmlFor="subject"
-                      className="block text-sm font-medium text-gray-700 mb-2"
-                    >
-                      Subject
+                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                      Subject *
                     </label>
                     <Input
-                      id="subject"
                       {...register("subject")}
                       className={`border-gray-200 focus:border-[var(--color-primary-light)] focus:ring-[var(--color-primary-light)] ${
                         errors.subject
@@ -198,17 +188,12 @@ export default function ContactSection() {
                     )}
                   </div>
                 </div>
-
                 {/* Message */}
                 <div>
-                  <label
-                    htmlFor="message"
-                    className="block text-sm font-medium text-gray-700 mb-2"
-                  >
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
                     Message *
                   </label>
                   <Textarea
-                    id="message"
                     {...register("message")}
                     placeholder="Your message..."
                     className={`min-h-[120px] border-gray-200 focus:border-[var(--color-primary-light)] focus:ring-[var(--color-primary-light)] ${
@@ -222,22 +207,7 @@ export default function ContactSection() {
                   )}
                 </div>
 
-                {/* Save Info Checkbox */}
-                <div className="flex items-center space-x-2">
-                  <Checkbox
-                    id="saveInfo"
-                    checked={saveInfo}
-                    onCheckedChange={(checked) =>
-                      setValue("saveInfo", !!checked)
-                    }
-                    className="border-gray-300 data-[state=checked]:bg-[var(--color-primary-light)] data-[state=checked]:border-[var(--color-primary-light)]"
-                  />
-                  <label htmlFor="saveInfo" className="text-sm text-gray-600">
-                    Save my name and phone in this browser for the next time.
-                  </label>
-                </div>
-
-                {/* Submit Button */}
+                {/* Submit */}
                 <button
                   type="submit"
                   disabled={isSubmitting}
@@ -251,15 +221,14 @@ export default function ContactSection() {
           </div>
         </Container>
       </section>
-      <div className="w-full h-[450px] overflow-hidden rounded-lg shadow-lg ">
+
+      <div className="w-full h-[450px] overflow-hidden rounded-lg shadow-lg">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.2417481361026!2d77.29446337428665!3d28.472265391342656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce7ef32e76bb7%3A0xa7a6ee1e11ce522c!2sMac%20Auto%20India%2C%20a%20leading%20manufacturer%20%26%20Supplier%20of%20Electric%20Rickshaws%2C%20E-Loaders%2C%20and%20E-Scooters!5e0!3m2!1sen!2sin!4v1754371138643!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224393.60584039075!2d77.17756708324724!3d28.505131673756303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce7ef32e76bb7%3A0xa7a6ee1e11ce522c!2sMac%20Auto%20India%2C%20a%20leading%20manufacturer%20%26%20Supplier%20of%20Electric%20Rickshaws%2C%20E-Loaders%2C%20and%20E-Scooters!5e0!3m2!1sen!2sin!4v1768193852218!5m2!1sen!2sin"
           width="100%"
           height="100%"
           style={{ border: 0 }}
-          allowFullScreen=""
           loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
     </>
