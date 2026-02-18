@@ -240,14 +240,15 @@ export default function DealerFilterPage() {
                         <div className="flex items-start justify-between">
                           <div className="flex items-start gap-4">
                             {/* Avatar */}
-                            <div
-                              className="w-14 h-14 flex items-center justify-center
+                            <div>
+                              <div
+                                className="w-14 h-14 flex items-center justify-center
                         bg-green-600 text-white text-xl font-semibold
                         rounded-2xl"
-                            >
-                              {dealer.fullname?.charAt(0).toUpperCase()}
+                              >
+                                {dealer.fullname?.charAt(0).toUpperCase()}
+                              </div>
                             </div>
-
                             <div>
                               <h3 className="font-semibold text-lg text-gray-800">
                                 {dealer.fullname}
