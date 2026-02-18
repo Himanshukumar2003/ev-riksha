@@ -28,9 +28,7 @@ export default function DealerFilterPage() {
   useEffect(() => {
     async function fetchDealers() {
       try {
-        const response = await fetch(
-          `${process.env.NEXT_PUBLIC_API}/v1/dealers`
-        );
+        const response = await fetch(`${process.env.NEXT_PUBLIC_API}/dealers`);
         const data = await response.json();
 
         if (data?.status && data?.data?.dealers) {
