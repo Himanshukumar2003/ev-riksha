@@ -16,7 +16,6 @@ export default function Home() {
     <>
       <HeroSection />
       <VehicleCategoryFilter></VehicleCategoryFilter>
-
       <VideoSection></VideoSection>
       <NewsSection />
       <Support></Support>

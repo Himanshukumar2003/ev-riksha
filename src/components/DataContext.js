@@ -9,7 +9,7 @@ export function DataProvider({ children }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("https://api.macautoindia.com/v1/vehicles?status=active")
+    fetch(`${process.env.NEXT_PUBLIC_API}/vehicles?status=active`)
       .then((res) => res.json())
       .then((resData) => {
         setData(resData?.data?.vehicles || []);

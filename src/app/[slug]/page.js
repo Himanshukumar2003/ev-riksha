@@ -10,7 +10,6 @@ import Image from "next/image";
 import Breadcrumb from "@/components/breadcrumb";
 import { data } from "./_data";
 
-// Generate dynamic meta tags based on content
 export async function generateMetadata({ params, searchParams, request }) {
   const { slug } = await params;
   const content = data.find((item) => item.slug === slug);

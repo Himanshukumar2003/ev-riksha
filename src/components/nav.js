@@ -106,6 +106,7 @@ export default function Navbar() {
             >
               MAC Rental
             </Link> */}
+
             <Link
               href="/dealership"
               className={cn(
@@ -179,6 +180,17 @@ export default function Navbar() {
                 )}
               </DropdownMenuContent>
             </DropdownMenu> */}
+
+            <Link
+              href="/dealer-locator"
+              className={cn(
+                buttonVariants({ variant: "outline" }),
+                "rounded-full text-[10px] lg:text-sm border-2 border-white/30 hover:border-white/50 hover:text-white transition-all bg-white/10 backdrop-blur-sm text-white hover:bg-white/20"
+              )}
+            >
+              Dealer Locator
+            </Link>
+
             <span className="text-white gap-2 font-medium hidden lg:flex text-sm items-center md:text-base">
               <BiSupport className="text-xl" />
               Help/support
